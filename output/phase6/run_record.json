@@ -1,0 +1,8 @@
+{
+  "primary_auc_reproduced": 0.752248272380171,
+  "primary_brier_reproduced": 0.05777950123934818,
+  "partnered_definition": "marital code 1 within the primary final cohort",
+  "weighted_fit": "GLM binomial frequency weights; prediction metrics on held-out people are unweighted in row S9",
+  "random_forest": "not run; specification places it after artefact evaluation",
+  "s1d_same_people_as_s1b": true
+}

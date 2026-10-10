@@ -1,0 +1,12 @@
+step,people,households
+KZN sample,15388,3686
+Age missing,0,0
+Age under 60,14071,3532
+Age 60+,1317,1068
+Eligibility FAIL,117,98
+Eligibility UNRESOLVED,187,168
+Eligibility PASS,1013,827
+Outcome unresolved,0,0
+Recipients,946,773
+Non-recipients,67,60
+Final analysis cohort,1013,827

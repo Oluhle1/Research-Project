@@ -1,0 +1,22 @@
+{
+  "people": 1013,
+  "events": 67,
+  "households": 827,
+  "households_with_more_than_one_cohort_member": 182,
+  "mixed_outcome_households": 6,
+  "households_with_any_nonrecipient": 60,
+  "riley": {
+    "events_per_slope": 9.571428571428571,
+    "cox_snell_r2_maximum": 0.3855801063106655,
+    "anticipated_cox_snell_r2_for_the_calculation": 0.05,
+    "target_shrinkage": 0.9,
+    "n_for_that_shrinkage": 1224.6665940732642,
+    "n_to_estimate_outcome_risk_within_0.05": 94.91157546174165,
+    "analysis_n": 1013
+  },
+  "missing_schooling": 3,
+  "missing_welfare": 18,
+  "missing_age": 0,
+  "missing_sex": 0,
+  "missing_settlement": 0
+}

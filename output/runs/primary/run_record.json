@@ -1,0 +1,70 @@
+{
+  "configuration": "primary",
+  "rule_version": "opg-kzn-primary-v1",
+  "model_specification": {
+    "estimator": "unweighted logistic regression",
+    "slopes": [
+      "age_per_10",
+      "sex_female",
+      "school_below",
+      "settle_urban_informal",
+      "settle_traditional_or_rural",
+      "welfare_far"
+    ],
+    "reference_levels": {
+      "sex": "male (code 1)",
+      "schooling": "Grade 7 or above",
+      "settlement": "urban formal; traditional area and rural formal share one contrast",
+      "welfare": "nearer than 5 km"
+    },
+    "validation": "five household-grouped folds, stratified on any non-recipient in the household",
+    "seed": 201415,
+    "bootstrap_draws": 1000
+  },
+  "input_sha256": {
+    "LCS2015PERSONSFINAL.csv": "c5943058840ccd513cf1d9a2a0b7c21b7ca0ebfc81df1372f49e4e5993e61258",
+    "LCS2015HOUSEHOLD.csv": "2d7eb5c668dc5fe5cce98efbb64251b8e7fc833f7a6cb392545cb922c478b17e",
+    "LCS2015PERSONINCOME.csv": "d0c3744d2199f1f1cfd5cc96615af5bcf62c2dd8b8091290b87169dfd3f1c377"
+  },
+  "cohort_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "output_sha256": {
+    "bootstrap_intervals.csv": "a08587c97de84fa3d009d049e466a0d46a12dfdec8603c14b6991c7b8d30d212",
+    "calibration_bins.csv": "3250a2fca02dcec4ef915129f95241d35da317f9c230e5fea038bccc295e3d75",
+    "calibration_plot.png": "180b65f1b20358e298597a12f792862d65e54665706af38088774a72c67b68de",
+    "cohort_flow.csv": "9d7339c19124812abf0a67dfc3646a158a7d01eda78ef9b257f38132071737dd",
+    "cohort_person.csv": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "fold_coefficients.csv": "9bce0780fbcaa5447a41e3aa29ebef320e0c895edb5b81bdcb1d01a5db98d881",
+    "fold_imputers.csv": "de0052da32037ade4c43d1b69b39fff70a57a7224b1b847c25cd097fc5793e68",
+    "fold_support.csv": "7488852d15a6265745000dd1689515b9561e5a09f4a49d4e5f1d9494cb45461c",
+    "metrics.csv": "2f765f7a2e3d03cf6f9e0eee3f3fb3b4c592d0f3ab12134ac7fc60bcfc7ac7a0",
+    "oof_predictions.csv": "721a466c23b28ec2b57b9930ad00643f3d85d4623d6438060d09356b8e55613c",
+    "reason_frequencies.csv": "4369125a0032c75bcfff7fdaa14c8fa82b508484d732f8cb0d1c5a8085223648",
+    "rq1_characteristics.csv": "efdb7e01e75f1dc68dce9e5bd160eb112e1c697e1e8b337b0eaa5f702663fccd",
+    "rq1_estimate.csv": "140b6a20c57c34d524e963b63de81f7e6b1f571f077e75cef4e8840af543231a"
+  },
+  "software": {
+    "python": "3.14.4",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "statsmodels": "0.15.0",
+    "sklearn": "1.9.1"
+  },
+  "results": {
+    "final_cohort": 1013,
+    "nonrecipients": 67,
+    "unweighted_nonreceipt": 0.06614017769002961,
+    "weighted_nonreceipt": 0.07487682625805854,
+    "roc_auc": 0.752248272380171,
+    "brier": 0.05777950123934818
+  },
+  "inspection": {
+    "uqno": "237001150000006101",
+    "personno": "1",
+    "eligibility_status": "PASS",
+    "reason_codes": "FLAG_CAREGIVER_CHILD_GRANT|PASS_PRIMARY",
+    "y": "0",
+    "fold": "5",
+    "held_out_probability": "0.015866350322142498",
+    "rule_version": "opg-kzn-primary-v1"
+  }
+}

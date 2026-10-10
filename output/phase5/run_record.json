@@ -1,0 +1,44 @@
+{
+  "frozen_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "seed": 201415,
+  "bootstrap_draws": 1000,
+  "interval": "95 percent percentile of household resamples of the fixed out-of-fold predictions",
+  "probability_clip_for_logit": 1e-06,
+  "calibration_bins": "five quantile bins of predicted probability; tied boundaries are merged",
+  "reference_levels": {
+    "sex": "male (code 1)",
+    "schooling": "Grade 7 or above",
+    "settlement": "urban formal (code 1); traditional area and rural formal are one contrast",
+    "welfare": "nearer than 5 km"
+  },
+  "stratification": "household labelled positive if any member has Y=1; mixed households observed before the split",
+  "mixed_outcome_households": 6,
+  "bootstrap_invalid": {
+    "auc": 0,
+    "calibration": 0
+  },
+  "feasibility": {
+    "people": 1013,
+    "events": 67,
+    "households": 827,
+    "households_with_more_than_one_cohort_member": 182,
+    "mixed_outcome_households": 6,
+    "households_with_any_nonrecipient": 60,
+    "riley": {
+      "events_per_slope": 11.166666666666666,
+      "cox_snell_r2_maximum": 0.3855801063106655,
+      "anticipated_cox_snell_r2_for_the_calculation": 0.05,
+      "target_shrinkage": 0.9,
+      "n_for_that_shrinkage": 1049.7142234913692,
+      "n_to_estimate_outcome_risk_within_0.05": 94.91157546174165,
+      "analysis_n": 1013
+    },
+    "missing_schooling": 3,
+    "missing_welfare": 18,
+    "missing_age": 0,
+    "missing_sex": 0,
+    "missing_settlement": 0
+  },
+  "sklearn": "1.9.1",
+  "statsmodels": "0.15.0"
+}

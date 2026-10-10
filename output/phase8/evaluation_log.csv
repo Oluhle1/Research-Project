@@ -1,0 +1,27 @@
+case,expects,expected_status,actual_status,expected_y,actual_y,expected_reasons,actual_reasons,passed
+income_equal_to_2014_ceiling,"A widowed adult interviewed in November 2014 with private income of R61,800 passes and is a non-recipient.",PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+income_one_cent_over_2014_ceiling,"Private income of R61,800.01 fails the income rule.",FAIL,FAIL,,,FAIL_INCOME_ABOVE_THRESHOLD,FAIL_INCOME_ABOVE_THRESHOLD,True
+income_one_cent_under_2014_ceiling,"Private income of R61,799.99 passes.",PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+income_equal_to_2015_ceiling,"The April 2015 ceiling of R64,680 passes for an interview in April 2015.",PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+income_one_cent_over_2015_ceiling,"Private income of R64,680.01 fails for an April 2015 interview.",FAIL,FAIL,,,FAIL_INCOME_ABOVE_THRESHOLD,FAIL_INCOME_ABOVE_THRESHOLD,True
+couple_income_equal_to_ceiling,"A married couple whose private incomes sum to R123,600 passes. The single ceiling is not used.",PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+couple_income_one_cent_over_ceiling,"A couple sum of R123,600.01 fails.",FAIL,FAIL,,,FAIL_INCOME_ABOVE_THRESHOLD,FAIL_INCOME_ABOVE_THRESHOLD,True
+married_spouse_not_in_household,A married adult whose spouse is outside the household is unresolved even when the applicant's own income is high.,UNRESOLVED,UNRESOLVED,,,UNRES_SPOUSE_NONRESIDENT,UNRES_SPOUSE_NONRESIDENT,True
+married_spouse_income_missing,A linked spouse with no usable income leaves the couple screen unresolved.,UNRESOLVED,UNRESOLVED,,,UNRES_INCOME_SPOUSE,UNRES_INCOME_SPOUSE,True
+self_spouse_pointer,A spouse pointer that names the applicant is an unresolved relationship.,UNRESOLVED,UNRESOLVED,,,UNRES_SPOUSE_RELATIONSHIP,UNRES_SPOUSE_RELATIONSHIP,True
+own_disability_grant,An own disability grant fails the screen even though income would pass.,FAIL,FAIL,,,FAIL_DISABILITY_GRANT,FAIL_DISABILITY_GRANT,True
+disability_grant_and_missing_spouse,"A known disability-grant exclusion wins over an unresolved spouse, and both reasons are kept.",FAIL,FAIL,,,FAIL_DISABILITY_GRANT|UNRES_SPOUSE_NONRESIDENT,FAIL_DISABILITY_GRANT|UNRES_SPOUSE_NONRESIDENT,True
+war_veterans_grant,An own war-veterans grant fails the primary screen.,FAIL,FAIL,,,FAIL_WAR_VETERAN_GRANT,FAIL_WAR_VETERAN_GRANT,True
+caregiver_child_grant_does_not_set_receipt,A caregiver child grant does not exclude the adult and does not count as OPG receipt.,PASS,PASS,1,1,FLAG_CAREGIVER_CHILD_GRANT|PASS_PRIMARY,FLAG_CAREGIVER_CHILD_GRANT|PASS_PRIMARY,True
+grant_in_aid_with_opg_receipt,Grant-in-aid does not exclude. Consistent OPG receipt stays Y=0.,PASS,PASS,0,0,FLAG_GRANT_IN_AID|PASS_PRIMARY,FLAG_GRANT_IN_AID|PASS_PRIMARY,True
+contradictory_grant_response,An unspecified OPG item after a yes to any grant leaves eligibility passed and the outcome unresolved.,PASS,PASS,,,PASS_PRIMARY|UNRES_GRANT_RESPONSE,PASS_PRIMARY|UNRES_GRANT_RESPONSE,True
+consistent_no_social_grant,"No to any social grant, with the OPG item skipped, is reported non-receipt.",PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+consistent_opg_receipt,Yes to any grant and yes to OPG is Y=0.,PASS,PASS,0,0,PASS_PRIMARY,PASS_PRIMARY,True
+receipt_period_disagreement_keeps_current_label,Current non-receipt stays Y=1 when preceding-year OPG income is positive. The disagreement is only a flag.,PASS,PASS,1,1,FLAG_RECEIPT_PERIOD_DISAGREE|PASS_PRIMARY,PASS_PRIMARY|FLAG_RECEIPT_PERIOD_DISAGREE,True
+absent_income_not_treated_as_zero,"An income schedule that is missing, and not a supported zero, is unresolved.",UNRESOLVED,UNRESOLVED,,,UNRES_INCOME_ABSENT,UNRES_INCOME_ABSENT,True
+supported_zero_income,A completed no-to-all income schedule is a zero and can pass.,PASS,PASS,1,1,PASS_PRIMARY,PASS_PRIMARY,True
+living_together_not_assigned_a_ceiling,Living together stays unresolved on the primary screen.,UNRESOLVED,UNRESOLVED,,,UNRES_PARTNERSHIP_AMBIGUOUS,UNRES_PARTNERSHIP_AMBIGUOUS,True
+forbidden_predictor_is_rejected,A model matrix that includes the outcome or OPG income is rejected. The real matrix contains only the six slopes.,REJECTED,REJECTED,,,y|opg_income_annual,age_per_10|sex_female|school_below|settle_urban_informal|settle_traditional_or_rural|welfare_far,True
+no_to_all_is_a_supported_zero,The income schedule follows the Phase 2 zero rule.,supported_zero,supported_zero,,,,0,True
+source_reported_without_a_row_is_unresolved,The income schedule follows the Phase 2 zero rule.,absent,absent,,,,,True
+run_folder_person_and_flow_trace,"The example person in the run record matches the cohort and prediction files, and the flow counts are 1,013 and 67.",MATCH,MATCH,0,0,FLAG_CAREGIVER_CHILD_GRANT|PASS_PRIMARY,FLAG_CAREGIVER_CHILD_GRANT|PASS_PRIMARY,True

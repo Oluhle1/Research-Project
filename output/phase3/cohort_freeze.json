@@ -1,0 +1,67 @@
+{
+  "rule_version": "opg-kzn-primary-v1",
+  "cohort_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "people": 15388,
+  "flow": [
+    {
+      "step": "KZN sample",
+      "people": 15388,
+      "households": 3686
+    },
+    {
+      "step": "Age missing",
+      "people": 0,
+      "households": 0
+    },
+    {
+      "step": "Age under 60",
+      "people": 14071,
+      "households": 3532
+    },
+    {
+      "step": "Age 60+",
+      "people": 1317,
+      "households": 1068
+    },
+    {
+      "step": "Eligibility FAIL",
+      "people": 117,
+      "households": 98
+    },
+    {
+      "step": "Eligibility UNRESOLVED",
+      "people": 187,
+      "households": 168
+    },
+    {
+      "step": "Eligibility PASS",
+      "people": 1013,
+      "households": 827
+    },
+    {
+      "step": "Outcome unresolved",
+      "people": 0,
+      "households": 0
+    },
+    {
+      "step": "Recipients",
+      "people": 946,
+      "households": 773
+    },
+    {
+      "step": "Non-recipients",
+      "people": 67,
+      "households": 60
+    },
+    {
+      "step": "Final analysis cohort",
+      "people": 1013,
+      "households": 827
+    }
+  ],
+  "threshold_2014_single": "61800",
+  "threshold_2014_couple": "123600",
+  "threshold_2015_single": "64680",
+  "threshold_2015_couple": "129360",
+  "boundary": "private income at or below the threshold passes"
+}

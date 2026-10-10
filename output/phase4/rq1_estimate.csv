@@ -1,0 +1,6 @@
+estimate,numerator,denominator,value,se,ci_low,ci_high,note
+Unweighted non-receipt,67,1013,0.06614017769002961,,,,Non-recipients divided by resolved passes
+Weighted non-receipt,67,1013,0.07487682625805854,,,,sum(person weight x Y) / sum(person weight); Persns_wgt
+PSU-clustered approximation,67,1013,0.07487682625805854,0.012948334413263188,0.049498090808062695,0.10025556170805439,With-replacement linearisation on 345 derived PSUs. Strata were not released. Not a full design-based interval.
+"Outcome bound, unresolved assigned to receipt",67,1013,0.06614017769002961,,,,Unweighted. Unresolved PASS outcomes: 0. Weighted value 0.0748768263
+"Outcome bound, unresolved assigned to non-receipt",67,1013,0.06614017769002961,,,,Unweighted. Unresolved PASS outcomes: 0. Weighted value 0.0748768263

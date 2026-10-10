@@ -1,0 +1,17 @@
+eligibility_status,marital,people,marital_label
+FAIL,1,59,Married
+FAIL,2,2,Living together
+FAIL,3,13,Never married
+FAIL,4,36,Widowed
+FAIL,5,1,Separated
+FAIL,6,6,Divorced
+PASS,1,352,Married
+PASS,3,202,Never married
+PASS,4,454,Widowed
+PASS,6,5,Divorced
+UNRESOLVED,1,105,Married
+UNRESOLVED,2,63,Living together
+UNRESOLVED,3,4,Never married
+UNRESOLVED,4,6,Widowed
+UNRESOLVED,5,8,Separated
+UNRESOLVED,6,1,Divorced

@@ -1,0 +1,69 @@
+{
+  "phase": "5",
+  "status": "complete",
+  "frozen_cohort_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "seed": 201415,
+  "cohort": {
+    "people": 1013,
+    "events": 67,
+    "households": 827
+  },
+  "diagnostic": {
+    "issue": "Original 7-slope specification has quasi/complete separation in fold 4.",
+    "evidence": "Fold-4 training data contain 30 rural-formal observations, 0 events and 30 non-events.",
+    "original_fold_convergence": [
+      {
+        "fold": 1,
+        "converged": true
+      },
+      {
+        "fold": 2,
+        "converged": true
+      },
+      {
+        "fold": 3,
+        "converged": true
+      },
+      {
+        "fold": 4,
+        "converged": false
+      },
+      {
+        "fold": 5,
+        "converged": true
+      }
+    ]
+  },
+  "documented_revision": {
+    "change": "Collapse traditional (4) and rural-formal (5) into one non-urban settlement indicator; urban formal remains reference and urban informal remains separate.",
+    "reason": "Rural-formal had only 31 people overall and zero events in the fold-4 training sample, making its separate coefficient unsupported.",
+    "revised_fold_convergence": [
+      {
+        "fold": 1,
+        "converged": true
+      },
+      {
+        "fold": 2,
+        "converged": true
+      },
+      {
+        "fold": 3,
+        "converged": true
+      },
+      {
+        "fold": 4,
+        "converged": true
+      },
+      {
+        "fold": 5,
+        "converged": true
+      }
+    ]
+  },
+  "complete_case": {
+    "n": 992,
+    "events": 63,
+    "all_folds_converged": true
+  },
+  "bootstrap_draws": 1000
+}

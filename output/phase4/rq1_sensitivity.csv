@@ -1,0 +1,17 @@
+scenario,rule_changed,cohort_size,households,recipients,nonrecipients,unweighted_nonreceipt,weighted_nonreceipt,change_in_cohort,change_in_nonrecipients,unweighted_change_pp,weighted_change_pp,eligibility_fail,eligibility_unresolved,disagreements
+S0,Primary screen,1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S1a,"Every interview uses the 1 April 2014 ceiling (R61,800 / R123,600).",1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S1b,"Every interview uses the 1 April 2015 ceiling (R64,680 / R129,360).",1015,829,946,69,0.06798029556650247,0.07675927300340499,2,2,0.18401178764728549,0.18824467453464472,115,187,
+S1c,"Age 75 or older uses a ceiling R960 higher, from the R20 monthly supplement. Named simplification.",1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S1d,Ceiling is the income at which the formula pays nothing (4 x annual maximum). Income at that point fails.,1015,829,946,69,0.06798029556650247,0.07675927300340499,2,2,0.18401178764728549,0.18824467453464472,115,187,
+S2a,Living together (code 2) is screened on the couple ceiling when a resident partner can be linked.,1072,870,1001,71,0.06623134328358209,0.07416571103539203,59,4,0.009116559355247522,-0.07111152226665085,117,128,
+S2b,Living together (code 2) is screened on the single-person ceiling.,1073,871,1004,69,0.06430568499534017,0.07173304149709268,60,2,-0.1834492694689438,-0.31437847609658565,120,124,
+S2c,Separated (code 5) is screened on the single-person ceiling.,1021,831,954,67,0.06562193927522038,0.07425002277313293,8,0,-0.05182384148092328,-0.06268034849256088,117,179,
+S2d,Living together and separated are both screened on the single-person ceiling.,1081,875,1012,69,0.06382978723404255,0.0711668656104818,68,2,-0.2310390455987063,-0.37099606475767405,120,116,
+S3,Own disability and war-veterans grant recipients are retained.,1032,840,950,82,0.07945736434108527,0.09059285664805743,19,15,1.3317186651055661,1.5716030389998887,93,192,
+S4a,CPI-adjusted income is compared with the nominal statutory ceilings. Price bases differ.,1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S4b,Social-assistance income is kept in the resource proxy.,1007,822,940,67,0.06653426017874876,0.07547069698423962,-6,0,0.03940824887191524,0.05938707261810838,123,187,
+S4c,"Workmen's compensation, UIF and similar funds (COICOP 50333600) are also excluded.",1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S5,"Where current receipt and preceding-year OPG income disagree, use the income record. Primary eligibility screen unchanged.",1013,827,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,0.0
+S6a,Unresolved PASS outcomes assigned to receipt,1013,,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,
+S6b,Unresolved PASS outcomes assigned to non-receipt,1013,,946,67,0.06614017769002961,0.07487682625805854,0,0,0.0,0.0,117,187,

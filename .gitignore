@@ -1,0 +1,4 @@
+# Local environment and bytecode. These are not project source.
+.venv/
+__pycache__/
+*.pyc

@@ -27,6 +27,15 @@ This is a review draft; no institutional submission has been performed.
   a newly conducted review.
 - `expansion_empirical.md`, `empirical_expansion_validation.json`: detailed
   descriptive/performance additions and the 209-value numerical audit.
+- `targeted_revision_plan.md`, `targeted_revision_response.md`: the supplied
+  improvement plan and the evidence-linked response to its five priorities.
+- `claim_source_register.csv`, `claim_source_validation.json`, `verify_claims.py`:
+  claim provenance, saved verification results and a reusable read-only check
+  against the retained outputs. Prior application test runs remain historical
+  evidence; this manuscript check does not refit or rerun the application suite.
+- `primary_source_audit.md`, `primary_source_audit.json`: source-specific checks,
+  local primary-document evidence and recorded remote-access limits. A matching
+  submitted reference is distinguished from independently reading its source.
 
 ## Rebuild
 
@@ -38,6 +47,12 @@ python paper/build_figures.py
 python paper/build_expansion_figures.py
 npm --prefix paper ci
 npm --prefix paper run build
+```
+
+Recheck the numerical claims and regenerate their local evidence register:
+
+```text
+python paper/verify_claims.py --write
 ```
 
 The pinned npm lockfile supplies `docx` 9.6.1. Output paths resolve relative to
@@ -65,8 +80,19 @@ numbered by first appearance. The previous
 220-test application result is cited as existing evidence; editing the paper
 has not rerun or expanded that suite.
 
+The targeted revision strengthens the RQ discussion, links theory to findings,
+explains screen/model sensitivity differences, and distinguishes ranking,
+precision–recall, probability error and calibration. Its 314-row claim register
+passes 209 table comparisons and 100 supporting checks. Three local authentic
+Stats SA documents were read; thirteen external source requests were refused
+by the outbound proxy. Those retrievals supplied no original article or legal
+text, so the response matrix records P5 as partially complete.
+
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has
 not been evaluated, as directed by the user; the Windows owner walkthrough is
 functional evidence. Independent publisher/official-notice verification and the
 institution's ethics determination still require confirmation before submission.
+APRE402 is the final-paper module code confirmed by the user; PRIC401 remains in
+the unchanged original Submission 1. The plan's deadline and other portal
+requirements require confirmation from the actual submission brief.

@@ -1,15 +1,25 @@
 {
-  "checked_at_utc": "2026-10-11T13:08:43.082297+00:00",
+  "checked_at_utc": "2026-10-11T16:57:16.641535+00:00",
   "status": "review draft; eight-page build and evidence checks passed; not submitted",
   "pdf_pages": 8,
   "maximum_pages": 8,
   "page_size": "Letter 612x792 pt",
-  "manuscript_words_whitespace_tokens": 4988,
+  "manuscript_words_whitespace_tokens": 5262,
   "submission1_integration": {
     "original_title_aim_objectives_and_literature_restored": true,
     "original_pdf_unchanged": true,
     "uploaded_pdf_sha256": "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32",
     "review_counts": "attributed to approved proposal; no new review claimed"
+  },
+  "targeted_revision": {
+    "plan": "paper/targeted_revision_plan.md",
+    "response": "paper/targeted_revision_response.md",
+    "text_priorities_p1_to_p4": "completed and independently reviewed",
+    "p5": "available checks completed; original-source and administrative confirmations incomplete",
+    "module_code": "APRE402",
+    "module_basis": "explicit user confirmation in revision conversation",
+    "scientific_tables_and_figures_unchanged": true,
+    "no_model_refit": true
   },
   "build": {
     "node_docx": "9.6.1",
@@ -27,6 +37,14 @@
     "failed": 0,
     "source": "independent final numerical audit against frozen primary, Phase 4 and Phase 6 CSV outputs; no refits",
     "detail": "paper/empirical_expansion_validation.json"
+  },
+  "claim_source_register": {
+    "rows": 314,
+    "supporting_checks": 100,
+    "supporting_passed": 100,
+    "supporting_failed": 0,
+    "detail": "paper/claim_source_validation.json",
+    "scope": "Recalculations, retained-output reads and explicitly labelled historical/documentary checks; not a new application test run"
   },
   "citations": {
     "count": 25,
@@ -60,7 +78,14 @@
     "all_resolved": true,
     "unused_sources_excluded": [],
     "doi_strings_matching_submitted_bibliography": 18,
-    "independent_publisher_and_notice_verification": "incomplete; proxy CONNECT returned HTTP 403"
+    "independent_publisher_and_notice_verification": "incomplete; thirteen source reads failed with proxy CONNECT HTTP 403"
+  },
+  "primary_source_verification": {
+    "local_authentic_stats_sa_documents_read": 3,
+    "remote_attempts": 13,
+    "remote_primary_texts_accessed": 0,
+    "detail": "paper/primary_source_audit.json",
+    "operative_legal_chain": "not independently verified: notices, Annexure A/formula, R100 boundary, couple-resource provisions"
   },
   "tables": 9,
   "figures": 4,
@@ -74,9 +99,10 @@
     "reference_columns_balanced": true,
     "split_reference_entries": false,
     "table_v_note": "clear continuation into the adjacent column",
+    "other_notes": "clear italic note continuations into adjacent columns; no clipping",
     "last_page": "natural partial reference page; no added blank page"
   },
-  "scientific_and_application_files_unchanged_from": "b946cecf6b58f2dcfb50fe5d16eb517c40515623",
+  "scientific_and_application_files_unchanged_from": "3e3dacf5fd2a08acdfdc0c01c6c49f63376aa8e1",
   "existing_application_evidence_not_rerun_for_paper": {
     "automated_tests": 220,
     "native_ui_cli_reference_rows": 15388,
@@ -91,13 +117,15 @@
   },
   "participant_usability": "not conducted; deferred by user; owner Windows walkthrough is functional evidence",
   "remaining_before_submission": [
-    "Independent publisher and historical official-notice verification",
+    "Independent original journal and historical legal-provision verification",
     "Institutional ethics determination confirmation",
+    "Applicable data access/disclosure confirmation",
+    "Official portal requirements and cutoff confirmation",
     "Author review"
   ],
   "sha256": {
-    "paper/manuscript.md": "ea3193617f2acf215f0986a0f6520b224af54a44eaeefe0befcdcdf3c87cb3e9",
-    "paper/manuscript_numbered.md": "df900606b0dada3d8ff35c27b129836836a15e0463b89b129cb4e994c8f4c1f2",
+    "paper/manuscript.md": "a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852",
+    "paper/manuscript_numbered.md": "081f27d46c2251503c0b7d87e4737bdcd908e7f0d5ebf230a905cb8347f72ea8",
     "paper/references.json": "91b00a690fa95faf5eb806e8d35fd28dd6283a6f3e23aca53432d97e3660392e",
     "paper/citation_map.json": "e1485155e9adbfe0939b0da2e5f3f851dda8bca43da807ac04e93c7e6a35b03d",
     "paper/build_ieee.js": "fd3c7329ccc57aa34618e5b860f562a5cd80a044c91a2109eb407927b87dd718",
@@ -105,11 +133,19 @@
     "paper/build_expansion_figures.py": "b7efe1e38a3b5d217a34e0d9baf43896b5e42047d995ab56eb20f6ad95490161",
     "paper/package.json": "4630f82151ac735ecdda799b0bac236ed9714e147322964ff7944ba876bae2cd",
     "paper/package-lock.json": "fcc94104e8f8d2150ac2c6abeba5eb200c44a851ea990201998d4c9475e05b31",
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "7e809446a67741e306d69de73a1beb74b077005ccd800f0411572646a87fbf8d",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "0101c41c5332bc45def6f449ff5d5fbe88e86093adc88dfdf11e710b18548561",
-    "paper/empirical_expansion_validation.json": "fb9874a6d1229c052f819b61d6a37ff484dc67f0c29a6574bb6bee0fb9659a5e",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "ff924ad65fd5b273ed11ccd1b12389e93689caf8bae06683af83067a4c17b508",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "29eb71eb2b00763b1e30582a9b0cd6331d01c2e5732e999ca6f03bcc4b161e7b",
+    "paper/empirical_expansion_validation.json": "fad227d4b4b6b3ad0c7e715113af7d61ae205a5a5e0e53aa6418d60bd8ca8469",
     "paper/submission1_integration_notes.md": "e3208027b795dc01b53483b3bcac965a1a35c3c3f68a1f31ac55108ec4e935eb",
     "paper/expansion_empirical.md": "9728fbe9c50427407b286f258a88fd4b57cb19a791e0ac991465642c696052f6",
+    "paper/discussion.md": "e0c18332faf6766017f8113ec0c5ea24216d86e2e5147a5fec6060a648ee48f3",
+    "paper/targeted_revision_plan.md": "a53d5c2370b5d5b69b16a8c7d56b52b9604751e407cceb52d6329dc79f03f510",
+    "paper/targeted_revision_response.md": "ae04d9b1d3f440054902ef29403a91ab56cd58fb5152a4bb5596205731006213",
+    "paper/claim_source_register.csv": "e84a911e5c501f806f9a3c95d36d35aeef8023fb007e84f3d37add1741abf28b",
+    "paper/claim_source_validation.json": "40aef44b32dfc1d7a1fa45a31cc04261e530594775fc0f14496c893f57b76958",
+    "paper/verify_claims.py": "d7fa40728cf7abe18296b66429f46172a578fd9a4d2f70555a998da6c379ed4c",
+    "paper/primary_source_audit.json": "1698c64c3679726ff4bb97c596742d0221168ae107f9e6ed7be6b78224d18776",
+    "paper/primary_source_audit.md": "ee5360fd6e9619ca166f8ec81465c9a9e5441b10b1e6936fb517a813dc4a699a",
     "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
     "analysis/phase4_rq1.py": "31a34082d006854d68b04aff25d2b3dcefa16f1d37f75eb4ea3429bcf142e8af",
     "analysis/phase5_model.py": "906be25c96bf8571b79cf6cae990daeec19582b69ef8d9f12b4db9badc517ff5",
@@ -128,6 +164,30 @@
     "output/phase4/rq1_sensitivity.csv": "8afb55eea136c9fda61924b10c1463cd8ede0ea530aa6b9010644ecd4b7a9a3d",
     "output/phase6/model_sensitivity.csv": "896d4e6f6f31545dca5b4dc77411b7c612d4958d07fc8498f1d4ea7ab652f979",
     "output/runs/primary/metrics.csv": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5",
-    "output/runs/primary/bootstrap_intervals.csv": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1"
+    "output/runs/primary/bootstrap_intervals.csv": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1",
+    "output/runs/primary/oof_predictions.csv": "50af25b9d440c8539b5d49b00ff141962ec869eec26e7bf147197eec8785d36a",
+    "output/runs/primary/cohort_person.csv": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
+    "output/runs/primary/rq1_estimate.csv": "c6c557ce43716d1572b49fcf0385046118699e82a8fb448d047dcc32bedd3d41",
+    "output/phase5/apparent_coefficients.csv": "18e5fd4f87b7d892c0a5fb1fb57f53094db850edcbdc8e2dffde1f7064bbd7c0",
+    "output/runs/primary/run_record.json": "46c5e7b516c214ab9435038a513f384db45f914d1b830dd1a05126c7139b286e",
+    "output/runs/primary/calibration_plot.png": "180b65f1b20358e298597a12f792862d65e54665706af38088774a72c67b68de",
+    "output/runs/primary/fold_coefficients.csv": "0f57d2ef9cc8f571c2b2e1aefdd0e21dfc60f24213cc7364f7794614ea444af6",
+    "output/runs/primary/fold_imputers.csv": "3c8fb69e58eb043797079458046a07a6efad5a4c256dec8ddfd62660f38a1aff",
+    "output/runs/primary/fold_support.csv": "5ec8f89e55bf151378c3ebb325f16f57effbce40826ddc24fef7319ee14122e9",
+    "output/runs/primary/reason_frequencies.csv": "2a24490593e43cb27dc6cee7effd6afe4089c4d240832928d6bd7c7ce863baa9",
+    "models/manifest.json": "11d73166043ab912127441ec2c0dad0d41738b198a3736e1e229d3ddac54a371",
+    "models/evaluation.json": "58ec9db3335c9757bd8cb5b5abd262fab412dc8184f32c7da29bd6b0f993cae1",
+    "models/logistic_model.json": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+    "output/phase8/evaluation_log.csv": "a312b56036c8476970bb3711b47d0a5ab3e5d4850d739954d0962579a952c344",
+    "docs/validation_summary.json": "1da9c506bc98311f64c3ecd7603580a13eb57d20bd8168e03e83e40fe950d1f4",
+    "docs/local_package_validation.json": "0319ba11386cd5c82c4eba7c3db369698506cd12fbc4aafef2ade018b6d4e7eb",
+    "docs/windows_validation.json": "866224ef46123de6bc98973b3031bb5ad6f5f41df482f1650f935c96229d0158",
+    "examples/synthetic_report/audit_manifest.json": "29356999d69357b509fa87cfbbfd19ce5af25f2db37817156bec04c4a3caf2a9",
+    "examples/synthetic_report/results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/filtered_results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/summary.json": "dfc321b41d397572e41048d8aa270920d7ff8c58e56bc869589bde412aa08e03",
+    "examples/synthetic_report/summary.csv": "db4dfa6a4e6964d5b65661aaf3fd47cd537db2c88d33017522dc60137550a213",
+    "examples/synthetic_report/responsible_use.txt": "5f89684fd7894eb32f42294e1cd68a2f6310da434c6e83eda8795ac2c67a8b59",
+    "specification/phase7_artefact.md": "89d625e5e1af09374b67c793a5f8bf2374676cc4e6b16c8c4d9b6fef4797fb99"
   }
 }

@@ -1,11 +1,11 @@
 # Implementation specification
 
 **Project:** Interpretable prediction of reported Older Person’s Grant non-receipt among apparently eligible adults in KwaZulu-Natal  
-**Student:** Oluhle Jawe (21634436), ICT Honours, PRIC401  
+**Student:** Oluhle Jawe (21634436), ICT Honours; Submission 1 PRIC401, Submission 2 APRE402 (confirmed by the user)
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The Submission 1-integrated review draft passed the final render check for exactly eight pages and independent visual review of all eight pages. Participant usability has not been evaluated; independent publisher/legal-notice verification and ethics confirmation remain outstanding.
+**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The targeted Submission 2 revision passed the eight-page render and independent visual/citation checks; P1–P4 interpretation improvements and the reproducible claim register are complete. P5 remains limited by unavailable original journal/legal texts and unconfirmed institutional/portal records. Participant usability has not been evaluated.
 
 **Created:** 2026-09-25; updated 2026-10-11 (Africa/Johannesburg).
 
@@ -639,3 +639,37 @@ Participant usability remains unperformed by user direction, the random forest
 remains deferred and no new public deployment occurred. Independent publisher
 and legal-notice verification and ethics confirmation remain outstanding.
 The integrated manuscript is a review draft; no external submission is claimed.
+
+## 18. Targeted interpretation and claim verification, 11 October 2026
+
+The user authorised the attached revision plan and confirmed APRE402 as the
+final-paper module identifier. The original PRIC401 Submission 1 remains
+unchanged. D-063 records the new reporting scope. The revised manuscript is
+5,262 words by whitespace splitting and remains eight actual PDF pages,
+including references, with the existing nine tables, four figures and 25 cited
+sources. Body/table/reference fonts remain 10/9/8 pt.
+
+Discussion now defines the RQ1 estimand, prioritises unresolved cases and S3
+versus S2 consequences, compares study scope with earlier literature, and
+separates metric meanings and theory/proxy findings. S7–S11 are interpreted as
+sample, specification, fitting-weight, evaluation-weight and grouping changes.
+RQ3 distinguishes rule cases, repeatability, software-path parity, inference
+serialization, owner functionality and untested participant usability.
+
+`paper/verify_claims.py` is a portable standard-library audit of retained
+evidence. It writes a 314-row `paper/claim_source_register.csv` when invoked
+with `--write`. All 209 table comparisons and 100 supporting checks pass;
+`paper/claim_source_validation.json` records the exact manuscript/source hashes.
+Independent recalculation checks AUC/AP/Brier, weighted prevalence, the derived-
+PSU approximation, fold grouping and coefficient Wald intervals. Historical
+software runs are explicitly saved evidence, not fresh application execution.
+Run-record CSV hashes distinguish original CRLF from retained LF bytes.
+
+`paper/primary_source_audit.json` and its readable companion record three
+authentic local Stats SA PDFs and thirteen blocked remote-source requests.
+The absent journal texts and operative legal provisions remain unverified;
+the 18 DOI matches to the submitted bibliography are only consistency checks.
+Ethics/access/disclosure and final portal requirements require confirmation.
+No participant study, refit, new scientific analysis, deployment, predicted
+grade or external submission is claimed. `paper/targeted_revision_response.md`
+maps all five priorities and fourteen acceptance items to this evidence.

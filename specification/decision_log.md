@@ -71,6 +71,8 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 | D-061 | 2026-10-11 | October plan 6 | Reporting | Revise Submission 2 sources to connect administrative-burden/access concepts to measured predictors and report the implemented local Streamlit architecture and actual functional evidence. Preserve the frozen primary research results and six-slope specification; do not refit for manuscript revision. State 26 historical checks as 22 screening cases + 2 schedule checks + 1 leakage check + 1 run trace; separately report the recorded 220 automated tests, zero mismatches across 15,388 reference records and 50 Windows-report checks. Participant usability is not conducted in this revision by user instruction; no user acceptance claim follows. Final review draft has six Letter pages, five tables, two figures and 23 references numbered by first use; 162 read-only scientific table checks passed. | Uploaded October implementation plan Phase 6, user scope direction, `docs/evidence_log.md`, `docs/validation_summary.json`, `docs/windows_validation.json`, `paper/manuscript_validation.json`, and existing frozen outputs. Functional verification is not participant usability or external predictive validation. | Adopted; six-page review draft built and mechanically checked. Independent reference/official-notice verification and ethics documentation remain outstanding; no external submission |
 | D-062 | 2026-10-11 | Submission 1 integration | Reporting | Following user authorization, integrate the reuploaded Submission 1 into Submission 2 and expand to exactly eight pages. Restore the approved original title, aim, objectives and review approach; attribute earlier proposal/sample context, compare the reviewed literature and explain released-data operationalization. Add weighted descriptive characteristics and performance-uncertainty tables, conceptual-framework and cohort-flow diagrams. Keep the frozen scientific screen, cohort, six-slope model and sensitivities unchanged. Final render passed: exactly eight Letter pages; 4,988 manuscript words, nine tables, four figures, 25 references by first use; 10 pt body, 9 pt tables, 8 pt references; all 209 numerical values independently verified (previous 162 plus 47 new). | Reuploaded Submission 1 equals the repository baseline PDF, SHA-256 `6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`; current manuscript/build sources and `paper/manuscript_validation.json`. This expansion does not rerun the inherited 220-test suite or 50 Windows-report checks. | Adopted; final render/page-count check and independent visual review of all eight pages passed. Participant usability remains unperformed; independent publisher/legal-notice verification and ethics confirmation outstanding; no external submission |
 
+| D-063 | 2026-10-11 | Targeted revision | Reporting | Apply the supplied P1–P5 revision plan by strengthening estimand/literature comparison, theory-to-finding synthesis, metric interpretation and sensitivity arguments. Preserve nine tables, four figures, all frozen scientific outputs and the eight-page limit. Correct the final title to APRE402 after explicit user confirmation. Add a portable claim verifier and 314-row source register: 209 numerical comparisons and 100 supporting checks pass; prior application tests remain historical evidence. | `paper/targeted_revision_plan.md`, `paper/targeted_revision_response.md`, `paper/claim_source_validation.json`, `paper/primary_source_audit.json`, and the final eight-page PDF. Three authentic local Stats SA PDFs were read; thirteen external-source requests failed with proxy CONNECT 403 and supplied no original article/legal text. | Adopted; P1–P4 and available evidence/render checks complete. P5 retains original-source, ethics/access/disclosure and portal-confirmation limits. No grade guarantee, participant study, refit or external submission |
+
 ## Phase close-outs
 
 ### Phase 1 — 2026-09-25
@@ -451,3 +453,37 @@ of the functional evidence.
 **Next step.** Resolve independent source/legal-notice verification and ethics
 confirmation. The integrated paper remains a review
 draft; no external submission has occurred.
+
+### Targeted Submission 2 revision — 2026-10-11
+
+**Completed.** RQ1 now defines the screened/resolved historical estimand and
+explains unresolved exclusion, consequential screen alternatives and qualified
+Ralston/Godfrey scope comparisons. RQ2 separates AUC, AP, Brier and calibration,
+returns to theory/proxy distinctions and evaluates S7–S11 without conflating
+samples, weighted fitting, weighted evaluation or external validation. RQ3
+distinguishes six verification layers and limits the completed evidence to its
+tested conditions. The conclusion answers the same research questions.
+
+**Evidence.** The paper has 5,262 whitespace-delimited words, nine unchanged
+tables, four unchanged figures and 25 first-use references. The revised PDF
+remains eight Letter pages, independently inspected without layout blockers.
+APRE402 was confirmed by the user. The 314-row claim register and reusable
+verifier passed 209 table comparisons plus 100 supporting checks. A deliberately
+altered temporary manuscript was rejected. Existing 220-test, parity and Windows
+results were checked as saved evidence; no application suite or model was rerun.
+
+**Problems and limits.** Thirteen attempted original journal/index/government
+reads failed at the outbound proxy; zero remote primary texts were accessed.
+Three local authentic Stats SA documents support measurement definitions. DOI
+agreement with Submission 1 is a bibliographic consistency check. The operative
+formula/Annexure A, R100 payment boundary and couple-resource chain still require
+original legal verification. The earlier review counts match the proposal, but
+search exports and screening logs are unavailable. Institutional ethics,
+access/disclosure clearance and official portal requirements remain unconfirmed.
+Participant usability is unperformed by the user's scope direction.
+
+**Decision.** D-063 changes interpretation and evidence traceability, without
+changing the approved empirical design or claiming a predicted grade.
+
+**Next step.** Author review and the recorded source/administrative confirmations
+before formal submission. No submission or public deployment was performed.

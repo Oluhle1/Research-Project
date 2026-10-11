@@ -1,0 +1,2376 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-11T16:50:30.304427+00:00",
+  "manuscript_path": "paper/manuscript.md",
+  "manuscript_sha256": "a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852",
+  "numeric_comparisons": 209,
+  "passed": 209,
+  "failed": 0,
+  "tables": {
+    "IV": {
+      "displayed_rows": 7,
+      "numeric_comparisons": 14
+    },
+    "V": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 28
+    },
+    "VI": {
+      "displayed_rows": 9,
+      "numeric_comparisons": 112
+    },
+    "VII": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 19
+    },
+    "VIII": {
+      "displayed_rows": 6,
+      "numeric_comparisons": 36
+    }
+  },
+  "source_sha256": {
+    "output/runs/primary/cohort_flow.csv": "e13d9771f5f1ddcb815c441335e04482fdc3e6e5e851a6d1bb193dec94c9b2b7",
+    "output/runs/primary/rq1_characteristics.csv": "e937d7f50af84cf5f8fd934818742bd1c10b11ca13baeeb349861d5438dd7f77",
+    "output/phase4/rq1_sensitivity.csv": "8afb55eea136c9fda61924b10c1463cd8ede0ea530aa6b9010644ecd4b7a9a3d",
+    "output/phase6/model_sensitivity.csv": "896d4e6f6f31545dca5b4dc77411b7c612d4958d07fc8498f1d4ea7ab652f979",
+    "output/runs/primary/metrics.csv": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5",
+    "output/runs/primary/bootstrap_intervals.csv": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1",
+    "output/runs/primary/oof_predictions.csv": "50af25b9d440c8539b5d49b00ff141962ec869eec26e7bf147197eec8785d36a",
+    "output/runs/primary/cohort_person.csv": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
+    "output/runs/primary/rq1_estimate.csv": "c6c557ce43716d1572b49fcf0385046118699e82a8fb448d047dcc32bedd3d41",
+    "output/runs/primary/calibration_bins.csv": "86e3c65e4145058d0ddea23233e860b2967e20ff4340636c81b7da2a41d4ecf2",
+    "output/phase5/apparent_coefficients.csv": "18e5fd4f87b7d892c0a5fb1fb57f53094db850edcbdc8e2dffde1f7064bbd7c0",
+    "output/runs/primary/run_record.json": "46c5e7b516c214ab9435038a513f384db45f914d1b830dd1a05126c7139b286e",
+    "output/runs/primary/calibration_plot.png": "180b65f1b20358e298597a12f792862d65e54665706af38088774a72c67b68de",
+    "output/runs/primary/fold_coefficients.csv": "0f57d2ef9cc8f571c2b2e1aefdd0e21dfc60f24213cc7364f7794614ea444af6",
+    "output/runs/primary/fold_imputers.csv": "3c8fb69e58eb043797079458046a07a6efad5a4c256dec8ddfd62660f38a1aff",
+    "output/runs/primary/fold_support.csv": "5ec8f89e55bf151378c3ebb325f16f57effbce40826ddc24fef7319ee14122e9",
+    "output/runs/primary/reason_frequencies.csv": "2a24490593e43cb27dc6cee7effd6afe4089c4d240832928d6bd7c7ce863baa9",
+    "models/manifest.json": "11d73166043ab912127441ec2c0dad0d41738b198a3736e1e229d3ddac54a371",
+    "models/evaluation.json": "58ec9db3335c9757bd8cb5b5abd262fab412dc8184f32c7da29bd6b0f993cae1",
+    "models/logistic_model.json": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+    "output/phase8/evaluation_log.csv": "a312b56036c8476970bb3711b47d0a5ab3e5d4850d739954d0962579a952c344",
+    "docs/validation_summary.json": "1da9c506bc98311f64c3ecd7603580a13eb57d20bd8168e03e83e40fe950d1f4",
+    "docs/local_package_validation.json": "0319ba11386cd5c82c4eba7c3db369698506cd12fbc4aafef2ade018b6d4e7eb",
+    "docs/windows_validation.json": "866224ef46123de6bc98973b3031bb5ad6f5f41df482f1650f935c96229d0158",
+    "examples/synthetic_report/audit_manifest.json": "29356999d69357b509fa87cfbbfd19ce5af25f2db37817156bec04c4a3caf2a9",
+    "examples/synthetic_report/results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/filtered_results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/summary.json": "dfc321b41d397572e41048d8aa270920d7ff8c58e56bc869589bde412aa08e03",
+    "examples/synthetic_report/summary.csv": "db4dfa6a4e6964d5b65661aaf3fd47cd537db2c88d33017522dc60137550a213",
+    "examples/synthetic_report/responsible_use.txt": "5f89684fd7894eb32f42294e1cd68a2f6310da434c6e83eda8795ac2c67a8b59",
+    "specification/phase7_artefact.md": "89d625e5e1af09374b67c793a5f8bf2374676cc4e6b16c8c4d9b6fef4797fb99",
+    "21634436_Oluhle_Jawe_Submission_1.pdf": "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32",
+    "paper/primary_source_audit.json": "1698c64c3679726ff4bb97c596742d0221168ae107f9e6ed7be6b78224d18776"
+  },
+  "model_refitted": false,
+  "application_tests_rerun": false,
+  "manuscript_edited": false,
+  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records; primary literature, legal, ethics, portal and review-log confirmation are not supplied by this audit.",
+  "verifier": "paper/verify_claims.py",
+  "verifier_sha256": "d7fa40728cf7abe18296b66429f46172a578fd9a4d2f70555a998da6c379ed4c",
+  "register": "paper/claim_source_register.csv",
+  "register_rows": 314,
+  "supporting_comparisons": 100,
+  "supporting_passed": 100,
+  "supporting_failed": 0,
+  "limitations": [
+    {
+      "claim": "Reported review flow: 511 −136 =375 −222 =153 −98 =55",
+      "source": "21634436_Oluhle_Jawe_Submission_1.pdf; II Literature Review / review selection narrative",
+      "limitation": "Counts are reported in Submission 1 and arithmetically consistent. Database exports, screening log and 55-source extraction log are not archived; not independently reproduced and not 55 OPG-only studies."
+    },
+    {
+      "claim": "DUT ethics approval/exemption status",
+      "source": "No institutional ethics determination in project record",
+      "limitation": "No approval, exemption or consent determination is documented; supervisor/official confirmation remains required."
+    },
+    {
+      "claim": "Historical legal provisions and current release/disclosure permission",
+      "source": "specification/phase3_cohort.md; paper/references.json; original government notices / licence conditions",
+      "limitation": "Research rule values are reproducible; this verifier does not independently authenticate the notices, establish statutory entitlement, or clear historical repository disclosure."
+    },
+    {
+      "claim": "Article claims and operative legal-notice provisions remain incompletely verified",
+      "source": "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md",
+      "limitation": "Separate primary-source audit reports 13 external attempts and 0 remote primary texts accessed (HTTPS proxy 403). 3 authentic local Stats SA documents were read. The 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; they do not authenticate article findings or the operative Annexure/R100/couple-threshold chain."
+    }
+  ],
+  "failures": [],
+  "support_checks": [
+    {
+      "claim": "S0 definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S1b definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S1b",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S1d definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S1d",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S2a definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S2a",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S2b definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S2b",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S2c definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S2c",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S2d definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S2d",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S3 definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S3",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S4b definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S4b",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S1a definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S1a",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S1c definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S1c",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S4a definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S4a",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S4c definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S4c",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S5 definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S5",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S6a definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S6a",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S6b definition and converged folds",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S6b",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Intercept roc_auc is unavailable, not zero",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Intercept average_precision is unavailable, not zero",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Intercept calibration_slope is unavailable, not zero",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S0 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S7 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S8 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S9 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S10 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "S11 saved specification",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; rule_changed",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "1,013 people; 67 events; prevalence 0.06614017769",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Person-weighted prevalence 7.487682626%",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; person_weight, y_n",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "827 households; five folds; no household split across folds",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; uqno, fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "OOF AUC recomputed = 0.75224827238",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; y_n, p_model/p_intercept; output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "OOF AP recomputed = 0.203224143682",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; y_n, p_model/p_intercept; output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "OOF Brier recomputed = 0.0577795012393",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; y_n, p_model/p_intercept; output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "OOF intercept Brier recomputed = 0.0617721098575",
+      "passed": true,
+      "source": "output/runs/primary/oof_predictions.csv; y_n, p_model/p_intercept; output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Absolute Brier reduction = 0.00399260861812 (approximately 0.0040)",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AUC: 0.752",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AP: 0.203",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary Brier: 0.0578",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AUC: 0.752",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AP: 0.203",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary Brier: 0.0578",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AUC: 0.752",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary AP: 0.203",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "primary Brier: 0.0578",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "intercept-only Brier: 0.0618",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=intercept_only_out_of_fold",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "absolute Brier reduction: 0.0040",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "unweighted prevalence: 6.6",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "person-weighted prevalence: 7.5",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; scenario=S0",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "lowest screening sensitivity: 7.1",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "highest screening sensitivity: 9.1",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "unweighted prevalence: 6.61",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "person-weighted prevalence: 7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; scenario=S0",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "unweighted prevalence: 6.6",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "person-weighted prevalence: 7.5",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; scenario=S0",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "lowest screening sensitivity: 7.1",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "highest screening sensitivity: 9.1",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "345 derived PSUs; SE 1.294833441 pp; approximate 95% interval 4.9498–10.0256%",
+      "passed": true,
+      "source": "output/runs/primary/cohort_person.csv; psu, y, person_weight; output/runs/primary/rq1_estimate.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "15,388 KZN rows; 1,317 aged 60+; FAIL 117; unresolved 187; resolved PASS 1,013",
+      "passed": true,
+      "source": "output/runs/primary/cohort_person.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Five calibration bins sum to 1,013 people and 67 events",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Bin 1: 3/206; mean prediction 0.0107280143512",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv; row=1; all fields",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Bin 2: 6/199; mean prediction 0.0180958444",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv; row=2; all fields",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Bin 3: 7/205; mean prediction 0.0343343405437",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv; row=3; all fields",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Bin 4: 16/200; mean prediction 0.0741473226372",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv; row=4; all fields",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Bin 5: 35/203; mean prediction 0.188246703632",
+      "passed": true,
+      "source": "output/runs/primary/calibration_bins.csv; row=5; all fields",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "sex_female full-fit OR and Wald interval = (0.39, 0.23, 0.66)",
+      "passed": true,
+      "source": "output/phase5/apparent_coefficients.csv; term=sex_female; coefficient, std_error",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "school_below full-fit OR and Wald interval = (0.24, 0.13, 0.43)",
+      "passed": true,
+      "source": "output/phase5/apparent_coefficients.csv; term=school_below; coefficient, std_error",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Age/place/office-distance full-fit Wald intervals include 1",
+      "passed": true,
+      "source": "output/phase5/apparent_coefficients.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Five household-grouped folds; seed 201415; 1,000 fixed-prediction bootstrap draws",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; model_specification",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Every retained metric interval has 1,000 valid and zero invalid resamples",
+      "passed": true,
+      "source": "output/runs/primary/bootstrap_intervals.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: bootstrap_intervals.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.bootstrap_intervals.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: calibration_bins.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.calibration_bins.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: calibration_plot.png",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.calibration_plot.png",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: cohort_flow.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.cohort_flow.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: cohort_person.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.cohort_person.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: fold_coefficients.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.fold_coefficients.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: fold_imputers.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.fold_imputers.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: fold_support.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.fold_support.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: metrics.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.metrics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: oof_predictions.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.oof_predictions.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: reason_frequencies.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.reason_frequencies.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: rq1_characteristics.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.rq1_characteristics.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Historical run checksum: rq1_estimate.csv",
+      "passed": true,
+      "source": "output/runs/primary/run_record.json; output_sha256.rq1_estimate.csv",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Rule opg-kzn-primary-v1; model opg-kzn-six-slope-v1; six feature slopes",
+      "passed": true,
+      "source": "models/manifest.json; rule_version, model_version, feature_order",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Model and held-out evaluation checksums match manifest",
+      "passed": true,
+      "source": "models/manifest.json; artifact_sha256, evaluation_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Frozen full-data scoring and pooled household-held-out evaluation have distinct contexts",
+      "passed": true,
+      "source": "models/manifest.json; models/evaluation.json; score_context",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Current evaluation source hash: output/runs/primary/metrics.csv",
+      "passed": true,
+      "source": "models/evaluation.json; provenance.sources",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Current evaluation source hash: output/runs/primary/bootstrap_intervals.csv",
+      "passed": true,
+      "source": "models/evaluation.json; provenance.sources",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Current evaluation source hash: output/runs/primary/calibration_bins.csv",
+      "passed": true,
+      "source": "models/evaluation.json; provenance.sources",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Current evaluation source hash: output/runs/primary/run_record.json",
+      "passed": true,
+      "source": "models/evaluation.json; provenance.sources",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Recorded JSON reload maximum difference 5.551115123125783e-17 over 1,013 rows",
+      "passed": true,
+      "source": "models/manifest.json; verification",
+      "basis": "previously saved evidence"
+    },
+    {
+      "claim": "26 recorded passing checks = 22 synthetic screen + 2 schedule + 1 predictor + 1 trace",
+      "passed": true,
+      "source": "output/phase8/evaluation_log.csv",
+      "basis": "previously saved evidence"
+    },
+    {
+      "claim": "Prior full suite: 220 pass, zero fail/skip, 37.07 s",
+      "passed": true,
+      "source": "docs/local_package_validation.json; tests, passed, failed, skipped, duration_seconds",
+      "basis": "previously saved evidence"
+    },
+    {
+      "claim": "Prior native-UI/CLI parity: 15,388 matched, zero mismatches; 1,013 scores; 18 native tests",
+      "passed": true,
+      "source": "docs/validation_summary.json; reference_parity, native_streamlit_tests",
+      "basis": "previously saved evidence"
+    },
+    {
+      "claim": "Prior owner Windows report audit: 50/50 checks on six files",
+      "passed": true,
+      "source": "docs/windows_validation.json; files_checked, checks, passed, failed",
+      "basis": "previously saved evidence"
+    },
+    {
+      "claim": "Retained synthetic export checksum: results.csv",
+      "passed": true,
+      "source": "examples/synthetic_report/audit_manifest.json; output_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Retained synthetic export checksum: filtered_results.csv",
+      "passed": true,
+      "source": "examples/synthetic_report/audit_manifest.json; output_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Retained synthetic export checksum: summary.json",
+      "passed": true,
+      "source": "examples/synthetic_report/audit_manifest.json; output_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Retained synthetic export checksum: summary.csv",
+      "passed": true,
+      "source": "examples/synthetic_report/audit_manifest.json; output_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Retained synthetic export checksum: responsible_use.txt",
+      "passed": true,
+      "source": "examples/synthetic_report/audit_manifest.json; output_sha256",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Participant usability remains untested",
+      "passed": true,
+      "source": "docs/validation_summary.json; human_usability_tested; manuscript",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Submission 1 source PDF identity",
+      "passed": true,
+      "source": "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "basis": "recomputed/read from frozen output"
+    },
+    {
+      "claim": "Author-confirmed APRE402 module appears with student number 21634436",
+      "passed": true,
+      "source": "Author confirmation in revision conversation; paper/manuscript.md; author/module line",
+      "basis": "previously saved evidence"
+    }
+  ],
+  "numeric_checks": [
+    {
+      "table": "IV",
+      "claim": "KZN sample: people",
+      "displayed": "15388",
+      "expected_rounded": "15388",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=KZN sample; people"
+    },
+    {
+      "table": "IV",
+      "claim": "KZN sample: households",
+      "displayed": "3686",
+      "expected_rounded": "3686",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=KZN sample; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Age 60+: people",
+      "displayed": "1317",
+      "expected_rounded": "1317",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Age 60+; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Age 60+: households",
+      "displayed": "1068",
+      "expected_rounded": "1068",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Age 60+; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Eligibility FAIL: people",
+      "displayed": "117",
+      "expected_rounded": "117",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Eligibility FAIL; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Eligibility FAIL: households",
+      "displayed": "98",
+      "expected_rounded": "98",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Eligibility FAIL; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Eligibility UNRESOLVED: people",
+      "displayed": "187",
+      "expected_rounded": "187",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Eligibility UNRESOLVED; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Eligibility UNRESOLVED: households",
+      "displayed": "168",
+      "expected_rounded": "168",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Eligibility UNRESOLVED; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Final analysis cohort: people",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Final analysis cohort; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Final analysis cohort: households",
+      "displayed": "827",
+      "expected_rounded": "827",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Final analysis cohort; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Recipients: people",
+      "displayed": "946",
+      "expected_rounded": "946",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Recipients; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Recipients: households",
+      "displayed": "773",
+      "expected_rounded": "773",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Recipients; households"
+    },
+    {
+      "table": "IV",
+      "claim": "Non-recipients: people",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Non-recipients; people"
+    },
+    {
+      "table": "IV",
+      "claim": "Non-recipients: households",
+      "displayed": "60",
+      "expected_rounded": "60",
+      "passed": true,
+      "source": "output/runs/primary/cohort_flow.csv; step=Non-recipients; households"
+    },
+    {
+      "table": "V",
+      "claim": "Age in completed years/Mean: Recipients [1]",
+      "displayed": "70.4",
+      "expected_rounded": "70.4",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Age in completed years; level=Mean; group=Recipients; unweighted_mean, weighted_mean"
+    },
+    {
+      "table": "V",
+      "claim": "Age in completed years/Mean: Recipients [2]",
+      "displayed": "69.8",
+      "expected_rounded": "69.8",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Age in completed years; level=Mean; group=Recipients; unweighted_mean, weighted_mean"
+    },
+    {
+      "table": "V",
+      "claim": "Age in completed years/Mean: Non-recipients [1]",
+      "displayed": "67.3",
+      "expected_rounded": "67.3",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Age in completed years; level=Mean; group=Non-recipients; unweighted_mean, weighted_mean"
+    },
+    {
+      "table": "V",
+      "claim": "Age in completed years/Mean: Non-recipients [2]",
+      "displayed": "68.4",
+      "expected_rounded": "68.4",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Age in completed years; level=Mean; group=Non-recipients; unweighted_mean, weighted_mean"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Recipients [1]",
+      "displayed": "686",
+      "expected_rounded": "686",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Recipients [2]",
+      "displayed": "72.5",
+      "expected_rounded": "72.5",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Recipients [3]",
+      "displayed": "70.4",
+      "expected_rounded": "70.4",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Non-recipients [1]",
+      "displayed": "33",
+      "expected_rounded": "33",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Non-recipients [2]",
+      "displayed": "49.3",
+      "expected_rounded": "49.3",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Sex/Female: Non-recipients [3]",
+      "displayed": "53.4",
+      "expected_rounded": "53.4",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Sex; level=Female; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Recipients [1]",
+      "displayed": "290",
+      "expected_rounded": "290",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Recipients [2]",
+      "displayed": "30.7",
+      "expected_rounded": "30.7",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Recipients [3]",
+      "displayed": "33.0",
+      "expected_rounded": "33.0",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Non-recipients [1]",
+      "displayed": "49",
+      "expected_rounded": "49",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Non-recipients [2]",
+      "displayed": "73.1",
+      "expected_rounded": "73.1",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Schooling/Grade 7 or above: Non-recipients [3]",
+      "displayed": "80.8",
+      "expected_rounded": "80.8",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Schooling; level=Grade 7 or above; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Recipients [1]",
+      "displayed": "284",
+      "expected_rounded": "284",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Recipients [2]",
+      "displayed": "30.0",
+      "expected_rounded": "30.0",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Recipients [3]",
+      "displayed": "36.2",
+      "expected_rounded": "36.2",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Non-recipients [1]",
+      "displayed": "38",
+      "expected_rounded": "38",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Non-recipients [2]",
+      "displayed": "56.7",
+      "expected_rounded": "56.7",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Settlement/Urban formal: Non-recipients [3]",
+      "displayed": "66.2",
+      "expected_rounded": "66.2",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Settlement; level=Urban formal; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Recipients [1]",
+      "displayed": "717",
+      "expected_rounded": "717",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Recipients [2]",
+      "displayed": "75.8",
+      "expected_rounded": "75.8",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Recipients [3]",
+      "displayed": "72.0",
+      "expected_rounded": "72.0",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Non-recipients [1]",
+      "displayed": "34",
+      "expected_rounded": "34",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Non-recipients [2]",
+      "displayed": "50.7",
+      "expected_rounded": "50.7",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "V",
+      "claim": "Welfare-office access/At least 5 km or unavailable: Non-recipients [3]",
+      "displayed": "40.3",
+      "expected_rounded": "40.3",
+      "passed": true,
+      "source": "output/runs/primary/rq1_characteristics.csv; variable=Welfare-office access; level=At least 5 km or unavailable; group=Non-recipients; people, unweighted_share*100, weighted_share*100"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S0: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S0; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: N/events [1]",
+      "displayed": "1015",
+      "expected_rounded": "1015",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: N/events [2]",
+      "displayed": "69",
+      "expected_rounded": "69",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: unweighted prevalence",
+      "displayed": "6.80",
+      "expected_rounded": "6.80",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: person-weighted prevalence",
+      "displayed": "7.68",
+      "expected_rounded": "7.68",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: AUC",
+      "displayed": ".763",
+      "expected_rounded": "0.763",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: Brier",
+      "displayed": ".0584",
+      "expected_rounded": "0.0584",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S1b: slope",
+      "displayed": ".875",
+      "expected_rounded": "0.875",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1b; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: N/events [1]",
+      "displayed": "1015",
+      "expected_rounded": "1015",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: N/events [2]",
+      "displayed": "69",
+      "expected_rounded": "69",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: unweighted prevalence",
+      "displayed": "6.80",
+      "expected_rounded": "6.80",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: person-weighted prevalence",
+      "displayed": "7.68",
+      "expected_rounded": "7.68",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: AUC",
+      "displayed": ".763",
+      "expected_rounded": "0.763",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: Brier",
+      "displayed": ".0584",
+      "expected_rounded": "0.0584",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S1d: slope",
+      "displayed": ".875",
+      "expected_rounded": "0.875",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1d; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: N/events [1]",
+      "displayed": "1072",
+      "expected_rounded": "1072",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: N/events [2]",
+      "displayed": "71",
+      "expected_rounded": "71",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: unweighted prevalence",
+      "displayed": "6.62",
+      "expected_rounded": "6.62",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: person-weighted prevalence",
+      "displayed": "7.42",
+      "expected_rounded": "7.42",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: AUC",
+      "displayed": ".749",
+      "expected_rounded": "0.749",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: Brier",
+      "displayed": ".0588",
+      "expected_rounded": "0.0588",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S2a: slope",
+      "displayed": ".779",
+      "expected_rounded": "0.779",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2a; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: N/events [1]",
+      "displayed": "1073",
+      "expected_rounded": "1073",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: N/events [2]",
+      "displayed": "69",
+      "expected_rounded": "69",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: unweighted prevalence",
+      "displayed": "6.43",
+      "expected_rounded": "6.43",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: person-weighted prevalence",
+      "displayed": "7.17",
+      "expected_rounded": "7.17",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: AUC",
+      "displayed": ".756",
+      "expected_rounded": "0.756",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: Brier",
+      "displayed": ".0564",
+      "expected_rounded": "0.0564",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S2b: slope",
+      "displayed": ".841",
+      "expected_rounded": "0.841",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2b; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: N/events [1]",
+      "displayed": "1021",
+      "expected_rounded": "1021",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: unweighted prevalence",
+      "displayed": "6.56",
+      "expected_rounded": "6.56",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: person-weighted prevalence",
+      "displayed": "7.43",
+      "expected_rounded": "7.43",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: AUC",
+      "displayed": ".753",
+      "expected_rounded": "0.753",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: Brier",
+      "displayed": ".0571",
+      "expected_rounded": "0.0571",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S2c: slope",
+      "displayed": ".839",
+      "expected_rounded": "0.839",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2c; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: N/events [1]",
+      "displayed": "1081",
+      "expected_rounded": "1081",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: N/events [2]",
+      "displayed": "69",
+      "expected_rounded": "69",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: unweighted prevalence",
+      "displayed": "6.38",
+      "expected_rounded": "6.38",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: person-weighted prevalence",
+      "displayed": "7.12",
+      "expected_rounded": "7.12",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: AUC",
+      "displayed": ".751",
+      "expected_rounded": "0.751",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: Brier",
+      "displayed": ".0565",
+      "expected_rounded": "0.0565",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S2d: slope",
+      "displayed": ".808",
+      "expected_rounded": "0.808",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S2d; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: N/events [1]",
+      "displayed": "1032",
+      "expected_rounded": "1032",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: N/events [2]",
+      "displayed": "82",
+      "expected_rounded": "82",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: unweighted prevalence",
+      "displayed": "7.95",
+      "expected_rounded": "7.95",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: person-weighted prevalence",
+      "displayed": "9.06",
+      "expected_rounded": "9.06",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: AUC",
+      "displayed": ".736",
+      "expected_rounded": "0.736",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: Brier",
+      "displayed": ".0682",
+      "expected_rounded": "0.0682",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S3: slope",
+      "displayed": ".864",
+      "expected_rounded": "0.864",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S3; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: N/events [1]",
+      "displayed": "1007",
+      "expected_rounded": "1007",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: unweighted prevalence",
+      "displayed": "6.65",
+      "expected_rounded": "6.65",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: person-weighted prevalence",
+      "displayed": "7.55",
+      "expected_rounded": "7.55",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: AUC",
+      "displayed": ".755",
+      "expected_rounded": "0.755",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: Brier",
+      "displayed": ".0576",
+      "expected_rounded": "0.0576",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S4b: slope",
+      "displayed": ".854",
+      "expected_rounded": "0.854",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4b; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S1a: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1a; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S1c: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S1c; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S4a: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4a; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S4c: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S4c; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S5: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S5; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S6a: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6a; slope"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; N/events"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; unweighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: person-weighted prevalence",
+      "displayed": "7.49",
+      "expected_rounded": "7.49",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; person-weighted prevalence"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; AUC"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; Brier"
+    },
+    {
+      "table": "VI",
+      "claim": "S6b: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase4/rq1_sensitivity.csv; output/phase6/model_sensitivity.csv; scenario=S6b; slope"
+    },
+    {
+      "table": "VII",
+      "claim": "roc_auc [1]",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; roc_auc; output/runs/primary/bootstrap_intervals.csv; metric=roc_auc"
+    },
+    {
+      "table": "VII",
+      "claim": "roc_auc [2]",
+      "displayed": ".687",
+      "expected_rounded": "0.687",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; roc_auc; output/runs/primary/bootstrap_intervals.csv; metric=roc_auc"
+    },
+    {
+      "table": "VII",
+      "claim": "roc_auc [3]",
+      "displayed": ".814",
+      "expected_rounded": "0.814",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; roc_auc; output/runs/primary/bootstrap_intervals.csv; metric=roc_auc"
+    },
+    {
+      "table": "VII",
+      "claim": "average_precision [1]",
+      "displayed": ".203",
+      "expected_rounded": "0.203",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; average_precision; output/runs/primary/bootstrap_intervals.csv; metric=average_precision"
+    },
+    {
+      "table": "VII",
+      "claim": "average_precision [2]",
+      "displayed": ".139",
+      "expected_rounded": "0.139",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; average_precision; output/runs/primary/bootstrap_intervals.csv; metric=average_precision"
+    },
+    {
+      "table": "VII",
+      "claim": "average_precision [3]",
+      "displayed": ".292",
+      "expected_rounded": "0.292",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; average_precision; output/runs/primary/bootstrap_intervals.csv; metric=average_precision"
+    },
+    {
+      "table": "VII",
+      "claim": "brier [1]",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier"
+    },
+    {
+      "table": "VII",
+      "claim": "brier [2]",
+      "displayed": ".0448",
+      "expected_rounded": "0.0448",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier"
+    },
+    {
+      "table": "VII",
+      "claim": "brier [3]",
+      "displayed": ".0706",
+      "expected_rounded": "0.0706",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier"
+    },
+    {
+      "table": "VII",
+      "claim": "intercept Brier [1]",
+      "displayed": ".0618",
+      "expected_rounded": "0.0618",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=intercept_only_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier_intercept"
+    },
+    {
+      "table": "VII",
+      "claim": "intercept Brier [2]",
+      "displayed": ".0467",
+      "expected_rounded": "0.0467",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=intercept_only_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier_intercept"
+    },
+    {
+      "table": "VII",
+      "claim": "intercept Brier [3]",
+      "displayed": ".0758",
+      "expected_rounded": "0.0758",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=intercept_only_out_of_fold; brier; output/runs/primary/bootstrap_intervals.csv; metric=brier_intercept"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_in_the_large [1]",
+      "displayed": ".020",
+      "expected_rounded": "0.020",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_in_the_large; output/runs/primary/bootstrap_intervals.csv; metric=citl"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_in_the_large [2]",
+      "displayed": "−.316",
+      "expected_rounded": "-0.316",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_in_the_large; output/runs/primary/bootstrap_intervals.csv; metric=citl"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_in_the_large [3]",
+      "displayed": ".273",
+      "expected_rounded": "0.273",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_in_the_large; output/runs/primary/bootstrap_intervals.csv; metric=citl"
+    },
+    {
+      "table": "VII",
+      "claim": "intercept CITL",
+      "displayed": ".0001",
+      "expected_rounded": "0.0001",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=intercept_only_out_of_fold; calibration_in_the_large"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_slope [1]",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_slope; output/runs/primary/bootstrap_intervals.csv; metric=slope"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_slope [2]",
+      "displayed": ".591",
+      "expected_rounded": "0.591",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_slope; output/runs/primary/bootstrap_intervals.csv; metric=slope"
+    },
+    {
+      "table": "VII",
+      "claim": "calibration_slope [3]",
+      "displayed": "1.133",
+      "expected_rounded": "1.133",
+      "passed": true,
+      "source": "output/runs/primary/metrics.csv; model=logistic_out_of_fold; calibration_slope; output/runs/primary/bootstrap_intervals.csv; metric=slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: AUC",
+      "displayed": ".752",
+      "expected_rounded": "0.752",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S0: slope",
+      "displayed": ".836",
+      "expected_rounded": "0.836",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S0; slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: N/events [1]",
+      "displayed": "992",
+      "expected_rounded": "992",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: N/events [2]",
+      "displayed": "63",
+      "expected_rounded": "63",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: unweighted prevalence",
+      "displayed": "6.35",
+      "expected_rounded": "6.35",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: AUC",
+      "displayed": ".758",
+      "expected_rounded": "0.758",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: Brier",
+      "displayed": ".0556",
+      "expected_rounded": "0.0556",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S7: slope",
+      "displayed": ".819",
+      "expected_rounded": "0.819",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S7; slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: AUC",
+      "displayed": ".755",
+      "expected_rounded": "0.755",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: Brier",
+      "displayed": ".0578",
+      "expected_rounded": "0.0578",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S8: slope",
+      "displayed": ".846",
+      "expected_rounded": "0.846",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S8; slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: AUC",
+      "displayed": ".750",
+      "expected_rounded": "0.750",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: Brier",
+      "displayed": ".0583",
+      "expected_rounded": "0.0583",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S9: slope",
+      "displayed": ".718",
+      "expected_rounded": "0.718",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S9; slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: AUC",
+      "displayed": ".763",
+      "expected_rounded": "0.763",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: Brier",
+      "displayed": ".0641",
+      "expected_rounded": "0.0641",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S10: slope",
+      "displayed": ".935",
+      "expected_rounded": "0.935",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S10; slope"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: N/events [1]",
+      "displayed": "1013",
+      "expected_rounded": "1013",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: N/events [2]",
+      "displayed": "67",
+      "expected_rounded": "67",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; N/events"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: unweighted prevalence",
+      "displayed": "6.61",
+      "expected_rounded": "6.61",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; unweighted prevalence"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: AUC",
+      "displayed": ".758",
+      "expected_rounded": "0.758",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; AUC"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: Brier",
+      "displayed": ".0575",
+      "expected_rounded": "0.0575",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; Brier"
+    },
+    {
+      "table": "VIII",
+      "claim": "S11: slope",
+      "displayed": ".860",
+      "expected_rounded": "0.860",
+      "passed": true,
+      "source": "output/phase6/model_sensitivity.csv; scenario=S11; slope"
+    }
+  ]
+}

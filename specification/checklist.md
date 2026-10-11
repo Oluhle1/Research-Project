@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-062 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-063 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Final rendered `paper/Jawe_OPG_nonreceipt_KZN.pdf`: exactly eight Letter pages; 4,988 manuscript words; two-column layout, 10 pt body, 9 pt tables and 8 pt references; nine tables, four figures and 25 references numbered by first use. `paper/manuscript_validation.json` records current render/mechanical checks, 209 independently verified numerical values and passed independent visual review of all eight pages; publisher/legal-notice verification and ethics confirmation remain outstanding |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Targeted revision: eight Letter pages; 5,262 manuscript words; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 references by first use; APRE402 confirmed by the user. `paper/manuscript_validation.json`, `paper/claim_source_register.csv` and `paper/claim_source_validation.json` bind the revised interpretation to retained evidence. All eight pages passed independent visual review. `paper/targeted_revision_response.md` records P1–P5; original journal/legal-source, ethics/access/disclosure and portal confirmations remain incomplete |
 
 ## Current summary
 
@@ -167,3 +167,11 @@ It has not been externally submitted;
 independent publisher/legal-notice verification and ethics confirmation remain
 outstanding. The earlier six-page draft is a historical stage, not the current
 deliverable.
+
+The targeted revision preserves the scientific model and nine-table/four-figure
+evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
+P1–P4 are addressed in text. P5 is partially addressed through the reproducible
+claim register and three locally read primary Stats SA documents; thirteen
+external source requests failed with proxy CONNECT 403. Source verification,
+participant usability, ethics/access/disclosure and portal requirements must not
+be inferred from software or formatting checks.

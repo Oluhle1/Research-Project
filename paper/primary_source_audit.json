@@ -1,0 +1,848 @@
+{
+  "audit_date": "2026-10-11",
+  "timezone": "Africa/Johannesburg",
+  "created_at": "2026-10-11T18:47:24.204463+02:00",
+  "purpose": "P5 primary-source and citation verification; read-only evidence audit, not a claim that publisher/legal checks passed.",
+  "overall_status": "incomplete_external_sources_blocked",
+  "external_attempts": 13,
+  "external_primary_texts_accessed": 0,
+  "local_authentic_stats_sa_documents_read": 3,
+  "remote_access_limitation": "All 13 HTTPS requests failed before origin access with outbound proxy Tunnel connection failed: 403 Forbidden. No publisher, PMC, Europe PMC, Crossref or government response body was read.",
+  "audited_snapshot": {
+    "paper/manuscript.md": "a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852",
+    "paper/references.json": "91b00a690fa95faf5eb806e8d35fd28dd6283a6f3e23aca53432d97e3660392e",
+    "paper/citation_map.json": "e1485155e9adbfe0939b0da2e5f3f851dda8bca43da807ac04e93c7e6a35b03d",
+    "21634436_Oluhle_Jawe_Submission_1.pdf": "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32"
+  },
+  "source_id_to_published_citation_number": {
+    "1": 5,
+    "2": 3,
+    "3": 21,
+    "4": 22,
+    "5": 23,
+    "6": 4,
+    "7": 1,
+    "8": 2,
+    "9": 6,
+    "10": 7,
+    "11": 11,
+    "12": 13,
+    "13": 8,
+    "14": 9,
+    "15": 10,
+    "16": 14,
+    "17": 15,
+    "18": 12,
+    "19": 17,
+    "20": 16,
+    "21": 18,
+    "22": 19,
+    "23": 20,
+    "24": 24,
+    "25": 25
+  },
+  "citation_order_check": {
+    "passed": true,
+    "reference_count": 25,
+    "unused_source_ids": [],
+    "description": "Current citation map matches first appearance of the 25 stable source IDs, including ranges; this is a mechanical IEEE order check."
+  },
+  "submitted_bibliography_consistency": {
+    "doi_count": 18,
+    "matching_submitted_doi_strings": 18,
+    "checks": [
+      {
+        "source_id": 2,
+        "doi": "10.3390/ijerph13010085",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 6,
+        "doi": "10.1080/0376835X.2016.1231059",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 7,
+        "doi": "10.1080/0376835X.2011.545171",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 8,
+        "doi": "10.1093/wber/lhad037",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 9,
+        "doi": "10.1080/03768350500322925",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 10,
+        "doi": "10.3402/gha.v7.25310",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 11,
+        "doi": "10.1080/00220388.2020.1715942",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 12,
+        "doi": "10.1093/jopart/muu009",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 13,
+        "doi": "10.1016/j.worlddev.2015.03.015",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 14,
+        "doi": "10.1080/17441692.2018.1449231",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 15,
+        "doi": "10.1080/01488376.2025.2502004",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 16,
+        "doi": "10.25159/2708-9355/9052",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 17,
+        "doi": "10.1016/j.procs.2024.05.177",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 19,
+        "doi": "10.1186/s12916-019-1466-7",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 20,
+        "doi": "10.1371/journal.pone.0118432",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 21,
+        "doi": "10.1002/sim.7992",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 22,
+        "doi": "10.1111/ecog.02881",
+        "matches_submission1": true
+      },
+      {
+        "source_id": 23,
+        "doi": "10.7326/M14-0697",
+        "matches_submission1": true
+      }
+    ],
+    "limitation": "Matching the previously submitted bibliography does not verify DOI resolution, complete authors, year, pages, source population, outcome, design or findings."
+  },
+  "source_audits": [
+    {
+      "source_id": 1,
+      "published_citation_number": 5,
+      "reference_as_recorded": "Republic of South Africa, Social Assistance Act 13 of 2004, Government Gazette 26446, Jun. 10, 2004.",
+      "canonical_doi_url": null,
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Legal entitlement involves conditions not fully observed in this survey."
+      ],
+      "access_attempt_keys": [
+        "gov_act"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read the original Act and amendments operative during October 2014–October 2015.",
+        "Verify sections underpinning age, residence/status and grant compatibility.",
+        "Trace resource-assessment, asset/deemed-income/deduction and payment-formula conditions to the correct operative regulations, not the Act alone."
+      ]
+    },
+    {
+      "source_id": 2,
+      "published_citation_number": 3,
+      "reference_as_recorded": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. 85, 2016, doi: 10.3390/ijerph13010085.",
+      "canonical_doi_url": "https://doi.org/10.3390/ijerph13010085",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Age-eligible rural Agincourt adults; person-level pension receipt/non-receipt.",
+        "Setting and age-only eligibility differ from a provincial resource-screened cohort."
+      ],
+      "access_attempt_keys": [
+        "europepmc_ralston",
+        "pmc_ralston_search",
+        "mdpi_ralston"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read Methods to confirm age eligibility, sampling frame, analytical unit, pension outcome and study design.",
+        "Check complete author list, year, volume, article number and DOI against article front matter.",
+        "Do not introduce an N, prevalence or effect comparison before reading the relevant original table."
+      ]
+    },
+    {
+      "source_id": 3,
+      "published_citation_number": 21,
+      "reference_as_recorded": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017.",
+      "canonical_doi_url": null,
+      "priority": false,
+      "primary_source_status": "local_primary_text_read",
+      "local_primary_source_read": true,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": null,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": []
+    },
+    {
+      "source_id": 4,
+      "published_citation_number": 22,
+      "reference_as_recorded": "Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.",
+      "canonical_doi_url": null,
+      "priority": false,
+      "primary_source_status": "local_primary_text_read",
+      "local_primary_source_read": true,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": null,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": []
+    },
+    {
+      "source_id": 5,
+      "published_citation_number": 23,
+      "reference_as_recorded": "Statistics South Africa, Living Conditions Survey 2014/2015: Household Questionnaire.",
+      "canonical_doi_url": null,
+      "priority": false,
+      "primary_source_status": "local_primary_text_read",
+      "local_primary_source_read": true,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": null,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": []
+    },
+    {
+      "source_id": 6,
+      "published_citation_number": 4,
+      "reference_as_recorded": "E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.",
+      "canonical_doi_url": "https://doi.org/10.1080/0376835X.2016.1231059",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Rural/peri-urban Msunduzi, KwaZulu-Natal; age-eligible household-member grant-receipt proportions.",
+        "Household associations cannot be equated with an individual OPG outcome."
+      ],
+      "access_attempt_keys": [
+        "crossref_godfrey",
+        "godfrey_publisher"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read Methods to verify Msunduzi population, rural/peri-urban sampling, household analytical unit and exact old-age/child-grant denominator definitions.",
+        "Verify which programmes and outcomes were modelled, and complete author list, pages 774–789 and DOI.",
+        "No numerical sample size, rate or coefficient is independently confirmed here."
+      ]
+    },
+    {
+      "source_id": 7,
+      "published_citation_number": 1,
+      "reference_as_recorded": "T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.",
+      "canonical_doi_url": "https://doi.org/10.1080/0376835X.2011.545171",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 8,
+      "published_citation_number": 2,
+      "reference_as_recorded": "M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.",
+      "canonical_doi_url": "https://doi.org/10.1093/wber/lhad037",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 9,
+      "published_citation_number": 6,
+      "reference_as_recorded": "A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.",
+      "canonical_doi_url": "https://doi.org/10.1080/03768350500322925",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 10,
+      "published_citation_number": 7,
+      "reference_as_recorded": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. 25310, 2014, doi: 10.3402/gha.v7.25310.",
+      "canonical_doi_url": "https://doi.org/10.3402/gha.v7.25310",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 11,
+      "published_citation_number": 11,
+      "reference_as_recorded": "J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.",
+      "canonical_doi_url": "https://doi.org/10.1080/00220388.2020.1715942",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 12,
+      "published_citation_number": 13,
+      "reference_as_recorded": "D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.",
+      "canonical_doi_url": "https://doi.org/10.1093/jopart/muu009",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Administrative burden comprises learning, compliance and psychological costs.",
+        "These concepts motivate proxies, rather than establish measured mechanisms in LCS."
+      ],
+      "access_attempt_keys": [
+        "oxford_moynihan"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read the original theory article to verify definitions and scope.",
+        "Check front matter against 2015, volume 25(1), pages 43–69 and DOI."
+      ]
+    },
+    {
+      "source_id": 13,
+      "published_citation_number": 8,
+      "reference_as_recorded": "C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.",
+      "canonical_doi_url": "https://doi.org/10.1016/j.worlddev.2015.03.015",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 14,
+      "published_citation_number": 9,
+      "reference_as_recorded": "A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.",
+      "canonical_doi_url": "https://doi.org/10.1080/17441692.2018.1449231",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 15,
+      "published_citation_number": 10,
+      "reference_as_recorded": "T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.",
+      "canonical_doi_url": "https://doi.org/10.1080/01488376.2025.2502004",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 16,
+      "published_citation_number": 14,
+      "reference_as_recorded": "S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. 9052, 2022, doi: 10.25159/2708-9355/9052.",
+      "canonical_doi_url": "https://doi.org/10.25159/2708-9355/9052",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 17,
+      "published_citation_number": 15,
+      "reference_as_recorded": "A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.",
+      "canonical_doi_url": "https://doi.org/10.1016/j.procs.2024.05.177",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 18,
+      "published_citation_number": 12,
+      "reference_as_recorded": "M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.",
+      "canonical_doi_url": null,
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 19,
+      "published_citation_number": 17,
+      "reference_as_recorded": "B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. 230, 2019, doi: 10.1186/s12916-019-1466-7.",
+      "canonical_doi_url": "https://doi.org/10.1186/s12916-019-1466-7",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Calibration concerns agreement between predicted probabilities and outcomes.",
+        "It must be assessed separately from discrimination."
+      ],
+      "access_attempt_keys": [
+        "bmc_vancalster"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read original definitions of calibration-in-the-large and slope.",
+        "Confirm that any calibration-intercept convention used locally is stated correctly; this citation does not itself validate the project code.",
+        "Verify complete author list, 2019, BMC Medicine 17:230 and DOI."
+      ]
+    },
+    {
+      "source_id": 20,
+      "published_citation_number": 16,
+      "reference_as_recorded": "T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. e0118432, 2015, doi: 10.1371/journal.pone.0118432.",
+      "canonical_doi_url": "https://doi.org/10.1371/journal.pone.0118432",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Precision–recall measures add information in imbalanced classification; ROC alone is insufficient."
+      ],
+      "access_attempt_keys": [
+        "plos_saito"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read original text to verify the scope of ROC/PR comparison and the relationship to average precision.",
+        "Avoid equating AP with precision at an operational threshold.",
+        "Verify article e0118432, 2015 and DOI."
+      ]
+    },
+    {
+      "source_id": 21,
+      "published_citation_number": 18,
+      "reference_as_recorded": "R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.",
+      "canonical_doi_url": "https://doi.org/10.1002/sim.7992",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Small event counts constrain development and interpretation of a multivariable prediction model."
+      ],
+      "access_attempt_keys": [
+        "riley_publisher"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read the binary/time-to-event sample-size paper and distinguish its formal criteria from a generic events-per-variable rule.",
+        "Do not claim that 67 events and six slopes meet its formal minimum sample-size criteria without an actual calculation.",
+        "Verify PART II title, 2019, volume 38(7), pages 1276–1296 and DOI."
+      ]
+    },
+    {
+      "source_id": 22,
+      "published_citation_number": 19,
+      "reference_as_recorded": "D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.",
+      "canonical_doi_url": "https://doi.org/10.1111/ecog.02881",
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Dependence structures motivate grouped internal validation.",
+        "Household grouping is a project-specific application of a broader cross-validation principle."
+      ],
+      "access_attempt_keys": [
+        "ecography_roberts"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Read original review to confirm hierarchical-dependence recommendations.",
+        "Do not imply that the source specifically tested this LCS household model or that grouped folds establish external validity.",
+        "Verify 2017, volume 40(8), pages 913–929 and DOI."
+      ]
+    },
+    {
+      "source_id": 23,
+      "published_citation_number": 20,
+      "reference_as_recorded": "G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.",
+      "canonical_doi_url": "https://doi.org/10.7326/M14-0697",
+      "priority": false,
+      "primary_source_status": "not_independently_checked",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [],
+      "access_attempt_keys": [],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Submitted Submission 1 bibliography (a secondary consistency check, not independent publisher verification)",
+      "next_checks": [
+        "Open and read the authentic source before treating its bibliographic or substantive claims as independently verified."
+      ]
+    },
+    {
+      "source_id": 24,
+      "published_citation_number": 24,
+      "reference_as_recorded": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.",
+      "canonical_doi_url": null,
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Recorded maximum OPG rate R1,350/month from April 2014.",
+        "Manuscript uses formula-derived annual resource ceilings R61,800 single / R123,600 couple."
+      ],
+      "access_attempt_keys": [
+        "gov_2014"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Existing project specification/decision log; original notice not read",
+      "next_checks": [
+        "Obtain the authentic notice from Government Printing Works or the government portal and confirm notice number, date, effective date and the applicable maximum rate.",
+        "The attempted PDF URL is a candidate official endpoint; its existence was not established because the proxy refused the connection.",
+        "Separately obtain the operative Annexure A formula and R100 minimum-payment provision; verify that the rate and formula apply to the selected group."
+      ]
+    },
+    {
+      "source_id": 25,
+      "published_citation_number": 25,
+      "reference_as_recorded": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.",
+      "canonical_doi_url": null,
+      "priority": true,
+      "primary_source_status": "blocked_external_access",
+      "local_primary_source_read": false,
+      "manuscript_claims_to_verify": [
+        "Recorded maximum OPG rate R1,410/month from April 2015.",
+        "Manuscript uses formula-derived annual resource ceilings R64,680 single / R129,360 couple."
+      ],
+      "access_attempt_keys": [
+        "gov_2015"
+      ],
+      "independently_confirmed_study_population_outcome_design": false,
+      "metadata_source": "Existing project specification/decision log; original notice not read",
+      "next_checks": [
+        "Obtain the authentic notice and confirm notice number, date, effective date, applicable rate and any published income limits.",
+        "The attempted PDF URL is a candidate official endpoint; its existence was not established because the proxy refused the connection.",
+        "Verify the operative formula, R100 payment boundary and couple-resource treatment from original regulations/annexure."
+      ]
+    }
+  ],
+  "local_primary_documents": [
+    {
+      "source_id": 3,
+      "published_citation_number": 21,
+      "path": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+      "sha256": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
+      "verified_claims": [
+        {
+          "pdf_page": 2,
+          "claim": "Statistical Release P0310, Pretoria: Statistics South Africa, 2017.",
+          "evidence": "Front matter identifies the metadata report, year and ISBN."
+        },
+        {
+          "pdf_page": 4,
+          "claim": "The household frame excludes old-age homes and other specified institutions.",
+          "evidence": "Sample Coverage explicitly lists old-age homes, hospitals, prisons and other exclusions."
+        },
+        {
+          "pdf_page": 8,
+          "claim": "Age and sex hot-deck imputation occurred before data release.",
+          "evidence": "Metadata reports age 0.2%, sex 0.4%, population group 0.2% imputed."
+        },
+        {
+          "pdf_page": 22,
+          "claim": "Survey person/household keys encode PSU, dwelling and household components.",
+          "evidence": "UQNO description explains 11-digit PSU, 5-digit dwelling and 2-digit household components."
+        },
+        {
+          "pdf_page": 2,
+          "claim": "Acknowledgement and attribution of own processing are required for use of the publication.",
+          "evidence": "Copyright/use paragraph allows applying the information with Stats SA attribution and identification of own processing."
+        }
+      ],
+      "not_established": [
+        "The publication-use paragraph alone does not determine all raw microdata redistribution or small-cell disclosure requirements.",
+        "Whether particular released records contain unflagged demographic imputations requires the released variables/data dictionary, not the aggregate imputation percentages alone."
+      ]
+    },
+    {
+      "source_id": 5,
+      "published_citation_number": 23,
+      "path": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+      "sha256": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
+      "verified_claims": [
+        {
+          "pdf_page": 25,
+          "printed_page": 24,
+          "claim": "Q4.1a asks whether each member receives any social grant; no/don’t-know responses skip Q4.1b.",
+          "evidence": "Q4.1a yes/no/don’t know and Go to Q4.2a directions."
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 24,
+          "claim": "Q4.1b separates old-age, disability, caregiver-linked child grants, war-veterans and grant-in-aid.",
+          "evidence": "Grant-list codes 1–7; child grants are linked to caregiver."
+        },
+        {
+          "pdf_page": 35,
+          "printed_page": 34,
+          "claim": "Q5.31 records dwelling-to-nearest welfare-office distance categories, not an OPG application journey.",
+          "evidence": "Destination 12 and distance categories below 500m through 20km+, unavailable and don’t know."
+        }
+      ],
+      "not_established": [
+        "The questionnaire alone does not demonstrate correct implementation of recoding, structural skips or contradictory-answer rules; those need code/output evidence.",
+        "Office proximity cannot establish application visits, time, travel spend or experienced compliance costs."
+      ]
+    },
+    {
+      "source_id": 4,
+      "published_citation_number": 22,
+      "path": "Dataset/metadata/Living Conditions Survey Coicopcodes.pdf",
+      "sha256": "83094d071aefde1901ddf7cd1be0942f493cda2f5810eb518f14480fa3f8c1ed",
+      "verified_claims": [
+        {
+          "pdf_page": 18,
+          "claim": "50331000 denotes old-age grant; 50332000 disability; 50332100 child support; 50333100 care dependency; 50333200 foster care; 50333300 grant-in-aid; 50333400 war veterans.",
+          "evidence": "Released income code list."
+        }
+      ],
+      "not_established": [
+        "Correct code-list descriptions do not independently validate the project’s income inclusion/exclusion, annualisation or no-income-schedule conventions."
+      ]
+    }
+  ],
+  "historical_threshold_arithmetic_only": [
+    {
+      "year": 2014,
+      "recorded_monthly_maximum_rand": 1350,
+      "assumed_formula": "D = 1.6A - 0.4B (A and D annualised)",
+      "assumed_minimum_monthly_grant_rand": 100,
+      "derived_single_annual_resource_ceiling_rand": 61800.0,
+      "recorded_single_ceiling_rand": 61800,
+      "recorded_couple_ceiling_rand": 123600,
+      "arithmetic_agrees": true,
+      "legal_source_verified": false
+    },
+    {
+      "year": 2015,
+      "recorded_monthly_maximum_rand": 1410,
+      "assumed_formula": "D = 1.6A - 0.4B (A and D annualised)",
+      "assumed_minimum_monthly_grant_rand": 100,
+      "derived_single_annual_resource_ceiling_rand": 64680.0,
+      "recorded_single_ceiling_rand": 64680,
+      "recorded_couple_ceiling_rand": 129360,
+      "arithmetic_agrees": true,
+      "legal_source_verified": false
+    }
+  ],
+  "external_access_log": [
+    {
+      "key": "europepmc_ralston",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.3390/ijerph13010085&format=json",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "pmc_ralston_search",
+      "url": "https://pmc.ncbi.nlm.nih.gov/?term=10.3390%2Fijerph13010085",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "mdpi_ralston",
+      "url": "https://www.mdpi.com/1660-4601/13/1/85",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "crossref_godfrey",
+      "url": "https://api.crossref.org/works/10.1080/0376835X.2016.1231059",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "plos_saito",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "gov_2014",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/37474rg10165gon211.pdf",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "gov_2015",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201503/38647gon277.pdf",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "bmc_vancalster",
+      "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1466-7",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "ecography_roberts",
+      "url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "oxford_moynihan",
+      "url": "https://academic.oup.com/jpart/article/25/1/43/885957",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "gov_act",
+      "url": "https://www.gov.za/documents/social-assistance-act",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "godfrey_publisher",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0376835X.2016.1231059",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    },
+    {
+      "key": "riley_publisher",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/sim.7992",
+      "accessed_at": "2026-10-11",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_http_status": null,
+      "proxy_tunnel_http_status": 403,
+      "primary_content_read": false
+    }
+  ],
+  "confirmed_factual_citation_errors": [],
+  "citation_error_conclusion": "No factual primary-source citation error could be confirmed from remote texts because no remote text was accessible; this does not certify the entries as correct.",
+  "completion_requirements": [
+    "Read the 10 prioritised original sources and check their metadata and substantive claim scope.",
+    "Verify the operative 2014–2015 legal notices AND formula/minimum-payment/couple treatment regulations/annexure.",
+    "Retain the distinction between primary verification and consistency with Submission 1.",
+    "Obtain recorded DUT ethics determination and check raw-data access/disclosure terms through official records; no approval, exemption, consent or release permission is inferred here."
+  ]
+}

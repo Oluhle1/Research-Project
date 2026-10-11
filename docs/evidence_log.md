@@ -284,3 +284,38 @@ verification and ethics confirmation remain outstanding. The random forest
 remains deferred and no new public deployment occurred. No external submission
 is claimed. The prior six-page, five-table, two-figure, 23-reference stage is
 preserved above as a historical record.
+
+## Targeted Submission 2 revision — 11 October 2026
+
+Completed: P1–P4 of the supplied improvement plan, with deeper RQ discussion,
+theory/proxy/findings synthesis, distinct predictive-metric interpretation and
+screen/model sensitivity implications. APRE402 is confirmed by the user and
+shown on the new title block. The approved original PDF remains unchanged.
+
+Evidence: the final revised paper is eight Letter pages, 5,262 words, nine
+tables, four figures and 25 first-use references. Root and an independent
+reviewer inspected all eight fresh pages and found no layout blocker. The
+314-row claim register and portable `paper/verify_claims.py` pass 209 numerical
+table comparisons and 100 supporting checks. The verifier detects an altered
+cohort count and abstract metric in a temporary copy. All scientific,
+application/model, test, tool and dataset files remain unchanged from `3e3dacf`.
+The previous 220 application tests, 15,388-record parity and 50 Windows checks
+were verified as retained records, not re-executed.
+
+Source checks: three authentic local Stats SA documents were read with page-
+level evidence; thirteen publisher/index/government requests returned proxy
+CONNECT 403 before original content was accessible. Eighteen DOI strings match
+Submission 1, which does not authenticate the publications. Original journal
+and historical legal verification remains incomplete, including the operative
+formula/Annexure A, R100 minimum-payment and couple-resource provisions.
+
+Decision: D-063. Improve interpretation and claim traceability within the frozen
+study, while preserving participant-usability and external-validity limits.
+`paper/targeted_revision_response.md` records P5 as partial. Ethics/access/
+disclosure and official portal confirmation remain outstanding. No grade,
+external submission or public deployment is claimed.
+
+Final manuscript SHA-256:
+`a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852`.
+Final PDF SHA-256:
+`29eb71eb2b00763b1e30582a9b0cd6331d01c2e5732e999ca6f03bcc4b161e7b`.

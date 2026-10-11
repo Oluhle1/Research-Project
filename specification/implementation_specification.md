@@ -3,12 +3,15 @@
 **Project:** Interpretable prediction of reported Older Person’s Grant non-receipt among apparently eligible adults in KwaZulu-Natal  
 **Student:** Oluhle Jawe (21634436), ICT Honours, PRIC401  
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
-**This document:** Phase 1 specification for Submission 2. It restates the approved design so later phases can implement it. It does not report results.  
-**Specification status:** Phase 1 only. Every analytical component below is **Proposed**. None is Implemented or Verified.  
-**Date:** 2026-09-25  
-**Rule version:** not yet assigned. The primary screen stays unfrozen until the open parameters in Section 12 are resolved and logged.
+**This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-Submission 2 (`Agent.md`) asks for a completed empirical study written up as an IEEE conference paper of at most 8 pages. The paper is written only after the analysis exists. This phase does not rewrite Submission 1 and does not fit a model.
+**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The revised six-page manuscript review draft is built and checked. Participant usability has not been evaluated; independent source verification and ethics documentation remain outstanding.
+
+**Created:** 2026-09-25; updated 2026-10-11 (Africa/Johannesburg).
+
+**Rule version:** `opg-kzn-primary-v1`. Retained research model: six slopes under D-052; packaged inference version `opg-kzn-six-slope-v1`.
+
+Submission 2 (`Agent.md`) asks for a completed empirical study written up as an IEEE conference paper of at most 8 pages. The original empirical outputs exist; the October revision adds conceptual framing and actual computational-artefact evaluation evidence. It does not rewrite Submission 1, change the frozen research results or refit the scientific model.
 
 ---
 
@@ -377,16 +380,48 @@ Descriptive analysis          Predictive analysis
 | Run record | Input-file checksums, variable mapping version, software versions, random seed, rule version, model specification, fold membership |
 | Inspectability | A researcher can read, for a person, the status and reasons, and can read the active rule version and the held-out predicted probabilities |
 
-### 9.2 Secondary, deferred
+### 9.2 October secondary implementation and remaining limits
 
-These may be reduced or dropped if time is short. They are not started before the MVP and its evaluation.
+The original CLI MVP was reproduced before adding the Streamlit interface.
+The local interface is now implemented in `app/Home.py`, backed by schema,
+screening, feature, inference, reporting and workflow modules in `opg_core/`.
+It accepts only the versioned normalized person CSV contract (`opg-screen-v1`),
+including required grant fields and spouse context. Uploading arbitrary survey
+columns, uploading the three raw tables through the interface, and reconstructing
+the screen from a pre-screened cohort alone are outside this MVP.
 
-- Streamlit research review interface (scenario selection, aggregate counts, comparison of estimates, performance display, export).
-- Interface task evaluation (find an exclusion reason, name the active scenario, interpret a calibration display).
-- Extended reproducibility automation beyond the command-line run record.
-- Exploratory random forest (Section 8).
+The five sections show study context, upload validation, primary historical
+screening and receipt summaries, frozen model scores and separate aggregate
+held-out research evidence, and CSV/JSON/ZIP exports. Interactive filters apply
+to displayed/exported rows; summary rates retain the full resolved-pass
+denominator. The app does not provide alternative-scenario selection or rerun
+the modelling sensitivities. Those remain documented research outputs.
 
-Public examples use synthetic records. Survey microdata stay under the data-use conditions. Person-level records, household identifiers, and predictions stay in controlled storage. The interface, if it is built later, does not issue eligibility decisions.
+The frozen JSON inference package contains coefficients and fitted full-cohort
+preprocessing, with schema, rule/model versions and source checksums. Uploads
+never fit a model. Full-data fitted app scores are distinct from the saved
+household-held-out evaluation. Reload scores match the same fitted in-memory
+model for all 1,013 records within `5.551115123125783e-17`.
+
+Extended functional tests, full-reference UI/CLI comparisons, repeatability
+and exported checksums are implemented. The recorded suite passed 220 tests;
+all 15,388 reference records match, with zero mismatches. A user Windows
+synthetic walkthrough and six supplied export files passed 50 cross-file,
+reference and checksum checks. These support correctness and local operation;
+they do not measure unaided task completion or establish user acceptance.
+
+Participant interface evaluation remains Proposed. The protocol is
+`docs/usability_protocol.md`; the user excluded conducting the study from this
+revision. No participant timings, task-error counts, ease ratings or acceptance
+claim are reported. The exploratory random forest also remains deferred.
+
+Public examples are synthetic. Displays/exports omit supplied identifiers,
+household pointers and raw income; uploads remain in session memory. The
+standalone local package excludes raw survey data, historical outputs and Git
+history. The repository already contains historical respondent-level data, so
+the whole repository must not be described as an approved public demo package.
+Local deployment is documented in `docs/deployment.md`; no public site exists.
+The interface does not issue eligibility decisions.
 
 ### 9.3 RQ3 tests
 
@@ -412,7 +447,13 @@ The program running is not the evaluation. Each test has an expected result writ
 | Leakage | Model matrix build fails when a forbidden column is supplied |
 | Repeat run | Same configuration produces the same cohort membership, reason codes, fold ids, and numeric outputs within the logged tolerance |
 
-The numerical tolerance is an open implementation setting. Proposed value, to be logged at implementation: exact match for statuses, reason codes, and fold ids; absolute difference below 1e-10 for probabilities and metric components that are deterministic given the seed.
+The adopted repeat-run comparison is exact for statuses, reason codes and fold
+ids, with `1e-10` absolute tolerance for deterministic probabilities and metric
+components. The historical evaluation contains 26 checks: 22 synthetic screening
+cases, two threshold-schedule checks, one structural leakage check and one run
+trace. These are not 26 synthetic screening cases. The 220-test application
+suite and 50 Windows-export checks are additional evidence with separate scopes;
+none is a participant usability study.
 
 ## 10. What this study will not add
 
@@ -445,9 +486,15 @@ These are already accepted in Submission 1. Empirical work does not remove them.
 - Reporting follows the survey’s disclosure practice. Public examples are synthetic.
 - The project follows the survey access conditions and the DUT ethics determination required for this research. Ethics status is an administrative fact to record; it is not a modelling choice.
 
-## 12. Open parameters
+## 12. Original open parameters and recorded resolution
 
-Submission 1 requires these to be finalised against the questionnaire, the release, and the official provisions for the survey period. Phase 1 does not invent values. The table is the Phase 1 list. Phase 2 closed the data items G4–G16. Phase 3 closed G1, G2, G3, and G7 in decisions D-033 to D-039 and froze the cohort. G17–G22 remain open for the model.
+Submission 1 required these to be finalised against the questionnaire, the
+release and official provisions. The table retains the original Phase 1 gap
+list; its reasons are historical, not current blockers. Phase 2 closed the data
+items G4–G16. Phase 3 closed G1–G3 and G7 and froze the cohort. Phase 5 closed
+G17–G22 in D-049–D-051. None of these modelling settings is currently open.
+Absent stratum information remains a documented limitation, not an invented
+variable. Current implementation status is recorded in the checklist.
 
 | ID | Parameter | Why it is open | Blocks |
 | --- | --- | --- | --- |
@@ -474,19 +521,30 @@ Submission 1 requires these to be finalised against the questionnaire, the relea
 | G21 | Numeric tolerance for the repeat-run test | Proposed: exact for discrete outputs; 1e-10 absolute for deterministic floats | RQ3 |
 | G22 | Mode-imputation tie break | Proposed: smallest code, codes sorted as text | Model |
 
-Official threshold amounts are looked up in Phase 3 from the statutory instrument in force for the survey period, then logged. They are not copied in from memory in Phase 1.
+Official threshold amounts were resolved in Phase 3 from the instruments in
+force for the survey period and logged in D-033–D-035.
 
 ## 13. Traceability matrix
 
-Result cells were filled from Phase 9. Discussion cells were filled from Phase 10. Conclusion cells were filled from the Phase 11 paper.
+Result cells were initially filled from study Phase 9, discussion cells from
+Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
+includes the October implementation evidence and the explicit untested-usability
+limit. The revised six-page manuscript build and mechanical citation/layout
+checks are recorded in `paper/manuscript_validation.json`; independent
+bibliographic and official-notice verification are not claimed complete.
 
 | Question | Method | Evidence / output | Result | Discussion | Conclusion |
 | --- | --- | --- | --- | --- | --- |
 | RQ1 | Primary screen; unweighted and weighted proportions; S1–S6 | Cohort flow; non-receipt table; sensitivity table | 67 of 1,013 apparently eligible adults (6.6% unweighted, 7.5% weighted) report non-receipt. Eligibility alternatives move the weighted figure to between 7.1% and 9.1%. | Reported receipt is usual under the observable rules. The rate is stable to the rand ceiling and more sensitive to the disability-grant exclusion. The unresolved group is larger than the non-recipient group. | About 7% of the screened adults report non-receipt. The disability-grant rule moves that figure more than the income ceiling, and the unresolved group is larger than the non-recipient group. |
 | RQ2 | Retained six-slope logistic model; household-grouped five-fold CV; metrics in Section 7.5; S7–S11 | Feasibility record; held-out predictions; metric table; calibration plot | Out-of-fold ROC area 0.75 (interval 0.69 to 0.81). Average precision 0.20 beside prevalence 0.066. Brier score 0.058 against 0.062 for an intercept-only prediction. | Sex and schooling carry the ranking. Settlement and welfare access are imprecise. A high score is still usually a recipient. The model does not explain non-receipt. | Sex and schooling rank non-receipt moderately. The probabilities improve only slightly on a constant risk, and they do not explain non-receipt. |
-| RQ3 | Rule engine with reasons; run record; synthetic tests; repeat run; leakage check | Test log with expected and observed decisions | 26 of 26 checks passed. Two command runs wrote identical files. The outcome is rejected as a predictor. | The command-line artefact reproduces the cohort and makes a person’s status, reasons, and held-out probability inspectable. Usability of a review screen was not tested. | One command reproduces the cohort and the predictions, and the rule engine matches the decisions specified in advance. It is a research pipeline, not an eligibility service. |
+| RQ3 | Shared rule engine; CLI reproduction; strict CSV validation; frozen inference; native UI/CLI parity; repeatability and export verification | Historical `evaluation_log.csv`; `docs/validation_summary.json`; `docs/windows_validation.json`; `examples/synthetic_report/`; current Results/Discussion sources | All 26 historical checks passed (22 screening, 2 schedule, 1 leakage, 1 trace); 220 automated tests passed; all 15,388 reference rows match CLI with zero mismatches; 50 checks of the user's Windows synthetic exports passed. | CLI and local Streamlit make screen status, receipt, reasons, model scores and provenance inspectable. App full-data scores are distinct from held-out research evaluation. Functional tests and one user's local workflow do not establish nontechnical usability or broad acceptance. | The historical research workflow is reproducible and the local interface is functionally verified. Participant usability was not tested; no official eligibility or external predictive-validation claim follows. |
 
-## 14. Phase map
+## 14. Original study phase map
+
+This is the original September study sequence. Its Phase 6 means modelling
+sensitivities; it is distinct from Phase 6 (paper integration) in the uploaded
+October Streamlit implementation plan. Historical close-outs are preserved in
+the decision log, with an October update appended separately.
 
 | Phase | Starts when | Does |
 | --- | --- | --- |
@@ -515,3 +573,30 @@ Phase 5 fit the logistic model on the frozen cohort. The retained specification 
 G17–G22 were closed in decisions D-049 to D-051. Phase 6 compared the eligibility screens, complete cases, the married-status swap, the weighted fit, and sampling-unit folds with the primary out-of-fold metrics. The comparison is in `specification/phase6_sensitivity.md`. The random forest is still deferred. Phase 7 added `python analysis/run_study.py`, which rewrites the primary run in `output/runs/primary/` and matches the frozen cohort hash. Phase 8 recorded 26 expected-versus-actual checks in `specification/phase8_evaluation.md`.
 
 Stratum cannot be constructed. That remains a limit on design-based variance.
+
+## 16. October plan Phase 6 — completed manuscript review draft
+
+The revision strengthens the predictor-to-concept mapping in
+`paper/conceptual_framework.md`, updates `paper/results.md` and
+`paper/discussion.md`, and assembles a revised manuscript through
+`paper/manuscript.md` and `paper/build_ieee.js`. It uses one frozen six-slope
+research result set and adds the implemented Streamlit architecture, parity,
+invalid-input, repeatability and Windows-export evidence. Decision D-061 records
+this reporting update without a scientific refit.
+
+The revised `paper/Jawe_OPG_nonreceipt_KZN.pdf` contains six Letter pages in
+two columns, with 10 pt body text and 8 pt tables/references. It contains five
+tables, two figures and 23 references numbered by first use. A pinned-lockfile
+`npm ci` installation and portable build ran successfully; table paragraphs
+remain together, figure spacing is corrected and the final columns are balanced.
+The read-only scientific audit passed 162 numerical table checks without
+changing research outputs. Build, citation-order and layout evidence is recorded
+in `paper/manuscript_validation.json`. The manuscript is below the eight-page
+limit; the previous four-page draft count is historical.
+
+No participant usability study was conducted for this revision, by user
+instruction. Claims stop at observed functional evidence; the previously recorded
+220-test suite has not been described as a fresh run for manuscript editing.
+Independent verification of bibliographic sources and the official notices
+remains outstanding, and ethics approval is not documented in the project
+record. This is a completed review draft, not an external submission.

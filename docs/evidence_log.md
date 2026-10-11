@@ -171,7 +171,7 @@ shell and model JSON files and preserves the example reports without newline
 conversion. This prevents Windows `core.autocrlf` settings from invalidating
 frozen model/source checksums or altering the archived report hashes.
 
-## Later phases
+## Later phases — status before manuscript revision
 
 Local controlled deployment is documented in `docs/deployment.md`. No public
 site has been published. Optional raw-three-table upload remains outside this MVP.
@@ -180,3 +180,53 @@ does not establish usability or user acceptance. The next research step is the
 consented task protocol in `docs/usability_protocol.md`, followed by Submission 2
 paper integration using these actual software/evaluation results. The paper has
 not been rewritten or submitted by this implementation task.
+
+## October plan Phase 6 — completed Submission 2 review draft, 11 October 2026
+
+The user directed us to return to the plan and improve Submission 2 while
+leaving participant usability testing out of the present revision. This is
+Phase 6 (paper integration) of the October plan, distinct from September's
+study Phase 6 (model sensitivities). The previous dated implementation entries
+remain historical records.
+
+Reporting changes strengthen the administrative-burden/access conceptual
+mapping to measured predictors in `paper/conceptual_framework.md` and update
+`paper/results.md` and `paper/discussion.md`. The revised manuscript was
+assembled through `paper/manuscript.md` and `paper/build_ieee.js`. The
+specification, current checklist and RQ3 traceability now identify the local
+Streamlit implementation and its verified functional evidence.
+
+The primary historical screening code, cohort, six-slope research result set,
+OOF predictions, model artefact and sensitivity outputs are unchanged. No
+scientific model is refit for this writing task. The research test claim is
+corrected to **26 mixed checks: 22 synthetic screening cases, two schedule
+checks, one structural leakage check and one run trace**. The application
+evidence is separately **220 automated tests passed**, **15,388 reference
+records matched with zero mismatches**, and **50 checks of the user's six
+Windows synthetic report files passed**. Those counts are supported by the
+preceding dated entries and machine-readable evidence; manuscript editing does
+not itself constitute another test run.
+
+No participant study, unaided task timings, ease ratings or acceptance results
+are available. The prepared `docs/usability_protocol.md` remains a future
+protocol. The revised paper must limit its usability statement accordingly;
+the user's Windows walkthrough is local functional evidence. Public deployment
+also remains optional and unperformed.
+
+Decision D-061 records these reporting choices. The final revised
+`paper/Jawe_OPG_nonreceipt_KZN.pdf` is **six Letter pages**, below the eight-page
+limit, with two columns, 10 pt body text and 8 pt tables/references. It contains
+**five tables, two figures and 23 references numbered by first use**. The
+portable build ran after `npm ci` from the pinned lockfile. Final layout fixes
+corrected cropped-figure paragraph spacing, kept tables together and balanced
+the final columns. The read-only scientific audit passed **162 numerical table
+checks**, preserving the frozen scientific outputs. See
+`paper/manuscript_validation.json` for the recorded mechanical and numerical
+build evidence. These checks do not constitute a fresh 220-test app-suite run.
+
+Phase 6 manuscript integration is complete as a review draft. Independent
+bibliographic/reference and official-notice verification remains outstanding;
+mechanical citation numbering does not establish source validity. Ethics
+approval is not documented in the project record. No participant usability
+result or external submission is claimed. The previous four-page draft count
+is retained only in its historical close-out.

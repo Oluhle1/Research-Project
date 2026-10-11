@@ -1,0 +1,7 @@
+{
+  "name": "opg-submission2-paper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build_ieee.js"},
+  "dependencies": {"docx": "9.6.1"}
+}

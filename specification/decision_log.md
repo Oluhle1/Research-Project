@@ -68,6 +68,7 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 | D-058 | 2026-09-25 | 9 | Reporting | The Results section uses the frozen cohort, the Phase 4 estimate, the Phase 5 held-out metrics, the Phase 6 sensitivity table, and the Phase 8 test log. Coefficients are labelled as full-sample associations. The rural-formal revision is stated. Discussion is not written in this phase. | Phase 9 asks for evidence rather than a repeat of the methods, and it asks that weak results stay visible. | Adopted |
 | D-059 | 2026-09-25 | 10 | Reporting | The Discussion uses only the literature already cited in Submission 1. It treats the schooling association as opposite to a simple information-barrier reading, and it treats settlement and welfare access as imprecise. No new citation was added. | Phase 10 asks for comparison with the existing review and for weak results to stay visible. The submission already supplies the access and calibration sources those points need. | Adopted |
 | D-060 | 2026-09-25 | 11 | Reporting | The IEEE paper is `paper/Jawe_OPG_nonreceipt_KZN.docx` (also exported as PDF). It is 4 pages. References [24] and [25] are the 2014 and 2015 grant-increase notices, added because the income ceilings come from those instruments. The DUT ethics determination is not claimed as granted. | Phase 11 asks for a paper of at most 8 pages, built from Submission 1 and the completed analysis. The notices are the legal source of the ceilings. Ethics approval was not observed in the project record, so the paper states the access conditions and the synthetic tests instead. | Adopted |
+| D-061 | 2026-10-11 | October plan 6 | Reporting | Revise Submission 2 sources to connect administrative-burden/access concepts to measured predictors and report the implemented local Streamlit architecture and actual functional evidence. Preserve the frozen primary research results and six-slope specification; do not refit for manuscript revision. State 26 historical checks as 22 screening cases + 2 schedule checks + 1 leakage check + 1 run trace; separately report the recorded 220 automated tests, zero mismatches across 15,388 reference records and 50 Windows-report checks. Participant usability is not conducted in this revision by user instruction; no user acceptance claim follows. Final review draft has six Letter pages, five tables, two figures and 23 references numbered by first use; 162 read-only scientific table checks passed. | Uploaded October implementation plan Phase 6, user scope direction, `docs/evidence_log.md`, `docs/validation_summary.json`, `docs/windows_validation.json`, `paper/manuscript_validation.json`, and existing frozen outputs. Functional verification is not participant usability or external predictive validation. | Adopted; six-page review draft built and mechanically checked. Independent reference/official-notice verification and ethics documentation remain outstanding; no external submission |
 
 ## Phase close-outs
 
@@ -332,3 +333,59 @@ The cohort hash matches Phase 3. The ROC area matches Phase 5 to the recorded di
 **Decisions.** D-060. References [24] and [25] cite the grant-increase notices used for the ceilings.
 
 **Next step.** The eleven phases in the study plan are complete. Anything further is optional: a reader trial of the files, the deferred random forest, or a review screen. None of those is required to answer the three research questions.
+
+### October plan Phase 6 — completed Submission 2 review draft, 2026-10-11
+
+This is Phase 6 of the uploaded October Streamlit implementation plan, not
+the September study Phase 6 modelling sensitivities above. Historical
+close-outs describe their dated state and are retained unchanged.
+
+**Completed.** The specification, checklist and traceability records now include
+the implemented Streamlit interface and verified local functional evidence.
+The manuscript revision connects concepts to measured predictors and updates
+the artefact/evaluation discussion from these records. It preserves the
+existing screen, cohort, primary six-slope model and sensitivity outputs; no
+scientific model is refit for the writing task. The final review draft was built
+as six Letter pages in two columns, with 10 pt body text and 8 pt tables/references,
+five tables, two figures and 23 references numbered by first use.
+
+**Evidence.**
+
+- `paper/conceptual_framework.md`, `paper/results.md` and `paper/discussion.md`
+- Revised assembly sources: `paper/manuscript.md` and `paper/build_ieee.js`
+- Built review draft: `paper/Jawe_OPG_nonreceipt_KZN.docx` and matching PDF
+- `paper/manuscript_validation.json`: six-page build/layout and citation-order
+  evidence; 162 passed read-only scientific numerical checks
+- `docs/current_state_audit.md` and `docs/model_decision_record.md`
+- `docs/validation_summary.json`: full-reference app/CLI parity
+- `docs/evidence_log.md`: 220 automated tests passed, zero reference mismatches
+- `docs/windows_validation.json`: 50 checks of six synthetic report exports
+- `examples/synthetic_report/`: preserved user-supplied synthetic exports
+
+**Problems and limits.**
+
+- The historical evaluation has 22 synthetic screening cases and four other
+  checks, not 26 synthetic screening cases. The revised reporting separates
+  these from the 220-test app suite and 50 Windows-report checks.
+- Participant task testing has not been conducted. The user excluded it from
+  the present revision; the prepared protocol is not an evaluation result.
+- One user's Windows screenshots and report contents support local operation
+  and export consistency, not broad usability acceptance or remote execution
+  attestation. The synthetic 50% rate is not the research prevalence.
+- The six-page count, mechanical citation ordering and layout checks are
+  complete. Independent checks of bibliographic sources and official legal
+  notices remain outstanding; these are not inferred from citation numbering.
+- Ethics approval is not documented in the available project record and is
+  not presented as granted.
+- Public deployment and an exploratory random forest remain outside this
+  revision. Existing respondent-level repository data/history must not be
+  described as a cleared public demonstration package.
+
+**Decisions.** D-061. Report only implemented capability and observed evidence.
+Preserve the untested-usability, incomplete legal-screen and historical
+generalisability limitations.
+
+**Next step.** Review the six-page draft, independently verify references and
+official notices, and resolve/document the applicable ethics status before any
+external submission. Participant evaluation remains unperformed. Submission has
+not been performed by this revision record.

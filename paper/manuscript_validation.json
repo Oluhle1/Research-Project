@@ -1,0 +1,107 @@
+{
+  "checked_at_utc": "2026-10-11T12:39:19.823345+00:00",
+  "status": "review draft; manuscript build and evidence checks passed; not submitted",
+  "pdf_pages": 6,
+  "maximum_pages": 8,
+  "page_size": "Letter 612x792 pt",
+  "build": {
+    "node_docx": "9.6.1",
+    "npm_ci": "passed",
+    "renderer": "LibreOfficeDev 26.8.0.0.alpha0",
+    "body_points": 10,
+    "table_reference_points": 8
+  },
+  "numeric_table_comparisons": {
+    "checked": 162,
+    "passed": 162,
+    "failed": 0,
+    "source": "frozen primary cohort, Phase 4 and Phase 6 CSV outputs; no refits"
+  },
+  "citations": {
+    "count": 23,
+    "first_use_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "all_resolved": true,
+    "unused_sources_excluded": [
+      11,
+      18
+    ],
+    "doi_strings_matching_submitted_bibliography": 17,
+    "independent_publisher_and_notice_verification": "incomplete; proxy CONNECT returned HTTP 403"
+  },
+  "tables": 5,
+  "figures": 2,
+  "image_paragraphs_automatic_line_spacing": true,
+  "visual_review": {
+    "pages_reviewed": 6,
+    "passed": true,
+    "reviewers": "primary agent and independent layout/theory reviewer",
+    "figure_cropping_corrected": true,
+    "sensitivity_table_kept_together": true,
+    "reference_columns_balanced": true,
+    "split_reference_entries": false
+  },
+  "scientific_and_application_files_unchanged_from": "f82681322992979d862de0db3e98a577a50b0aa2",
+  "existing_application_evidence_not_rerun_for_paper": {
+    "automated_tests": 220,
+    "native_ui_cli_reference_rows": 15388,
+    "windows_export_checks": 50
+  },
+  "lecturer_feedback": {
+    "comments": 7,
+    "addressed_in_text": 6,
+    "partially_addressed": [
+      5
+    ]
+  },
+  "participant_usability": "not conducted; deferred by user; owner Windows walkthrough is functional evidence",
+  "remaining_before_submission": [
+    "Independent publisher and historical official-notice verification",
+    "Institutional ethics determination confirmation",
+    "Author review"
+  ],
+  "sha256": {
+    "paper/manuscript.md": "ee53ff4065b552e81603952360ca8ba710d737a80f91252e0550bee11104f891",
+    "paper/manuscript_numbered.md": "c77f2e2fd3a36c560228d8c93ec8794a4297d8cb9c34c01f51ba3e1db5c59507",
+    "paper/references.json": "36b3926e31f227722aeeb38c6d84968bfd93dac05ba0e1c2c699092685c61006",
+    "paper/citation_map.json": "805d51969efb388ab24ebc1eb876cc61bb1cb03eb96dfda648d5b60ec73e019a",
+    "paper/build_ieee.js": "5a69cfd5c450dc0a4de0aa9fe5cc4a49432b9f37962e34dece039b7d197c344d",
+    "paper/build_figures.py": "cfbb8d0fca6741fae063fd4831fde8f9c33163c50c650439df9fd4bab6f81633",
+    "paper/package.json": "4630f82151ac735ecdda799b0bac236ed9714e147322964ff7944ba876bae2cd",
+    "paper/package-lock.json": "fcc94104e8f8d2150ac2c6abeba5eb200c44a851ea990201998d4c9475e05b31",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "22a1108aab843aedf9907da873b96c6ac06abf50a0a78768603d9b710d2fb157",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "93c130b3dcdb1b19292d8616cf9d249af052c64f059e826ce7bf8d988daaaecb",
+    "paper/figures/architecture.png": "d68f5227f83279e5612bf6eeaf976e73b4ed0740ad9169d57309b811bb74297f",
+    "paper/figures/calibration.png": "c28c036ee065558e4b3d0aeb0c4bc542b666ffba1eb928a13f8bbff45f6d3af5",
+    "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
+    "analysis/phase4_rq1.py": "31a34082d006854d68b04aff25d2b3dcefa16f1d37f75eb4ea3429bcf142e8af",
+    "analysis/phase5_model.py": "906be25c96bf8571b79cf6cae990daeec19582b69ef8d9f12b4db9badc517ff5",
+    "output/runs/primary/metrics.csv": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5",
+    "output/runs/primary/calibration_bins.csv": "86e3c65e4145058d0ddea23233e860b2967e20ff4340636c81b7da2a41d4ecf2",
+    "output/phase4/rq1_sensitivity.csv": "8afb55eea136c9fda61924b10c1463cd8ede0ea530aa6b9010644ecd4b7a9a3d",
+    "output/phase6/model_sensitivity.csv": "896d4e6f6f31545dca5b4dc77411b7c612d4958d07fc8498f1d4ea7ab652f979"
+  }
+}

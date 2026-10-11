@@ -1,0 +1,25 @@
+{
+  "uploaded_rows": 6,
+  "screen_status_counts": {
+    "FAIL": 1,
+    "OUT_OF_FRAME": 1,
+    "PASS": 3,
+    "UNRESOLVED": 1
+  },
+  "classification_counts": {
+    "APPARENTLY_ELIGIBLE_REPORTED_NONRECEIPT": 1,
+    "APPARENTLY_ELIGIBLE_REPORTED_RECEIPT": 1,
+    "ELIGIBILITY_UNRESOLVED": 1,
+    "FAILED_OBSERVABLE_RULE": 1,
+    "OUT_OF_STUDY_FRAME": 1,
+    "RECEIPT_UNRESOLVED": 1
+  },
+  "resolved_pass_denominator": 2,
+  "reported_recipients": 1,
+  "reported_nonrecipients": 1,
+  "unweighted_nonreceipt_rate": 0.5,
+  "person_weighted_nonreceipt_rate": 0.5,
+  "scored_rows": 2,
+  "scope": "Uploaded rows only; not necessarily the original 1,317 older-adult frame.",
+  "responsible_use_note": "Historical LCS 2014/2015 KwaZulu-Natal research prototype. Observable screening is not statutory eligibility or a SASSA grant decision. Model probabilities estimate reported non-receipt, not eligibility. Uploaded scores use a frozen full-data fit and are not held-out validation. Generalisation to other populations or periods has not been established."
+}

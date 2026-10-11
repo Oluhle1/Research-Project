@@ -1,0 +1,7 @@
+research_id,screen_status,receipt_status,classification,reason_codes,model_eligible_for_scoring,predicted_nonreceipt,score_context,rule_version,model_version,threshold_single,threshold_couple
+R000001,PASS,NON_RECIPIENT,APPARENTLY_ELIGIBLE_REPORTED_NONRECEIPT,PASS_PRIMARY,True,0.18525299518191343,Frozen full-data fitted scores; training overlap unknown; not held-out performance,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00
+R000002,PASS,RECIPIENT,APPARENTLY_ELIGIBLE_REPORTED_RECEIPT,PASS_PRIMARY,True,0.18525299518191343,Frozen full-data fitted scores; training overlap unknown; not held-out performance,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00
+R000003,FAIL,NOT_ASSESSED,FAILED_OBSERVABLE_RULE,FAIL_INCOME_ABOVE_THRESHOLD,False,,Not scored: outside the resolved apparently eligible cohort,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00
+R000004,UNRESOLVED,NOT_ASSESSED,ELIGIBILITY_UNRESOLVED,UNRES_INCOME_ABSENT,False,,Not scored: outside the resolved apparently eligible cohort,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00
+R000005,PASS,UNRESOLVED,RECEIPT_UNRESOLVED,PASS_PRIMARY|UNRES_GRANT_RESPONSE,False,,Not scored: outside the resolved apparently eligible cohort,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00
+R000006,OUT_OF_FRAME,NOT_ASSESSED,OUT_OF_STUDY_FRAME,OUT_AGE_BELOW_60,False,,Not scored: outside the resolved apparently eligible cohort,opg-kzn-primary-v1,opg-kzn-six-slope-v1,61800.00,123600.00

@@ -1,0 +1,124 @@
+{
+  "artifact_schema_version": "opg-frozen-logit-v1",
+  "artifact_sha256": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+  "baseline_commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+  "commit_scope": "Baseline repository revision; uncommitted build and adapter code are identified by their file hashes",
+  "data_schema_version": "opg-screen-v1",
+  "evaluation_sha256": "58ec9db3335c9757bd8cb5b5abd262fab412dc8184f32c7da29bd6b0f993cae1",
+  "feature_order": [
+    "age_per_10",
+    "sex_female",
+    "school_below",
+    "settle_urban_informal",
+    "settle_traditional_or_rural",
+    "welfare_far"
+  ],
+  "model_version": "opg-kzn-six-slope-v1",
+  "positive_class": "reported OPG non-receipt among the resolved apparently eligible cohort",
+  "rule_version": "opg-kzn-primary-v1",
+  "runtime_provenance_updates": [
+    {
+      "current_sha256": "2542109cf18fb86cd0610edc56ebf91996a998210b0f4fac00d1e8e8d004f896",
+      "estimator_refitted": false,
+      "note": "hash guard added, estimator not refitted",
+      "path": "opg_core/inference.py",
+      "previous_sha256": "322862f556b39b87d235ae9dad2dcacc2cadc1a21aaaddacaca98fe2c57664d5"
+    }
+  ],
+  "score_context": "Frozen full-data fitted scores; training overlap unknown; not held-out performance",
+  "seed": 201415,
+  "software": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "python": "3.12.14",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "statsmodels": "0.15.0"
+  },
+  "source_script_sha256": {
+    "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
+    "analysis/phase4_rq1.py": "31a34082d006854d68b04aff25d2b3dcefa16f1d37f75eb4ea3429bcf142e8af",
+    "analysis/phase5_model.py": "906be25c96bf8571b79cf6cae990daeec19582b69ef8d9f12b4db9badc517ff5"
+  },
+  "source_signature": {
+    "adapter_script_sha256": {
+      "opg_core/features.py": "fcbe71610b528660ab6ec717c80300e16a69c692dd690d7b46c0ab63e44621a5",
+      "opg_core/inference.py": "2542109cf18fb86cd0610edc56ebf91996a998210b0f4fac00d1e8e8d004f896",
+      "opg_core/schema.py": "adab07b38cc8f6a8d6dd8830a98d2e7966920a1cdc697e868f75623984fab3ca",
+      "opg_core/screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf"
+    },
+    "evaluation_source_sha256": {
+      "output/runs/primary/bootstrap_intervals.csv": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1",
+      "output/runs/primary/calibration_bins.csv": "86e3c65e4145058d0ddea23233e860b2967e20ff4340636c81b7da2a41d4ecf2",
+      "output/runs/primary/metrics.csv": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5",
+      "output/runs/primary/run_record.json": "46c5e7b516c214ab9435038a513f384db45f914d1b830dd1a05126c7139b286e"
+    },
+    "reference_coefficients_sha256": "18e5fd4f87b7d892c0a5fb1fb57f53094db850edcbdc8e2dffde1f7064bbd7c0",
+    "software": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "python": "3.12.14",
+      "scipy": "1.18.1",
+      "sklearn": "1.9.1",
+      "statsmodels": "0.15.0"
+    },
+    "source_script_sha256": {
+      "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
+      "analysis/phase4_rq1.py": "31a34082d006854d68b04aff25d2b3dcefa16f1d37f75eb4ea3429bcf142e8af",
+      "analysis/phase5_model.py": "906be25c96bf8571b79cf6cae990daeec19582b69ef8d9f12b4db9badc517ff5"
+    },
+    "training_input_hashes": {
+      "Dataset/LCS2015/LCS2015HOUSEHOLD.csv": {
+        "crlf_sha256": "2d7eb5c668dc5fe5cce98efbb64251b8e7fc833f7a6cb392545cb922c478b17e",
+        "raw_sha256": "789d94141eae506e54a86abeb8f912a99b62dfe5c203916fc045e176c2656f78"
+      },
+      "Dataset/LCS2015/LCS2015PERSONINCOME.csv": {
+        "crlf_sha256": "d0c3744d2199f1f1cfd5cc96615af5bcf62c2dd8b8091290b87169dfd3f1c377",
+        "raw_sha256": "a6cfa1df834e6a8c36d97813143826e264f32e48a4cd6061451fe3bd6088e53c"
+      },
+      "Dataset/LCS2015/LCS2015PERSONSFINAL.csv": {
+        "crlf_sha256": "c5943058840ccd513cf1d9a2a0b7c21b7ca0ebfc81df1372f49e4e5993e61258",
+        "raw_sha256": "ef3c32aeca58cde9565a8affd4d6589ebfac6d95c4c6d3c8185d7ebd5b5ac404"
+      },
+      "output/phase3/cohort_person.csv": {
+        "crlf_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+        "raw_sha256": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625"
+      }
+    },
+    "training_script_sha256": "b0923a2b9dfae0e29c95c0ce919ebf4a287baf8c8f7d63b0a46b5ce086044d80"
+  },
+  "study_context": "LCS_KZN_2014_2015",
+  "training_cohort": {
+    "events": 67,
+    "households": 827,
+    "people": 1013
+  },
+  "training_input_hashes": {
+    "Dataset/LCS2015/LCS2015HOUSEHOLD.csv": {
+      "crlf_sha256": "2d7eb5c668dc5fe5cce98efbb64251b8e7fc833f7a6cb392545cb922c478b17e",
+      "raw_sha256": "789d94141eae506e54a86abeb8f912a99b62dfe5c203916fc045e176c2656f78"
+    },
+    "Dataset/LCS2015/LCS2015PERSONINCOME.csv": {
+      "crlf_sha256": "d0c3744d2199f1f1cfd5cc96615af5bcf62c2dd8b8091290b87169dfd3f1c377",
+      "raw_sha256": "a6cfa1df834e6a8c36d97813143826e264f32e48a4cd6061451fe3bd6088e53c"
+    },
+    "Dataset/LCS2015/LCS2015PERSONSFINAL.csv": {
+      "crlf_sha256": "c5943058840ccd513cf1d9a2a0b7c21b7ca0ebfc81df1372f49e4e5993e61258",
+      "raw_sha256": "ef3c32aeca58cde9565a8affd4d6589ebfac6d95c4c6d3c8185d7ebd5b5ac404"
+    },
+    "output/phase3/cohort_person.csv": {
+      "crlf_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+      "raw_sha256": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625"
+    }
+  },
+  "training_script_sha256": "b0923a2b9dfae0e29c95c0ce919ebf4a287baf8c8f7d63b0a46b5ce086044d80",
+  "verification": {
+    "coefficient_reference_atol": 1e-10,
+    "prediction_reload_atol": 1e-12,
+    "prediction_reload_max_abs_difference": 5.551115123125783e-17,
+    "reference": "Original retained full-data in-memory fit and saved apparent coefficients",
+    "training_converged": true,
+    "verified_rows": 1013
+  },
+  "working_tree_dirty": true
+}

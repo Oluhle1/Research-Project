@@ -1,0 +1,42 @@
+{
+  "artifact_schema_version": "opg-frozen-logit-v1",
+  "coefficients": [
+    -0.38451246933633526,
+    -0.9315674877399396,
+    -1.4454246741448769,
+    0.17172881996038197,
+    -0.47105810194909586,
+    -0.4292995036188044
+  ],
+  "estimator": "unweighted logistic regression",
+  "feature_order": [
+    "age_per_10",
+    "sex_female",
+    "school_below",
+    "settle_urban_informal",
+    "settle_traditional_or_rural",
+    "welfare_far"
+  ],
+  "intercept": -0.5495877214045641,
+  "model_version": "opg-kzn-six-slope-v1",
+  "predictor_sources": [
+    "age",
+    "sex",
+    "schooling_raw",
+    "settlement",
+    "welfare_distance"
+  ],
+  "reference_levels": {
+    "schooling": "Grade 7 or above",
+    "settlement": "urban formal; traditional area and rural formal share one contrast",
+    "sex": "male (code 1)",
+    "welfare": "nearer than 5 km"
+  },
+  "training_stats": {
+    "age_per_10_median": 0.8,
+    "school_code": "1",
+    "settlement_code": "4",
+    "sex_code": "2",
+    "welfare_code": "1"
+  }
+}

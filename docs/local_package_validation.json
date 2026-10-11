@@ -1,0 +1,16 @@
+{
+  "archive_sha256": "75de67e4f37602cc714a0952b80612d6b65875bece88cce414131ae7b5cd72ea",
+  "fresh_dependency_install": "passed",
+  "synthetic_app_workflow": "passed",
+  "extracted_folder_without_git_history": "passed",
+  "cross_platform_launcher_health": "passed",
+  "platform_checked": "Linux",
+  "windows_execution_checked": false,
+  "tests": 220,
+  "passed": 220,
+  "failed": 0,
+  "skipped": 0,
+  "duration_seconds": 37.07,
+  "python": "3.12.14",
+  "archive_files": 24
+}

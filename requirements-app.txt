@@ -1,0 +1,4 @@
+# Retain the published scientific dependency pins.
+-r requirements.txt
+streamlit==1.65.0
+pytest==9.1.1

@@ -1,0 +1,469 @@
+{
+  "timestamp": "2026-10-10T15:44:10.460241+02:00",
+  "source_commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+  "python": "3.12.14",
+  "rule_version": "opg-kzn-primary-v1",
+  "selected_model": "opg-kzn-six-slope-v1",
+  "results": {
+    "final_cohort": 1013,
+    "nonrecipients": 67,
+    "unweighted_nonreceipt": 0.06614017769002961,
+    "weighted_nonreceipt": 0.07487682625805854,
+    "roc_auc": 0.752248272380171,
+    "brier": 0.05777950123934818
+  },
+  "software": {
+    "python": "3.12.14",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "statsmodels": "0.15.0",
+    "sklearn": "1.9.1"
+  },
+  "commands": {
+    "phase3": {
+      "exit_code": 0
+    },
+    "phase4": {
+      "exit_code": 0
+    },
+    "phase5": {
+      "exit_code": 0
+    },
+    "primary": {
+      "exit_code": 0
+    },
+    "phase8": {
+      "exit_code": 0
+    }
+  },
+  "input_sha256": {
+    "LCS2015PERSONSFINAL.csv": "ef3c32aeca58cde9565a8affd4d6589ebfac6d95c4c6d3c8185d7ebd5b5ac404",
+    "LCS2015HOUSEHOLD.csv": "789d94141eae506e54a86abeb8f912a99b62dfe5c203916fc045e176c2656f78",
+    "LCS2015PERSONINCOME.csv": "a6cfa1df834e6a8c36d97813143826e264f32e48a4cd6061451fe3bd6088e53c"
+  },
+  "frozen_cohort_crlf_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "cohort_parity": {
+    "rows": 15388,
+    "matched": 15388,
+    "mismatched": 0
+  },
+  "csv_comparisons": [
+    {
+      "file": "phase3/cohort_flow.csv",
+      "rows": 11,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/cohort_person.csv",
+      "rows": 15388,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/reason_frequencies.csv",
+      "rows": 14,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/threshold_periods.csv",
+      "rows": 2,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_characteristics.csv",
+      "rows": 59,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_estimate.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_sensitivity.csv",
+      "rows": 16,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_status_by_marital.csv",
+      "rows": 16,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/apparent_coefficients.csv",
+      "rows": 7,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 3.885780586188048e-16
+    },
+    {
+      "file": "phase5/bootstrap_intervals.csv",
+      "rows": 6,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "phase5/calibration_bins.csv",
+      "rows": 5,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/fold_coefficients.csv",
+      "rows": 5,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "phase5/fold_imputers.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/fold_support.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/metrics.csv",
+      "rows": 3,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 5.551115123125783e-16
+    },
+    {
+      "file": "phase5/oof_predictions.csv",
+      "rows": 1013,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 1.942890293094024e-16
+    },
+    {
+      "file": "phase5/vif.csv",
+      "rows": 6,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/bootstrap_intervals.csv",
+      "rows": 6,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "file": "primary/calibration_bins.csv",
+      "rows": 5,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/cohort_flow.csv",
+      "rows": 11,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/cohort_person.csv",
+      "rows": 15388,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/fold_coefficients.csv",
+      "rows": 5,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "primary/fold_imputers.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/fold_support.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/metrics.csv",
+      "rows": 2,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 2.220446049250313e-16
+    },
+    {
+      "file": "primary/oof_predictions.csv",
+      "rows": 1013,
+      "exact_parsed_match": false,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 1.942890293094024e-16
+    },
+    {
+      "file": "primary/reason_frequencies.csv",
+      "rows": 14,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/rq1_characteristics.csv",
+      "rows": 59,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/rq1_estimate.csv",
+      "rows": 5,
+      "exact_parsed_match": true,
+      "numeric_and_text_parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    }
+  ],
+  "output_sha256": {
+    "phase3/cohort_flow.csv": "9d7339c19124812abf0a67dfc3646a158a7d01eda78ef9b257f38132071737dd",
+    "phase3/cohort_freeze.json": "729bd1fe762d76b90349f52e5ef75494f9ce0e43b09f3839bcba9fefdb4f14f3",
+    "phase3/cohort_person.csv": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "phase3/reason_frequencies.csv": "4369125a0032c75bcfff7fdaa14c8fa82b508484d732f8cb0d1c5a8085223648",
+    "phase3/threshold_periods.csv": "0e75bff4eff6fd45cd45fb43913f3967ee736b16bf9f626851e461da2fcbd604",
+    "phase4/rq1_characteristics.csv": "efdb7e01e75f1dc68dce9e5bd160eb112e1c697e1e8b337b0eaa5f702663fccd",
+    "phase4/rq1_estimate.csv": "140b6a20c57c34d524e963b63de81f7e6b1f571f077e75cef4e8840af543231a",
+    "phase4/rq1_sensitivity.csv": "04677c827e98150b2ce6775d0eb64f069d872ef2bb1c75682e8186daa8de63b7",
+    "phase4/rq1_status_by_marital.csv": "9c9251f1e421d85cd5f44d2ea864ff4932a11870ff032a664789b888c11bae00",
+    "phase5/apparent_coefficients.csv": "8dcae8c29bd831fc122a723bcc2f1a5c8d051d7229bd6c9bc35df9bd3b515527",
+    "phase5/bootstrap_intervals.csv": "df814877f6e73d2efb3dc9d43943dc91b2e3b79a40545d901460a59bb6168308",
+    "phase5/calibration_bins.csv": "525f7d3c2f225ddb9a026f08983e08561ab5fe0e2adde7b173365a0a7157f234",
+    "phase5/calibration_plot.png": "28c8147b36eed3d25147d6cab72804cb51e4a7445238eef9706084611c214a21",
+    "phase5/feasibility.json": "c74dcc812b0fbccebc7a6d615325f3f36aa350de8b39b8483be7d06a9da450a3",
+    "phase5/fold_coefficients.csv": "8f90c7f229f65c9978a35262d1eada6789ffb64833885b19b1c2fd8e50446c26",
+    "phase5/fold_imputers.csv": "de0052da32037ade4c43d1b69b39fff70a57a7224b1b847c25cd097fc5793e68",
+    "phase5/fold_support.csv": "7488852d15a6265745000dd1689515b9561e5a09f4a49d4e5f1d9494cb45461c",
+    "phase5/metrics.csv": "e54e2f7e5b47e3ea2188a584ed5399bedc50651176ca321d8d0db37b5ece843b",
+    "phase5/oof_predictions.csv": "ee10f18528aeba2f20f8e92ce3dd5d159238c0176233f481a432b824902f7220",
+    "phase5/run_record.json": "2845debdebf2ed2a43a4fe4e8e0485885106bb9ed8ec2d5fdaabfe70f5647cda",
+    "phase5/vif.csv": "d277f9a109c8e51570d13fb80818f358fa9a5279305ea2b3b9cad50cc86446b8",
+    "primary/bootstrap_intervals.csv": "df814877f6e73d2efb3dc9d43943dc91b2e3b79a40545d901460a59bb6168308",
+    "primary/calibration_bins.csv": "525f7d3c2f225ddb9a026f08983e08561ab5fe0e2adde7b173365a0a7157f234",
+    "primary/calibration_plot.png": "28c8147b36eed3d25147d6cab72804cb51e4a7445238eef9706084611c214a21",
+    "primary/cohort_flow.csv": "9d7339c19124812abf0a67dfc3646a158a7d01eda78ef9b257f38132071737dd",
+    "primary/cohort_person.csv": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "primary/fold_coefficients.csv": "8f90c7f229f65c9978a35262d1eada6789ffb64833885b19b1c2fd8e50446c26",
+    "primary/fold_imputers.csv": "de0052da32037ade4c43d1b69b39fff70a57a7224b1b847c25cd097fc5793e68",
+    "primary/fold_support.csv": "7488852d15a6265745000dd1689515b9561e5a09f4a49d4e5f1d9494cb45461c",
+    "primary/metrics.csv": "c15da75550f99a5409bf9013c18f10f7db97203b2661d6e151fea96b425d5cf5",
+    "primary/oof_predictions.csv": "ee10f18528aeba2f20f8e92ce3dd5d159238c0176233f481a432b824902f7220",
+    "primary/reason_frequencies.csv": "4369125a0032c75bcfff7fdaa14c8fa82b508484d732f8cb0d1c5a8085223648",
+    "primary/rq1_characteristics.csv": "efdb7e01e75f1dc68dce9e5bd160eb112e1c697e1e8b337b0eaa5f702663fccd",
+    "primary/rq1_estimate.csv": "140b6a20c57c34d524e963b63de81f7e6b1f571f077e75cef4e8840af543231a",
+    "primary/run_record.json": "08437e64fd091869b4fd0184829e4f53d8abe4017d6211341bdfa706b2e521ce",
+    "phase8/evaluation_log.csv": "7d4d4581775760c80e77b22e438410fb7756f46287e67baa58a78bb590c8d20a"
+  },
+  "numeric_parity": [
+    {
+      "file": "phase3/cohort_flow.csv",
+      "rows": 11,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/cohort_person.csv",
+      "rows": 15388,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/reason_frequencies.csv",
+      "rows": 14,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase3/threshold_periods.csv",
+      "rows": 2,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_characteristics.csv",
+      "rows": 59,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_estimate.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_sensitivity.csv",
+      "rows": 16,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase4/rq1_status_by_marital.csv",
+      "rows": 16,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/apparent_coefficients.csv",
+      "rows": 7,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 3.885780586188048e-16
+    },
+    {
+      "file": "phase5/bootstrap_intervals.csv",
+      "rows": 6,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "phase5/calibration_bins.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/fold_coefficients.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "phase5/fold_imputers.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/fold_support.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "phase5/metrics.csv",
+      "rows": 3,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 5.551115123125783e-16
+    },
+    {
+      "file": "phase5/oof_predictions.csv",
+      "rows": 1013,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 1.942890293094024e-16
+    },
+    {
+      "file": "phase5/vif.csv",
+      "rows": 6,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/bootstrap_intervals.csv",
+      "rows": 6,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 1.1102230246251565e-16
+    },
+    {
+      "file": "primary/calibration_bins.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/cohort_flow.csv",
+      "rows": 11,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/cohort_person.csv",
+      "rows": 15388,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/fold_coefficients.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 4.440892098500626e-16
+    },
+    {
+      "file": "primary/fold_imputers.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/fold_support.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/metrics.csv",
+      "rows": 2,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 2.220446049250313e-16
+    },
+    {
+      "file": "primary/oof_predictions.csv",
+      "rows": 1013,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 1.942890293094024e-16
+    },
+    {
+      "file": "primary/reason_frequencies.csv",
+      "rows": 14,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/rq1_characteristics.csv",
+      "rows": 59,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    },
+    {
+      "file": "primary/rq1_estimate.csv",
+      "rows": 5,
+      "parity": "pass",
+      "max_absolute_numeric_delta": 0.0
+    }
+  ]
+}

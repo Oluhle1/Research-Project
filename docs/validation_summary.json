@@ -1,0 +1,57 @@
+{
+  "timestamp_local": "2026-10-10T15:54:00.959755+02:00",
+  "timezone": "Africa/Johannesburg",
+  "test_command": "python -m pytest tests -q --junitxml=.local/validation-tests.xml",
+  "tests": 218,
+  "passed": 218,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 34.111,
+  "native_streamlit_tests": 18,
+  "prediction_tests": 107,
+  "schema_screen_parity_tests": 86,
+  "reporting_tests": 4,
+  "workflow_tests": 3,
+  "reference_parity": {
+    "rows": 15388,
+    "matched": 15388,
+    "mismatched": 0,
+    "resolved_passes": 1013,
+    "nonrecipients": 67,
+    "scored": 1013
+  },
+  "model_version": "opg-kzn-six-slope-v1",
+  "artifact_sha256": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+  "evaluation_sha256": "58ec9db3335c9757bd8cb5b5abd262fab412dc8184f32c7da29bd6b0f993cae1",
+  "startup": {
+    "launch_and_restart": "passed",
+    "port": 8501,
+    "health_status": 200,
+    "health_body": "ok",
+    "html_status": 200
+  },
+  "install_and_dependency_check": "passed",
+  "environment_draft_fields_saved": [
+    "install_script",
+    "start_skill"
+  ],
+  "human_usability_tested": false,
+  "publicly_deployed": false,
+  "paper_updated": false,
+  "published_environment": false,
+  "fresh_task_restoration_verified": false,
+  "source_sha256": {
+    "app/Home.py": "086d740adcdf55191e4a3fb21a8c94168b00189bd5255024425b68e79645fcd2",
+    "opg_core/__init__.py": "8f8f10f8f09849ec53be34d521985afc445e9448bf42051d8225a329d664fd81",
+    "opg_core/features.py": "fcbe71610b528660ab6ec717c80300e16a69c692dd690d7b46c0ab63e44621a5",
+    "opg_core/inference.py": "2542109cf18fb86cd0610edc56ebf91996a998210b0f4fac00d1e8e8d004f896",
+    "opg_core/reporting.py": "f254ccb3474ea0d8516e59e6e08da66674721c9860b9e04b485353e50fad9c65",
+    "opg_core/schema.py": "adab07b38cc8f6a8d6dd8830a98d2e7966920a1cdc697e868f75623984fab3ca",
+    "opg_core/screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf",
+    "opg_core/workflow.py": "6142b481ac8f7a083e40e803f136860e6f99734d3dfe6e602b2ebeaebae089d5",
+    "tools/audit_baseline.py": "7f3adbbab6293406e2273103d9715b782605742e55840ffe1dfa2834ce6b0ee0",
+    "tools/freeze_model.py": "b0923a2b9dfae0e29c95c0ce919ebf4a287baf8c8f7d63b0a46b5ce086044d80"
+  },
+  "junit_result_sha256": "7a107366dbc996b18f5e04a2692e1ff66e1ba769917285394ee9b064113b5495"
+}

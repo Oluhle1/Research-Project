@@ -1,0 +1,1 @@
+Historical LCS 2014/2015 KwaZulu-Natal research prototype. Observable screening is not statutory eligibility or a SASSA grant decision. Model probabilities estimate reported non-receipt, not eligibility. Uploaded scores use a frozen full-data fit and are not held-out validation. Generalisation to other populations or periods has not been established.

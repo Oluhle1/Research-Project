@@ -1,0 +1,59 @@
+{
+  "timestamp_local": "2026-10-11T13:45:04.674593+02:00",
+  "timezone": "Africa/Johannesburg",
+  "schema_version": "opg-screen-v1",
+  "rule_version": "opg-kzn-primary-v1",
+  "model_version": "opg-kzn-six-slope-v1",
+  "model_artifact_sha256": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+  "script_commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+  "working_tree_dirty": true,
+  "application_source_sha256": {
+    "app\\Home.py": "086d740adcdf55191e4a3fb21a8c94168b00189bd5255024425b68e79645fcd2",
+    "opg_core\\__init__.py": "8f8f10f8f09849ec53be34d521985afc445e9448bf42051d8225a329d664fd81",
+    "opg_core\\features.py": "fcbe71610b528660ab6ec717c80300e16a69c692dd690d7b46c0ab63e44621a5",
+    "opg_core\\inference.py": "2542109cf18fb86cd0610edc56ebf91996a998210b0f4fac00d1e8e8d004f896",
+    "opg_core\\reporting.py": "42d8873e60f990795f6c830b18f39b30a11b8d0cd30298ce4d1b0aa067eb6283",
+    "opg_core\\schema.py": "adab07b38cc8f6a8d6dd8830a98d2e7966920a1cdc697e868f75623984fab3ca",
+    "opg_core\\screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf",
+    "opg_core\\workflow.py": "6142b481ac8f7a083e40e803f136860e6f99734d3dfe6e602b2ebeaebae089d5"
+  },
+  "dataset_sha256": "8e004af9673e00833f6f203d74432db19ec9de2a013aa72b13597d3ceaa54ac5",
+  "accepted_rows": 6,
+  "rejected_rows": 0,
+  "filtered_rows": 6,
+  "checks_performed": [
+    "file_size",
+    "utf8_encoding",
+    "csv_structure",
+    "row_count",
+    "exact_columns",
+    "schema_version",
+    "study_context",
+    "identifiers",
+    "duplicate_record_ids",
+    "duplicate_person_keys",
+    "historical_dates",
+    "categorical_codes",
+    "numeric_values",
+    "income_schedule",
+    "predictor_missingness"
+  ],
+  "validation_warnings": [
+    "Historical research data only: compatible schema does not establish external predictive validity."
+  ],
+  "output_sha256": {
+    "results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "filtered_results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "summary.json": "dfc321b41d397572e41048d8aa270920d7ff8c58e56bc869589bde412aa08e03",
+    "summary.csv": "db4dfa6a4e6964d5b65661aaf3fd47cd537db2c88d33017522dc60137550a213",
+    "responsible_use.txt": "5f89684fd7894eb32f42294e1cd68a2f6310da434c6e83eda8795ac2c67a8b59"
+  },
+  "dependencies": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.9.1",
+    "streamlit": "1.65.0"
+  },
+  "responsible_use_note": "Historical LCS 2014/2015 KwaZulu-Natal research prototype. Observable screening is not statutory eligibility or a SASSA grant decision. Model probabilities estimate reported non-receipt, not eligibility. Uploaded scores use a frozen full-data fit and are not held-out validation. Generalisation to other populations or periods has not been established."
+}

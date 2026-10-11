@@ -1,0 +1,131 @@
+{
+  "bootstrap": {
+    "draws": 1000,
+    "intervals": [
+      {
+        "invalid_resamples": 0,
+        "metric": "roc_auc",
+        "percentile_2.5": 0.6869008628081367,
+        "percentile_97.5": 0.8141743737809212,
+        "valid_resamples": 1000
+      },
+      {
+        "invalid_resamples": 0,
+        "metric": "average_precision",
+        "percentile_2.5": 0.1385531608498784,
+        "percentile_97.5": 0.2921453627611495,
+        "valid_resamples": 1000
+      },
+      {
+        "invalid_resamples": 0,
+        "metric": "brier",
+        "percentile_2.5": 0.0448241276916859,
+        "percentile_97.5": 0.0705597887081662,
+        "valid_resamples": 1000
+      },
+      {
+        "invalid_resamples": 0,
+        "metric": "brier_intercept",
+        "percentile_2.5": 0.0467085022267832,
+        "percentile_97.5": 0.0758100842844614,
+        "valid_resamples": 1000
+      },
+      {
+        "invalid_resamples": 0,
+        "metric": "citl",
+        "percentile_2.5": -0.3160650777646731,
+        "percentile_97.5": 0.2732381497609123,
+        "valid_resamples": 1000
+      },
+      {
+        "invalid_resamples": 0,
+        "metric": "slope",
+        "percentile_2.5": 0.5913277591051985,
+        "percentile_97.5": 1.1327892908134007,
+        "valid_resamples": 1000
+      }
+    ],
+    "method": "95 percent percentile of household resamples of fixed out-of-fold predictions; no model refitting",
+    "seed": 201415
+  },
+  "calibration_bins": [
+    {
+      "events": 3,
+      "mean_observed": 0.0145631067961165,
+      "mean_predicted": 0.0107280143511831,
+      "people": 206
+    },
+    {
+      "events": 6,
+      "mean_observed": 0.0301507537688442,
+      "mean_predicted": 0.0180958443999691,
+      "people": 199
+    },
+    {
+      "events": 7,
+      "mean_observed": 0.0341463414634146,
+      "mean_predicted": 0.0343343405437367,
+      "people": 205
+    },
+    {
+      "events": 16,
+      "mean_observed": 0.08,
+      "mean_predicted": 0.0741473226371869,
+      "people": 200
+    },
+    {
+      "events": 35,
+      "mean_observed": 0.1724137931034483,
+      "mean_predicted": 0.1882467036322566,
+      "people": 203
+    }
+  ],
+  "cohort": {
+    "events": 67,
+    "households": 827,
+    "people": 1013
+  },
+  "metrics": {
+    "intercept_only_out_of_fold": {
+      "average_precision": null,
+      "brier": 0.0617721098574696,
+      "calibration_in_the_large": 0.0001185543331646,
+      "calibration_slope": null,
+      "prevalence": 0.0661401776900296,
+      "roc_auc": null
+    },
+    "logistic_out_of_fold": {
+      "average_precision": 0.203224143682155,
+      "brier": 0.0577795012393481,
+      "calibration_in_the_large": 0.0195363906869197,
+      "calibration_slope": 0.836191031254337,
+      "prevalence": 0.0661401776900296,
+      "roc_auc": 0.752248272380171
+    }
+  },
+  "model_version": "opg-kzn-six-slope-v1",
+  "provenance": {
+    "frozen_cohort_crlf_sha256": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "rule_version": "opg-kzn-primary-v1",
+    "sources": [
+      {
+        "path": "output/runs/primary/metrics.csv",
+        "sha256": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5"
+      },
+      {
+        "path": "output/runs/primary/bootstrap_intervals.csv",
+        "sha256": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1"
+      },
+      {
+        "path": "output/runs/primary/calibration_bins.csv",
+        "sha256": "86e3c65e4145058d0ddea23233e860b2967e20ff4340636c81b7da2a41d4ecf2"
+      },
+      {
+        "path": "output/runs/primary/run_record.json",
+        "sha256": "46c5e7b516c214ab9435038a513f384db45f914d1b830dd1a05126c7139b286e"
+      }
+    ]
+  },
+  "schema_version": "opg-heldout-evaluation-v1",
+  "score_context": "Pooled held-out predictions from the retained six-slope household validation"
+}

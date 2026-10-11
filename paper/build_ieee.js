@@ -42,6 +42,10 @@ function grid(headers,rows){
     const widths = n===7?[540,760,650,650,700,900,840]:
                    n===6?[1040,850,700,700,900,850]:
                    headers[0]==='Predictor'?[900,1800,2340]:
+                   headers[0]==='Study'?[1150,1570,2320]:
+                   headers[0]==='Characteristic'?[2120,1460,1460]:
+                   headers[0]==='Metric'?[2200,1200,1640]:
+                   headers[0]==='Data concept'?[1450,1670,1920]:
                    headers[0]==='Evidence'?[1460,1480,2100]:[2940,1050,1050];
     if(widths.reduce((a,b)=>a+b,0)!==COLUMN) throw new Error('Bad table widths');
     return new Table({width:{size:COLUMN,type:WidthType.DXA},columnWidths:widths,
@@ -52,14 +56,14 @@ function grid(headers,rows){
           margins:{top:40,bottom:40,left:45,right:45},
           borders:{top:rule,bottom:rule,left:rule,right:rule},
           children:[paragraph(value,{keepNext:i<rows.length,alignment:j===0||n===3?AlignmentType.LEFT:AlignmentType.CENTER,
-            spacing:{before:0,after:0,line:180},run:{size:16,bold:i===0}})]}))}))});
+            spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},run:{size:18,bold:i===0}})]}))}))});
 }
 const titleEnd=lines.findIndex(line=>line.startsWith('## '));
 const title=[];
 for(const line of lines.slice(0,titleEnd)){
     if(!line.trim()) continue;
     if(line.startsWith('# ')) title.push(paragraph(line.slice(2),{alignment:AlignmentType.CENTER,
-      spacing:{before:0,after:160,line:520},run:{size:48}}));
+      spacing:{before:0,after:160,line:260,lineRule:LineRuleType.AUTO},run:{size:48}}));
     else if(line.startsWith('Abstract—')||line.startsWith('Keywords—'))title.push(paragraph(line,{
       spacing:{before:80,after:80,line:220},run:{size:18}}));
     else title.push(paragraph(line,{alignment:AlignmentType.CENTER,
@@ -84,7 +88,11 @@ for(let i=titleEnd;i<lines.length;i++){
       body.push(new Paragraph({alignment:AlignmentType.CENTER,keepNext:true,
         spacing:{before:80,after:30,line:240,lineRule:LineRuleType.AUTO},children:[new ImageRun({type:'png',
           data:fs.readFileSync(path.join(ROOT,file)),
-          transformation:{width:336,height:file.includes('architecture')?246:240},
+          transformation:{width:336,height:(()=>{
+            const data=fs.readFileSync(path.join(ROOT,file));
+            if(data.toString('ascii',1,4)!=='PNG')throw new Error('Figure must be PNG');
+            return Math.round(336*data.readUInt32BE(20)/data.readUInt32BE(16));
+          })()},
           altText:{name:caption,title:caption,description:caption}})]}));
       body.push(paragraph(caption,{spacing:{before:0,after:80,line:190},run:{size:16}}));continue;
     }

@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-11T15:06:07.921507+02:00",
+  "manuscript_path": "paper/manuscript.md",
+  "manuscript_sha256": "ea3193617f2acf215f0986a0f6520b224af54a44eaeefe0befcdcdf3c87cb3e9",
+  "numeric_comparisons": 209,
+  "passed": 209,
+  "failed": 0,
+  "tables": {
+    "IV": {
+      "displayed_rows": 7,
+      "numeric_comparisons": 14
+    },
+    "V": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 28
+    },
+    "VI": {
+      "displayed_rows": 9,
+      "numeric_comparisons": 112
+    },
+    "VII": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 19
+    },
+    "VIII": {
+      "displayed_rows": 6,
+      "numeric_comparisons": 36
+    }
+  },
+  "source_sha256": {
+    "output/runs/primary/cohort_flow.csv": "e13d9771f5f1ddcb815c441335e04482fdc3e6e5e851a6d1bb193dec94c9b2b7",
+    "output/runs/primary/rq1_characteristics.csv": "e937d7f50af84cf5f8fd934818742bd1c10b11ca13baeeb349861d5438dd7f77",
+    "output/phase4/rq1_sensitivity.csv": "8afb55eea136c9fda61924b10c1463cd8ede0ea530aa6b9010644ecd4b7a9a3d",
+    "output/phase6/model_sensitivity.csv": "896d4e6f6f31545dca5b4dc77411b7c612d4958d07fc8498f1d4ea7ab652f979",
+    "output/runs/primary/metrics.csv": "0e8f083d5b98804c46c048115c522f7c0fd2208e36f1a4b647a06e7a81a3bcd5",
+    "output/runs/primary/bootstrap_intervals.csv": "333c25541972b4a11d1653b36d49b03f1d63a4584f03faaad21565f5699410b1"
+  },
+  "supporting_checks": {
+    "group_denominators_and_predictor_missingness": "passed",
+    "weighted_summary_denominators_and_mean_age_interpretation": "passed",
+    "primary_prevalence_and_bootstrap_counts": "passed",
+    "all_grouped_screen_scenarios_checked_separately": "passed",
+    "unavailable_intercept_metrics_not_fabricated": "passed",
+    "original_citation_ids_resolve_and_methodological_sources_match": "passed",
+    "no_participant_usability_claim": "passed"
+  },
+  "scope": "Numeric comparison against retained frozen CSVs; additional read-only interpretation/citation checks. Repeated grouped scenarios count individually. This does not refit models or independently verify publisher sources, participant usability or exact-page layout.",
+  "model_refitted": false,
+  "manuscript_edited": false,
+  "substantive_issues": []
+}

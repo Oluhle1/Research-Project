@@ -22,7 +22,7 @@ Existing reference metadata, complete titles and DOI strings were checked agains
 
 ## Remaining items
 
-- **Completed:** final DOCX/PDF build and inspection of all **six pages**, within the eight-page maximum. Five tables, two complete readable figures and 23 references numbered in first-appearance order passed review. All 162 numerical table comparisons passed against the frozen outputs. See [manuscript validation](manuscript_validation.json). The author should review the draft before submission.
+- **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - Independently verify the complete bibliography and original historical legal provisions when the publisher/official sources are accessible; retain the distinction between checks against the submitted bibliography and primary-source verification.
 - Keep **participant usability unestablished and deferred**. No participant study is required to finish this authorised revision, and no such study may be reported as completed. Any later participant evaluation would require its own consent and applicable ethics process.
 - Confirm the institution's required ethics determination before submission; no approval letter is present in the project record, so the manuscript must not claim approval was granted.

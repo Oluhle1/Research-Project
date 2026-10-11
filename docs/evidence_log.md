@@ -181,7 +181,11 @@ consented task protocol in `docs/usability_protocol.md`, followed by Submission 
 paper integration using these actual software/evaluation results. The paper has
 not been rewritten or submitted by this implementation task.
 
-## October plan Phase 6 — completed Submission 2 review draft, 11 October 2026
+## October plan Phase 6 — earlier six-page Submission 2 review draft, 11 October 2026
+
+This entry records the D-061 stage. The subsequent Submission 1 integration
+entry records the current eight-page build; the validation JSON is updated
+for that current build.
 
 The user directed us to return to the plan and improve Submission 2 while
 leaving participant usability testing out of the present revision. This is
@@ -230,3 +234,53 @@ mechanical citation numbering does not establish source validity. Ethics
 approval is not documented in the project record. No participant usability
 result or external submission is claimed. The previous four-page draft count
 is retained only in its historical close-out.
+
+## Submission 1 integration — eight-page expansion, 11 October 2026
+
+The user authorized integrating the reuploaded Submission 1 into Submission 2
+and expanding the paper to exactly eight pages with additional tables and
+diagrams. The reuploaded source is byte-identical to the repository baseline
+PDF, SHA-256
+`6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`.
+The integrated manuscript restores the approved original title, aim, objectives
+and review approach; earlier proposal/sample counts are attributed as context.
+It expands literature comparisons and data operationalization, without changing
+the frozen empirical cohort or substituting historical proposal counts for
+observed results.
+
+The final render copied to the tracked `paper/Jawe_OPG_nonreceipt_KZN.pdf`
+passed the check for **exactly eight Letter pages**. The manuscript contains
+**4,988 words** by whitespace splitting, with two columns, 10 pt body text,
+**9 pt tables** and 8 pt
+references. It contains
+**nine tables, four figures and 25 references numbered by first use**.
+The expansion adds literature comparisons, data-operationalization, weighted
+descriptive-characteristics and performance-uncertainty tables, plus conceptual
+framework and cohort-flow diagrams. The architecture and calibration figures
+remain. The independent read-only scientific audit verified **all 209 numerical
+table values**, comprising the previous 162 and 47 additional checks. These
+numerical and final render/page-count checks are new verification for the
+integrated manuscript, recorded in `paper/manuscript_validation.json`.
+
+Decision D-062 records the expanded manuscript scope. The screening code,
+frozen cohort, six-slope model, OOF predictions and sensitivity outputs remain
+unchanged; no model refit was performed. The recorded **220 automated app
+tests** and **50 Windows-report checks** were not rerun for the manuscript
+expansion. Those inherited checks and the previous 15,388-record parity retain
+their earlier documented functional scope and dates; they are distinct from
+the new 209-value numerical audit and final eight-page render check.
+
+Independent final visual review **passed all eight freshly rendered pages**;
+the root agent also reviewed all eight. All nine tables and four figures are
+legible and unclipped, captions are attached, and there are no blank pages or
+orphan headings. The final reference page is naturally partial. A duplicated
+Discussion paragraph was removed before this final render; the current
+word count is 4,988. Final PDF SHA-256:
+`0101c41c5332bc45def6f449ff5d5fbe88e86093adc88dfdf11e710b18548561`.
+
+Participant usability is still unperformed by user instruction; independent
+publisher/legal-notice
+verification and ethics confirmation remain outstanding. The random forest
+remains deferred and no new public deployment occurred. No external submission
+is claimed. The prior six-page, five-table, two-figure, 23-reference stage is
+preserved above as a historical record.

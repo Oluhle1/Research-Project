@@ -130,7 +130,7 @@ Statuses: **Proposed** / **Implemented** / **Verified**.
 | G-a7 | Leakage prevention | Receipt and derived labels cannot enter predictor preparation | Implemented | Evaluation case `forbidden_predictor_is_rejected` |
 | G-a8 | Repeatability | Two runs, same configuration: identical membership, reasons, folds, and numeric outputs within tolerance | Implemented | Two runs; all 14 files byte-identical. Recorded in `specification/phase7_artefact.md` |
 | G-a9 | Transparency | Status, reasons, rule version, and predictions can be inspected | Implemented | Run record; app result/reason grids and audit downloads; `examples/synthetic_report/` |
-| G-a10 | Streamlit | Secondary review interface | Implemented | `app/Home.py`; 220 automated tests, all 15,388 reference records match CLI, and user Windows synthetic workflow/export verification |
+| G-a10 | Streamlit | Secondary review interface | Implemented | `app/Home.py`; previously recorded 220 automated tests, all 15,388 reference records match CLI, and 50 Windows synthetic export checks. These functional checks were not rerun for manuscript expansion |
 | G-a11 | Interface user test | Locate a reason, name the scenario, read a calibration display | Proposed | Protocol in `docs/usability_protocol.md`; participant study not conducted and excluded from the current revision by user instruction. Screenshots/export checks are functional evidence, not user acceptance |
 | G-a12 | Synthetic public demo | Any example that leaves controlled storage is synthetic | Implemented | Built-in/downloadable synthetic template and `examples/synthetic_report/`; controlled local package excludes raw data/history. No public site deployed |
 
@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-061 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-062 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Revised `paper/Jawe_OPG_nonreceipt_KZN.pdf`: six Letter pages, two-column layout, 10 pt body and 8 pt tables/references; five tables, two figures and 23 references numbered by first use. `paper/manuscript_validation.json` records build/layout checks and 162 read-only numerical checks; independent source/notice verification and ethics documentation remain outstanding |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Final rendered `paper/Jawe_OPG_nonreceipt_KZN.pdf`: exactly eight Letter pages; 4,988 manuscript words; two-column layout, 10 pt body, 9 pt tables and 8 pt references; nine tables, four figures and 25 references numbered by first use. `paper/manuscript_validation.json` records current render/mechanical checks, 209 independently verified numerical values and passed independent visual review of all eight pages; publisher/legal-notice verification and ethics confirmation remain outstanding |
 
 ## Current summary
 
@@ -160,6 +160,10 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The revised six-page review draft passed the recorded
-build and layout checks. It has not been externally submitted; independent
-reference/legal-notice verification and ethics documentation remain outstanding.
+predictive validation. The current integrated review draft passed the final
+render check for exactly eight pages and final independent visual review of all
+eight pages.
+It has not been externally submitted;
+independent publisher/legal-notice verification and ethics confirmation remain
+outstanding. The earlier six-page draft is a historical stage, not the current
+deliverable.

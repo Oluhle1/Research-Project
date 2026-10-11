@@ -5,13 +5,13 @@
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The revised six-page manuscript review draft is built and checked. Participant usability has not been evaluated; independent source verification and ethics documentation remain outstanding.
+**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The Submission 1-integrated review draft passed the final render check for exactly eight pages and independent visual review of all eight pages. Participant usability has not been evaluated; independent publisher/legal-notice verification and ethics confirmation remain outstanding.
 
 **Created:** 2026-09-25; updated 2026-10-11 (Africa/Johannesburg).
 
 **Rule version:** `opg-kzn-primary-v1`. Retained research model: six slopes under D-052; packaged inference version `opg-kzn-six-slope-v1`.
 
-Submission 2 (`Agent.md`) asks for a completed empirical study written up as an IEEE conference paper of at most 8 pages. The original empirical outputs exist; the October revision adds conceptual framing and actual computational-artefact evaluation evidence. It does not rewrite Submission 1, change the frozen research results or refit the scientific model.
+Submission 2 (`Agent.md`) asks for a completed empirical study written up as an IEEE conference paper of at most 8 pages. The original empirical outputs exist; the October revision adds conceptual framing and actual computational-artefact evaluation evidence. The user subsequently authorized integrating Submission 1's approved title, aim, objectives, literature/review approach and proposal context into an exactly eight-page Submission 2. Original proposal counts are attributed as historical context, rather than presented as empirical cohort results. The integration does not alter the frozen research results or refit the scientific model.
 
 ---
 
@@ -529,15 +529,16 @@ force for the survey period and logged in D-033–D-035.
 Result cells were initially filled from study Phase 9, discussion cells from
 Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
 includes the October implementation evidence and the explicit untested-usability
-limit. The revised six-page manuscript build and mechanical citation/layout
-checks are recorded in `paper/manuscript_validation.json`; independent
-bibliographic and official-notice verification are not claimed complete.
+limit. The current eight-page integrated build and mechanical checks are
+recorded in `paper/manuscript_validation.json`; independent final visual review
+passed for all eight pages.
+Independent publisher and official-notice verification are not claimed complete.
 
 | Question | Method | Evidence / output | Result | Discussion | Conclusion |
 | --- | --- | --- | --- | --- | --- |
 | RQ1 | Primary screen; unweighted and weighted proportions; S1–S6 | Cohort flow; non-receipt table; sensitivity table | 67 of 1,013 apparently eligible adults (6.6% unweighted, 7.5% weighted) report non-receipt. Eligibility alternatives move the weighted figure to between 7.1% and 9.1%. | Reported receipt is usual under the observable rules. The rate is stable to the rand ceiling and more sensitive to the disability-grant exclusion. The unresolved group is larger than the non-recipient group. | About 7% of the screened adults report non-receipt. The disability-grant rule moves that figure more than the income ceiling, and the unresolved group is larger than the non-recipient group. |
 | RQ2 | Retained six-slope logistic model; household-grouped five-fold CV; metrics in Section 7.5; S7–S11 | Feasibility record; held-out predictions; metric table; calibration plot | Out-of-fold ROC area 0.75 (interval 0.69 to 0.81). Average precision 0.20 beside prevalence 0.066. Brier score 0.058 against 0.062 for an intercept-only prediction. | Sex and schooling carry the ranking. Settlement and welfare access are imprecise. A high score is still usually a recipient. The model does not explain non-receipt. | Sex and schooling rank non-receipt moderately. The probabilities improve only slightly on a constant risk, and they do not explain non-receipt. |
-| RQ3 | Shared rule engine; CLI reproduction; strict CSV validation; frozen inference; native UI/CLI parity; repeatability and export verification | Historical `evaluation_log.csv`; `docs/validation_summary.json`; `docs/windows_validation.json`; `examples/synthetic_report/`; current Results/Discussion sources | All 26 historical checks passed (22 screening, 2 schedule, 1 leakage, 1 trace); 220 automated tests passed; all 15,388 reference rows match CLI with zero mismatches; 50 checks of the user's Windows synthetic exports passed. | CLI and local Streamlit make screen status, receipt, reasons, model scores and provenance inspectable. App full-data scores are distinct from held-out research evaluation. Functional tests and one user's local workflow do not establish nontechnical usability or broad acceptance. | The historical research workflow is reproducible and the local interface is functionally verified. Participant usability was not tested; no official eligibility or external predictive-validation claim follows. |
+| RQ3 | Shared rule engine; CLI reproduction; strict CSV validation; frozen inference; native UI/CLI parity; repeatability and export verification | Historical `evaluation_log.csv`; `docs/validation_summary.json`; `docs/windows_validation.json`; `examples/synthetic_report/`; current Results/Discussion sources | All 26 historical checks passed (22 screening, 2 schedule, 1 leakage, 1 trace); previously recorded 220 automated tests passed, all 15,388 reference rows match CLI with zero mismatches, and 50 checks of the user's Windows synthetic exports passed. These functional checks were not rerun for manuscript expansion. | CLI and local Streamlit make screen status, receipt, reasons, model scores and provenance inspectable. App full-data scores are distinct from held-out research evaluation. Functional tests and one user's local workflow do not establish nontechnical usability or broad acceptance. | The historical research workflow is reproducible and the local interface is functionally verified. Participant usability was not tested; no official eligibility or external predictive-validation claim follows. |
 
 ## 14. Original study phase map
 
@@ -574,7 +575,11 @@ G17–G22 were closed in decisions D-049 to D-051. Phase 6 compared the eligibil
 
 Stratum cannot be constructed. That remains a limit on design-based variance.
 
-## 16. October plan Phase 6 — completed manuscript review draft
+## 16. October plan Phase 6 — earlier six-page review draft, 11 October 2026
+
+This section records the earlier D-061 stage. Its six-page counts and 162
+numerical checks are historical; Section 17 describes the current integrated
+eight-page build. The validation JSON is updated for the current build.
 
 The revision strengthens the predictor-to-concept mapping in
 `paper/conceptual_framework.md`, updates `paper/results.md` and
@@ -600,3 +605,37 @@ instruction. Claims stop at observed functional evidence; the previously recorde
 Independent verification of bibliographic sources and the official notices
 remains outstanding, and ethics approval is not documented in the project
 record. This is a completed review draft, not an external submission.
+
+## 17. Submission 1 integration and eight-page expansion, 11 October 2026
+
+The user authorized integrating the uploaded Submission 1 into Submission 2,
+restoring its approved title, aim, objectives, review approach and attributed
+proposal context while expanding literature comparisons and data
+operationalization. The uploaded PDF matches the repository baseline source
+byte-for-byte (SHA-256
+`6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`).
+Decision D-062 records this change in manuscript scope; it does not revise the
+historical screen, cohort, frozen six-slope model or sensitivity results.
+
+The final rendered `paper/Jawe_OPG_nonreceipt_KZN.pdf` passed the check for
+exactly eight Letter pages. The manuscript contains 4,988 words,
+with two columns, 10 pt body text, 9 pt tables and 8 pt references. It contains
+nine tables, four figures and 25 references numbered by first use. Added
+content includes literature comparisons, data operationalization, weighted
+descriptive characteristics and performance-uncertainty tables, plus conceptual
+framework and cohort-flow diagrams. The independent read-only scientific audit
+verified all 209 numerical table values: the previous 162 plus 47 additional
+checks.
+`paper/manuscript_validation.json` records the current build and audit evidence.
+Independent final visual review passed for all eight freshly rendered pages:
+all nine tables and four figures are legible and unclipped, captions remain
+attached, and there are no blank pages or orphan headings. The final reference
+page is naturally partial. The final PDF SHA-256 is
+`0101c41c5332bc45def6f449ff5d5fbe88e86093adc88dfdf11e710b18548561`.
+
+The recorded 220-test application suite and 50 Windows-report checks were not
+rerun for this writing task; they retain their earlier functional scope and dates.
+Participant usability remains unperformed by user direction, the random forest
+remains deferred and no new public deployment occurred. Independent publisher
+and legal-notice verification and ethics confirmation remain outstanding.
+The integrated manuscript is a review draft; no external submission is claimed.

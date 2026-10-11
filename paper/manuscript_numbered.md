@@ -1,4 +1,4 @@
-# Reported Non-Receipt of the Older Person’s Grant among Apparently Eligible Adults in KwaZulu-Natal
+# Interpretable Prediction of Reported Older Person’s Grant Non-Receipt Among Apparently Eligible Adults in KwaZulu-Natal
 
 Oluhle Jawe
 ICT Honours (21634436), PRIC401
@@ -12,42 +12,79 @@ Keywords—Older Person’s Grant, reported non-receipt, administrative burden, 
 
 The Older Person’s Grant supports older adults and their households in South Africa. Research in KwaZulu-Natal describes its role in household livelihoods [1], while recent work examines protection during a crisis [2]. Receipt patterns and barriers to accessing grants are separate questions [3], [4]. A transparent survey screen can identify adults who appear to satisfy observable conditions and nevertheless report non-receipt, without establishing their legal entitlement.
 
-This study preserves three research questions. RQ1 asks what proportion of the screened population reports OPG non-receipt and how it changes under alternative eligibility assumptions. RQ2 asks how well a small logistic model distinguishes recipients from non-recipients and estimates probabilities in held-out households. RQ3 asks whether a computational artefact can reproduce the analysis and clearly explain screening decisions and model outputs. The contribution combines a versioned screen, survey-weighted description, internally validated prediction and a local research interface. “Apparently eligible” refers to observable research rules, rather than a South African Social Security Agency decision under the full legal test [5].
+Age eligibility, resource eligibility and reported receipt are different states. A person reporting no OPG may have resources above the programme threshold, may not have applied, may await a decision, or may have incomplete survey information [5]. Income, marital circumstances and missing partner resources can therefore change who enters the apparently eligible denominator. The research problem is both substantive and measurement-related: an explicit population definition is needed before either a non-receipt percentage or a prediction can be interpreted.
+
+The aim is to develop and evaluate an interpretable computational artefact for analysing reported OPG non-receipt among apparently eligible older adults in KwaZulu-Natal using LCS 2014/2015. The four objectives are to document the person-level cohort, describe non-receipt using person weights, internally validate a parsimonious probability model, and evaluate the artefact’s correctness, reproducibility and clarity. Three research questions organise the completed study. RQ1 asks what proportion of the screened population reports OPG non-receipt and how it changes under alternative eligibility assumptions. RQ2 asks how well a small logistic model distinguishes recipients from non-recipients and estimates probabilities in held-out households. RQ3 asks whether a computational artefact can reproduce the analysis and clearly explain screening decisions and model outputs. The contribution combines a versioned screen, survey-weighted description, internally validated prediction and a local research interface. “Apparently eligible” refers to observable research rules, rather than a South African Social Security Agency decision under the full legal test [5].
 
 ## II. Related Work and Conceptual Framework
 
-### A. Grant access and administrative burden
+### A. Review approach, programme context and research gap
 
-Administrative-burden theory distinguishes learning, compliance and psychological costs in citizen–state interactions [6]. South African grant studies describe documentation, repeated visits, interruptions and difficult encounters with administration [7], [8], [9], [10]. Child Support Grant research in KwaZulu-Natal and elsewhere motivates possible access mechanisms [11], [12]; it does not establish their prevalence or effects among older OPG applicants. Digital access conditions may introduce further constraints [13]. Receiving a grant can coexist with substantial access costs, so a low non-receipt rate does not demonstrate that burden is small.
+The approved proposal reported a structured review with thematic narrative synthesis. Searches covered Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst resources, using social assistance, eligibility, take-up, non-receipt, exclusion and prediction concepts. Its reported selection was 511 records, 136 duplicates removed, 375 title/abstract screenings, 222 exclusions, 153 full-text assessments and 55 retained sources after 98 further exclusions. These are earlier reported counts, not a new search or 55 OPG-specific studies. Programme, setting, unit and outcome guided synthesis; heterogeneous access stages preclude a pooled estimate.
 
-Four concepts remain distinct. Statutory eligibility is legal entitlement, which LCS cannot fully establish. Observable eligibility is a result of explicit age, resources, partnership and grant-compatibility rules. Reported receipt is a survey answer among screen-passing adults with resolved responses: non-receipt is Y = 1 and receipt Y = 0. A predicted probability estimates that reported outcome from available characteristics. Missing screen information and contradictory receipt answers remain unresolved; they do not become non-receipt events. Conditioning on the screen defines a selected population rather than all older adults or grant applicants.
+Table I distinguishes evidence by programme and analytical unit. Ralston’s age-eligible rural Agincourt adults [3] and Godfrey’s Msunduzi household proportions [4] differ from a resource-screened provincial person-level cohort. Livelihood/crisis studies explain OPG’s importance [1], [2], while other-grant studies distinguish contact, application, receipt and payment continuity [6], [7], [8].
 
-### B. Translating concepts into predictors and an artefact
+TABLE: Table I. Evidence scope informing the study
+| Study | Programme/unit/outcome | Contribution and transfer limit |
+| --- | --- | --- |
+| Ralston et al. [3] | Pension; rural older person; receipt | Person-level precedent; age eligibility and Agincourt setting differ from the provincial resource screen. |
+| Godfrey et al. [4] | Grants; Msunduzi household; receipt proportions | Local context; household associations cannot be transferred directly to an individual outcome. |
+| Case et al. [6]; Zembe-Mkabile et al. [7] | CSG; enquiry/application and infant receipt | Separate access stages; other grant and age groups do not estimate OPG non-receipt. |
+| Heinrich and Brill [8]; Gibbs et al. [9]; Majola and Maharaj [10] | CSG; interruption and application experiences | Motivate burden mechanisms; receipt can coexist with costly access. |
+| Gazeaud [11] | Proxy targeting; resource measurement | Motivates sensitivity to income assumptions; Tanzania does not establish South African thresholds. |
 
-Table I connects the five source predictors to the literature. They are limited proxies for circumstances accompanying access. No direction of association is assumed. Schooling does not measure knowledge of OPG; office distance does not record an application journey; sex does not measure discrimination. The data lack application histories, awareness, documents, actual travel expenditure, waiting time, stigma and stress. Associations cannot identify learning, compliance or psychological mechanisms.
+Gazeaud’s measurement-error analysis motivates examining resource assumptions without quantifying LCS error or defining South African legal eligibility [11]. Mabala’s logistic analysis concerns a different grant and young applicants, illustrating why the population and event must be stated before comparing predictive findings [12]. The research gap is the integration of transparent screening, weighted description, grouped prediction and inspectable software for this historical KwaZulu-Natal cohort. It does not imply that OPG receipt or grant access has never been studied.
 
-TABLE: Table I. Literature-informed predictors and their limits
+### B. Grant access and administrative burden
+
+Administrative-burden theory distinguishes learning, compliance and psychological costs in citizen–state interactions [13]. South African grant studies describe documentation, repeated visits, interruptions and difficult encounters with administration [8], [9], [10], [14]. Child Support Grant research in KwaZulu-Natal and elsewhere motivates possible access mechanisms [6], [7]; it does not establish their prevalence or effects among older OPG applicants. Digital access conditions may introduce further constraints [15]. Receiving a grant can coexist with substantial access costs, so a low non-receipt rate does not demonstrate that burden is small.
+
+Statutory entitlement, observable eligibility, reported receipt and prediction remain distinct. LCS cannot establish full legal entitlement. The research screen applies observable age, resources, partnership and grant-compatibility rules; among PASS adults with resolved answers, non-receipt is Y = 1 and receipt Y = 0. Prediction concerns that reported outcome. Missing screen information and contradictory receipt answers remain unresolved. The screen therefore selects a population narrower than all older adults or applicants.
+
+### C. Translating concepts into predictors and an artefact
+
+Table II connects five source predictors to the literature without assuming association directions. Schooling does not measure OPG awareness; office distance does not record an application journey; sex does not measure discrimination. Applications, documents, travel expenditure, waiting, stigma and stress are unmeasured, preventing identification of administrative-burden mechanisms.
+
+FIGURE: figures/conceptual_framework.png | Fig. 1. Conceptual measurement framework. Theory motivates proxy selection; arrows denote measurement and research workflow, rather than estimated causal effects. Legal entitlement is incompletely observed.
+
+TABLE: Table II. Literature-informed predictors and their limits
 | Predictor | Conceptual connection | Observable coding and limit |
 | --- | --- | --- |
 | Age | Demographic receipt patterns [3] | Per decade above 60; no health or application history. |
 | Sex | Demographic differences [3], [4] | Female vs male; no social-role or discrimination measure. |
-| Schooling | Possible information resources [6], [9] | Below Grade 7 vs higher; no awareness or literacy measure. |
-| Settlement | Service and access context [10], [11], [13] | Two contrasts vs urban formal; no office-capacity measure. |
-| Office distance | Potential access effort [9], [10] | At least 5 km/unavailable vs nearer; no visits or travel costs. |
+| Schooling | Possible information resources [10], [13] | Below Grade 7 vs higher; no awareness or literacy measure. |
+| Settlement | Service and access context [6], [14], [15] | Two contrasts vs urban formal; no office-capacity measure. |
+| Office distance | Potential access effort [10], [14] | At least 5 km/unavailable vs nearer; no visits or travel costs. |
 
-The artefact operationalises these distinctions through separate screen statuses, receipt categories and model probabilities. Person-weighted estimates address prevalence in the screened survey population; household-held-out predictions address internal predictive performance. Frozen application scores are a third output. A probability never changes screening or observed receipt. Correctness and reproducibility can be tested computationally; participant usability requires human evidence. At low event prevalence, precision and calibration must accompany ROC area [14], [15]. Sample size and grouped validation constrain interpretation [16], [17]. Prediction-reporting principles from TRIPOD inform transparent reporting rather than a claim of clinical-checklist compliance [18].
+Figure 1 places the observable screen before the separate receipt outcome. Administrative-burden concepts motivate predictor selection, while the survey’s lack of mechanism measures limits causal interpretation. The artefact operationalises these distinctions through separate screen statuses, receipt categories and model probabilities. Person-weighted estimates address prevalence in the screened survey population; household-held-out predictions address internal predictive performance. Frozen application scores are a third output. A probability never changes screening or observed receipt. Correctness and reproducibility can be tested computationally; participant usability requires human evidence. At low event prevalence, precision and calibration must accompany ROC area [16], [17]. Sample size and grouped validation constrain interpretation [18], [19]. Prediction-reporting principles from TRIPOD inform transparent reporting rather than a claim of clinical-checklist compliance [20].
 
 ## III. Methods
 
 ### A. Data and study population
 
-The person, household and person-income files of Statistics South Africa’s LCS 2014/2015 were interpreted using the released metadata, questionnaire and COICOP codes [19], [20], [21]. The frame is sampled KwaZulu-Natal residents aged 60 or older in completed years; the person is the analytical unit. Records were linked using survey person and household keys, with duplicate, unmatched and row-count checks. The household survey does not represent institutionalised older adults. Historical screening uses the interview month, not present-day thresholds.
+The person, household and person-income files of Statistics South Africa’s LCS 2014/2015 were interpreted using the released metadata, questionnaire and COICOP codes [21], [22], [23]. The frame is sampled KwaZulu-Natal residents aged 60 or older in completed years; the person is the analytical unit. Records were linked using survey person and household keys, with duplicate, unmatched and row-count checks. The household survey does not represent institutionalised older adults. Historical screening uses the interview month, not present-day thresholds. Age and sex underwent unflagged hot-deck imputation before release; affected records cannot be isolated. This release-level treatment is distinct from subsequent training-fold predictor imputation.
+
+Table III separates measurement roles. Aggregating income items before linkage avoids duplicate person rows. Household/spouse keys supply context rather than predictors. Receipt defines the outcome; weights define description. The upload contract preserves these boundaries: accepting a screening field does not make it a model predictor.
+
+TABLE: Table III. Data operationalisation and leakage boundaries
+| Data concept | LCS measurement | Analytical role and restriction |
+| --- | --- | --- |
+| Person/household keys | Household and person identifiers | Linkage, spouse context and folds; no model or public-report keys. |
+| Age/province | Completed years; province code | Age-60+ KZN frame; age also supplies one slope. |
+| Partnership | Marital/resident-partner responses; spouse pointer | Resource rule and spouse link; no primary marital slope. |
+| Resources | Annualised income items and source schedule | Private-resource proxy; screening only; no household allocation. |
+| OPG receipt | General grant/OPG items with skips | Outcome after PASS; receipt/derived labels are not predictors. |
+| Other/prior grants | Own grant items; preceding-year OPG income | Compatibility/period checks; not predictors. |
+| Schooling/sex/place | Education, sex, settlement, office distance | Primary features; fitted imputation stays within training. |
+| Weight/design | Person weight; derived PSU | Description/named sensitivities; no primary model features. |
+
+NOTE: Survey measurements are interpreted using the released metadata, questionnaire and COICOP definitions [21], [22], [23]. Upload names are normalized representations of these concepts. Screening/outcome fields are not imputed using predictive preprocessing.
 
 ### B. Final observable rules and receipt outcome
 
 The resource proxy sums nominal annualised person-attributable income, excluding social-assistance codes to avoid making grant receipt itself a resource disqualification. Household totals are not allocated to individuals. A missing income row represents zero only when the released income-source convention supports no listed source; unexplained absence remains unresolved. Asset acquisitions are not an assessable asset stock. The proxy does not observe the complete statutory asset test, deemed income or permitted deductions.
 
-The income ceiling is the private annual resource level at which the grant formula still pays R100 monthly. From the April 2014 maximum it is R61,800 for a single person and R123,600 for a couple; from April 2015 it is R64,680 and R129,360 [22], [23]. The interview-month ceiling applies, and an amount exactly at it passes. These are formula-derived research ceilings, rather than an unqualified assertion that income alone establishes statutory eligibility. Alternative threshold and income definitions are reported separately.
+The income ceiling is the private annual resource level at which the grant formula still pays R100 monthly. From the April 2014 maximum it is R61,800 for a single person and R123,600 for a couple; from April 2015 it is R64,680 and R129,360 [24], [25]. The interview-month ceiling applies, and an amount exactly at it passes. These are formula-derived research ceilings, rather than an unqualified assertion that income alone establishes statutory eligibility. Alternative threshold and income definitions are reported separately.
 
 A married adult is screened using combined applicant and spouse resources only when a resident spouse can be linked and relationship checks pass. Never-married, widowed and divorced adults use the single ceiling. Living-together, separated, absent-spouse and unresolvable-link cases remain unresolved in the primary analysis. This conservative choice avoids assuming that unavailable partner resources are zero or that ambiguous partners are single; named sensitivities relax it. An own disability or war-veterans grant fails the primary compatibility rule. Caregiver child grants and grant-in-aid do not exclude an adult or define the OPG outcome. A known failure takes precedence over unresolved items while retaining every reason.
 
@@ -59,7 +96,7 @@ RQ1 reports both the count proportion and the released person-weighted ratio p =
 
 ### D. Predictive specification and internal validation
 
-The primary estimator is unweighted logistic regression without class balancing, stepwise selection or a decision threshold. Age is linear per decade above 60; reference levels are male, Grade 7 or above, urban formal and a welfare office nearer than 5 km. Settlement supplies two slopes, giving six slopes plus an intercept from five source domains. In the attempted seven-slope specification, rural formal settlement had one non-recipient and no training events in the fold that held that person out. Traditional and rural formal settlement were therefore combined in logged decision D-052. This addresses event support and does not assert theoretical equivalence. Marital status defines screening context and is not a primary predictor. Income, receipt and derived outcome labels are excluded from predictor preparation.
+The primary estimator is unweighted logistic regression without class balancing, stepwise selection or a decision threshold. Its inspectable terms describe conditional associations within the screened cohort. Age is linear per decade above 60; reference levels are male, Grade 7 or above, urban formal and an office nearer than 5 km. Five domains supply six slopes plus an intercept because settlement contributes two contrasts. In the attempted seven-slope model, rural formal had one non-recipient and no training events in the fold holding that person out. Logged decision D-052 combined traditional and rural formal for event support, without asserting theoretical equivalence. Marital status defines screening; income, receipt, derived labels and marital status are not primary predictors.
 
 Five folds keep all members of a household together, stratifying households by whether any member reports non-receipt, with seed 201415. Predictor imputation uses training-fold statistics after structural skips are interpreted; eligibility and outcomes are never imputed. Each included adult receives one out-of-fold (OOF) probability from a model that did not train on their household. Pooled unweighted metrics are average precision, ROC area, Brier score, calibration-in-the-large and calibration slope. The intercept-only reference predicts each training fold’s event rate. Intervals resample households 1,000 times around fixed OOF predictions without refitting; they omit uncertainty from repeating model development.
 
@@ -73,7 +110,7 @@ The offline command, python analysis/run_study.py, links the three survey files,
 
 The local Streamlit interface has five sections: study context, upload/validation, eligibility/receipt, prediction/model and export/reproducibility. It accepts the normalized historical opg-screen-v1 CSV, retaining household members needed for spouse context. Validation rejects incompatible schema/context, duplicate keys, invalid categories and malformed numeric values, with limits of 20 MiB and 50,000 rows. Uploads use session memory. Generated row labels replace submitted identifiers in displays and reports; raw income and household pointers are omitted. Filters affect inspected/exported subsets while summary proportions retain the full uploaded resolved-pass denominator.
 
-FIGURE: figures/architecture.png | Fig. 1. Research and local-interface paths. The shared screen preserves measurement decisions; held-out evaluation and frozen full-data scoring remain separate.
+FIGURE: figures/architecture.png | Fig. 2. Research and local-interface paths. The shared screen preserves measurement decisions; held-out evaluation and frozen full-data scoring remain separate.
 
 The app reuses the original rule engine and loads frozen coefficients and preprocessing; uploads never trigger fitting. Only the supported resolved-pass cohort is scored. Partly missing predictors use frozen training statistics; a record with all categorical predictors absent remains unscored. Integrity checks bind model/evaluation files to scientific and feature code. Historical aggregate OOF evaluation is labelled separately from full-data fitted upload scores with unknown training overlap. CSV, JSON and report-ZIP exports include classifications, reasons, supported scores, versions and an audit manifest. The downloadable MVP package uses synthetic data and excludes raw survey files, historical respondent outputs and Git history.
 
@@ -83,9 +120,9 @@ Evaluation examines independently specified synthetic screening cases, forbidden
 
 ### A. Cohort and reported non-receipt
 
-The source contains 15,388 people in 3,686 KwaZulu-Natal households. Table II records the final denominator. Among 117 failures, 93 exceed the income ceiling and 25 report an own disability grant, with one overlapping record; no war-veterans grant is reported. Among 187 unresolved adults, 105 are married, mostly with a non-resident spouse, and 63 are recorded as living together. The unresolved group exceeds the non-recipient group.
+The source contains 15,388 people in 3,686 KwaZulu-Natal households. Table IV records the final denominator. Among 117 failures, 93 exceed the income ceiling and 25 report an own disability grant, with one overlapping record; no war-veterans grant is reported. Among 187 unresolved adults, 105 are married, mostly with a non-resident spouse, and 63 are recorded as living together. The unresolved group exceeds the non-recipient group.
 
-TABLE: Table II. KwaZulu-Natal cohort flow
+TABLE: Table IV. KwaZulu-Natal cohort flow
 | Step | People | Households |
 | --- | --- | --- |
 | KwaZulu-Natal respondents | 15,388 | 3,686 |
@@ -98,13 +135,28 @@ TABLE: Table II. KwaZulu-Natal cohort flow
 
 NOTE: Household counts are distinct within each row and can overlap between rows.
 
-Reported non-receipt is 67/1,013, or 6.61% unweighted and 7.49% person-weighted. The approximation using 345 derived PSUs has standard error 1.3 percentage points and approximate normal 95% interval 4.9%–10.0%. All 1,013 pass-group answers are resolved and agree with preceding-year OPG income; those checks therefore produce no change. Men comprise 34/67 non-recipients versus 260/946 recipients; Grade 7 or above is recorded for 49/67 versus 290/946. These are sample composition comparisons, not causal effects.
+FIGURE: figures/cohort_flow.png | Fig. 3. Observed person-level cohort construction. FAIL and UNRESOLVED are retained outside the final denominator. All 1,013 PASS records have resolved receipt; the three screening groups are mutually exclusive.
+
+Reported non-receipt is 67/1,013, or 6.61% unweighted and 7.49% person-weighted. The approximation using 345 derived PSUs has standard error 1.3 percentage points and approximate normal 95% interval 4.9%–10.0%. All 1,013 pass-group answers are resolved and agree with preceding-year OPG income; those checks therefore produce no change. Table V compares all five predictor domains before imputation. The descriptive weights change the composition of each receipt group; those percentages are distinct from within-cohort non-receipt prevalence and predictive probabilities.
+
+TABLE: Table V. Characteristics by reported receipt
+| Characteristic | Recipients: U; W | Non-recipients: U; W |
+| --- | --- | --- |
+| Age, mean years | 70.4; 69.8 | 67.3; 68.4 |
+| Female | 686 (72.5%); 70.4% | 33 (49.3%); 53.4% |
+| Grade 7 or above | 290 (30.7%); 33.0% | 49 (73.1%); 80.8% |
+| Urban formal settlement | 284 (30.0%); 36.2% | 38 (56.7%); 66.2% |
+| Welfare office ≥5 km/unavailable | 717 (75.8%); 72.0% | 34 (50.7%); 40.3% |
+
+NOTE: Recipients n = 946; non-recipients n = 67. U reports unweighted means, or counts and within-group percentages; W reports person-weighted means/percentages. Denominators retain missing predictors: schooling is unassigned for three recipients; welfare access is missing for 14 recipients/four non-recipients. These pre-imputation summaries are descriptive and have no inferential intervals.
+
+Non-recipients are younger on the unweighted mean, more often men, more educated and more often urban formal residents in this selected cohort. Weighted mean ages are closer than unweighted means. These comparisons can reflect resources and selection into the observable denominator, rather than a measured access mechanism. They do not establish that changing a characteristic would change receipt.
 
 ### B. Screening sensitivities
 
-Table III covers all screening assumptions, grouping only scenarios with identical results. Relative to primary, S1b/S1d add two people and two events. S2a, S2b, S2c and S2d add 59/4, 60/2, 8/0 and 68/2 people/events respectively. S3 adds 19 people and 15 events; S4b removes six people without removing events. Weighted prevalence ranges from 7.12% to 9.06%, with grant compatibility producing the largest change. Comparable AUC does not imply unchanged populations or probability error.
+Table VI covers all screening assumptions, grouping only scenarios with identical results. Relative to primary, S1b/S1d add two people and two events. S2a, S2b, S2c and S2d add 59/4, 60/2, 8/0 and 68/2 people/events respectively. S3 adds 19 people and 15 events; S4b removes six people without removing events. Weighted prevalence ranges from 7.12% to 9.06%, with grant compatibility producing the largest change. Comparable AUC does not imply unchanged populations or probability error.
 
-TABLE: Table III. Screen sensitivities and OOF performance
+TABLE: Table VI. Screen sensitivities and OOF performance
 | ID | N/events | Unw.% | Wtd.% | AUC | Brier | Slope |
 | --- | --- | --- | --- | --- | --- | --- |
 | S0 | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
@@ -123,13 +175,26 @@ NOTE: Events are reported non-recipients. Unw./Wtd. are unweighted/person-weight
 
 ### C. Held-out prediction and modelling sensitivities
 
-Primary household-held-out AUC is 0.752 (fixed-prediction household-resample interval 0.69–0.81). Average precision is 0.203 beside prevalence 0.066. Brier score is 0.0578 versus 0.0618 for the intercept-only reference. Calibration-in-the-large is 0.020 (interval −0.32–0.27); slope is 0.836 (0.59–1.13). All five retained folds converge. Figure 2 shows five quantile bins: the highest has mean prediction 0.188 and 35/203 events (17.2%); the lowest has mean prediction 0.0107 and 3/206 events (1.5%). Most adults even in the highest bin report receipt.
+Table VII reports primary held-out performance and fixed-prediction uncertainty. All five retained folds converge. Figure 4 shows quantile calibration: the highest bin has mean prediction 0.188 and 35/203 events (17.2%); the lowest has mean prediction 0.0107 and 3/206 events (1.5%). Most adults in even the highest bin report receipt.
 
-FIGURE: figures/calibration.png | Fig. 2. Unweighted OOF calibration from frozen quantile-bin aggregates. Labels give events/people; the diagonal denotes exact calibration. The displayed range is 0–0.22.
+TABLE: Table VII. Primary held-out performance and uncertainty
+| Metric | Logistic: estimate [95% interval] | Intercept-only: estimate [95% interval] |
+| --- | --- | --- |
+| ROC area | .752 [.687–.814] | — |
+| Average precision | .203 [.139–.292] | — |
+| Brier score | .0578 [.0448–.0706] | .0618 [.0467–.0758] |
+| Calibration-in-the-large | .020 [−.316–.273] | .0001 [—] |
+| Calibration slope | .836 [.591–1.133] | — |
 
-The full-cohort fit gives odds ratios 0.39 for women versus men (Wald interval 0.23–0.66) and 0.24 for schooling below Grade 7 versus higher (0.13–0.43). Age, settlement and welfare-distance intervals include 1. These are screened-sample associations from the full-data fit, not cross-validated effects or causes. Table IV distinguishes further model and validation assumptions.
+NOTE: Pooled unweighted OOF predictions: 1,013 people, 67 events. Intervals are percentile bounds from 1,000 household resamples of fixed predictions; all reported intervals have zero invalid resamples. Models and imputation are not refitted. The intercept-only reference uses training-fold prevalence. Dashes indicate unavailable metrics/intervals in the frozen output, rather than zero or asserted chance performance.
 
-TABLE: Table IV. Model/validation sensitivities
+Average precision exceeds cohort prevalence, but Brier improvement is small and the slope interval includes 1 and substantially lower values. Household grouping prevents training on co-residents [19]; fixed-prediction resampling does not repeat model development.
+
+FIGURE: figures/calibration.png | Fig. 4. Unweighted OOF calibration from frozen quantile-bin aggregates. Labels give events/people; the diagonal denotes exact calibration. The displayed range is 0–0.22.
+
+The full-cohort fit gives odds ratios 0.39 for women versus men (Wald interval 0.23–0.66) and 0.24 for schooling below Grade 7 versus higher (0.13–0.43). Age, settlement and welfare-distance intervals include 1. These are screened-sample associations from the full-data fit, not cross-validated effects or causes. Table VIII distinguishes further model and validation assumptions.
+
+TABLE: Table VIII. Model/validation sensitivities
 | Scenario | N/events | Unw.% | AUC | Brier | Slope |
 | --- | --- | --- | --- | --- | --- |
 | S0 primary | 1,013/67 | 6.61 | .752 | .0578 | .836 |
@@ -145,9 +210,9 @@ Across screen, model and validation sensitivities AUC ranges from 0.736 to 0.763
 
 ### D. Actual artefact evidence
 
-Table V distinguishes evaluation layers. The original 26 passing checks comprise 22 synthetic screening cases, two income-schedule checks, one forbidden-predictor check and one run-trace check. They are not 26 screening decisions or 26 participant tasks. Income exactly at a ceiling passes and one cent above fails; unavailable spouse resources remain unresolved; caregiver grants do not determine OPG labels. Two research runs produced the same 14 files byte for byte, preserving the frozen cohort checksum.
+Table IX separates verification layers. The original 26 checks comprise 22 synthetic screening cases, two income-schedule checks, one forbidden-predictor check and one run trace. Boundary, spouse, grant and receipt cases match their specified decisions. Two research runs produced the same 14 files byte for byte, preserving the frozen cohort checksum.
 
-TABLE: Table V. Completed verification and its scope
+TABLE: Table IX. Completed verification and its scope
 | Evidence | Observed result | What it supports |
 | --- | --- | --- |
 | Original checks | 26/26, including 22 screen cases | Rules, schedules, predictor exclusion and tracing. |
@@ -157,29 +222,27 @@ TABLE: Table V. Completed verification and its scope
 | Owner Windows exports | 50/50 checks of six files | Synthetic local workflow and report consistency. |
 | Participant usability | Not conducted | No representative task-time, error or ease evidence. |
 
-The owner’s Windows walkthrough produced the six intended synthetic classifications, two resolved passes, one recipient and one non-recipient. Both scored records have probability 0.1853 because their predictor values are identical. The example’s 50% rate is invented and does not estimate survey prevalence. Screenshots and six extracted report files were supplied; the ZIP container was not independently inspected. Regenerated data outputs, hashes, summary values, versions and model/source provenance passed 50 checks. This is functional/export evidence, rather than independent execution attestation or representative usability. No recruited-user task results, times, error rates or ease ratings are available.
+The Windows walkthrough produced six synthetic classifications, two resolved passes, one recipient and one non-recipient. Both scores are 0.1853 because predictors match; the invented 50% rate is not survey prevalence. Screenshots and six extracted report files, rather than the ZIP container, were supplied. Regenerated outputs, hashes, summaries and model/source provenance passed 50 checks. This supports functional/export consistency, not independent execution attestation or representative usability; recruited-user task times, errors and ease ratings are unavailable.
 
 ## VI. Discussion
 
 ### A. Denominator and grant access
 
-Reported receipt is the usual outcome within these observable rules, but the result depends on the denominator. The 187 unresolved adults exceed the 67 non-recipients. The estimate describes adults whose resources, partnerships and grant answers can be resolved, rather than everyone who might qualify legally. Partnership assumptions change headcounts more than prevalence because most added adults report receipt. Retaining own disability-grant recipients raises weighted non-receipt more than threshold alternatives. The systematic sensitivities expose these choices instead of presenting one screening definition as certain.
-
-Prior receipt studies show demographic patterns [3], [4]; studies of other grants describe costly application and payment processes [6], [10], [11]. The observed high receipt rate cannot establish that these costs are small, because recipients may also experience them and LCS does not measure the relevant mechanisms. The approximate interval around the weighted rate remains wide and omits strata; uncertainty about unresolved screening is a different limitation from sampling error.
+Receipt is usual within these rules, but the denominator matters: 187 unresolved adults exceed 67 non-recipients. The estimate concerns adults whose resources, partnerships and answers can be resolved, rather than everyone legally entitled. Partnership alternatives change headcounts more than prevalence; retaining disability-grant recipients changes weighted prevalence more than threshold alternatives. Sensitivities expose this dependence. High receipt cannot demonstrate low administrative burden because recipients may also face costs [6], [13], [14]. The approximate interval omits strata; unresolved screening is a separate uncertainty.
 
 ### B. Meaning and limits of prediction
 
-The five domains provide moderate ranking information and a small improvement in probability error. Average precision must be interpreted beside the low event prevalence [14]. AUC alone would overstate how reliably a high score identifies a non-recipient. The slope interval is too wide for a strong claim about probability scaling with 67 events [15], [16]. Full-data odds ratios concentrate information in sex and schooling; the place/access terms are imprecise.
+The five domains provide moderate ranking information and a small improvement in probability error. Average precision must be interpreted beside the low event prevalence [16]. AUC alone would overstate how reliably a high score identifies a non-recipient. The slope interval is too wide for a strong claim about probability scaling with 67 events [17], [18]. Full-data odds ratios concentrate information in sex and schooling; the place/access terms are imprecise.
 
 Schooling was a plausible information-resource proxy, yet lower schooling accompanies reported receipt in the screened cohort. It may mark fewer alternative resources after screening, or conditioning on the screen may alter associations. The survey cannot distinguish those explanations. Recorded schooling, distance and settlement do not directly test administrative-burden theory. No fitted coefficient determines legal eligibility or identifies why a person reports non-receipt. Weighting descriptions, weighting a sensitivity fit and weighting existing performance metrics answer different questions; their numerical differences do not demonstrate that one model is superior.
 
 ### C. What RQ3 establishes
 
-The CLI and Streamlit interface make classifications, reason codes and probabilities inspectable while preserving provenance. Record-level parity and repeated bytes support correctness and reproducibility. Frozen JSON reload agreement supports application inference, while the OOF evaluation remains the evidence for internal predictive performance. A user-uploaded score can overlap training records and does not create a held-out test. The owner walkthrough confirms the local synthetic upload-to-export flow. It cannot establish participant usability, clarity for nontechnical users or acceptance. RQ3 is supported for reproducibility and computational inspectability; human interpretation remains untested. The documented synthetic-data usability protocol is retained as future work.
+The CLI and interface expose classifications, reasons and probabilities with provenance. Parity and repeated bytes support correctness/reproducibility; JSON reload agreement supports inference, while OOF evaluation supports internal prediction. Uploaded records may overlap training data. The owner walkthrough confirms the synthetic workflow, not participant usability or nontechnical clarity. RQ3 is supported for computational inspectability; human interpretation remains untested and the synthetic-data task protocol remains future work.
 
 ### D. External validity
 
-The target is a screened KwaZulu-Natal LCS 2014/2015 population. Provinces differ in settlement, access and administration; later periods differ in policy, thresholds, coverage and reporting. Administrative application, award and payment records measure different events from survey-reported receipt and introduce their own missingness/linkage errors. The historical upload schema restricts supported context, but passing validation does not establish suitability for contemporary applicants. No independent province, period or administrative sample has been evaluated. Transport requires a compatible outcome, justified target-context screening rules and independent discrimination/calibration assessment [17], [18]. Deploying software does not supply that evidence.
+The target is a screened KwaZulu-Natal LCS 2014/2015 population. Provinces differ in settlement, access and administration; later periods differ in policy, thresholds, coverage and reporting. Administrative application, award and payment records measure different events from survey-reported receipt and introduce their own missingness/linkage errors. The historical upload schema restricts supported context, but passing validation does not establish suitability for contemporary applicants. No independent province, period or administrative sample has been evaluated. Transport requires a compatible outcome, justified target-context screening rules and independent discrimination/calibration assessment [19], [20]. Deploying software does not supply that evidence.
 
 ## VII. Limitations and Ethics
 
@@ -189,7 +252,7 @@ Survey use remains subject to access conditions and applicable disclosure requir
 
 ## VIII. Conclusion
 
-In the historical KwaZulu-Natal observable screen, reported OPG non-receipt is 6.6% unweighted and 7.5% person-weighted. Alternatives yield weighted rates of 7.1%–9.1%; grant compatibility is more influential than the income ceiling, and unresolved cases make the denominator central. Five predictor domains with six slopes provide moderate internal ranking and only a small probability-error improvement. The artefact reproduces the analysis and exposes screening, receipt and model outputs through a verified local workflow. Participant usability, causal explanations, statutory eligibility and performance in other populations are not established.
+Historical screened non-receipt is 6.6% unweighted and 7.5% person-weighted; alternatives yield 7.1%–9.1%. Grant compatibility matters more than the ceiling, and unresolved cases make the denominator central. Five domains/six slopes provide moderate internal ranking with a small probability-error improvement. Verified software reproduces and exposes screening, receipt and scores. Participant usability, causes, legal entitlement and performance elsewhere remain unestablished.
 
 
 ## References
@@ -204,38 +267,42 @@ In the historical KwaZulu-Natal observable screen, reported OPG non-receipt is 6
 
 [5] Republic of South Africa, Social Assistance Act 13 of 2004, Government Gazette 26446, Jun. 10, 2004.
 
-[6] D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.
+[6] A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.
 
-[7] C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.
+[7] W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. 25310, 2014, doi: 10.3402/gha.v7.25310.
 
-[8] A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.
+[8] C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.
 
-[9] T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.
+[9] A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.
 
-[10] S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. 9052, 2022, doi: 10.25159/2708-9355/9052.
+[10] T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.
 
-[11] A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.
+[11] J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.
 
-[12] W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. 25310, 2014, doi: 10.3402/gha.v7.25310.
+[12] M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.
 
-[13] A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.
+[13] D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.
 
-[14] T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. e0118432, 2015, doi: 10.1371/journal.pone.0118432.
+[14] S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. 9052, 2022, doi: 10.25159/2708-9355/9052.
 
-[15] B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. 230, 2019, doi: 10.1186/s12916-019-1466-7.
+[15] A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.
 
-[16] R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.
+[16] T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. e0118432, 2015, doi: 10.1371/journal.pone.0118432.
 
-[17] D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.
+[17] B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. 230, 2019, doi: 10.1186/s12916-019-1466-7.
 
-[18] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.
+[18] R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.
 
-[19] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017.
+[19] D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.
 
-[20] Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.
+[20] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.
 
-[21] Statistics South Africa, Living Conditions Survey 2014/2015: Household Questionnaire.
+[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017.
 
-[22] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.
+[22] Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.
 
-[23] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.
+[23] Statistics South Africa, Living Conditions Survey 2014/2015: Household Questionnaire.
+
+[24] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.
+
+[25] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.

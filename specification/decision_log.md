@@ -69,6 +69,7 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 | D-059 | 2026-09-25 | 10 | Reporting | The Discussion uses only the literature already cited in Submission 1. It treats the schooling association as opposite to a simple information-barrier reading, and it treats settlement and welfare access as imprecise. No new citation was added. | Phase 10 asks for comparison with the existing review and for weak results to stay visible. The submission already supplies the access and calibration sources those points need. | Adopted |
 | D-060 | 2026-09-25 | 11 | Reporting | The IEEE paper is `paper/Jawe_OPG_nonreceipt_KZN.docx` (also exported as PDF). It is 4 pages. References [24] and [25] are the 2014 and 2015 grant-increase notices, added because the income ceilings come from those instruments. The DUT ethics determination is not claimed as granted. | Phase 11 asks for a paper of at most 8 pages, built from Submission 1 and the completed analysis. The notices are the legal source of the ceilings. Ethics approval was not observed in the project record, so the paper states the access conditions and the synthetic tests instead. | Adopted |
 | D-061 | 2026-10-11 | October plan 6 | Reporting | Revise Submission 2 sources to connect administrative-burden/access concepts to measured predictors and report the implemented local Streamlit architecture and actual functional evidence. Preserve the frozen primary research results and six-slope specification; do not refit for manuscript revision. State 26 historical checks as 22 screening cases + 2 schedule checks + 1 leakage check + 1 run trace; separately report the recorded 220 automated tests, zero mismatches across 15,388 reference records and 50 Windows-report checks. Participant usability is not conducted in this revision by user instruction; no user acceptance claim follows. Final review draft has six Letter pages, five tables, two figures and 23 references numbered by first use; 162 read-only scientific table checks passed. | Uploaded October implementation plan Phase 6, user scope direction, `docs/evidence_log.md`, `docs/validation_summary.json`, `docs/windows_validation.json`, `paper/manuscript_validation.json`, and existing frozen outputs. Functional verification is not participant usability or external predictive validation. | Adopted; six-page review draft built and mechanically checked. Independent reference/official-notice verification and ethics documentation remain outstanding; no external submission |
+| D-062 | 2026-10-11 | Submission 1 integration | Reporting | Following user authorization, integrate the reuploaded Submission 1 into Submission 2 and expand to exactly eight pages. Restore the approved original title, aim, objectives and review approach; attribute earlier proposal/sample context, compare the reviewed literature and explain released-data operationalization. Add weighted descriptive characteristics and performance-uncertainty tables, conceptual-framework and cohort-flow diagrams. Keep the frozen scientific screen, cohort, six-slope model and sensitivities unchanged. Final render passed: exactly eight Letter pages; 4,988 manuscript words, nine tables, four figures, 25 references by first use; 10 pt body, 9 pt tables, 8 pt references; all 209 numerical values independently verified (previous 162 plus 47 new). | Reuploaded Submission 1 equals the repository baseline PDF, SHA-256 `6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`; current manuscript/build sources and `paper/manuscript_validation.json`. This expansion does not rerun the inherited 220-test suite or 50 Windows-report checks. | Adopted; final render/page-count check and independent visual review of all eight pages passed. Participant usability remains unperformed; independent publisher/legal-notice verification and ethics confirmation outstanding; no external submission |
 
 ## Phase close-outs
 
@@ -334,11 +335,15 @@ The cohort hash matches Phase 3. The ROC area matches Phase 5 to the recorded di
 
 **Next step.** The eleven phases in the study plan are complete. Anything further is optional: a reader trial of the files, the deferred random forest, or a review screen. None of those is required to answer the three research questions.
 
-### October plan Phase 6 — completed Submission 2 review draft, 2026-10-11
+### October plan Phase 6 — earlier six-page Submission 2 review draft, 2026-10-11
 
 This is Phase 6 of the uploaded October Streamlit implementation plan, not
 the September study Phase 6 modelling sensitivities above. Historical
 close-outs describe their dated state and are retained unchanged.
+
+This D-061 close-out records the earlier six-page stage. D-062 and the expansion
+close-out below describe the current eight-page integrated review draft. The
+validation JSON is maintained for the current build.
 
 **Completed.** The specification, checklist and traceability records now include
 the implemented Streamlit interface and verified local functional evidence.
@@ -389,3 +394,60 @@ generalisability limitations.
 official notices, and resolve/document the applicable ethics status before any
 external submission. Participant evaluation remains unperformed. Submission has
 not been performed by this revision record.
+
+### Submission 1 integration — eight-page review draft, 2026-10-11
+
+**Completed.** The user authorized integrating Submission 1 into Submission 2
+and expanding the paper to exactly eight pages. The source upload matches the
+repository baseline PDF byte-for-byte (SHA-256
+`6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`).
+The manuscript restores the approved original title, aim, objectives, review
+approach and attributed proposal context, with fuller literature comparisons
+and operationalization of the released survey fields. It adds literature,
+data-operationalization, weighted descriptive-characteristics and
+performance-uncertainty tables, plus conceptual-framework and cohort-flow
+diagrams. The screen, cohort, frozen six-slope model and sensitivity outputs
+remain unchanged; no scientific refit was performed.
+
+**Evidence.**
+
+- Integrated `paper/manuscript.md` and numbered manuscript source
+- `paper/conceptual_framework.md`, `paper/results.md` and `paper/discussion.md`
+- `paper/build_ieee.js` and figure sources
+- Current `paper/Jawe_OPG_nonreceipt_KZN.docx` and tracked PDF: final render
+  passed the check for exactly eight Letter pages; 4,988 manuscript words,
+  two columns, nine tables, four figures, 25 references numbered by first use;
+  10 pt body, 9 pt tables and 8 pt references
+- `paper/manuscript_validation.json`: new render/page-count evidence and all
+  209 independently verified scientific table values, consisting of the
+  earlier 162 and 47 additional table-value checks
+- Independent final visual review: all eight pages passed; nine tables and
+  four figures are legible and unclipped, captions attached, with no blank
+  pages or orphan headings. Final reference page is naturally partial
+- Final PDF SHA-256:
+  `0101c41c5332bc45def6f449ff5d5fbe88e86093adc88dfdf11e710b18548561`
+- Original recorded functional evidence remains 220 automated app tests,
+  zero mismatches over 15,388 reference records and 50 Windows-export checks;
+  the 220-test suite and 50 Windows-report checks were not rerun for manuscript
+  expansion
+
+**Problems and limits.**
+
+- The final manuscript word count is 4,988 by whitespace splitting, after
+  removing a duplicated Discussion paragraph. The eight-page count, numerical
+  audit and independent visual review apply to the final rendered PDF.
+- Earlier proposal/sample counts are contextual and attributed to Submission 1;
+  they are not replacements for the frozen empirical cohort denominators.
+- Independent publisher and official legal-notice verification remains
+  outstanding. Citation numbering alone does not establish source validity.
+- Ethics confirmation is not documented. Participant usability remains
+  unperformed by user instruction; no acceptance or external validation is
+  claimed. The random forest remains deferred and no public site was deployed.
+
+**Decisions.** D-062. Expand the manuscript and integrate the original proposal
+without changing the substantive scientific result set or upgrading the scope
+of the functional evidence.
+
+**Next step.** Resolve independent source/legal-notice verification and ethics
+confirmation. The integrated paper remains a review
+draft; no external submission has occurred.

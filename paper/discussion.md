@@ -1,4 +1,4 @@
-# Discussion — professional-language working section
+# Discussion — specialist-audience working section
 
 This section mirrors Section VI of the current manuscript. Edit `manuscript.md` for the build; this working copy records the same discussion.
 

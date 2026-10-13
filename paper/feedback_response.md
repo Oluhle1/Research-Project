@@ -2,11 +2,12 @@
 
 Revision date: **11 October 2026**. The source is the user-supplied **1st Feedback 21634436.docx**. This matrix records how the existing study and the completed local Streamlit MVP address each of the seven improvement comments. It preserves the approved research questions, historical KwaZulu-Natal population and reported non-receipt outcome. No new model fitting, screening-rule change or participant study is introduced by this paper revision.
 
-Professional-language update: **13 October 2026**. The current paper uses
-concrete active subjects and appropriate research tense, removing conversational
-author/reader wording while retaining explanations in parentheses at first use.
+Specialist-audience update: **13 October 2026**. The current paper keeps concrete
+active subjects and appropriate research tense, trims elementary definitions,
+and retains study-specific explanations. The literature review forms part of
+one paper while preserving the recorded search flow and verification limits.
 The rebuilt eight-page paper preserves the results and testing limits below.
-See [the language review](professional_language_revision.md) and
+See [the language review](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json).
 
 Section labels below describe the 11 October revision; the current
@@ -35,7 +36,7 @@ Existing reference metadata, complete titles and DOI strings were checked agains
 
 ## Remaining items
 
-- **Professional-language rewrite completed:** the regenerated paper retains 90 reviewed terminology items and 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](professional_language_validation.json).
+- **Specialist-audience revision completed:** the paper removes basic definitions and integrates the literature review into one narrative. It retains all 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](specialist_language_validation.json).
 - **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.
 - Independently verify the complete bibliography and original historical legal provisions when the publisher/official sources are accessible; retain the distinction between checks against the submitted bibliography and primary-source verification.

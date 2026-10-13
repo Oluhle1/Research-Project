@@ -1,5 +1,9 @@
 # Clear professional research language
 
+Historical record: this describes the revision at commit `17e1b05`. The current
+specialist-audience paper trims basic definitions and integrates the literature
+opening; see [specialist_language_revision.md](specialist_language_revision.md).
+
 Revision date: **13 October 2026**. This rewrite prepares the existing paper for
 academic marking and conference review while preserving its readable language.
 It supersedes the earlier author/reader-voice rewrite recorded in

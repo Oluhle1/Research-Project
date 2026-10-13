@@ -8,13 +8,13 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **13 October 2026** rewrite uses clear professional research prose:
-concrete active subjects, past tense for completed methods and findings, and
-present tense for software behaviour and interpretation. It removes
-conversational author/reader wording while keeping necessary explanations in
-parentheses at first use. The study's results and limits are preserved. The PDF
-still has eight pages, nine tables and four figures. See
-[the professional-language revision notes](professional_language_revision.md).
+The current **13 October 2026** revision addresses a specialist ICT and research
+audience. It keeps clear professional active prose and appropriate research
+tense, removes elementary definitions, and explains study-specific decisions
+and consequential assumptions. The literature review reads as part of one
+paper, with its recorded search flow and evidence limits intact. The PDF has
+eight pages, nine tables and four figures. See
+[the specialist-audience revision notes](specialist_language_revision.md).
 
 ## Editable sources
 
@@ -50,10 +50,15 @@ still has eight pages, nine tables and four figures. See
 - `plain_language_negative_controls.json`: four deliberate temporary errors
   rejected by the earlier claim verifier; retained as a historical record.
 - `professional_language_revision.md`, `professional_language_validation.json`:
-  the current formal active-language rewrite, review of 90 terminology items and
-  16 scientific distinctions, and current manuscript/Word/PDF hashes.
+  the professional-language history at commit `17e1b05`; its earlier 90-term
+  definition review has been superseded by the user's specialist-audience scope.
 - `professional_language_negative_controls.json`: four deliberate temporary
-  errors rejected by the current verifier; the tracked manuscript was not altered.
+  errors rejected for that historical manuscript.
+- `specialist_language_revision.md`, `specialist_language_validation.json`:
+  current audience-fit and literature-continuity review, 16 scientific
+  distinctions, and manuscript/Word/PDF hashes.
+- `specialist_language_negative_controls.json`: four deliberate temporary
+  errors rejected for the current manuscript; the tracked source was not altered.
 
 ## Rebuild
 

@@ -329,7 +329,7 @@ Final PDF SHA-256:
 ## Plain-language Submission 2 revision — 13 October 2026
 
 This D-064 entry records the historical 5,632-word build and its 263-word
-abstract. D-065 below records the current professional-language revision;
+abstract. D-065 below records the later professional-language revision;
 the D-064 word count and source hash remain evidence for that earlier build.
 
 The user asked for active verbs, parenthetical explanations of technical terms
@@ -375,6 +375,10 @@ its retained evidence.
 
 ## Professional-language Submission 2 revision — 13 October 2026
 
+This D-065 entry records the historical 5,627-word build and its 249-word
+abstract. D-066 below records the current specialist-audience revision;
+the D-065 counts and source hash remain evidence for that earlier build.
+
 The user requested clear, concise and scientifically sound language suitable
 for conference review and ICT marking. Decision D-065 records the revision.
 Concrete subjects, such as the pipeline, screen, model and app, now perform
@@ -384,14 +388,14 @@ software behaviour, rules, tables and interpretation use present tense.
 Proposed future work remains conditional. Technical explanations remain in
 parentheses at first use, without returning to dense abstract phrasing.
 
-The current manuscript contains **5,627 whitespace-delimited words**, including
+The D-065 manuscript contains **5,627 whitespace-delimited words**, including
 a **249-word abstract**. Its regenerated Word document and PDF retain the
 approved title, APRE402 and research questions. The PDF has **eight US Letter
 pages**, **nine tables, four figures and 25 references numbered by first use**.
 Body, table and reference fonts remain 10, 9 and 8 pt. The root reviewer and
 an independent reviewer inspected all eight fresh pages and passed the layout
 review. `paper/manuscript_validation.json` records the current build evidence.
-Current manuscript SHA-256:
+D-065 manuscript SHA-256:
 `1f0080d9982dbe5a5d6b4f022b542341c343ca597338034fc714fd79a8f25df3`.
 
 `paper/professional_language_revision.md` and
@@ -415,3 +419,53 @@ ethics/access, historical-data disclosure and portal requirements remain
 unconfirmed. Participant usability remains unperformed. D-062, D-063 and
 D-064 retain their historical counts and hashes; the current audit files bind
 D-065 to the regenerated paper and unchanged scientific evidence.
+
+## Specialist-audience and integrated-literature revision — 13 October 2026
+
+The user requested a more concise paper for specialist ICT and conference
+readers, explicitly replacing the earlier requirement to define every technical
+term. Decision D-066 records this scope. The revision removes **52 direct
+elementary parenthetical glosses** and condenses the abstract, theory and metric-
+definition paragraphs. It retains standard technical terminology, acronym
+expansions, study-specific operational assumptions and interpretation of the
+statistical measures. Concrete active subjects and appropriate tense remain.
+The earlier 90-term definition review is historical, not a current acceptance
+requirement.
+
+The literature opening now presents one paper's research context rather than
+referring to a separate proposal. It retains the recorded **511-to-55 review
+flow**, identifies the included literature as covering mixed grants rather
+than 55 OPG-only studies, and states that original search exports and screening
+logs are unavailable for independent verification. This revision did not run
+a new literature search or authenticate additional sources.
+
+The current manuscript has **5,097 whitespace-delimited words** and a
+**141-word abstract**, **530 words fewer** than the D-065 build. The regenerated
+PDF retains **eight US Letter pages**, **nine tables, four figures and 25
+references numbered by first use**, with 10/9/8 pt body/table/reference fonts.
+The approved title, APRE402, research questions, scientific results, figure
+assets and build layout remain unchanged. Root and independent reviewers
+passed all eight fresh pages. `paper/manuscript_validation.json` records the
+current render and final layout-review evidence.
+Current manuscript SHA-256:
+`3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3`.
+Current PDF SHA-256:
+`b81d1047e4c86e908267591f2ce831080e64c17ee12f7381b073ccf99d34d6d7`.
+
+`paper/specialist_language_revision.md` and
+`paper/specialist_language_validation.json` record the new language scope.
+All **16 scientific-distinction checks** passed. The retained-evidence verifier
+passed **209 numerical table comparisons and 100 supporting checks**, with
+**314 register rows and four explicit limitations**. All four temporary
+negative controls passed in `paper/specialist_language_negative_controls.json`.
+The verifier itself remains unchanged. These manuscript reviews do not measure
+reader comprehension or participant usability.
+
+Scientific, application, dataset, model, reference, figure and build-layout
+paths remain unchanged from `17e1b0536ec4f683d2a04e5caced2bb89635a943`.
+No app suite, model refit, other-province analysis, participant study, new
+primary-source query, deployment or external submission occurred. Earlier
+220-test, 15,388-record agreement and 50 Windows-report results remain dated
+functional evidence. P5 remains partial: original journal/legal verification,
+institutional ethics/access, historical-data disclosure and portal requirements
+remain unconfirmed. D-062–D-065 retain their historical counts and source hashes.

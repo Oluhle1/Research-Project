@@ -6,8 +6,8 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 **Specification:** `specification/implementation_specification.md`.  
 **Checklist:** `specification/checklist.md`.
 
-D-062, D-063 and D-064 record historical manuscript builds with their original
-counts and hashes. D-065 records the current professional-language revision.
+D-062–D-065 record historical manuscript builds with their original counts and
+hashes. D-066 records the current specialist-audience revision.
 
 | ID | Date | Phase | Type | Decision | Why | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,8 @@ counts and hashes. D-065 records the current professional-language revision.
 | D-062 | 2026-10-11 | Submission 1 integration | Reporting | Following user authorization, integrate the reuploaded Submission 1 into Submission 2 and expand to exactly eight pages. Restore the approved original title, aim, objectives and review approach; attribute earlier proposal/sample context, compare the reviewed literature and explain released-data operationalization. Add weighted descriptive characteristics and performance-uncertainty tables, conceptual-framework and cohort-flow diagrams. Keep the frozen scientific screen, cohort, six-slope model and sensitivities unchanged. Final render passed: exactly eight Letter pages; 4,988 manuscript words, nine tables, four figures, 25 references by first use; 10 pt body, 9 pt tables, 8 pt references; all 209 numerical values independently verified (previous 162 plus 47 new). | Reuploaded Submission 1 equals the repository baseline PDF, SHA-256 `6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32`; current manuscript/build sources and `paper/manuscript_validation.json`. This expansion does not rerun the inherited 220-test suite or 50 Windows-report checks. | Adopted; final render/page-count check and independent visual review of all eight pages passed. Participant usability remains unperformed; independent publisher/legal-notice verification and ethics confirmation outstanding; no external submission |
 | D-063 | 2026-10-11 | Targeted revision | Reporting | Apply the supplied P1–P5 revision plan by strengthening estimand/literature comparison, theory-to-finding synthesis, metric interpretation and sensitivity arguments. Preserve nine tables, four figures, all frozen scientific outputs and the eight-page limit. Correct the final title to APRE402 after explicit user confirmation. Add a portable claim verifier and 314-row source register: 209 numerical comparisons and 100 supporting checks pass; prior application tests remain historical evidence. | `paper/targeted_revision_plan.md`, `paper/targeted_revision_response.md`, `paper/claim_source_validation.json`, `paper/primary_source_audit.json`, and the final eight-page PDF. Three authentic local Stats SA PDFs were read; thirteen external-source requests failed with proxy CONNECT 403 and supplied no original article/legal text. | Adopted; P1–P4 and available evidence/render checks complete. P5 retains original-source, ethics/access/disclosure and portal-confirmation limits. No grade guarantee, participant study, refit or external submission |
 | D-064 | 2026-10-13 | Plain-language revision | Reporting | Rewrite dense noun phrases as actions, use “I” for author choices and “you” for reader guidance, and explain necessary technical terms in parentheses at first use. Simplify headings, table text, captions and figure labels while retaining the approved title, APRE402, research questions, frozen results and legal/usability limits. Historical D-064 build: eight Letter pages, 5,632 manuscript words with a 263-word abstract, nine tables, four figures, 25 first-use references; body/table/reference fonts remain 10/9/8 pt. | User readability request; `paper/plain_language_revision.md` and `paper/plain_language_validation.json` review 90 terms and 16 scientific meanings. Retained-evidence audit passes 209 table and 100 supporting checks; four temporary negative controls reject false manuscript evidence. The 314-row source register retains four limitation rows. | Adopted; reporting/term/evidence checks complete. Scientific, model, application and dataset paths remain unchanged from `bfabb35`; no refit, app-suite rerun, participant study or new province analysis. P5 source/ethics/disclosure/portal limits remain open; no external submission |
-| D-065 | 2026-10-13 | Professional-language revision | Reporting | Rewrite the readable paper in clear, concise professional language for conference review and ICT marking. Use concrete active subjects instead of author or direct-address pronouns; use past tense for completed methods and observed results, present tense for software/rules/tables/interpretation, and conditional language for future work. Retain first-use parenthetical definitions and all scientific qualifications. Current build: eight Letter pages, 5,627 manuscript words with a 249-word abstract, nine tables, four figures and 25 first-use references; fonts remain 10/9/8 pt. | User request; `paper/professional_language_revision.md`, `paper/professional_language_validation.json` and `paper/manuscript_validation.json`. All 90 term and 16 scientific-meaning checks pass; 209 numerical and 100 supporting checks pass, with 314 register rows and four explicit limits; all four temporary negative controls are rejected. | Adopted; all eight fresh pages pass root and independent visual review. Scientific/model/app/data/reference/diagram/build-layout paths remain unchanged from `e70b300`; no app-suite run, refit, participant study, province extension, new primary-source read or external submission. P5 and source/ethics/disclosure/portal limits remain open |
+| D-065 | 2026-10-13 | Professional-language revision | Reporting | Rewrite the readable paper in clear, concise professional language for conference review and ICT marking. Use concrete active subjects instead of author or direct-address pronouns; use past tense for completed methods and observed results, present tense for software/rules/tables/interpretation, and conditional language for future work. Retain first-use parenthetical definitions and all scientific qualifications. Historical D-065 build: eight Letter pages, 5,627 manuscript words with a 249-word abstract, nine tables, four figures and 25 first-use references; fonts remain 10/9/8 pt. | User request; `paper/professional_language_revision.md`, `paper/professional_language_validation.json` and `paper/manuscript_validation.json`. All 90 term and 16 scientific-meaning checks pass; 209 numerical and 100 supporting checks pass, with 314 register rows and four explicit limits; all four temporary negative controls are rejected. | Adopted; all eight fresh pages pass root and independent visual review. Scientific/model/app/data/reference/diagram/build-layout paths remain unchanged from `e70b300`; no app-suite run, refit, participant study, province extension, new primary-source read or external submission. P5 and source/ethics/disclosure/portal limits remain open |
+| D-066 | 2026-10-13 | Specialist-audience revision | Reporting | Follow the user's explicit replacement of the define-every-term requirement: remove 52 elementary parenthetical glosses and condense abstract/theory/metric-definition prose, while retaining normal terminology, acronym expansions, study-specific assumptions and statistical interpretation. Present the literature opening as one paper's context, retaining the recorded 511-to-55 mixed-grant review flow and unavailable original search exports/logs. Current build: 5,097 words, 141-word abstract, 530 fewer words than D-065; eight Letter pages, nine tables, four figures, 25 references and 10/9/8 pt fonts. | `paper/specialist_language_revision.md`, `paper/specialist_language_validation.json`, `paper/specialist_language_negative_controls.json` and current `paper/manuscript_validation.json`. All 16 scientific distinctions, 209 numerical comparisons and 100 supporting checks pass; 314 register rows retain four explicit limits; all four temporary negative controls pass without verifier changes. | Adopted; all eight fresh pages pass root and independent visual review. Scientific/app/data/model/reference/figure/build-layout paths remain unchanged from `17e1b053`. No app-suite run, refit, province extension, participant study, primary-source query, ethics/admin confirmation, deployment or external submission. P5 remains partial |
 
 ## Phase close-outs
 
@@ -347,8 +348,8 @@ This is Phase 6 of the uploaded October Streamlit implementation plan, not
 the September study Phase 6 modelling sensitivities above. Historical
 close-outs describe their dated state and are retained unchanged.
 
-This D-061 close-out records the earlier six-page stage. D-062–D-064
-record later historical builds; D-065 below describes the current professional
+This D-061 close-out records the earlier six-page stage. D-062–D-065
+record later historical builds; D-066 below describes the current specialist
 review draft. The validation JSON is maintained for the latest build.
 
 **Completed.** The specification, checklist and traceability records now include
@@ -464,7 +465,7 @@ draft; no external submission has occurred.
 ### Targeted Submission 2 revision — 2026-10-11
 
 This D-063 close-out records the historical 5,262-word build. D-064 records
-the later historical plain-language build; D-065 records the current revision.
+the later historical plain-language build; D-066 records the current revision.
 
 **Completed.** RQ1 now defines the screened/resolved historical estimand and
 explains unresolved exclusion, consequential screen alternatives and qualified
@@ -501,7 +502,7 @@ before formal submission. No submission or public deployment was performed.
 ### Plain-language Submission 2 revision — 2026-10-13
 
 This D-064 close-out records the historical 5,632-word build, its 263-word
-abstract and original source hash. D-065 below records the current revision.
+abstract and original source hash. D-066 below records the current revision.
 
 **Completed.** The user requested readable prose rather than dense, abstract
 phrases. The paper now uses active author actions, explains essential technical
@@ -541,6 +542,9 @@ words remain historical counts; current evidence files identify this revision.
 
 ### Professional-language Submission 2 revision — 2026-10-13
 
+This D-065 close-out records the historical 5,627-word build, its 249-word
+abstract and original source hash. D-066 below records the current revision.
+
 **Completed.** Concrete subjects now describe the research and software actions
 without author or direct-address pronouns. The paper uses past tense for
 completed methods and observed findings, present tense for software behaviour,
@@ -576,3 +580,46 @@ unchanged from `e70b300895c9777067f5825abc25709b4a0e197d`.
 **Next step.** Author review and the previously recorded source/administrative
 confirmations before formal submission. D-062's 4,988 words, D-063's 5,262
 words and D-064's 5,632 words and their source hashes remain historical records.
+
+### Specialist-audience and integrated-literature revision — 2026-10-13
+
+**Completed.** The user's specialist-audience instruction replaces the earlier
+requirement to define every technical term. The revision removes 52 elementary
+parenthetical glosses and condenses abstract, theory and metric-definition
+prose. Standard terminology, acronym expansions, operational assumptions and
+metric interpretation remain. Active subjects and appropriate tense continue.
+The literature opening presents the study as one paper; the recorded 511-to-55
+flow remains mixed-grant literature, with original search exports and screening
+logs unavailable for independent verification.
+
+**Evidence.** The current manuscript contains 5,097 whitespace-delimited words
+and a 141-word abstract, 530 words fewer than D-065. The regenerated PDF has
+eight US Letter pages, nine tables, four figures and 25 first-use references,
+with unchanged 10/9/8 pt body/table/reference fonts and layout. Root and
+independent visual reviews pass all eight fresh pages. The current
+`paper/manuscript_validation.json` records render and final visual-review
+evidence. `paper/specialist_language_validation.json` passes 16 scientific-
+distinction checks. The retained-evidence audit passes 209 numerical comparisons
+and 100 supporting checks, with 314 register rows and four explicit limitations.
+All four temporary controls pass in
+`paper/specialist_language_negative_controls.json`; the verifier is unchanged.
+Current manuscript SHA-256:
+`3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3`.
+
+**Problems and limits.** Editing and scientific-consistency checks do not test
+participant comprehension or usability. The earlier 90-term definition review
+belongs to the historical D-064/D-065 builds, not the current acceptance rule.
+The recorded review flow is retained evidence, not a newly repeated search.
+P5 remains partial; original-source and legal authentication, ethics/access,
+historical-data disclosure and portal requirements remain unconfirmed.
+
+**Decision.** D-066 changes reporting for specialist readers and integrates the
+literature context. Scientific, application, data, model, reference, figure and
+build-layout paths remain unchanged from
+`17e1b0536ec4f683d2a04e5caced2bb89635a943`. No app suite, model refit,
+other-province analysis, participant study, primary-source query, deployment or
+external submission occurred.
+
+**Next step.** Author review and the previously recorded source/administrative
+confirmations before formal submission. D-062–D-065 counts and hashes remain
+historical; the current audit files identify D-066.

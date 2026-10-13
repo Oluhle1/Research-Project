@@ -328,13 +328,17 @@ Final PDF SHA-256:
 
 ## Plain-language Submission 2 revision — 13 October 2026
 
+This D-064 entry records the historical 5,632-word build and its 263-word
+abstract. D-065 below records the current professional-language revision;
+the D-064 word count and source hash remain evidence for that earlier build.
+
 The user asked for active verbs, parenthetical explanations of technical terms
 at first use, “I” for the author and “you” when guiding the reader. Decision
 D-064 records this reporting change. The rewritten manuscript keeps the
 approved title, APRE402, the original research questions and all frozen results.
 It simplifies prose, headings, table wording, captions and diagram labels.
 
-The current manuscript contains **5,632 whitespace-delimited words**, including
+The D-064 manuscript contains **5,632 whitespace-delimited words**, including
 a **263-word abstract**. The rebuilt PDF has **eight US Letter pages**, with
 **nine tables, four figures and 25 references**. The body, table and reference
 fonts remain 10, 9 and 8 pt. Current render and layout evidence is recorded in
@@ -352,7 +356,7 @@ record the manual review of **90 essential terms and 16 scientific meanings**.
 The review keeps apparent eligibility, reported receipt, predicted non-receipt
 and legal entitlement separate. Editing diagnostics describe shorter sentences
 and author/reader pronouns; they do not establish reader comprehension or human
-usability. The current manuscript SHA-256 is
+usability. The D-064 manuscript SHA-256 is
 `69b44ac75d1f4efb45d36cec4fa534b5cd53c7ffde17fc347e94c833a9cf9c93`.
 
 Scientific, model, application, test, tool and dataset paths remain unchanged
@@ -368,3 +372,46 @@ historical-data disclosure decisions, and official portal requirements are
 still outstanding. The D-062 and D-063 word counts and SHA-256 values above
 remain historical build records; the current audit files bind this revision to
 its retained evidence.
+
+## Professional-language Submission 2 revision — 13 October 2026
+
+The user requested clear, concise and scientifically sound language suitable
+for conference review and ICT marking. Decision D-065 records the revision.
+Concrete subjects, such as the pipeline, screen, model and app, now perform
+the actions. Author and direct-address pronouns no longer appear in the
+authored prose. Completed methods and observed results use past tense;
+software behaviour, rules, tables and interpretation use present tense.
+Proposed future work remains conditional. Technical explanations remain in
+parentheses at first use, without returning to dense abstract phrasing.
+
+The current manuscript contains **5,627 whitespace-delimited words**, including
+a **249-word abstract**. Its regenerated Word document and PDF retain the
+approved title, APRE402 and research questions. The PDF has **eight US Letter
+pages**, **nine tables, four figures and 25 references numbered by first use**.
+Body, table and reference fonts remain 10, 9 and 8 pt. The root reviewer and
+an independent reviewer inspected all eight fresh pages and passed the layout
+review. `paper/manuscript_validation.json` records the current build evidence.
+Current manuscript SHA-256:
+`1f0080d9982dbe5a5d6b4f022b542341c343ca597338034fc714fd79a8f25df3`.
+
+`paper/professional_language_revision.md` and
+`paper/professional_language_validation.json` record the language review.
+All **90 term checks and 16 scientific-meaning checks** passed. The retained-
+evidence audit passed **209 numerical table comparisons and 100 supporting
+checks**. Its **314-row register retains four explicit limitation rows**.
+`paper/professional_language_negative_controls.json` records four rejected
+temporary false-evidence variants. These checks establish manuscript
+consistency; they do not measure participant comprehension or usability.
+
+Scientific, model, application, dataset, reference, diagram and build-layout
+paths remain unchanged from `e70b300895c9777067f5825abc25709b4a0e197d`.
+No application suite ran and no model was refitted. Earlier 220-test,
+15,388-record agreement and 50 Windows-report results remain dated functional
+evidence. No participant study, other-province analysis, new primary-source
+read, public deployment or external submission occurred.
+
+P5 remains partial. Original journal and legal verification, institutional
+ethics/access, historical-data disclosure and portal requirements remain
+unconfirmed. Participant usability remains unperformed. D-062, D-063 and
+D-064 retain their historical counts and hashes; the current audit files bind
+D-065 to the regenerated paper and unchanged scientific evidence.

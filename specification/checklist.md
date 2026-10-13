@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-064 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-065 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current plain-language revision: eight Letter pages; 5,632 manuscript words, including a 263-word abstract; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 references by first use; APRE402 retained. `paper/manuscript_validation.json` records the latest render; `paper/claim_source_register.csv` and `paper/claim_source_validation.json` pass 209 table and 100 supporting checks, with four explicit limit rows. `paper/plain_language_revision.md` and `paper/plain_language_validation.json` record 90 term explanations and 16 scientific-meaning checks. D-064 documents active author/reader prose without new scientific or usability claims. P5 remains partial: original journal/legal-source, ethics/access/disclosure and portal confirmations remain incomplete |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current professional-language revision: eight Letter pages; 5,627 manuscript words, including a 249-word abstract; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 references by first use; APRE402 retained. `paper/manuscript_validation.json` records the latest render and root/independent visual review. `paper/claim_source_register.csv` and `paper/claim_source_validation.json` pass 209 numerical and 100 supporting checks, with 314 rows and four explicit limits. `paper/professional_language_revision.md` and `paper/professional_language_validation.json` record 90 term and 16 scientific-meaning checks. `paper/professional_language_negative_controls.json` records four rejected false-evidence variants. D-065 records concrete active subjects and appropriate tense without changing results or claiming participant usability. P5 remains partial: original journal/legal-source, ethics/access/disclosure and portal confirmations remain incomplete |
 
 ## Current summary
 
@@ -160,12 +160,12 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current plain-language review draft has exactly
+predictive validation. The current professional-language review draft has exactly
 eight pages; the latest render/layout evidence is in
 `paper/manuscript_validation.json`. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
-outstanding. Earlier six-page, 4,988-word and 5,262-word builds are historical
-stages, not the current 5,632-word manuscript.
+outstanding. Earlier six-page, 4,988-word, 5,262-word and 5,632-word builds are
+historical stages, not the current 5,627-word manuscript.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -175,8 +175,11 @@ external source requests failed with proxy CONNECT 403. Source verification,
 participant usability, ethics/access/disclosure and portal requirements must not
 be inferred from software or formatting checks.
 
-The 13 October plain-language revision uses active verbs, “I” for author actions
-and “you” for reader guidance, with first-use parenthetical explanations.
-Term reviews and sentence diagnostics are editing evidence, not participant
-comprehension or usability results. Existing scientific/application checks were
-retained rather than rerun; no other province was analysed.
+The 13 October D-065 revision retains accessible explanations and uses concrete
+active subjects without author or direct-address pronouns. Completed methods
+and observed findings use past tense; software behaviour, rules, tables and
+interpretation use present tense. Proposed work remains conditional. Term and
+scientific-meaning reviews are editing evidence, not participant comprehension
+or usability results. Existing scientific/application evidence was retained;
+no app suite, refit, new province analysis or primary-source verification ran.
+D-064's first-person version and its counts/hashes remain historical records.

@@ -8,11 +8,13 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The **13 October 2026** rewrite replaces dense noun phrases with active verbs,
-uses “I” for the author's research actions and “you” for reader guidance, and
-explains necessary technical terms in parentheses at first use. The study's
-results and limits are preserved. The current PDF still has eight pages,
-nine tables and four figures. See [the language revision notes](plain_language_revision.md).
+The current **13 October 2026** rewrite uses clear professional research prose:
+concrete active subjects, past tense for completed methods and findings, and
+present tense for software behaviour and interpretation. It removes
+conversational author/reader wording while keeping necessary explanations in
+parentheses at first use. The study's results and limits are preserved. The PDF
+still has eight pages, nine tables and four figures. See
+[the professional-language revision notes](professional_language_revision.md).
 
 ## Editable sources
 
@@ -43,11 +45,15 @@ nine tables and four figures. See [the language revision notes](plain_language_r
   local primary-document evidence and recorded remote-access limits. A matching
   submitted reference is distinguished from independently reading its source.
 - `plain_language_revision.md`, `plain_language_validation.json`: the language
-  rewrite, manual review of 90 terms and 16 scientific distinctions, and editing
-  diagnostics. These records do not establish participant usability or reading
-  comprehension.
+  history at commit `e70b300`, before the current professional rewrite. These
+  records bind the earlier manuscript and do not establish participant usability.
 - `plain_language_negative_controls.json`: four deliberate temporary errors
-  rejected by the claim verifier; the tracked manuscript was not altered.
+  rejected by the earlier claim verifier; retained as a historical record.
+- `professional_language_revision.md`, `professional_language_validation.json`:
+  the current formal active-language rewrite, review of 90 terminology items and
+  16 scientific distinctions, and current manuscript/Word/PDF hashes.
+- `professional_language_negative_controls.json`: four deliberate temporary
+  errors rejected by the current verifier; the tracked manuscript was not altered.
 
 ## Rebuild
 

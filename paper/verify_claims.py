@@ -39,8 +39,8 @@ def digest(path: Path) -> str:
 def participant_usability_unproven(text: str) -> bool:
     """Require a stated testing limit and reject common affirmative claims.
 
-    The phrase check accepts both the original wording and a first-person
-    explanation. An affirmative-claim scan matters because adding a truthful
+    The phrase check accepts retained, first-person and professional active
+    explanations. An affirmative-claim scan matters because adding a truthful
     limit elsewhere must not make a contradictory participant claim pass.
     This text check does not replace a human review of the manuscript.
     """
@@ -48,16 +48,18 @@ def participant_usability_unproven(text: str) -> bool:
         r"(?:participant usability (?:has not|remains untested)|"
         r"usability[^\n.]{0,80}not conducted|human interpretation remains untested|"
         r"I have not tested (?:how easily participants use it|participant usability)|"
-        r"I have not established human usability)", text, re.I)
+        r"I have not established human usability|"
+        r"no participant study tested ease of use)", text, re.I)
     participant_row = re.search(
         r"^\|\s*Participant usability\s*\|\s*([^|]+)", text, re.I | re.M)
     if participant_row and participant_row.group(1).strip().lower() != "not conducted":
         return False
+    active_actor = r"(?:I|we|(?:the|this)\s+(?:study|project|research|evaluation|team|researcher|author))"
     affirmative_patterns = [
-        r"\b(?:I|we)\s+(?:have\s+)?(?:successfully\s+)?"
+        rf"\b{active_actor}\s+(?:have\s+|has\s+)?(?:successfully\s+)?"
         r"(?:tested|evaluated|established|proved|demonstrated|confirmed)\s+"
         r"(?:the\s+)?(?:participant|human|user)\s+usability\b",
-        r"\b(?:I|we)\s+(?:have\s+)?(?:conducted|completed|performed|ran)\s+"
+        rf"\b{active_actor}\s+(?:have\s+|has\s+)?(?:conducted|completed|performed|ran)\s+"
         r"(?:a\s+)?(?:participant|human|user)\s+(?:study|test(?:ing)?|evaluation)\b",
         r"\b(?:participant|human|user)\s+usability\s+"
         r"(?:(?:has|had)\s+been|was|is)\s+(?:successfully\s+)?"
@@ -291,14 +293,14 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
     # Definitions can sit between a metric's name and its value. The number
     # still has to follow that name; this does not accept an unrelated number
     # elsewhere in the section as a substitute for a missing prose claim.
-    definition_and_link = r"(?:\s*\([^()\n]*\))?\s*(?:(?:is|of|=)\s*)?"
+    definition_and_link = r"(?:\s*\([^()\n]*\))?\s*(?:(?:is|was|of|=)\s*)?"
     for section, passage in [("Abstract", abstract), ("VI.B", discussion), ("VIII", conclusion)]:
         for claim, pattern, value in [
                 ("primary AUC", rf"AUC{definition_and_link}(\d+\.\d+)", auc),
                 ("primary AP", rf"(?:average precision|AP){definition_and_link}(\d+\.\d+)", ap),
                 ("primary Brier", rf"Brier(?: score)?{definition_and_link}(\d+\.\d+)", brier)]:
             if section == "VI.B" and claim == "primary Brier":
-                pattern = r"Brier (?:improvement|falls) from \d+\.\d+ to (\d+\.\d+)"
+                pattern = r"Brier (?:improvement|falls|fell) from \d+\.\d+ to (\d+\.\d+)"
             prose(section, claim, passage, pattern, value, metrics_path + "; model=logistic_out_of_fold")
     prose("Abstract", "intercept-only Brier", abstract,
           r"(?:compared with|Predicting only[^.\n]+gives) (\d+\.\d+)", baseline_brier,
@@ -310,10 +312,10 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
         prose(section, "person-weighted prevalence", passage, r"(\d+\.\d+)% person-weighted", 100 * weighted_rate, screen_path + "; scenario=S0")
         if section != "VI.A":
             prose(section, "lowest screening sensitivity", passage,
-                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give) (\d+\.\d+)%",
+                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give|alternatives gave) (\d+\.\d+)%",
                   100 * min(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
             prose(section, "highest screening sensitivity", passage,
-                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give) "
+                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give|alternatives gave) "
                   r"\d+\.\d+%\s*(?:to|[–−-])\s*(\d+\.\d+)%",
                   100 * max(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
 

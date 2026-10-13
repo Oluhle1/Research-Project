@@ -1,5 +1,9 @@
 # Plain-language paper revision
 
+Historical record: this describes the earlier author/reader-voice revision at
+commit `e70b300`. The current paper uses professional active prose; see
+[professional_language_revision.md](professional_language_revision.md).
+
 The paper now uses the single author's “I” for research actions and “you” when guiding readers through results or the app. I replaced dense noun phrases with actions, split packed explanations, and defined necessary technical terms in parentheses at their first explanation. I also simplified headings, table wording, figure captions and diagram labels.
 
 The title and the published titles in the bibliography remain unchanged. The author-confirmed module code is **APRE402**. The regenerated paper contains **eight US Letter pages, nine tables and four figures**, including its references.

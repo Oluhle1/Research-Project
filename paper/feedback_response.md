@@ -2,7 +2,20 @@
 
 Revision date: **11 October 2026**. The source is the user-supplied **1st Feedback 21634436.docx**. This matrix records how the existing study and the completed local Streamlit MVP address each of the seven improvement comments. It preserves the approved research questions, historical KwaZulu-Natal population and reported non-receipt outcome. No new model fitting, screening-rule change or participant study is introduced by this paper revision.
 
-Section names below refer to the revised [manuscript](manuscript_numbered.md); linked Markdown files and repository outputs provide the underlying evidence. “Addressed in text” means that the draft explains the relevant evidence or limitation, not that every possible future research activity has been completed. The [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word version](Jawe_OPG_nonreceipt_KZN.docx) are built and reviewed.
+Language update: **13 October 2026**. The current paper uses active verbs, “I”
+for the author's research actions and “you” for reader guidance. Necessary
+technical terms have explanations in parentheses at first use. The rebuilt
+eight-page paper retains the results and testing limits described below.
+See [the language review](plain_language_revision.md) and
+[current artifact validation](manuscript_validation.json).
+
+Section labels below describe the 11 October revision; the current
+[manuscript](manuscript_numbered.md) uses simpler headings for the same material.
+Linked Markdown files and repository outputs provide the underlying evidence.
+“Addressed in text” means that the draft explains the relevant evidence or
+limitation, not that every possible future research activity has been completed.
+The [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and
+[Word version](Jawe_OPG_nonreceipt_KZN.docx) are built and reviewed.
 
 | Lecturer comment | Response and manuscript location | Evidence | Status |
 | --- | --- | --- | --- |
@@ -22,6 +35,7 @@ Existing reference metadata, complete titles and DOI strings were checked agains
 
 ## Remaining items
 
+- **Language rewrite completed:** the regenerated paper explains 90 reviewed technical terms and preserves 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editing diagnostics do not prove human usability or comprehension. See [language validation](plain_language_validation.json).
 - **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.
 - Independently verify the complete bibliography and original historical legal provisions when the publisher/official sources are accessible; retain the distinction between checks against the submitted bibliography and primary-source verification.

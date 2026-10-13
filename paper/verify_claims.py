@@ -36,6 +36,49 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def participant_usability_unproven(text: str) -> bool:
+    """Require a stated testing limit and reject common affirmative claims.
+
+    The phrase check accepts both the original wording and a first-person
+    explanation. An affirmative-claim scan matters because adding a truthful
+    limit elsewhere must not make a contradictory participant claim pass.
+    This text check does not replace a human review of the manuscript.
+    """
+    stated_limit = re.search(
+        r"(?:participant usability (?:has not|remains untested)|"
+        r"usability[^\n.]{0,80}not conducted|human interpretation remains untested|"
+        r"I have not tested (?:how easily participants use it|participant usability)|"
+        r"I have not established human usability)", text, re.I)
+    participant_row = re.search(
+        r"^\|\s*Participant usability\s*\|\s*([^|]+)", text, re.I | re.M)
+    if participant_row and participant_row.group(1).strip().lower() != "not conducted":
+        return False
+    affirmative_patterns = [
+        r"\b(?:I|we)\s+(?:have\s+)?(?:successfully\s+)?"
+        r"(?:tested|evaluated|established|proved|demonstrated|confirmed)\s+"
+        r"(?:the\s+)?(?:participant|human|user)\s+usability\b",
+        r"\b(?:I|we)\s+(?:have\s+)?(?:conducted|completed|performed|ran)\s+"
+        r"(?:a\s+)?(?:participant|human|user)\s+(?:study|test(?:ing)?|evaluation)\b",
+        r"\b(?:participant|human|user)\s+usability\s+"
+        r"(?:(?:has|had)\s+been|was|is)\s+(?:successfully\s+)?"
+        r"(?:tested|evaluated|established|proved|demonstrated|confirmed)\b",
+        r"\b(?:participant|human|user)\s+(?:study|testing|evaluation)\s+"
+        r"(?:has\s+been|was|is)\s+(?:conducted|completed|performed)\b",
+        r"\b(?:\d+|three|four|five)\s+(?:consenting\s+)?(?:participants|users)\s+"
+        r"(?:completed|tested|evaluated|tried|used|rated)\b",
+    ]
+    for pattern in affirmative_patterns:
+        for match in re.finditer(pattern, text, re.I):
+            # "No participant study has been conducted" states a limit, even
+            # though its noun/verb sequence also resembles a positive claim.
+            prefix = text[max(0, match.start() - 60):match.start()]
+            negative_subject = re.search(
+                r"\b(?:no|not|without)\s+(?:\w+\s+){0,2}$", prefix, re.I)
+            if not negative_subject:
+                return False
+    return bool(stated_limit)
+
+
 def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
     raw = manuscript.read_bytes()
     text = raw.decode("utf-8")
@@ -245,25 +288,34 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
     abstract = next(line for line in text.splitlines() if line.startswith("Abstract—"))
     conclusion = text.split("## VIII. Conclusion", 1)[1]
     discussion = text.split("## VI. Discussion", 1)[1].split("## VII.", 1)[0]
+    # Definitions can sit between a metric's name and its value. The number
+    # still has to follow that name; this does not accept an unrelated number
+    # elsewhere in the section as a substitute for a missing prose claim.
+    definition_and_link = r"(?:\s*\([^()\n]*\))?\s*(?:(?:is|of|=)\s*)?"
     for section, passage in [("Abstract", abstract), ("VI.B", discussion), ("VIII", conclusion)]:
         for claim, pattern, value in [
-                ("primary AUC", r"AUC\s+(\d+\.\d+)", auc),
-                ("primary AP", r"(?:average precision|AP)\s+(\d+\.\d+)", ap),
-                ("primary Brier", r"Brier(?: score)?\s+(\d+\.\d+)", brier)]:
+                ("primary AUC", rf"AUC{definition_and_link}(\d+\.\d+)", auc),
+                ("primary AP", rf"(?:average precision|AP){definition_and_link}(\d+\.\d+)", ap),
+                ("primary Brier", rf"Brier(?: score)?{definition_and_link}(\d+\.\d+)", brier)]:
             if section == "VI.B" and claim == "primary Brier":
-                pattern = r"Brier improvement from \d+\.\d+ to (\d+\.\d+)"
+                pattern = r"Brier (?:improvement|falls) from \d+\.\d+ to (\d+\.\d+)"
             prose(section, claim, passage, pattern, value, metrics_path + "; model=logistic_out_of_fold")
-    prose("Abstract", "intercept-only Brier", abstract, r"compared with (\d+\.\d+)", baseline_brier,
+    prose("Abstract", "intercept-only Brier", abstract,
+          r"(?:compared with|Predicting only[^.\n]+gives) (\d+\.\d+)", baseline_brier,
           metrics_path + "; model=intercept_only_out_of_fold")
-    prose("VI.B", "absolute Brier reduction", discussion, r"reduction of approximately (\d+\.\d+)", improvement, metrics_path)
+    prose("VI.B", "absolute Brier reduction", discussion,
+          r"(?:reduction of approximately |a modest )(\d+\.\d+)(?: reduction)?", improvement, metrics_path)
     for section, passage in [("Abstract", abstract), ("VI.A", discussion), ("VIII", conclusion)]:
         prose(section, "unweighted prevalence", passage, r"(\d+\.\d+)% unweighted", 100 * events / n, metrics_path)
         prose(section, "person-weighted prevalence", passage, r"(\d+\.\d+)% person-weighted", 100 * weighted_rate, screen_path + "; scenario=S0")
         if section != "VI.A":
             prose(section, "lowest screening sensitivity", passage,
-                  r"(?:ranged from|alternatives yield) (\d+\.\d+)%", 100 * min(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
+                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give) (\d+\.\d+)%",
+                  100 * min(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
             prose(section, "highest screening sensitivity", passage,
-                  r"(?:ranged from \d+\.\d+% to|alternatives yield \d+\.\d+%–)\s*(\d+\.\d+)%", 100 * max(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
+                  r"(?:ranged from|alternatives yield|weighted rates of|alternatives give) "
+                  r"\d+\.\d+%\s*(?:to|[–−-])\s*(\d+\.\d+)%",
+                  100 * max(float(r["weighted_nonreceipt"]) for r in screens.values()), screen_path)
 
     cohort_path = "output/runs/primary/cohort_person.csv"
     cohort = csv_rows(cohort_path)
@@ -373,9 +425,10 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
               digest(source("examples/synthetic_report/" + filename)) == expected,
               "Fresh hash check of retained synthetic export, not regeneration or a new Windows run.")
     check("V.D / VI.C / VII", "Participant usability remains untested", "docs/validation_summary.json; human_usability_tested; manuscript",
-          old_validation["human_usability_tested"] is False and bool(re.search(
-              r"(?i)(?:participant usability (?:has not|remains untested)|usability[^\n.]{0,80}not conducted|human interpretation remains untested)", text)),
-          "No recruited participants, task-time/error/ease observations or acceptance evidence.")
+          old_validation["human_usability_tested"] is False and participant_usability_unproven(text),
+          "A stated limitation is required and common affirmative participant-testing claims are rejected. "
+          "No recruited participants, task-time/error/ease observations or acceptance evidence; "
+          "the phrase scan does not replace human review.")
 
     register("IV / V.D", "Two historical research runs: all 14 files byte-identical", "specification/phase7_artefact.md; Second run", "Yes: saved narrative record",
              "The earlier second-run record reports byte identity. Both historical run folders are not retained; no repeat run or fit was performed here.")
@@ -392,12 +445,15 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
           "Research rule values are reproducible; this verifier does not independently authenticate the notices, establish statutory entitlement, or clear historical repository disclosure.")
     primary_sources = read_json("paper/primary_source_audit.json")
     limit("References / II / III.B", "Article claims and operative legal-notice provisions remain incompletely verified", "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md",
-          f"Separate primary-source audit reports {primary_sources['external_attempts']} external attempts and "
+          f"The retained primary-source audit dated {primary_sources['audit_date']} reports "
+          f"{primary_sources['external_attempts']} external attempts and "
           f"{primary_sources['external_primary_texts_accessed']} remote primary texts accessed (HTTPS proxy 403). "
           f"{primary_sources['local_authentic_stats_sa_documents_read']} authentic local Stats SA documents were read. "
-          "The 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; "
-          "they do not authenticate article findings or the operative Annexure/R100/couple-threshold chain.",
-          "Separate primary-source evidence audit")
+          "Its then-current 25-reference first-use check and 18 DOI-string matches establish "
+          "citation/bibliographic consistency only; they do not authenticate article findings or "
+          "the operative Annexure/R100/couple-threshold chain. This run reads that historical record "
+          "and does not repeat publisher or legal-source access.",
+          "Retained primary-source evidence audit; no fresh external verification")
     title_line = next((line for line in text.splitlines() if "ICT Honours" in line), "Title metadata not found")
     check("Title block", "Author-confirmed APRE402 module appears with student number 21634436", "Author confirmation in revision conversation; paper/manuscript.md; author/module line",
           "APRE402" in title_line and "21634436" in title_line,

@@ -269,8 +269,8 @@ L 414.4 247.300601
 " style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="text_9">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(137.465 354.54875)">Final resolved cohort: 1,013</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(110.37375 371.14125)">Unresolved receipt among PASS: 0</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(152.035 353.86125)">Final study group: 1,013</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(135.68375 371.255)">PASS with unclear receipt: 0</text>
    </g>
   </g>
  </g>

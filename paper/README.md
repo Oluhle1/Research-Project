@@ -8,6 +8,12 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
+The **13 October 2026** rewrite replaces dense noun phrases with active verbs,
+uses “I” for the author's research actions and “you” for reader guidance, and
+explains necessary technical terms in parentheses at first use. The study's
+results and limits are preserved. The current PDF still has eight pages,
+nine tables and four figures. See [the language revision notes](plain_language_revision.md).
+
 ## Editable sources
 
 - `manuscript.md`: compact manuscript consumed by the build.
@@ -36,6 +42,12 @@ This is a review draft; no institutional submission has been performed.
 - `primary_source_audit.md`, `primary_source_audit.json`: source-specific checks,
   local primary-document evidence and recorded remote-access limits. A matching
   submitted reference is distinguished from independently reading its source.
+- `plain_language_revision.md`, `plain_language_validation.json`: the language
+  rewrite, manual review of 90 terms and 16 scientific distinctions, and editing
+  diagnostics. These records do not establish participant usability or reading
+  comprehension.
+- `plain_language_negative_controls.json`: four deliberate temporary errors
+  rejected by the claim verifier; the tracked manuscript was not altered.
 
 ## Rebuild
 
@@ -83,10 +95,11 @@ has not rerun or expanded that suite.
 The targeted revision strengthens the RQ discussion, links theory to findings,
 explains screen/model sensitivity differences, and distinguishes ranking,
 precision–recall, probability error and calibration. Its 314-row claim register
-passes 209 table comparisons and 100 supporting checks. Three local authentic
-Stats SA documents were read; thirteen external source requests were refused
-by the outbound proxy. Those retrievals supplied no original article or legal
-text, so the response matrix records P5 as partially complete.
+passes 209 table comparisons and 100 supporting checks after the language rewrite.
+The retained **11 October** primary-source audit records three local authentic
+Stats SA documents read and thirteen external requests refused by the outbound
+proxy. That historical audit supplied no remote article or legal text; it has
+not been rerun for the language rewrite. P5 remains partially complete.
 
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has

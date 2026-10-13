@@ -183,9 +183,9 @@ not been rewritten or submitted by this implementation task.
 
 ## October plan Phase 6 — earlier six-page Submission 2 review draft, 11 October 2026
 
-This entry records the D-061 stage. The subsequent Submission 1 integration
-entry records the current eight-page build; the validation JSON is updated
-for that current build.
+This entry records the historical D-061 stage. The later D-062 and D-063
+entries record subsequent builds; D-064 below records the current plain-language
+revision. The validation JSON is maintained for the latest build.
 
 The user directed us to return to the plan and improve Submission 2 while
 leaving participant usability testing out of the present revision. This is
@@ -237,6 +237,9 @@ is retained only in its historical close-out.
 
 ## Submission 1 integration — eight-page expansion, 11 October 2026
 
+This D-062 entry records a historical build, including its word count and hashes.
+The subsequent revision entries describe later builds.
+
 The user authorized integrating the reuploaded Submission 1 into Submission 2
 and expanding the paper to exactly eight pages with additional tables and
 diagrams. The reuploaded source is byte-identical to the repository baseline
@@ -287,6 +290,9 @@ preserved above as a historical record.
 
 ## Targeted Submission 2 revision — 11 October 2026
 
+This D-063 entry records a historical build. Its 5,262-word count and recorded
+hashes remain evidence for that stage, rather than the current manuscript.
+
 Completed: P1–P4 of the supplied improvement plan, with deeper RQ discussion,
 theory/proxy/findings synthesis, distinct predictive-metric interpretation and
 screen/model sensitivity implications. APRE402 is confirmed by the user and
@@ -319,3 +325,46 @@ Final manuscript SHA-256:
 `a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852`.
 Final PDF SHA-256:
 `29eb71eb2b00763b1e30582a9b0cd6331d01c2e5732e999ca6f03bcc4b161e7b`.
+
+## Plain-language Submission 2 revision — 13 October 2026
+
+The user asked for active verbs, parenthetical explanations of technical terms
+at first use, “I” for the author and “you” when guiding the reader. Decision
+D-064 records this reporting change. The rewritten manuscript keeps the
+approved title, APRE402, the original research questions and all frozen results.
+It simplifies prose, headings, table wording, captions and diagram labels.
+
+The current manuscript contains **5,632 whitespace-delimited words**, including
+a **263-word abstract**. The rebuilt PDF has **eight US Letter pages**, with
+**nine tables, four figures and 25 references**. The body, table and reference
+fonts remain 10, 9 and 8 pt. Current render and layout evidence is recorded in
+`paper/manuscript_validation.json`.
+
+The portable retained-evidence audit passed **209 numerical table comparisons
+and 100 supporting checks**, with zero failures. The 314-row source register
+retains four explicit limitation rows. Temporary altered copies confirmed that
+the verifier rejects an incorrect table count, an altered abstract AUC, a false
+participant-usability claim and false Table IX evidence. These are manuscript
+verification checks, not new application runs.
+
+`paper/plain_language_revision.md` and `paper/plain_language_validation.json`
+record the manual review of **90 essential terms and 16 scientific meanings**.
+The review keeps apparent eligibility, reported receipt, predicted non-receipt
+and legal entitlement separate. Editing diagnostics describe shorter sentences
+and author/reader pronouns; they do not establish reader comprehension or human
+usability. The current manuscript SHA-256 is
+`69b44ac75d1f4efb45d36cec4fa534b5cd53c7ffde17fc347e94c833a9cf9c93`.
+
+Scientific, model, application, test, tool and dataset paths remain unchanged
+from `bfabb350a8062cab7237a31c362afc4cc15196f4`. No model was fitted and no
+application suite was rerun. The earlier **220 tests**, **15,388-record
+agreement** and **50 Windows-report checks** retain their original scope and
+dates. No participant study, new province analysis, publisher/legal-source read,
+public deployment or external submission occurred. The earlier discussion of
+other provinces remains brainstorming, not completed investigation.
+
+P5 remains partial: original journal/legal authentication, ethics/access and
+historical-data disclosure decisions, and official portal requirements are
+still outstanding. The D-062 and D-063 word counts and SHA-256 values above
+remain historical build records; the current audit files bind this revision to
+its retained evidence.

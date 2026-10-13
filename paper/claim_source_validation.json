@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-11T16:50:30.304427+00:00",
+  "checked_at": "2026-10-13T05:53:23.023113+00:00",
   "manuscript_path": "paper/manuscript.md",
-  "manuscript_sha256": "a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852",
+  "manuscript_sha256": "69b44ac75d1f4efb45d36cec4fa534b5cd53c7ffde17fc347e94c833a9cf9c93",
   "numeric_comparisons": 209,
   "passed": 209,
   "failed": 0,
@@ -68,7 +68,7 @@
   "manuscript_edited": false,
   "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records; primary literature, legal, ethics, portal and review-log confirmation are not supplied by this audit.",
   "verifier": "paper/verify_claims.py",
-  "verifier_sha256": "d7fa40728cf7abe18296b66429f46172a578fd9a4d2f70555a998da6c379ed4c",
+  "verifier_sha256": "e0f258ccb8502c52da87489f38625b07d55f86dd4d86c156f21771bde28d2e7b",
   "register": "paper/claim_source_register.csv",
   "register_rows": 314,
   "supporting_comparisons": 100,
@@ -93,7 +93,7 @@
     {
       "claim": "Article claims and operative legal-notice provisions remain incompletely verified",
       "source": "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md",
-      "limitation": "Separate primary-source audit reports 13 external attempts and 0 remote primary texts accessed (HTTPS proxy 403). 3 authentic local Stats SA documents were read. The 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; they do not authenticate article findings or the operative Annexure/R100/couple-threshold chain."
+      "limitation": "The retained primary-source audit dated 2026-10-11 reports 13 external attempts and 0 remote primary texts accessed (HTTPS proxy 403). 3 authentic local Stats SA documents were read. Its then-current 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; they do not authenticate article findings or the operative Annexure/R100/couple-threshold chain. This run reads that historical record and does not repeat publisher or legal-source access."
     }
   ],
   "failures": [],

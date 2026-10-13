@@ -5,9 +5,9 @@
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. The targeted Submission 2 revision passed the eight-page render and independent visual/citation checks; P1–P4 interpretation improvements and the reproducible claim register are complete. P5 remains limited by unavailable original journal/legal texts and unconfirmed institutional/portal records. Participant usability has not been evaluated.
+**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. P1–P4 interpretation improvements and the reproducible claim register remain complete. The current plain-language revision retains the eight-page paper, APRE402 and frozen results, with active author/reader prose and reviewed first-use explanations; see Section 19 and the current manuscript validation. P5 remains limited by unavailable original journal/legal texts and unconfirmed ethics/access/disclosure/portal records. Participant usability has not been evaluated.
 
-**Created:** 2026-09-25; updated 2026-10-11 (Africa/Johannesburg).
+**Created:** 2026-09-25; updated 2026-10-13 (Africa/Johannesburg).
 
 **Rule version:** `opg-kzn-primary-v1`. Retained research model: six slopes under D-052; packaged inference version `opg-kzn-six-slope-v1`.
 
@@ -529,9 +529,9 @@ force for the survey period and logged in D-033–D-035.
 Result cells were initially filled from study Phase 9, discussion cells from
 Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
 includes the October implementation evidence and the explicit untested-usability
-limit. The current eight-page integrated build and mechanical checks are
-recorded in `paper/manuscript_validation.json`; independent final visual review
-passed for all eight pages.
+limit. The current plain-language eight-page build and latest mechanical/layout
+evidence are recorded in `paper/manuscript_validation.json`; Section 19 records
+the reporting scope. Earlier completed visual reviews remain historical evidence.
 Independent publisher and official-notice verification are not claimed complete.
 
 | Question | Method | Evidence / output | Result | Discussion | Conclusion |
@@ -578,8 +578,9 @@ Stratum cannot be constructed. That remains a limit on design-based variance.
 ## 16. October plan Phase 6 — earlier six-page review draft, 11 October 2026
 
 This section records the earlier D-061 stage. Its six-page counts and 162
-numerical checks are historical; Section 17 describes the current integrated
-eight-page build. The validation JSON is updated for the current build.
+numerical checks are historical; Sections 17 and 18 record later builds and
+Section 19 records the current plain-language revision. The validation JSON is
+maintained for the latest build.
 
 The revision strengthens the predictor-to-concept mapping in
 `paper/conceptual_framework.md`, updates `paper/results.md` and
@@ -607,6 +608,9 @@ remains outstanding, and ethics approval is not documented in the project
 record. This is a completed review draft, not an external submission.
 
 ## 17. Submission 1 integration and eight-page expansion, 11 October 2026
+
+This D-062 section records the historical 4,988-word build; Section 19 describes
+the current manuscript. Its scientific decisions remain in force.
 
 The user authorized integrating the uploaded Submission 1 into Submission 2,
 restoring its approved title, aim, objectives, review approach and attributed
@@ -642,6 +646,10 @@ The integrated manuscript is a review draft; no external submission is claimed.
 
 ## 18. Targeted interpretation and claim verification, 11 October 2026
 
+This D-063 section records the historical 5,262-word build. Its source and
+claim-verification limits remain in force; Section 19 describes the current
+plain-language revision.
+
 The user authorised the attached revision plan and confirmed APRE402 as the
 final-paper module identifier. The original PRIC401 Submission 1 remains
 unchanged. D-063 records the new reporting scope. The revised manuscript is
@@ -673,3 +681,46 @@ Ethics/access/disclosure and final portal requirements require confirmation.
 No participant study, refit, new scientific analysis, deployment, predicted
 grade or external submission is claimed. `paper/targeted_revision_response.md`
 maps all five priorities and fourteen acceptance items to this evidence.
+
+## 19. Plain-language reporting revision, 13 October 2026
+
+The user asked for active verbs, first-use parenthetical explanations and
+first-person wording. D-064 records this writing scope. “I” describes the
+single author's research actions; “you” guides readers through the tool and
+results. Plain words replace dense terms where a technical label is unnecessary.
+The revision also simplifies table text, captions and diagram labels. It does
+not change the approved title, APRE402, research questions or study methods.
+
+The current manuscript has 5,632 whitespace-delimited words, including a
+263-word abstract. Its rebuilt PDF has exactly eight US Letter pages, nine
+tables, four figures and 25 first-use references. Body/table/reference fonts
+remain 10/9/8 pt. The current source SHA-256 is
+`69b44ac75d1f4efb45d36cec4fa534b5cd53c7ffde17fc347e94c833a9cf9c93`;
+`paper/manuscript_validation.json` records the latest render and layout evidence.
+The earlier 4,988- and 5,262-word records are historical, with their original
+hashes retained in the evidence log.
+
+`paper/plain_language_revision.md` and `paper/plain_language_validation.json`
+record a reading-order review of 90 essential terms and 16 scientific meanings.
+The review covers prose, tables, captions and diagram-label sources. Apparent
+screening, reported receipt, predicted non-receipt and legal entitlement remain
+separate. Sentence and pronoun diagnostics support editing decisions; they do
+not measure reader comprehension, task success or participant usability.
+
+`paper/verify_claims.py` still passes 209 numerical table comparisons and 100
+supporting checks. Its 314-row source register retains four limitation rows.
+Four temporary negative controls confirm that it rejects an incorrect table
+count, wrong abstract AUC, false participant-usability prose and false Table IX
+evidence. Source hashes bind these checks to the unchanged scientific outputs.
+
+Scientific, model, application, test, tool and dataset paths are unchanged from
+`bfabb350a8062cab7237a31c362afc4cc15196f4`. No model was fitted or application
+suite rerun; the earlier 220 tests, 15,388-record agreement and 50 Windows-report
+checks remain historical evidence. No participant study or other-province
+analysis was performed. The earlier province-extension conversation remains
+brainstorming, rather than a result or new method in this paper.
+
+P5 remains partial. This writing revision does not authenticate inaccessible
+journal/legal texts, confirm institutional ethics/access or historical-data
+disclosure clearance, or verify portal requirements. No new original-source
+reads, public deployment, predicted grade or external submission are claimed.

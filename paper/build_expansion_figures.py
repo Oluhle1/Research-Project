@@ -76,40 +76,40 @@ def conceptual_framework():
         ax, .15, 5.65, 6.7, .98,
         "Administrative-burden theory\n"
         "Learning, compliance and psychological costs\n"
-        "Literature informs proxies; costs not measured",
+        "Survey measures do not record these costs",
     )
     box(
         ax, .15, 4.62, 6.7, .68,
-        "Candidate circumstances: age, sex, schooling,\n"
-        "settlement and welfare-office distance",
+        "Predictors: age, sex, schooling,\n"
+        "settlement and office distance",
     )
     arrow(ax, (3.5, 5.62), (3.5, 5.33))
 
     # Legal entitlement remains outside the observable research workflow.
     box(
         ax, .15, 3.32, 2.28, .95,
-        "Legal entitlement\nNot fully observed\nNo legal decision",
+        "Legal entitlement\nNot fully recorded\nNo legal decision",
         shade="white", dashed=True,
     )
     box(
         ax, 2.55, 3.32, 4.3, .95,
-        "Observable research screen\n"
+        "Research screening\n"
         "Age, income, partnership,\n"
-        "grant compatibility",
+        "other-grant rules",
     )
     box(
         ax, 2.55, 2.30, 4.3, .74,
-        "PASS + resolved receipt\nY = 1 non-receipt; Y = 0 receipt",
+        "PASS + clear receipt answer\nReports receipt or non-receipt",
     )
     arrow(ax, (4.7, 3.29), (4.7, 3.07))
 
     box(
         ax, .15, 1.19, 3.15, .76,
-        "Person-weighted\nreported prevalence",
+        "Weighted percentage\nreporting non-receipt",
     )
     box(
         ax, 3.7, 1.19, 3.15, .76,
-        "Unweighted model\nReported non-receipt",
+        "Unweighted model\nChance of non-receipt",
     )
     line(ax, [(4.7, 2.27), (4.7, 2.12), (1.725, 2.12)])
     arrow(ax, (1.725, 2.12), (1.725, 1.98))
@@ -123,8 +123,8 @@ def conceptual_framework():
 
     box(
         ax, .15, .18, 6.7, .67,
-        "Artefact: separate statuses, scores and audited exports\n"
-        "Workflow links are not tested causal pathways",
+        "Software: decisions, scores and checked reports\n"
+        "Arrows show steps, not proven causes",
         shade="white",
     )
     arrow(ax, (1.725, 1.16), (1.725, .88))
@@ -196,8 +196,8 @@ def cohort_flow():
     arrow(ax, (3.4, 1.98), (3.4, 1.83))
     arrow(ax, (5.8, 1.98), (5.8, 1.83))
     box(ax, .15, .15, 6.7, .55,
-        f"Final resolved cohort: {n('Final analysis cohort')}\n"
-        f"Unresolved receipt among PASS: {n('Outcome unresolved')}",
+        f"Final study group: {n('Final analysis cohort')}\n"
+        f"PASS with unclear receipt: {n('Outcome unresolved')}",
         shade="white")
     save(fig, "cohort_flow")
     return counts

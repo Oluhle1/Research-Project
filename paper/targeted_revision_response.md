@@ -2,6 +2,15 @@
 
 Revision date: **11 October 2026 (Africa/Johannesburg)**.
 
+This is the dated record of the substantive revision. Its 5,262-word count and
+final-snapshot hashes below refer to **11 October**, before the language rewrite.
+The **13 October** paper keeps these improvements and replaces dense wording
+with active verbs, first-person research actions and parenthetical explanations.
+The current manuscript has 5,632 whitespace tokens, and its PDF still has eight
+pages. See [the language revision](plain_language_revision.md) and
+[current artifact validation](manuscript_validation.json) for the current files
+and hashes. The primary-source audit remains the recorded 11 October check.
+
 This response records the completed user-authorised improvements in the uploaded
 `OPG_Submission2_90Plus_Revision_Plan.md`. The plan's 90%+ ambition is an
 aspiration, not a predicted mark. It supplies revision priorities rather than
@@ -93,7 +102,7 @@ and title. The final map has all 25 references in first-use order and no unused 
 this mechanical check does not independently verify cited content.
 
 
-## Final revision snapshot
+## Historical final revision snapshot: 11 October 2026
 
 - Manuscript SHA-256:
   `a0b1f20eb7f55a7a6eef63bbfb547860dd5cad2c1f8f8c8bf7bf6d7f6cafd852`.

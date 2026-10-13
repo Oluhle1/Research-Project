@@ -153,11 +153,11 @@ L 478.8 338.4
    <g id="text_1">
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(131.6875 34.54125)">Administrative-burden theory</text>
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(65.57875 51.82125)">Learning, compliance and psychological costs</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(60.6425 69.215)">Literature informs proxies; costs not measured</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(76.91625 69.10125)">Survey measures do not record these costs</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(64.56 128.14125)">Candidate circumstances: age, sex, schooling,</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(96.53 147.085)">settlement and welfare-office distance</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(125.25 128.14125)">Predictors: age, sex, schooling,</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(129.665 147.085)">settlement and office distance</text>
    </g>
    <g id="patch_10">
     <path d="M 252 86.96083
@@ -170,17 +170,17 @@ L 248.8 96.102588
    </g>
    <g id="text_3">
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(20.98125 203.38125)">Legal entitlement</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(18.035 220.66125)">Not fully observed</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(18.35625 220.66125)">Not fully recorded</text>
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(22.7075 237.94125)">No legal decision</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(224.61 205.045)">Observable research screen</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(258.16875 203.38125)">Research screening</text>
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(233.14625 220.66125)">Age, income, partnership,</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(260.695 237.94125)">grant compatibility</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(268.95375 237.94125)">other-grant rules</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(239.73875 293.135)">PASS + resolved receipt</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(208.595 310.27375)">Y = 1 non-receipt; Y = 0 receipt</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(221.81 293.135)">PASS + clear receipt answer</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(215.13 310.2225)">Reports receipt or non-receipt</text>
    </g>
    <g id="patch_11">
     <path d="M 338.4 254.719336
@@ -192,12 +192,12 @@ L 335.2 258.82133
 " style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="text_6">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(56.35375 372.22125)">Person-weighted</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(41.635 389.615)">reported prevalence</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(37.56 372.22125)">Weighted percentage</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(36.79625 389.30875)">reporting non-receipt</text>
    </g>
    <g id="text_7">
     <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(303.05875 372.22125)">Unweighted model</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(293.1725 389.615)">Reported non-receipt</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(290.0325 389.615)">Chance of non-receipt</text>
    </g>
    <g id="patch_12">
     <path d="M 124.2 338.963203
@@ -227,8 +227,8 @@ L 475.6 337.299106
 " style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="text_8">
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(27.7425 448.295)">Artefact: separate statuses, scores and audited exports</text>
-    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(63.37875 465.46125)">Workflow links are not tested causal pathways</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(55.46875 448.295)">Software: decisions, scores and checked reports</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(96.64875 465.575)">Arrows show steps, not proven causes</text>
    </g>
    <g id="patch_15">
     <path d="M 124.2 408.083203

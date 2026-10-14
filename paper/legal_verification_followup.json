@@ -1,0 +1,255 @@
+{
+  "status": "legal follow-up clarification and document checks passed; original provisions and in-force chain incomplete; awaiting source documents/user review",
+  "checked_at_utc": "2026-10-14T23:04:35.583652+00:00",
+  "revision_date": "2026-10-15",
+  "baseline_commit": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
+  "feedback_point": 3,
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24",
+  "manuscript_words_whitespace_tokens": 5451,
+  "abstract_words_whitespace_tokens": 141,
+  "III_B_words_whitespace_tokens": 377,
+  "point3_review": {
+    "status": "clarification and evidence-scope checks passed; statutory verification incomplete",
+    "reviewers": "Independent legal_followup_review checked actual diff, questionnaire and all pages; primary review passed",
+    "conditional_arithmetic": true,
+    "annual_units_and_couple_assumption_explicit": true,
+    "actual_spouse_link_rules_preserved": true,
+    "full_household_spouse_age_and_missing_resources_explicit": true,
+    "ambiguous_status_and_link_failures_unresolved": true,
+    "failure_precedence_receipt_and_denominator_unchanged": true,
+    "legal_premises_verified": false
+  },
+  "source_verification": {
+    "additional_attempts": [
+      {
+        "key": "expanded_government_2014_pdf",
+        "client_date": "2026-10-14",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/201409/37474rg10165gon211.pdf",
+        "error": "curl exit 22; HTTP 403; no PDF received",
+        "legal_text_read": false,
+        "provenance": "Retained tool transcript; expanded-access read-only request"
+      },
+      {
+        "key": "expanded_government_regulations_page",
+        "client_date": "2026-10-14",
+        "url": "https://www.gov.za/documents/social-assistance-act-regulations",
+        "error": "CONNECT tunnel failed, response 403",
+        "legal_text_read": false,
+        "provenance": "Retained tool transcript; expanded-access read-only request"
+      },
+      {
+        "key": "expanded_government_root",
+        "client_date": "2026-10-14",
+        "url": "https://www.gov.za/",
+        "error": "CONNECT tunnel failed, response 403",
+        "legal_text_read": false,
+        "provenance": "Retained tool transcript; expanded-access read-only request"
+      },
+      {
+        "key": "expanded_saflii_index",
+        "client_date": "2026-10-14",
+        "url": "https://www.saflii.org/za/legis/consol_reg/",
+        "error": "CONNECT tunnel failed, response 403",
+        "legal_text_read": false,
+        "provenance": "Retained tool transcript; expanded-access read-only request"
+      },
+      {
+        "key": "expanded_acts_index",
+        "client_date": "2026-10-14",
+        "url": "https://www.acts.co.za/social-assistance-act-2004/",
+        "error": "CONNECT tunnel failed, response 403",
+        "legal_text_read": false,
+        "provenance": "Retained tool transcript; expanded-access read-only request"
+      },
+      {
+        "key": "saflii_2008_415",
+        "url": "https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf",
+        "attempted_at_utc": "2026-10-14T22:57:47.786654+00:00",
+        "status": "request_failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "body_read": false,
+        "client_date": "2026-10-15",
+        "legal_text_read": false,
+        "provenance": "Current exact supplied-link retrieval"
+      },
+      {
+        "key": "acts_regulation_19",
+        "url": "https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means",
+        "attempted_at_utc": "2026-10-14T22:57:47.803913+00:00",
+        "status": "request_failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "body_read": false,
+        "client_date": "2026-10-15",
+        "legal_text_read": false,
+        "provenance": "Current exact supplied-link retrieval"
+      }
+    ],
+    "additional_remote_attempt_count": 7,
+    "primary_legal_texts_read": 0,
+    "status": "blocked; no exact legal quotations or historical in-force confirmation",
+    "historical_earlier_ledgers": [
+      "paper/historical_screening_source_audit.json: 12 requests at D070",
+      "paper/primary_source_audit.json: 13 requests at 11 October audit"
+    ],
+    "remaining_original_checks": [
+      "Read the supplied 2008 Gazette and means-determination text, including exact provision identifiers",
+      "Obtain the 2014 amendment and 2014/2015 rate notices with commencement details",
+      "Establish which formula/minimum/spouse/separation provisions applied across October 2014–October 2015",
+      "Distinguish original Gazette text from a possibly later consolidated Acts Online version"
+    ]
+  },
+  "scope": {
+    "changed_manuscript_area": "III.B prose only; receipt paragraph unchanged",
+    "text_outside_III_B_unchanged": true,
+    "all_nine_table_sources_and_XML_unchanged": true,
+    "accepted_framework_Table_II_and_all_figures_unchanged": true,
+    "builder_references_scientific_outputs_app_data_model_unchanged": true,
+    "documentary_changes": "Legal follow-up ledger, supplied source pointers and reporting records; rulebook/cohort specification retain the earlier D070 notes",
+    "remaining_supervisor_points": "4–10 pending",
+    "user_acceptance": "Pending; do not mark legal verification complete"
+  },
+  "audience_and_scientific_scope": {
+    "status": "passed",
+    "clear_professional_specialist_language": true,
+    "elementary_term_definitions_not_reintroduced": true,
+    "all_16_previously_reviewed_scientific_distinctions_preserved": true,
+    "causal_legal_entitlement_usability_or_external_performance_claim_added": false
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "model_refitted": false,
+    "application_suite_rerun": false,
+    "detail": "paper/claim_source_validation.json",
+    "scope": "Existing 14 October numerical/supporting audit binds this unchanged manuscript; read and checked on continuation; no repeated analysis"
+  },
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent legal_followup_review all-eight-page reviewers",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "12c857141c3341bf33da314c7264893c361b652bdd3e499b5d0f29cba5ccef07",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "cd6e002e74c83bc180bce0b15c25376fb3bf0434e83eddb0849f827049f1a930",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 25,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "III_B_pages": [
+      3,
+      4
+    ],
+    "clipping_or_extra_blank_page": false,
+    "notes": "Table II page 2; Figure 1 page 3; VI.E page 8; notes V/VIII continue 5–6/6–7; reference 1 left and 2–25 right whole entries on page 8",
+    "review_date": "2026-10-15",
+    "render_date": "2026-10-14",
+    "render_scope": "Retained final render matches unchanged current manuscript and DOCX; reviewed after continuation"
+  },
+  "protected_paths": {
+    "baseline_commit": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py",
+      "paper/supervisor_point1_validation.json",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point2_validation.json",
+      "paper/primary_source_audit.json",
+      "paper/primary_source_audit.md"
+    ],
+    "status": "unchanged"
+  },
+  "historical_point2_validation": {
+    "detail": "paper/supervisor_point2_validation.json",
+    "snapshot_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+    "source_sha256": "38e4f3b65619d30593c278dbc9827615a7907dc60fde1e97ff31c57430924c69",
+    "words": 5416,
+    "user_review": "User authorized progression to point 3"
+  },
+  "next_step": "Receive readable originals/extracts and authenticate precise legal provisions and amendment chronology; review current clarifications",
+  "limits": [
+    "Verified calculation is conditional on legal premises that remain unverified",
+    "No legal entitlement, new model or application/usability validation established",
+    "No external submission or message sent"
+  ],
+  "client_timezone": "Africa/Johannesburg",
+  "requested_legal_followups": {
+    "1": {
+      "request": "Authenticate historical thresholds against original provisions",
+      "status": "blocked pending primary text and amendment chain",
+      "calculation_and_code": "checked; preserved",
+      "legal_verification_complete": false
+    },
+    "2": {
+      "request": "State exactly what is verified and what remains uncertain",
+      "status": "addressed within available evidence",
+      "change": "III.B identifies checked arithmetic, coded ceilings and LCS partnership items; primary notices/formula/minimum/spouse authentication remains incomplete"
+    },
+    "3": {
+      "request": "Justify marital status and spouse resources; distinguish legal requirements from research choices",
+      "status": "research rationale clarified; exact legal requirements pending authentication",
+      "change": "Resident reciprocal pointers assign income to correct partner; sum implements assumed joint-resource rule; nonresident income unavailable; separated questionnaire omits spouse details; cohabitation category does not establish legal classification"
+    },
+    "4": {
+      "request": "Exact historical regulations citations and in-force confirmation",
+      "status": "blocked pending exact provisions and operative amendment history",
+      "supplied_document_links_recorded": true,
+      "authenticated_legal_references_added": false,
+      "legal_verification_complete": false
+    }
+  },
+  "supplied_source_links": [
+    {
+      "url": "https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf",
+      "role": "User-supplied historical Gazette PDF pointer; document identity/content unread"
+    },
+    {
+      "url": "https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means#",
+      "role": "User-supplied means-determination page; URL names regulation 19 but clause text and historical version unread"
+    }
+  ],
+  "user_supplied_legal_review": {
+    "provenance": "Narrative supplied in user reply; no quoted primary provisions or authenticated amendment details supplied",
+    "reported_findings": [
+      "R1,350 monthly from April 2014; R1,410 from April 2015",
+      "Annual D=1.6A−0.4B and R100 monthly minimum",
+      "Assessable income for married applicants uses half joint income",
+      "2008 spouse definition recognises specified marriage/customary/civil-union/religious relationships",
+      "Desertion exception involves at least three continuous months and unwillingness to support"
+    ],
+    "original_texts_independently_read_here": false,
+    "reported_confirmation_treated_as_primary_verification": false
+  },
+  "historical_point3_validation": {
+    "detail": "paper/supervisor_point3_validation.json",
+    "snapshot_commit": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
+    "source_sha256": "ff5bab12dc7c0dfe85ff3911a87a197c6569819ec91c98239d8a4b4f95836b8e",
+    "words": 5430
+  }
+}

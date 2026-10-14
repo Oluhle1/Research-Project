@@ -31,17 +31,36 @@ a vertical grid. The build changes apply only to Table II. See
 [the point 2 revision](supervisor_point2_revision.md) and
 [its historical validation](supervisor_point2_validation.json).
 
-The current **supervisor point 3 draft** has **5,430 whitespace tokens** and a
-**141-word abstract**. III.B now documents interview-period ceilings, annual
-formula and minimum-payment arithmetic, the couple-income assumption, resident
-spouse linkage and unresolved marital/resource cases. Checks against the
-retained implementation and arithmetic passed. Official notices, the operative
-formula, minimum-payment rule and legal spouse definition remain unverified.
-All twelve fresh source-retrieval attempts returned proxy HTTP 403, with no
-origin text accessed. See [the point 3 revision](supervisor_point3_revision.md),
-[its validation](supervisor_point3_validation.json) and
-[the screening-source audit](historical_screening_source_audit.md).
-**Point 3 is partly addressed and awaits user review; points 4–10 remain pending.**
+The preceding **14 October supervisor point 3 draft, D-070**, at commit
+`beec7d77c0e32b24b636f3f337ccc5545d899fd1` had **5,430 whitespace tokens**, a
+**141-word abstract** and a **356-word III.B**. Its
+[point 3 revision](supervisor_point3_revision.md),
+[validation](supervisor_point3_validation.json) and
+[twelve-request screening-source audit](historical_screening_source_audit.md)
+remain historical records with their original hashes.
+
+The current **15 October 2026 (Africa/Johannesburg) legal follow-up, D-071**,
+has **5,451 whitespace tokens**, a **141-word abstract** and a **377-word III.B**.
+It responds to the user's four legal requests within supervisor point 3:
+
+| Legal follow-up | Current response | Status |
+| --- | --- | --- |
+| 1. Original threshold sources and exact provisions. | Conditional arithmetic and the coded R61,800/R123,600 and R64,680/R129,360 ceilings pass. The original notices and operative legal premises were not read. | **Blocked: authentication remains open.** |
+| 2. Accurate verification statement. | III.B identifies checked arithmetic, coded ceilings and LCS partnership items; it separately records incomplete authentication of the notices, formula, minimum-payment and spouse provisions applicable in 2014–2015. | **Addressed in text.** |
+| 3. Legal versus research spouse-resource treatment. | III.B explains resident reciprocal links as research consistency requirements, summing resolved applicant/spouse income under the assumed couple rule regardless of spouse age, unavailable nonresident-partner income, omitted spouse details for separated respondents, and unresolved cohabitation or ambiguous links. | **Research rationale clarified; legal classification remains unauthenticated.** |
+| 4. Exact historical regulations and in-force amendment chain. | The user's narrative reports confirmation elsewhere and supplies SAFLII/Acts Online pointers. Neither primary text was read, so exact clauses and the operative amendment chain cannot be authenticated. | **Blocked: original references and in-force confirmation remain open.** |
+
+Seven additional requests failed with proxy HTTP 403: five on 14 October and
+the exact [SAFLII URL](https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf) and
+[Acts Online URL](https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means)
+on 15 October. Zero legal texts were read. Downloaded originals are needed to
+complete requests 1 and 4. The preceding twelve-request D-070 and thirteen-request
+11 October audits remain unchanged. See
+[the current legal follow-up](legal_verification_followup.md) and
+[its evidence record](legal_verification_followup.json).
+**Point 3 is partly addressed and awaits user review; supervisor points 4–10 remain pending.**
+These four legal requests extend point 3; supervisor point 4 concerns bootstrap
+intervals and remains pending.
 See [the language revision](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The primary-source audit remains the recorded 11 October check.
@@ -59,11 +78,12 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current point 3 draft retains that page/table/figure/reference count,
-with 5,430 whitespace tokens. Primary and independent reviewers passed all eight
+The current D-071 point 3 draft retains that page/table/figure/reference count,
+with 5,451 whitespace tokens. Primary and independent reviewers passed all eight
 fresh pages, including Table II and the retained conceptual figure. All 209
-numerical and 100 supporting comparisons passed. Relative to the accepted
-point 2 draft, only III.B changed. All other sections, all tables and figures,
+numerical and 100 supporting comparisons passed against retained outputs, with
+the audit bound to the current manuscript hash. Relative to the D-070 baseline
+`beec7d7`, only III.B changed. All other sections, all tables and figures,
 the build, scientific results, software, data and references remain unchanged.
 Body text remains 10 pt, tables 9 pt
 and references 8 pt. A documented limitation is an accurate response; it does
@@ -96,7 +116,7 @@ establish; it does not establish that condition.
 | 8 | Frozen app scores are not confused with OOF validation. | IV/VI.C; full-data fitted scores have unknown training overlap, while OOF probabilities are household-held-out. | **Passed: final text/evidence checks.** Serialization agreement verifies inference, not new predictive accuracy. |
 | 9 | External validity excludes unsupported contemporary/province transfer. | VI.D specifies target-period screen/outcome compatibility and independent discrimination/calibration; no 2026 applicant decision claim. | **Passed: substantive review.** No independent province, period or administrative validation is claimed. |
 | 10 | Headline numbers trace to saved outputs and the correct run. | Claim-to-source register plus read-only numerical comparisons; include seed/folds, uncertainty, calibration bins and software evidence. | **Passed: 209 numerical + 100 supporting comparisons; zero failures.** Four unverified claims and the historical repeat-run narrative are distinguished from those comparisons. No model refitting or scientific-output change. |
-| 11 | References and legal thresholds are checked against originals. | Original journal/government-notice documents, not merely existing reference strings, must corroborate claims/metadata and historical provisions. Three authentic local Stats SA PDFs corroborate selected metadata/questionnaire/code-list claims; all 18 DOI strings match Submission 1 only. Thirteen remote retrieval attempts failed at proxy CONNECT HTTP 403, with no origin text read. Original notices and operative formula/minimum-payment/couple-resource provisions remain unread. | **Open for external journal/legal originals.** Threshold arithmetic and citation order pass; they do not authenticate legal provisions or article claims. |
+| 11 | References and legal thresholds are checked against originals. | Three authentic local Stats SA PDFs corroborate selected metadata/questionnaire/code-list claims; all 18 DOI strings match Submission 1 only. The retained 11 October audit records thirteen blocked requests and D-070 records twelve. D-071 adds seven failed requests (five on 14 October, two exact user-provided URLs on 15 October), with zero legal texts read. The user's narrative reporting confirmation and its SAFLII/Acts Online pointers do not authenticate original notices, exact clauses or the historical in-force amendment chain in this review. | **Open for external journal/legal originals.** Threshold arithmetic, coded ceilings, LCS items and citation order pass; legal follow-ups 1 and 4 remain blocked. Downloaded originals are needed for exact provisions and in-force confirmation. |
 | 12 | Ethics/access/disclosure statements are accurate and documented. | VII truthfully states no recorded DUT determination; synthetic package contains no survey rows; whole historical repository has not been disclosure-cleared. | Addressed with limits; institutional determination and data-release conditions remain undocumented. |
 | 13 | Correct module and assignment labels appear. | The author explicitly confirmed **APRE402** in this session. The final title reads “ICT Honours (21634436), APRE402,” retaining DUT affiliation. Approved Submission 1 retains its historical PRIC401 label. | **Module confirmed and title corrected.** Official portal assignment naming/cutoff remains unconfirmed. |
 | 14 | Actual eight-page IEEE PDF is checked at normal reading size. | Final DOCX/PDF rebuilt; primary and independent visual reviews passed all eight freshly rendered Letter pages, nine tables, four figures, captions/cross-references and 25 references. | **Passed: final render, visual and citation checks.** |
@@ -163,8 +183,9 @@ this mechanical check does not independently verify cited content.
   incomplete and visible.
 
 The 11 October P1–P4 revisions, framework corrections and supervisor point 2
-are complete and accepted. Point 3's documentation, retained-code and arithmetic
-checks are ready for user review; official-source confirmation remains open.
-Points 4–10 and the remaining source/administrative checks stay pending.
-Fresh retrieval attempts accessed no origin text. No model fitting, application
-suite run, participant study or institutional submission occurred in this revision.
+are complete and accepted. D-071 addresses legal follow-ups 2 and 3 in text;
+original-source and in-force confirmation for follow-ups 1 and 4 remain blocked.
+Point 3 awaits user review. Supervisor points 4–10 and the remaining
+source/administrative checks stay pending. The seven additional failed requests
+supplied no legal text. No model fitting, application suite run, participant
+study or institutional submission occurred in this revision.

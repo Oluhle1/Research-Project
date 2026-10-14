@@ -8,19 +8,33 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **14 October 2026** draft addresses supervisor **point 3** in III.B
-(pages 3–4). It explains the interview-month income ceilings, annual formula
-assumption, minimum-payment arithmetic, couple-income assumption and treatment
-of resident spouses and ambiguous marital responses. Checks against the retained
-implementation and threshold arithmetic passed. These research assumptions do
-not establish legal entitlement. Official notices, the operative formula,
-minimum-payment rule and legal spouse definition remain unverified: all twelve
-fresh retrieval attempts returned proxy HTTP 403, with no origin text accessed.
-**Point 3 is partly addressed and awaits user review; points 4–10 remain pending.**
-See [the point 3 revision](supervisor_point3_revision.md),
-[its validation](supervisor_point3_validation.json),
-[the screening-source audit](historical_screening_source_audit.md) and
+The current **15 October 2026 (Africa/Johannesburg)** legal follow-up, **D-071**,
+extends supervisor **point 3** in III.B (pages 3–4). Its four requests concern
+original threshold provisions, the verification statement, spouse-resource
+choices and the historical regulations' in-force amendment chain. The text now
+identifies the verified arithmetic, coded ceilings and LCS partnership items,
+and explains residence and reciprocal links as research consistency requirements.
+It clarifies joint resources, unavailable nonresident-spouse income, omitted
+spouse questions for separated respondents, and unresolved cohabitation or
+ambiguous links. These choices do not establish legal entitlement.
+
+The user supplied a narrative reporting legal confirmation and direct
+[SAFLII](https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf) and
+[Acts Online](https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means)
+source pointers. Primary text from either URL could not be read. Seven additional
+requests failed with proxy HTTP 403: five on 14 October and these two exact URLs
+on 15 October. Original notices, exact clauses and the historical in-force chain
+remain unauthenticated. Downloaded originals are needed to complete those checks.
+**Legal follow-ups 2 and 3 are addressed in text; 1 and 4 remain blocked.
+Point 3 is partly addressed and awaits user review; supervisor points 4–10 remain pending.**
+See [the current legal follow-up](legal_verification_followup.md),
+[its evidence record](legal_verification_followup.json),
+[current artifact validation](manuscript_validation.json) and
 [the staged supervisor response](supervisor_feedback_response.md).
+The preceding **D-070** snapshot at commit `beec7d7` had 5,430 whitespace tokens
+and a 356-word III.B. Its [point 3 revision](supervisor_point3_revision.md),
+[validation](supervisor_point3_validation.json) and
+[screening-source audit](historical_screening_source_audit.md) remain historical records.
 
 The user accepted the preceding Table II revision at commit `c95b786`, whose
 manuscript had 5,416 whitespace tokens. Table II retains **Predictor**,
@@ -40,13 +54,13 @@ tokens. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,430 whitespace tokens**, including a **141-word
-abstract**. The PDF retains eight Letter pages, nine tables, four figures and
-25 references at the existing 10/9/8-point body/table/reference fonts. Only III.B
-changed from the accepted point 2 draft; the build remains unchanged.
-All other sections, all tables and figures,
-scientific results, software, data and references remain unchanged from the
-accepted point 2 draft. The specialist, clear professional style continues.
+The current manuscript has **5,451 whitespace tokens**, including a **141-word
+abstract** and a **377-word III.B**. The PDF retains eight Letter pages, nine
+tables, four figures and 25 references at the existing 10/9/8-point
+body/table/reference fonts. Only III.B changed from the D-070 baseline
+`beec7d77c0e32b24b636f3f337ccc5545d899fd1`. All other sections, tables, figures,
+scientific results, software, data, references and the build remain unchanged.
+The specialist, clear professional style continues.
 
 ## Editable sources
 
@@ -101,11 +115,15 @@ accepted point 2 draft. The specialist, clear professional style continues.
   the accepted Table II text/layout revision at commit `c95b786` and its
   historical scope checks.
 - `supervisor_point3_revision.md`, `supervisor_point3_validation.json`:
-  the current III.B documentation, implementation/arithmetic checks and scope,
-  awaiting user review. `manuscript_validation.json` records the current artifacts.
+  historical D-070 III.B documentation and implementation/arithmetic checks at
+  commit `beec7d7`; these records retain their original manuscript hashes.
 - `historical_screening_source_audit.md`, `historical_screening_source_audit.json`:
-  the point 3 source-retrieval record: twelve blocked requests, no origin text
+  the historical D-070 source-retrieval record: twelve blocked requests, no origin text
   read, and explicit outstanding legal/source confirmations.
+- `legal_verification_followup.md`, `legal_verification_followup.json`:
+  current D-071 responses to the four legal follow-ups, user-reported source
+  pointers and seven additional blocked retrievals, with zero legal texts read.
+  `manuscript_validation.json` records the current artifacts.
 
 ## Rebuild
 
@@ -143,8 +161,9 @@ paper, two columns, 10-point body text, 9-point tables and 8-point references.
 ## Validation and limits
 
 `manuscript_validation.json` records the checked artifact hashes, page limit,
-citation checks and frozen-source protection. Independent review verified 209
-numeric table values and 100 supporting comparisons against retained evidence.
+citation checks and frozen-source protection. The retained-output audit binds
+the current manuscript hash and passes 209 numeric table values and 100
+supporting comparisons against retained evidence.
 Primary and independent reviewers visually inspected all eight freshly rendered
 pages, including Table II and the retained conceptual figure. The paper contains nine tables,
 four figures and 25 references numbered by first appearance. The previous
@@ -160,8 +179,12 @@ Stats SA documents read and thirteen external requests refused by the outbound
 proxy. That historical audit supplied no remote article or legal text; it has
 not been rerun as a whole. The separate **14 October point 3 screening-source
 audit** records twelve fresh requests, all blocked by proxy HTTP 403 with no
-origin text accessed. These attempts do not confirm the historical legal
-provisions. P5 remains partially complete.
+origin text accessed. The separate **15 October D-071 legal-follow-up record**
+adds seven failed requests (five on 14 October and two exact user-provided URLs
+on 15 October), with zero legal texts read. The twelve-request D-070 and
+thirteen-request 11 October audits remain unchanged. These attempts and the
+user's reported confirmation do not authenticate historical provisions or the
+in-force amendment chain. P5 remains partially complete.
 
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has

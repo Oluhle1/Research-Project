@@ -596,7 +596,7 @@ their original counts and hashes; the D-068 artifacts are retained in `0dd3d0e`.
 
 This D-069 entry records the historical 5,416-word draft at `c95b786`.
 The user subsequently approved point 2 and requested point 3. D-070 below
-records the current screening and verification follow-up. Original counts and
+records that historical screening and verification follow-up. Original counts and
 hashes remain evidence for the earlier build.
 
 After accepting point 1 and the three framework refinements, the user
@@ -650,6 +650,11 @@ Verified. D-062–D-068 retain their historical counts and hashes.
 
 ## Supervisor feedback point 3 — screening and verification, 14 October 2026
 
+This D-070 entry records the historical 5,430-word draft at
+`beec7d77c0e32b24b636f3f337ccc5545d899fd1`. Its original counts, hashes and
+completed reviews remain evidence for that build. D-071 below records the
+current legal-verification follow-up.
+
 After approving point 2, the user requested point 3: clarify and verify the
 historical thresholds and spouse treatment in Section III.B. D-070 records
 this item as **partially addressed**. Reporting and read-only implementation
@@ -681,11 +686,12 @@ minimum-payment rule and legal spouse definition remain **unverified**.
 `paper/historical_screening_source_audit.md` and its JSON record document this
 boundary; earlier source audits retain their original dates and scope.
 
-The current source has **5,430 whitespace-delimited words**, a **141-word
+The D-070 source has **5,430 whitespace-delimited words**, a **141-word
 abstract**, nine tables, four figures and 25 first-use references. The PDF has
 **eight US Letter pages**, with unchanged 10/9/8 pt body/table/reference fonts.
-Root and independent reviewers passed all eight final pages;
-`paper/manuscript_validation.json` records the completed render and review.
+Root and independent reviewers passed all eight final pages.
+The D-070 `paper/manuscript_validation.json` at `beec7d77` records the
+completed render and review.
 Section III.B spans pages 3–4; retained tables, figures and references pass
 layout inspection. Manuscript SHA-256:
 `ff5bab12dc7c0dfe85ff3911a87a197c6569819ec91c98239d8a4b4f95836b8e`.
@@ -707,3 +713,69 @@ participant study, administrative confirmation, deployment or submission
 occurred. Checklist counts remain 96 rows: 94 Implemented, two Proposed and
 zero Verified. P5 source/governance and participant-usability limits remain
 open. D-062–D-069 counts and hashes remain historical.
+
+## Supervisor point 3 — legal-verification follow-up, 15 October 2026
+
+D-071 records the user's four legal follow-ups to the original supervisor
+point 3, dated in Africa/Johannesburg. They ask for authenticated 2014–2015
+thresholds and exact provisions, accurate verified-versus-uncertain wording,
+justified spouse-resource and ambiguous-partnership treatment, and stronger
+original historical references with the amendment/in-force chain. The fourth
+legal follow-up is not supervisor feedback point 4. Original point 3 remains
+**partially addressed and awaiting user review**; supervisor points 4–10 remain
+pending.
+
+The manuscript now states precisely that the audit verified arithmetic,
+coded ceilings and LCS partnership items, while it did not authenticate the
+applicable notices, formula, minimum-payment or spouse provisions. III.B
+explains the research rationale: resolved applicant and spouse incomes
+implement the assumed couple-resource rule regardless of spouse age;
+residence and reciprocal links check consistency; unavailable nonresident
+partner resources remain unresolved. The questionnaire does not collect spouse
+details for separated respondents, and cohabitation alone does not establish
+the legal classification. Ambiguity never supplies single status or zero
+partner income. These changes address legal follow-ups 2 and 3 within the
+documentary and research scope, without certifying statutory entitlement.
+
+Legal follow-ups **1 and 4 remain blocked**. Five expanded public retrievals
+on 14 October (three government sources, the SAFLII index and the Acts index)
+failed with HTTP 403. On 15 October the two exact URLs supplied by the user,
+`https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf` and
+`https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means`,
+both failed with proxy CONNECT 403. The user's confirmation narrative and
+earlier favicon links do not supply primary clause text or amendment history;
+the exact URLs identify candidate sources but no body was retrieved. No
+notice/clause or 2014–2015 in-force chain was authenticated, and no original
+historical reference was invented. `paper/legal_verification_followup.md` and
+`.json` record these seven follow-up attempts separately from the retained
+D-070 twelve-request audit and older thirteen-request P5 audit.
+
+Only III.B manuscript prose changes from `beec7d77c0e32b24b636f3f337ccc5545d899fd1`:
+**377 words**, up from the historical 356. The current source contains
+**5,451 whitespace-delimited words** and a **141-word abstract**. The PDF has
+**eight US Letter pages**, nine tables, four figures, 25 first-use references
+and unchanged 10/9/8 pt body/table/reference fonts. Independent review of the
+actual diff, questionnaire pages 5–6 and all eight fresh page images passed.
+Root review also passed all eight current retained renders on 15 October
+(Africa/Johannesburg). The render timestamps retain their 14 October UTC
+date; review concerns these same current-source artifacts. Section III.B is
+clear on pages 3–4, Table II remains whole on page 2, Figure 1 is on page 3,
+and Section VI.E and references remain intact on page 8. Current mechanical
+and completed review evidence is recorded in `paper/manuscript_validation.json`.
+Manuscript SHA-256:
+`ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24`.
+PDF SHA-256:
+`12c857141c3341bf33da314c7264893c361b652bdd3e499b5d0f29cba5ccef07`.
+Word SHA-256:
+`cd6e002e74c83bc180bce0b15c25376fb3bf0434e83eddb0849f827049f1a930`.
+
+All **209 numerical comparisons and 100 supporting checks pass**, bound to
+the current source; the **314-row register retains four explicit limits**.
+All nine table XML records, other manuscript sections, references, figure
+assets, builder, scientific outputs and app/model/data/analysis/verifier paths
+remain unchanged from `beec7d77`. No fresh app suite, rule run, model refit,
+new empirical result, figure regeneration, province analysis, participant study,
+administrative confirmation, deployment or external submission occurred.
+Checklist counts remain **96 rows: 94 Implemented, two Proposed and zero
+Verified**. P5 source/governance and participant-usability limits remain open.
+D-062–D-070 counts, hashes and prior reviews remain explicitly historical.

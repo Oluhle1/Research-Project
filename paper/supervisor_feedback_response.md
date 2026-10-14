@@ -117,7 +117,7 @@ paper states that limit explicitly, and this response does not mark point 3
 fully complete. The source audit records exact attempts and original survey
 pages; older legal assertions remain labelled as development assumptions.
 
-The current paper has **5,430 whitespace-delimited tokens**, the unchanged
+The `beec7d77` point 3 draft had **5,430 whitespace-delimited tokens**, the unchanged
 **141-word abstract**, and **eight Letter pages**, nine tables, four figures
 and 25 references. Only III.B changed in its text. All tables, figures, other
 sections, results, model, application and builder remain unchanged. All 209
@@ -128,6 +128,33 @@ See [point 3 revision](supervisor_point3_revision.md),
 [point 3 validation](supervisor_point3_validation.json),
 [screening source audit](historical_screening_source_audit.md),
 [current manuscript validation](manuscript_validation.json),
+[PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
+
+## Legal follow-up: four requests, 15 October 2026
+
+**Status: audit wording and research rationale revised; exact original legal
+verification and in-force citations remain incomplete.**
+
+| Request | Current status |
+| --- | --- |
+| 1. Original thresholds and exact legal provisions | Arithmetic/code agree; source authentication and amendment chronology blocked. |
+| 2. Accurate statement of verification and uncertainty | III.B identifies arithmetic, coded ceilings and LCS items checked, and original legal authentication not completed. |
+| 3. Justification of marital status/spouse resources | III.B explains why links identify the correct income, why the assumed joint-resource rule combines amounts and why uncertain cases remain unresolved; exact legal requirements remain pending. |
+| 4. Historical regulations references and in-force confirmation | Direct supplied SAFLII/Acts Online pointers recorded; exact provisions and 2014–2015 amendment chain not authenticated. |
+
+The user's narrative reports legal confirmation, but neither the supplied
+Gazette PDF nor the means-determination page could be read here. Seven additional
+follow-up requests failed, including the two exact supplied URLs on 15 October.
+The earlier source-audit ledgers retain their historical counts and scope.
+No legal quotation, clause number or unconfirmed reference was promoted into
+the paper as verified. The current draft has 5,451 whitespace tokens, a 141-word
+abstract and 377-word III.B, with eight Letter pages, nine tables, four figures
+and 25 references. Primary/independent all-page reviews and the retained 209
+numerical plus 100 supporting checks passed.
+
+See [legal follow-up](legal_verification_followup.md),
+[its ledger](legal_verification_followup.json),
+[current validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
 ## Remaining supervisor points

@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-10-14T10:05:59.072038+00:00",
-  "status": "point 3 clarification, arithmetic, implementation and document checks passed; legal verification incomplete; awaiting user review; not submitted",
+  "checked_at_utc": "2026-10-14T23:07:18.660740+00:00",
+  "status": "legal follow-up wording, research rationale and document checks passed; exact original provisions and historical force unconfirmed; awaiting source documents/user review; not submitted",
   "pdf_pages": 8,
   "maximum_pages": 8,
   "page_size": "Letter 612x792 pt",
-  "manuscript_words_whitespace_tokens": 5430,
+  "manuscript_words_whitespace_tokens": 5451,
   "submission1_integration": {
     "original_title_aim_objectives_and_literature_restored": true,
     "original_pdf_unchanged": true,
@@ -25,13 +25,13 @@
     "no_model_refit": true
   },
   "supervisor_feedback_revision": {
-    "revision_date": "2026-10-14",
-    "detail": "paper/supervisor_point3_validation.json",
+    "revision_date": "2026-10-15",
+    "detail": "paper/legal_verification_followup.json",
     "feedback_point": 3,
-    "changed_area": "III.B prose only; all other text, tables, figures and builder unchanged",
-    "user_acceptance": "Point 3 pending; point 2 accepted for progression",
+    "changed_area": "III.B verification-scope statement and partnership rationale; existing questionnaire citation added",
+    "user_acceptance": "Legal follow-up pending; original supervisor point 3 still partial",
     "other_points": "4\u201310 pending",
-    "status": "Partially addressed; original legal verification remains open",
+    "status": "Legal follow-ups 2/3 addressed within available evidence; 1/4 blocked",
     "active_verbs": true,
     "concrete_subjects": true,
     "scientific_distinctions_reviewed": 16,
@@ -172,15 +172,16 @@
   "visual_review": {
     "pages_reviewed": 8,
     "passed": true,
-    "reviewers": "Primary agent and independent framework_text reviewer; all eight final point 3 pages",
+    "reviewers": "Primary agent and independent legal_followup_review agent; all eight current pages reviewed on 15 October",
     "all_tables_intact_and_figures_unclipped": true,
     "reference_columns_balanced": true,
     "split_reference_entries": false,
     "table_v_and_viii_notes": "clear italic continuations onto pages 6 and 7 respectively",
     "other_notes": "III.B spans pages 3\u20134; Table II page 2; no clipping or extra page",
-    "last_page": "VI.E and reference 1 in left column; references 2\u201325 in right column, whole entries; no extra blank page"
+    "last_page": "VI.E and reference 1 in left column; references 2\u201325 in right column, whole entries; no extra blank page",
+    "render_date": "2026-10-14; unchanged retained final render matches source/DOCX/PDF hashes"
   },
-  "scientific_and_application_files_unchanged_from": "c95b786e075f38843478ec690cb2d296e1172be7",
+  "scientific_and_application_files_unchanged_from": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
   "existing_application_evidence_not_rerun_for_paper": {
     "automated_tests": 220,
     "native_ui_cli_reference_rows": 15388,
@@ -198,8 +199,8 @@
     "point1": "Positively reviewed",
     "framework_followup": "Positively reviewed",
     "point2": "Accepted for progression; Table II unchanged in current revision",
-    "current_work": "III.B point 3 clarification and conditional numerical/implementation checks completed; awaiting review",
-    "point3": "Partially addressed; original legal verification incomplete",
+    "current_work": "Legal follow-up to point 3; verification statement and research rationale clarified; exact source authentication outstanding",
+    "point3": "Partially addressed; exact original legal provisions and amendment chronology incomplete",
     "remaining_points": [
       4,
       5,
@@ -219,8 +220,8 @@
     "Author review"
   ],
   "sha256": {
-    "paper/manuscript.md": "ff5bab12dc7c0dfe85ff3911a87a197c6569819ec91c98239d8a4b4f95836b8e",
-    "paper/manuscript_numbered.md": "323f4f1fd133d74a889f39e45124f58ec8c69947adf085dded2bb01f2e1700fe",
+    "paper/manuscript.md": "ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24",
+    "paper/manuscript_numbered.md": "6719a492e5adda4290d37a814f3bdf45e35495f4cd5a81cf48ab42b140480bcf",
     "paper/references.json": "91b00a690fa95faf5eb806e8d35fd28dd6283a6f3e23aca53432d97e3660392e",
     "paper/citation_map.json": "e1485155e9adbfe0939b0da2e5f3f851dda8bca43da807ac04e93c7e6a35b03d",
     "paper/build_ieee.js": "977c31c46b7889eb50a7eeff2e770a12b39617b2d20c1829271fc616a6389267",
@@ -228,19 +229,19 @@
     "paper/build_expansion_figures.py": "03cb957d4becf0246cfdc519e2751b4e6ac9828ccb3943b4d82540b7268d4c0e",
     "paper/package.json": "4630f82151ac735ecdda799b0bac236ed9714e147322964ff7944ba876bae2cd",
     "paper/package-lock.json": "fcc94104e8f8d2150ac2c6abeba5eb200c44a851ea990201998d4c9475e05b31",
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "39635c5ed5471ef84c416b0775a5cc3f35e763d033e0a5b6f2bb10e00d2e3af8",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "ec7f77f3e9f06618ff9b9dc85624aad39e12be7240612948182772b0ae61b5c4",
-    "paper/empirical_expansion_validation.json": "21b8a0e22c1f4ae915933da470d7feddead649523f82accd0ee70dbf76298c7c",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "cd6e002e74c83bc180bce0b15c25376fb3bf0434e83eddb0849f827049f1a930",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "12c857141c3341bf33da314c7264893c361b652bdd3e499b5d0f29cba5ccef07",
+    "paper/empirical_expansion_validation.json": "6eb91bf723bdb6d5f86c6e9020982f56b0cbfc8625284e3d04007100e39f8587",
     "paper/submission1_integration_notes.md": "e3208027b795dc01b53483b3bcac965a1a35c3c3f68a1f31ac55108ec4e935eb",
     "paper/expansion_empirical.md": "9728fbe9c50427407b286f258a88fd4b57cb19a791e0ac991465642c696052f6",
     "paper/discussion.md": "63d647c695aa04982bcfc2d788c36940c53de608ed99cd45505bf1143a3837da",
     "paper/targeted_revision_plan.md": "a53d5c2370b5d5b69b16a8c7d56b52b9604751e407cceb52d6329dc79f03f510",
-    "paper/targeted_revision_response.md": "b0b1ed819036c2e59107be78665896513af5548fb1dfa3e4fb0c97ae2db11aeb",
+    "paper/targeted_revision_response.md": "40c4e34d6067502921a5267826e1412938ec5d1c9a240e58157cc642f2cb6fcb",
     "paper/claim_source_register.csv": "39ea48e51ebae11ffd1adfe239be6a8ed174712932be0385466474304c89806d",
-    "paper/claim_source_validation.json": "0f8310780fc5ab2abe45dec322a90cd1ce67348f0ecf766bba34cd6390c806ed",
+    "paper/claim_source_validation.json": "2fcf349d1d277fa729a6dee4553f735c2655e3703e22eb8a5b232ceefb929221",
     "paper/verify_claims.py": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
-    "paper/README.md": "765028b418a21b47c4007f3b0b0b42805939b615a2ae1df11342f58c7399bf64",
-    "paper/feedback_response.md": "b02a8ba04d32e696fbc5621a398711416bcb27d80f844e719d767805b6a15f8b",
+    "paper/README.md": "6a4ca32c9322536f9cd86f0d02d5c091ede42a6324dc42bac8c5083ae007d66c",
+    "paper/feedback_response.md": "a771fe42d3ae225eccc3ab26f113cc081d995b313cced780c2b09657ea349805",
     "paper/plain_language_revision.md": "2ce3ea79f475f3a470e774b3ea452b83f0cca6ddafd00fccc500a35840913e05",
     "paper/plain_language_validation.json": "8dfa750e2205c1f428209ded5f7317ab880fa7748a36e080273ea755e238065b",
     "paper/plain_language_negative_controls.json": "68261dd53863fd43d43615f658377247d38115839a5b7198d1a8136dce34c659",
@@ -250,17 +251,17 @@
     "paper/specialist_language_revision.md": "0be7d012af61f852d64ff76d40eb0e201a385360e5428aa3a6f24724e46cde08",
     "paper/specialist_language_validation.json": "7da973256d233df34ab31fcee24108d79ea41b7c066f0c51ebdf7f695fe44627",
     "paper/specialist_language_negative_controls.json": "c3955244d54e5d12d187fcb9fad306c1276d31e8236ae55f562ea5a6cbd31764",
-    "paper/supervisor_feedback_response.md": "15fb89ca7e0fb7ea91139281a65531ce83b200e452ce8a7e4817fe3d3198b309",
+    "paper/supervisor_feedback_response.md": "c5bcfe6ba3dbbe6fe68c9f8009927fb0b16aeba4db1562ac4cc7d38d145e7dea",
     "paper/supervisor_point1_validation.json": "6190f627b9045cd3012015a5c8e63b67f8c9069043ef5ff1c1a9da97a4055964",
     "paper/conceptual_framework.md": "31e75e9186305a36858418f57299cb84c4acc2d2cc034c234ea62ebe27cf3b3e",
     "paper/conceptual_framework_revision.md": "9bdb5d2f9594dce163ca407ea140873913f21f6af7266d80311335999aeb6328",
     "paper/conceptual_framework_validation.json": "cea52b823ac32fd55826458c7b00454b49558be52c66cec54f7036b271db2d7b",
     "paper/supervisor_point2_revision.md": "d883d9f806471db46a657f360cc16a724985f05622987652cd03c0a4a879b8ca",
     "paper/supervisor_point2_validation.json": "1bd739e9054b342abef866ba3f8a7309daafa5b16e3df51d21e3b7f04a571ee2",
-    "docs/evidence_log.md": "80fb3d6c6036d129953b65b85ea9a7bd5b7254e9b571f902e1da79e3d8ac7ca9",
-    "specification/decision_log.md": "28fed519e752d823593765bdae927563e546f31b69484b1eb7c921351f33837d",
-    "specification/checklist.md": "cfe856e8aa3ec6397b7df54dafddc7afaa89d0ae0875bb58e6895b77d0beb207",
-    "specification/implementation_specification.md": "c508c06edb015a1721e8a8bbc72898bcb7931fe9ed277a5ab4c55a3d4bcd5b32",
+    "docs/evidence_log.md": "1c47cf69abcf5bccf8f3624baa848a9650e9acaf0a7368c0fea179bab141171e",
+    "specification/decision_log.md": "29c3d14e7a2a0d31b4f00b43883e188221abef55d5ecf8a7d5c7a0be8852ada3",
+    "specification/checklist.md": "0342fd82687eefa3a66e2b86368f4ca786f76ff7ff6a413cece062438403c5c9",
+    "specification/implementation_specification.md": "371348ba42c544ce46ff91b99e2258abecc2535ee4600322ad4b8ccce40890de",
     "paper/primary_source_audit.json": "1698c64c3679726ff4bb97c596742d0221168ae107f9e6ed7be6b78224d18776",
     "paper/primary_source_audit.md": "ee5360fd6e9619ca166f8ec81465c9a9e5441b10b1e6936fb517a813dc4a699a",
     "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
@@ -312,6 +313,8 @@
     "paper/historical_screening_source_audit.json": "4ad1f6290574e3627846f4f6d2883b28bd2bbdec13eb7d072687d6221196a524",
     "docs/rulebook.md": "82a910bb50a89421cdcdac66565850d9766495a770394abd82552124b2681a8b",
     "specification/phase3_cohort.md": "fb96324493c2e2d960844227cd6ac125cc2978a9b161d3fa65cd77dc3ad11367",
+    "paper/legal_verification_followup.md": "019545765e69fa9c2a3e9910172223554f2254661fcdecffa035854655be9567",
+    "paper/legal_verification_followup.json": "5a9471fdf258f6fd5877dd1a41b3da40010620a90270ad982e061fda5f72d906",
     "opg_core/screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf",
     "output/phase3/cohort_person.csv": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
     "output/phase3/threshold_periods.csv": "3ca37013d57d61e0841328a813b4cc1b8ce220f73b247c2d6e3b85325c8f6922",
@@ -336,5 +339,55 @@
     "implementation_and_survey_document_checks": "Passed; immutable code and retained aggregate evidence read",
     "legal_verification": "Incomplete: original notices, operative formula/minimum, couple resources and statutory spouse provisions unverified",
     "relation_to_prior_source_audit": "Fresh point 3 ledger; does not overwrite the separate 11 October audit"
+  },
+  "historical_supervisor_point3_revision": {
+    "detail": "paper/supervisor_point3_validation.json",
+    "snapshot_commit": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
+    "words": 5430,
+    "scope": "Earlier conditional arithmetic and screening explanation; source hash checked against its historical commit"
+  },
+  "legal_verification_followup": {
+    "detail": "paper/legal_verification_followup.json",
+    "revision_date": "2026-10-15",
+    "III_B_words": 377,
+    "requested_items": {
+      "1": {
+        "request": "Authenticate historical thresholds against original provisions",
+        "status": "blocked pending primary text and amendment chain",
+        "calculation_and_code": "checked; preserved",
+        "legal_verification_complete": false
+      },
+      "2": {
+        "request": "State exactly what is verified and what remains uncertain",
+        "status": "addressed within available evidence",
+        "change": "III.B identifies checked arithmetic, coded ceilings and LCS partnership items; primary notices/formula/minimum/spouse authentication remains incomplete"
+      },
+      "3": {
+        "request": "Justify marital status and spouse resources; distinguish legal requirements from research choices",
+        "status": "research rationale clarified; exact legal requirements pending authentication",
+        "change": "Resident reciprocal pointers assign income to correct partner; sum implements assumed joint-resource rule; nonresident income unavailable; separated questionnaire omits spouse details; cohabitation category does not establish legal classification"
+      },
+      "4": {
+        "request": "Exact historical regulations citations and in-force confirmation",
+        "status": "blocked pending exact provisions and operative amendment history",
+        "supplied_document_links_recorded": true,
+        "authenticated_legal_references_added": false,
+        "legal_verification_complete": false
+      }
+    },
+    "additional_failed_requests": 7,
+    "primary_legal_texts_read": 0,
+    "supplied_source_links": [
+      {
+        "url": "https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf",
+        "role": "User-supplied historical Gazette PDF pointer; document identity/content unread"
+      },
+      {
+        "url": "https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means#",
+        "role": "User-supplied means-determination page; URL names regulation 19 but clause text and historical version unread"
+      }
+    ],
+    "reported_legal_review_is_primary_verification": false,
+    "exact_clauses_and_in_force_amendment_chain_authenticated": false
   }
 }

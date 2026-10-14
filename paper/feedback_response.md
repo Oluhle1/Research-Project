@@ -2,16 +2,21 @@
 
 For the separate supervisor feedback supplied on **14 October 2026**, see
 [the staged supervisor response](supervisor_feedback_response.md). The current
-revision addresses **point 2**, improving the theory-to-predictor relationship
-and Table II formatting in **II.C**. Its three columns separate predictor,
-theoretical role and LCS coding/limitations. Age and sex provide demographic
-context; schooling relates to learning costs; settlement and office distance
-relate to potential compliance costs. Psychological costs remain unmeasured.
-The complete table appears on page 2, using top-aligned cells and horizontal
-rules without a vertical grid. See
-[the point 2 revision](supervisor_point2_revision.md) and
-[its validation](supervisor_point2_validation.json). **Point 2 awaits the user's
-review; supervisor points 3–10 remain pending.**
+revision addresses **point 3** in **III.B** (pages 3–4): historical threshold
+periods and annual arithmetic, the conditional formula/couple assumptions,
+resident-spouse links and unresolved marital/resource cases. Checks against the
+retained implementation and arithmetic passed. Official notices, the operative
+formula, minimum-payment rule and legal spouse definition remain unverified.
+Twelve fresh retrieval attempts returned proxy HTTP 403; no origin text was
+read. See [the point 3 revision](supervisor_point3_revision.md),
+[its validation](supervisor_point3_validation.json) and
+[the screening-source audit](historical_screening_source_audit.md).
+**Point 3 is partly addressed and awaits user review; points 4–10 remain pending.**
+
+The user accepted point 2 at commit `c95b786` (5,416 whitespace tokens).
+Its Table II theory links, coding limits and top-aligned horizontal-rule layout
+remain unchanged; see [the point 2 revision](supervisor_point2_revision.md) and
+[historical point 2 validation](supervisor_point2_validation.json).
 
 The user accepted point 1 and the three framework corrections retained in
 **II.D**, **Figure 1** (page 3) and **VI.E** (page 8).
@@ -23,14 +28,15 @@ association and unresolved or unmeasured burden mechanisms. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,416 whitespace tokens** and a **141-word abstract**.
+The current manuscript has **5,430 whitespace tokens** and a **141-word abstract**.
 It retains eight Letter pages, nine tables, four figures and 25 references with
-the existing 10/9/8-point body/table/reference fonts. Build changes apply only
-to Table II. All 209 numerical and 100 supporting checks
+the existing 10/9/8-point body/table/reference fonts and unchanged build.
+All 209 numerical and 100 supporting checks
 passed, and primary and independent reviewers inspected all eight fresh pages.
-All other sections, tables and figures, scientific results, software, data and
-references remain unchanged from the accepted framework draft `0dd3d0e`.
-That historical snapshot had 5,423 tokens. The seven-comment lecturer matrix
+Only III.B changed from the accepted point 2 draft. All other sections, all
+tables and figures, scientific results, software, data and references remain
+unchanged. The accepted framework snapshot `0dd3d0e` had 5,423 tokens.
+The seven-comment lecturer matrix
 below records the earlier feedback and does not close the remaining supervisor points.
 
 Revision date: **11 October 2026**. The source is the user-supplied **1st Feedback 21634436.docx**. This matrix records how the existing study and the completed local Streamlit MVP address each of the seven improvement comments. It preserves the approved research questions, historical KwaZulu-Natal population and reported non-receipt outcome. No new model fitting, screening-rule change or participant study is introduced by this paper revision.
@@ -67,10 +73,18 @@ The 218-test record is an earlier application/parity evaluation; the later porta
 
 Existing reference metadata, complete titles and DOI strings were checked against the already-submitted Submission 1 bibliography. The supplied LCS metadata PDF directly corroborates Statistical Release P0310 and its 2017 publication year. The theory source is Moynihan, Herd and Harvey (2015); the prediction-reporting source is the original TRIPOD statement (2015), not TRIPOD+AI. Independent publisher checks remain incomplete: requests to the Crossref endpoint were blocked by the environment's outbound proxy (HTTP 403), and no browsing tool was available. Journal articles and official grant-notice PDFs were not available locally. The grant notices are documented in the existing research decisions and specification; this revision does not claim fresh primary-source verification of their contents.
 
+The separate **14 October point 3** [screening-source audit](historical_screening_source_audit.md)
+records twelve fresh retrieval attempts, all blocked by proxy HTTP 403 before
+origin text was accessed. This does not authenticate the formula, minimum-payment
+rule, couple-resource interpretation or legal spouse definition. The earlier
+11 October primary-source audit remains a historical record rather than a new
+verification result.
+
 ## Remaining items
 
-- **Supervisor point 2 ready for review:** II.C and Table II now distinguish demographic context, learning costs and potential compliance costs, with explicit coding limits and unmeasured psychological costs. The table uses top-aligned cells and horizontal rules; its caption, header and five rows fit together on page 2. All 209 numerical and 100 supporting checks pass, and all eight fresh pages passed primary and independent visual review. See [point 2 validation](supervisor_point2_validation.json). Points 3–10 remain pending.
-- **Framework follow-up accepted on 14 October:** II.D explains the analytical design; Figure 1 distinguishes its components and the artefact's implementation scope; VI.E returns to the framework without claiming causal burden mechanisms. The accepted point 1 research-gap/search-limit text is preserved. The historical `0dd3d0e` framework snapshot passed numerical, supporting and eight-page visual checks; see [framework validation](conceptual_framework_validation.json). Those sections and the figure remain unchanged in the point 2 draft.
+- **Supervisor point 3 partly addressed:** III.B documents threshold periods, annual arithmetic, conditional formula/couple assumptions and spouse/marital-response treatment. Documentation, retained-code and arithmetic checks pass; original official sources remain unverified after twelve proxy-blocked retrieval attempts. All 209 numerical and 100 supporting checks and all eight fresh-page visual reviews pass. See [point 3 validation](supervisor_point3_validation.json) and [screening-source audit](historical_screening_source_audit.md). Point 3 awaits user review; points 4–10 remain pending.
+- **Supervisor point 2 accepted:** the historical `c95b786` draft improved II.C and Table II's theory links, coding limits and layout. The caption, header and five rows fit on page 2, using top-aligned cells and horizontal rules. Numerical, supporting and eight-page visual checks passed; see [point 2 validation](supervisor_point2_validation.json). These changes remain intact in the point 3 draft.
+- **Framework follow-up accepted on 14 October:** II.D explains the analytical design; Figure 1 distinguishes its components and the artefact's implementation scope; VI.E returns to the framework without claiming causal burden mechanisms. The accepted point 1 research-gap/search-limit text is preserved. The historical `0dd3d0e` framework snapshot passed numerical, supporting and eight-page visual checks; see [framework validation](conceptual_framework_validation.json). Those sections and the figure remain unchanged in the point 3 draft.
 - **Specialist-audience revision completed:** the paper removes basic definitions and integrates the literature review into one narrative. It retains all 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](specialist_language_validation.json).
 - **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.

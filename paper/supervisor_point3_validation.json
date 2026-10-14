@@ -1,0 +1,127 @@
+{
+  "status": "revision checks passed; point 3 partially addressed; original legal verification incomplete; awaiting user review",
+  "checked_at_utc": "2026-10-14T10:03:33.965440+00:00",
+  "revision_date": "2026-10-14",
+  "baseline_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+  "feedback_point": 3,
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "ff5bab12dc7c0dfe85ff3911a87a197c6569819ec91c98239d8a4b4f95836b8e",
+  "manuscript_words_whitespace_tokens": 5430,
+  "abstract_words_whitespace_tokens": 141,
+  "III_B_words_whitespace_tokens": 356,
+  "point3_review": {
+    "status": "clarification and evidence-scope checks passed; statutory verification incomplete",
+    "reviewers": "Independent implementation/survey auditor and final-source scientific reviewer",
+    "conditional_arithmetic": true,
+    "annual_units_and_couple_assumption_explicit": true,
+    "actual_spouse_link_rules_preserved": true,
+    "full_household_spouse_age_and_missing_resources_explicit": true,
+    "ambiguous_status_and_link_failures_unresolved": true,
+    "failure_precedence_receipt_and_denominator_unchanged": true,
+    "legal_premises_verified": false
+  },
+  "source_verification": {
+    "detail": "paper/historical_screening_source_audit.json",
+    "sha256": "4ad1f6290574e3627846f4f6d2883b28bd2bbdec13eb7d072687d6221196a524",
+    "fresh_remote_attempts": 12,
+    "primary_legal_texts_read": 0,
+    "status": "incomplete; remote retrieval refused",
+    "local_survey_documents_read": 2,
+    "remaining": "Original notices, operative formula/minimum, couple-resource and statutory spouse provisions"
+  },
+  "scope": {
+    "changed_manuscript_area": "III.B prose only; receipt paragraph unchanged",
+    "text_outside_III_B_unchanged": true,
+    "all_nine_table_sources_and_XML_unchanged": true,
+    "accepted_framework_Table_II_and_all_figures_unchanged": true,
+    "builder_references_scientific_outputs_app_data_model_unchanged": true,
+    "documentary_changes": "Rulebook/cohort-spec caveat notes, source audit and reporting records",
+    "remaining_supervisor_points": "4\u201310 pending",
+    "user_acceptance": "Pending; do not mark legal verification complete"
+  },
+  "audience_and_scientific_scope": {
+    "status": "passed",
+    "clear_professional_specialist_language": true,
+    "elementary_term_definitions_not_reintroduced": true,
+    "all_16_previously_reviewed_scientific_distinctions_preserved": true,
+    "causal_legal_entitlement_usability_or_external_performance_claim_added": false
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "model_refitted": false,
+    "application_suite_rerun": false,
+    "detail": "paper/claim_source_validation.json"
+  },
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary and independent framework_text all-eight-page reviewers",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "ec7f77f3e9f06618ff9b9dc85624aad39e12be7240612948182772b0ae61b5c4",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "39635c5ed5471ef84c416b0775a5cc3f35e763d033e0a5b6f2bb10e00d2e3af8",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 25,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "III_B_pages": [
+      3,
+      4
+    ],
+    "clipping_or_extra_blank_page": false,
+    "notes": "Table II page 2; Figure 1 page 3; VI.E page 8; notes V/VIII continue 5\u20136/6\u20137; reference 1 left and 2\u201325 right whole entries on page 8"
+  },
+  "protected_paths": {
+    "baseline_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py",
+      "paper/supervisor_point1_validation.json",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point2_validation.json",
+      "paper/primary_source_audit.json",
+      "paper/primary_source_audit.md"
+    ],
+    "status": "unchanged"
+  },
+  "historical_point2_validation": {
+    "detail": "paper/supervisor_point2_validation.json",
+    "snapshot_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+    "source_sha256": "38e4f3b65619d30593c278dbc9827615a7907dc60fde1e97ff31c57430924c69",
+    "words": 5416,
+    "user_review": "User authorized progression to point 3"
+  },
+  "next_step": "Review clarified III.B and verify authentic original legal texts; points 4\u201310 await later authorization",
+  "limits": [
+    "Verified calculation is conditional on legal premises that remain unverified",
+    "No legal entitlement, new model or application/usability validation established",
+    "No external submission or message sent"
+  ]
+}

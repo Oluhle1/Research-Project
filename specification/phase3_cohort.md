@@ -29,6 +29,14 @@ These are cohort counts. The weighted non-receipt proportion is Phase 4.
 
 ## Thresholds
 
+**Verification update — 14 October 2026:** The point 3 audit checked the code,
+conditional threshold arithmetic and original LCS questionnaire/metadata.
+Official notices and operative formula, minimum-payment, couple-resource and
+statutory spouse provisions remain unverified because source retrieval failed.
+The historical legal rationale below records the study's assumptions; it is
+not authenticated law. See [the screening source audit](../paper/historical_screening_source_audit.md).
+No substantive rule, cohort or model changed.
+
 Annexure A of the social-assistance regulations sets the annual grant at D = 1.6A − 0.4B, and no grant below R100 a month is payable. B at the ceiling is the private income at which D is still exactly R1,200 a year. Income at that ceiling passes. Income above it fails.
 
 | Interview month | Grant maximum used as A | Single ceiling | Couple ceiling | People aged 60+ |

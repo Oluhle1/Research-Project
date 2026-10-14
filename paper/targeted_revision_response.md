@@ -22,15 +22,26 @@ and unresolved burden mechanisms. See
 [historical framework validation](conceptual_framework_validation.json) and
 [the staged response](supervisor_feedback_response.md).
 
-The current **supervisor point 2 draft** has **5,416 whitespace tokens** and a
-**141-word abstract**. II.C and Table II now distinguish demographic context
+The accepted **supervisor point 2 draft** at commit `c95b786` had **5,416 whitespace
+tokens** and a **141-word abstract**. II.C and Table II distinguish demographic context
 from learning and potential compliance costs, retaining LCS coding and limits.
 A note identifies unmeasured psychological costs. The caption, header and five
 predictor rows fit on page 2 with top-aligned cells and horizontal rules without
 a vertical grid. The build changes apply only to Table II. See
 [the point 2 revision](supervisor_point2_revision.md) and
-[its validation](supervisor_point2_validation.json). **Point 2 awaits user
-review; points 3–10 remain pending.**
+[its historical validation](supervisor_point2_validation.json).
+
+The current **supervisor point 3 draft** has **5,430 whitespace tokens** and a
+**141-word abstract**. III.B now documents interview-period ceilings, annual
+formula and minimum-payment arithmetic, the couple-income assumption, resident
+spouse linkage and unresolved marital/resource cases. Checks against the
+retained implementation and arithmetic passed. Official notices, the operative
+formula, minimum-payment rule and legal spouse definition remain unverified.
+All twelve fresh source-retrieval attempts returned proxy HTTP 403, with no
+origin text accessed. See [the point 3 revision](supervisor_point3_revision.md),
+[its validation](supervisor_point3_validation.json) and
+[the screening-source audit](historical_screening_source_audit.md).
+**Point 3 is partly addressed and awaits user review; points 4–10 remain pending.**
 See [the language revision](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The primary-source audit remains the recorded 11 October check.
@@ -48,13 +59,12 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current point 2 draft retains that page/table/figure/reference count,
-with 5,416 whitespace tokens. Primary and independent reviewers passed all eight
+The current point 3 draft retains that page/table/figure/reference count,
+with 5,430 whitespace tokens. Primary and independent reviewers passed all eight
 fresh pages, including Table II and the retained conceptual figure. All 209
 numerical and 100 supporting comparisons passed. Relative to the accepted
-framework draft, only II.C's supporting text, Table II caption/cells/note and
-Table II-specific build formatting changed. All other tables and sections,
-figures, scientific results, software, data and references remain unchanged.
+point 2 draft, only III.B changed. All other sections, all tables and figures,
+the build, scientific results, software, data and references remain unchanged.
 Body text remains 10 pt, tables 9 pt
 and references 8 pt. A documented limitation is an accurate response; it does
 not make missing source, administrative or empirical evidence complete.
@@ -152,8 +162,9 @@ this mechanical check does not independently verify cited content.
   historical raw-data access/disclosure and official portal details remain
   incomplete and visible.
 
-The 11 October P1–P4 revisions and the accepted framework corrections are
-complete. Supervisor point 2 is ready for user review; points 3–10, source and
-administrative checks remain open. No new empirical analysis, primary-source
-verification, participant study or institutional submission occurred in this
-Table II revision.
+The 11 October P1–P4 revisions, framework corrections and supervisor point 2
+are complete and accepted. Point 3's documentation, retained-code and arithmetic
+checks are ready for user review; official-source confirmation remains open.
+Points 4–10 and the remaining source/administrative checks stay pending.
+Fresh retrieval attempts accessed no origin text. No model fitting, application
+suite run, participant study or institutional submission occurred in this revision.

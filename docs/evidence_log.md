@@ -186,7 +186,7 @@ not been rewritten or submitted by this implementation task.
 This entry records the historical D-061 stage. D-062–D-066 below record later
 historical builds; D-067 records the earlier supervisor point 1 draft. D-068
 below records the historical conceptual-framework follow-up. D-069 records
-the current Table II revision. The
+the historical Table II revision; D-070 records the current screening follow-up. The
 validation JSON is maintained for the latest build.
 
 The user directed us to return to the plan and improve Submission 2 while
@@ -532,7 +532,8 @@ positive review and authorised follow-up.
 
 This D-068 entry records the historical 5,423-word draft at `0dd3d0e`.
 The user subsequently accepted the three framework refinements and authorised
-point 2. D-069 below records the current Table II revision.
+point 2. D-069 below records the historical Table II revision; D-070 identifies the
+current screening follow-up.
 
 After positively reviewing point 1, the user requested three specific
 refinements: a Conceptual Framework subsection, a refined conceptual diagram
@@ -593,6 +594,11 @@ their original counts and hashes; the D-068 artifacts are retained in `0dd3d0e`.
 
 ## Supervisor feedback point 2 — Table II, 14 October 2026
 
+This D-069 entry records the historical 5,416-word draft at `c95b786`.
+The user subsequently approved point 2 and requested point 3. D-070 below
+records the current screening and verification follow-up. Original counts and
+hashes remain evidence for the earlier build.
+
 After accepting point 1 and the three framework refinements, the user
 authorised the next supervisor item: Table II's theoretical relationships and
 formatting. D-069 records point 2 only. Supervisor points 3–10 remain pending,
@@ -614,7 +620,7 @@ fonts and document layout remain unchanged. Figure 1, Sections II.D and VI.E,
 references, other sections, scientific results, app, model, data and verifier
 code remain unchanged from `0dd3d0e6cba7b31aef469bcaefdea6770a09a817`.
 
-The current source contains **5,416 whitespace-delimited words**, a **141-word
+The D-069 source contains **5,416 whitespace-delimited words**, a **141-word
 abstract**, nine tables, four figures and 25 first-use references. The PDF
 has **eight US Letter pages**, with 10/9/8 pt body/table/reference fonts.
 Root and independent reviewers passed all eight final pages;
@@ -641,3 +647,63 @@ deployment or external submission occurred. Earlier functional evidence retains
 its original dates and scope; P5 source/governance and usability limits remain
 open. Checklist counts remain 96 rows: 94 Implemented, two Proposed and zero
 Verified. D-062–D-068 retain their historical counts and hashes.
+
+## Supervisor feedback point 3 — screening and verification, 14 October 2026
+
+After approving point 2, the user requested point 3: clarify and verify the
+historical thresholds and spouse treatment in Section III.B. D-070 records
+this item as **partially addressed**. Reporting and read-only implementation
+checks are complete, but original legal verification remains open. This draft
+awaits user review; points 4–10 remain pending.
+
+Only III.B manuscript prose changed. It identifies the coded annual ceilings:
+R61,800 single/R123,600 couple for October 2014–March 2015, and
+R64,680/R129,360 for April–October 2015. The derivation is conditional on the
+recorded research formula D = 1.6A − 0.4B, annual maximum A, annual private
+income B, minimum annual payment R1,200 and half-joint-income assumption for
+couples. Equality passes the implemented screen. Checked arithmetic does not
+authenticate the operative formula, payment minimum or legal couple treatment.
+
+Marital answers select research assumptions, rather than prove legal spouse
+status. A married applicant requires a different resident household member and
+reciprocal spouse pointers. Both private-income amounts must be resolved and
+are combined regardless of the spouse's age. Missing, nonresident, unmatched,
+self or nonreciprocal links, and living-together, separated or unspecified
+status, remain unresolved. They do not become single status or zero partner
+income. Known failures retain priority; receipt remains a separate assessment
+after PASS.
+
+Read-only code, arithmetic, local primary survey-document and independent
+scientific checks passed.
+**Twelve fresh official legal/rate requests failed with HTTP 403 before primary
+origin text was retrieved.** The original notices, operative formula, R100
+minimum-payment rule and legal spouse definition remain **unverified**.
+`paper/historical_screening_source_audit.md` and its JSON record document this
+boundary; earlier source audits retain their original dates and scope.
+
+The current source has **5,430 whitespace-delimited words**, a **141-word
+abstract**, nine tables, four figures and 25 first-use references. The PDF has
+**eight US Letter pages**, with unchanged 10/9/8 pt body/table/reference fonts.
+Root and independent reviewers passed all eight final pages;
+`paper/manuscript_validation.json` records the completed render and review.
+Section III.B spans pages 3–4; retained tables, figures and references pass
+layout inspection. Manuscript SHA-256:
+`ff5bab12dc7c0dfe85ff3911a87a197c6569819ec91c98239d8a4b4f95836b8e`.
+PDF SHA-256:
+`ec7f77f3e9f06618ff9b9dc85624aad39e12be7240612948182772b0ae61b5c4`.
+Word SHA-256:
+`39635c5ed5471ef84c416b0775a5cc3f35e763d033e0a5b6f2bb10e00d2e3af8`.
+
+`paper/supervisor_point3_revision.md`,
+`paper/supervisor_point3_validation.json` and
+`paper/supervisor_feedback_response.md` record point 3's response and remaining
+verification limits. All **209 numerical comparisons and 100 supporting checks
+pass**; the **314-row register retains four explicit limits**. Tables, figures,
+references, builder, analytical code, data, models, app and scientific results
+remain unchanged from `c95b786e075f38843478ec690cb2d296e1172be7`. Rulebook and phase-specification
+notes may link the new audit without changing substantive screening rules.
+No model refit, app-suite run, new empirical analysis, figure regeneration,
+participant study, administrative confirmation, deployment or submission
+occurred. Checklist counts remain 96 rows: 94 Implemented, two Proposed and
+zero Verified. P5 source/governance and participant-usability limits remain
+open. D-062–D-069 counts and hashes remain historical.

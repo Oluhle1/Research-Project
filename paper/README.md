@@ -8,17 +8,26 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **14 October 2026** draft applies supervisor **point 2** to Table II
-and its supporting text in II.C. The columns distinguish **Predictor**,
-**Theoretical role** and **LCS coding and limit**. Age and sex provide demographic
-context; schooling relates to learning costs; settlement and office distance
-relate to potential compliance costs. A note states that psychological costs
-remain unmeasured. Top-aligned, left-aligned cells and horizontal rules replace
-the vertical grid. The complete table appears on page 2 with its caption and
-five predictor rows. This revision awaits the user's review; points 3–10 remain
-pending. See [the point 2 revision](supervisor_point2_revision.md),
-[its validation](supervisor_point2_validation.json) and
+The current **14 October 2026** draft addresses supervisor **point 3** in III.B
+(pages 3–4). It explains the interview-month income ceilings, annual formula
+assumption, minimum-payment arithmetic, couple-income assumption and treatment
+of resident spouses and ambiguous marital responses. Checks against the retained
+implementation and threshold arithmetic passed. These research assumptions do
+not establish legal entitlement. Official notices, the operative formula,
+minimum-payment rule and legal spouse definition remain unverified: all twelve
+fresh retrieval attempts returned proxy HTTP 403, with no origin text accessed.
+**Point 3 is partly addressed and awaits user review; points 4–10 remain pending.**
+See [the point 3 revision](supervisor_point3_revision.md),
+[its validation](supervisor_point3_validation.json),
+[the screening-source audit](historical_screening_source_audit.md) and
 [the staged supervisor response](supervisor_feedback_response.md).
+
+The user accepted the preceding Table II revision at commit `c95b786`, whose
+manuscript had 5,416 whitespace tokens. Table II retains **Predictor**,
+**Theoretical role** and **LCS coding and limit** columns, top-aligned cells and
+horizontal rules. Its caption, header and five predictor rows fit on page 2.
+See [the point 2 revision](supervisor_point2_revision.md) and
+[its historical validation](supervisor_point2_validation.json).
 
 The user accepted point 1 and the three framework corrections retained here.
 **II.D Conceptual Framework** connects the access problem, theory, screening,
@@ -31,12 +40,13 @@ tokens. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,416 whitespace tokens**, including a **141-word
+The current manuscript has **5,430 whitespace tokens**, including a **141-word
 abstract**. The PDF retains eight Letter pages, nine tables, four figures and
-25 references at the existing 10/9/8-point body/table/reference fonts. Changes
-to the build apply only to Table II. All other sections, tables and figures,
+25 references at the existing 10/9/8-point body/table/reference fonts. Only III.B
+changed from the accepted point 2 draft; the build remains unchanged.
+All other sections, all tables and figures,
 scientific results, software, data and references remain unchanged from the
-accepted framework draft. The specialist, clear professional style continues.
+accepted point 2 draft. The specialist, clear professional style continues.
 
 ## Editable sources
 
@@ -88,8 +98,14 @@ accepted framework draft. The specialist, clear professional style continues.
   the accepted three-correction framework snapshot at commit `0dd3d0e` and its
   historical source/scope checks. Its manuscript hash precedes the Table II edit.
 - `supervisor_point2_revision.md`, `supervisor_point2_validation.json`:
-  the current Table II text/layout revision and scope checks, awaiting user
-  review. `manuscript_validation.json` records the current artifacts.
+  the accepted Table II text/layout revision at commit `c95b786` and its
+  historical scope checks.
+- `supervisor_point3_revision.md`, `supervisor_point3_validation.json`:
+  the current III.B documentation, implementation/arithmetic checks and scope,
+  awaiting user review. `manuscript_validation.json` records the current artifacts.
+- `historical_screening_source_audit.md`, `historical_screening_source_audit.json`:
+  the point 3 source-retrieval record: twelve blocked requests, no origin text
+  read, and explicit outstanding legal/source confirmations.
 
 ## Rebuild
 
@@ -142,8 +158,10 @@ passes 209 table comparisons and 100 supporting checks after the language rewrit
 The retained **11 October** primary-source audit records three local authentic
 Stats SA documents read and thirteen external requests refused by the outbound
 proxy. That historical audit supplied no remote article or legal text; it has
-not been rerun for the language, framework or Table II revisions. P5 remains partially
-complete.
+not been rerun as a whole. The separate **14 October point 3 screening-source
+audit** records twelve fresh requests, all blocked by proxy HTTP 403 with no
+origin text accessed. These attempts do not confirm the historical legal
+provisions. P5 remains partially complete.
 
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has

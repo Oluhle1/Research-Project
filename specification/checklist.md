@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-069 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-070 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-069 point 2 draft: eight Letter pages; 5,416 manuscript words, 141-word abstract; two columns, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures, 25 first-use references and APRE402. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the completed render and review. `paper/supervisor_point2_revision.md`, `paper/supervisor_point2_validation.json` and `paper/supervisor_feedback_response.md` document II.C/Table II's explicit theory roles, coding/measurement limits, unmeasured psychological costs and five groups/six slopes. Scoped Table II-only builder styling uses top/left-aligned 9 pt cells, black horizontal rules without vertical grid, unsplit rows, repeating header and caption keep. Independent scientific review and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Other eight tables, sections, II.D, Figure 1, VI.E, references, scientific/app/model/data/verifier paths and other figures remain unchanged from `0dd3d0e`. Point 1 and framework refinements were accepted; point 2 awaits user review, and points 3–10 remain pending. No app suite, refit, source query, figure regeneration or participant study. D-062–D-068 counts/hashes remain historical; P5 confirmations remain open |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-070 point 3 draft: eight Letter pages; 5,430 manuscript words, 141-word abstract; two columns, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures, 25 first-use references and APRE402. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the completed render and review. `paper/supervisor_point3_revision.md`, `paper/supervisor_point3_validation.json`, `paper/historical_screening_source_audit.md`/`.json` and `paper/supervisor_feedback_response.md` document III.B's period-specific annual ceilings, conditional formula/minimum/couple assumptions, reciprocal resident spouse links, resolved combined resources, unresolved partnership/link handling and separate receipt. Arithmetic, code, local survey-document and independent scientific checks pass; 12 fresh official requests failed HTTP 403 before primary origin text retrieval. All 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Point 3 is partially addressed: original notices, operative formula, R100 minimum and legal spouse definition remain unverified. Point 2 was approved; point 3 awaits user review and points 4–10 remain pending. Only III.B manuscript prose changes from `c95b786`; tables, figures, other sections, references, builder and scientific/app/model/data/analysis/verifier paths remain unchanged. No app suite, refit or new empirical analysis. D-062–D-069 counts/hashes remain historical; P5 confirmations remain open |
 
 ## Current summary
 
@@ -160,13 +160,13 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current supervisor point 2 draft has exactly
+predictive validation. The current supervisor point 3 draft has exactly
 eight pages; the latest render/layout evidence is in
 `paper/manuscript_validation.json`. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
 outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word,
-5,097-word, 5,308-word and 5,423-word builds are historical stages, not the
-current 5,416-word manuscript.
+5,097-word, 5,308-word, 5,423-word and 5,416-word builds are historical stages,
+not the current 5,430-word manuscript.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -205,5 +205,16 @@ two settlement contrasts explain the six slopes across five predictor groups.
 Only Table II receives top/left-aligned 9 pt cells, black horizontal rules,
 no vertical grid, unsplit rows, repeating header and caption keep. Other tables,
 sections, figures, references, analyses and software remain unchanged from
-`0dd3d0e`. The current point 2 draft awaits user review; points 3–10 remain
-pending. No checklist status changed.
+`0dd3d0e`. The user subsequently approved point 2 and requested point 3;
+D-070 records that follow-up. No checklist status changed.
+
+The 14 October D-070 revision addresses III.B's screening description and
+verification boundary. Annual ceilings, conditional formula/payment/couple
+assumptions, inclusive equality and reciprocal resident spouse/resource checks
+are explicit. Marital responses do not prove legal spouse status. Arithmetic,
+code and local survey checks pass, but twelve official requests failed with
+HTTP 403 before original text retrieval. Original notices, operative formula,
+R100 minimum and legal spouse definition remain unverified; point 3 is
+partially addressed and awaits user review. Points 4–10 remain pending.
+Scientific outputs and substantive rules are unchanged. No checklist status
+changed; implemented code does not establish legal verification.

@@ -1,5 +1,13 @@
 # Historical screening rulebook
 
+**Verification update — 14 October 2026:** The point 3 audit checked the code,
+conditional threshold arithmetic and original LCS questionnaire/metadata.
+Official notices and operative formula, minimum-payment, couple-resource and
+statutory spouse provisions remain unverified because source retrieval failed.
+The historical legal rationale below records the study's assumptions; it is
+not authenticated law. See [the screening source audit](../paper/historical_screening_source_audit.md).
+No substantive rule, cohort or model changed.
+
 Rule version **`opg-kzn-primary-v1`** is implemented in `analysis/phase3_build_cohort.py`. `opg_core.screening` adapts validated normalized rows and calls the original `resolve_link()` and `screen()` functions. It does not independently reimplement the substantive income, grant or receipt rules, fit a model or write files.
 
 These are observable historical research rules, not a determination of statutory eligibility. Assets, deemed asset income, allowable deductions and other incompletely observed legal conditions remain limitations. The historical thresholds must not be presented as current policy.

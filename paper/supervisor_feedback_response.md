@@ -68,7 +68,8 @@ See [framework revision](conceptual_framework_revision.md),
 > between administrative-burden theory and the selected predictors. Correct
 > the table formatting.
 
-**Status: revised and checked; awaiting user review before point 3.**
+**Status: revised, checked and accepted for progression by the user.** This
+Table II snapshot was saved at `c95b786`; the point 3 revision follows below.
 
 Table II now distinguishes demographic context (age/sex), possible learning-cost
 links (schooling) and possible compliance-cost links (settlement/office distance).
@@ -84,7 +85,7 @@ content and formatting. All manuscript text outside Table II and its adjacent
 II.C explanation/note remains unchanged, including the accepted framework,
 diagram and discussion synthesis.
 
-The current draft has **5,416 whitespace-delimited tokens**, an unchanged
+The `c95b786` Table II draft had **5,416 whitespace-delimited tokens**, an unchanged
 **141-word abstract**, **eight Letter pages**, nine tables, four figures and
 25 references. All **209 numerical and 100 supporting comparisons** passed.
 Independent scientific review and root/independent review of all eight fresh
@@ -95,15 +96,49 @@ See [point 2 revision](supervisor_point2_revision.md),
 [current manuscript validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
+## Point 3: historical thresholds and partnership screening
+
+**Status: partially addressed; awaiting review and original legal verification.**
+
+Section III.B now distinguishes the implemented annual ceilings and checked
+conditional calculation from authentication of the legal provisions. It defines
+annual A/B/D, explains the assumed half-joint-income treatment and inclusive
+boundary, and identifies S1 alternatives. It clarifies single-status responses,
+resident reciprocal household spouse pointers, both resolved income amounts,
+spouse income regardless of age, unresolved ambiguous status/links and known
+failure precedence. These are research decisions rather than proof of legal
+spouse status. Receipt remains separate after PASS.
+
+The code and original LCS questionnaire/metadata support these implementation
+claims. Twelve fresh official/archive requests failed with 403 responses; zero
+primary legal texts were read. Original rate notices, operative formula,
+minimum-payment rule and statutory spouse provisions remain unverified. The
+paper states that limit explicitly, and this response does not mark point 3
+fully complete. The source audit records exact attempts and original survey
+pages; older legal assertions remain labelled as development assumptions.
+
+The current paper has **5,430 whitespace-delimited tokens**, the unchanged
+**141-word abstract**, and **eight Letter pages**, nine tables, four figures
+and 25 references. Only III.B changed in its text. All tables, figures, other
+sections, results, model, application and builder remain unchanged. All 209
+numerical and 100 supporting checks passed; independent scientific and
+all-eight-page visual reviews passed. No new screening/model run occurred.
+
+See [point 3 revision](supervisor_point3_revision.md),
+[point 3 validation](supervisor_point3_validation.json),
+[screening source audit](historical_screening_source_audit.md),
+[current manuscript validation](manuscript_validation.json),
+[PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
+
 ## Remaining supervisor points
 
-Point 2 has now been revised as described above and awaits user review.
-Points 3–10 remain pending under the staged workflow.
+Point 3 has been clarified and checked but remains partially addressed while
+original legal verification is open. Points 4–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
-| 2 | Theory–predictor relationship and Table II formatting | Revised and checked; awaiting user review |
-| 3 | Historical thresholds, partnership assumptions and spouse resources | Pending |
+| 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
+| 3 | Historical thresholds, partnership assumptions and spouse resources | Partially addressed: explanation/arithmetic/code checks passed; original legal verification open |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Pending |
 | 5 | Technical verification versus participant usability | Pending |
 | 6 | Results-table readability and uncertainty interpretation | Pending |
@@ -112,6 +147,6 @@ Points 3–10 remain pending under the staged workflow.
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action follows the user's review of point 2 before point 3.
+The next action is review of point 3 and original legal-source confirmation.
 No new evidence collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

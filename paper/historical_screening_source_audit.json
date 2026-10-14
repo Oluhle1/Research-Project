@@ -1,0 +1,461 @@
+{
+  "audit_date": "2026-10-14",
+  "checked_at_utc": "2026-10-14T10:03:33.959304+00:00",
+  "status": "implementation, conditional arithmetic and local survey checks passed; original legal provisions unverified",
+  "baseline_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+  "scope": "Point 3 historical research screening; no rule changes, refitting or statutory certification",
+  "fresh_remote_attempts": 12,
+  "fresh_primary_legal_texts_read": 0,
+  "remote_origin_text_accessed": false,
+  "rates_attempts": [
+    {
+      "key": "gov_2014",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/37474rg10165gon211.pdf",
+      "requested_at": "2026-10-14T09:52:20.501796+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "gov_2015",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201503/38647gon277.pdf",
+      "requested_at": "2026-10-14T09:52:20.502257+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "gov_2014_http",
+      "url": "http://www.gov.za/sites/default/files/gcis_document/201409/37474rg10165gon211.pdf",
+      "requested_at": "2026-10-14T09:52:49.338635+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "origin_body_read": false
+    },
+    {
+      "key": "gov_2015_http",
+      "url": "http://www.gov.za/sites/default/files/gcis_document/201503/38647gon277.pdf",
+      "requested_at": "2026-10-14T09:52:49.339136+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "origin_body_read": false
+    },
+    {
+      "key": "gov_portal",
+      "url": "https://www.gov.za/documents/notices",
+      "requested_at": "2026-10-14T09:52:49.339508+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "sassa_annual_2015",
+      "url": "https://www.sassa.gov.za/Pages/Annual-Reports.aspx",
+      "requested_at": "2026-10-14T09:52:49.339991+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "gpw_gazette",
+      "url": "https://www.gpwonline.co.za/Gazettes/Pages/Published-National-Government-Gazettes.aspx",
+      "requested_at": "2026-10-14T09:52:49.340473+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "gazettes_africa_2014",
+      "url": "https://gazettes.africa/archive/za/2014/za-government-gazette-dated-2014-03-28-no-37474.pdf",
+      "requested_at": "2026-10-14T09:52:49.341286+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    },
+    {
+      "key": "gazettes_africa_2015",
+      "url": "https://gazettes.africa/archive/za/2015/za-government-gazette-dated-2015-03-30-no-38647.pdf",
+      "requested_at": "2026-10-14T09:52:49.347708+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_body_read": false
+    }
+  ],
+  "regulations_attempts": [
+    {
+      "name": "government_regulations_page",
+      "url": "https://www.gov.za/documents/social-assistance-act-regulations",
+      "accessed_at_utc": "2026-10-14T09:53:11.732799+00:00",
+      "candidate_endpoint": true,
+      "status": "request_failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_accessed": false
+    },
+    {
+      "name": "government_2008_regulations_pdf_candidate",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/31356rg8936gon898.pdf",
+      "accessed_at_utc": "2026-10-14T09:53:11.752763+00:00",
+      "candidate_endpoint": true,
+      "status": "request_failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_accessed": false
+    },
+    {
+      "name": "sassa_legislation_index",
+      "url": "https://www.sassa.gov.za/Pages/Legislation.aspx",
+      "accessed_at_utc": "2026-10-14T09:53:11.758284+00:00",
+      "candidate_endpoint": true,
+      "status": "request_failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_accessed": false
+    }
+  ],
+  "candidate_URL_scope": "URLs were attempted but their existence/content was not established; failed requests are not verified citations",
+  "remote_limitation": "HTTPS proxy tunnel 403 and HTTP 403; no rate notice, operative regulation or archive facsimile text read",
+  "conditional_arithmetic": [
+    {
+      "screen_period": "October 2014\u2013March 2015",
+      "recorded_monthly_maximum": "1350",
+      "annual_maximum_A": "16200",
+      "assumed_annual_minimum_D": "1200",
+      "assumed_formula": "D = 1.6A - 0.4B",
+      "derived_single_ceiling": "61800",
+      "derived_couple_ceiling": "123600",
+      "arithmetic_passed": true,
+      "legal_premises_verified": false
+    },
+    {
+      "screen_period": "April\u2013October 2015",
+      "recorded_monthly_maximum": "1410",
+      "annual_maximum_A": "16920",
+      "assumed_annual_minimum_D": "1200",
+      "assumed_formula": "D = 1.6A - 0.4B",
+      "derived_single_ceiling": "64680",
+      "derived_couple_ceiling": "129360",
+      "arithmetic_passed": true,
+      "legal_premises_verified": false
+    }
+  ],
+  "local_implementation_and_survey_evidence": {
+    "baseline_commit": "c95b786e075f38843478ec690cb2d296e1172be7",
+    "scope": "Read-only local implementation and frozen aggregate verification; no execution of modelling or screening engines and no legal-source verification",
+    "hashes": {
+      "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
+      "opg_core/screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf",
+      "analysis/phase4_rq1.py": "31a34082d006854d68b04aff25d2b3dcefa16f1d37f75eb4ea3429bcf142e8af",
+      "output/phase3/cohort_person.csv": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
+      "output/phase3/threshold_periods.csv": "3ca37013d57d61e0841328a813b4cc1b8ce220f73b247c2d6e3b85325c8f6922",
+      "output/phase4/rq1_status_by_marital.csv": "7f0c8033f66433b8ea65abc6496353bb89f8d0d9ad1144a21ac77e360ed44917",
+      "output/phase4/rq1_sensitivity.csv": "8afb55eea136c9fda61924b10c1463cd8ede0ea530aa6b9010644ecd4b7a9a3d",
+      "Dataset/metadata/Living Conditions Survey Questionnaire.pdf": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
+      "Dataset/metadata/Living Conditions Survey Metadata.pdf": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971"
+    },
+    "age60plus": 1317,
+    "primary_status_counts": {
+      "FAIL": 117,
+      "PASS": 1013,
+      "UNRESOLVED": 187
+    },
+    "unresolved_marital_counts": {
+      "1": 105,
+      "2": 63,
+      "3": 4,
+      "4": 6,
+      "5": 8,
+      "6": 1
+    },
+    "unresolved_married_link_counts": {
+      "nonresident": 80,
+      "not_reciprocal": 1,
+      "reciprocal": 14,
+      "self": 4,
+      "unspecified": 6
+    },
+    "age60_income_schedule_counts": {
+      "absent": 7,
+      "summed": 1282,
+      "supported_zero": 28
+    },
+    "sensitivity_rows": [
+      {
+        "scenario": "S1a",
+        "rule_changed": "Every interview uses the 1 April 2014 ceiling (R61,800 / R123,600).",
+        "cohort_size": 1013,
+        "households": 827.0,
+        "recipients": 946,
+        "nonrecipients": 67,
+        "unweighted_nonreceipt": 0.0661401776900296,
+        "weighted_nonreceipt": 0.0748768262580585,
+        "change_in_cohort": 0,
+        "change_in_nonrecipients": 0,
+        "unweighted_change_pp": 0.0,
+        "weighted_change_pp": 0.0,
+        "eligibility_fail": 117,
+        "eligibility_unresolved": 187,
+        "disagreements": null
+      },
+      {
+        "scenario": "S1b",
+        "rule_changed": "Every interview uses the 1 April 2015 ceiling (R64,680 / R129,360).",
+        "cohort_size": 1015,
+        "households": 829.0,
+        "recipients": 946,
+        "nonrecipients": 69,
+        "unweighted_nonreceipt": 0.0679802955665024,
+        "weighted_nonreceipt": 0.0767592730034049,
+        "change_in_cohort": 2,
+        "change_in_nonrecipients": 2,
+        "unweighted_change_pp": 0.1840117876472854,
+        "weighted_change_pp": 0.1882446745346447,
+        "eligibility_fail": 115,
+        "eligibility_unresolved": 187,
+        "disagreements": null
+      },
+      {
+        "scenario": "S1c",
+        "rule_changed": "Age 75 or older uses a ceiling R960 higher, from the R20 monthly supplement. Named simplification.",
+        "cohort_size": 1013,
+        "households": 827.0,
+        "recipients": 946,
+        "nonrecipients": 67,
+        "unweighted_nonreceipt": 0.0661401776900296,
+        "weighted_nonreceipt": 0.0748768262580585,
+        "change_in_cohort": 0,
+        "change_in_nonrecipients": 0,
+        "unweighted_change_pp": 0.0,
+        "weighted_change_pp": 0.0,
+        "eligibility_fail": 117,
+        "eligibility_unresolved": 187,
+        "disagreements": null
+      },
+      {
+        "scenario": "S1d",
+        "rule_changed": "Ceiling is the income at which the formula pays nothing (4 x annual maximum). Income at that point fails.",
+        "cohort_size": 1015,
+        "households": 829.0,
+        "recipients": 946,
+        "nonrecipients": 69,
+        "unweighted_nonreceipt": 0.0679802955665024,
+        "weighted_nonreceipt": 0.0767592730034049,
+        "change_in_cohort": 2,
+        "change_in_nonrecipients": 2,
+        "unweighted_change_pp": 0.1840117876472854,
+        "weighted_change_pp": 0.1882446745346447,
+        "eligibility_fail": 115,
+        "eligibility_unresolved": 187,
+        "disagreements": null
+      },
+      {
+        "scenario": "S2a",
+        "rule_changed": "Living together (code 2) is screened on the couple ceiling when a resident partner can be linked.",
+        "cohort_size": 1072,
+        "households": 870.0,
+        "recipients": 1001,
+        "nonrecipients": 71,
+        "unweighted_nonreceipt": 0.066231343283582,
+        "weighted_nonreceipt": 0.074165711035392,
+        "change_in_cohort": 59,
+        "change_in_nonrecipients": 4,
+        "unweighted_change_pp": 0.0091165593552475,
+        "weighted_change_pp": -0.0711115222666508,
+        "eligibility_fail": 117,
+        "eligibility_unresolved": 128,
+        "disagreements": null
+      },
+      {
+        "scenario": "S2b",
+        "rule_changed": "Living together (code 2) is screened on the single-person ceiling.",
+        "cohort_size": 1073,
+        "households": 871.0,
+        "recipients": 1004,
+        "nonrecipients": 69,
+        "unweighted_nonreceipt": 0.0643056849953401,
+        "weighted_nonreceipt": 0.0717330414970926,
+        "change_in_cohort": 60,
+        "change_in_nonrecipients": 2,
+        "unweighted_change_pp": -0.1834492694689438,
+        "weighted_change_pp": -0.3143784760965856,
+        "eligibility_fail": 120,
+        "eligibility_unresolved": 124,
+        "disagreements": null
+      },
+      {
+        "scenario": "S2c",
+        "rule_changed": "Separated (code 5) is screened on the single-person ceiling.",
+        "cohort_size": 1021,
+        "households": 831.0,
+        "recipients": 954,
+        "nonrecipients": 67,
+        "unweighted_nonreceipt": 0.0656219392752203,
+        "weighted_nonreceipt": 0.0742500227731329,
+        "change_in_cohort": 8,
+        "change_in_nonrecipients": 0,
+        "unweighted_change_pp": -0.0518238414809232,
+        "weighted_change_pp": -0.0626803484925608,
+        "eligibility_fail": 117,
+        "eligibility_unresolved": 179,
+        "disagreements": null
+      },
+      {
+        "scenario": "S2d",
+        "rule_changed": "Living together and separated are both screened on the single-person ceiling.",
+        "cohort_size": 1081,
+        "households": 875.0,
+        "recipients": 1012,
+        "nonrecipients": 69,
+        "unweighted_nonreceipt": 0.0638297872340425,
+        "weighted_nonreceipt": 0.0711668656104818,
+        "change_in_cohort": 68,
+        "change_in_nonrecipients": 2,
+        "unweighted_change_pp": -0.2310390455987063,
+        "weighted_change_pp": -0.370996064757674,
+        "eligibility_fail": 120,
+        "eligibility_unresolved": 116,
+        "disagreements": null
+      }
+    ],
+    "caution": "UNRES_SPOUSE_NONRESIDENT has 81 reason-code rows, but 80 unresolved rows; UNRES_PARTNERSHIP_AMBIGUOUS has 74 reason-code rows, but 71 unresolved rows. Other rows have known failures.",
+    "actual_lf_hash": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
+    "original_crlf_hash": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "baseline_content_unchanged": true,
+    "crlf_hash_matches_historical_freeze": true,
+    "primary_local_source_anchors": [
+      {
+        "file": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "printed_pages": [
+          4,
+          5
+        ],
+        "items": [
+          "Q1.7",
+          "Q1.8",
+          "Q1.9"
+        ],
+        "supports": "Marital categories and routing; resident household spouse/partner and person-number questions"
+      },
+      {
+        "file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+        "pdf_pages": [
+          125,
+          126
+        ],
+        "items": [
+          "Q17MARITAL",
+          "Q18PARTINHH",
+          "Q19SPOUSNO"
+        ],
+        "supports": "Released codes and unspecified/not-applicable categories"
+      },
+      {
+        "file": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          7
+        ],
+        "items": [
+          "Q1.17.14"
+        ],
+        "supports": "No-to-all income-source response"
+      },
+      {
+        "file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+        "pdf_pages": [
+          130,
+          182
+        ],
+        "items": [
+          "Q11714NOTOALL",
+          "Valueannualized"
+        ],
+        "supports": "No-income coding and annual individual income already annualised"
+      },
+      {
+        "file": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+        "pdf_pages": [
+          93,
+          94,
+          95,
+          96
+        ],
+        "items": [
+          "Section24"
+        ],
+        "supports": "Preceding-year regular-income reference period"
+      }
+    ],
+    "implementation_anchors": {
+      "analysis/phase3_build_cohort.py": {
+        "threshold_constants_and_formula": [
+          37,
+          47
+        ],
+        "date_specific_threshold_selection": [
+          63,
+          70
+        ],
+        "income_schedule_and_supported_zero": [
+          88,
+          109
+        ],
+        "spouse_linkage": [
+          112,
+          142
+        ],
+        "income_and_partnership_decisions": [
+          177,
+          209
+        ],
+        "failure_precedence_and_receipt_separation": [
+          220,
+          244
+        ],
+        "all_persons_income_aggregation": [
+          391,
+          429
+        ]
+      },
+      "opg_core/screening.py": {
+        "lookup_includes_all_uploaded_household_members": [
+          37,
+          45
+        ],
+        "age_frame_and_historical_screen": [
+          55,
+          64
+        ]
+      },
+      "analysis/phase4_rq1.py": {
+        "S1_ceiling_alternatives": [
+          259,
+          274
+        ],
+        "S1_S2_definitions": [
+          410,
+          419
+        ]
+      }
+    },
+    "root_draft_review": {
+      "path": "/workspace/research-validation/point3_section.md",
+      "sha256": "37605c867b81af43689470c1057efcb4d8a9d8b82da841d768b3bae88fdac3ad",
+      "word_count": 355,
+      "status": "passed; explicit annual unit for B should be retained in final text",
+      "scope": "Scientific, implementation and local survey-source consistency; no official legal verification",
+      "findings": [
+        "No substantive numerical or implementation inaccuracies identified",
+        "Annual grant formula must define B as annual private income, as agreed by root",
+        "Spouse linkage is accurately described as reciprocal household pointers, not verification of legal marriage",
+        "All historical formula/minimum-payment/spouse premises remain explicitly unverified",
+        "Known-failure precedence and separate receipt outcome match code"
+      ]
+    }
+  },
+  "remaining_original_source_checks": [
+    "GN 211 / GG 37474 identity, issue/effective dates and maximum rate",
+    "GN 277 / GG 38647 identity, issue/effective dates and maximum rate",
+    "Regulations and amendments operative during the survey period; Annexure/payment formula and R100 boundary",
+    "Joint spouse-resource treatment, statutory spouse definition, separation/desertion rules",
+    "Age-75 supplement and any effect on the applicable means-test ceiling"
+  ],
+  "prior_audit": "paper/primary_source_audit.json remains the separate historical 11 October record: 13 attempts, zero remote primary texts",
+  "model_refitted": false,
+  "screening_engine_rerun": false,
+  "application_suite_rerun": false
+}

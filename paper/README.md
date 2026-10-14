@@ -8,29 +8,40 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **15 October 2026 (Africa/Johannesburg)** legal follow-up, **D-071**,
-extends supervisor **point 3** in III.B (pages 3–4). Its four requests concern
-original threshold provisions, the verification statement, spouse-resource
-choices and the historical regulations' in-force amendment chain. The text now
-identifies the verified arithmetic, coded ceilings and LCS partnership items,
-and explains residence and reciprocal links as research consistency requirements.
-It clarifies joint resources, unavailable nonresident-spouse income, omitted
-spouse questions for separated respondents, and unresolved cohabitation or
-ambiguous links. These choices do not establish legal entitlement.
+The current **15 October 2026 (Africa/Johannesburg)** uploaded-source review,
+**D-072**, extends supervisor **point 3**. Two genuine uploaded legal originals
+were read: **GN R286, GG 34169, 31 March 2011**, Schedule paragraphs 2 and 4, specified
+**D = 1.4A − 0.4B** from **1 April 2011**; **GN R2119, GG 46459, 31 May 2022**,
+Annexure A(2), (5), specifies **1.6A − 0.4B** and the **R100 monthly minimum**,
+but regulation 41 commences it on publication in **2022**. The uploaded
+`415.pdf` is **GG 31342**, containing banking/customs notices, and was excluded
+as evidence of the intended 2008 social-assistance regulations.
 
-The user supplied a narrative reporting legal confirmation and direct
+III.B now identifies annual private income as a research proxy and keeps the
+R61,800/R123,600 and R64,680/R129,360 research ceilings fixed. The intervening
+formula amendments and original 2014/2015 rate notices remain unauthenticated;
+the 2022 text cannot prove the rules in force during the survey. VII states that
+historical applicability remains unresolved. The retained spouse paragraph
+explains residence, reciprocal links and unresolved cases as research choices,
+without claiming that the 2022 provisions establish legal spouse status in 2014–2015.
+**Legal follow-ups 2 and 3 are addressed in text; 1 and 4 have partial source
+evidence but remain incomplete. Point 3 is partly addressed and awaits user
+review; supervisor points 4–10 remain pending.** See
+[the uploaded-source audit](uploaded_legal_source_audit.md),
+[its evidence record](uploaded_legal_source_audit.json),
+[current artifact validation](manuscript_validation.json) and
+[the staged supervisor response](supervisor_feedback_response.md).
+
+The preceding **15 October D-071** snapshot at commit `214647e` had
+**5,451 whitespace tokens**, a **141-word abstract** and a **377-word III.B**.
+At that stage, the user supplied a narrative reporting legal confirmation and direct
 [SAFLII](https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf) and
 [Acts Online](https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means)
 source pointers. Primary text from either URL could not be read. Seven additional
 requests failed with proxy HTTP 403: five on 14 October and these two exact URLs
-on 15 October. Original notices, exact clauses and the historical in-force chain
-remain unauthenticated. Downloaded originals are needed to complete those checks.
-**Legal follow-ups 2 and 3 are addressed in text; 1 and 4 remain blocked.
-Point 3 is partly addressed and awaits user review; supervisor points 4–10 remain pending.**
-See [the current legal follow-up](legal_verification_followup.md),
-[its evidence record](legal_verification_followup.json),
-[current artifact validation](manuscript_validation.json) and
-[the staged supervisor response](supervisor_feedback_response.md).
+on 15 October, with zero legal texts read. Its
+[legal follow-up](legal_verification_followup.md) and
+[evidence record](legal_verification_followup.json) remain dated historical records.
 The preceding **D-070** snapshot at commit `beec7d7` had 5,430 whitespace tokens
 and a 356-word III.B. Its [point 3 revision](supervisor_point3_revision.md),
 [validation](supervisor_point3_validation.json) and
@@ -54,12 +65,14 @@ tokens. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,451 whitespace tokens**, including a **141-word
-abstract** and a **377-word III.B**. The PDF retains eight Letter pages, nine
-tables, four figures and 25 references at the existing 10/9/8-point
-body/table/reference fonts. Only III.B changed from the D-070 baseline
-`beec7d77c0e32b24b636f3f337ccc5545d899fd1`. All other sections, tables, figures,
-scientific results, software, data, references and the build remain unchanged.
+The current manuscript has **5,457 whitespace tokens**, including a **141-word
+abstract** and a **389-word III.B**. The PDF retains eight Letter pages, nine
+tables, four figures and **27 references** at the existing 10/9/8-point
+body/table/reference fonts. Relative to D-071 (`214647e`), manuscript changes
+are limited to the III.B threshold paragraph and VII's first limitations
+paragraph, with new references [26]–[27]. The builder only reduces spacing after
+reference paragraphs from 50 to 20 twips. All tables, figures, scientific
+results, screening rules, model code and data remain unchanged.
 The specialist, clear professional style continues.
 
 ## Editable sources
@@ -121,9 +134,12 @@ The specialist, clear professional style continues.
   the historical D-070 source-retrieval record: twelve blocked requests, no origin text
   read, and explicit outstanding legal/source confirmations.
 - `legal_verification_followup.md`, `legal_verification_followup.json`:
-  current D-071 responses to the four legal follow-ups, user-reported source
+  historical D-071 responses at `214647e` to the four legal follow-ups, user-reported source
   pointers and seven additional blocked retrievals, with zero legal texts read.
   `manuscript_validation.json` records the current artifacts.
+- `uploaded_legal_source_audit.md`, `uploaded_legal_source_audit.json`:
+  current D-072 source quotations, version/date limits and remaining historical
+  amendment/rate evidence. `legal_sources/` retains the two cited legal PDFs.
 
 ## Rebuild
 
@@ -166,7 +182,7 @@ the current manuscript hash and passes 209 numeric table values and 100
 supporting comparisons against retained evidence.
 Primary and independent reviewers visually inspected all eight freshly rendered
 pages, including Table II and the retained conceptual figure. The paper contains nine tables,
-four figures and 25 references numbered by first appearance. The previous
+four figures and 27 references numbered by first appearance. The previous
 220-test application result is cited as existing evidence; editing the paper
 has not rerun or expanded that suite.
 
@@ -182,9 +198,11 @@ audit** records twelve fresh requests, all blocked by proxy HTTP 403 with no
 origin text accessed. The separate **15 October D-071 legal-follow-up record**
 adds seven failed requests (five on 14 October and two exact user-provided URLs
 on 15 October), with zero legal texts read. The twelve-request D-070 and
-thirteen-request 11 October audits remain unchanged. These attempts and the
-user's reported confirmation do not authenticate historical provisions or the
-in-force amendment chain. P5 remains partially complete.
+thirteen-request 11 October audits remain unchanged. D-072 separately reads two
+genuine uploaded legal originals and excludes the unrelated uploaded `415.pdf`.
+Neither the earlier retrieval attempts, the user's reported confirmation nor
+the 2022 notice establishes the missing 2014–2015 operative amendment/rate chain.
+P5 remains partially complete.
 
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has

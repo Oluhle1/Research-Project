@@ -2,22 +2,25 @@
 
 For the separate supervisor feedback supplied on **14 October 2026**, see
 [the staged supervisor response](supervisor_feedback_response.md). The current
-**15 October 2026 (Africa/Johannesburg), D-071** revision addresses four legal
-follow-ups to **point 3**, in **III.B** (pages 3–4). Legal follow-up 4 concerns
+**15 October 2026 (Africa/Johannesburg), D-072** uploaded-source review extends four legal
+follow-ups to **point 3**, in **III.B** (pages 3–4) and **VII** (page 8). Legal follow-up 4 concerns
 historical regulations; the later supervisor point 4 concerns bootstrap intervals
-and remains pending. See [the current legal follow-up](legal_verification_followup.md)
-and [its evidence record](legal_verification_followup.json).
+and remains pending. See [the uploaded-source audit](uploaded_legal_source_audit.md)
+and [its evidence record](uploaded_legal_source_audit.json).
 
 | Legal follow-up | Current response | Status |
 | --- | --- | --- |
-| 1. Authenticate original threshold sources and exact provisions. | The arithmetic and coded R61,800/R123,600 and R64,680/R129,360 ceilings pass conditional checks. Original notices and their legal premises could not be read. | **Blocked: original-source authentication remains open.** |
-| 2. Replace the blanket verification statement accurately. | III.B now names verified arithmetic, coded ceilings and LCS partnership items and separately records incomplete authentication of the notices and historical formula, minimum-payment and spouse provisions. | **Addressed in text; legal authentication remains incomplete.** |
+| 1. Authenticate original threshold sources and exact provisions. | Conditional arithmetic and coded ceilings pass. Uploaded GN R286 (2011), Schedule 2 and 4, prints 1.4A − 0.4B from 1 April 2011; GN R2119 (2022), Annexure A(2), (5), prints 1.6A − 0.4B and R100 monthly minimum, commencing in 2022 under regulation 41. | **Partly addressed: intervening formula amendments and original 2014/2015 rate notices remain unauthenticated.** |
+| 2. Replace the blanket verification statement accurately. | III.B distinguishes the two verified source versions from the fixed annual research ceilings and private-income proxy; VII states that historical formula applicability remains unresolved. Estimates are conditional on those research ceilings. | **Addressed in text; historical legal authentication remains incomplete.** |
 | 3. Justify spouse resources and ambiguous marital treatment. | III.B explains resident reciprocal links as research consistency requirements, summing resolved applicant/spouse income under the assumed couple rule regardless of spouse age, unavailable nonresident-partner income, questionnaire routing for separated respondents, and unresolved cohabitation or ambiguous links. | **Research rationale clarified; legal spouse classification remains unauthenticated.** |
-| 4. Supply exact historical regulations and their in-force amendment chain. | The user supplied a narrative reporting legal confirmation and SAFLII/Acts Online source pointers. Neither primary text was read; no clause or amendment chain has been added without authentication. | **Blocked: exact original references and in-force confirmation remain open.** |
+| 4. Supply exact historical regulations and their in-force amendment chain. | New references [26]–[27] identify the read 2011 and 2022 originals. The uploaded `415.pdf` is GG 31342, containing banking/customs notices, and is excluded as the intended 2008 source. The 2022 date cannot prove the rules operative in 2014–2015. | **Partly addressed: the original operative amendment/rate chain remains missing.** |
 
-Seven additional requests failed with proxy HTTP 403: five on 14 October and
-the two exact user-provided URLs on 15 October; zero legal texts were read.
-Downloaded originals are needed to complete follow-ups 1 and 4. The preceding
+The preceding **15 October D-071** snapshot at commit `214647e` had
+**5,451 whitespace tokens**, a **141-word abstract** and a **377-word III.B**.
+Its seven additional requests failed with proxy HTTP 403: five on 14 October and
+the two exact user-provided URLs on 15 October; zero legal texts were read at
+that stage. Its [legal follow-up](legal_verification_followup.md) and
+[evidence record](legal_verification_followup.json) remain historical records. The preceding
 **D-070** snapshot at commit `beec7d7` had 5,430 whitespace tokens and a 356-word
 III.B. Its [point 3 revision](supervisor_point3_revision.md),
 [historical validation](supervisor_point3_validation.json) and
@@ -40,16 +43,18 @@ association and unresolved or unmeasured burden mechanisms. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,451 whitespace tokens**, a **141-word abstract**
-and a **377-word III.B**.
-It retains eight Letter pages, nine tables, four figures and 25 references with
-the existing 10/9/8-point body/table/reference fonts and unchanged build.
+The current manuscript has **5,457 whitespace tokens**, a **141-word abstract**
+and a **389-word III.B**.
+It retains eight Letter pages, nine tables, four figures and **27 references** with
+the existing 10/9/8-point body/table/reference fonts.
 The retained-output audit binds the current source hash and passes all 209
 numerical and 100 supporting checks; primary and independent reviewers inspected
-all eight fresh pages. Only III.B changed from the D-070 baseline
-`beec7d77c0e32b24b636f3f337ccc5545d899fd1`. All other sections, all
-tables and figures, scientific results, software, data and references remain
-unchanged. The accepted framework snapshot `0dd3d0e` had 5,423 tokens.
+all eight fresh pages. Relative to D-071 (`214647e`), only the III.B threshold
+paragraph and VII's first limitations paragraph changed in the manuscript,
+with new references [26]–[27]. The builder only reduces spacing after reference
+paragraphs from 50 to 20 twips. Tables, figures, scientific results,
+screening rules, model code and data remain unchanged. The accepted framework
+snapshot `0dd3d0e` had 5,423 tokens.
 The seven-comment lecturer matrix
 below records the earlier feedback and does not close the remaining supervisor points.
 
@@ -85,7 +90,7 @@ The [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and
 
 The 218-test record is an earlier application/parity evaluation; the later portability/package evaluation records 220 passing tests. These are overlapping verification suites, not 438 independent tests. Likewise, the original 26 checks include 22 screening cases plus four other checks, and must not be described as 26 screening decisions. Windows screenshots and the six extracted report files support the owner's observed workflow and export consistency; the ZIP container itself was not supplied, and the verification does not establish independent remote execution or participant usability.
 
-Existing reference metadata, complete titles and DOI strings were checked against the already-submitted Submission 1 bibliography. The supplied LCS metadata PDF directly corroborates Statistical Release P0310 and its 2017 publication year. The theory source is Moynihan, Herd and Harvey (2015); the prediction-reporting source is the original TRIPOD statement (2015), not TRIPOD+AI. Independent publisher checks remain incomplete: requests to the Crossref endpoint were blocked by the environment's outbound proxy (HTTP 403), and no browsing tool was available. Journal articles and official grant-notice PDFs were not available locally. The grant notices are documented in the existing research decisions and specification; this revision does not claim fresh primary-source verification of their contents.
+Existing journal-reference metadata, complete titles and DOI strings were checked against the already-submitted Submission 1 bibliography. The supplied LCS metadata PDF directly corroborates Statistical Release P0310 and its 2017 publication year. The theory source is Moynihan, Herd and Harvey (2015); the prediction-reporting source is the original TRIPOD statement (2015), not TRIPOD+AI. Independent publisher checks remain incomplete: requests to the Crossref endpoint were blocked by the environment's outbound proxy (HTTP 403), and no browsing tool was available. Journal articles and original 2014/2015 rate-notice PDFs remain unavailable locally. Those rates are documented in the existing research decisions and specification; this revision does not claim primary-source verification of those notices.
 
 The historical **14 October point 3** [screening-source audit](historical_screening_source_audit.md)
 records twelve fresh retrieval attempts, all blocked by proxy HTTP 403 before
@@ -96,18 +101,27 @@ verification result. The **15 October D-071** [legal-follow-up record](legal_ver
 adds seven failed requests: five public-source requests on 14 October and the
 exact [SAFLII URL](https://www.saflii.org/za/gaz/ZAGovGaz/2008/415.pdf) and
 [Acts Online URL](https://www.acts.co.za/social_assistance_act_2004/r898_19__determination_of_means)
-on 15 October. Zero legal texts were read. The user's narrative reports
+on 15 October. Zero legal texts were read at that stage. The user's narrative reports
 confirmation elsewhere; it supplies source pointers without authenticating
 original clauses or the 2014–2015 in-force amendment chain in this review.
 The twelve-request and thirteen-request historical audits remain unchanged.
 
+The separate **D-072** review reads two genuine uploaded legal originals,
+**GN R286 / GG 34169 / 31 March 2011** and **GN R2119 / GG 46459 / 31 May 2022**.
+Their formula/date difference is now explicit in III.B. The latter's 2022
+commencement does not authenticate the earlier survey-period formula, minimum
+or spouse provisions. The unrelated uploaded `415.pdf` is excluded. See
+[the uploaded-source audit](uploaded_legal_source_audit.md) and
+[its evidence record](uploaded_legal_source_audit.json). The research ceilings
+and scientific implementation remain unchanged.
+
 ## Remaining items
 
-- **Supervisor point 3 partly addressed, D-071:** legal follow-ups 2 and 3 clarify the verified scope and research spouse-resource rationale. Follow-ups 1 and 4 remain blocked because original notices, exact clauses and the historical in-force chain could not be authenticated. Seven additional requests failed with proxy HTTP 403 and zero legal texts were read. All 209 numerical and 100 supporting checks bind the current source and pass; both reviewers passed all eight fresh pages. See [the legal follow-up](legal_verification_followup.md), [its evidence record](legal_verification_followup.json) and [current artifact validation](manuscript_validation.json). Point 3 awaits user review; supervisor points 4–10 remain pending.
+- **Supervisor point 3 partly addressed, D-072:** legal follow-ups 2 and 3 clarify research assumptions and spouse-resource choices. Two genuine legal originals now support exact 2011/2022 clauses, but follow-ups 1 and 4 remain incomplete because the intervening operative formula and original 2014/2015 rate notices are missing. The 2022 text supplies no historical spouse proof. All 209 numerical and 100 supporting checks bind the current source and pass; both reviewers passed all eight fresh pages. See [the uploaded-source audit](uploaded_legal_source_audit.md), [its evidence record](uploaded_legal_source_audit.json) and [current artifact validation](manuscript_validation.json). D-071's dated retrieval record remains unchanged. Point 3 awaits user review; supervisor points 4–10 remain pending.
 - **Supervisor point 2 accepted:** the historical `c95b786` draft improved II.C and Table II's theory links, coding limits and layout. The caption, header and five rows fit on page 2, using top-aligned cells and horizontal rules. Numerical, supporting and eight-page visual checks passed; see [point 2 validation](supervisor_point2_validation.json). These changes remain intact in the point 3 draft.
 - **Framework follow-up accepted on 14 October:** II.D explains the analytical design; Figure 1 distinguishes its components and the artefact's implementation scope; VI.E returns to the framework without claiming causal burden mechanisms. The accepted point 1 research-gap/search-limit text is preserved. The historical `0dd3d0e` framework snapshot passed numerical, supporting and eight-page visual checks; see [framework validation](conceptual_framework_validation.json). Those sections and the figure remain unchanged in the point 3 draft.
 - **Specialist-audience revision completed:** the paper removes basic definitions and integrates the literature review into one narrative. It retains all 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](specialist_language_validation.json).
-- **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
+- **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 27 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.
 - Independently verify the complete bibliography and original historical legal provisions when the publisher/official sources are accessible; retain the distinction between checks against the submitted bibliography and primary-source verification.
 - Keep **participant usability unestablished and deferred**. No participant study is required to finish this authorised revision, and no such study may be reported as completed. Any later participant evaluation would require its own consent and applicable ethics process.

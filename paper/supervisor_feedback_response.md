@@ -109,8 +109,8 @@ spouse income regardless of age, unresolved ambiguous status/links and known
 failure precedence. These are research decisions rather than proof of legal
 spouse status. Receipt remains separate after PASS.
 
-The code and original LCS questionnaire/metadata support these implementation
-claims. Twelve fresh official/archive requests failed with 403 responses; zero
+At the D070 stage, the code and original LCS questionnaire/metadata supported these
+implementation claims. Twelve fresh official/archive requests failed with 403 responses; zero
 primary legal texts were read. Original rate notices, operative formula,
 minimum-payment rule and statutory spouse provisions remain unverified. The
 paper states that limit explicitly, and this response does not mark point 3
@@ -130,7 +130,7 @@ See [point 3 revision](supervisor_point3_revision.md),
 [current manuscript validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
-## Legal follow-up: four requests, 15 October 2026
+## Historical D071 legal follow-up: four requests, 15 October 2026
 
 **Status: audit wording and research rationale revised; exact original legal
 verification and in-force citations remain incomplete.**
@@ -142,12 +142,12 @@ verification and in-force citations remain incomplete.**
 | 3. Justification of marital status/spouse resources | III.B explains why links identify the correct income, why the assumed joint-resource rule combines amounts and why uncertain cases remain unresolved; exact legal requirements remain pending. |
 | 4. Historical regulations references and in-force confirmation | Direct supplied SAFLII/Acts Online pointers recorded; exact provisions and 2014–2015 amendment chain not authenticated. |
 
-The user's narrative reports legal confirmation, but neither the supplied
+At D071 (`214647e`), the user's narrative reported legal confirmation, but neither the supplied
 Gazette PDF nor the means-determination page could be read here. Seven additional
 follow-up requests failed, including the two exact supplied URLs on 15 October.
 The earlier source-audit ledgers retain their historical counts and scope.
 No legal quotation, clause number or unconfirmed reference was promoted into
-the paper as verified. The current draft has 5,451 whitespace tokens, a 141-word
+the paper as verified. That historical draft had 5,451 whitespace tokens, a 141-word
 abstract and 377-word III.B, with eight Letter pages, nine tables, four figures
 and 25 references. Primary/independent all-page reviews and the retained 209
 numerical plus 100 supporting checks passed.
@@ -155,6 +155,47 @@ numerical plus 100 supporting checks passed.
 See [legal follow-up](legal_verification_followup.md),
 [its ledger](legal_verification_followup.json),
 [current validation](manuscript_validation.json),
+[PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
+
+## D072: uploaded original sources, 15 October 2026
+
+**Status: supplied documents audited; point 3 remains partially addressed because
+the operative 2014–2015 amendment chain is incomplete.**
+
+The three uploads reveal a material version gap. GN R286, GG34169 (31 March
+2011), Schedule paragraphs 2 and 4, substituted **D = 1.4A − 0.4B** from 1 April
+2011. GN R2119, GG46459 (31 May 2022), Annexure A(2), (5), specifies **1.6A −
+0.4B** and the R100 monthly minimum, but regulation 41 commences it in 2022.
+Neither alone proves which formula applied during the survey. The supplied
+`415.pdf` is GG31342, a banking/customs Gazette; the intended base is GN R898,
+GG31356, whose full text is still missing.
+
+III.B now cites the two genuine social-assistance originals as [26]–[27], gives
+their dates and clauses, and separates verified content from the conditional
+research ceilings. VII explicitly records historical formula uncertainty.
+The companion audit quotes the 2022 spouse definition, joint-income calculation,
+desertion exception, deductions and repeal/commencement with PDF/Gazette page
+locations. Those later provisions are not presented as verified 2014–2015 law.
+The research partnership rationale and all screening decisions remain unchanged.
+
+Requests 2 and 3 are addressed within the available evidence. Requests 1 and 4
+are partially addressed: original 2014/2015 rate notices, the correct 2008 base
+and relevant intervening amendments remain necessary. The user's latest reply
+restated GN211/277 and the 1.6 research formula, rather than identifying the
+formula amendment. This response does not treat that restatement as original
+legal verification.
+
+The revised paper has **5,457 whitespace tokens**, a **141-word abstract**, a
+**389-word III.B**, **eight Letter pages**, **nine tables**, **four figures** and
+**27 references**. Only III.B's threshold paragraph and VII's first paragraph
+changed in the manuscript. Reference paragraph spacing reduced from 2.5 to
+1 point; font sizes remain 10/9/8 points. All tables, figures, other prose,
+original 25 reference strings and scientific code/results remain unchanged.
+The existing verifier passed 209 numerical and 100 supporting comparisons.
+Visual and artifact checks are recorded in the current validation and source ledger.
+
+See [uploaded source audit](uploaded_legal_source_audit.md),
+[its ledger](uploaded_legal_source_audit.json), [current validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
 ## Remaining supervisor points

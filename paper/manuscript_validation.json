@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-10-14T23:07:18.660740+00:00",
-  "status": "legal follow-up wording, research rationale and document checks passed; exact original provisions and historical force unconfirmed; awaiting source documents/user review; not submitted",
+  "checked_at_utc": "2026-10-14T23:41:40.597249+00:00",
+  "status": "uploaded-source content, conditional arithmetic and document checks passed; operative 2014\u20132015 legal chain incomplete; not submitted",
   "pdf_pages": 8,
   "maximum_pages": 8,
   "page_size": "Letter 612x792 pt",
-  "manuscript_words_whitespace_tokens": 5451,
+  "manuscript_words_whitespace_tokens": 5457,
   "submission1_integration": {
     "original_title_aim_objectives_and_literature_restored": true,
     "original_pdf_unchanged": true,
@@ -26,12 +26,12 @@
   },
   "supervisor_feedback_revision": {
     "revision_date": "2026-10-15",
-    "detail": "paper/legal_verification_followup.json",
+    "detail": "paper/uploaded_legal_source_audit.json",
     "feedback_point": 3,
-    "changed_area": "III.B verification-scope statement and partnership rationale; existing questionnaire citation added",
-    "user_acceptance": "Legal follow-up pending; original supervisor point 3 still partial",
+    "changed_area": "III.B threshold paragraph and first VII limitations paragraph only",
+    "user_acceptance": "Current legal follow-up pending",
     "other_points": "4\u201310 pending",
-    "status": "Legal follow-ups 2/3 addressed within available evidence; 1/4 blocked",
+    "status": "Uploaded legal originals audited; exact 2014\u20132015 force still incomplete",
     "active_verbs": true,
     "concrete_subjects": true,
     "scientific_distinctions_reviewed": 16,
@@ -82,7 +82,8 @@
     "table_points": 9,
     "reference_points": 8,
     "title_points": 24,
-    "font": "Times New Roman; PDF renderer uses Liberation Serif fallback"
+    "font": "Times New Roman; PDF renderer uses Liberation Serif fallback",
+    "reference_after_spacing_points": 1
   },
   "numeric_table_comparisons": {
     "checked": 209,
@@ -100,7 +101,7 @@
     "scope": "Recalculations, retained-output reads and explicitly labelled historical/documentary checks; not a new application test run"
   },
   "citations": {
-    "count": 25,
+    "count": 27,
     "first_use_sequence": [
       1,
       2,
@@ -126,12 +127,14 @@
       22,
       23,
       24,
-      25
+      25,
+      26,
+      27
     ],
     "all_resolved": true,
     "unused_sources_excluded": [],
     "doi_strings_matching_submitted_bibliography": 18,
-    "independent_publisher_and_notice_verification": "incomplete; thirteen source reads failed with proxy CONNECT HTTP 403"
+    "independent_publisher_and_notice_verification": "Two uploaded legal originals read (2011/2022); historical rate/amendment chain and publisher checks incomplete"
   },
   "primary_source_verification": {
     "local_authentic_stats_sa_documents_read": 3,
@@ -140,7 +143,7 @@
     "detail": "paper/primary_source_audit.json",
     "scope": "Retained 11 October 2026 audit; snapshot hashes checked against baseline commit, not rerun for language rewrite",
     "snapshot_commit": "bfabb350a8062cab7237a31c362afc4cc15196f4",
-    "operative_legal_chain": "not independently verified: notices, Annexure A/formula, R100 boundary, couple-resource provisions"
+    "operative_legal_chain": "2011/2022 content now verified from uploaded originals; October 2014\u2013October 2015 applicability remains unresolved"
   },
   "table_II_revision": {
     "detail": "paper/supervisor_point2_validation.json",
@@ -172,16 +175,16 @@
   "visual_review": {
     "pages_reviewed": 8,
     "passed": true,
-    "reviewers": "Primary agent and independent legal_followup_review agent; all eight current pages reviewed on 15 October",
+    "reviewers": "Primary agent and independent uploaded_legal_timeline agent; all eight final pages",
     "all_tables_intact_and_figures_unclipped": true,
     "reference_columns_balanced": true,
     "split_reference_entries": false,
     "table_v_and_viii_notes": "clear italic continuations onto pages 6 and 7 respectively",
-    "other_notes": "III.B spans pages 3\u20134; Table II page 2; no clipping or extra page",
-    "last_page": "VI.E and reference 1 in left column; references 2\u201325 in right column, whole entries; no extra blank page",
-    "render_date": "2026-10-14; unchanged retained final render matches source/DOCX/PDF hashes"
+    "other_notes": "III.B pages 3\u20134; all fonts unchanged; reference paragraph after-spacing reduced to 1 point",
+    "last_page": "VI.E and reference 1 left; references 2\u201327 right, whole entries; no extra page",
+    "render_date": "2026-10-14 UTC / 15 October Africa/Johannesburg"
   },
-  "scientific_and_application_files_unchanged_from": "beec7d77c0e32b24b636f3f337ccc5545d899fd1",
+  "scientific_and_application_files_unchanged_from": "214647e42adad9a20a30461d4026e1f93732ae7a",
   "existing_application_evidence_not_rerun_for_paper": {
     "automated_tests": 220,
     "native_ui_cli_reference_rows": 15388,
@@ -199,8 +202,8 @@
     "point1": "Positively reviewed",
     "framework_followup": "Positively reviewed",
     "point2": "Accepted for progression; Table II unchanged in current revision",
-    "current_work": "Legal follow-up to point 3; verification statement and research rationale clarified; exact source authentication outstanding",
-    "point3": "Partially addressed; exact original legal provisions and amendment chronology incomplete",
+    "current_work": "Point 3 uploaded-original source review; historical formula/rate/amendment chain remains incomplete",
+    "point3": "Partially addressed; source content verified for 2011/2022, survey-period applicability incomplete",
     "remaining_points": [
       4,
       5,
@@ -220,28 +223,28 @@
     "Author review"
   ],
   "sha256": {
-    "paper/manuscript.md": "ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24",
-    "paper/manuscript_numbered.md": "6719a492e5adda4290d37a814f3bdf45e35495f4cd5a81cf48ab42b140480bcf",
-    "paper/references.json": "91b00a690fa95faf5eb806e8d35fd28dd6283a6f3e23aca53432d97e3660392e",
-    "paper/citation_map.json": "e1485155e9adbfe0939b0da2e5f3f851dda8bca43da807ac04e93c7e6a35b03d",
-    "paper/build_ieee.js": "977c31c46b7889eb50a7eeff2e770a12b39617b2d20c1829271fc616a6389267",
+    "paper/manuscript.md": "835aee47d51197b7e4f63b0b33390e4727ab1c3bf6b4e78745b57ebdc2c1b381",
+    "paper/manuscript_numbered.md": "adbd2c4160220c836576494cea1bd6ecc6a6454ce6104870142d2d3e38978c50",
+    "paper/references.json": "09373002a3820b773bf7a2a7dea23c369a886aaf6b722b7cb8d0da465a676079",
+    "paper/citation_map.json": "6d924fa26f2ef67557da0e72a79ab9ce19fb7456280fbbaf942e711f280a7e3e",
+    "paper/build_ieee.js": "0b698e61a476f2780f885a4be783460f6b5e11a8773f4085c2d6da1a1f7e2c2c",
     "paper/build_figures.py": "af18f3124f10d863e20043d7e9b6fb1434783e22e08a74c1d66bf36de9a875dc",
     "paper/build_expansion_figures.py": "03cb957d4becf0246cfdc519e2751b4e6ac9828ccb3943b4d82540b7268d4c0e",
     "paper/package.json": "4630f82151ac735ecdda799b0bac236ed9714e147322964ff7944ba876bae2cd",
     "paper/package-lock.json": "fcc94104e8f8d2150ac2c6abeba5eb200c44a851ea990201998d4c9475e05b31",
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "cd6e002e74c83bc180bce0b15c25376fb3bf0434e83eddb0849f827049f1a930",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "12c857141c3341bf33da314c7264893c361b652bdd3e499b5d0f29cba5ccef07",
-    "paper/empirical_expansion_validation.json": "6eb91bf723bdb6d5f86c6e9020982f56b0cbfc8625284e3d04007100e39f8587",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "b9c72c650d5262234ab56d02eba16ad5b90dca8d32dc4132275cd13c8816d260",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "95369d879c84faf5343ca224ff2a003100ff6c0ebbc9fc16527f3ff6ae9b7f8a",
+    "paper/empirical_expansion_validation.json": "bd99ae9d0c5982aad3b180512c2c9698706239689bef9b6c403ba0fd9ded24e3",
     "paper/submission1_integration_notes.md": "e3208027b795dc01b53483b3bcac965a1a35c3c3f68a1f31ac55108ec4e935eb",
     "paper/expansion_empirical.md": "9728fbe9c50427407b286f258a88fd4b57cb19a791e0ac991465642c696052f6",
     "paper/discussion.md": "63d647c695aa04982bcfc2d788c36940c53de608ed99cd45505bf1143a3837da",
     "paper/targeted_revision_plan.md": "a53d5c2370b5d5b69b16a8c7d56b52b9604751e407cceb52d6329dc79f03f510",
-    "paper/targeted_revision_response.md": "40c4e34d6067502921a5267826e1412938ec5d1c9a240e58157cc642f2cb6fcb",
+    "paper/targeted_revision_response.md": "e00b429ebdaf6710fa8cda139727378152bdd86e63226399f187d9f6cc091f86",
     "paper/claim_source_register.csv": "39ea48e51ebae11ffd1adfe239be6a8ed174712932be0385466474304c89806d",
-    "paper/claim_source_validation.json": "2fcf349d1d277fa729a6dee4553f735c2655e3703e22eb8a5b232ceefb929221",
+    "paper/claim_source_validation.json": "b44cebe1d1be8524541eb6af9d6e953b6f3d05e269bd039d2f4392d5ce0b62a4",
     "paper/verify_claims.py": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
-    "paper/README.md": "6a4ca32c9322536f9cd86f0d02d5c091ede42a6324dc42bac8c5083ae007d66c",
-    "paper/feedback_response.md": "a771fe42d3ae225eccc3ab26f113cc081d995b313cced780c2b09657ea349805",
+    "paper/README.md": "7571721376ee1739d6c69bf31dbf666e4f5c62469d784e4a36c23c811e83f840",
+    "paper/feedback_response.md": "86fb4ef47964f0a0864a1774cb732c444e68fa5034e904b93bc22005cc38f66b",
     "paper/plain_language_revision.md": "2ce3ea79f475f3a470e774b3ea452b83f0cca6ddafd00fccc500a35840913e05",
     "paper/plain_language_validation.json": "8dfa750e2205c1f428209ded5f7317ab880fa7748a36e080273ea755e238065b",
     "paper/plain_language_negative_controls.json": "68261dd53863fd43d43615f658377247d38115839a5b7198d1a8136dce34c659",
@@ -251,17 +254,17 @@
     "paper/specialist_language_revision.md": "0be7d012af61f852d64ff76d40eb0e201a385360e5428aa3a6f24724e46cde08",
     "paper/specialist_language_validation.json": "7da973256d233df34ab31fcee24108d79ea41b7c066f0c51ebdf7f695fe44627",
     "paper/specialist_language_negative_controls.json": "c3955244d54e5d12d187fcb9fad306c1276d31e8236ae55f562ea5a6cbd31764",
-    "paper/supervisor_feedback_response.md": "c5bcfe6ba3dbbe6fe68c9f8009927fb0b16aeba4db1562ac4cc7d38d145e7dea",
+    "paper/supervisor_feedback_response.md": "b5ba97f1ddb00c1655ff16e70d9fe068670f8ef561ef80a7e0c5c1d4bfa31528",
     "paper/supervisor_point1_validation.json": "6190f627b9045cd3012015a5c8e63b67f8c9069043ef5ff1c1a9da97a4055964",
     "paper/conceptual_framework.md": "31e75e9186305a36858418f57299cb84c4acc2d2cc034c234ea62ebe27cf3b3e",
     "paper/conceptual_framework_revision.md": "9bdb5d2f9594dce163ca407ea140873913f21f6af7266d80311335999aeb6328",
     "paper/conceptual_framework_validation.json": "cea52b823ac32fd55826458c7b00454b49558be52c66cec54f7036b271db2d7b",
     "paper/supervisor_point2_revision.md": "d883d9f806471db46a657f360cc16a724985f05622987652cd03c0a4a879b8ca",
     "paper/supervisor_point2_validation.json": "1bd739e9054b342abef866ba3f8a7309daafa5b16e3df51d21e3b7f04a571ee2",
-    "docs/evidence_log.md": "1c47cf69abcf5bccf8f3624baa848a9650e9acaf0a7368c0fea179bab141171e",
-    "specification/decision_log.md": "29c3d14e7a2a0d31b4f00b43883e188221abef55d5ecf8a7d5c7a0be8852ada3",
-    "specification/checklist.md": "0342fd82687eefa3a66e2b86368f4ca786f76ff7ff6a413cece062438403c5c9",
-    "specification/implementation_specification.md": "371348ba42c544ce46ff91b99e2258abecc2535ee4600322ad4b8ccce40890de",
+    "docs/evidence_log.md": "81ce68e01f48e69cc1ec9fe58529252dc711c160be4593e9182e8806b5929e63",
+    "specification/decision_log.md": "3eaa962d52ab7348958f626edea73d3d53cdc62a36e9a8c61d7a60220e8890df",
+    "specification/checklist.md": "68fe56c9b7aa8fbced12b33311ed7c0a81e270aa3d7dd1f0dfaebe71ffdb5d11",
+    "specification/implementation_specification.md": "34df87c2aa714e78fe18eafdf8f1073f332be162fb52dcda123f1d5330ffe644",
     "paper/primary_source_audit.json": "1698c64c3679726ff4bb97c596742d0221168ae107f9e6ed7be6b78224d18776",
     "paper/primary_source_audit.md": "ee5360fd6e9619ca166f8ec81465c9a9e5441b10b1e6936fb517a813dc4a699a",
     "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",
@@ -311,8 +314,8 @@
     "paper/supervisor_point3_validation.json": "80cd5b54f371b735a784712e72dbfd618ba3f59cc9f635909c69befc66eb5c4b",
     "paper/historical_screening_source_audit.md": "f510e045ec517926e281cc614ff89e388707ea232a7b7f529a8d6262eb94a9e2",
     "paper/historical_screening_source_audit.json": "4ad1f6290574e3627846f4f6d2883b28bd2bbdec13eb7d072687d6221196a524",
-    "docs/rulebook.md": "82a910bb50a89421cdcdac66565850d9766495a770394abd82552124b2681a8b",
-    "specification/phase3_cohort.md": "fb96324493c2e2d960844227cd6ac125cc2978a9b161d3fa65cd77dc3ad11367",
+    "docs/rulebook.md": "e418dd157b544ee5eaa81237f14c5691f21363bd8c630cd932baf917545acf90",
+    "specification/phase3_cohort.md": "045f8842bd1fc316d8efc2d9a4487770f3e2e18dd7175ccc993bf8e045de8567",
     "paper/legal_verification_followup.md": "019545765e69fa9c2a3e9910172223554f2254661fcdecffa035854655be9567",
     "paper/legal_verification_followup.json": "5a9471fdf258f6fd5877dd1a41b3da40010620a90270ad982e061fda5f72d906",
     "opg_core/screening.py": "f95295da1ae6a53300b024c10e7edcab2eaad717936766191199a97d9844e1bf",
@@ -320,7 +323,11 @@
     "output/phase3/threshold_periods.csv": "3ca37013d57d61e0841328a813b4cc1b8ce220f73b247c2d6e3b85325c8f6922",
     "output/phase4/rq1_status_by_marital.csv": "7f0c8033f66433b8ea65abc6496353bb89f8d0d9ad1144a21ac77e360ed44917",
     "Dataset/metadata/Living Conditions Survey Questionnaire.pdf": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
-    "Dataset/metadata/Living Conditions Survey Metadata.pdf": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971"
+    "Dataset/metadata/Living Conditions Survey Metadata.pdf": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
+    "paper/uploaded_legal_source_audit.md": "0c5748546811e0b006964edec20191800ea63f012dac4130294732c26c5972a3",
+    "paper/uploaded_legal_source_audit.json": "20a17f414f2ba6649dc24998f1c01215ee944b5045dd79fe3fa4d670dd7d1db5",
+    "paper/legal_sources/2011_GN_R286_GG34169.pdf": "067dfd36a8e022e1aa1695a588a5ff007d2233835446f281043aff3b1ad45747",
+    "paper/legal_sources/2022_GN_R2119_GG46459.pdf": "b6f1ee1095498ec600291e747cdd56d5cf78dce8081c5d41ff6f1a6b2ddda707"
   },
   "historical_supervisor_point2_revision": {
     "detail": "paper/supervisor_point2_validation.json",
@@ -346,7 +353,7 @@
     "words": 5430,
     "scope": "Earlier conditional arithmetic and screening explanation; source hash checked against its historical commit"
   },
-  "legal_verification_followup": {
+  "historical_legal_verification_followup": {
     "detail": "paper/legal_verification_followup.json",
     "revision_date": "2026-10-15",
     "III_B_words": 377,
@@ -388,6 +395,25 @@
       }
     ],
     "reported_legal_review_is_primary_verification": false,
-    "exact_clauses_and_in_force_amendment_chain_authenticated": false
+    "exact_clauses_and_in_force_amendment_chain_authenticated": false,
+    "snapshot_commit": "214647e42adad9a20a30461d4026e1f93732ae7a"
+  },
+  "uploaded_legal_source_review": {
+    "detail": "paper/uploaded_legal_source_audit.json",
+    "uploaded_files_read": 3,
+    "relevant_legal_texts_read": 2,
+    "wrong_2008_file_excluded": true,
+    "2011_formula_coefficient": 1.4,
+    "2022_formula_coefficient": 1.6,
+    "2022_commencement": "2022-05-31",
+    "historical_2014_2015_chain_confirmed": false,
+    "III_B_words": 389,
+    "references_added": [
+      26,
+      27
+    ],
+    "fresh_remote_attempts_by_main_uploaded_review": 0,
+    "parallel_source_search": "13 attempts / 12 unique guessed URLs; HTTP/proxy CONNECT 403; no original obtained or intervening amendment authenticated",
+    "primary_analysis_unchanged": true
   }
 }

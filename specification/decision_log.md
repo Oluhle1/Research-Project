@@ -6,10 +6,10 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 **Specification:** `specification/implementation_specification.md`.  
 **Checklist:** `specification/checklist.md`.
 
-D-062–D-070 record historical manuscript builds with their original counts and
-hashes. D-071 records the current four legal follow-ups to supervisor point 3:
-scoped verification wording and spouse-research rationale are improved, while
-authentication and the historical in-force chain remain blocked. Point 3 is
+D-062–D-071 record historical manuscript builds with their original counts and
+hashes. D-072 records the current uploaded-source review for supervisor point 3:
+the 2011 and 2022 original texts have different formula coefficients, while
+the 2014–2015 amendment chain and original rate notices remain incomplete. Point 3 is
 partially addressed: original legal verification remains open and user review is pending.
 Supervisor points 4–10 remain pending.
 
@@ -85,7 +85,8 @@ Supervisor points 4–10 remain pending.
 | D-068 | 2026-10-14 | Conceptual-framework follow-up | Reporting | Apply only the user's three refinements: add 142-word Section II.D, distinguish conceptual and analytical layers in Figure 1, and add 109-word Section VI.E returning to supported, challenged and unresolved expectations. A dashed artefact boundary denotes implementation, not a causal factor. Historical D-068 draft: 5,423 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 references and unchanged 10/9/8 pt fonts/layout. | User's positive review of point 1 and explicit framework requests; `paper/conceptual_framework_revision.md`, `paper/conceptual_framework_validation.json`, `paper/supervisor_feedback_response.md` and current `paper/manuscript_validation.json`. Science/audience review and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Table cells and scientific/app/model/data/reference/verifier paths remain unchanged from `1fe4820`; other figures remain unchanged. | Draft prepared for user review; root and independent visual reviews passed all eight final pages. Only the framework aspect of point 2 is addressed; Table II formatting and points 3–10 remain pending. No app suite, refit, negative-control rerun, source query, province extension, participant study, administrative confirmation, deployment or submission. P5/usability limits unchanged |
 | D-069 | 2026-10-14 | Supervisor feedback point 2 | Reporting | Revise Table II's theoretical relationships and formatting only: demographic context for age/sex, learning-cost relevance for schooling, compliance-cost relevance for settlement/distance; preserve coding and measurement limits. State unmeasured psychological costs and five predictor groups/six slopes. Table II-only builder styling uses top/left-aligned 9 pt cells, black horizontal rules, no vertical grid, unsplit rows, repeating header and caption keep. Historical D-069 draft: 5,416 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 references and 10/9/8 pt fonts. | User accepted point 1 and framework refinements and authorised the next supervisor item; `paper/supervisor_point2_revision.md`, `paper/supervisor_point2_validation.json`, `paper/supervisor_feedback_response.md` and current `paper/manuscript_validation.json`. Independent scientific review and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Only II.C/Table II reporting and scoped builder formatting change from `0dd3d0e`; all other tables, figure assets, sections, scientific/app/model/data/reference/verifier paths remain unchanged. | Draft prepared for user review; root and independent visual reviews passed all eight final pages. Supervisor points 3–10 remain pending. No app suite, refit, negative-control rerun, source query, figure regeneration, province extension, participant study, administrative confirmation, deployment or submission. P5/usability limits unchanged |
 | D-070 | 2026-10-14 | Supervisor feedback point 3 | Reporting / verification | Clarify III.B's interview-period ceilings, conditional annual formula and R1,200 minimum, half-joint-income couple assumption and equality boundary. Distinguish marital research coding from legal spouse proof; require reciprocal resident different-person links and resolved applicant/spouse incomes, combine regardless of spouse age, preserve unresolved cases and known-FAIL priority, and keep receipt separate. Historical D-070 draft at `beec7d77`: 5,430 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 references and unchanged 10/9/8 pt fonts. | User approved point 2 and requested threshold/spouse verification; historical `paper/supervisor_point3_revision.md`, `paper/supervisor_point3_validation.json`, `paper/historical_screening_source_audit.md`/`.json`, `paper/supervisor_feedback_response.md` and `paper/manuscript_validation.json` at `beec7d77`. Arithmetic, code, local primary survey and independent scientific checks pass; 12 fresh official legal/rate requests returned HTTP 403 before origin text retrieval. All 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Only III.B manuscript prose changes from `c95b786`; all other sections, tables, references, figures, builder, app/model/data/analysis/verifier paths remain unchanged. | Partially addressed; original notices, operative formula, R100 minimum-payment rule and legal spouse definition remain unverified. User review pending; root and independent visual reviews passed all eight final pages. Points 4–10 remain pending. No refit, app suite, new empirical analysis, participant study, administrative confirmation, deployment or submission; P5/usability limits unchanged |
-| D-071 | 2026-10-15 | Supervisor point 3 legal follow-ups | Reporting / verification | Address the user's four legal follow-ups to original point 3. State what the audit verified and what it did not authenticate; explain combined spouse resources, survey omissions and conservative partnership handling as research choices. Current III.B: 377 words, up from historical 356; 5,451 manuscript words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 first-use references and 10/9/8 pt fonts. | `paper/legal_verification_followup.md`/`.json` and current `paper/manuscript_validation.json`; five expanded public requests on 14 October and two exact user-provided URL requests on 15 October failed HTTP/proxy CONNECT 403 before primary text retrieval. The user's narrative, favicon links and candidate URLs do not authenticate clauses or amendments. Independent actual-diff/questionnaire-pages-5–6 review and root plus independent visual reviews of all eight current renders pass. Current-source-bound 209 numerical and 100 supporting checks pass; 314 register rows retain four limits. Only III.B prose changes from `beec7d77`; all nine table XML records, other sections, references, figures, builder, scientific/app/model/data/analysis/verifier paths remain unchanged. | Follow-ups 2 and 3 addressed within audit/research scope; critical 1 and 4 blocked by unavailable original notices/clauses and historical amendment/in-force chain. Original supervisor point 3 remains partial and awaits user review; points 4–10 remain pending. Review dated 15 October Africa/Johannesburg; current retained renders retain 14 October UTC timestamps. No fresh app suite, rule run, refit, new empirical result, participant study, administrative confirmation, deployment or submission. D-062–D-070 and older source-attempt counts/hashes remain historical; P5/usability limits unchanged |
+| D-071 | 2026-10-15 | Supervisor point 3 legal follow-ups | Reporting / verification | Address the user's four legal follow-ups to original point 3. State what the audit verified and what it did not authenticate; explain combined spouse resources, survey omissions and conservative partnership handling as research choices. Historical D-071 at `214647e`: III.B 377 words, up from historical 356; 5,451 manuscript words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 first-use references and 10/9/8 pt fonts. | `paper/legal_verification_followup.md`/`.json` and historical `paper/manuscript_validation.json` at `214647e`; five expanded public requests on 14 October and two exact user-provided URL requests on 15 October failed HTTP/proxy CONNECT 403 before primary text retrieval. The user's narrative, favicon links and candidate URLs do not authenticate clauses or amendments. Independent actual-diff/questionnaire-pages-5–6 review and root plus independent visual reviews of all eight D-071 renders pass. D-071 source-bound 209 numerical and 100 supporting checks pass; 314 register rows retain four limits. Only III.B prose changes from `beec7d77`; all nine table XML records, other sections, references, figures, builder, scientific/app/model/data/analysis/verifier paths remain unchanged. | Follow-ups 2 and 3 addressed within audit/research scope; critical 1 and 4 blocked by unavailable original notices/clauses and historical amendment/in-force chain. Original supervisor point 3 remains partial and awaits user review; points 4–10 remain pending. Review dated 15 October Africa/Johannesburg; D-071 retained renders retain 14 October UTC timestamps. No fresh app suite, rule run, refit, new empirical result, participant study, administrative confirmation, deployment or submission. D-062–D-070 and older source-attempt counts/hashes remain historical; P5/usability limits unchanged |
+| D-072 | 2026-10-15 | Supervisor point 3 uploaded-source review | Reporting / verification | Read uploaded original legal sources and expose the historical formula conflict. GN R286/GG 34169 Schedule 2 uses 1.4A − 0.4B, effective 1 April 2011 under Schedule 4; GN R2119/GG 46459 Annexure A(2)/(5) uses 1.6A − 0.4B and R100 monthly minimum, commencing 31 May 2022 under regulation 41. Clarify III.B and VII's first paragraph, add direct references [26]/[27] and retain source PDFs; reference spacing after paragraphs changes 2.5 to 1 pt. Current source: 5,457 words, 141-word abstract, 389-word III.B; eight Letter pages, nine tables, four figures, 27 references and 10/9/8 pt fonts. | `paper/uploaded_legal_source_audit.md`/`.json` and current manuscript validation. Supplied `415.pdf`/GG 31342 concerns banking/customs and is excluded; correct 2008 base GN R898/GG 31356 is identified but full text unread. Intervening formula amendments and original 2014/2015 rate notices remain missing. All nine table XML records, other prose/figures and scientific/app/model/data/analysis/verifier code remain unchanged from `214647e`; 209 numerical/100 supporting checks pass with zero failures, 314 register rows and four limits; root and independent all-eight-page visual reviews passed; independent uploaded-source/scientific reviews passed. | Original supervisor point 3 remains partial and awaits user review. Legal follow-ups 2/3 addressed within available evidence; historical verification criteria 1/4 incomplete. Supervisor points 4–10 pending. No science-code change, rule rerun, refit, app suite, new empirical result, participant study, administrative confirmation, deployment or external submission. D-062–D-071 counts/hashes/checks remain historical; 96 checklist rows remain 94 Implemented, two Proposed, zero Verified |
 
 ## Phase close-outs
 
@@ -787,7 +788,8 @@ two Proposed and zero Verified. D-062–D-068 counts and hashes remain historica
 
 This D-070 entry describes the historical build at
 `beec7d77c0e32b24b636f3f337ccc5545d899fd1`. Its 5,430-word count, hashes and
-completed reviews remain historical. D-071 below records the current follow-up.
+completed reviews remain historical. D-071 below records the historical follow-up;
+D-072 records the current uploaded-source review.
 
 **Partially addressed.** After approving point 2, the user requested III.B's
 threshold and spouse verification. D-070 clarifies the coded annual ceilings
@@ -838,6 +840,11 @@ two Proposed and zero Verified. D-062–D-069 counts and hashes remain historica
 
 ### Supervisor point 3 legal-verification follow-up — 2026-10-15
 
+This D-071 entry records the historical draft at
+`214647e42adad9a20a30461d4026e1f93732ae7a`. Its 5,451-word count, 377-word
+III.B, hashes and completed checks remain historical. D-072 below records the
+current uploaded-source review.
+
 **Partially addressed.** D-071 addresses four legal follow-ups to original
 supervisor point 3: authenticate the 2014–2015 thresholds and exact provisions;
 state accurately what is verified and uncertain; justify spouse resources and
@@ -858,13 +865,13 @@ retained page images on 15 October (Africa/Johannesburg); retained render
 timestamps remain 14 October UTC. III.B is clear on pages 3–4 and the retained
 tables, figures, synthesis and references remain intact.
 
-The current source has 5,451 whitespace-delimited words, a 141-word abstract
+The D-071 source has 5,451 whitespace-delimited words, a 141-word abstract
 and 377-word III.B (historical D-070: 5,430/141/356). The PDF remains eight
 US Letter pages with nine tables, four figures, 25 first-use references and
 10/9/8 pt fonts. All 209 numerical comparisons and 100 supporting checks
 pass, bound to the current source; 314 register rows retain four limits.
-Current records are `paper/legal_verification_followup.md`/`.json` and
-`paper/manuscript_validation.json`. Manuscript SHA-256:
+Historical records at `214647e` are `paper/legal_verification_followup.md`/`.json`
+and `paper/manuscript_validation.json`. Manuscript SHA-256:
 `ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24`.
 PDF SHA-256:
 `12c857141c3341bf33da314c7264893c361b652bdd3e499b5d0f29cba5ccef07`.
@@ -898,3 +905,66 @@ authentication. Supervisor points 4–10 remain pending. Checklist counts
 remain 96 rows: 94 Implemented, two Proposed and zero Verified. D-062–D-070
 counts, hashes and earlier reviews remain historical; the decision table now
 contains 71 unique D-001–D-071 rows.
+
+### Supervisor point 3 uploaded legal-source review — 2026-10-15
+
+**Partially addressed.** D-072 records the user's uploaded original legal
+documents and the current revision from `214647e42adad9a20a30461d4026e1f93732ae7a`.
+GN R286, Gazette 34169, Schedule 2 specifies D = 1.4A − 0.4B; Schedule 4
+sets 1 April 2011 as the effective date. GN R2119, Gazette 46459 (2022),
+Annexure A(2)/(5) specifies D = 1.6A − 0.4B and the R100 monthly minimum;
+regulation 41 commences the regulations on 31 May 2022. Reading these texts
+authenticates those provisions and dates, while revealing that the later
+coefficient cannot alone validate the 2014–2015 research screen.
+
+**Evidence.** `paper/uploaded_legal_source_audit.md`/`.json` record original
+source readings, retained PDF copies and the distinction between primary text,
+identified sources and unresolved history. III.B identifies both formula
+versions and explicitly conditions estimates on the research ceilings.
+Section VII's first paragraph repeats the historical limitation. References
+[26] and [27] directly cite the original 2011 and 2022 documents. The current
+manuscript contains 5,457 whitespace-delimited words, a 141-word abstract and
+389-word III.B; the PDF has eight US Letter pages, nine tables, four figures,
+27 first-use references and 10/9/8 pt fonts. Reference-paragraph after-spacing
+reduces from 2.5 to 1 pt. The current-source verifier passes 209 numerical
+comparisons and 100 supporting checks, with zero failures, 314 register rows
+and four limits. Root and independent visual reviews passed all eight final
+page images: III.B's threshold paragraph is on page 3 and spouse paragraph on
+page 4; VII and all 27 references fit on page 8 without overlap or clipping.
+All nine tables and four figures remain legible. Independent uploaded-source/scientific reviews
+passed. Current results are recorded in `paper/manuscript_validation.json`
+and the uploaded-source audit, while D-071 checks remain historical.
+Manuscript SHA-256:
+`835aee47d51197b7e4f63b0b33390e4727ab1c3bf6b4e78745b57ebdc2c1b381`.
+PDF SHA-256:
+`95369d879c84faf5343ca224ff2a003100ff6c0ebbc9fc16527f3ff6ae9b7f8a`.
+Word SHA-256:
+`b9c72c650d5262234ab56d02eba16ad5b90dca8d32dc4132275cd13c8816d260`.
+
+**Problems and limits.** The uploaded `415.pdf`, Gazette 31342, concerns
+banking/customs and is excluded from social-assistance evidence. Correct base
+GN R898, Gazette 31356 (2008), is identified but its full text remains unread.
+The intervening formula/amendment chain and authenticated original 2014/2015
+rate notices remain missing. Three uploaded PDFs were read, two with relevant
+primary legal text; no official copy was independently retrieved. The main review used uploaded files;
+a parallel government/gazette-mirror search failed with CONNECT 403 before any
+original text was obtained. Legal follow-ups 1 and 4 therefore remain
+historically incomplete; 2 and 3 are addressed within the accuracy/research
+rationale scope. No historical applicability was inferred from the 2022 text.
+P5 source/governance and participant-usability limits remain open.
+
+**Decision.** Change only III.B and Section VII's first paragraph, add the
+two direct legal references/source copies and reduce reference after-spacing.
+All nine table XML records, other sections and figure assets, scientific
+outputs and app/model/data/analysis/verifier code remain unchanged. No
+scientific code change, rule rerun, refit, app suite, new empirical result,
+participant study, administrative confirmation, deployment or external
+submission occurred.
+
+**Next step.** User review
+of original supervisor point 3; obtain the missing historical originals and
+amendments before claiming 2014–2015 legal authentication. Supervisor points
+4–10 remain pending; the user's fourth legal criterion is distinct from
+supervisor point 4. Checklist counts remain 96 rows: 94 Implemented, two
+Proposed and zero Verified. D-062–D-071 counts, hashes and reviews remain
+historical; the decision table now contains 72 unique D-001–D-072 rows.

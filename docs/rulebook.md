@@ -1,5 +1,15 @@
 # Historical screening rulebook
 
+**Uploaded-source update — 15 October 2026 (D072):** Two genuine uploaded legal
+originals have now been read: GN R286/GG34169 specifies 1.4A − 0.4B from
+1 April 2011; GN R2119/GG46459 specifies 1.6A − 0.4B and the R100 minimum,
+but commenced on 31 May 2022. The supplied 2008 `415.pdf` is the wrong Gazette.
+The correct base is GN R898/GG31356. Its full text, the intervening amendments
+and original 2014/2015 rate notices are still needed to establish the survey-period
+law. The ceilings and partnership rules below remain fixed research assumptions.
+See [the uploaded-source audit](../paper/uploaded_legal_source_audit.md).
+No screening, cohort, data, application or model was changed.
+
 **Verification update — 14 October 2026:** The point 3 audit checked the code,
 conditional threshold arithmetic and original LCS questionnaire/metadata.
 Official notices and operative formula, minimum-payment, couple-resource and

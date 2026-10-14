@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-14T10:40:27.660500+00:00",
+  "checked_at": "2026-10-14T23:33:28.801412+00:00",
   "manuscript_path": "paper/manuscript.md",
-  "manuscript_sha256": "ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24",
+  "manuscript_sha256": "835aee47d51197b7e4f63b0b33390e4727ab1c3bf6b4e78745b57ebdc2c1b381",
   "numeric_comparisons": 209,
   "passed": 209,
   "failed": 0,

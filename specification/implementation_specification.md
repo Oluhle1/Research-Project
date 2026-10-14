@@ -5,7 +5,7 @@
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11 and October Streamlit local implementation/functional verification remain complete. P1–P4 interpretation improvements and the reproducible claim register remain complete. D-071 records the user's four legal follow-ups to original supervisor point 3: accurate audit-scope wording and spouse-resource/ambiguity research rationale are improved; authenticated historical provisions and amendment/in-force chain remain blocked. Five expanded public requests on 14 October and two exact user-provided URL requests on 15 October failed HTTP/proxy CONNECT 403 without primary text. The current draft retains eight pages, APRE402, specialist-audience language and frozen results; root and independent reviews passed all eight current renders. Original point 3 remains partially addressed and awaits user review; supervisor points 4–10 remain pending. See Section 26 and current manuscript validation. P5 original-source/legal, ethics/access/disclosure and portal requirements remain unconfirmed. Participant usability has not been evaluated.
+**Specification status:** Original study phases 1–11 and October Streamlit local implementation/functional verification remain complete. P1–P4 interpretation improvements and the reproducible claim register remain complete. D-072 records uploaded original legal-source review: the 2011 text specifies 1.4A − 0.4B and the 2022 text specifies 1.6A − 0.4B/R100 monthly minimum. Their authenticated dates do not complete the intervening formula chain or original 2014/2015 rate-notice verification. III.B and VII's first paragraph clarify that estimates remain conditional on research ceilings; two direct legal references bring the total to 27. The draft retains eight pages, APRE402, specialist-audience language and frozen results. Current-source 209 numerical/100 supporting checks pass; root and independent visual reviews passed all eight final pages. Legal follow-ups 2/3 are addressed within accuracy/research scope; criteria 1/4 remain historically incomplete. Original supervisor point 3 remains partial and awaits user review; points 4–10 remain pending. See Section 27 and current manuscript validation. P5 original-source/legal, ethics/access/disclosure and portal requirements remain unconfirmed. Participant usability has not been evaluated.
 
 **Created:** 2026-09-25; updated 2026-10-15 (Africa/Johannesburg).
 
@@ -523,7 +523,7 @@ variable. Current implementation status is recorded in the checklist.
 
 Research threshold amounts were coded in Phase 3 and logged in D-033–D-035.
 Their arithmetic and implementation do not authenticate the original legal
-instruments; Section 26 and the current legal follow-up record that verification
+instruments; Section 27 and the current legal follow-up record that verification
 limit. No coded threshold or substantive screening rule changes here.
 
 ## 13. Traceability matrix
@@ -531,8 +531,8 @@ limit. No coded threshold or substantive screening rule changes here.
 Result cells were initially filled from study Phase 9, discussion cells from
 Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
 includes the October implementation evidence and the explicit untested-usability
-limit. The current D-071 supervisor point 3 legal follow-up and latest mechanical/layout
-evidence are recorded in `paper/manuscript_validation.json`; Section 26 records
+limit. The current D-072 supervisor point 3 uploaded-source review and latest mechanical/layout
+evidence are recorded in `paper/manuscript_validation.json`; Section 27 records
 the current reporting scope. Earlier completed visual reviews remain historical evidence.
 Independent publisher and official-notice verification are not claimed complete.
 
@@ -581,7 +581,7 @@ Stratum cannot be constructed. That remains a limit on design-based variance.
 
 This section records the earlier D-061 stage. Its six-page counts and 162
 numerical checks are historical; Sections 17–21 record later historical builds
-and Section 26 records the current legal follow-up. The validation JSON is
+and Section 27 records the current legal follow-up. The validation JSON is
 maintained for the latest build.
 
 The revision strengthens the predictor-to-concept mapping in
@@ -612,7 +612,7 @@ record. This is a completed review draft, not an external submission.
 ## 17. Submission 1 integration and eight-page expansion, 11 October 2026
 
 This D-062 section records the historical 4,988-word build; Section 22 describes
-the earlier point 1 draft; Section 26 records the current legal follow-up. Its
+the earlier point 1 draft; Section 27 records the current legal follow-up. Its
 scientific decisions remain in force.
 
 The user authorized integrating the uploaded Submission 1 into Submission 2,
@@ -650,7 +650,7 @@ The integrated manuscript is a review draft; no external submission is claimed.
 ## 18. Targeted interpretation and claim verification, 11 October 2026
 
 This D-063 section records the historical 5,262-word build. Its source and
-claim-verification limits remain in force; Section 26 describes the current
+claim-verification limits remain in force; Section 27 describes the current
 legal follow-up.
 
 The user authorised the attached revision plan and confirmed APRE402 as the
@@ -689,7 +689,7 @@ maps all five priorities and fourteen acceptance items to this evidence.
 
 This D-064 section records the historical 5,632-word build and its 263-word
 abstract. Its source hash remains a record of that version. Section 21 records
-the later historical specialist-audience revision; Section 26 records the
+the later historical specialist-audience revision; Section 27 records the
 current legal follow-up.
 
 The user asked for active verbs, first-use parenthetical explanations and
@@ -736,7 +736,7 @@ reads, public deployment, predicted grade or external submission are claimed.
 ## 20. Professional-language reporting revision, 13 October 2026
 
 This D-065 section records the historical 5,627-word build, its 249-word
-abstract and original source hash. Section 26 records the current legal
+abstract and original source hash. Section 27 records the current legal
 follow-up.
 
 The user requested a clear, concise and scientifically sound ICT paper for
@@ -783,13 +783,13 @@ P5 remains partial. Original journal and legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No new primary-source read, public deployment or external
 submission occurred. Sections 17–19 retain the historical D-062, D-063 and
-D-064 word counts and source hashes; Section 26 identifies the current legal follow-up.
+D-064 word counts and source hashes; Section 27 identifies the current legal follow-up.
 
 ## 21. Specialist-audience and integrated-literature revision, 13 October 2026
 
 This section records the historical D-066 5,097-word build. Its generated
 artifacts and audits remain in Git commit `e83b504`. Section 22 records the
-historical supervisor point 1 draft. Section 26 records the current legal follow-up.
+historical supervisor point 1 draft. Section 27 records the current legal follow-up.
 
 The user's latest instruction explicitly replaces the earlier requirement to
 define every technical term. D-066 records the new specialist-audience scope.
@@ -837,7 +837,7 @@ remain dated functional evidence. Participant usability remains unperformed.
 P5 remains partial. Original journal/legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No deployment or external submission occurred. Sections
-17–21 retain historical D-062–D-066 counts and source hashes. Section 26 and
+17–21 retain historical D-062–D-066 counts and source hashes. Section 27 and
 the current audit files identify the legal follow-up.
 
 ## 22. Supervisor feedback point 1, 14 October 2026
@@ -954,7 +954,7 @@ occurred. Earlier functional checks retain their original scope and dates.
 The checklist remains 96 rows: 94 Implemented, two Proposed and zero Verified.
 Participant usability remains unperformed and P5 source, ethics/access,
 disclosure and portal limits remain open. Sections 17–22 preserve historical
-D-062–D-067 counts and hashes; D-068 artifacts remain in `0dd3d0e`. Section 26
+D-062–D-067 counts and hashes; D-068 artifacts remain in `0dd3d0e`. Section 27
 identifies the current legal follow-up.
 
 ## 24. Supervisor feedback point 2, 14 October 2026
@@ -1009,14 +1009,14 @@ ethics/access/disclosure and portal limits remain open. Checklist counts remain
 96 rows: 94 Implemented, two Proposed and zero Verified. Sections 17–23 preserve
 historical D-062–D-068 counts and hashes; the D-069 artifacts remain in
 `c95b786`. Section 25 records the historical D-070 screening draft;
-Section 26 identifies the current legal follow-up.
+Section 27 identifies the current legal follow-up.
 
 ## 25. Supervisor feedback point 3, 14 October 2026
 
 This section records the historical D-070 build at
 `beec7d77c0e32b24b636f3f337ccc5545d899fd1`. Its 5,430-word count, hashes and
 completed reviews remain evidence for that build. Section 26 records the
-current D-071 legal-verification follow-up.
+historical D-071 legal-verification follow-up; Section 27 records the current source review.
 
 After approving point 2, the user requested III.B's historical threshold and
 spouse verification. D-070 records this item as partially addressed: reporting
@@ -1075,9 +1075,14 @@ administrative confirmation, deployment or external submission occurred.
 Checklist counts remain 96 rows: 94 Implemented, two Proposed and zero Verified.
 Participant usability and P5 source, ethics/access/disclosure and portal limits
 remain open. Sections 17–25 preserve historical D-062–D-070 counts and hashes;
-Section 26 identifies the current legal follow-up.
+Section 27 identifies the current legal follow-up.
 
 ## 26. Supervisor point 3 legal-verification follow-up, 15 October 2026
+
+This section records the historical D-071 draft at
+`214647e42adad9a20a30461d4026e1f93732ae7a`. Its 5,451-word count, 377-word
+III.B, hashes and completed checks remain historical. Section 27 records the
+current uploaded-source review.
 
 D-071 records the user's four legal follow-ups to original supervisor point 3:
 authenticate the 2014–2015 thresholds and exact legal provisions, accurately
@@ -1116,7 +1121,7 @@ legal proof or original-reference metadata was fabricated.
 separately from the retained D-070 twelve-request audit and older thirteen-request
 P5 audit. Those historical records remain unchanged.
 
-The current source contains **5,451 whitespace-delimited words**, a
+The D-071 source contains **5,451 whitespace-delimited words**, a
 **141-word abstract** and **377-word III.B** (historical D-070: 5,430/141/356).
 The PDF retains **eight US Letter pages**, nine tables, four figures,
 25 first-use references and 10/9/8 pt body/table/reference fonts. Independent
@@ -1125,11 +1130,11 @@ reviewers passed all eight current retained page images on 15 October
 (Africa/Johannesburg); their 14 October UTC render timestamps remain tied to
 the same current-source artifacts. III.B is clear on pages 3–4, Table II
 remains whole on page 2, Figure 1 is on page 3, and VI.E and references remain
-intact on page 8. `paper/manuscript_validation.json` records current mechanical
-and completed review evidence.
+intact on page 8. `paper/manuscript_validation.json` at `214647e` records the
+D-071 mechanical and completed review evidence.
 
 All **209 numerical comparisons and 100 supporting checks pass**, bound to
-the current manuscript source; the **314-row register retains four explicit
+the D-071 manuscript source; the **314-row register retains four explicit
 limits**. These retained-evidence audits do not constitute new empirical
 analysis or a fresh application suite. Manuscript SHA-256:
 `ca9c2564b7d2fe0f3173ef5c6a4e0654dc90b015c205be093743c8e5849f3c24`.
@@ -1146,6 +1151,72 @@ participant study, administrative confirmation, deployment or external
 submission occurred. Checklist counts remain **96 rows: 94 Implemented,
 two Proposed and zero Verified**. The decision table contains 71 unique
 D-001–D-071 rows. Participant usability and P5 source, ethics/access/disclosure
-and portal limits remain open. Sections 17–25 preserve explicitly historical
-D-062–D-070 counts, hashes and completed reviews; Section 26 records the current
-follow-up without claiming legal authentication.
+and portal limits remain open. Sections 17–26 preserve explicitly historical
+D-062–D-071 counts, hashes and completed reviews; Section 27 records the current
+uploaded-source review.
+
+## 27. Supervisor point 3 uploaded legal-source review, 15 October 2026
+
+D-072 records the user's uploaded original legal documents and the current
+revision from `214647e42adad9a20a30461d4026e1f93732ae7a`. GN R286, Gazette
+34169 (2011), Schedule 2 specifies D = 1.4A − 0.4B, effective 1 April 2011
+under Schedule 4. GN R2119, Gazette 46459 (2022), Annexure A(2)/(5) specifies
+D = 1.6A − 0.4B and the R100 monthly minimum; regulation 41 commences the
+regulations on 31 May 2022. Original uploaded text authenticates those
+provisions and dates, while exposing a historical formula difference. The
+2022 provision does not alone establish applicability in 2014–2015.
+
+The supplied `415.pdf`, Gazette 31342, concerns banking/customs and is
+excluded from social-assistance evidence. Correct 2008 base GN R898,
+Gazette 31356, is identified but its full text remains unread. The intervening
+formula/amendment chain and authenticated original 2014/2015 rate notices
+remain missing. `paper/uploaded_legal_source_audit.md` and `.json` distinguish
+read originals, known identities and the incomplete historical chain; retained
+PDF copies and new references [26]/[27] support the new primary-source claims.
+Three uploaded PDFs were read, two with relevant primary legal text; no
+official copy was independently retrieved. The main review used uploaded files;
+a parallel government/gazette-mirror search failed with CONNECT 403 before any
+original text was obtained.
+Earlier failed-request audits remain historical with their original scopes.
+
+Only III.B and Section VII's first paragraph change in manuscript prose.
+The threshold description now identifies the authenticated 2011 and 2022
+formula versions and states that estimates remain conditional on research
+ceilings. The spouse-resource rationale remains a research choice whose exact
+historical legal requirements have not been certified. Legal follow-ups 2
+(accuracy) and 3 (rationale) are addressed within their evidenced scope;
+critical historical criteria 1 and 4 remain incomplete. Original supervisor
+point 3 remains partially addressed and awaits user review; points 4–10
+remain pending. The fourth legal criterion is distinct from supervisor point 4.
+
+The current manuscript contains **5,457 whitespace-delimited words**, a
+**141-word abstract** and **389-word III.B**. The PDF has **eight US Letter
+pages**, nine tables, four figures and **27 first-use references**. Fonts
+remain 10/9/8 pt for body/tables/references. Reference-paragraph after-spacing
+changes from 2.5 to 1 pt to retain the page limit; other builder settings are
+unchanged. All nine table XML records, other sections and figure assets,
+scientific outputs and app/model/data/analysis/verifier code remain unchanged
+from `214647e`. The current-source verifier passes **209 numerical comparisons
+and 100 supporting checks**, with **zero failures, 314 register rows and four
+explicit limits**. Root and independent visual reviews passed all eight final
+page images: III.B's threshold paragraph is on page 3 and spouse paragraph on
+page 4; VII and all 27 references fit on page 8 without overlap or clipping.
+All nine tables and four figures remain legible. Independent uploaded-source/scientific reviews
+passed. D-071's completed audits and reviews remain historical.
+`paper/manuscript_validation.json` and the uploaded-source audit record current
+mechanical and review results. Manuscript SHA-256:
+`835aee47d51197b7e4f63b0b33390e4727ab1c3bf6b4e78745b57ebdc2c1b381`.
+PDF SHA-256:
+`95369d879c84faf5343ca224ff2a003100ff6c0ebbc9fc16527f3ff6ae9b7f8a`.
+Word SHA-256:
+`b9c72c650d5262234ab56d02eba16ad5b90dca8d32dc4132275cd13c8816d260`.
+
+No scientific code change, rule rerun, refit, app-suite run, new empirical
+result, figure regeneration, province extension, participant study,
+administrative confirmation, deployment or external submission occurred.
+Checklist counts remain **96 rows: 94 Implemented, two Proposed and zero
+Verified**; the decision table contains **72 unique D-001–D-072 rows**.
+Participant usability and P5 source, ethics/access/disclosure and portal limits
+remain open. Sections 17–26 preserve historical D-062–D-071 counts, hashes
+and completed reviews; Section 27 records the current uploaded-source review
+without certifying the 2014–2015 legal chain.

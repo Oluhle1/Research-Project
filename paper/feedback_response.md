@@ -1,16 +1,32 @@
 # Response to lecturer feedback: Submission 2
 
 For the separate supervisor feedback supplied on **14 October 2026**, see
-[the staged supervisor response](supervisor_feedback_response.md). Only its
-first point has been revised, pending the user's review. The seven-comment
-lecturer matrix below records the earlier feedback and does not close the
-remaining supervisor points.
+[the staged supervisor response](supervisor_feedback_response.md). The user
+accepted point 1 and then authorised three framework corrections: a final
+Section II subsection, a refined conceptual diagram and a discussion synthesis.
+These are complete in **II.D**, **Figure 1** (page 3) and **VI.E** (page 8).
+The diagram separates theory, measurements, screening, description and prediction;
+a dashed boundary shows that the artefact implements the design. The synthesis
+distinguishes supported demographic comparisons, the unexpected schooling
+association and unresolved or unmeasured burden mechanisms. See
+[the framework revision](conceptual_framework_revision.md),
+[its validation](conceptual_framework_validation.json) and
+[current artifact validation](manuscript_validation.json).
+
+The current manuscript has **5,423 whitespace tokens** and a **141-word abstract**.
+It retains eight Letter pages, nine tables, four figures and 25 references with
+the existing fonts and build engine. All 209 numerical and 100 supporting checks
+passed, and primary and independent reviewers inspected all eight fresh pages.
+Table cells, scientific results, software, data and references remain unchanged.
+The theory relationship in supervisor point 2 is addressed; Table II formatting
+and supervisor points 3–10 remain pending. The seven-comment lecturer matrix
+below records the earlier feedback and does not close those remaining points.
 
 Revision date: **11 October 2026**. The source is the user-supplied **1st Feedback 21634436.docx**. This matrix records how the existing study and the completed local Streamlit MVP address each of the seven improvement comments. It preserves the approved research questions, historical KwaZulu-Natal population and reported non-receipt outcome. No new model fitting, screening-rule change or participant study is introduced by this paper revision.
 
-Specialist-audience update: **13 October 2026**. The current paper keeps concrete
-active subjects and appropriate research tense, trims elementary definitions,
-and retains study-specific explanations. The literature review forms part of
+Specialist-audience update: **13 October 2026**. That revision established concrete
+active subjects and appropriate research tense, trimmed elementary definitions,
+and retained study-specific explanations. The literature review forms part of
 one paper while preserving the recorded search flow and verification limits.
 The rebuilt eight-page paper preserves the results and testing limits below.
 See [the language review](specialist_language_revision.md) and
@@ -42,6 +58,7 @@ Existing reference metadata, complete titles and DOI strings were checked agains
 
 ## Remaining items
 
+- **Framework follow-up completed on 14 October:** II.D explains the analytical design; Figure 1 distinguishes its components and the artefact's implementation scope; VI.E returns to the framework without claiming causal burden mechanisms. The accepted point 1 research-gap/search-limit text is preserved. All 209 numerical and 100 supporting checks pass, and all eight fresh PDF pages passed primary and independent visual review. See [framework validation](conceptual_framework_validation.json). Table II formatting and supervisor points 3–10 remain pending.
 - **Specialist-audience revision completed:** the paper removes basic definitions and integrates the literature review into one narrative. It retains all 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](specialist_language_validation.json).
 - **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 25 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.

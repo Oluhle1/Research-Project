@@ -184,7 +184,8 @@ not been rewritten or submitted by this implementation task.
 ## October plan Phase 6 — earlier six-page Submission 2 review draft, 11 October 2026
 
 This entry records the historical D-061 stage. D-062–D-066 below record later
-historical builds; D-067 records the current supervisor point 1 draft. The
+historical builds; D-067 records the earlier supervisor point 1 draft. D-068
+below records the current conceptual-framework follow-up. The
 validation JSON is maintained for the latest build.
 
 The user directed us to return to the plan and improve Submission 2 while
@@ -423,7 +424,7 @@ D-065 to the regenerated paper and unchanged scientific evidence.
 ## Specialist-audience and integrated-literature revision — 13 October 2026
 
 This D-066 entry records the historical 5,097-word build and its 141-word
-abstract. D-067 below records the current supervisor point 1 draft; the D-066
+abstract. D-067 below records the historical supervisor point 1 draft; the D-066
 counts, hashes and completed checks remain evidence for the earlier build.
 Its generated artifacts and audits remain in Git commit `e83b504`.
 
@@ -477,6 +478,10 @@ remain unconfirmed. D-062–D-065 retain their historical counts and source hash
 
 ## Supervisor feedback point 1 — 14 October 2026
 
+This D-067 entry records the historical 5,308-word draft at commit `1fe4820`.
+The user subsequently reviewed it positively and requested the three framework
+refinements recorded in D-068 below. Its counts and hash remain historical.
+
 The user requested one correction at a time, with review and acceptance before
 moving to the next. Decision D-067 records a draft response to point 1 only:
 Section II.A now states the research gap and contribution relative to earlier
@@ -496,7 +501,7 @@ person-weighted description, household-held-out prediction and inspectable,
 reproducible software. It does not establish universal novelty, legal
 entitlement, causal barriers, participant usability or external performance.
 
-The current draft has **5,308 whitespace-delimited words**, a **141-word
+The D-067 draft has **5,308 whitespace-delimited words**, a **141-word
 abstract**, **eight US Letter pages**, **nine tables, four figures and 25
 first-use references**, with unchanged 10/9/8 pt body/table/reference fonts.
 Root and independent reviewers passed all eight final pages.
@@ -518,5 +523,64 @@ primary-source query, deployment or external submission occurred.
 
 D-062–D-066 retain their historical counts and hashes. The checklist remains
 96 rows: 94 Implemented, two Proposed and zero Verified. P5 source, ethics,
-access, disclosure and portal limits remain unchanged. The next step is user
-review of point 1; point 2 must wait for acceptance.
+access, disclosure and portal limits remain unchanged. At this stage, the
+next step was user review of point 1 before point 2. D-068 records the later
+positive review and authorised follow-up.
+
+## Conceptual-framework follow-up — 14 October 2026
+
+After positively reviewing point 1, the user requested three specific
+refinements: a Conceptual Framework subsection, a refined conceptual diagram
+and a discussion synthesis returning to the framework. D-068 records this
+follow-up. It does not authorise applying all remaining supervisor comments.
+
+Section II.D now contains a **142-word Conceptual Framework**. It connects OPG
+non-receipt to administrative-burden theory, explains the observable screening
+denominator, links survey proxies to theory and describes artefact implementation.
+Figure 1 separates theoretical constructs, observable measurements, screen
+status, reported receipt, weighted description and held-out prediction. Dashed
+rationale arrows do not assert causal effects. A dashed enclosure identifies
+the artefact's implementation scope; software is not another causal factor.
+The diagram distinguishes frozen full-data upload scores from held-out research
+evaluation and identifies receipt assessment for PASS adults.
+
+Section VI.E adds a **109-word synthesis**. Screening sensitivity supports an
+explicit denominator, and sex differences support demographic comparison,
+without validating burden mechanisms. Schooling challenges a simple
+information-barrier expectation; imprecise geographical associations leave
+compliance-cost expectations unresolved. Psychological costs remain untested.
+Traceable rules, outcomes and predictions support scrutiny despite these limits.
+
+The current source contains **5,423 whitespace-delimited words**, a **141-word
+abstract**, nine tables, four figures and 25 first-use references. The PDF has
+**eight US Letter pages**, with unchanged 10/9/8 pt body/table/reference fonts
+and build layout. Root and independent reviewers passed all eight final pages;
+`paper/manuscript_validation.json` records the completed render and review.
+Section II.D spans pages 2–3, Figure 1 appears on page 3 and VI.E appears on
+page 8. Manuscript SHA-256:
+`1fcaa1d081dbdabe3de4ed7e21ebc601a9a73b8adf3a81078a77b75bec654b49`.
+PDF SHA-256:
+`9a75be43b0f4f18ef9c0cb4b2aa3119cf9b0468e3cfeb69cdacbaef4506e5211`.
+
+`paper/conceptual_framework_revision.md`,
+`paper/conceptual_framework_validation.json` and
+`paper/supervisor_feedback_response.md` record the response and scope.
+Scientific and specialist-audience reviews pass. The retained-evidence audit
+passes **209 numerical comparisons and 100 supporting checks**; its **314-row
+register retains four explicit limits**. All table cells, Section II.A, methods,
+software evaluation, numerical results, limitations, conclusion and references
+remain unchanged from `1fe4820088603bf531cd55e9f2fe19cd420a0e99`.
+The edits concern II.C/II.D, moved VI.B material and VI.E, Figure 1 and its
+generator, working mirrors, reporting records and current audits. The other
+three figures, app, model, data and verifier code remain unchanged.
+
+No application suite, model refit, negative-control rerun, new source query,
+province analysis, participant study, administrative confirmation, deployment
+or external submission occurred. Prior functional checks remain historical;
+participant usability and P5 source/governance limits remain open. Checklist
+counts remain 96 rows: 94 Implemented, two Proposed and zero Verified.
+
+The next step is user review of this follow-up. The framework aspect of
+supervisor point 2 is addressed, but **Table II formatting remains pending**.
+Supervisor points 3–10 remain pending. D-062–D-067 retain their original
+counts and hashes; D-068 identifies the current manuscript.

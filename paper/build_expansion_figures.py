@@ -71,64 +71,108 @@ def save(fig, stem):
 
 
 def conceptual_framework():
-    fig, ax = canvas(6.8)
-    box(
-        ax, .15, 5.65, 6.7, .98,
-        "Administrative-burden theory\n"
-        "Learning, compliance and psychological costs\n"
-        "Survey measures do not record these costs",
-    )
-    box(
-        ax, .15, 4.62, 6.7, .68,
-        "Predictors: age, sex, schooling,\n"
-        "settlement and office distance",
-    )
-    arrow(ax, (3.5, 5.62), (3.5, 5.33))
+    """Separate conceptual rationale from measures and analytical operations.
 
-    # Legal entitlement remains outside the observable research workflow.
-    box(
-        ax, .15, 3.32, 2.28, .95,
-        "Legal entitlement\nNot fully recorded\nNo legal decision",
-        shade="white", dashed=True,
-    )
-    box(
-        ax, 2.55, 3.32, 4.3, .95,
-        "Research screening\n"
-        "Age, income, partnership,\n"
-        "other-grant rules",
-    )
-    box(
-        ax, 2.55, 2.30, 4.3, .74,
-        "PASS + clear receipt answer\nReports receipt or non-receipt",
-    )
-    arrow(ax, (4.7, 3.29), (4.7, 3.07))
+    Dashed arrows describe why predictors were selected, not measured causal
+    paths. The artefact boundary implements the analytical design; it is not
+    an explanatory variable. All figure content is conceptual, not new data.
+    """
+    fig, ax = canvas(7.5)
 
-    box(
-        ax, .15, 1.19, 3.15, .76,
-        "Weighted percentage\nreporting non-receipt",
-    )
-    box(
-        ax, 3.7, 1.19, 3.15, .76,
-        "Unweighted model\nChance of non-receipt",
-    )
-    line(ax, [(4.7, 2.27), (4.7, 2.12), (1.725, 2.12)])
-    arrow(ax, (1.725, 2.12), (1.725, 1.98))
-    line(ax, [(4.7, 2.12), (5.275, 2.12)])
-    arrow(ax, (5.275, 2.12), (5.275, 1.98))
+    def node(x, y, width, height, rows, *, shade="#f4f4f4", dashed=False):
+        box(ax, x, y, width, height, "", shade=shade, dashed=dashed)
+        # At the manuscript's half-size display, 16-point source text is 8 pt.
+        top = y + height / 2 + .115 * (len(rows) - 1)
+        for index, row in enumerate(rows):
+            ax.text(
+                x + width / 2, top - .23 * index, row,
+                ha="center", va="center", fontsize=FONT_SIZE,
+                fontweight="bold" if index == 0 else "normal",
+            )
 
-    # The outside route explicitly connects the proxies to prediction, rather
-    # than depicting theory as an observed mediator of eligibility or receipt.
-    line(ax, [(6.875, 4.96), (6.96, 4.96), (6.96, 2.1), (6.65, 2.1)])
-    arrow(ax, (6.65, 2.1), (6.65, 1.98))
+    def rationale(start, end):
+        ax.annotate(
+            "", xy=end, xytext=start,
+            arrowprops={
+                "arrowstyle": "->", "lw": 1.2, "color": "black",
+                "linestyle": "--",
+            },
+        )
 
-    box(
-        ax, .15, .18, 6.7, .67,
-        "Software: decisions, scores and checked reports\n"
-        "Arrows show steps, not proven causes",
-        shade="white",
+    node(.15, 7.03, 6.7, .32, ["Social problem: OPG non-receipt"], shade="white")
+    rationale((3.5, 7.00), (3.5, 6.76))
+    node(.15, 5.93, 6.7, .80, [
+        "Theoretical constructs: administrative burden",
+        "Learning, compliance and psychological costs",
+        "Not directly measured in LCS",
+    ], shade="#e8e8e8")
+
+    ax.text(
+        3.4, 5.72, "Observable measurements", ha="center", va="center",
+        fontsize=FONT_SIZE, fontweight="bold",
     )
-    arrow(ax, (1.725, 1.16), (1.725, .88))
-    arrow(ax, (5.275, 1.16), (5.275, .88))
+    node(.25, 4.56, 2.12, .96, [
+        "Screen inputs", "Age, income,", "partnership,", "other grants",
+    ], shade="white")
+    node(2.53, 4.56, 1.96, .96, [
+        "OPG response", "Reported OPG", "receipt answer",
+    ], shade="white")
+    node(4.61, 4.56, 2.25, .96, [
+        "Predictors", "Age, sex, schooling", "Settlement and", "office distance",
+    ], shade="white")
+    rationale((5.735, 5.90), (5.735, 5.55))
+
+    # Enclosure denotes implementation, not a downstream causal influence.
+    boundary = FancyBboxPatch(
+        (.15, .17), 6.7, 4.13, boxstyle="round,pad=0.025",
+        facecolor="white", edgecolor="black", linewidth=1.1,
+        linestyle="--", zorder=-1,
+    )
+    ax.add_patch(boundary)
+    ax.text(
+        5.57, 3.68, "Artefact\nimplementation", ha="center", va="center",
+        fontsize=FONT_SIZE, fontweight="bold", linespacing=1.1,
+    )
+
+    node(.25, 3.19, 2.12, .94, [
+        "Screen status", "PASS / FAIL /", "UNRESOLVED", "No legal decision",
+    ])
+    node(2.53, 3.19, 1.96, .94, [
+        "PASS receipt", "Receipt /", "non-receipt /", "unresolved",
+    ])
+    arrow(ax, (1.31, 4.53), (1.31, 4.16))
+    arrow(ax, (3.51, 4.53), (3.51, 4.16))
+
+    node(.25, 2.48, 5.82, .55, [
+        "Analysis cohort: PASS + resolved receipt",
+        "FAIL / unresolved excluded and reported",
+    ])
+    arrow(ax, (1.31, 3.16), (1.31, 3.06))
+    arrow(ax, (3.51, 3.16), (3.51, 3.06))
+
+    node(.25, 1.04, 3.10, 1.05, [
+        "Descriptive outcome", "Person-weighted rate of", "reported non-receipt",
+    ])
+    node(3.60, 1.04, 3.10, 1.05, [
+        "Predictive workflow", "Unweighted logistic model", "Household-held-out tests",
+        "Non-receipt probability",
+    ])
+    line(ax, [(3.16, 2.45), (3.16, 2.34), (1.80, 2.34)])
+    arrow(ax, (1.80, 2.34), (1.80, 2.12))
+    line(ax, [(3.16, 2.34), (5.15, 2.34)])
+    arrow(ax, (5.15, 2.34), (5.15, 2.12))
+
+    # Predictor data enter prediction, never the screening or receipt decision.
+    line(ax, [(5.735, 4.53), (5.735, 4.43), (6.73, 4.43), (6.73, 2.30), (6.48, 2.30)])
+    arrow(ax, (6.48, 2.30), (6.48, 2.12))
+
+    ax.text(
+        3.5, .60,
+        "App: frozen full-data upload scores\n"
+        "Separate from household-held-out tests\n"
+        "Scores do not change screening or receipt",
+        ha="center", va="center", fontsize=FONT_SIZE, linespacing=1.08,
+    )
     save(fig, "conceptual_framework")
 
 

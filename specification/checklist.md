@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-067 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-068 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current supervisor point 1 draft: eight Letter pages; 5,308 manuscript words and a 141-word abstract; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 first-use references; APRE402 retained. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the current render and review. `paper/supervisor_feedback_response.md` and `paper/supervisor_point1_validation.json` document the strengthened Section II.A gap, literature-search limits and specific contribution. Only II.A prose changed from `e83b504`; all other sections/table cells and scientific/app/data/model/reference/diagram/build/verifier-code paths remain unchanged. The retained-evidence audit passes 209 numerical and 100 supporting checks, with 314 rows and four explicit limits. No negative controls, app suite or refit reran; earlier controls remain historical. D-067 is pending user review and acceptance before point 2; supervisor points 2–10 remain pending. D-062–D-066 retain historical counts/hashes. P5 source, ethics/access/disclosure and portal confirmations remain incomplete |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-068 framework follow-up: eight Letter pages; 5,423 manuscript words and a 141-word abstract; two columns, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures, 25 first-use references and APRE402. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the completed render and review. `paper/conceptual_framework_revision.md`, `paper/conceptual_framework_validation.json` and `paper/supervisor_feedback_response.md` document 142-word II.D, refined Figure 1 and 109-word VI.E. Theory, measures, screening, reported receipt, weighted description and held-out prediction remain separate; the dashed artefact boundary denotes implementation. Science/audience reviews and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Table cells, II.A, methods, software evaluation, numerical results, limits, conclusion, references, other figures and app/model/data/verifier paths remain unchanged from `1fe4820`. No app suite, refit, negative-control rerun, source query or participant study. The user positively reviewed point 1; this follow-up awaits review. Point 2 framework addressed; Table II formatting and points 3–10 remain pending. D-062–D-067 counts/hashes remain historical; P5 confirmations remain open |
 
 ## Current summary
 
@@ -160,12 +160,13 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current supervisor point 1 review draft has exactly
+predictive validation. The current framework follow-up draft has exactly
 eight pages; the latest render/layout evidence is in
 `paper/manuscript_validation.json`. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
-outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word
-and 5,097-word builds are historical stages, not the current 5,308-word manuscript.
+outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word,
+5,097-word and 5,308-word builds are historical stages, not the current
+5,423-word manuscript.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -186,9 +187,12 @@ editing evidence, not participant comprehension or usability results. No app
 suite, refit, province analysis or primary-source query ran. D-062–D-065 counts,
 hashes and the earlier 90-term reviews remain historical records.
 
-The 14 October D-067 revision addresses only supervisor point 1 in Section
-II.A: the research gap, search-process reproducibility limits and the study's
-specific contribution. The user must review and accept this draft before work
-on point 2. Supervisor points 2–10 remain pending. No table, methods, results,
-conclusion, reference or app change follows from this point 1 update. The
-94 Implemented / two Proposed / zero Verified summary remains unchanged.
+The 14 October D-067 revision addressed only supervisor point 1 in Section
+II.A. The user reviewed it positively, then authorised D-068's three framework
+refinements: Section II.D, Figure 1 and the Section VI.E synthesis. This
+follow-up awaits user review. Only the framework aspect of point 2 is
+addressed; Table II formatting and supervisor points 3–10 remain pending.
+No table-cell, methods, numerical-result, limitation, conclusion, reference,
+app, model or data change follows. The 94 Implemented / two Proposed /
+zero Verified summary remains unchanged. Figure 1, its conceptual generator,
+related prose, working mirrors and reporting/audit records implement D-068.

@@ -1,10 +1,45 @@
-# Conceptual framework
+# Conceptual framework — current working section
 
-Grant access is a process that can involve learning about a programme, applying, satisfying its requirements and maintaining payment. Administrative-burden theory distinguishes learning, compliance and psychological costs in these interactions [12]. South African grant studies describe documentation, repeated visits, payment interruption and difficult encounters with the state [13]–[16]. Evidence from the Child Support Grant motivates possible access mechanisms; it does not establish their prevalence or effects among older OPG applicants. Receipt can coexist with substantial access costs, so a low non-receipt rate would not demonstrate that administrative burden is small.
+The subsection below mirrors Section II.D of the current manuscript. Edit
+`manuscript.md` for the build; this file records the framework and supporting
+predictor mapping. The build does not import this working copy automatically.
 
-The study distinguishes four concepts. Statutory eligibility is the legal entitlement, which LCS cannot fully establish [1]. Observable eligibility is the result of explicit age, resource, partnership and grant-compatibility rules applied to survey responses. Reported receipt is a separate survey outcome: among screen-passing adults with resolved answers, non-receipt is coded 1 and receipt 0. The prediction model estimates the probability of that reported outcome from demographic, educational and geographic characteristics. It does not estimate the probability of legal eligibility. Missing screening information and conflicting receipt answers remain unresolved rather than becoming non-receipt events. Conditioning on a passing screen also means that the model describes a selected population, rather than all older adults or all grant applicants.
+### D. Conceptual Framework
 
-Five source predictors translate this framework into observable characteristics (Table A). They represent circumstances that the literature suggests may accompany grant access; they do not directly measure administrative burden. No direction of association is assumed. In particular, schooling is not a measure of knowledge about OPG, office distance is not an observed application journey, and recorded sex does not establish a gendered mechanism. Applications, awareness, documents, waiting time, actual travel expenditure, stigma and stress are not measured in the analysis. The fitted associations therefore cannot identify learning, compliance or psychological costs, explain why an individual reports non-receipt, or demonstrate a causal effect of a predictor.
+Reported OPG non-receipt among apparently eligible older adults motivates an administrative-burden perspective [12], [16]. Learning, compliance and psychological costs may obstruct access; high receipt does not establish low burden.
+
+Figure 1 separates theoretical constructs from LCS measurements. Schooling may reflect information resources; office distance and settlement relate to potential compliance effort. Age and sex provide demographic context. These proxies do not directly measure burden. Screening defines the denominator because age alone is insufficient and LCS cannot establish legal entitlement. Resource, partnership and other-grant rules define the population; incomplete information remains unresolved. Reported receipt defines a separate outcome.
+
+Person-weighted estimates describe non-receipt. Logistic regression describes associations; household-held-out validation tests predictions. Neither establishes causal mechanisms. The artefact implements the design through shared rules, separate receipt classifications, saved-model scoring and inspectable reports. Upload scores remain separate from held-out evaluation and never change screening or receipt.
+
+## Diagram and interpretation
+
+![Conceptual framework](figures/conceptual_framework.png)
+
+The refined Figure 1 separates five layers: theoretical constructs, observable
+measurements, screening decisions, descriptive outcome and predictive workflow.
+Dashed arrows express the rationale for predictor selection. Solid arrows show
+analytical dependencies; neither kind establishes a causal effect. The dashed
+enclosure identifies the artefact's implementation scope. It does not represent
+another causal factor.
+
+Learning, compliance and psychological costs are not directly measured in LCS.
+The screening rules define the analytical population, and the receipt response
+defines the separate reported outcome. Only PASS records with resolved receipt
+enter the descriptive and predictive analyses. Person weights describe
+non-receipt; the primary logistic model is unweighted. Household-held-out tests
+assess internal prediction. Frozen full-data upload scores remain separate from
+those tests and never alter screen or receipt categories.
+
+Section VI.E returns to the framework. Sex differences support demographic
+comparison; they do not confirm a burden mechanism. The schooling association
+runs contrary to a simple information-barrier expectation. Distance and
+settlement intervals leave compliance-cost expectations unresolved, while
+psychological costs remain untested. Proxy associations cannot directly test
+administrative-burden theory. The artefact makes these bounded measurement
+choices reproducible and inspectable.
+
+## Supporting predictor mapping
 
 | Source predictor | Conceptual relevance | Observable model coding | Interpretation limit |
 | --- | --- | --- | --- |
@@ -15,8 +50,6 @@ Five source predictors translate this framework into observable characteristics 
 | Welfare-office distance | Geographic proximity is relevant to the potential effort of accessing services [15], [16]. | At least 5 km or unavailable versus nearer than 5 km. | Does not establish that an office was visited or measure travel, waiting or compliance costs. |
 
 Table A. Literature-informed constructs and observable predictors. Five source variables produce six model slopes because settlement contributes two contrasts. Traditional and rural formal settlement are combined because the original separate rural-formal contrast lacked event support in one training fold, rather than because the two settings are theoretically identical.
-
-The computational artefact makes these distinctions inspectable. A versioned rule engine returns a screen and its reasons; the receipt component records the resolved survey answer; the model supplies a separate probability for the supported cohort. Person-weighted descriptive estimates address how common reported non-receipt is in the screened survey population, while household-held-out predictions assess internal predictive performance. The Streamlit interface displays these outputs and exports their versions and checksums; its frozen full-data upload scores are distinct from the held-out evaluation. A score never changes a screening or receipt classification. Correctness and reproducibility are evaluated through agreement with the original pipeline and verified exports; usability requires separate user evidence. The artefact operationalises and exposes the study's measurement decisions, rather than certifying entitlement or testing administrative-burden mechanisms. Historical internal validation does not establish transportability to another province, time period or administrative setting.
 
 ## Citation provenance for manuscript integration
 

@@ -51,8 +51,6 @@ LCS does not record every legal condition or application experience. The screen 
 
 Table II links five predictors to possible barriers. They are proxies, rather than direct measures of grant awareness, journeys or discrimination. LCS does not record application paperwork, travel spending, waiting, stigma or stress. The study used theory to choose predictors; the model cannot establish that barriers caused non-receipt.
 
-FIGURE: figures/conceptual_framework.png | Fig. 1. Theory guides the choice of survey measures. Arrows show measurement choices and research steps; they do not show proven causes. The survey does not record every condition of legal entitlement.
-
 TABLE: Table II. Predictors suggested by the literature and their limits
 | Predictor | Conceptual connection | Observable coding and limit |
 | --- | --- | --- |
@@ -62,9 +60,17 @@ TABLE: Table II. Predictors suggested by the literature and their limits
 | Settlement | Where people live may affect service access [6], [14], [15] | Two settlement comparisons with formal urban areas; does not measure office capacity. |
 | Office distance | Reaching an office may require effort [10], [14] | At least 5 km/unavailable compared with nearer; does not record visits or travel costs. |
 
-Figure 1 separates screening, receipt and prediction; the tool displays each for inspection. Weighted percentages describe the screened population. Testing on excluded households checks prediction within this survey. The application scores uploaded records using saved model settings. These scores remain separate from test results and never change screening or receipt.
+Few events motivate assessment of precision, calibration and ranking [16], [17]. Sample size and internal validation limit generalisation [18], [19]. Reporting follows TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) [20]. Software checks assess correctness and repeatability; usability requires participant evidence.
 
-With few non-recipients, the evaluation assessed precision and calibration, alongside ranking [16], [17]. The number of people studied and testing on excluded households limit conclusions [18], [19]. The paper uses TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) to describe methods and results [20]. Software checks support correctness and repeatability; assessing participant usability requires participants to try the app.
+### D. Conceptual Framework
+
+Reported OPG non-receipt among apparently eligible older adults motivates an administrative-burden perspective [13], [14]. Learning, compliance and psychological costs may obstruct access; high receipt does not establish low burden.
+
+Figure 1 separates theoretical constructs from LCS measurements. Schooling may reflect information resources; office distance and settlement relate to potential compliance effort. Age and sex provide demographic context. These proxies do not directly measure burden. Screening defines the denominator because age alone is insufficient and LCS cannot establish legal entitlement. Resource, partnership and other-grant rules define the population; incomplete information remains unresolved. Reported receipt defines a separate outcome.
+
+Person-weighted estimates describe non-receipt. Logistic regression describes associations; household-held-out validation tests predictions. Neither establishes causal mechanisms. The artefact implements the design through shared rules, separate receipt classifications, saved-model scoring and inspectable reports. Upload scores remain separate from held-out evaluation and never change screening or receipt.
+
+FIGURE: figures/conceptual_framework.png | Fig. 1. Conceptual framework. Theory informs predictor selection; observable screening defines the population for separate descriptive and predictive analyses. The dashed boundary identifies the artefact’s implementation scope. Arrows show conceptual rationale or analytical dependencies, not causal effects.
 
 ## III. Methods
 
@@ -248,8 +254,6 @@ S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%.
 
 RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [16]. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [17]. Only 67 events informed these checks [18]. Most adults in even the highest-risk bin reported receipt.
 
-Table II separates concepts from measured predictors. Schooling suggests learning costs; distance/settlement suggest compliance costs [13], [14]. The odds ratios describe the screened group, not OOF effects or measured burden. Lower schooling accompanied receipt, contrary to a simple information-barrier expectation. Fewer other resources or screening selection could explain this; the analysis tested neither explanation. Uncertain office/settlement associations neither confirm nor rule out compliance costs. The survey does not measure psychological costs. Without awareness, visits, document demands or administrative decisions, this analysis cannot explain non-receipt.
-
 Table VIII separates sample, predictor and evaluation changes. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [19], [20].
 
 ### C. Reproducibility and usability
@@ -261,6 +265,10 @@ The app separates historical OOF results from uploaded scores; uploads may overl
 ### D. Transfer to other settings
 
 This study analysed screened KwaZulu-Natal adults in LCS 2014/2015. Provinces and periods differ in settlement, services, policy and reporting. Application, award and payment records measure different events from reported receipt and can contain linking errors. The study did not test the model on an independent province, period or administrative sample. Transfer requires comparable populations/outcomes, justified period-specific rules and independent ranking/calibration checks [19], [20]. Making the app available cannot establish suitability for today's applicants.
+
+### E. Synthesis of the Conceptual Framework
+
+Returning to Figure 1, screening sensitivity supported an explicit denominator, and sex differences supported demographic comparison without confirming burden mechanisms [3], [4]. Lower schooling accompanied receipt, contrary to a simple expectation that fewer information resources increase non-receipt [13]. Screening selection or other resources could account for this; neither explanation was tested. Office-distance and settlement intervals included 1, leaving compliance-cost expectations unresolved. Psychological costs remained untested because LCS did not measure them. Proxy associations do not directly test the theory. The artefact contributes a reproducible implementation of these bounded measurement choices. Separate, traceable rules, outcomes and predictions support inspection despite measurement limits, without establishing causes, legal entitlement or participant usability.
 
 ## VII. Limitations and Ethics
 

@@ -1,0 +1,153 @@
+{
+  "status": "revision checks passed; awaiting user review of framework follow-up",
+  "checked_at_utc": "2026-10-14T09:24:27.053282+00:00",
+  "revision_date": "2026-10-14",
+  "baseline_commit": "1fe4820088603bf531cd55e9f2fe19cd420a0e99",
+  "authorization": "Explicit user request for all three framework corrections after positive review of the point 1 draft",
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "1fcaa1d081dbdabe3de4ed7e21ebc601a9a73b8adf3a81078a77b75bec654b49",
+  "manuscript_words_whitespace_tokens": 5423,
+  "abstract_words_whitespace_tokens": 141,
+  "requested_corrections": {
+    "subsection": {
+      "status": "passed",
+      "location": "II.D, last subsection of Section II",
+      "words": 142,
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "connections": [
+        "Social problem to theoretical perspective",
+        "Need for observable denominator",
+        "Theory to predictor rationale",
+        "Artefact implements resulting analytical design"
+      ]
+    },
+    "diagram": {
+      "status": "passed",
+      "location": "Figure 1, page 3",
+      "distinct_layers": [
+        "Theoretical constructs",
+        "Observable measurements",
+        "Screening decisions",
+        "Descriptive outcome",
+        "Predictive workflow"
+      ],
+      "artefact": "Dashed enclosure denotes implementation scope, not another causal factor",
+      "arrows": "Dashed conceptual rationale and solid analytical dependencies; neither represents established causal effects",
+      "learning_compliance_psychological_costs": "Not directly measured in LCS"
+    },
+    "discussion": {
+      "status": "passed",
+      "location": "VI.E, page 8",
+      "words": 109,
+      "supported": "Explicit denominator and demographic comparison; not confirmation of burden mechanisms",
+      "contrary": "Lower schooling accompanied receipt, contrary to a simple information-barrier expectation; competing explanations untested",
+      "unresolved": "Office-distance and settlement intervals include 1; psychological costs unmeasured",
+      "artefact_contribution": "Reproducible, inspectable implementation of bounded measurement choices"
+    }
+  },
+  "scope": {
+    "accepted_II_A_and_II_B_unchanged": true,
+    "abstract_and_title_unchanged": true,
+    "Methods_Software_Results_Limitations_Conclusion_unchanged": true,
+    "all_table_rows_unchanged": true,
+    "II_C": "Condensed superseded diagram paragraph and prediction/reporting prose; Table II unchanged",
+    "VI_B": "Previous theory paragraph consolidated into new VI.E; performance/sensitivity paragraphs unchanged",
+    "figure_code": "Only conceptual_framework() changed; shared helpers and cohort_flow()/main() unchanged",
+    "document_build_layout_unchanged": true,
+    "other_three_figures_unchanged": true,
+    "remaining_supervisor_points": "Point 2 table formatting and points 3\u201310 remain pending"
+  },
+  "audience_and_scientific_scope": {
+    "clear_professional_specialist_language": true,
+    "elementary_term_definitions_not_reintroduced": true,
+    "causal_legal_entitlement_usability_or_external_performance_claim_added": false,
+    "all_16_previously_reviewed_scientific_distinctions_preserved": true,
+    "reviewer": "Independent framework_science reviewer; final source and conceptual diagram reviewed",
+    "status": "passed"
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier": "paper/verify_claims.py",
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json",
+    "verifier_changed": false,
+    "negative_controls": "Historical specialist controls retained; not rerun for this framework prose/diagram change",
+    "model_refitted": false,
+    "application_test_suite_rerun": false
+  },
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent framework_text layout reviewer",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "9a75be43b0f4f18ef9c0cb4b2aa3119cf9b0468e3cfeb69cdacbaef4506e5211",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "024d76182495177c075d254750904aad1d526c8203fd57113bf098f917b46b3f",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 25,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "conceptual_diagram_points_at_manuscript_width": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "notes": "Table V note continues page 5\u20136 and Table VIII page 6\u20137 without clipping; reference 1 finishes left column on page 8, references 2\u201325 occupy right column as whole entries",
+    "clipping_or_extra_blank_page": false
+  },
+  "figure_sha256": {
+    "paper/build_expansion_figures.py": "03cb957d4becf0246cfdc519e2751b4e6ac9828ccb3943b4d82540b7268d4c0e",
+    "paper/figures/conceptual_framework.png": "46b7562e68dc1e73b505f98f268be36dbb04b890d9d0b177db5dbdd6c96aec19",
+    "paper/figures/conceptual_framework.svg": "e49e2a764fb060dbc864cc29d49866e02af341d86bf3b52412cb2eab4488ea4a"
+  },
+  "protected_paths": {
+    "baseline_commit": "1fe4820088603bf531cd55e9f2fe19cd420a0e99",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/verify_claims.py",
+      "paper/figures/architecture.png",
+      "paper/figures/architecture.svg",
+      "paper/figures/calibration.png",
+      "paper/figures/calibration.svg",
+      "paper/figures/cohort_flow.png",
+      "paper/figures/cohort_flow.svg"
+    ],
+    "status": "unchanged"
+  },
+  "historical_point1_validation": {
+    "detail": "paper/supervisor_point1_validation.json",
+    "snapshot_commit": "1fe4820088603bf531cd55e9f2fe19cd420a0e99",
+    "source_sha256": "bf897e564f37e3d3dc19176a796eae3f8fea04c2392156dccf90163913e4e91a",
+    "words": 5308,
+    "user_review": "Positive; current follow-up explicitly authorized"
+  },
+  "next_step": "User reviews these three corrections before continuing staged supervisor feedback",
+  "limits": [
+    "No new search, publisher/legal verification, ethics decision, disclosure approval or participant evaluation",
+    "No causal, legal-entitlement or external-performance evidence added",
+    "No external submission or message to supervisor"
+  ]
+}

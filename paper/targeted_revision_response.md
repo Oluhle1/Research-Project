@@ -7,9 +7,21 @@ final-snapshot hashes below refer to **11 October**, before the language rewrite
 The **13 October** paper kept these improvements with professional
 active prose and appropriate research tense. It addresses specialist readers,
 trims elementary definitions and integrates the literature review into one paper.
-That manuscript had 5,097 whitespace tokens and an eight-page PDF. The current
-**14 October** draft has 5,308 tokens and applies supervisor feedback point 1
-only, pending user review; see [the staged response](supervisor_feedback_response.md).
+That manuscript had 5,097 whitespace tokens and an eight-page PDF. The
+**14 October point 1 draft** at commit `1fe4820` had 5,308 tokens; the user accepted
+its research-gap, search-limit and contribution revision. The current
+**14 October framework follow-up** has **5,423 whitespace tokens** and a
+**141-word abstract**. It adds **II.D Conceptual Framework**, revises Figure 1
+on page 3, and adds the **VI.E** synthesis on page 8. The diagram distinguishes
+theory, measurements, screening, description and prediction; its dashed boundary
+identifies the artefact's implementation scope rather than a causal factor.
+The synthesis separates supported comparisons, the unexpected schooling result
+and unresolved burden mechanisms. See
+[the framework revision](conceptual_framework_revision.md),
+[framework validation](conceptual_framework_validation.json) and
+[the staged response](supervisor_feedback_response.md). The theory relationship
+in supervisor point 2 is now addressed; Table II formatting and supervisor
+points 3–10 remain pending.
 See [the language revision](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The primary-source audit remains the recorded 11 October check.
@@ -25,17 +37,21 @@ submission is claimed in this revision.
 
 ## Priority-to-evidence map
 
-The final paper has **eight Letter pages including references**, **nine tables**,
-**four figures**, **25 references** and 5,262 manuscript words. Primary and
-independent reviewers passed the substantive P1–P4 revisions, citation order
-and all eight freshly rendered pages. Body text remains 10 pt, tables 9 pt
+The **11 October revision** had **eight Letter pages including references**,
+**nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
+The current framework follow-up retains that page/table/figure/reference count,
+with 5,423 whitespace tokens. Primary and independent reviewers passed all eight
+fresh pages and the revised conceptual figure. All 209 numerical and 100
+supporting comparisons passed. Table cells, scientific results, software, data
+and references remain unchanged; only the conceptual figure has changed.
+The existing build engine remains unchanged. Body text remains 10 pt, tables 9 pt
 and references 8 pt. A documented limitation is an accurate response; it does
 not make missing source, administrative or empirical evidence complete.
 
 | Priority | Concrete revision and acceptance criterion | Evidence and location | Current closure status |
 | --- | --- | --- | --- |
 | **P1: scholarly discussion** | Give each RQ a direct answer; define the RQ1 estimand and importance of the 187 unresolved adults; compare the population/unit/outcome with Ralston and Godfrey; separate RQ3 verification layers and external transport requirements. | [Manuscript](manuscript.md), VI.A–D; Tables IV–IX; [lecturer response](feedback_response.md). Original proposal bibliography supplies source identity, while primary-source corroboration must be recorded separately. | **Completed in text; independent substantive review passed.** Original-article corroboration remains open under P5; no unsupported comparative percentages are added. |
-| **P2: theory–measurement–finding synthesis** | Connect learning/compliance/psychological costs to measured proxies and findings; state that schooling, distance and settlement do not directly measure burden; interpret unexpected schooling associations as selected-cohort associations with untested explanations. | Manuscript II.B–C, VI.B; Table II; Fig. 1. Income, partnership and grant responses define screening rather than primary predictors. | **Completed; substantive review passed.** Discussion separates constructs, proxies, associations and unmeasured mechanisms, with explicitly untested explanations for the unexpected schooling direction. |
+| **P2: theory–measurement–finding synthesis** | Connect learning/compliance/psychological costs to measured proxies and findings; state that schooling, distance and settlement do not directly measure burden; interpret unexpected schooling associations as selected-cohort associations with untested explanations. | Current manuscript II.B–D, VI.E; Table II; Fig. 1. Income, partnership and grant responses define screening rather than primary predictors. | **Completed; substantive review passed.** Discussion separates constructs, proxies, associations and unmeasured mechanisms, with explicitly untested explanations for the unexpected schooling direction. |
 | **P3: predictive interpretation** | Explain pairwise ranking, precision–recall, squared probability error and calibration separately; compare AP with 6.61% prevalence and Brier with its intercept-only reference; retain sparse-event and fixed-prediction interval limits. | Manuscript V.C, VI.B; Table VII; Fig. 4; frozen [primary metrics](../output/runs/primary/metrics.csv). Full-fit odds ratios must remain distinct from OOF evaluation. | **Completed; text and numerical checks passed.** AP is interpreted across thresholds; Brier improvement is approximately 0.0040; calibration convention and sparse-event uncertainty are explicit. No tested operational threshold exists. |
 | **P4: sensitivity interpretation** | Identify S3 as the largest tested weighted prevalence change (9.06% vs 7.49%); explain S2's denominator changes, S7's changed sample, S8's feature substitution, S9's frequency-weighted fit, S10's weighted evaluation without refitting and S11's internal grouping alternative. | Manuscript V.B–C, VI.A–B; Tables VI and VIII; [RQ1 sensitivities](../output/phase4/rq1_sensitivity.csv); [model sensitivities](../output/phase6/model_sensitivity.csv). | **Completed; text and numerical checks passed.** S3 is prioritised; S2 and S7–S11 are distinguished. Similar AUC does not establish identical populations or correct screening; changing cohort prevalence can change Brier. |
 | **P5: verifiable claims and final document** | Bind headline values, sensitivity rows and software claims to saved evidence; inspect citation order/metadata, primary sources where obtainable, cautious ethics/data statements and actual eight-page render. Confirm administrative labels rather than infer them from an attachment. | [Manuscript validation](manuscript_validation.json), [empirical validation](empirical_expansion_validation.json), [evidence log](../docs/evidence_log.md), [decision log](../specification/decision_log.md), [claim register](claim_source_register.csv), [portable verifier](verify_claims.py), [claim validation](claim_source_validation.json), and [primary-source audit](primary_source_audit.md). | **Partly complete.** All 209 numerical and 100 supporting comparisons passed, with zero failures; the 314-row register records four unverified claims and a separately labelled historical narrative record. Final render and citation checks passed. Primary-source, ethics, licence/disclosure and portal confirmations remain open. |
@@ -125,6 +141,8 @@ this mechanical check does not independently verify cited content.
   historical raw-data access/disclosure and official portal details remain
   incomplete and visible.
 
-The authorised manuscript improvements and local evidence audits are complete.
-The remaining source/administrative checks must be resolved or truthfully
-retained before representing the draft as fully verified for submission.
+The 11 October P1–P4 revisions and the current user-authorised framework
+corrections are complete. The remaining supervisor points, source and
+administrative checks stay open. No new empirical analysis, primary-source
+verification, participant study or institutional submission occurred in this
+framework follow-up.

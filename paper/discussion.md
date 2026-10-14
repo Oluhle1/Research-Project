@@ -1,6 +1,7 @@
-# Discussion — specialist-audience working section
+# Discussion — current specialist-audience working section
 
-This section mirrors Section VI of the current manuscript. Edit `manuscript.md` for the build; this working copy records the same discussion.
+This section mirrors Section VI of the current manuscript. Edit `manuscript.md`
+for the build; this working copy records the same discussion.
 
 ### A. Scope of measured non-receipt
 
@@ -11,8 +12,6 @@ S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%.
 ### B. Predictive performance and interpretation
 
 RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [20]. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [19]. Only 67 events informed these checks [21]. Most adults in even the highest-risk bin reported receipt.
-
-Table II separates concepts from measured predictors. Schooling suggests learning costs; distance/settlement suggest compliance costs [12], [16]. The odds ratios describe the screened group, not OOF effects or measured burden. Lower schooling accompanied receipt, contrary to a simple information-barrier expectation. Fewer other resources or screening selection could explain this; the analysis tested neither explanation. Uncertain office/settlement associations neither confirm nor rule out compliance costs. The survey does not measure psychological costs. Without awareness, visits, document demands or administrative decisions, this analysis cannot explain non-receipt.
 
 Table VIII separates sample, predictor and evaluation changes. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [22], [23].
 
@@ -25,3 +24,7 @@ The app separates historical OOF results from uploaded scores; uploads may overl
 ### D. Transfer to other settings
 
 This study analysed screened KwaZulu-Natal adults in LCS 2014/2015. Provinces and periods differ in settlement, services, policy and reporting. Application, award and payment records measure different events from reported receipt and can contain linking errors. The study did not test the model on an independent province, period or administrative sample. Transfer requires comparable populations/outcomes, justified period-specific rules and independent ranking/calibration checks [22], [23]. Making the app available cannot establish suitability for today's applicants.
+
+### E. Synthesis of the Conceptual Framework
+
+Returning to Figure 1, screening sensitivity supported an explicit denominator, and sex differences supported demographic comparison without confirming burden mechanisms [2], [6]. Lower schooling accompanied receipt, contrary to a simple expectation that fewer information resources increase non-receipt [12]. Screening selection or other resources could account for this; neither explanation was tested. Office-distance and settlement intervals included 1, leaving compliance-cost expectations unresolved. Psychological costs remained untested because LCS did not measure them. Proxy associations do not directly test the theory. The artefact contributes a reproducible implementation of these bounded measurement choices. Separate, traceable rules, outcomes and predictions support inspection despite measurement limits, without establishing causes, legal entitlement or participant usability.

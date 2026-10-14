@@ -8,13 +8,25 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **14 October 2026** draft applies the supervisor's **first feedback
-point only**. Section II.A now explains the research gap, literature-search
-reproducibility limits and specific contribution relative to previous studies.
-It keeps the specialist, clear professional style. All other sections and table
-cells are unchanged. The PDF has eight pages, nine tables and four figures.
-See [the staged supervisor response](supervisor_feedback_response.md).
-Point 1 awaits the user's review before work begins on point 2.
+The current **14 October 2026** draft retains the user's accepted point 1 revision
+to Section II.A and applies the three subsequent framework corrections. The
+final subsection of Section II, **II.D Conceptual Framework**, connects the access
+problem, administrative-burden theory, observable screening, predictors and
+artefact. Figure 1 on page 3 distinguishes constructs, measurements, screening,
+description and prediction; its dashed boundary identifies implementation scope,
+not another causal factor. **VI.E** on page 8 returns to the framework and
+distinguishes supported comparisons, the unexpected schooling result and
+unresolved mechanisms. The specialist, clear professional style continues.
+
+The manuscript has **5,423 whitespace tokens**, including a **141-word abstract**.
+The PDF retains eight Letter pages, nine tables, four figures and 25 references,
+with the existing fonts and build engine. All table cells and scientific results
+remain unchanged; the conceptual figure has been revised. See
+[the framework revision](conceptual_framework_revision.md),
+[its validation](conceptual_framework_validation.json) and
+[the staged supervisor response](supervisor_feedback_response.md). The theory
+relationship in supervisor point 2 is now addressed; Table II formatting and
+supervisor points 3–10 remain pending.
 
 ## Editable sources
 
@@ -56,12 +68,15 @@ Point 1 awaits the user's review before work begins on point 2.
   errors rejected for that historical manuscript.
 - `specialist_language_revision.md`, `specialist_language_validation.json`:
   audience-fit and literature-continuity history at commit `e83b504`; the
-  specialist writing policy continues in the current point 1 draft.
+  specialist writing policy continues in the current draft.
 - `specialist_language_negative_controls.json`: four deliberate temporary
   errors rejected for that historical manuscript; not rerun for point 1.
 - `supervisor_feedback_response.md`, `supervisor_point1_validation.json`:
-  the current first-point revision, scope checks, original-review evidence,
-  artifact hashes and pending points 2–10.
+  the staged supervisor response and historical first-point validation at
+  commit `1fe4820`, before the accepted framework follow-up.
+- `conceptual_framework_revision.md`, `conceptual_framework_validation.json`:
+  the current three framework corrections, source/scope checks and retained
+  scientific limits. `manuscript_validation.json` records the current artifacts.
 
 ## Rebuild
 
@@ -100,9 +115,10 @@ paper, two columns, 10-point body text, 9-point tables and 8-point references.
 
 `manuscript_validation.json` records the checked artifact hashes, page limit,
 citation checks and frozen-source protection. Independent review verified 209
-numeric table values against frozen CSV outputs and visually inspected all eight
-pages. The expanded paper contains nine tables, four figures and 25 references
-numbered by first appearance. The previous
+numeric table values and 100 supporting comparisons against retained evidence.
+Primary and independent reviewers visually inspected all eight freshly rendered
+pages, including the revised conceptual figure. The paper contains nine tables,
+four figures and 25 references numbered by first appearance. The previous
 220-test application result is cited as existing evidence; editing the paper
 has not rerun or expanded that suite.
 
@@ -113,7 +129,8 @@ passes 209 table comparisons and 100 supporting checks after the language rewrit
 The retained **11 October** primary-source audit records three local authentic
 Stats SA documents read and thirteen external requests refused by the outbound
 proxy. That historical audit supplied no remote article or legal text; it has
-not been rerun for the language rewrite. P5 remains partially complete.
+not been rerun for the language or framework revisions. P5 remains partially
+complete.
 
 The manuscript separates person-weighted description, unweighted internal model
 validation and frozen full-data application scores. Participant usability has

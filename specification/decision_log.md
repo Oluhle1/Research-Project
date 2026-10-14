@@ -6,9 +6,10 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 **Specification:** `specification/implementation_specification.md`.  
 **Checklist:** `specification/checklist.md`.
 
-D-062–D-066 record historical manuscript builds with their original counts and
-hashes. D-067 records the current supervisor point 1 draft, pending user review
-and acceptance before point 2.
+D-062–D-067 record historical manuscript builds with their original counts and
+hashes. Following the user's positive review of point 1, D-068 records the
+three requested framework refinements. This follow-up awaits user review;
+Table II formatting and supervisor points 3–10 remain pending.
 
 | ID | Date | Phase | Type | Decision | Why | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -78,7 +79,8 @@ and acceptance before point 2.
 | D-064 | 2026-10-13 | Plain-language revision | Reporting | Rewrite dense noun phrases as actions, use “I” for author choices and “you” for reader guidance, and explain necessary technical terms in parentheses at first use. Simplify headings, table text, captions and figure labels while retaining the approved title, APRE402, research questions, frozen results and legal/usability limits. Historical D-064 build: eight Letter pages, 5,632 manuscript words with a 263-word abstract, nine tables, four figures, 25 first-use references; body/table/reference fonts remain 10/9/8 pt. | User readability request; `paper/plain_language_revision.md` and `paper/plain_language_validation.json` review 90 terms and 16 scientific meanings. Retained-evidence audit passes 209 table and 100 supporting checks; four temporary negative controls reject false manuscript evidence. The 314-row source register retains four limitation rows. | Adopted; reporting/term/evidence checks complete. Scientific, model, application and dataset paths remain unchanged from `bfabb35`; no refit, app-suite rerun, participant study or new province analysis. P5 source/ethics/disclosure/portal limits remain open; no external submission |
 | D-065 | 2026-10-13 | Professional-language revision | Reporting | Rewrite the readable paper in clear, concise professional language for conference review and ICT marking. Use concrete active subjects instead of author or direct-address pronouns; use past tense for completed methods and observed results, present tense for software/rules/tables/interpretation, and conditional language for future work. Retain first-use parenthetical definitions and all scientific qualifications. Historical D-065 build: eight Letter pages, 5,627 manuscript words with a 249-word abstract, nine tables, four figures and 25 first-use references; fonts remain 10/9/8 pt. | User request; `paper/professional_language_revision.md`, `paper/professional_language_validation.json` and `paper/manuscript_validation.json`. All 90 term and 16 scientific-meaning checks pass; 209 numerical and 100 supporting checks pass, with 314 register rows and four explicit limits; all four temporary negative controls are rejected. | Adopted; all eight fresh pages pass root and independent visual review. Scientific/model/app/data/reference/diagram/build-layout paths remain unchanged from `e70b300`; no app-suite run, refit, participant study, province extension, new primary-source read or external submission. P5 and source/ethics/disclosure/portal limits remain open |
 | D-066 | 2026-10-13 | Specialist-audience revision | Reporting | Follow the user's explicit replacement of the define-every-term requirement: remove 52 elementary parenthetical glosses and condense abstract/theory/metric-definition prose, while retaining normal terminology, acronym expansions, study-specific assumptions and statistical interpretation. Present the literature opening as one paper's context, retaining the recorded 511-to-55 mixed-grant review flow and unavailable original search exports/logs. Historical D-066 build: 5,097 words, 141-word abstract, 530 fewer words than D-065; eight Letter pages, nine tables, four figures, 25 references and 10/9/8 pt fonts. | `paper/specialist_language_revision.md`, `paper/specialist_language_validation.json`, `paper/specialist_language_negative_controls.json` and current `paper/manuscript_validation.json`. All 16 scientific distinctions, 209 numerical comparisons and 100 supporting checks pass; 314 register rows retain four explicit limits; all four temporary negative controls pass without verifier changes. | Adopted; all eight fresh pages pass root and independent visual review. Scientific/app/data/model/reference/figure/build-layout paths remain unchanged from `17e1b053`. No app-suite run, refit, province extension, participant study, primary-source query, ethics/admin confirmation, deployment or external submission. P5 remains partial |
-| D-067 | 2026-10-14 | Supervisor feedback point 1 | Reporting | Revise only Section II.A to state the research gap, clarify the literature-search reproducibility limits and explain the contribution relative to previous research. Retain documented databases, concepts and broad relevance criteria, the mixed-grant 511-to-55 flow, and the limits from unavailable queries/dates/filters/exports/item decisions/extraction register. Current draft: 5,308 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 first-use references and unchanged 10/9/8 pt fonts. | User instruction to apply one point at a time; `paper/supervisor_feedback_response.md`, `paper/supervisor_point1_validation.json` and current `paper/manuscript_validation.json`. Retained-evidence audit passes 209 numerical and 100 supporting checks; 314 register rows retain four limits. Only II.A prose changed from `e83b504`; all other sections/table cells and scientific/app/data/model/reference/diagram/build/verifier-code paths remain unchanged. | Draft prepared; pending user review and acceptance before point 2. Root and independent visual review passed all eight final pages. Supervisor points 2–10 remain pending. No new negative controls, app suite, refit, search, source authentication, participant study, deployment or submission. P5/governance/source/usability limits unchanged |
+| D-067 | 2026-10-14 | Supervisor feedback point 1 | Reporting | Revise only Section II.A to state the research gap, clarify the literature-search reproducibility limits and explain the contribution relative to previous research. Retain documented databases, concepts and broad relevance criteria, the mixed-grant 511-to-55 flow, and the limits from unavailable queries/dates/filters/exports/item decisions/extraction register. Historical D-067 draft: 5,308 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 first-use references and unchanged 10/9/8 pt fonts. | User instruction to apply one point at a time; `paper/supervisor_feedback_response.md`, `paper/supervisor_point1_validation.json` and current `paper/manuscript_validation.json`. Retained-evidence audit passes 209 numerical and 100 supporting checks; 314 register rows retain four limits. Only II.A prose changed from `e83b504`; all other sections/table cells and scientific/app/data/model/reference/diagram/build/verifier-code paths remain unchanged. | Draft prepared; pending user review and acceptance before point 2. Root and independent visual review passed all eight final pages. Supervisor points 2–10 remain pending. No new negative controls, app suite, refit, search, source authentication, participant study, deployment or submission. P5/governance/source/usability limits unchanged |
+| D-068 | 2026-10-14 | Conceptual-framework follow-up | Reporting | Apply only the user's three refinements: add 142-word Section II.D, distinguish conceptual and analytical layers in Figure 1, and add 109-word Section VI.E returning to supported, challenged and unresolved expectations. A dashed artefact boundary denotes implementation, not a causal factor. Current draft: 5,423 words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 references and unchanged 10/9/8 pt fonts/layout. | User's positive review of point 1 and explicit framework requests; `paper/conceptual_framework_revision.md`, `paper/conceptual_framework_validation.json`, `paper/supervisor_feedback_response.md` and current `paper/manuscript_validation.json`. Science/audience review and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Table cells and scientific/app/model/data/reference/verifier paths remain unchanged from `1fe4820`; other figures remain unchanged. | Draft prepared for user review; root and independent visual reviews passed all eight final pages. Only the framework aspect of point 2 is addressed; Table II formatting and points 3–10 remain pending. No app suite, refit, negative-control rerun, source query, province extension, participant study, administrative confirmation, deployment or submission. P5/usability limits unchanged |
 
 ## Phase close-outs
 
@@ -351,8 +353,8 @@ the September study Phase 6 modelling sensitivities above. Historical
 close-outs describe their dated state and are retained unchanged.
 
 This D-061 close-out records the earlier six-page stage. D-062–D-066 record
-later historical builds; D-067 below describes the current supervisor point 1
-draft. The validation JSON is maintained for the latest build.
+later historical builds; D-067 describes the earlier supervisor point 1
+draft. D-068 below identifies the current framework follow-up. The validation JSON is maintained for the latest build.
 
 **Completed.** The specification, checklist and traceability records now include
 the implemented Streamlit interface and verified local functional evidence.
@@ -467,7 +469,7 @@ draft; no external submission has occurred.
 ### Targeted Submission 2 revision — 2026-10-11
 
 This D-063 close-out records the historical 5,262-word build. D-064 records
-the later historical plain-language build; D-067 records the current point 1 draft.
+the later historical plain-language build; D-068 records the current framework follow-up.
 
 **Completed.** RQ1 now defines the screened/resolved historical estimand and
 explains unresolved exclusion, consequential screen alternatives and qualified
@@ -504,7 +506,7 @@ before formal submission. No submission or public deployment was performed.
 ### Plain-language Submission 2 revision — 2026-10-13
 
 This D-064 close-out records the historical 5,632-word build, its 263-word
-abstract and original source hash. D-067 below records the current point 1 draft.
+abstract and original source hash. D-068 below records the current framework follow-up.
 
 **Completed.** The user requested readable prose rather than dense, abstract
 phrases. The paper now uses active author actions, explains essential technical
@@ -545,7 +547,7 @@ words remain historical counts; current evidence files identify this revision.
 ### Professional-language Submission 2 revision — 2026-10-13
 
 This D-065 close-out records the historical 5,627-word build, its 249-word
-abstract and original source hash. D-067 below records the current point 1 draft.
+abstract and original source hash. D-068 below records the current framework follow-up.
 
 **Completed.** Concrete subjects now describe the research and software actions
 without author or direct-address pronouns. The paper uses past tense for
@@ -587,7 +589,8 @@ words and D-064's 5,632 words and their source hashes remain historical records.
 
 This D-066 close-out records the historical 5,097-word build and source hash.
 Its generated artifacts and audits remain in Git commit `e83b504`. D-067 below
-records the current supervisor point 1 draft.
+records the historical supervisor point 1 draft. D-068 below identifies the
+current framework follow-up.
 
 **Completed.** The user's specialist-audience instruction replaces the earlier
 requirement to define every technical term. The revision removes 52 elementary
@@ -629,9 +632,13 @@ external submission occurred.
 **Next step.** Author review and the previously recorded source/administrative
 confirmations before formal submission. D-062–D-065 counts and hashes remain
 historical; D-066 audit records identify that earlier build. D-067 below
-identifies the current draft.
+identifies the earlier point 1 draft; D-068 records the current follow-up.
 
 ### Supervisor feedback point 1 — 2026-10-14
+
+This D-067 close-out records the historical 5,308-word draft at `1fe4820`.
+The user later reviewed it positively and requested the follow-up in D-068.
+The original counts, scope and hash remain evidence for that stage.
 
 **Draft prepared.** Section II.A now explains the research gap and specific
 contribution relative to prior studies. It retains the documented relevance
@@ -640,7 +647,7 @@ records that prevent independent reproduction and verification of selection.
 The recorded 511-to-55 flow remains mixed-grant evidence. No new search,
 exhaustive-coverage claim or universal novelty claim follows.
 
-**Evidence.** The current draft contains 5,308 whitespace-delimited words and a
+**Evidence.** The D-067 draft contains 5,308 whitespace-delimited words and a
 141-word abstract. The render has eight US Letter pages, nine tables, four
 figures and 25 first-use references with unchanged 10/9/8 pt fonts. Root and
 independent reviewers passed all eight final pages.
@@ -665,5 +672,54 @@ controls and functional checks remain historical. No province extension,
 participant study, primary-source query, deployment or submission occurred.
 
 **Next step.** User review and acceptance of point 1 before point 2. Supervisor
-points 2–10 remain pending. D-062–D-066 retain historical counts and hashes; the
-current audit files identify this point 1 draft.
+points 2–10 remained pending at this stage. D-062–D-066 retain historical
+counts and hashes; the audit files in `1fe4820` identify this point 1 draft.
+
+### Conceptual-framework follow-up — 2026-10-14
+
+**Draft prepared.** The user positively reviewed point 1 and authorised three
+specific refinements. Section II.D now connects the social problem, theory,
+observable screening, predictor proxies and artefact implementation in 142
+words. Figure 1 distinguishes theory from measurements, screen decisions,
+reported receipt, weighted description and held-out prediction. The dashed
+artefact boundary identifies implementation rather than a causal variable.
+Section VI.E returns to this framework in 109 words: screening and demographic
+comparison provide analytical support, schooling challenges a simple expectation,
+geographical/compliance expectations remain unresolved, and psychological costs
+remain untested. Traceable software contributes despite those limits.
+
+**Evidence.** The current source has 5,423 whitespace-delimited words and a
+141-word abstract. The PDF has eight US Letter pages, nine tables, four figures
+and 25 first-use references; fonts remain 10/9/8 pt and build layout is unchanged.
+Root and independent reviewers passed all eight final pages;
+`paper/manuscript_validation.json` records the completed render and review.
+Scientific and specialist-audience reviews pass, as do all 209 numerical
+comparisons and 100 supporting checks. The 314-row register retains four limits.
+The current revision and validation records are
+`paper/conceptual_framework_revision.md`,
+`paper/conceptual_framework_validation.json` and
+`paper/supervisor_feedback_response.md`. Manuscript SHA-256:
+`1fcaa1d081dbdabe3de4ed7e21ebc601a9a73b8adf3a81078a77b75bec654b49`.
+PDF SHA-256:
+`9a75be43b0f4f18ef9c0cb4b2aa3119cf9b0468e3cfeb69cdacbaef4506e5211`.
+
+**Problems and limits.** Proxy associations do not directly test administrative
+burden. Schooling and demographic findings do not establish mechanisms;
+imprecise geographical associations do not rule out compliance costs.
+Participant usability, external validation and P5 source/governance questions
+remain open. These editing and consistency checks add no human evaluation.
+
+**Decision.** D-068 covers the three authorised framework refinements only.
+Section II.A, all table cells, methods, software evaluation, numerical results,
+limitations, conclusion and references remain unchanged from `1fe4820`.
+Changes concern II.C/II.D, moved VI.B material and VI.E, Figure 1 and its
+generator, working mirrors, records and audits. Other figures and app/model/
+data/verifier paths remain unchanged. No app suite, refit, negative-control
+rerun, new source query, province analysis, participant study, administrative
+confirmation, deployment or external submission occurred.
+
+**Next step.** User review of this follow-up before further feedback work.
+Point 2's framework aspect is addressed, but Table II formatting remains
+pending; supervisor points 3–10 remain pending. The checklist stays at
+94 Implemented, two Proposed and zero Verified across 96 rows. D-062–D-067
+counts and hashes remain historical.

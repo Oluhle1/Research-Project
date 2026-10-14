@@ -9,19 +9,28 @@ active prose and appropriate research tense. It addresses specialist readers,
 trims elementary definitions and integrates the literature review into one paper.
 That manuscript had 5,097 whitespace tokens and an eight-page PDF. The
 **14 October point 1 draft** at commit `1fe4820` had 5,308 tokens; the user accepted
-its research-gap, search-limit and contribution revision. The current
-**14 October framework follow-up** has **5,423 whitespace tokens** and a
-**141-word abstract**. It adds **II.D Conceptual Framework**, revises Figure 1
-on page 3, and adds the **VI.E** synthesis on page 8. The diagram distinguishes
+its research-gap, search-limit and contribution revision. The accepted
+**14 October framework follow-up** at commit `0dd3d0e` had **5,423 whitespace
+tokens** and a **141-word abstract**. It added **II.D Conceptual Framework**,
+revised Figure 1 on page 3, and added the **VI.E** synthesis on page 8.
+The diagram distinguishes
 theory, measurements, screening, description and prediction; its dashed boundary
 identifies the artefact's implementation scope rather than a causal factor.
 The synthesis separates supported comparisons, the unexpected schooling result
 and unresolved burden mechanisms. See
 [the framework revision](conceptual_framework_revision.md),
-[framework validation](conceptual_framework_validation.json) and
-[the staged response](supervisor_feedback_response.md). The theory relationship
-in supervisor point 2 is now addressed; Table II formatting and supervisor
-points 3–10 remain pending.
+[historical framework validation](conceptual_framework_validation.json) and
+[the staged response](supervisor_feedback_response.md).
+
+The current **supervisor point 2 draft** has **5,416 whitespace tokens** and a
+**141-word abstract**. II.C and Table II now distinguish demographic context
+from learning and potential compliance costs, retaining LCS coding and limits.
+A note identifies unmeasured psychological costs. The caption, header and five
+predictor rows fit on page 2 with top-aligned cells and horizontal rules without
+a vertical grid. The build changes apply only to Table II. See
+[the point 2 revision](supervisor_point2_revision.md) and
+[its validation](supervisor_point2_validation.json). **Point 2 awaits user
+review; points 3–10 remain pending.**
 See [the language revision](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The primary-source audit remains the recorded 11 October check.
@@ -39,12 +48,14 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current framework follow-up retains that page/table/figure/reference count,
-with 5,423 whitespace tokens. Primary and independent reviewers passed all eight
-fresh pages and the revised conceptual figure. All 209 numerical and 100
-supporting comparisons passed. Table cells, scientific results, software, data
-and references remain unchanged; only the conceptual figure has changed.
-The existing build engine remains unchanged. Body text remains 10 pt, tables 9 pt
+The current point 2 draft retains that page/table/figure/reference count,
+with 5,416 whitespace tokens. Primary and independent reviewers passed all eight
+fresh pages, including Table II and the retained conceptual figure. All 209
+numerical and 100 supporting comparisons passed. Relative to the accepted
+framework draft, only II.C's supporting text, Table II caption/cells/note and
+Table II-specific build formatting changed. All other tables and sections,
+figures, scientific results, software, data and references remain unchanged.
+Body text remains 10 pt, tables 9 pt
 and references 8 pt. A documented limitation is an accurate response; it does
 not make missing source, administrative or empirical evidence complete.
 
@@ -141,8 +152,8 @@ this mechanical check does not independently verify cited content.
   historical raw-data access/disclosure and official portal details remain
   incomplete and visible.
 
-The 11 October P1–P4 revisions and the current user-authorised framework
-corrections are complete. The remaining supervisor points, source and
-administrative checks stay open. No new empirical analysis, primary-source
+The 11 October P1–P4 revisions and the accepted framework corrections are
+complete. Supervisor point 2 is ready for user review; points 3–10, source and
+administrative checks remain open. No new empirical analysis, primary-source
 verification, participant study or institutional submission occurred in this
-framework follow-up.
+Table II revision.

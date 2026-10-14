@@ -185,7 +185,8 @@ not been rewritten or submitted by this implementation task.
 
 This entry records the historical D-061 stage. D-062–D-066 below record later
 historical builds; D-067 records the earlier supervisor point 1 draft. D-068
-below records the current conceptual-framework follow-up. The
+below records the historical conceptual-framework follow-up. D-069 records
+the current Table II revision. The
 validation JSON is maintained for the latest build.
 
 The user directed us to return to the plan and improve Submission 2 while
@@ -529,6 +530,10 @@ positive review and authorised follow-up.
 
 ## Conceptual-framework follow-up — 14 October 2026
 
+This D-068 entry records the historical 5,423-word draft at `0dd3d0e`.
+The user subsequently accepted the three framework refinements and authorised
+point 2. D-069 below records the current Table II revision.
+
 After positively reviewing point 1, the user requested three specific
 refinements: a Conceptual Framework subsection, a refined conceptual diagram
 and a discussion synthesis returning to the framework. D-068 records this
@@ -551,7 +556,7 @@ information-barrier expectation; imprecise geographical associations leave
 compliance-cost expectations unresolved. Psychological costs remain untested.
 Traceable rules, outcomes and predictions support scrutiny despite these limits.
 
-The current source contains **5,423 whitespace-delimited words**, a **141-word
+The D-068 source contains **5,423 whitespace-delimited words**, a **141-word
 abstract**, nine tables, four figures and 25 first-use references. The PDF has
 **eight US Letter pages**, with unchanged 10/9/8 pt body/table/reference fonts
 and build layout. Root and independent reviewers passed all eight final pages;
@@ -580,7 +585,59 @@ or external submission occurred. Prior functional checks remain historical;
 participant usability and P5 source/governance limits remain open. Checklist
 counts remain 96 rows: 94 Implemented, two Proposed and zero Verified.
 
-The next step is user review of this follow-up. The framework aspect of
-supervisor point 2 is addressed, but **Table II formatting remains pending**.
-Supervisor points 3–10 remain pending. D-062–D-067 retain their original
-counts and hashes; D-068 identifies the current manuscript.
+At the D-068 stage, the next step was user review of this follow-up. The
+framework aspect of point 2 was addressed, while Table II formatting remained
+pending; D-069 records its subsequent revision.
+Supervisor points 3–10 remained pending at this stage. D-062–D-067 retain
+their original counts and hashes; the D-068 artifacts are retained in `0dd3d0e`.
+
+## Supervisor feedback point 2 — Table II, 14 October 2026
+
+After accepting point 1 and the three framework refinements, the user
+authorised the next supervisor item: Table II's theoretical relationships and
+formatting. D-069 records point 2 only. Supervisor points 3–10 remain pending,
+and this draft awaits user review before the next item.
+
+Section II.C now introduces Table II as a link between administrative-burden
+theory and observable predictors. Its caption, headers and five rows distinguish
+age and sex as demographic context, schooling as relevant to learning costs,
+and settlement and office distance as relevant to compliance costs. Each row
+retains the operational coding and states the corresponding measurement limit.
+The note identifies unmeasured psychological costs and explains that two
+settlement contrasts give five predictor groups and six model slopes. These
+links motivate predictor selection; they do not identify causal mechanisms.
+
+The Word builder applies a **Table II-only format**: left-aligned, top-aligned
+9 pt cells, black horizontal rules without a vertical grid, unsplit rows, a
+repeating header and a caption kept with the table. The other eight tables,
+fonts and document layout remain unchanged. Figure 1, Sections II.D and VI.E,
+references, other sections, scientific results, app, model, data and verifier
+code remain unchanged from `0dd3d0e6cba7b31aef469bcaefdea6770a09a817`.
+
+The current source contains **5,416 whitespace-delimited words**, a **141-word
+abstract**, nine tables, four figures and 25 first-use references. The PDF
+has **eight US Letter pages**, with 10/9/8 pt body/table/reference fonts.
+Root and independent reviewers passed all eight final pages;
+`paper/manuscript_validation.json` records the completed render and review.
+Table II appears intact on page 2; the accepted framework subsection and
+Figure 1 appear on page 3, and the synthesis remains on page 8.
+Manuscript SHA-256:
+`38e4f3b65619d30593c278dbc9827615a7907dc60fde1e97ff31c57430924c69`.
+PDF SHA-256:
+`1e71b7185884430d14be0cac5d28a22ae789963ab3badb397693747f59d196ef`.
+Word SHA-256:
+`9862d9aacefcbfdc09ea0ad95a5dcc8e2f3c4512082a6c0f3298e90101bd0669`.
+
+`paper/supervisor_point2_revision.md`,
+`paper/supervisor_point2_validation.json` and
+`paper/supervisor_feedback_response.md` record the response and scope.
+Independent scientific review passes. All **209 numerical comparisons and
+100 supporting checks pass**; the **314-row register retains four explicit
+limits**. This revision changes Table II's reporting and rendering, not fitted
+models or analytic outputs.
+No app suite, model refit, negative-control rerun, source query, figure
+regeneration, province analysis, participant study, administrative confirmation,
+deployment or external submission occurred. Earlier functional evidence retains
+its original dates and scope; P5 source/governance and usability limits remain
+open. Checklist counts remain 96 rows: 94 Implemented, two Proposed and zero
+Verified. D-062–D-068 retain their historical counts and hashes.

@@ -8,25 +8,35 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **14 October 2026** draft retains the user's accepted point 1 revision
-to Section II.A and applies the three subsequent framework corrections. The
-final subsection of Section II, **II.D Conceptual Framework**, connects the access
-problem, administrative-burden theory, observable screening, predictors and
-artefact. Figure 1 on page 3 distinguishes constructs, measurements, screening,
-description and prediction; its dashed boundary identifies implementation scope,
-not another causal factor. **VI.E** on page 8 returns to the framework and
-distinguishes supported comparisons, the unexpected schooling result and
-unresolved mechanisms. The specialist, clear professional style continues.
+The current **14 October 2026** draft applies supervisor **point 2** to Table II
+and its supporting text in II.C. The columns distinguish **Predictor**,
+**Theoretical role** and **LCS coding and limit**. Age and sex provide demographic
+context; schooling relates to learning costs; settlement and office distance
+relate to potential compliance costs. A note states that psychological costs
+remain unmeasured. Top-aligned, left-aligned cells and horizontal rules replace
+the vertical grid. The complete table appears on page 2 with its caption and
+five predictor rows. This revision awaits the user's review; points 3–10 remain
+pending. See [the point 2 revision](supervisor_point2_revision.md),
+[its validation](supervisor_point2_validation.json) and
+[the staged supervisor response](supervisor_feedback_response.md).
 
-The manuscript has **5,423 whitespace tokens**, including a **141-word abstract**.
-The PDF retains eight Letter pages, nine tables, four figures and 25 references,
-with the existing fonts and build engine. All table cells and scientific results
-remain unchanged; the conceptual figure has been revised. See
+The user accepted point 1 and the three framework corrections retained here.
+**II.D Conceptual Framework** connects the access problem, theory, screening,
+predictors and artefact. Figure 1 on page 3 distinguishes constructs,
+measurements, screening, description and prediction; its dashed boundary shows
+implementation scope, not another causal factor. **VI.E** on page 8 returns to
+that framework. Their accepted snapshot at commit `0dd3d0e` had 5,423 whitespace
+tokens. See
 [the framework revision](conceptual_framework_revision.md),
-[its validation](conceptual_framework_validation.json) and
-[the staged supervisor response](supervisor_feedback_response.md). The theory
-relationship in supervisor point 2 is now addressed; Table II formatting and
-supervisor points 3–10 remain pending.
+[its historical validation](conceptual_framework_validation.json) and
+[current artifact validation](manuscript_validation.json).
+
+The current manuscript has **5,416 whitespace tokens**, including a **141-word
+abstract**. The PDF retains eight Letter pages, nine tables, four figures and
+25 references at the existing 10/9/8-point body/table/reference fonts. Changes
+to the build apply only to Table II. All other sections, tables and figures,
+scientific results, software, data and references remain unchanged from the
+accepted framework draft. The specialist, clear professional style continues.
 
 ## Editable sources
 
@@ -75,8 +85,11 @@ supervisor points 3–10 remain pending.
   the staged supervisor response and historical first-point validation at
   commit `1fe4820`, before the accepted framework follow-up.
 - `conceptual_framework_revision.md`, `conceptual_framework_validation.json`:
-  the current three framework corrections, source/scope checks and retained
-  scientific limits. `manuscript_validation.json` records the current artifacts.
+  the accepted three-correction framework snapshot at commit `0dd3d0e` and its
+  historical source/scope checks. Its manuscript hash precedes the Table II edit.
+- `supervisor_point2_revision.md`, `supervisor_point2_validation.json`:
+  the current Table II text/layout revision and scope checks, awaiting user
+  review. `manuscript_validation.json` records the current artifacts.
 
 ## Rebuild
 
@@ -117,7 +130,7 @@ paper, two columns, 10-point body text, 9-point tables and 8-point references.
 citation checks and frozen-source protection. Independent review verified 209
 numeric table values and 100 supporting comparisons against retained evidence.
 Primary and independent reviewers visually inspected all eight freshly rendered
-pages, including the revised conceptual figure. The paper contains nine tables,
+pages, including Table II and the retained conceptual figure. The paper contains nine tables,
 four figures and 25 references numbered by first appearance. The previous
 220-test application result is cited as existing evidence; editing the paper
 has not rerun or expanded that suite.
@@ -129,7 +142,7 @@ passes 209 table comparisons and 100 supporting checks after the language rewrit
 The retained **11 October** primary-source audit records three local authentic
 Stats SA documents read and thirteen external requests refused by the outbound
 proxy. That historical audit supplied no remote article or legal text; it has
-not been rerun for the language or framework revisions. P5 remains partially
+not been rerun for the language, framework or Table II revisions. P5 remains partially
 complete.
 
 The manuscript separates person-weighted description, unweighted internal model

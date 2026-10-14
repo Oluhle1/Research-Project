@@ -49,16 +49,18 @@ LCS does not record every legal condition or application experience. The screen 
 
 ### C. Predictor Selection and Software Design
 
-Table II links five predictors to possible barriers. They are proxies, rather than direct measures of grant awareness, journeys or discrimination. LCS does not record application paperwork, travel spending, waiting, stigma or stress. The study used theory to choose predictors; the model cannot establish that barriers caused non-receipt.
+Table II separates demographic context from circumstances relevant to learning and compliance costs. These predictors do not directly measure administrative burden or establish why a person reports non-receipt.
 
-TABLE: Table II. Predictors suggested by the literature and their limits
-| Predictor | Conceptual connection | Observable coding and limit |
+TABLE: Table II. Administrative-burden theory and predictor selection
+| Predictor | Theoretical role | LCS coding and limit |
 | --- | --- | --- |
-| Age | Receipt differs across age groups [3] | Each decade above 60; does not record health or application history. |
-| Sex | Receipt differs by sex [3], [4] | Female compared with male; does not measure social roles or discrimination. |
-| Schooling | May help people find and understand information [10], [13] | Below Grade 7 compared with Grade 7 or above; does not measure awareness or literacy. |
-| Settlement | Where people live may affect service access [6], [14], [15] | Two settlement comparisons with formal urban areas; does not measure office capacity. |
-| Office distance | Reaching an office may require effort [10], [14] | At least 5 km/unavailable compared with nearer; does not record visits or travel costs. |
+| Age | Demographic context: receipt differs by age [3] | Per decade above 60; health and application history unmeasured. |
+| Sex | Demographic context: receipt differs by sex [3], [4] | Female versus male; social roles and discrimination unmeasured. |
+| Schooling | Learning costs: schooling may help people find and understand grant information [10], [13] | Below Grade 7 versus Grade 7 or above; awareness and literacy unmeasured. |
+| Settlement | Compliance costs: place may shape service access [6], [14], [15] | Urban informal and traditional/rural formal, each versus urban formal; office capacity unmeasured. |
+| Office distance | Compliance costs: distance may add travel effort [10], [14] | At least 5 km/unavailable versus nearer than 5 km; visits and travel costs unmeasured. |
+
+NOTE: Psychological costs are unmeasured. Settlement contributes two contrasts, giving five predictor groups and six slopes.
 
 Few events motivate assessment of precision, calibration and ranking [16], [17]. Sample size and internal validation limit generalisation [18], [19]. Reporting follows TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) [20]. Software checks assess correctness and repeatability; usability requires participant evidence.
 

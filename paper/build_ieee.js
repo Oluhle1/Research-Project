@@ -39,6 +39,9 @@ function heading(text,level){return paragraph(text,{
 const rule={style:BorderStyle.SINGLE,size:4,color:'808080'};
 function grid(headers,rows){
     const n=headers.length;
+    const conceptual=headers[0]==='Predictor'&&headers[1]==='Theoretical role';
+    const none={style:BorderStyle.NONE,size:0,color:'000000'};
+    const horizontal={style:BorderStyle.SINGLE,size:6,color:'000000'};
     const widths = n===7?[540,760,650,650,700,900,840]:
                    n===6?[1040,850,700,700,900,850]:
                    headers[0]==='Predictor'?[900,1800,2340]:
@@ -50,11 +53,13 @@ function grid(headers,rows){
     if(widths.reduce((a,b)=>a+b,0)!==COLUMN) throw new Error('Bad table widths');
     return new Table({width:{size:COLUMN,type:WidthType.DXA},columnWidths:widths,
       layout:TableLayoutType.FIXED,
+      ...(conceptual?{borders:{top:none,bottom:none,left:none,right:none,insideHorizontal:none,insideVertical:none}}:{}),
       rows:[headers,...rows].map((row,i)=>new TableRow({cantSplit:true,tableHeader:i===0,
         children:row.map((value,j)=>new TableCell({
-          width:{size:widths[j],type:WidthType.DXA},verticalAlign:VerticalAlign.CENTER,
-          margins:{top:40,bottom:40,left:45,right:45},
-          borders:{top:rule,bottom:rule,left:rule,right:rule},
+          width:{size:widths[j],type:WidthType.DXA},verticalAlign:conceptual?VerticalAlign.TOP:VerticalAlign.CENTER,
+          margins:{top:conceptual?50:40,bottom:conceptual?50:40,left:45,right:45},
+          borders:conceptual?{top:i===0?horizontal:none,bottom:i===0||i===rows.length?horizontal:none,left:none,right:none}:
+            {top:rule,bottom:rule,left:rule,right:rule},
           children:[paragraph(value,{keepNext:i<rows.length,alignment:j===0||n===3?AlignmentType.LEFT:AlignmentType.CENTER,
             spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},run:{size:18,bold:i===0}})]}))}))});
 }

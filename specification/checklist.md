@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-068 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-069 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-068 framework follow-up: eight Letter pages; 5,423 manuscript words and a 141-word abstract; two columns, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures, 25 first-use references and APRE402. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the completed render and review. `paper/conceptual_framework_revision.md`, `paper/conceptual_framework_validation.json` and `paper/supervisor_feedback_response.md` document 142-word II.D, refined Figure 1 and 109-word VI.E. Theory, measures, screening, reported receipt, weighted description and held-out prediction remain separate; the dashed artefact boundary denotes implementation. Science/audience reviews and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Table cells, II.A, methods, software evaluation, numerical results, limits, conclusion, references, other figures and app/model/data/verifier paths remain unchanged from `1fe4820`. No app suite, refit, negative-control rerun, source query or participant study. The user positively reviewed point 1; this follow-up awaits review. Point 2 framework addressed; Table II formatting and points 3–10 remain pending. D-062–D-067 counts/hashes remain historical; P5 confirmations remain open |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-069 point 2 draft: eight Letter pages; 5,416 manuscript words, 141-word abstract; two columns, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures, 25 first-use references and APRE402. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the completed render and review. `paper/supervisor_point2_revision.md`, `paper/supervisor_point2_validation.json` and `paper/supervisor_feedback_response.md` document II.C/Table II's explicit theory roles, coding/measurement limits, unmeasured psychological costs and five groups/six slopes. Scoped Table II-only builder styling uses top/left-aligned 9 pt cells, black horizontal rules without vertical grid, unsplit rows, repeating header and caption keep. Independent scientific review and all 209 numerical plus 100 supporting checks pass; 314 register rows retain four limits. Other eight tables, sections, II.D, Figure 1, VI.E, references, scientific/app/model/data/verifier paths and other figures remain unchanged from `0dd3d0e`. Point 1 and framework refinements were accepted; point 2 awaits user review, and points 3–10 remain pending. No app suite, refit, source query, figure regeneration or participant study. D-062–D-068 counts/hashes remain historical; P5 confirmations remain open |
 
 ## Current summary
 
@@ -160,13 +160,13 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current framework follow-up draft has exactly
+predictive validation. The current supervisor point 2 draft has exactly
 eight pages; the latest render/layout evidence is in
 `paper/manuscript_validation.json`. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
 outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word,
-5,097-word and 5,308-word builds are historical stages, not the current
-5,423-word manuscript.
+5,097-word, 5,308-word and 5,423-word builds are historical stages, not the
+current 5,416-word manuscript.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -189,10 +189,21 @@ hashes and the earlier 90-term reviews remain historical records.
 
 The 14 October D-067 revision addressed only supervisor point 1 in Section
 II.A. The user reviewed it positively, then authorised D-068's three framework
-refinements: Section II.D, Figure 1 and the Section VI.E synthesis. This
-follow-up awaits user review. Only the framework aspect of point 2 is
-addressed; Table II formatting and supervisor points 3–10 remain pending.
+refinements: Section II.D, Figure 1 and the Section VI.E synthesis. The user
+accepted those refinements before authorising D-069's point 2 revision. At the
+D-068 stage, Table II formatting and supervisor points 3–10 remained pending.
 No table-cell, methods, numerical-result, limitation, conclusion, reference,
 app, model or data change follows. The 94 Implemented / two Proposed /
 zero Verified summary remains unchanged. Figure 1, its conceptual generator,
 related prose, working mirrors and reporting/audit records implement D-068.
+
+The 14 October D-069 revision addresses Table II's conceptual relationships
+and formatting. Age/sex provide demographic context, schooling concerns
+learning costs, and settlement/distance concern compliance costs; coding and
+measurement limits remain explicit. Psychological costs are unmeasured, and
+two settlement contrasts explain the six slopes across five predictor groups.
+Only Table II receives top/left-aligned 9 pt cells, black horizontal rules,
+no vertical grid, unsplit rows, repeating header and caption keep. Other tables,
+sections, figures, references, analyses and software remain unchanged from
+`0dd3d0e`. The current point 2 draft awaits user review; points 3–10 remain
+pending. No checklist status changed.

@@ -41,15 +41,17 @@ choices reproducible and inspectable.
 
 ## Supporting predictor mapping
 
-| Source predictor | Conceptual relevance | Observable model coding | Interpretation limit |
-| --- | --- | --- | --- |
-| Age | Demographic variation in pension receipt motivates comparison within the older-adult population [2]. | Completed age, per ten years above 60. | Does not measure health, mobility, application history or duration of eligibility. |
-| Sex | Prior studies describe demographic differences in receipt [2], [6]. | Female versus male, using the survey categories. | Does not measure social roles, assistance with applications or discriminatory treatment. |
-| Schooling | Education may accompany information resources relevant to learning about and navigating a programme [12], [15]. | Below Grade 7 versus Grade 7 or above. | Does not directly measure programme awareness, literacy or learning costs; an association can reflect other socioeconomic differences. |
-| Settlement | Place may accompany different service and access contexts [9], [16], [17]. | Urban informal and traditional/rural formal contrasts, each relative to urban formal. | Does not measure office capacity, transport availability or local administrative performance. |
-| Welfare-office distance | Geographic proximity is relevant to the potential effort of accessing services [15], [16]. | At least 5 km or unavailable versus nearer than 5 km. | Does not establish that an office was visited or measure travel, waiting or compliance costs. |
+The following rows mirror the revised Table II.
 
-Table A. Literature-informed constructs and observable predictors. Five source variables produce six model slopes because settlement contributes two contrasts. Traditional and rural formal settlement are combined because the original separate rural-formal contrast lacked event support in one training fold, rather than because the two settings are theoretically identical.
+| Predictor | Theoretical role | LCS coding and limit |
+| --- | --- | --- |
+| Age | Demographic context: receipt differs by age [2] | Per decade above 60; health and application history unmeasured. |
+| Sex | Demographic context: receipt differs by sex [2], [6] | Female versus male; social roles and discrimination unmeasured. |
+| Schooling | Learning costs: schooling may help people find and understand grant information [12], [15] | Below Grade 7 versus Grade 7 or above; awareness and literacy unmeasured. |
+| Settlement | Compliance costs: place may shape service access [9], [16], [17] | Urban informal and traditional/rural formal, each versus urban formal; office capacity unmeasured. |
+| Office distance | Compliance costs: distance may add travel effort [15], [16] | At least 5 km/unavailable versus nearer than 5 km; visits and travel costs unmeasured. |
+
+Psychological costs are unmeasured. Settlement contributes two contrasts, giving five predictor groups and six slopes.
 
 ## Citation provenance for manuscript integration
 

@@ -5,9 +5,9 @@
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11 completed; October Streamlit implementation and local functional verification completed. P1–P4 interpretation improvements and the reproducible claim register remain complete. The current specialist-audience revision retains the eight-page paper, APRE402 and frozen results, with concise active prose, standard terminology and study-specific assumptions; the user's latest instruction replaces the earlier define-every-term requirement. The literature opening presents one paper's context with the qualified recorded review flow. See Section 21 and current manuscript validation. P5 remains limited by unavailable original journal/legal texts and unconfirmed ethics/access/disclosure/portal records. Participant usability has not been evaluated.
+**Specification status:** Original study phases 1–11 and October Streamlit local implementation/functional verification remain complete. P1–P4 interpretation improvements and the reproducible claim register remain complete. The current supervisor point 1 draft revises only Section II.A to strengthen the gap, clarify literature-search reproducibility limits and state the specific contribution. It retains the eight-page paper, APRE402, specialist-audience language and frozen results. User review and acceptance must precede point 2; supervisor points 2–10 remain pending. See Section 22 and current manuscript validation. P5 remains limited by unavailable original journal/legal texts and unconfirmed ethics/access/disclosure/portal records. Participant usability has not been evaluated.
 
-**Created:** 2026-09-25; updated 2026-10-13 (Africa/Johannesburg).
+**Created:** 2026-09-25; updated 2026-10-14 (Africa/Johannesburg).
 
 **Rule version:** `opg-kzn-primary-v1`. Retained research model: six slopes under D-052; packaged inference version `opg-kzn-six-slope-v1`.
 
@@ -529,9 +529,9 @@ force for the survey period and logged in D-033–D-035.
 Result cells were initially filled from study Phase 9, discussion cells from
 Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
 includes the October implementation evidence and the explicit untested-usability
-limit. The current specialist-audience eight-page build and latest mechanical/layout
-evidence are recorded in `paper/manuscript_validation.json`; Section 21 records
-the reporting scope. Earlier completed visual reviews remain historical evidence.
+limit. The current supervisor point 1 eight-page draft and latest mechanical/layout
+evidence are recorded in `paper/manuscript_validation.json`; Section 22 records
+the current reporting scope. Earlier completed visual reviews remain historical evidence.
 Independent publisher and official-notice verification are not claimed complete.
 
 | Question | Method | Evidence / output | Result | Discussion | Conclusion |
@@ -578,8 +578,8 @@ Stratum cannot be constructed. That remains a limit on design-based variance.
 ## 16. October plan Phase 6 — earlier six-page review draft, 11 October 2026
 
 This section records the earlier D-061 stage. Its six-page counts and 162
-numerical checks are historical; Sections 17–20 record later historical builds
-and Section 21 records the current revision. The validation JSON is
+numerical checks are historical; Sections 17–21 record later historical builds
+and Section 22 records the current point 1 draft. The validation JSON is
 maintained for the latest build.
 
 The revision strengthens the predictor-to-concept mapping in
@@ -609,8 +609,8 @@ record. This is a completed review draft, not an external submission.
 
 ## 17. Submission 1 integration and eight-page expansion, 11 October 2026
 
-This D-062 section records the historical 4,988-word build; Section 21 describes
-the current manuscript. Its scientific decisions remain in force.
+This D-062 section records the historical 4,988-word build; Section 22 describes
+the current point 1 draft. Its scientific decisions remain in force.
 
 The user authorized integrating the uploaded Submission 1 into Submission 2,
 restoring its approved title, aim, objectives, review approach and attributed
@@ -647,8 +647,8 @@ The integrated manuscript is a review draft; no external submission is claimed.
 ## 18. Targeted interpretation and claim verification, 11 October 2026
 
 This D-063 section records the historical 5,262-word build. Its source and
-claim-verification limits remain in force; Section 21 describes the current
-specialist-audience revision.
+claim-verification limits remain in force; Section 22 describes the current
+supervisor point 1 draft.
 
 The user authorised the attached revision plan and confirmed APRE402 as the
 final-paper module identifier. The original PRIC401 Submission 1 remains
@@ -686,7 +686,7 @@ maps all five priorities and fourteen acceptance items to this evidence.
 
 This D-064 section records the historical 5,632-word build and its 263-word
 abstract. Its source hash remains a record of that version. Section 21 records
-the current specialist-audience revision.
+the later historical specialist-audience revision; Section 22 records the current draft.
 
 The user asked for active verbs, first-use parenthetical explanations and
 first-person wording. D-064 records this writing scope. “I” describes the
@@ -732,7 +732,7 @@ reads, public deployment, predicted grade or external submission are claimed.
 ## 20. Professional-language reporting revision, 13 October 2026
 
 This D-065 section records the historical 5,627-word build, its 249-word
-abstract and original source hash. Section 21 records the current revision.
+abstract and original source hash. Section 22 records the current point 1 draft.
 
 The user requested a clear, concise and scientifically sound ICT paper for
 conference review and marking. D-065 records this writing scope. Concrete
@@ -778,9 +778,13 @@ P5 remains partial. Original journal and legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No new primary-source read, public deployment or external
 submission occurred. Sections 17–19 retain the historical D-062, D-063 and
-D-064 word counts and source hashes; Section 21 identifies the current build.
+D-064 word counts and source hashes; Section 22 identifies the current point 1 draft.
 
 ## 21. Specialist-audience and integrated-literature revision, 13 October 2026
+
+This section records the historical D-066 5,097-word build. Its generated
+artifacts and audits remain in Git commit `e83b504`. Section 22 records the
+current supervisor point 1 draft.
 
 The user's latest instruction explicitly replaces the earlier requirement to
 define every technical term. D-066 records the new specialist-audience scope.
@@ -798,14 +802,14 @@ OPG-only studies. Original search exports and screening logs remain unavailable
 for independent verification. This writing task did not repeat the search or
 authenticate additional sources.
 
-The current manuscript contains **5,097 whitespace-delimited words** and a
+The D-066 manuscript contains **5,097 whitespace-delimited words** and a
 **141-word abstract**, **530 words fewer** than D-065. Its regenerated PDF has
 **exactly eight US Letter pages**, nine tables, four figures and 25 references
 numbered by first use. Body/table/reference fonts remain 10/9/8 pt. The
 approved title, APRE402, research questions, figure assets and build layout
 remain unchanged. Root and independent reviewers passed all eight fresh pages;
 `paper/manuscript_validation.json` records the current build and layout review.
-Current manuscript SHA-256:
+D-066 manuscript SHA-256:
 `3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3`.
 
 `paper/specialist_language_revision.md` and
@@ -828,5 +832,53 @@ remain dated functional evidence. Participant usability remains unperformed.
 P5 remains partial. Original journal/legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No deployment or external submission occurred. Sections
-17–20 retain historical D-062–D-065 counts and source hashes; Section 21 and
-the current audit files identify D-066.
+17–21 retain historical D-062–D-066 counts and source hashes. Section 22 and
+the current audit files identify the point 1 draft.
+
+## 22. Supervisor feedback point 1, 14 October 2026
+
+The user requested one supervisor correction at a time, with review and
+acceptance before the next. D-067 records a draft revision of Section II.A
+only. It strengthens the integration gap and contribution relative to the
+reviewed studies and clarifies literature-search reproducibility limits.
+Supervisor points 2–10 remain pending. Table II, screening assumptions,
+validation methods, software evaluation, statistical results, interpretation,
+ethics, conclusion and references have not changed under this point 1 task.
+
+The review description retains documented databases/resources, search concepts,
+broad selection criteria and thematic narrative comparison. The recorded
+511-to-55 flow covers mixed-grant literature. Exact database queries, search
+dates and filters, original exports, item-level screening/exclusion decisions
+and the 55-source extraction register remain unavailable; the search and
+selection decisions cannot therefore be independently reproduced or exhaustive
+coverage established. The study's contribution concerns transparent screening,
+person-weighted description, household-held-out prediction and inspectable,
+reproducible software within this historical KZN analysis. No new algorithm,
+legal entitlement, causal explanation, usability or external performance is
+established by this wording change.
+
+The current draft contains **5,308 whitespace-delimited words** and a
+**141-word abstract**. The regenerated render retains **eight US Letter pages**,
+nine tables, four figures and 25 first-use references with 10/9/8 pt body/table/
+reference fonts. Root and independent reviewers passed all eight final pages;
+`paper/manuscript_validation.json` records the completed render and layout review.
+Manuscript SHA-256:
+`bf897e564f37e3d3dc19176a796eae3f8fea04c2392156dccf90163913e4e91a`.
+`paper/supervisor_feedback_response.md` and
+`paper/supervisor_point1_validation.json` document the response and scope.
+
+All **209 numerical comparisons and 100 supporting checks pass**, with
+**314 register rows and four explicit limitations**. Only Section II.A prose
+changed from `e83b504fb124d6bf5f384a656f52ed2a7bd45a11`; all other
+sections and table cells remain byte-identical. Scientific, app, data, model,
+reference, diagram, build and verifier-code paths remain unchanged. No negative
+controls, app suite, model refit, province extension, participant study or
+primary-source query ran. Earlier controls and 220-test, 15,388-record agreement
+and 50 Windows-report checks retain their historical dates and scope.
+
+P5 original-source/legal, institutional ethics/access, historical-data
+disclosure and portal limits remain unchanged. Participant usability remains
+unperformed. The checklist remains 96 rows: 94 Implemented, two Proposed and
+zero Verified. No deployment or external submission occurred. Sections 17–21
+retain historical D-062–D-066 counts and hashes. The next step is user review
+and acceptance of point 1 before work on point 2.

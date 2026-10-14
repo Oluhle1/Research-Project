@@ -183,9 +183,9 @@ not been rewritten or submitted by this implementation task.
 
 ## October plan Phase 6 — earlier six-page Submission 2 review draft, 11 October 2026
 
-This entry records the historical D-061 stage. The later D-062 and D-063
-entries record subsequent builds; D-064 below records the current plain-language
-revision. The validation JSON is maintained for the latest build.
+This entry records the historical D-061 stage. D-062–D-066 below record later
+historical builds; D-067 records the current supervisor point 1 draft. The
+validation JSON is maintained for the latest build.
 
 The user directed us to return to the plan and improve Submission 2 while
 leaving participant usability testing out of the present revision. This is
@@ -376,7 +376,7 @@ its retained evidence.
 ## Professional-language Submission 2 revision — 13 October 2026
 
 This D-065 entry records the historical 5,627-word build and its 249-word
-abstract. D-066 below records the current specialist-audience revision;
+abstract. D-066 below records the later historical specialist-audience revision;
 the D-065 counts and source hash remain evidence for that earlier build.
 
 The user requested clear, concise and scientifically sound language suitable
@@ -422,6 +422,11 @@ D-065 to the regenerated paper and unchanged scientific evidence.
 
 ## Specialist-audience and integrated-literature revision — 13 October 2026
 
+This D-066 entry records the historical 5,097-word build and its 141-word
+abstract. D-067 below records the current supervisor point 1 draft; the D-066
+counts, hashes and completed checks remain evidence for the earlier build.
+Its generated artifacts and audits remain in Git commit `e83b504`.
+
 The user requested a more concise paper for specialist ICT and conference
 readers, explicitly replacing the earlier requirement to define every technical
 term. Decision D-066 records this scope. The revision removes **52 direct
@@ -439,7 +444,7 @@ than 55 OPG-only studies, and states that original search exports and screening
 logs are unavailable for independent verification. This revision did not run
 a new literature search or authenticate additional sources.
 
-The current manuscript has **5,097 whitespace-delimited words** and a
+The D-066 manuscript has **5,097 whitespace-delimited words** and a
 **141-word abstract**, **530 words fewer** than the D-065 build. The regenerated
 PDF retains **eight US Letter pages**, **nine tables, four figures and 25
 references numbered by first use**, with 10/9/8 pt body/table/reference fonts.
@@ -447,9 +452,9 @@ The approved title, APRE402, research questions, scientific results, figure
 assets and build layout remain unchanged. Root and independent reviewers
 passed all eight fresh pages. `paper/manuscript_validation.json` records the
 current render and final layout-review evidence.
-Current manuscript SHA-256:
+D-066 manuscript SHA-256:
 `3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3`.
-Current PDF SHA-256:
+D-066 PDF SHA-256:
 `b81d1047e4c86e908267591f2ce831080e64c17ee12f7381b073ccf99d34d6d7`.
 
 `paper/specialist_language_revision.md` and
@@ -469,3 +474,49 @@ primary-source query, deployment or external submission occurred. Earlier
 functional evidence. P5 remains partial: original journal/legal verification,
 institutional ethics/access, historical-data disclosure and portal requirements
 remain unconfirmed. D-062–D-065 retain their historical counts and source hashes.
+
+## Supervisor feedback point 1 — 14 October 2026
+
+The user requested one correction at a time, with review and acceptance before
+moving to the next. Decision D-067 records a draft response to point 1 only:
+Section II.A now states the research gap and contribution relative to earlier
+studies and explains the literature-search reproducibility limits. Points 2–10
+remain pending; this entry does not mark the full supervisor feedback complete.
+
+The revised review approach preserves the documented databases, search
+concepts, broad relevance criteria and thematic narrative comparison. The
+recorded 511-to-55 flow remains mixed-grant evidence. Database-specific queries,
+search dates and filters, original exports, item-level screening/exclusion
+decisions and the full 55-source extraction register are unavailable. The paper
+therefore does not claim independently reproduced selection or exhaustive
+literature coverage. No new search or source authentication occurred.
+
+The contribution concerns this historical KZN workflow: transparent screening,
+person-weighted description, household-held-out prediction and inspectable,
+reproducible software. It does not establish universal novelty, legal
+entitlement, causal barriers, participant usability or external performance.
+
+The current draft has **5,308 whitespace-delimited words**, a **141-word
+abstract**, **eight US Letter pages**, **nine tables, four figures and 25
+first-use references**, with unchanged 10/9/8 pt body/table/reference fonts.
+Root and independent reviewers passed all eight final pages.
+`paper/manuscript_validation.json` records the completed render and layout review.
+Manuscript SHA-256:
+`bf897e564f37e3d3dc19176a796eae3f8fea04c2392156dccf90163913e4e91a`.
+
+`paper/supervisor_feedback_response.md` and
+`paper/supervisor_point1_validation.json` record point 1's scope and evidence.
+The retained-evidence verifier passes **209 numerical comparisons and 100
+supporting checks**, with **314 register rows and four explicit limits**. Only
+Section II.A prose changed from `e83b504fb124d6bf5f384a656f52ed2a7bd45a11`;
+all other sections and table cells remain byte-identical. Scientific, app,
+data, model, reference, diagram, build and verifier-code paths remain unchanged.
+No new negative controls, application suite or model refit ran. Earlier
+negative-control and 220-test, 15,388-record agreement and 50 Windows-report
+checks remain historical records. No province extension, participant study,
+primary-source query, deployment or external submission occurred.
+
+D-062–D-066 retain their historical counts and hashes. The checklist remains
+96 rows: 94 Implemented, two Proposed and zero Verified. P5 source, ethics,
+access, disclosure and portal limits remain unchanged. The next step is user
+review of point 1; point 2 must wait for acceptance.

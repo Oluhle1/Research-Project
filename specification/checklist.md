@@ -2,7 +2,7 @@
 
 **Source:** Submission 1 (`21634436_Oluhle_Jawe_Submission_1.pdf`), Sections II–VII and Figures 1–2 and Table I.  
 **Process constraints** from `Agent.md` are included only where they restate that design or require a record of it.  
-**Created:** 2026-09-25; current evidence update: 2026-10-13 (Africa/Johannesburg).
+**Created:** 2026-09-25; current evidence update: 2026-10-14 (Africa/Johannesburg).
 
 **Rule:** status changes only when the named evidence exists. Phase 1 originally set every row to Proposed; this table records current implementation evidence.
 
@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-066 |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, D-001–D-067 |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current specialist-audience revision: eight Letter pages; 5,097 manuscript words, including a 141-word abstract, 530 fewer words than D-065; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 first-use references; APRE402 retained. Root and independent visual reviews pass all eight fresh pages; `paper/manuscript_validation.json` records the current render. `paper/claim_source_register.csv` and `paper/claim_source_validation.json` pass 209 numerical and 100 supporting checks, with 314 rows and four explicit limits. `paper/specialist_language_revision.md` and `paper/specialist_language_validation.json` record the removal of 52 elementary glosses and 16 scientific-distinction checks; the user's specialist-audience instruction replaces the earlier 90-definition requirement. `paper/specialist_language_negative_controls.json` records four successful rejection checks without verifier changes. D-066 retains operational assumptions, metric interpretation and the qualified mixed-grant literature review. P5 remains partial: original journal/legal-source, ethics/access/disclosure and portal confirmations remain incomplete |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current supervisor point 1 draft: eight Letter pages; 5,308 manuscript words and a 141-word abstract; two-column layout, 10 pt body, 9 pt tables, 8 pt references; nine tables, four figures and 25 first-use references; APRE402 retained. Root and independent visual reviews passed all eight final pages; `paper/manuscript_validation.json` records the current render and review. `paper/supervisor_feedback_response.md` and `paper/supervisor_point1_validation.json` document the strengthened Section II.A gap, literature-search limits and specific contribution. Only II.A prose changed from `e83b504`; all other sections/table cells and scientific/app/data/model/reference/diagram/build/verifier-code paths remain unchanged. The retained-evidence audit passes 209 numerical and 100 supporting checks, with 314 rows and four explicit limits. No negative controls, app suite or refit reran; earlier controls remain historical. D-067 is pending user review and acceptance before point 2; supervisor points 2–10 remain pending. D-062–D-066 retain historical counts/hashes. P5 source, ethics/access/disclosure and portal confirmations remain incomplete |
 
 ## Current summary
 
@@ -160,12 +160,12 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current specialist-audience review draft has exactly
+predictive validation. The current supervisor point 1 review draft has exactly
 eight pages; the latest render/layout evidence is in
 `paper/manuscript_validation.json`. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
-outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word and 5,627-word
-builds are historical stages, not the current 5,097-word manuscript.
+outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word
+and 5,097-word builds are historical stages, not the current 5,308-word manuscript.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -185,3 +185,10 @@ search/screening records. Language and scientific-consistency reviews are
 editing evidence, not participant comprehension or usability results. No app
 suite, refit, province analysis or primary-source query ran. D-062–D-065 counts,
 hashes and the earlier 90-term reviews remain historical records.
+
+The 14 October D-067 revision addresses only supervisor point 1 in Section
+II.A: the research gap, search-process reproducibility limits and the study's
+specific contribution. The user must review and accept this draft before work
+on point 2. Supervisor points 2–10 remain pending. No table, methods, results,
+conclusion, reference or app change follows from this point 1 update. The
+94 Implemented / two Proposed / zero Verified summary remains unchanged.

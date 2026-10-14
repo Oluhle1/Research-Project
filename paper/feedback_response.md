@@ -1,5 +1,11 @@
 # Response to lecturer feedback: Submission 2
 
+For the separate supervisor feedback supplied on **14 October 2026**, see
+[the staged supervisor response](supervisor_feedback_response.md). Only its
+first point has been revised, pending the user's review. The seven-comment
+lecturer matrix below records the earlier feedback and does not close the
+remaining supervisor points.
+
 Revision date: **11 October 2026**. The source is the user-supplied **1st Feedback 21634436.docx**. This matrix records how the existing study and the completed local Streamlit MVP address each of the seven improvement comments. It preserves the approved research questions, historical KwaZulu-Natal population and reported non-receipt outcome. No new model fitting, screening-rule change or participant study is introduced by this paper revision.
 
 Specialist-audience update: **13 October 2026**. The current paper keeps concrete

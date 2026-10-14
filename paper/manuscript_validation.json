@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-10-13T21:29:56.689443+00:00",
-  "status": "review draft; eight-page build and evidence checks passed; not submitted",
+  "checked_at_utc": "2026-10-14T08:40:17.282657+00:00",
+  "status": "supervisor point 1 revision checks passed; awaiting user review before point 2; not submitted",
   "pdf_pages": 8,
   "maximum_pages": 8,
   "page_size": "Letter 612x792 pt",
-  "manuscript_words_whitespace_tokens": 5097,
+  "manuscript_words_whitespace_tokens": 5308,
   "submission1_integration": {
     "original_title_aim_objectives_and_literature_restored": true,
     "original_pdf_unchanged": true,
@@ -23,18 +23,21 @@
     "table_and_figure_wording": "Professional wording; all existing diagram assets, data and represented relationships unchanged",
     "no_model_refit": true
   },
-  "specialist_language_revision": {
-    "revision_date": "2026-10-13",
-    "detail": "paper/specialist_language_validation.json",
+  "supervisor_feedback_revision": {
+    "revision_date": "2026-10-14",
+    "detail": "paper/supervisor_point1_validation.json",
+    "feedback_point": 1,
+    "changed_area": "Section II.A prose only",
+    "user_acceptance": "pending",
+    "other_points": "2\u201310 pending; not applied",
     "active_verbs": true,
     "concrete_subjects": true,
     "conversational_author_reader_pronouns": 0,
     "tense": "Past for completed methods and observed findings; present for software, tables and interpretation; conditional for proposed work",
     "basic_definition_requirement": "Superseded by explicit user instruction for a specialist audience",
-    "direct_elementary_parenthetical_glosses_removed": 52,
     "scientific_distinctions_reviewed": 16,
     "literature_opening_integrated": true,
-    "negative_controls_rejected": 4,
+    "negative_controls": "Four historical specialist controls retained; not rerun for point 1; verifier unchanged",
     "abstract_whitespace_tokens": 141,
     "interpretation": "Editing review, not a participant comprehension or usability study"
   },
@@ -47,6 +50,11 @@
     "detail": "paper/professional_language_validation.json",
     "snapshot_commit": "17e1b0536ec4f683d2a04e5caced2bb89635a943",
     "scope": "Earlier full-definition professional rewrite; source hash checked against its historical commit"
+  },
+  "historical_specialist_language_revision": {
+    "detail": "paper/specialist_language_validation.json",
+    "snapshot_commit": "e83b504fb124d6bf5f384a656f52ed2a7bd45a11",
+    "scope": "Earlier specialist rewrite; source and negative-control hashes checked against its historical commit"
   },
   "build": {
     "node_docx": "9.6.1",
@@ -127,11 +135,11 @@
     "all_tables_intact_and_figures_unclipped": true,
     "reference_columns_balanced": true,
     "split_reference_entries": false,
-    "table_v_and_viii_notes": "clear italic continuations into adjacent columns",
+    "table_v_and_viii_notes": "clear italic continuations onto pages 6 and 7 respectively",
     "other_notes": "clear reading order; no clipping",
     "last_page": "natural partial reference page; no added blank page"
   },
-  "scientific_and_application_files_unchanged_from": "17e1b0536ec4f683d2a04e5caced2bb89635a943",
+  "scientific_and_application_files_unchanged_from": "e83b504fb124d6bf5f384a656f52ed2a7bd45a11",
   "existing_application_evidence_not_rerun_for_paper": {
     "automated_tests": 220,
     "native_ui_cli_reference_rows": 15388,
@@ -144,6 +152,22 @@
       5
     ]
   },
+  "supervisor_feedback": {
+    "comments": 10,
+    "current_point": 1,
+    "point1": "Revised and checked; pending user review",
+    "remaining_points": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
   "participant_usability": "not conducted; deferred by user; owner Windows walkthrough is functional evidence",
   "remaining_before_submission": [
     "Independent original journal and historical legal-provision verification",
@@ -153,8 +177,8 @@
     "Author review"
   ],
   "sha256": {
-    "paper/manuscript.md": "3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3",
-    "paper/manuscript_numbered.md": "b4920cfd2a88e8507e7bac2f6a8f03ff2bb98249eedb3a7a5ed04e8435f1c56b",
+    "paper/manuscript.md": "bf897e564f37e3d3dc19176a796eae3f8fea04c2392156dccf90163913e4e91a",
+    "paper/manuscript_numbered.md": "aa085558e1453656e5fcaf303993badb4cd76cb93bb3a32d28d5e1d135853302",
     "paper/references.json": "91b00a690fa95faf5eb806e8d35fd28dd6283a6f3e23aca53432d97e3660392e",
     "paper/citation_map.json": "e1485155e9adbfe0939b0da2e5f3f851dda8bca43da807ac04e93c7e6a35b03d",
     "paper/build_ieee.js": "fd3c7329ccc57aa34618e5b860f562a5cd80a044c91a2109eb407927b87dd718",
@@ -162,28 +186,34 @@
     "paper/build_expansion_figures.py": "4152fac1e7026d33c4af94ee0438f0ab79a1fffa02f5b05a101129065c2eb1c6",
     "paper/package.json": "4630f82151ac735ecdda799b0bac236ed9714e147322964ff7944ba876bae2cd",
     "paper/package-lock.json": "fcc94104e8f8d2150ac2c6abeba5eb200c44a851ea990201998d4c9475e05b31",
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "c66d3e408c153c06885b5d17b767080b6dc9aace02a408dbae9d444c7e72c77e",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "b81d1047e4c86e908267591f2ce831080e64c17ee12f7381b073ccf99d34d6d7",
-    "paper/empirical_expansion_validation.json": "c004ba0893bcc7ff73f1f172ac5fb48193d5ede36841868d3621e4d933bd6012",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "36b92d79c2637c52c9804a32ffed9dc665899e8c6a919ca19e7835286115bbbf",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "b0b51712c1787bef639b58d5b8093d6f7c530ef1631534aa2608947fed58ff06",
+    "paper/empirical_expansion_validation.json": "6b76fff26fcf430a791521b4ce06a5aae7c9446f6f86dfb1a06a2563c3ab126d",
     "paper/submission1_integration_notes.md": "e3208027b795dc01b53483b3bcac965a1a35c3c3f68a1f31ac55108ec4e935eb",
     "paper/expansion_empirical.md": "9728fbe9c50427407b286f258a88fd4b57cb19a791e0ac991465642c696052f6",
     "paper/discussion.md": "b2df76af93b4d0cea6c6a267a2928393e17fcb1221d3f100c0fe1bc2feef00f1",
     "paper/targeted_revision_plan.md": "a53d5c2370b5d5b69b16a8c7d56b52b9604751e407cceb52d6329dc79f03f510",
-    "paper/targeted_revision_response.md": "c37ef119025b9ee1f2e793ef075e0ae92274587fa3b212a112ddd6af678dcc89",
+    "paper/targeted_revision_response.md": "34a24b673efb075bcb45a36cca15813456e968c8999a68fe0909be3df3ec4abd",
     "paper/claim_source_register.csv": "39ea48e51ebae11ffd1adfe239be6a8ed174712932be0385466474304c89806d",
-    "paper/claim_source_validation.json": "cceccf8a34a65d58d7ae43e3cb214bbbc5690127d591b28e33b3654d4b81afd8",
+    "paper/claim_source_validation.json": "39b47cfd5569ced0762b3ea93ad950e2c79a65e1c734beab7e112061f50ebb88",
     "paper/verify_claims.py": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
-    "paper/README.md": "5a5a1ecb56733cfee96a396db94f719db4a114a4ca503aa864e826188dee51a4",
-    "paper/feedback_response.md": "63e9f781aaf38a3ccb150997f523933d58fb1e4e9b6a091419d77b907a6c8018",
+    "paper/README.md": "1b36b1719750ece7c89bd8e7bf2f9067cbf2756e59e3516fda052394806dfe2c",
+    "paper/feedback_response.md": "6cab8b8c628b848fac6d57f63709cdcf550898eb70e1c88f656fc152f64972b8",
     "paper/plain_language_revision.md": "2ce3ea79f475f3a470e774b3ea452b83f0cca6ddafd00fccc500a35840913e05",
     "paper/plain_language_validation.json": "8dfa750e2205c1f428209ded5f7317ab880fa7748a36e080273ea755e238065b",
     "paper/plain_language_negative_controls.json": "68261dd53863fd43d43615f658377247d38115839a5b7198d1a8136dce34c659",
     "paper/professional_language_revision.md": "3fa3b1268648b10086d35c833dae3ab6b03bd1480a90da76ce2ebcdb4d072563",
     "paper/professional_language_validation.json": "acd54bcc734120bcb111b5448fec0a1c54f9a44ae7401a07dc96153c9fb9bbf4",
     "paper/professional_language_negative_controls.json": "c44f5358d58724b5faadf44470771a05fda4c19e169aedf4a4753e747d2959f8",
-    "paper/specialist_language_revision.md": "903d52329f782212f782e23f33ed6ae5eb67f0ae5bf150ada4fba218472f2409",
+    "paper/specialist_language_revision.md": "0be7d012af61f852d64ff76d40eb0e201a385360e5428aa3a6f24724e46cde08",
     "paper/specialist_language_validation.json": "7da973256d233df34ab31fcee24108d79ea41b7c066f0c51ebdf7f695fe44627",
     "paper/specialist_language_negative_controls.json": "c3955244d54e5d12d187fcb9fad306c1276d31e8236ae55f562ea5a6cbd31764",
+    "paper/supervisor_feedback_response.md": "0546f32f52fda80da5461ee6522e21df04b4511588e7c95975a76671c312fbf9",
+    "paper/supervisor_point1_validation.json": "6190f627b9045cd3012015a5c8e63b67f8c9069043ef5ff1c1a9da97a4055964",
+    "docs/evidence_log.md": "86730f0af1f1fb77f293334b709f5ed91e73e1542df1405dbf2642303f5c9e76",
+    "specification/decision_log.md": "83844b59f995d68cc63e05c9a92bdc242ddc680fa029cc8e4bb2c2a7feaedd36",
+    "specification/checklist.md": "f95d82b7b5269c2948b7fcd09506d183a05bf4de83c9745f9cd22123ace56327",
+    "specification/implementation_specification.md": "16fe8f4c21174e933933310dfee05ab72e9beae32d7dc16e7b79438ff35c62f1",
     "paper/primary_source_audit.json": "1698c64c3679726ff4bb97c596742d0221168ae107f9e6ed7be6b78224d18776",
     "paper/primary_source_audit.md": "ee5360fd6e9619ca166f8ec81465c9a9e5441b10b1e6936fb517a813dc4a699a",
     "analysis/phase3_build_cohort.py": "82ead049338a275276dcad8f08e6bd388be0f75792b90ffe166a38f3bc1e6ee0",

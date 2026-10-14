@@ -4,11 +4,13 @@ Revision date: **11 October 2026 (Africa/Johannesburg)**.
 
 This is the dated record of the substantive revision. Its 5,262-word count and
 final-snapshot hashes below refer to **11 October**, before the language rewrite.
-The current **13 October** paper keeps these improvements with professional
+The **13 October** paper kept these improvements with professional
 active prose and appropriate research tense. It addresses specialist readers,
 trims elementary definitions and integrates the literature review into one paper.
-The current manuscript has 5,097 whitespace tokens, and its PDF still has eight
-pages. See [the language revision](specialist_language_revision.md) and
+That manuscript had 5,097 whitespace tokens and an eight-page PDF. The current
+**14 October** draft has 5,308 tokens and applies supervisor feedback point 1
+only, pending user review; see [the staged response](supervisor_feedback_response.md).
+See [the language revision](specialist_language_revision.md) and
 [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The primary-source audit remains the recorded 11 October check.
 

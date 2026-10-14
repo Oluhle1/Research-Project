@@ -1,5 +1,9 @@
 # Specialist-audience wording and integrated literature review
 
+Historical record: this describes the revision at commit `e83b504`. The current
+draft strengthens Section II.A under supervisor feedback point 1 while keeping
+this writing policy. See [supervisor_feedback_response.md](supervisor_feedback_response.md).
+
 Revision date: **13 October 2026**. The user clarified that the paper addresses
 people familiar with ICT, statistical modelling and grant-access research.
 This instruction supersedes the earlier requirement to define every technical

@@ -8,13 +8,13 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **13 October 2026** revision addresses a specialist ICT and research
-audience. It keeps clear professional active prose and appropriate research
-tense, removes elementary definitions, and explains study-specific decisions
-and consequential assumptions. The literature review reads as part of one
-paper, with its recorded search flow and evidence limits intact. The PDF has
-eight pages, nine tables and four figures. See
-[the specialist-audience revision notes](specialist_language_revision.md).
+The current **14 October 2026** draft applies the supervisor's **first feedback
+point only**. Section II.A now explains the research gap, literature-search
+reproducibility limits and specific contribution relative to previous studies.
+It keeps the specialist, clear professional style. All other sections and table
+cells are unchanged. The PDF has eight pages, nine tables and four figures.
+See [the staged supervisor response](supervisor_feedback_response.md).
+Point 1 awaits the user's review before work begins on point 2.
 
 ## Editable sources
 
@@ -55,10 +55,13 @@ eight pages, nine tables and four figures. See
 - `professional_language_negative_controls.json`: four deliberate temporary
   errors rejected for that historical manuscript.
 - `specialist_language_revision.md`, `specialist_language_validation.json`:
-  current audience-fit and literature-continuity review, 16 scientific
-  distinctions, and manuscript/Word/PDF hashes.
+  audience-fit and literature-continuity history at commit `e83b504`; the
+  specialist writing policy continues in the current point 1 draft.
 - `specialist_language_negative_controls.json`: four deliberate temporary
-  errors rejected for the current manuscript; the tracked source was not altered.
+  errors rejected for that historical manuscript; not rerun for point 1.
+- `supervisor_feedback_response.md`, `supervisor_point1_validation.json`:
+  the current first-point revision, scope checks, original-review evidence,
+  artifact hashes and pending points 2–10.
 
 ## Rebuild
 

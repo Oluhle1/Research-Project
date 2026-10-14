@@ -1,0 +1,121 @@
+{
+  "status": "revision checks passed; awaiting user review of point 1",
+  "checked_at_utc": "2026-10-14T08:37:21.912079+00:00",
+  "revision_date": "2026-10-14",
+  "baseline_commit": "e83b504fb124d6bf5f384a656f52ed2a7bd45a11",
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "bf897e564f37e3d3dc19176a796eae3f8fea04c2392156dccf90163913e4e91a",
+  "feedback_source": {
+    "filename": "21634436 Feedback.docx",
+    "sha256": "aec63c1eb7989fd731da0218667d0ac1d4df0b9423678fb7af5c50b02c1089d8"
+  },
+  "submitted_draft": {
+    "filename": "Jawe_OPG_nonreceipt_KZN submission draft 1 (1).pdf",
+    "sha256": "7ef876c284035c3eacb5cea5d4324e1d1716d724e8452cde572c4a66b2ef2020",
+    "pages": 9,
+    "renderer": "Microsoft Word for Microsoft 365",
+    "scope": "User-supplied submission copy; no claim of byte identity to the repository PDF. Revision applies to the editable source of the same paper."
+  },
+  "feedback_point": 1,
+  "comment": "Pages 1–2, Section II (Literature Review): Strengthen the articulation of the research gap and clarify the reproducibility limitations of the literature-search process. Explain the specific contribution of the study relative to previous research.",
+  "scope": {
+    "changed_manuscript_area": "Section II.A prose only",
+    "text_before_Section_II_unchanged": true,
+    "text_from_Section_II_B_onward_unchanged": true,
+    "all_table_rows_unchanged": true,
+    "all_other_supervisor_points": "Pending; not applied in this revision",
+    "user_acceptance": "Pending; await review before point 2"
+  },
+  "first_point_review": {
+    "status": "passed",
+    "research_gap": "Specific integration gap relative to person-level rural receipt and household grant-proportion studies; bounded to the reviewed evidence.",
+    "search_method": "Original documented sources, search concepts, broad relevance criteria and thematic narrative comparison retained.",
+    "search_limits": "Exact database queries, dates/filters, exports, item-level decisions and full55-source extraction register unavailable; no exhaustive or independently reproduced review claimed.",
+    "search_flow": [
+      511,
+      136,
+      375,
+      222,
+      153,
+      98,
+      55
+    ],
+    "mixed_grant_scope_retained": true,
+    "contribution": "Transparent resource-screened denominator, sensitivity, person-weighted description, household-held-out interpretable prediction and shared reproducible software.",
+    "reviewers": "Independent research-gap reviewer and original-review evidence checker",
+    "new_search_or_primary_article_verification": false
+  },
+  "audience_and_scientific_scope": {
+    "clear_professional_specialist_language": true,
+    "elementary_term_definitions_not_reintroduced": true,
+    "causal_legal_entitlement_usability_or_external_performance_claim_added": false,
+    "all_16_previously_reviewed_scientific_distinctions_preserved": true
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier": "paper/verify_claims.py",
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json",
+    "verifier_changed": false,
+    "negative_controls": "Historical specialist-language controls retained, not rerun for this Section II.A-only change.",
+    "model_refitted": false,
+    "application_test_suite_rerun": false
+  },
+  "manuscript_words_whitespace_tokens": 5308,
+  "abstract_words_whitespace_tokens": 141,
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent final-layout reviewer",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "b0b51712c1787bef639b58d5b8093d6f7c530ef1631534aa2608947fed58ff06",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "36b92d79c2637c52c9804a32ffed9dc665899e8c6a919ca19e7835286115bbbf",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": "Entries1–2 in left column on page8;3–25 in right column; all whole entries.",
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "notes": "Table V note continues from page5 to6; Table VIII note from page6 to7, without clipping.",
+    "clipping_or_extra_blank_page": false
+  },
+  "protected_paths": {
+    "baseline_commit": "e83b504fb124d6bf5f384a656f52ed2a7bd45a11",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py"
+    ],
+    "status": "unchanged"
+  },
+  "next_step": "User reviews point1; do not start point2 until the user is content with point1.",
+  "limits": [
+    "No new literature search, publisher/legal verification, institutional ethics decision, data-disclosure clearance or participant evaluation occurred.",
+    "Remaining supervisor points have not been applied and may still require additional evidence.",
+    "No external submission or message to the supervisor was sent."
+  ]
+}

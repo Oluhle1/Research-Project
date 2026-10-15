@@ -42,12 +42,12 @@ function grid(headers,rows){
     const conceptual=headers[0]==='Predictor'&&headers[1]==='Theoretical role';
     const none={style:BorderStyle.NONE,size:0,color:'000000'};
     const horizontal={style:BorderStyle.SINGLE,size:6,color:'000000'};
-    const widths = n===7?[540,760,650,650,700,900,840]:
-                   n===6?[1040,850,700,700,900,850]:
+    const widths = n===7?[700,980,640,640,680,720,680]:
+                   n===6?[1280,900,660,740,760,700]:
                    headers[0]==='Predictor'?[900,1800,2340]:
                    headers[0]==='Study'?[1150,1570,2320]:
-                   headers[0]==='Characteristic'?[2120,1460,1460]:
-                   headers[0]==='Metric'?[2200,1200,1640]:
+                   headers[0]==='Characteristic'?[1640,1700,1700]:
+                   headers[0]==='Metric'?[1560,2040,1440]:
                    headers[0]==='Data concept'?[1450,1670,1920]:
                    headers[0]==='Evidence'?[1460,1480,2100]:[2940,1050,1050];
     if(widths.reduce((a,b)=>a+b,0)!==COLUMN) throw new Error('Bad table widths');

@@ -150,7 +150,7 @@ Usability evaluation is a separate study. It would ask people other than the dev
 
 ### A. Study group and reported non-receipt
 
-The survey included 15,388 people in 3,686 KwaZulu-Natal households. Table IV shows the selection steps. Among 117 failures, 93 exceeded the income ceiling and 25 reported a disability grant; one met both conditions. None reported a war-veterans grant. Among 187 unresolved adults, 105 were married, mostly with a non-resident spouse, and 63 reported living together. Unresolved adults outnumbered non-recipients.
+The survey included 15,388 people in 3,686 KwaZulu-Natal households. Table IV shows the selection steps. People aged 60 or older equal the failed, unresolved and passed rows. Reported receipt and non-receipt divide the passed row. Households are counted inside each row, and one household can contribute to more than one row. Among 117 failures, 93 exceeded the income ceiling and 25 reported a disability grant; one met both conditions. None reported a war-veterans grant. Among 187 unresolved adults, 105 were married, mostly with a non-resident spouse, and 63 reported living together. Unresolved adults outnumbered non-recipients.
 
 TABLE: Table IV. KwaZulu-Natal study group at each screening step
 | Step | People | Households |
@@ -163,31 +163,31 @@ TABLE: Table IV. KwaZulu-Natal study group at each screening step
 | Reported receipt | 946 | 773 |
 | Reported non-receipt | 67 | 60 |
 
-NOTE: Each row counts distinct households. A household can appear in several rows.
+NOTE: People aged 60 or older equal 117 + 187 + 1,013. The passed row equals 946 + 67. Adding every people cell would count the same adults more than once. Each household cell counts distinct households in that row. Those cells do not follow the people partition.
 
 FIGURE: figures/cohort_flow.png | Fig. 3. FAIL, UNRESOLVED and PASS groups do not overlap. All 1,013 PASS adults resolve receipt and enter the final denominator.
 
-Of these 1,013 adults, 67 reported non-receipt: 6.61% without weights and 7.49% with person weights. The calculation used 345 derived PSUs and gave a standard error of 1.3 percentage points. A bell-shaped sampling approximation gave a 95% confidence interval of 4.9%–10.0%. Missing strata limit this approximation. All 1,013 PASS answers agreed with preceding-year OPG income, so those checks changed nothing. Table V compares five predictors before filling missing values. Average age and percentages describe each receipt group. The percentages describe receipt-group composition, not non-receipt rates or predictions.
+Of these 1,013 adults, 67 reported non-receipt: 6.61% without weights and 7.49% with person weights. The calculation used 345 derived PSUs and gave a standard error of 1.3 percentage points. A bell-shaped sampling approximation gave a 95% confidence interval of 4.9%–10.0%. Missing strata limit this approximation. It is not a design-based confidence interval, and it does not apply to Tables V–VIII. All 1,013 PASS answers agreed with preceding-year OPG income, so those checks changed nothing. Table V compares five predictors before filling missing values. Average age and percentages describe each receipt group. The percentages describe receipt-group composition, not non-receipt rates or predictions. Table V reports no standard errors.
 
-TABLE: Table V. Characteristics by receipt (U = unweighted; W = person-weighted)
-| Characteristic | Recipients: U; W | Non-recipients: U; W |
+TABLE: Table V. Characteristics by receipt, before filling missing values
+| Characteristic | Recipients | Non-recipients |
 | --- | --- | --- |
 | Age, average years | 70.4; 69.8 | 67.3; 68.4 |
 | Female | 686 (72.5%); 70.4% | 33 (49.3%); 53.4% |
 | Grade 7 or above | 290 (30.7%); 33.0% | 49 (73.1%); 80.8% |
 | Urban formal settlement | 284 (30.0%); 36.2% | 38 (56.7%); 66.2% |
-| Welfare office ≥5 km/unavailable | 717 (75.8%); 72.0% | 34 (50.7%); 40.3% |
+| Office ≥5 km or unavailable | 717 (75.8%); 72.0% | 34 (50.7%); 40.3% |
 
-NOTE: Recipients: 946 people; non-recipients: 67 people. U gives unweighted averages, or counts and percentages within each group. W gives person-weighted averages/percentages. Denominators retain missing predictors: three recipients lack schooling; 14 recipients/four non-recipients lack welfare-access values. These summaries have no uncertainty intervals.
+NOTE: Recipients: 946 people. Non-recipients: 67 people. Each cell gives the unweighted figure, then the person-weighted figure. A category cell gives an unweighted count and percentage inside that receipt group, then the weighted percentage. These percentages describe the composition of each group. They are not non-receipt rates and they are not predictions. Three recipients lack schooling. Fourteen recipients and four non-recipients lack an office-distance value. Those adults remain in the group denominators. This table has no uncertainty intervals.
 
-Non-recipients were younger before weighting, more often men, more educated and more often urban formal residents. Weights brought average ages closer.
+In the unweighted figures, non-recipients had a lower average age and were more often men, educated to Grade 7 or above, and living in urban formal settlements. Weighting brought the average ages closer. These are descriptions of the two groups. Table V does not test the differences.
 
 ### B. Screening sensitivity
 
-Table VI reports each scenario’s denominator and non-receipt events. Unw. and Wtd. abbreviate unweighted and person-weighted. Slope means calibration slope in Tables VI and VIII. Compared with S0, S1b/S1d added two people/two events. S2a, S2b, S2c and S2d added 59/4, 60/2, 8/0 and 68/2 people/events. S3 added 19 people/15 events; S4b removed six people but no events. Weighted non-receipt ranged from 7.12% to 9.06%.
+Table VI reports each scenario's denominator and non-receipt events. Unw. and Wtd. abbreviate unweighted and person-weighted non-receipt. Slope means calibration slope in Tables VI and VIII. Compared with S0, S1b/S1d added two people/two events. S2a, S2b, S2c and S2d added 59/4, 60/2, 8/0 and 68/2 people/events. S3 added 19 people/15 events; S4b removed six people but no events. Weighted non-receipt ranged from 7.12% to 9.06%. Held-out AUC in this table runs from 0.736 to 0.763. Brier and calibration slope also change. AUC, Brier and slope are point estimates, and the table gives them no intervals. A close AUC does not make the screened groups the same population, and it does not show which rule predicts better.
 
-TABLE: Table VI. Changed screening rules and OOF performance
-| ID | N/events | Unw.% | Wtd.% | AUC | Brier | Slope |
+TABLE: Table VI. Screening changes, non-receipt rates and held-out point estimates
+| ID | N/events | Unw. | Wtd. | AUC | Brier | Slope |
 | --- | --- | --- | --- | --- | --- | --- |
 | S0 | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
 | S1b,d | 1,015/69 | 6.80 | 7.68 | .763 | .0584 | .875 |
@@ -199,31 +199,33 @@ TABLE: Table VI. Changed screening rules and OOF performance
 | S4b | 1,007/67 | 6.65 | 7.55 | .755 | .0576 | .854 |
 | Same* | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
 
-NOTE: Events are reported non-recipients. Unw./Wtd. give unweighted/person-weighted non-receipt rates; performance uses no weights. S1b applies the 2015 ceiling throughout; S1d uses the zero-payout ceiling (the resource level where the grant formula pays zero). S2a/S2b treat living-together adults as couples/single. S2c treats separated adults as single; S2d treats both as single. S3 retains disability/war-veterans grant recipients (it adds no veterans). S4b retains social-assistance income.
+NOTE: Events are reported non-recipients. Unw. and Wtd. are the unweighted and person-weighted non-receipt rates. AUC, Brier and slope are unweighted out-of-fold point estimates, with no intervals in this table. Performance uses no weights. Same* is not a new result. It repeats the S0 row for the scenarios that left the sample and the measures unchanged.
 
-*S1a (2014 ceiling throughout), S1c (age-75 supplement), S4a (income adjusted for price changes, with the ceiling unchanged), S4c (excluding UIF, the Unemployment Insurance Fund, and similar transfers), S5 (preceding-year receipt) and S6a/S6b (receipt bounds) change nothing. Each keeps the denominator, events and measures. No PASS adult has unresolved receipt to bound.
+S1b applies the 2015 ceiling to every interview. S1d uses the ceiling at which the formula pays nothing. The two settings are different, and the saved counts and measures match, so one row displays both. S2a screens living-together adults as couples. S2b screens them as single. S2c screens separated adults as single. S2d screens both living-together and separated adults as single. S3 retains adults who report a disability or war-veterans grant. It adds no veterans. S4b keeps social-assistance income in the resource proxy.
+
+*S1a uses the 2014 ceiling throughout. S1c adds the age-75 supplement. S4a adjusts income for price changes and leaves the ceiling unchanged. S4c also excludes UIF (the Unemployment Insurance Fund) and similar transfers. S5 uses preceding-year receipt. S6a and S6b assign unresolved receipt to receipt or to non-receipt. No passed adult has unresolved receipt to bound, so those bounds change nothing. Each starred scenario keeps the S0 denominator, events and measures.
 
 ### C. Held-out prediction
 
 All five folds converged. Figure 4 uses five similarly sized bins. The highest bin had average prediction 0.188 and 35/203 non-recipients (17.2%); the lowest had average 0.0107 and 3/206 non-recipients (1.5%).
 
-TABLE: Table VII. Primary held-out performance and uncertainty
-| Metric | Logistic: estimate [95% interval] | Intercept-only: estimate [95% interval] |
+TABLE: Table VII. Primary held-out performance and resampling intervals
+| Metric | Logistic model | Intercept-only |
 | --- | --- | --- |
 | AUC | .752 [.687–.814] | — |
 | Average precision | .203 [.139–.292] | — |
 | Brier score | .0578 [.0448–.0706] | .0618 [.0467–.0758] |
-| Calibration-in-the-large | .020 [−.316–.273] | .0001 [—] |
+| Calibration-in-the-large | .020 [−.316–.273] | .0001 |
 | Calibration slope | .836 [.591–1.133] | — |
 
-NOTE: Estimates pool unweighted OOF predictions: 1,013 people/67 events. The intervals use percentile bounds from 1,000 household resamples of fixed predictions. All reported intervals have zero invalid resamples. Resampling did not refit models or missing-value settings. The intercept-only reference uses the training group's non-receipt rate. Dashes mean unavailable measures/intervals, rather than zero or chance performance.
+NOTE: Each logistic cell is the estimate and its 95% interval. Estimates pool unweighted out-of-fold predictions from 1,013 people and 67 events. An interval is the 2.5 and 97.5 percentiles of 1,000 household resamples of those fixed predictions. Every reported interval had 1,000 valid resamples and no invalid resample. Resampling did not refit the model or the missing-value fill. These intervals are not design-based confidence intervals. They are not the survey approximation in Section V.A, and they are not the Wald intervals beside the odds ratios below. The intercept-only reference uses the training group's non-receipt rate. Its calibration-in-the-large is .0001, and no resampling interval was saved for that value. A dash means the intercept-only model does not supply that measure. A dash is not zero and is not chance performance. The ideal calibration-in-the-large is 0. The ideal slope is 1.
 
 FIGURE: figures/calibration.png | Fig. 4. Saved group summaries show unweighted OOF calibration. Labels give events/people; the diagonal shows exact agreement between average predictions and observed rates. Plot range: 0–0.22.
 
-The odds ratio for women versus men was 0.39. Its Wald interval was 0.23–0.66. Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). The model trained on all included adults produced these estimates. Age, settlement and welfare-distance intervals included 1. These associations describe odds, not probability reductions, held-out performance or causes.
+The odds ratio for women versus men was 0.39. Its Wald interval was 0.23–0.66. Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). The model trained on all included adults produced these estimates. The intervals exponentiate that model's coefficients and standard errors. They are not the Table VII resampling intervals, and they do not measure held-out performance. Age, settlement and welfare-distance intervals included 1. These associations describe odds, not probability reductions, held-out performance or causes.
 
-TABLE: Table VIII. Model/validation sensitivities
-| Scenario | N/events | Unw.% | AUC | Brier | Slope |
+TABLE: Table VIII. Model and validation sensitivities, as point estimates
+| Scenario | N/events | Unw. | AUC | Brier | Slope |
 | --- | --- | --- | --- | --- | --- |
 | S0 primary | 1,013/67 | 6.61 | .752 | .0578 | .836 |
 | S7 complete | 992/63 | 6.35 | .758 | .0556 | .819 |
@@ -232,9 +234,9 @@ TABLE: Table VIII. Model/validation sensitivities
 | S10 wtd. measures | 1,013/67 | 6.61 | .763 | .0641 | .935 |
 | S11 PSU folds | 1,013/67 | 6.61 | .758 | .0575 | .860 |
 
-NOTE: The non-receipt-rate column uses no weights; S8–S11 keep the weighted non-receipt rate at 7.49%. S9 uses frequency weights when fitting, but no weights when filling missing values or checking predictions. S10 weights the primary OOF predictions without refitting. S8 replaces welfare access and keeps six slopes. S7 removes 21 people/four events. S11 changes fold grouping but keeps the study group.
+NOTE: Unw. is the unweighted non-receipt percentage. AUC, Brier and slope are point estimates. This table does not report intervals for them. S8–S11 keep the person-weighted non-receipt rate at 7.49%. S7 keeps adults with usable schooling and office distance. It removes 21 people and four events, so its Brier describes a smaller sample. S8 replaces office distance with a married indicator and keeps six slopes. S9 fits with person weights as frequency weights. It still fills missing values without weights and checks predictions without weights. That fit is not a full survey-design regression. S10 applies person weights to the primary out-of-fold predictions and does not refit. S11 groups the five folds by derived primary sampling unit and keeps the same adults.
 
-Across alternatives, AUC ranged from 0.736 to 0.763; Brier and calibration slopes also changed.
+In Table VIII, AUC runs from 0.750 to 0.763. The lowest Brier is the complete-case row. The highest Brier is the weighted-score row, which reuses the primary predictions. These differences have no intervals. They do not rank the specifications.
 
 ### D. Software verification
 
@@ -258,13 +260,15 @@ The owner's Windows walkthrough produced six synthetic classifications: two reso
 
 RQ1 measures non-receipt among historical KwaZulu-Natal adults who pass the screen and resolve receipt: 67/1,013, or 6.61% unweighted and 7.49% person-weighted. This does not measure unlawful denial or non-receipt among everyone legally entitled. The 187 unresolved adults outnumbered the 67 events. Excluding them changes the population described, regardless of sampling uncertainty. Stable estimates cannot reveal their receipt.
 
-S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%. Partnership rules mainly changed the denominator. S3 retained adults with incompatible grants, added 19 people/15 events and raised non-receipt to 9.06%, the largest tested change. Similar AUC cannot justify screening rules or establish equivalent populations. Ralston studies rural age-eligible people [2]; Godfrey studies households' grants [6]. Different units, programmes, screens and places prevent direct comparison of their percentages. This study adds a provincial estimate with an explicit resource screen. High receipt can involve access costs [12], [16]; it cannot prove low burden.
+S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%. Partnership rules mainly changed the denominator. S3 retained adults with incompatible grants, added 19 people/15 events and raised non-receipt to 9.06%, the largest tested change. Table VI gives AUC, Brier and slope as point estimates on those changed denominators, without intervals. Similar AUC cannot justify screening rules or establish equivalent populations. Ralston studies rural age-eligible people [2]; Godfrey studies households' grants [6]. Different units, programmes, screens and places prevent direct comparison of their percentages. This study adds a provincial estimate with an explicit resource screen. High receipt can involve access costs [12], [16]; it cannot prove low burden.
 
 ### B. Predictive performance and interpretation
 
-RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [20]. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [19]. Only 67 events informed these checks [21]. Most adults in even the highest-risk bin reported receipt.
+RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. Its Table VII interval, 0.687–0.814, lies above 0.5 for these fixed predictions. The interval still describes ranking, not accuracy at a cutoff. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [20]. Its interval, 0.139–0.292, lies above that event rate. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. The two Brier intervals overlap, and no interval was calculated for the difference. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [19]. Only 67 events informed these checks [21]. Most adults in even the highest-risk bin reported receipt.
 
-Table VIII separates sample, predictor and evaluation changes. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [22], [23].
+The Table VII intervals resample fixed out-of-fold predictions by household. They are not the survey approximation in Section V.A. They are not the Wald intervals around the full-sample odds ratios.
+
+Table VIII separates sample, predictor and evaluation changes. It reports point estimates only. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [22], [23].
 
 ### C. Technical verification, separate from usability
 

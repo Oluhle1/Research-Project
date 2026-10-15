@@ -311,10 +311,32 @@ comparisons**, with zero failures and **317 register rows**. Pages 5, 7 and 8
 were inspected. See [point 5 revision](supervisor_point5_revision.md) and
 [point 5 validation](supervisor_point5_validation.json).
 
+## Point 6: results-table readability and uncertainty interpretation
+
+> Tables IV–VIII: Review the presentation of statistical results, improve
+> table readability and ensure that uncertainty estimates and performance
+> measures are interpreted appropriately.
+
+**Status: revised and checked; awaiting user review.** Tables IV–VIII keep
+their displayed counts, rates and performance values. The notes and the
+surrounding prose now say how to read nested counts, group composition, point
+estimates and three separate uncertainty calculations. The survey
+approximation, the household resampling of fixed predictions, and the
+full-sample Wald intervals are not treated as the same interval. Table VI and
+Table VIII performance columns are point estimates without intervals. Column
+widths keep the counts and Table VII intervals on one line. No model, screen
+or application run was repeated. The Word export remains nine Letter pages.
+
+The current paper has **6,588 whitespace tokens** and the unchanged **141-word
+abstract**. Fresh checks passed **209 numerical and 103 supporting
+comparisons**, with zero failures and **317 register rows**. Pages 5, 6 and 7
+were inspected. See [point 6 revision](supervisor_point6_revision.md) and
+[point 6 validation](supervisor_point6_validation.json).
+
 ## Remaining supervisor points
 
 Point 3 remains addressed within research scope and awaits user review.
-Points 4 and 5 are revised and await user review. Points 6–10 remain pending.
+Points 4, 5 and 6 are revised and await user review. Points 7–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
@@ -322,12 +344,12 @@ Points 4 and 5 are revised and await user review. Points 6–10 remain pending.
 | 3 | Historical thresholds, partnership assumptions and spouse resources | Addressed within research scope; operative formula/rates and research choices documented; awaiting user review |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Revised and checked against frozen outputs; awaiting user review |
 | 5 | Technical verification versus participant usability | Revised in Sections IV and VI.C; awaiting user review |
-| 6 | Results-table readability and uncertainty interpretation | Pending |
+| 6 | Results-table readability and uncertainty interpretation | Revised in Tables IV–VIII and Sections V and VI; awaiting user review |
 | 7 | Associations versus prediction and causal explanation | Pending |
 | 8 | Formal institutional ethics and secondary-data governance clarification | Pending |
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is user review of points 3, 4 and 5. Points 6–10 have not been advanced.
+The next action is user review of points 3, 4, 5 and 6. Points 7–10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

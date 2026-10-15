@@ -29,10 +29,12 @@ Point 4 is revised in Section III.D: household-grouped cross-validation,
 training-fold preprocessing and the limits of the fixed-prediction bootstrap
 intervals are specified from the saved procedure. Point 5 is revised in
 Sections IV and VI.C: technical software verification is distinguished from
-usability evaluation, and the paper makes no user-experience claim. Points
-6–10 remain pending.**
+usability evaluation, and the paper makes no user-experience claim. Point 6
+is revised for Tables IV–VIII: nested counts, group composition, point
+estimates and the three uncertainty calculations are distinguished, and the
+value columns were widened. Points 7–10 remain pending.**
 
-The current paper has **6,002 whitespace tokens**, a **141-word abstract**,
+The current paper has **6,588 whitespace tokens**, a **141-word abstract**,
 a **408-word III.B** and a **422-word III.D**, with **nine Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -41,10 +43,9 @@ new source 29 is published 26, base source 28 is published 27 and new source 30
 is published 28. The original 25 reference strings and 18 DOI entries remain
 unchanged; this does not independently corroborate journal contents. Visible
 fonts remain 10/9/8 points. Reference leading remains the tighter point 4
-setting. The user deferred the eight-page limit, so the point 5 prose is kept
-and the Word export is nine Letter pages. The point 5 check passed **209
+setting. The user deferred the eight-page limit. The point 6 check passed **209
 numerical and 103 supporting comparisons**, with **zero failures, 317
-claim-register rows and four documented limits**. Pages 5, 7 and 8 of the Word
+claim-register rows and four documented limits**. Pages 5, 6 and 7 of the Word
 export were inspected; no separate second-reviewer pass is claimed for this
 revision. The D074 primary and independent reviews remain historical. Archived
 D073 checks retain their dated scope. No screening rerun, model

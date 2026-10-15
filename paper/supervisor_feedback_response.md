@@ -289,23 +289,45 @@ numerical and 103 supporting comparisons**, with zero failures and **317
 register rows**. See [point 4 revision](supervisor_point4_revision.md) and
 [point 4 validation](supervisor_point4_validation.json).
 
+## Point 5: technical verification versus participant usability
+
+> Sections IV and VI.C (Software Evaluation): Distinguish technical software
+> verification from usability evaluation. Avoid claims about user experience or
+> usability without independent participant-based evidence.
+
+**Status: revised and checked; awaiting user review.** Sections IV and VI.C now
+separate technical software checks from usability evaluation. The completed
+evidence is repetition and the presence of explanations in the program. The
+owner walkthrough is technical evidence from the author, not an independent
+participant. The written protocol has not been used. Participant usability
+remains untested, and the paper makes no claim about user experience, ease of
+use, acceptance or success in ordinary work. Table IX is unchanged. No model,
+screen or application run was repeated. The added prose makes the Word export
+nine Letter pages. The user deferred the page limit and later format edits.
+
+The current paper has **6,002 whitespace tokens** and the unchanged **141-word
+abstract**. Fresh checks passed **209 numerical and 103 supporting
+comparisons**, with zero failures and **317 register rows**. Pages 5, 7 and 8
+were inspected. See [point 5 revision](supervisor_point5_revision.md) and
+[point 5 validation](supervisor_point5_validation.json).
+
 ## Remaining supervisor points
 
 Point 3 remains addressed within research scope and awaits user review.
-Point 4 is revised and awaits user review. Points 5–10 remain pending.
+Points 4 and 5 are revised and await user review. Points 6–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
 | 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
 | 3 | Historical thresholds, partnership assumptions and spouse resources | Addressed within research scope; operative formula/rates and research choices documented; awaiting user review |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Revised and checked against frozen outputs; awaiting user review |
-| 5 | Technical verification versus participant usability | Pending |
+| 5 | Technical verification versus participant usability | Revised in Sections IV and VI.C; awaiting user review |
 | 6 | Results-table readability and uncertainty interpretation | Pending |
 | 7 | Associations versus prediction and causal explanation | Pending |
 | 8 | Formal institutional ethics and secondary-data governance clarification | Pending |
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is user review of points 3 and 4. Points 5–10 have not been advanced.
+The next action is user review of points 3, 4 and 5. Points 6–10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

@@ -279,13 +279,13 @@ node paper/build_ieee.js --publication
 Build native PDFs with Python and a TeX installation providing `pdflatex`:
 
 ```text
-python paper/build_ieee_pdf.py --output-dir .local/ieee-honours --balance-at-reference 9 --compile
-python paper/build_ieee_pdf.py --output-dir .local/ieee-publication --publication --balance-at-reference 9 --compile
+python paper/build_ieee_pdf.py --output-dir .local/ieee-honours --balance-at-reference 23 --compile
+python paper/build_ieee_pdf.py --output-dir .local/ieee-publication --publication --balance-at-reference 23 --compile
 ```
 
 Each directory receives its own `Jawe_OPG_nonreceipt_KZN.pdf`, TeX source and
 build manifest. The checked builds use IEEEtran's documented last-page column
-break before reference 9. The checked copies are linked above. The renderer copies the
+break before reference 23. The checked copies are linked above. The renderer copies the
 vendored [unmodified IEEEtran class](ieee_template/README.md); it does not
 run analyses or regenerate figure assets. Inspect a rebuilt PDF before using it.
 
@@ -316,7 +316,7 @@ rerender and independent visual review are recorded in final review validation.
 Current D-075 evidence is [final review validation](final_peer_review_validation.json)
 and the [final assessment](final_peer_review.md): 209 numerical and 103
 supporting comparisons pass, with zero failures, 317 register rows and four
-limits. The two native PDFs are eight pages. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer. The following D-074 and earlier audit
+limits. The two native PDFs are nine Letter pages after the recorded search table. An earlier independent review covered the previous eight-page render; it does not cover these nine-page PDFs. The following D-074 and earlier audit
 accounts remain historical; their saved passes do not certify D-075.
 
 `manuscript_validation.json` records the checked artifact hashes, page limit,

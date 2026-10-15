@@ -483,8 +483,8 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
     check("II.A / review provenance", "Submission 1 source PDF identity", proposal,
           digest(source(proposal)) == "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32",
           "Identity with the supplied approved proposal is checked; this is not reproduction of review screening decisions.")
-    limit("II.A", "Reported review flow: 511 −136 =375 −222 =153 −98 =55", proposal + "; II Literature Review / review selection narrative",
-          "Counts are reported in Submission 1 and arithmetically consistent. Database exports, screening log and 55-source extraction log are not archived; not independently reproduced and not 55 OPG-only studies.", "Approved proposal; no new search")
+    limit("II.A", "Reported review flow: 511 −136 =375 −222 =153 −98 =55", proposal + "; literature workbook 17 August 2026; manuscript II.A",
+          "The manuscript reports the workbook's Boolean strings, 17 August 2026 search date, hit counts and kept counts. The screening log has 375 unique records, 222 title/abstract exclusions, 153 full texts (128 included plus 25 uncertain) and 55 inclusions. Databases were not re-run for this revision. The 55 sources are not 55 OPG-only studies.", "Author workbook; no new database run")
     limit("VII", "DUT ethics approval/exemption status", "No institutional ethics determination in project record",
           "No approval, exemption or consent determination is documented; supervisor/official confirmation remains required.")
     limit("III.B / VII", "Full statutory eligibility and current release/disclosure permission", "paper/historical_thresholds_verified_audit.json; specification/phase3_cohort.md; original licence/disclosure conditions",

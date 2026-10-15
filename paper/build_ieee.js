@@ -52,7 +52,8 @@ function grid(headers,rows){
                    headers[0]==='Characteristic'?[1640,1700,1700]:
                    headers[0]==='Metric'?[1560,2040,1440]:
                    headers[0]==='Data concept'?[1450,1670,1920]:
-                   headers[0]==='Evidence'?[1460,1480,2100]:[2940,1050,1050];
+                   headers[0]==='Evidence'?[1460,1480,2100]:
+                   headers[0]==='Search'?[520,980,420,420,2700]:[2940,1050,1050];
     if(widths.reduce((a,b)=>a+b,0)!==COLUMN) throw new Error('Bad table widths');
     return new Table({width:{size:COLUMN,type:WidthType.DXA},columnWidths:widths,
       layout:TableLayoutType.FIXED,
@@ -86,6 +87,15 @@ for(let i=titleEnd;i<lines.length;i++){
     const line=lines[i];if(!line.trim())continue;
     if(line.startsWith('## ')){body.push(heading(line.slice(3),1));continue;}
     if(line.startsWith('### ')){body.push(heading(line.slice(4),2));continue;}
+    if(line.startsWith('RECORD: ')){
+      body.push(paragraph(line.slice(8),{keepNext:true,alignment:AlignmentType.CENTER,
+        spacing:{before:80,after:40,line:200,lineRule:LineRuleType.AUTO},run:{size:16,italics:true}}));
+      const tableLines=[];
+      while(i+1<lines.length&&lines[i+1].startsWith('|'))tableLines.push(lines[++i]);
+      const cells=tableLines.map(s=>s.split('|').slice(1,-1).map(v=>v.trim()));
+      if(!cells[1]||!cells[1].every(c=>/^:?-+:?$/.test(c.replace(/\s/g,''))))throw new Error('Search-record separator');
+      body.push(grid(cells[0],cells.slice(2)));continue;
+    }
     if(line.startsWith('TABLE: ')){
       const tableCaption=line.slice(7).replace(/^Table ([IVX]+)\. /,'TABLE $1\n');
       body.push(paragraph(tableCaption,{keepNext:true,alignment:AlignmentType.CENTER,

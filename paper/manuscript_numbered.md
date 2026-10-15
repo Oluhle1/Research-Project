@@ -22,9 +22,21 @@ RQ1 asks how common reported non-receipt is among screen-PASS adults with resolv
 
 ### A. Review Approach, Programme Context and Research Gap
 
-The narrative review drew on Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst. Searches covered social assistance, eligibility, take-up, non-receipt, exclusion and prediction. Studies differed in programme, population, unit and outcome, preventing pooled estimates.
+The narrative review examined grant access, eligibility measurement and prediction. On 17 August 2026, eight searches were run and logged. Web of Science was not searched: DUT could not authenticate it that day, and Dimensions was used instead. A record was kept when it concerned grant access, exclusion, take-up or targeting, or classification of household-survey data; was in English; and was a peer-reviewed article, thesis or institutional report. Empirical studies were limited to 2015–2026. Foundational theory was exempt from that year limit. South African evidence was preferred. Studies differed in programme, population, unit and outcome, preventing pooled estimates.
 
-Review records report 511 items: 136 duplicates removed, 375 titles/abstracts screened, 222 exclusions, 153 full-text assessments, 98 further exclusions and 55 retained sources across grants and populations. Queries, search dates/filters, exports, item-level decisions and the full extraction register are unavailable. These aggregate counts cannot establish reproducible selection or exhaustive coverage.
+RECORD: Recorded searches, 17 August 2026. A repeated record is counted under the earliest search, so the kept column sums to 55.
+| Search | Source | Hits | Kept | Query |
+| --- | --- | --- | --- | --- |
+| S1 | Scopus | 43 | 9 | TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection") AND (exclusion OR "non-take-up" OR "take-up" OR "coverage gap*" OR "targeting error*" OR "access barrier*") AND ("South Africa*" OR "KwaZulu-Natal")) |
+| S1b | Scopus, widened | 149 | 10 | TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection" OR "social security" OR SASSA OR "child support grant" OR "social relief of distress" OR SRD) AND (exclusion OR exclud* OR "non-take-up" OR "take-up" OR uptake OR "coverage gap*" OR "targeting error*" OR "access barrier*" OR "non-receipt" OR eligib*) AND ("South Africa*" OR "KwaZulu-Natal")) |
+| S2 | Scopus, method | 100 | 11 | TITLE-ABS-KEY(("machine learning" OR "random forest" OR XGBoost OR "gradient boosting" OR "proxy means test*" OR "predictive model*") AND (poverty OR "social protection" OR "social assistance" OR "cash transfer*" OR "food insecur*") AND ("household survey" OR "survey data" OR "household data")) AND NOT TITLE-ABS-KEY(cancer OR tumour OR HIV OR malaria OR clinical OR patient*) |
+| S3 | Dimensions | 36 | 5 | ("social grant" OR "social assistance" OR "cash transfer" OR "social protection") AND (exclusion OR "take-up" OR "non-receipt" OR "access barriers") AND ("South Africa" OR "KwaZulu-Natal") |
+| S4 | IEEE Xplore | 47 | 0 | ("machine learning" OR "classification") AND ("poverty" OR "social welfare" OR "socioeconomic") AND ("survey data") |
+| S5 | SABINET/AJOL | 100 | 9 | social grant AND exclusion AND (KwaZulu-Natal OR "South Africa") |
+| S6 | Google Scholar | 35 | 11 | "social grant" exclusion "South Africa" -site:pinterest.com |
+| S7 | DataFirst/Stats SA | 1 | 0 | Living Conditions Survey 2014/2015 metadata KwaZulu-Natal |
+
+The eight searches returned 511 records. After 136 duplicates were removed, 375 unique records remained. Title and abstract screening excluded 222. Full texts were assessed for 153 records, including 25 left uncertain at title and abstract. Full-text review excluded 98 and retained 55. Those 55 sources cover several grants and populations, rather than 55 OPG studies.
 
 Table I distinguishes individual receipt [3] from household proportions [4], and this study’s provincial resource screen from both. Other-grant studies separate enquiry, application, receipt and uninterrupted payment [6], [7], [8].
 

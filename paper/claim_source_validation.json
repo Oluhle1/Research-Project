@@ -2,7 +2,7 @@
   "status": "passed",
   "checked_at": "2026-10-15T18:39:47.020094+00:00",
   "manuscript_path": "paper/manuscript.md",
-  "manuscript_sha256": "5f47d58ecf892db399544b4b514356dd3403eb6db64f4979a11293f7e214527b",
+  "manuscript_sha256": "13e59c96dd0a8f5762189dcdbc0deb522438a080950be784bd742a0a147ec8b1",
   "numeric_comparisons": 209,
   "passed": 209,
   "failed": 0,
@@ -68,7 +68,7 @@
   "manuscript_edited": false,
   "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records. Operative formula/rates and selected spouse/minimum clauses are verified in the separate D-074 source audit; this verifier does not repeat those source checks or supply original article corroboration, exhaustive legal consolidation, statutory eligibility, disclosure, ethics, portal or review-log confirmation.",
   "verifier": "paper/verify_claims.py",
-  "verifier_sha256": "5960f9c5bbacc600a529a73ff17006f20eaa77e5a25a0ad4f971dce12fc4ed95",
+  "verifier_sha256": "f08479ebb1002d3c2e39efb0acb5cf0b4f69fdc09a57d61b1df142b42e211c88",
   "register": "paper/claim_source_register.csv",
   "register_rows": 317,
   "supporting_comparisons": 103,
@@ -77,8 +77,8 @@
   "limitations": [
     {
       "claim": "Reported review flow: 511 −136 =375 −222 =153 −98 =55",
-      "source": "21634436_Oluhle_Jawe_Submission_1.pdf; II Literature Review / review selection narrative",
-      "limitation": "Counts are reported in Submission 1 and arithmetically consistent. Database exports, screening log and 55-source extraction log are not archived; not independently reproduced and not 55 OPG-only studies."
+      "source": "21634436_Oluhle_Jawe_Submission_1.pdf; literature workbook 17 August 2026; manuscript II.A",
+      "limitation": "The manuscript reports the workbook's Boolean strings, 17 August 2026 search date, hit counts and kept counts. The screening log has 375 unique records, 222 title/abstract exclusions, 153 full texts (128 included plus 25 uncertain) and 55 inclusions. Databases were not re-run for this revision. The 55 sources are not 55 OPG-only studies."
     },
     {
       "claim": "DUT ethics approval/exemption status",

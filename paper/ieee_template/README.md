@@ -55,7 +55,7 @@ submission IDs, page-number requirements or ethics approval.
 From the Research-Project repository root:
 
 ```text
-python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --balance-at-reference 9 --compile
+python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --balance-at-reference 23 --compile
 ```
 
 The optional `--publication` flag omits the student/module line only. No author
@@ -63,4 +63,4 @@ is anonymised and no email, ORCID or affiliation is invented. The generated
 manifest binds the exact source, reference catalog, class and four figures to
 each built PDF. The renderer does not edit any manuscript or run any analysis.
 
-The final 5,064-word source produces **eight Letter pages**, including all nine tables, four figures and 28 references, in both the honours and publication profiles. Both compilation passes succeed without overfull boxes, undefined citations or missing-character warnings. All fonts are embedded. The native `--balance-at-reference 9` option uses IEEEtran’s documented reference-column balancing mechanism; it changes no font, margin or line spacing. Final source and PDF hashes and visual-review results appear in [the review validation](../final_peer_review_validation.json).
+The current 5,457-word source produces **nine Letter pages**, including the unnumbered search record, nine numbered tables, four figures and 28 references, in both the honours and publication profiles. The native `--balance-at-reference 23` option uses IEEEtran’s documented reference-column balancing mechanism; it changes no font, margin or line spacing. Final source and PDF hashes and visual-review results appear in [the review validation](../final_peer_review_validation.json).

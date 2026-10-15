@@ -2,16 +2,16 @@
   "checked_at_utc": "2026-10-15T18:47:44.020049+00:00",
   "client_timezone": "Africa/Johannesburg",
   "decision": "D075",
-  "status": "Editorial, evidence and eight-page IEEE checks passed; author review and institutional/data-governance confirmation remain outstanding; not submitted",
+  "status": "Evidence checks passed. The recorded 17 August 2026 search table makes the current native PDFs nine Letter pages; the eight-page image hashes below belong to the previous render. Author review and institutional/data-governance confirmation remain outstanding; not submitted",
   "baseline_commit": "809ccc18e98bd307100210dd39d4799543fd3eba",
   "baseline_source_words": 7006,
   "baseline_pdf_pages": 10,
-  "manuscript_words_whitespace_tokens": 5064,
+  "manuscript_words_whitespace_tokens": 5457,
   "abstract_words": 141,
   "III_B_words": 408,
   "III_D_words": 327,
   "maximum_pages": 8,
-  "pdf_pages": 8,
+  "pdf_pages": 9,
   "sections": [
     "I",
     "II",
@@ -33,12 +33,12 @@
   "doi_metadata_entries_retained": 18,
   "profiles": {
     "Jawe_OPG_nonreceipt_KZN": {
-      "pdf_pages": 8,
+      "pdf_pages": 9,
       "docx_checked_render_pages": 8,
-      "pdf_sha256": "6442f865df63dfda2bdb4a571a2efdb4ffd97b56efd0f2e6f59721ce2277a161",
-      "docx_sha256": "e39000fcd08a2bfcdf4a481ed3f6c314a138b66aca2dadc16f356571722f971e",
+      "pdf_sha256": "3344f76413149c13d8830ddad9bfce115e28badadc8f5c8ea475b09b5f13b355",
+      "docx_sha256": "117a82b3456d1e93699167f6de0f25a892a6af4727851d1e3f6c96cbc43c8678",
       "native_ieee_manifest": {
-        "source_sha256": "5f47d58ecf892db399544b4b514356dd3403eb6db64f4979a11293f7e214527b",
+        "source_sha256": "13e59c96dd0a8f5762189dcdbc0deb522438a080950be784bd742a0a147ec8b1",
         "references_sha256": "069951889dbdf8af912fc2083517edc31a5ca061cd1830b0fb229ffaa94e64cb",
         "class_sha256": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
         "class": "IEEEtran 2015/08/26 V1.8b, unmodified",
@@ -47,7 +47,7 @@
           "conference",
           "letterpaper"
         ],
-        "source_words": 5064,
+        "source_words": 5457,
         "tables": 9,
         "figures": {
           "figures/conceptual_framework.png": "46b7562e68dc1e73b505f98f268be36dbb04b890d9d0b177db5dbdd6c96aec19",
@@ -86,24 +86,24 @@
           30
         ],
         "student_course_line_omitted": false,
-        "column_balance_trigger_at_published_reference": 9,
+        "column_balance_trigger_at_published_reference": 23,
         "float_barrier_before_references": true,
         "portable_tex_uses_copied_figures_and_class": true,
         "no_geometry_font_scale_or_vertical_spacing_overrides": true,
         "table_font": "IEEEtran small: 9pt / 10pt baseline; three-point cell padding",
-        "pdf_sha256": "6442f865df63dfda2bdb4a571a2efdb4ffd97b56efd0f2e6f59721ce2277a161"
+        "pdf_sha256": "3344f76413149c13d8830ddad9bfce115e28badadc8f5c8ea475b09b5f13b355"
       },
-      "independent_all_eight_pages_visual_review": "passed",
+      "independent_all_eight_pages_visual_review": "previous eight-page render only; not this nine-page PDF",
       "all_fonts_embedded": true,
       "overfull_or_missing_glyph_warnings": 0
     },
     "Jawe_OPG_nonreceipt_KZN_publication": {
-      "pdf_pages": 8,
+      "pdf_pages": 9,
       "docx_checked_render_pages": 8,
-      "pdf_sha256": "99ec7f09ae1c87f1b0eb50bdbf2e5e1604408a9321768c8efeb074cd4b2255e2",
-      "docx_sha256": "01d6f94169af9d64d7de2dd2be647b75fc38f64bfb9e6d12b465eb6944504db2",
+      "pdf_sha256": "dc718647175c1ecb33fba385deceaaf0a3faa8c992da8d26c4b221ce6de79c05",
+      "docx_sha256": "a2865fd76006dcfd870ce6bf7373398010eb7964f74757e35571a413f66bff7e",
       "native_ieee_manifest": {
-        "source_sha256": "5f47d58ecf892db399544b4b514356dd3403eb6db64f4979a11293f7e214527b",
+        "source_sha256": "13e59c96dd0a8f5762189dcdbc0deb522438a080950be784bd742a0a147ec8b1",
         "references_sha256": "069951889dbdf8af912fc2083517edc31a5ca061cd1830b0fb229ffaa94e64cb",
         "class_sha256": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
         "class": "IEEEtran 2015/08/26 V1.8b, unmodified",
@@ -112,7 +112,7 @@
           "conference",
           "letterpaper"
         ],
-        "source_words": 5064,
+        "source_words": 5457,
         "tables": 9,
         "figures": {
           "figures/conceptual_framework.png": "46b7562e68dc1e73b505f98f268be36dbb04b890d9d0b177db5dbdd6c96aec19",
@@ -151,14 +151,14 @@
           30
         ],
         "student_course_line_omitted": true,
-        "column_balance_trigger_at_published_reference": 9,
+        "column_balance_trigger_at_published_reference": 23,
         "float_barrier_before_references": true,
         "portable_tex_uses_copied_figures_and_class": true,
         "no_geometry_font_scale_or_vertical_spacing_overrides": true,
         "table_font": "IEEEtran small: 9pt / 10pt baseline; three-point cell padding",
-        "pdf_sha256": "99ec7f09ae1c87f1b0eb50bdbf2e5e1604408a9321768c8efeb074cd4b2255e2"
+        "pdf_sha256": "dc718647175c1ecb33fba385deceaaf0a3faa8c992da8d26c4b221ce6de79c05"
       },
-      "independent_all_eight_pages_visual_review": "passed",
+      "independent_all_eight_pages_visual_review": "previous eight-page render only; not this nine-page PDF",
       "all_fonts_embedded": true,
       "overfull_or_missing_glyph_warnings": 0
     }
@@ -227,8 +227,8 @@
     "supporting_failed": 0,
     "register_rows": 317,
     "documented_limits": 4,
-    "manuscript_sha256": "5f47d58ecf892db399544b4b514356dd3403eb6db64f4979a11293f7e214527b",
-    "verifier_sha256": "5960f9c5bbacc600a529a73ff17006f20eaa77e5a25a0ad4f971dce12fc4ed95"
+    "manuscript_sha256": "13e59c96dd0a8f5762189dcdbc0deb522438a080950be784bd742a0a147ec8b1",
+    "verifier_sha256": "f08479ebb1002d3c2e39efb0acb5cf0b4f69fdc09a57d61b1df142b42e211c88"
   },
   "format": {
     "class": "IEEEtran V1.8b, unmodified",
@@ -573,7 +573,7 @@
     "path": "paper/Jawe_OPG_nonreceipt_KZN_IEEE_source.zip",
     "files": 8,
     "survey_or_respondent_data_included": false,
-    "relocated_final_source_compilation": "passed twice; eight pages; only bundled TeX/class/figures required"
+    "relocated_final_source_compilation": "Publication source rebuilt with the search record; nine Letter pages; balance before reference 23; only bundled TeX/class/figures required"
   },
   "remaining_before_external_submission": [
     "Author/supervisor review of final paper",
@@ -588,25 +588,25 @@
     "prior_eight_page_limit_deferral_superseded_by_latest_user_requirement": true
   },
   "sha256": {
-    "paper/manuscript.md": "5f47d58ecf892db399544b4b514356dd3403eb6db64f4979a11293f7e214527b",
-    "paper/manuscript_numbered.md": "fcbe04c45088e1c839104b5fdcc47bea6683a069166e65be0c361065fb299da8",
+    "paper/manuscript.md": "13e59c96dd0a8f5762189dcdbc0deb522438a080950be784bd742a0a147ec8b1",
+    "paper/manuscript_numbered.md": "757fcd54bf982af74aede6ad0fdd39c20283a7c57fa10f6b3eb7c9a3d644e145",
     "paper/references.json": "069951889dbdf8af912fc2083517edc31a5ca061cd1830b0fb229ffaa94e64cb",
     "paper/citation_map.json": "e52445b29ffa0a769e7822faba164ea200bcbc4b36a39aae18b4c94560f4d61c",
-    "paper/build_ieee.js": "94099b324e9b1bfb980d8778ec83a3ab87026f4d3e21f8ed756d12df1de16a08",
-    "paper/build_ieee_pdf.py": "cb504f6ae552eafc3ea38337ad15448da7a7fe9480bd093a6fa3f821854e5612",
-    "paper/verify_claims.py": "5960f9c5bbacc600a529a73ff17006f20eaa77e5a25a0ad4f971dce12fc4ed95",
+    "paper/build_ieee.js": "ad3d86e86d776b0e9fc85c4ed9c0d8b51d9b5185552f0b7b99e7bf2e8b10f67b",
+    "paper/build_ieee_pdf.py": "e6136c9554dd3fbb44283b7cad688470f8f48226b8b24fe39e1b8a30422d00e3",
+    "paper/verify_claims.py": "f08479ebb1002d3c2e39efb0acb5cf0b4f69fdc09a57d61b1df142b42e211c88",
     "paper/ieee_template/IEEEtran.cls": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
-    "paper/ieee_template/README.md": "d38d94124b050d440603793d174f79fc909f9d1be669caa0966346b3293ba04b",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "6442f865df63dfda2bdb4a571a2efdb4ffd97b56efd0f2e6f59721ce2277a161",
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "e39000fcd08a2bfcdf4a481ed3f6c314a138b66aca2dadc16f356571722f971e",
-    "paper/Jawe_OPG_nonreceipt_KZN_publication.pdf": "99ec7f09ae1c87f1b0eb50bdbf2e5e1604408a9321768c8efeb074cd4b2255e2",
-    "paper/Jawe_OPG_nonreceipt_KZN_publication.docx": "01d6f94169af9d64d7de2dd2be647b75fc38f64bfb9e6d12b465eb6944504db2",
-    "paper/Jawe_OPG_nonreceipt_KZN_IEEE_source.zip": "ff1e43467fe83a3de46d9a41edc030922d125628970ef0095c2dd00391fa4a5d",
-    "paper/final_peer_review.md": "654c746ecb54f48ea9eaacab72e0009dfaa8a55def3fb40159ea442c46496992",
+    "paper/ieee_template/README.md": "b46f61508fd54532b70333be15e41eee3e7c28962d5216e4ff1ff273697db181",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "3344f76413149c13d8830ddad9bfce115e28badadc8f5c8ea475b09b5f13b355",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "117a82b3456d1e93699167f6de0f25a892a6af4727851d1e3f6c96cbc43c8678",
+    "paper/Jawe_OPG_nonreceipt_KZN_publication.pdf": "dc718647175c1ecb33fba385deceaaf0a3faa8c992da8d26c4b221ce6de79c05",
+    "paper/Jawe_OPG_nonreceipt_KZN_publication.docx": "a2865fd76006dcfd870ce6bf7373398010eb7964f74757e35571a413f66bff7e",
+    "paper/Jawe_OPG_nonreceipt_KZN_IEEE_source.zip": "c5870ff2f627a74841f33a7e09515f29de005d84e6603af21d4275ee53f46785",
+    "paper/final_peer_review.md": "2353e9bc815e8a81c60171043af457a92d44d2d16660302365ed12cec3e68397",
     "paper/empirical_expansion_validation.json": "426ed827c52c44ef371594befc45e8badd95d72e1c7e06156bb8edb06484552e",
-    "paper/claim_source_validation.json": "fddf46dbe1f91d9bc630b800e6bc33a501ad160733e230006417d9900ccf76bc",
-    "paper/claim_source_register.csv": "76885f2fe960664a78832134b71763b28c12070f163b49059d9bbd5683904305",
-    "paper/README.md": "9e95fd3c779a3bdd53af6b9ce95702ddaa0bd2fcd191027647967a8501f8f83e",
+    "paper/claim_source_validation.json": "cdd90935c9d07ea5163056b52a3c7bd1a5069575da7c4736bc5ef2b20f532fbe",
+    "paper/claim_source_register.csv": "005c8b3112ffee5881129d3fb774f8f4359b8cad0a20246cb1adb68a6e29927d",
+    "paper/README.md": "d12a6d3ff2e2b4f6529b7f302ce39a2ebdef8fc97f3d0c047bf15088f76f7ab7",
     "paper/feedback_response.md": "35a2d5e21cddc877ca5f087aef24cb4c4cedea8af748048685ce8297d5525868",
     "paper/targeted_revision_response.md": "1950f88d746b218503c929d934e0c0cb10ca630f66f9e9b3f319b38ffe67290a",
     "paper/supervisor_feedback_response.md": "09bae83b8290ba98dfa58de22d6232b846cb1d601bf3dcc2de88c55cf2f8b063",

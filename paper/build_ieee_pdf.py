@@ -87,6 +87,33 @@ def reference_text(entry: str) -> str:
     return result.replace("et al.", r"\emph{et al.}")
 
 
+def search_record(caption: str, headers: list[str], rows: list[list[str]]) -> str:
+    """Unnumbered search grid. It must not change the numbering of Tables I–IX."""
+    if headers != ["Search", "Source", "Hits", "Kept", "Query"]:
+        raise ValueError("Unexpected search-record columns")
+    if any(len(row) != 5 for row in rows):
+        raise ValueError("Inconsistent search-record row")
+    spec = (
+        r">{\raggedright\arraybackslash}p{0.38in}"
+        r">{\raggedright\arraybackslash}p{1.05in}"
+        r"rr>{\raggedright\arraybackslash}X"
+    )
+    # Full-width and uncaptioned, so Tables I–IX keep their numbers.
+    body = [
+        r"\begin{table*}[!t]",
+        r"\centering\footnotesize\setlength{\tabcolsep}{3pt}",
+        r"\textit{" + inline(caption) + r"}\par",
+        r"\begin{tabularx}{\textwidth}{" + spec + "}",
+        r"\hline",
+        " & ".join(r"\textbf{" + inline(value) + "}" for value in headers) + r" \\",
+        r"\hline",
+    ]
+    for row in rows:
+        body.append(" & ".join(inline(value) for value in row) + r" \\")
+    body.extend([r"\hline", r"\end{tabularx}", r"\end{table*}", ""])
+    return "\n".join(body)
+
+
 def table(caption: str, headers: list[str], rows: list[list[str]], notes: list[str]) -> str:
     n = len(headers)
     if any(len(row) != n for row in rows):
@@ -188,6 +215,14 @@ def build(paper_dir: Path, output_dir: Path, class_file: Path, publication: bool
         elif line.startswith("### "):
             section = re.sub(r"^[A-Z]\.\s*", "", line[4:])
             out.append(r"\subsection{" + escaped(section) + "}")
+        elif line.startswith("RECORD: "):
+            table_lines = []
+            while i < len(lines) and lines[i].startswith("|"):
+                table_lines.append([part.strip() for part in lines[i].split("|")[1:-1]])
+                i += 1
+            if len(table_lines) < 2 or not all(re.fullmatch(r":?-+:?", cell) for cell in table_lines[1]):
+                raise ValueError("Malformed search-record table")
+            out.append(search_record(line[8:], table_lines[0], table_lines[2:]))
         elif line.startswith("TABLE: "):
             table_lines = []
             while i < len(lines) and lines[i].startswith("|"):

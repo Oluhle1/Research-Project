@@ -310,3 +310,38 @@ gap remains unresolved.** The manuscript, DOCX/PDF, citation count and scientifi
 outputs remain unchanged. No remote requests, model runs or application tests
 were performed for this supplement. The JSON ledger records the comparison and
 page locations; the original D072 review and its dated counts remain intact.
+
+## Supplement: original 2004 Act, 15 October 2026
+
+The subsequently uploaded `a13-040.pdf` contains the original **Social Assistance
+Act 13 of 2004**, published under GN 714 in GG 26446 on 10 June 2004. The retained
+[Act PDF](legal_sources/2004_Act13_GG 26446.pdf) has 16 physical pages and SHA-256
+`456ec022a36cd6ebb22bdd94c6bd3c2b25ad03fbd747a264de6b5b33bb548d77`.
+Primary and independent reviewers checked the original pages. The printed cover
+and headers control the identity: the embedded metadata's different Gazette
+number/date (26502/24 June 2004) is incorrect. The cover matches the manuscript's
+existing reference [5], stable source ID1; no citation edit is required.
+
+Section 5(2)(a)–(b), physical PDF page 6/Gazette page 10, authorises the Minister to
+prescribe conditions concerning income thresholds and means testing. Section 32,
+physical PDF page 16/Gazette page 30, governs regulation-making and Finance
+concurrence for specified grant amounts/payments and eligibility conditions.
+These enabling provisions do not contain the 1.6 formula, R100 minimum or
+2014/2015 grant-rate schedule. The document is the Act, not GN R898/2008's
+regulations or the missing intervening formula amendment.
+
+Two original-version limits matter. Section 10 on PDF page 6/Gazette page 10 says
+women must have attained 60 and men 65 in this original 2004 text; it cannot
+authenticate the later all-sex age 60 rule without the relevant amended version.
+Section 34 on PDF page 16/Gazette page 30 leaves commencement to presidential
+proclamation; the Act's publication date must not be presented as its verified
+commencement. No later Act amendment or commencement proclamation was supplied
+in this PDF. No research age frame or other screening rule was changed.
+
+This fifth uploaded file adds the original enabling Act to the source evidence.
+The original D072 source-count fields retain their dated three-file/two-relevant-
+regulations scope; the full 2022 and original 2004 supplements are recorded
+separately. **The operative 2014–2015 historical chain remains incomplete.**
+The manuscript, DOCX/PDF, references and scientific outputs remain unchanged.
+No remote requests, model runs or application tests were performed for this
+supplement; the current artifact record retains and rechecks their hashes.

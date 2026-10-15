@@ -295,5 +295,44 @@
     "manuscript_or_published_artifact_changed": false,
     "remaining_need": "Correct 2008 base, operative intervening formula/means amendments and original 2014/2015 rate notices.",
     "conclusion": "Fuller copy of the same 2022 legal source; historical gap remains open."
+  },
+  "supplement_original_2004_act": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:06:28.465948+00:00",
+    "uploaded_filename": "a13-040.pdf",
+    "sediment_id": "file_000000002c508208ad888a2c6bcd1f76",
+    "repository_copy": "paper/legal_sources/2004_Act13_GG26446.pdf",
+    "sha256": "456ec022a36cd6ebb22bdd94c6bd3c2b25ad03fbd747a264de6b5b33bb548d77",
+    "pdf_pages": 16,
+    "identity": "Original Social Assistance Act 13 of 2004, GN714, GG26446, Volume468, 10 June 2004",
+    "assented_to_date": "2004-06-05",
+    "identity_source": "Printed cover and Act page headers; PDF metadata incorrectly gives GG26502/24 June 2004 and is not used as authority.",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_means agent",
+      "cover": "Physical PDF page1; Gazette cover, GN714/GG26446/10 June 2004.",
+      "eligibility_and_original_age": "Sections5 and10, physical PDF page6 / Gazette page10.",
+      "regulations_and_commencement": "Sections32 and34, physical PDF page16 / Gazette page30."
+    },
+    "verified_provisions": {
+      "5(2)(a)\u2013(b)": "Minister may prescribe additional requirements or conditions concerning income thresholds and means testing.",
+      "10": "Original wording: women60 and men65; later amended law must be examined for survey-period age rules.",
+      "32(1)\u2013(2)": "Minister makes regulations; Finance concurrence required for specified grant payments/maxima and eligibility conditions.",
+      "34": "Commencement on a date determined by the President by proclamation in the Gazette; this PDF does not provide that proclamation/date."
+    },
+    "existing_reference": {
+      "stable_source_id": 1,
+      "published_number": 5,
+      "metadata_matches_original_cover": true,
+      "reference_string_changed": false
+    },
+    "is_2008_GN_R898_regulations": false,
+    "is_intervening_formula_amendment": false,
+    "contains_research_formula_or_rate_schedule": false,
+    "historical_2014_2015_chain_confirmed": false,
+    "period_version_limit": "Original 2004 Act, not a consolidated Act authenticated as operative in October 2014\u2013October 2015. Later amendments/commencement evidence remain necessary for historical provisions.",
+    "manuscript_or_published_artifact_changed": false,
+    "science_code_or_cohort_changed": false,
+    "fresh_remote_requests": 0,
+    "conclusion": "Corroborates the existing Act citation and original enabling provisions; does not close the historical means-test formula/rate gap."
   }
 }

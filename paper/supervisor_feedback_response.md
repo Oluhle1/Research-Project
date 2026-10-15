@@ -1,5 +1,38 @@
 # Supervisor feedback: staged revision
 
+## Current D-075 whole-paper review — 15 October 2026
+
+The user confirmed the latest repository checkpoint `809ccc18`, including
+revisions through point 10. **All ten points have been reviewed in the
+integrated paper.** Point 8's formal DUT determination is still outstanding;
+editorial review does not supply institutional approval. The user's point 10
+record confirms Crossref metadata checks for 18 DOI entries. D-075 preserves
+that metadata and does not re-read journal findings.
+
+Final source: **5,064 tokens**, **141-word abstract**, **408-word III.B**,
+**327-word III.D**, nine tables, four figures and 28 active first-use references
+from 30 catalog entries (historical IDs 26/27 unused). Fresh verification
+passed **209 numerical and 103 supporting comparisons**, zero failures,
+317 rows and four limits. Both native PDFs have eight Letter pages using
+unmodified IEEEtran V1.8b in 10-point conference mode. Editable Word retains
+10/9/8-point fonts and single-line body/references; no font reduction was used.
+Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer.
+
+See [final assessment](final_peer_review.md), [final validation](final_peer_review_validation.json),
+[honours PDF](Jawe_OPG_nonreceipt_KZN.pdf), [honours Word](Jawe_OPG_nonreceipt_KZN.docx),
+[publication PDF](Jawe_OPG_nonreceipt_KZN_publication.pdf) and
+[publication Word](Jawe_OPG_nonreceipt_KZN_publication.docx). The publication
+copy omits only the course/student line. All nine table-cell contents,
+scientific code, results, model, data, figure assets and reference metadata
+are unchanged from `809ccc18`; no analysis/model/bootstrap/application-test
+suite was rerun.
+
+## Historical staged responses
+
+D-074 is archived at `f9bab60`; the user's `809ccc18` checkpoint had 7,006
+tokens and ten pages. The dated counts, pending-point statements and deferred
+page limit below describe those earlier stages, not the final D-075 paper.
+
 Revision date: **14 October 2026**. Source: the user-supplied
 `21634436 Feedback.docx`, read alongside the submitted draft PDF.
 The user requested one point at a time, with review before advancing.
@@ -228,9 +261,9 @@ projected backwards. These exact original provisions strengthen requests 2/3.
 At D073, requests 1/4 remained partial until the operative amendment/rate chain
 was read. D074 below closes that historical source gap.
 
-## D074: verified historical formula and rate sources, 15 October 2026
+## Historical D074: verified formula and rate sources, 15 October 2026
 
-The current **D074 revision, 15 October 2026**, closes the historical
+The historical **D074 revision, 15 October 2026**, closes the historical
 threshold-source gap within the research scope. **GG37474, 28 March 2014**,
 p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
 1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
@@ -249,7 +282,7 @@ statutory means test or validate every research partnership classification.
 **Supervisor point 3 is addressed within research scope and awaits user review;
 points 4–10 remain pending.**
 
-The current paper has **5,469 whitespace tokens**, a **141-word abstract**
+At this staged revision, the paper had **5,469 whitespace tokens**, a **141-word abstract**
 and **408-word III.B**, with **eight Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -283,7 +316,7 @@ preprocessing, refitting or Decision D-052. Reference leading was tightened so
 the manuscript remains eight Letter pages. No model, screen or application run
 was repeated.
 
-The current paper has **5,635 whitespace tokens**, the unchanged **141-word
+At this staged revision, the paper had **5,635 whitespace tokens**, the unchanged **141-word
 abstract**, and a **422-word Section III.D**. Fresh checks passed **209
 numerical and 103 supporting comparisons**, with zero failures and **317
 register rows**. See [point 4 revision](supervisor_point4_revision.md) and
@@ -305,7 +338,7 @@ use, acceptance or success in ordinary work. Table IX is unchanged. No model,
 screen or application run was repeated. The added prose makes the Word export
 nine Letter pages. The user deferred the page limit and later format edits.
 
-The current paper has **6,002 whitespace tokens** and the unchanged **141-word
+At this staged revision, the paper had **6,002 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
 comparisons**, with zero failures and **317 register rows**. Pages 5, 7 and 8
 were inspected. See [point 5 revision](supervisor_point5_revision.md) and
@@ -327,7 +360,7 @@ Table VIII performance columns are point estimates without intervals. Column
 widths keep the counts and Table VII intervals on one line. No model, screen
 or application run was repeated. The Word export remains nine Letter pages.
 
-The current paper has **6,588 whitespace tokens** and the unchanged **141-word
+At this staged revision, the paper had **6,588 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
 comparisons**, with zero failures and **317 register rows**. Pages 5, 6 and 7
 were inspected. See [point 6 revision](supervisor_point6_revision.md) and
@@ -348,7 +381,7 @@ VI.B states that those performance measures do not convert the associations
 into effects. No model, screen or application run was repeated. The Word
 export remains nine Letter pages.
 
-The current paper has **6,796 whitespace tokens** and the unchanged **141-word
+At this staged revision, the paper had **6,796 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
 comparisons**, with zero failures and **317 register rows**. Pages 6, 7 and 8
 were inspected. See [point 7 revision](supervisor_point7_revision.md) and
@@ -375,7 +408,7 @@ approval, exemption or consent determination. No category was assigned, and no
 clearance number was invented. No model, screen or application run was
 repeated. The Word export remains nine Letter pages.
 
-The current paper has **6,916 whitespace tokens** and the unchanged **141-word
+At this staged revision, the paper had **6,916 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
 comparisons**, with zero failures and **317 register rows**. Page 9 was
 inspected. See [point 8 revision](supervisor_point8_revision.md) and
@@ -417,20 +450,23 @@ distinguished from Notice 211. Catalog sources 26 and 27 were corrected and
 remain uncited. Journal-article findings were not re-read. The Word export is
 ten Letter pages. Reference leading was not tightened.
 
-The current paper has **7,006 whitespace tokens** and the unchanged **141-word
+At this staged revision, the paper had **7,006 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
 comparisons**, with zero failures and **317 register rows**. Pages 9 and 10
 were inspected. See [point 10 revision](supervisor_point10_revision.md) and
 [point 10 validation](supervisor_point10_validation.json).
 
-## Remaining supervisor points
+## Current supervisor-point assessment after D-075
 
-Point 3 remains addressed within research scope and awaits user review.
-Points 4, 5, 6, 7, 8, 9 and 10 are revised and await user review. Point 8
-still needs the campus ethics determination and is not accepted.
+All ten points have been reviewed against the integrated D-075 manuscript;
+points 4–10 are no longer unreviewed future revisions. Point 3 remains
+addressed within research scope. Point 8 still needs the formal DUT ethics
+determination and is not institutionally closed. Author review and the
+remaining submission conditions are recorded in the final assessment.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
+| 1 | Literature gap, search reproducibility and contribution | Accepted earlier; reviewed in the integrated D-075 paper |
 | 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
 | 3 | Historical thresholds, partnership assumptions and spouse resources | Addressed within research scope; operative formula/rates and research choices documented; awaiting user review |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Revised and checked against frozen outputs; awaiting user review |
@@ -441,6 +477,7 @@ still needs the campus ethics determination and is not accepted.
 | 9 | Contribution of integrated screening, prediction and software | Revised in Section VIII; awaiting user review |
 | 10 | Reference verification and IEEE consistency | Revised to the 2024 IEEE Reference Guide; first-use order and DOI strings unchanged; awaiting user review |
 
-The next action is user review of points 3 through 10. Point 8 still needs the campus ethics determination.
+The next action is author review of the final paper and resolution of the
+formal DUT determination and applicable submission/data-governance conditions.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

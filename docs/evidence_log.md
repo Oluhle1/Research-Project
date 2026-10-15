@@ -1,11 +1,12 @@
 # Implementation evidence log
 
-**Current reporting stage — D-074, 15 October 2026:** The specific historical
-formula/rate-source gap is closed within research scope; see the final entry
-below and `paper/historical_thresholds_verified_audit.md`/`.json`. D-073's
-5,442/141/374-word build, 28 references, hashes and completed checks are
-archived at `7d54c18`. Earlier dated entries preserve their then-available
-evidence and missing-source findings; they are not current source conclusions.
+**Current reporting stage — D-075, 15 October 2026:** Whole-paper review uses
+the user-confirmed `809ccc18` checkpoint, including points 4–10. All ten
+supervisor points have been reviewed; point 8's formal DUT determination
+remains outstanding. See the final entry and [final assessment](../paper/final_peer_review.md)/[validation](../paper/final_peer_review_validation.json).
+D-074 at `f9bab60` and the user's 7,006-token/ten-page `809ccc18` checkpoint
+are historical. Their deferred page limit and pending-point statements do
+not describe D-075; earlier source audits and check records retain their scope.
 
 ## Phase 0 — 10 October 2026
 
@@ -933,6 +934,9 @@ renumbered 27/28. These checks do not authenticate the missing survey-period cha
 
 ## Supervisor point 3 — verified historical sources, 15 October 2026
 
+This D-074 entry is archived at `f9bab60`. Its counts and pending points 4–10
+describe that stage; the D-075 entry below records the integrated final review.
+
 D-074 records original GG 37474, 28 March 2014: GN 211's R1,350 monthly
 standard rate from 1 April 2014 (page 3), and Schedule paragraph 2's
 substitution of Annexure A(2), `D = 1.6A − 0.4B` (pages 4–5), effective 1 April 2014 under printed
@@ -952,7 +956,7 @@ requirements, not law; ambiguous/nonresident cases remain unresolved, not
 ineligible. These limits remain even though the source gap is closed.
 
 Point 3 is addressed within research scope, pending user review; points 4–10
-remain pending. Current manuscript: 5,469 words, 141-word abstract,
+remain pending. D-074 manuscript: 5,469 words, 141-word abstract,
 408-word III.B, eight Letter pages, nine tables, four figures and 28 active
 first-use references. The fresh source-bound verifier passed **209 numerical
 and 100 supporting comparisons**, with **zero failures, 314 register rows
@@ -962,3 +966,32 @@ D-073 checks do not certify this revision. The decision table now contains 74 un
 checklist counts remain 96 rows: 94 Implemented, two Proposed and zero
 Verified. No code/rule/result change, refit, app-suite run, participant study,
 administrative confirmation, deployment or external submission is claimed.
+
+## D-075 — final whole-paper review, 15 October 2026
+
+The user confirmed `809ccc18`, including all supervisor revisions through
+point 10. The final manuscript has **5,064 tokens**, a **141-word abstract**,
+**408-word III.B**, **327-word III.D**, nine tables, four figures and 28 active
+first-use references from 30 catalog entries (IDs 26/27 unused). Fresh retained
+evidence checks passed **209 numerical and 103 supporting comparisons**,
+with zero failures, 317 register rows and four documented limits. Crossref
+metadata checks for 18 DOI entries are confirmed by the user's point 10 record;
+metadata remains unchanged, and journal findings were not re-read.
+
+The [honours PDF](../paper/Jawe_OPG_nonreceipt_KZN.pdf) and
+[publication PDF](../paper/Jawe_OPG_nonreceipt_KZN_publication.pdf) are each
+eight Letter pages, rendered with the unmodified IEEEtran V1.8b class in
+10-point conference mode. [Honours Word](../paper/Jawe_OPG_nonreceipt_KZN.docx)
+and [publication Word](../paper/Jawe_OPG_nonreceipt_KZN_publication.docx) remain
+editable; 10/9/8-point fonts and single-line body/references avoid font reduction.
+Publication omits only the course/student line. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer; [final validation](../paper/final_peer_review_validation.json)
+records their final results.
+
+All ten points were reviewed in the [final assessment](../paper/final_peer_review.md).
+Formal DUT determination for point 8 and applicable governance/venue conditions
+remain outstanding. All nine table-cell contents, scientific code, model,
+results, data, figure assets and reference catalog are unchanged from `809ccc18`;
+notes, captions, layouts and prose were edited. No analysis/model/bootstrap/app
+suite was rerun, and no participant study or external submission occurred.
+The decision table now has 75 unique rows; the checklist remains 96 rows:
+94 Implemented, two Proposed and zero Verified.

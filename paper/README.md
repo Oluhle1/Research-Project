@@ -1,5 +1,46 @@
 # Revised Submission 2 manuscript
 
+## Current D-075 whole-paper review — 15 October 2026
+
+The final review uses the user-confirmed repository checkpoint `809ccc18`,
+including revisions through supervisor point 10. All ten points have been
+reviewed; point 8's formal DUT ethics determination remains outstanding.
+Journal findings were not re-read. The user's point 10 record confirms
+Crossref metadata checks for 18 DOI entries; reference metadata is unchanged
+from that checkpoint.
+
+The manuscript has **5,064 whitespace tokens**, a **141-word abstract**,
+**408-word III.B** and **327-word III.D**, with **nine tables, four figures
+and 28 active IEEE references**. The catalog retains 30 sources; historical
+IDs 26/27 remain unused. All nine tables' cell contents, scientific code,
+frozen results, data, model, figure assets and reference catalog are unchanged
+from `809ccc18`; notes, captions, layout and manuscript prose were edited.
+The fresh verifier passed **209 numerical and 103 supporting comparisons**,
+with **zero failures, 317 register rows and four documented limits**.
+
+Both final native PDFs have **eight Letter pages**, using the unmodified
+**IEEEtran V1.8b** class in 10-point conference mode. This is distinct from
+the editable Word layout. Word retains 10/9/8-point body/table/reference fonts
+and single-line body/reference spacing; the native class uses 9-point tables
+and 8-point references. Native fonts are subset-embedded and Times-compatible.
+The editable DOCX requests Times New Roman; cloud Word rendering uses a fallback,
+so it does not establish identical pagination in Microsoft Word. No font reduction was used. Root review passed all eight honours native pages. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer.
+
+- Honours: [native IEEE PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [editable Word](Jawe_OPG_nonreceipt_KZN.docx), retaining APRE402 and the student line.
+- Publication: [native IEEE PDF](Jawe_OPG_nonreceipt_KZN_publication.pdf) and [editable Word](Jawe_OPG_nonreceipt_KZN_publication.docx), omitting only the course/student line.
+- [IEEE LaTeX source ZIP](Jawe_OPG_nonreceipt_KZN_IEEE_source.zip): publication-profile TeX, unmodified class, four PNG figures, README and manifest; no research data.
+- [Final assessment](final_peer_review.md) and [final review validation](final_peer_review_validation.json) record the integrated review and remaining conditions.
+
+No analysis, model, bootstrap or application-test suite was rerun. Institutional
+and data-governance conditions, author review and venue requirements remain
+separate from the paper's technical checks. No external submission occurred.
+
+## Archived progress through the user checkpoint
+
+D-074 is archived at `f9bab60`. The user checkpoint `809ccc18` had **7,006
+tokens and ten pages**; its deferred page limit and the dated progress notes
+below do not describe D-075. Earlier checks retain their original scopes.
+
 The revised IEEE draft is `Jawe_OPG_nonreceipt_KZN.docx` and
 `Jawe_OPG_nonreceipt_KZN.pdf`. Its eight-page PDF integrates the approved
 Submission 1 with the completed study, local Streamlit artefact and lecturer
@@ -8,7 +49,7 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **D074 revision, 15 October 2026**, closes the historical
+The historical **D074 revision, 15 October 2026**, closes the historical
 threshold-source gap within the research scope. **GG37474, 28 March 2014**,
 p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
 1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
@@ -43,7 +84,7 @@ Point 10 is revised in the reference list: bibliographic details were checked
 against the IEEE Reference Guide for Authors, V 10.16.2024, and first-use
 numbering is unchanged. DOI strings are unchanged. Journal findings were not re-read.**
 
-The current paper has **7,006 whitespace tokens**, a **141-word abstract**,
+The `809ccc18` checkpoint paper has **7,006 whitespace tokens**, a **141-word abstract**,
 a **408-word III.B** and a **422-word III.D**, with **ten Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -156,7 +197,7 @@ The specialist, clear professional style continues.
 
 ## Editable sources
 
-- `historical_thresholds_verified_audit.md` and `.json`: current D074 source clauses, rates, commencement and research-scope limits.
+- `historical_thresholds_verified_audit.md` and `.json`: D074 legal-source clauses retained for provenance, rates, commencement and research-scope limits.
 - `historical_2008_source_audit.md` and `.json`: archived D073 original 2008 clause readings and the period limits then outstanding.
 - `legal_sources/2008_GN_R898_GG31356.pdf`: the retained correct original base.
 - `manuscript.md`: compact manuscript consumed by the build.
@@ -226,15 +267,27 @@ The specialist, clear professional style continues.
 
 ## Rebuild
 
-From the repository root, using the project's Python environment with Matplotlib
-and Node.js/npm:
+From the repository root, build editable honours and publication Word copies
+with Node.js/npm:
 
 ```text
-python paper/build_figures.py
-python paper/build_expansion_figures.py
 npm --prefix paper ci
 npm --prefix paper run build
+node paper/build_ieee.js --publication
 ```
+
+Build native PDFs with Python and a TeX installation providing `pdflatex`:
+
+```text
+python paper/build_ieee_pdf.py --output-dir .local/ieee-honours --balance-at-reference 9 --compile
+python paper/build_ieee_pdf.py --output-dir .local/ieee-publication --publication --balance-at-reference 9 --compile
+```
+
+Each directory receives its own `Jawe_OPG_nonreceipt_KZN.pdf`, TeX source and
+build manifest. The checked builds use IEEEtran's documented last-page column
+break before reference 9. The checked copies are linked above. The renderer copies the
+vendored [unmodified IEEEtran class](ieee_template/README.md); it does not
+run analyses or regenerate figure assets. Inspect a rebuilt PDF before using it.
 
 Recheck the numerical claims and regenerate their local evidence register:
 
@@ -245,19 +298,26 @@ python paper/verify_claims.py --write
 The pinned npm lockfile supplies `docx` 9.6.1. Output paths resolve relative to
 these scripts rather than a particular user's Windows home directory.
 
-Export to PDF using LibreOffice's `soffice` executable on PATH:
+To inspect a separate Word-rendered PDF, use LibreOffice's `soffice` on PATH
+and a separate output directory so it does not replace the native IEEE PDF:
 
 ```text
-soffice --headless --convert-to pdf --outdir paper paper/Jawe_OPG_nonreceipt_KZN.docx
+soffice --headless --convert-to pdf --outdir .local/word-render paper/Jawe_OPG_nonreceipt_KZN.docx
 ```
 
 Alternatively, open the DOCX in Microsoft Word and export to PDF. Pagination can
 differ with fonts and renderer versions; inspect the exported PDF and retain the
-maximum-eight-page requirement. The checked PDF was rendered with LibreOffice
-26.8 on Linux, Times New Roman falling back to Liberation Serif, with Letter
-paper, two columns, 10-point body text, 9-point tables and 8-point references.
+maximum-eight-page requirement. A Word export is an editable-layout check;
+the native submission PDFs use the actual IEEEtran class. The final Word
+rerender and independent visual review are recorded in final review validation.
 
 ## Validation and limits
+
+Current D-075 evidence is [final review validation](final_peer_review_validation.json)
+and the [final assessment](final_peer_review.md): 209 numerical and 103
+supporting comparisons pass, with zero failures, 317 register rows and four
+limits. The two native PDFs are eight pages. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer. The following D-074 and earlier audit
+accounts remain historical; their saved passes do not certify D-075.
 
 `manuscript_validation.json` records the checked artifact hashes, page limit,
 citation checks and frozen-source protection. Fresh D074 retained-output checks

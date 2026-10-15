@@ -1,10 +1,43 @@
 # Response to lecturer feedback: Submission 2
 
-For the separate supervisor feedback, see [the staged response](supervisor_feedback_response.md).
-The current D074 revision addresses legal follow-ups within supervisor point 3;
-supervisor point 4 concerns bootstrap intervals and remains pending.
+## Current D-075 integrated review — 15 October 2026
 
-The current **D074 revision, 15 October 2026**, closes the historical
+The user confirmed repository checkpoint `809ccc18`, which includes the
+revisions through point 10. **All ten supervisor points have been reviewed**
+in the integrated paper; the formal DUT determination for point 8 remains
+**outstanding**. The user's point 10 record confirms Crossref metadata checks
+for 18 DOI entries. Those metadata and the reference catalog are unchanged;
+journal findings were not re-read.
+
+The final manuscript has **5,064 tokens** (141-word abstract, 408-word III.B,
+327-word III.D), nine tables, four figures and 28 active first-use references
+from 30 catalog entries (IDs 26/27 unused). Fresh checks passed **209 numerical
+and 103 supporting comparisons**, with zero failures, 317 rows and four limits.
+Both native PDFs are eight Letter pages using unmodified IEEEtran V1.8b
+conference mode. Word retains 10/9/8-point fonts and single-line body/references;
+no font reduction was used. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer. All nine table-cell contents, scientific code/results, model,
+data, figure assets and reference metadata remain unchanged from `809ccc18`.
+
+See [final assessment](final_peer_review.md), [final validation](final_peer_review_validation.json),
+[honours PDF](Jawe_OPG_nonreceipt_KZN.pdf), [honours Word](Jawe_OPG_nonreceipt_KZN.docx),
+[publication PDF](Jawe_OPG_nonreceipt_KZN_publication.pdf) and
+[publication Word](Jawe_OPG_nonreceipt_KZN_publication.docx). The publication
+copy omits only the course/student line. No analysis, model, bootstrap or
+application-test suite was rerun; no participant study or external submission
+occurred. Author review, DUT determination, data governance and venue conditions
+remain separate from editorial completion.
+
+## Historical D-074 response and progress notes
+
+D-074 is archived at `f9bab60`; the later user checkpoint `809ccc18` had
+7,006 tokens and ten pages. The dated statuses below, including then-pending
+points 4–10, are historical and superseded by the D-075 assessment above.
+
+For the separate supervisor feedback, see [the staged response](supervisor_feedback_response.md).
+The historical D074 revision addresses legal follow-ups within supervisor point 3;
+supervisor point 4 concerned bootstrap intervals and was then pending.
+
+The historical **D074 revision, 15 October 2026**, closes the historical
 threshold-source gap within the research scope. **GG37474, 28 March 2014**,
 p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
 1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
@@ -23,7 +56,7 @@ statutory means test or validate every research partnership classification.
 **Supervisor point 3 is addressed within research scope and awaits user review;
 points 4–10 remain pending.**
 
-The current paper has **5,469 whitespace tokens**, a **141-word abstract**
+The D-074 paper had **5,469 whitespace tokens**, a **141-word abstract**
 and **408-word III.B**, with **eight Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -64,7 +97,7 @@ reference strings and the frozen scientific code/results were preserved.
 See [the historical 2008 source audit](historical_2008_source_audit.md) and
 [its ledger](historical_2008_source_audit.json).
 
-## Current D074 legal follow-up status
+## Historical D074 legal follow-up status
 
 | Legal follow-up | Current evidence | Status |
 | --- | --- | --- |
@@ -108,7 +141,7 @@ association and unresolved or unmeasured burden mechanisms. See
 
 The historical D072 snapshot at `132e96c` had 5,457 source words, a 141-word
 abstract, 389-word III.B and 27 references. Its checks bind that historical draft;
-current D074 scope and artifact links appear above. The accepted framework snapshot
+historical D074 scope and artifact links appear above. The accepted framework snapshot
 `0dd3d0e` had 5,423 tokens.
 The seven-comment lecturer matrix
 below records the earlier feedback and does not close the remaining supervisor points.
@@ -146,7 +179,14 @@ citation and all-eight-page visual/render checks passed.
 
 The 218-test record is an earlier application/parity evaluation; the later portability/package evaluation records 220 passing tests. These are overlapping verification suites, not 438 independent tests. Likewise, the original 26 checks include 22 screening cases plus four other checks, and must not be described as 26 screening decisions. Windows screenshots and the six extracted report files support the owner's observed workflow and export consistency; the ZIP container itself was not supplied, and the verification does not establish independent remote execution or participant usability.
 
-Existing journal-reference metadata, complete titles and DOI strings were checked against the already-submitted Submission 1 bibliography. The supplied LCS metadata PDF directly corroborates Statistical Release P0310 and its 2017 publication year. The theory source is Moynihan, Herd and Harvey (2015); the prediction-reporting source is the original TRIPOD statement (2015), not TRIPOD+AI. Independent publisher checks remain incomplete: requests to the Crossref endpoint were blocked by the environment's outbound proxy (HTTP 403), and no browsing tool was available. Journal-article corroboration remains incomplete. D074 separately reads the original 2014 formula/rate provisions and 2015 rate notice, closing the prior historical-threshold source gap; the dated blocked-request ledgers remain historical.
+The early metadata check compared titles and DOI strings with Submission 1;
+blocked Crossref requests at that stage are preserved in the historical audits.
+The user's later point 10 record confirms successful Crossref metadata checks
+for 18 DOI entries. D-075 preserves that metadata; it does not re-read journal
+findings. The supplied LCS metadata directly corroborates Statistical Release
+P0310 and 2017. The theory source remains Moynihan, Herd and Harvey (2015),
+and the prediction-reporting source is original TRIPOD (2015). D-074's separate
+original legal-source review closed the historical threshold-source gap.
 
 The historical **14 October point 3** [screening-source audit](historical_screening_source_audit.md)
 records twelve fresh retrieval attempts, all blocked by proxy HTTP 403 before
@@ -171,7 +211,7 @@ or spouse provisions. The unrelated uploaded `415.pdf` is excluded. See
 [its evidence record](uploaded_legal_source_audit.json). The research ceilings
 and scientific implementation remain unchanged.
 
-## Remaining items
+## Historical remaining items at D-074
 
 - **Supervisor point 3 addressed within research scope, D074; awaiting user review:** the original 2014 formula amendment, standard 2014/2015 rates and base minimum/half-joint provisions verify the four unchanged research ceilings. Applying the standard 60–74 rate to every age is an explicit research choice; unchanged S1c includes the R20 age-75+ supplement. R621 does not change the relevant OPG rules. See [the verified threshold audit](historical_thresholds_verified_audit.md), [its ledger](historical_thresholds_verified_audit.json) and [current artifact validation](manuscript_validation.json). D070–D073 retain their historical evidence/status; points 4–10 remain pending.
 - **Supervisor point 2 accepted:** the historical `c95b786` draft improved II.C and Table II's theory links, coding limits and layout. The caption, header and five rows fit on page 2, using top-aligned cells and horizontal rules. Numerical, supporting and eight-page visual checks passed; see [point 2 validation](supervisor_point2_validation.json). These changes remain intact in the point 3 draft.

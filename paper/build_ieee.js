@@ -5,6 +5,8 @@ const {Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell,
     AlignmentType, HeadingLevel, BorderStyle, WidthType, VerticalAlign,
     ImageRun, SectionType, TableLayoutType, LineRuleType} = require('docx');
 const ROOT = __dirname;
+const PUBLICATION = process.argv.includes('--publication');
+const BASENAME = PUBLICATION ? 'Jawe_OPG_nonreceipt_KZN_publication' : 'Jawe_OPG_nonreceipt_KZN';
 const source = fs.readFileSync(path.join(ROOT, 'manuscript.md'), 'utf8');
 const references = JSON.parse(fs.readFileSync(path.join(ROOT, 'references.json'), 'utf8'));
 const FONT = 'Times New Roman';
@@ -35,7 +37,8 @@ function paragraph(text,options={}){
 function heading(text,level){return paragraph(text,{
     heading:level===1?HeadingLevel.HEADING_1:HeadingLevel.HEADING_2,
     keepNext:true,alignment:level===1?AlignmentType.CENTER:AlignmentType.LEFT,
-    spacing:{before:140,after:60,line:230},run:{size:20,bold:level===1,italics:level===2}});}
+    spacing:{before:140,after:60,line:240,lineRule:LineRuleType.AUTO},
+    run:{size:20,smallCaps:level===1,italics:level===2}});}
 const rule={style:BorderStyle.SINGLE,size:4,color:'808080'};
 function grid(headers,rows){
     const n=headers.length;
@@ -65,23 +68,28 @@ function grid(headers,rows){
 }
 const titleEnd=lines.findIndex(line=>line.startsWith('## '));
 const title=[];
+const frontMatter=[];
 for(const line of lines.slice(0,titleEnd)){
     if(!line.trim()) continue;
+    if(PUBLICATION && line.startsWith('ICT Honours')) continue;
     if(line.startsWith('# ')) title.push(paragraph(line.slice(2),{alignment:AlignmentType.CENTER,
       spacing:{before:0,after:160,line:260,lineRule:LineRuleType.AUTO},run:{size:48}}));
-    else if(line.startsWith('Abstract—')||line.startsWith('Keywords—'))title.push(paragraph(line,{
-      spacing:{before:80,after:80,line:220},run:{size:18}}));
+    else if(line.startsWith('Abstract—')||line.startsWith('Keywords—'))frontMatter.push(paragraph(
+      line.replace(/^Keywords—/,'Index Terms—'),{
+      spacing:{before:0,after:80,line:240,lineRule:LineRuleType.AUTO},
+      run:{size:18,bold:true,italics:line.startsWith('Keywords—')}}));
     else title.push(paragraph(line,{alignment:AlignmentType.CENTER,
       spacing:{before:0,after:30,line:230},run:{size:line==='Oluhle Jawe'?22:18}}));
 }
-const body=[];
+const body=[...frontMatter];
 for(let i=titleEnd;i<lines.length;i++){
     const line=lines[i];if(!line.trim())continue;
     if(line.startsWith('## ')){body.push(heading(line.slice(3),1));continue;}
     if(line.startsWith('### ')){body.push(heading(line.slice(4),2));continue;}
     if(line.startsWith('TABLE: ')){
-      body.push(paragraph(line.slice(7),{keepNext:true,alignment:AlignmentType.CENTER,
-        spacing:{before:100,after:50,line:190},run:{size:16}}));
+      const tableCaption=line.slice(7).replace(/^Table ([IVX]+)\. /,'TABLE $1\n');
+      body.push(paragraph(tableCaption,{keepNext:true,alignment:AlignmentType.CENTER,
+        spacing:{before:100,after:50,line:240,lineRule:LineRuleType.AUTO},run:{size:16,smallCaps:true}}));
       const tableLines=[];
       while(i+1<lines.length&&lines[i+1].startsWith('|'))tableLines.push(lines[++i]);
       const cells=tableLines.map(s=>s.split('|').slice(1,-1).map(v=>v.trim()));
@@ -99,12 +107,13 @@ for(let i=titleEnd;i<lines.length;i++){
             return Math.round(336*data.readUInt32BE(20)/data.readUInt32BE(16));
           })()},
           altText:{name:caption,title:caption,description:caption}})]}));
-      body.push(paragraph(caption,{spacing:{before:0,after:80,line:190},run:{size:16}}));continue;
+      body.push(paragraph(caption,{spacing:{before:0,after:80,line:240,lineRule:LineRuleType.AUTO},run:{size:16}}));continue;
     }
     if(line.startsWith('NOTE: ')){
-      body.push(paragraph(line.slice(6),{spacing:{before:30,after:80,line:190},run:{size:16,italics:true}}));continue;
+      body.push(paragraph(line.slice(6),{spacing:{before:30,after:80,line:240,lineRule:LineRuleType.AUTO},run:{size:16,italics:true}}));continue;
     }
-    body.push(paragraph(line));
+    body.push(paragraph(line,{indent:{firstLine:200},
+      spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO}}));
 }
 function styledRuns(text, base){
     return text.split('et al.').flatMap((part, index, parts) => {
@@ -131,7 +140,7 @@ function referenceParagraph(number, entry){
             ...styledRuns(entry.slice(volumeAt), base)];
     }else children = styledRuns(`[${number}] ${entry}`, base);
     return new Paragraph({alignment:AlignmentType.LEFT, keepLines:true, indent:{left:260, hanging:260},
-        spacing:{before:0, after:0, line:160}, children});
+        spacing:{before:0, after:0, line:240,lineRule:LineRuleType.AUTO}, children});
 }
 body.push(heading('References',1));
 for(const [i,id] of ids.entries())body.push(referenceParagraph(i+1, references[id]));
@@ -144,7 +153,7 @@ const doc=new Document({title:lines[0].slice(2),creator:'Oluhle Jawe',descriptio
     // A final continuous section balances the final reference columns in Word/Writer.
     {properties:{type:SectionType.CONTINUOUS,page:PAGE},children:[new Paragraph({spacing:{before:0,after:0,line:20,lineRule:LineRuleType.EXACT},children:[]})]}]});
 async function main(){
-    const output=path.join(ROOT,'Jawe_OPG_nonreceipt_KZN.docx');
+    const output=path.join(ROOT,BASENAME+'.docx');
     fs.writeFileSync(output,await Packer.toBuffer(doc));
     fs.writeFileSync(path.join(ROOT,'manuscript_numbered.md'),remapped+'\n\n## References\n\n'+ids.map((id,i)=>`[${i+1}] ${references[id]}`).join('\n\n')+'\n');
     fs.writeFileSync(path.join(ROOT,'citation_map.json'),JSON.stringify({source:'references.json',

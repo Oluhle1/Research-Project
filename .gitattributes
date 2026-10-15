@@ -12,3 +12,6 @@ examples/synthetic_report/responsible_use.txt -text
 
 # Preserve exact uploaded legal-source bytes on Windows and show binary diffs.
 paper/legal_sources/*.pdf binary
+
+# Preserve the vendored, unmodified IEEEtran class bytes across platforms.
+paper/ieee_template/IEEEtran.cls -text

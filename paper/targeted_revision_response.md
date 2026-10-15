@@ -1,5 +1,33 @@
 # Targeted Submission 2 revision: acceptance and remaining limits
 
+## Current D-075 integrated assessment — 15 October 2026
+
+All ten supervisor points have been reviewed using the user-confirmed
+`809ccc18` checkpoint. Point 8's formal DUT determination remains outstanding;
+participant usability and external predictive validity remain unestablished.
+Point 10's user record confirms Crossref metadata checks for 18 DOI entries;
+the catalog/metadata remain unchanged and journal findings were not re-read.
+
+The final source has **5,064 tokens**, a **141-word abstract**, **408-word
+III.B**, **327-word III.D**, nine tables, four figures and 28 active references
+from 30 catalog entries (IDs 26/27 unused). Fresh verification passed **209
+numerical and 103 supporting comparisons**, zero failures, 317 rows and four
+limits. Both native PDFs are eight Letter pages in unmodified IEEEtran V1.8b
+10-point conference mode. Word retains 10/9/8-point fonts and single-line
+body/references. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer.
+
+See [final assessment](final_peer_review.md), [final validation](final_peer_review_validation.json),
+[honours PDF](Jawe_OPG_nonreceipt_KZN.pdf), [honours Word](Jawe_OPG_nonreceipt_KZN.docx),
+[publication PDF](Jawe_OPG_nonreceipt_KZN_publication.pdf) and
+[publication Word](Jawe_OPG_nonreceipt_KZN_publication.docx). Publication omits
+only the course/student line. All nine table-cell contents, code, data, model,
+results, figure assets and reference metadata remain unchanged from `809ccc18`.
+No analysis, model, bootstrap or application suite was rerun.
+
+The dated revision history below preserves earlier evidence: D-074 at
+`f9bab60`; the user checkpoint `809ccc18` at 7,006 tokens/ten pages. Earlier
+point-4–10-pending and deferred-page-limit statuses are historical, not current.
+
 Revision date: **11 October 2026 (Africa/Johannesburg)**.
 
 This is the dated record of the substantive revision. Its 5,262-word count and
@@ -102,9 +130,9 @@ reference strings and the frozen scientific code/results were preserved.
 See [the historical 2008 source audit](historical_2008_source_audit.md) and
 [its ledger](historical_2008_source_audit.json).
 
-## Current D074 source verification
+## Historical D074 source verification
 
-The current **D074 revision, 15 October 2026**, closes the historical
+The historical **D074 revision, 15 October 2026**, closes the historical
 threshold-source gap within the research scope. **GG37474, 28 March 2014**,
 p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
 1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
@@ -123,7 +151,7 @@ statutory means test or validate every research partnership classification.
 **Supervisor point 3 is addressed within research scope and awaits user review;
 points 4–10 remain pending.**
 
-The current paper has **5,469 whitespace tokens**, a **141-word abstract**
+The D-074 paper had **5,469 whitespace tokens**, a **141-word abstract**
 and **408-word III.B**, with **eight Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -156,14 +184,13 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current D074 draft retains eight pages, nine tables, four figures and
-28 active references, with **5,469 whitespace tokens**. The original
-25 reference strings and all frozen scientific files remain unchanged. The
-historical threshold-source gap is closed by directly read originals; the
-research choices and incomplete statutory proxy remain explicit. Fresh D074 verification passed 209 numerical and 100 supporting comparisons
-with zero failures, 314 register rows and four documented limits. Primary and
-independent reviews passed all eight final pages; artifact, citation and render
-checks passed. Earlier dated evidence retains its historical scope.
+D-075 retains eight native IEEE pages, nine tables, four figures and 28
+active references, with **5,064 tokens**. The frozen scientific files and all
+nine tables' cell contents are unchanged from `809ccc18`. Current verification
+passed 209 numerical and 103 supporting comparisons, zero failures, 317 rows
+and four limits. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer.
+The historical legal-source closure and its research limits remain in force.
+Earlier dated evidence retains its historical scope.
 A documented limitation does not complete unrelated source, administrative or
 empirical evidence.
 
@@ -173,7 +200,7 @@ empirical evidence.
 | **P2: theory–measurement–finding synthesis** | Connect learning/compliance/psychological costs to measured proxies and findings; state that schooling, distance and settlement do not directly measure burden; interpret unexpected schooling associations as selected-cohort associations with untested explanations. | Current manuscript II.B–D, VI.E; Table II; Fig. 1. Income, partnership and grant responses define screening rather than primary predictors. | **Completed; substantive review passed.** Discussion separates constructs, proxies, associations and unmeasured mechanisms, with explicitly untested explanations for the unexpected schooling direction. |
 | **P3: predictive interpretation** | Explain pairwise ranking, precision–recall, squared probability error and calibration separately; compare AP with 6.61% prevalence and Brier with its intercept-only reference; retain sparse-event and fixed-prediction interval limits. | Manuscript V.C, VI.B; Table VII; Fig. 4; frozen [primary metrics](../output/runs/primary/metrics.csv). Full-fit odds ratios must remain distinct from OOF evaluation. | **Completed; text and numerical checks passed.** AP is interpreted across thresholds; Brier improvement is approximately 0.0040; calibration convention and sparse-event uncertainty are explicit. No tested operational threshold exists. |
 | **P4: sensitivity interpretation** | Identify S3 as the largest tested weighted prevalence change (9.06% vs 7.49%); explain S2's denominator changes, S7's changed sample, S8's feature substitution, S9's frequency-weighted fit, S10's weighted evaluation without refitting and S11's internal grouping alternative. | Manuscript V.B–C, VI.A–B; Tables VI and VIII; [RQ1 sensitivities](../output/phase4/rq1_sensitivity.csv); [model sensitivities](../output/phase6/model_sensitivity.csv). | **Completed; text and numerical checks passed.** S3 is prioritised; S2 and S7–S11 are distinguished. Similar AUC does not establish identical populations or correct screening; changing cohort prevalence can change Brier. |
-| **P5: verifiable claims and final document** | Bind headline values, sensitivity rows and software claims to saved evidence; inspect citation order/metadata, primary sources where obtainable, cautious ethics/data statements and actual eight-page render. Confirm administrative labels rather than infer them from an attachment. | [Manuscript validation](manuscript_validation.json), [empirical validation](empirical_expansion_validation.json), [evidence log](../docs/evidence_log.md), [decision log](../specification/decision_log.md), [claim register](claim_source_register.csv), [portable verifier](verify_claims.py), [claim validation](claim_source_validation.json), and [primary-source audit](primary_source_audit.md). | **Partly complete.** Fresh verification passed 209 numerical and 100 supporting comparisons, with zero failures, 314 register rows and four documented limits. Legal-source verification is separately audited. The historical threshold/rate gap is closed. Independent journal-source, ethics, licence/disclosure and portal confirmations remain open. |
+| **P5: verifiable claims and final document** | Bind headline values, sensitivity rows and software claims to saved evidence; inspect citation order/metadata, primary sources where obtainable, cautious ethics/data statements and actual eight-page render. Confirm administrative labels rather than infer them from an attachment. | [Manuscript validation](manuscript_validation.json), [empirical validation](empirical_expansion_validation.json), [evidence log](../docs/evidence_log.md), [decision log](../specification/decision_log.md), [claim register](claim_source_register.csv), [portable verifier](verify_claims.py), [claim validation](claim_source_validation.json), and [primary-source audit](primary_source_audit.md). | **Partly complete.** Fresh verification passed 209 numerical and 103 supporting comparisons, with zero failures, 317 register rows and four documented limits. Legal-source verification is separately audited. The historical threshold/rate gap is closed. Independent journal-source, ethics, licence/disclosure and portal confirmations remain open. |
 
 ## Final fourteen-item checklist
 
@@ -194,10 +221,10 @@ establish; it does not establish that condition.
 | 8 | Frozen app scores are not confused with OOF validation. | IV/VI.C; full-data fitted scores have unknown training overlap, while OOF probabilities are household-held-out. | **Passed: final text/evidence checks.** Serialization agreement verifies inference, not new predictive accuracy. |
 | 9 | External validity excludes unsupported contemporary/province transfer. | VI.D specifies target-period screen/outcome compatibility and independent discrimination/calibration; no 2026 applicant decision claim. | **Passed: substantive review.** No independent province, period or administrative validation is claimed. |
 | 10 | Headline numbers trace to saved outputs and the correct run. | Claim-to-source register plus read-only numerical comparisons; include seed/folds, uncertainty, calibration bins and software evidence. | **Passed: 209 numerical and 100 supporting comparisons; zero failures.** Remaining source/governance claims and the historical repeat-run narrative are distinguished from numeric checks. No model refitting or scientific-output change. |
-| 11 | References and legal thresholds are checked against originals. | D074 reads the operative 2014 formula amendment, standard 2014/2015 rates, original minimum/half-joint provisions and the 2015 R621 amendment. All four research ceilings follow; the all-age standard-rate choice, age-75+ S1c and incomplete legal proxy remain explicit. | **Historical threshold source gap closed within research scope; user review pending.** Independent journal corroboration and broader supervisor point 10 remain open. |
+| 11 | References and legal thresholds are checked against originals. | D074 reads the operative 2014 formula amendment, standard 2014/2015 rates, original minimum/half-joint provisions and the 2015 R621 amendment. All four research ceilings follow; the all-age standard-rate choice, age-75+ S1c and incomplete legal proxy remain explicit. | **Historical threshold source gap closed within research scope; user review pending.** Point 10 metadata/style review is recorded; journal findings were not re-read and broader substantive corroboration remains open. |
 | 12 | Ethics/access/disclosure statements are accurate and documented. | VII truthfully states no recorded DUT determination; synthetic package contains no survey rows; whole historical repository has not been disclosure-cleared. | Addressed with limits; institutional determination and data-release conditions remain undocumented. |
 | 13 | Correct module and assignment labels appear. | The author explicitly confirmed **APRE402** in this session. The final title reads “ICT Honours (21634436), APRE402,” retaining DUT affiliation. Approved Submission 1 retains its historical PRIC401 label. | **Module confirmed and title corrected.** Official portal assignment naming/cutoff remains unconfirmed. |
-| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | The final D074 PDF has eight Letter pages, nine tables, four figures and 28 active first-use references. Primary and independent reviews passed all eight pages, with unchanged 10/9/8-point fonts and builder. | **Passed: current artifact, citation, visual and render checks.** |
+| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | D-075 honours and publication PDFs each have eight Letter pages using unmodified IEEEtran V1.8b conference mode; nine tables, four figures and 28 active first-use references. Native tables/references use 9/8 pt; editable Word retains 10/9/8 pt fonts. | Native page count passed. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer. See final review validation. |
 
 ## Administrative and governance facts
 
@@ -262,10 +289,10 @@ this mechanical check does not independently verify cited content.
   historical raw-data access/disclosure and official portal details remain
   incomplete and visible.
 
-The 11 October P1–P4 revisions, framework corrections and supervisor point 2
-are complete and accepted. D074 closes the historical amendment/rate source
-gap and documents the standard-rate research choice; point 3 is addressed
-within research scope and awaits user review. Supervisor points 4–10 and the
-remaining journal-source/administrative checks stay pending. D070–D073 retain
-their dated evidence and prior limits. No model fitting, application-suite run,
-participant study or institutional submission occurred in this source revision.
+The earlier P1–P4, framework and supervisor point 2 acceptance records remain
+historical. D-075 reviews all ten points in the integrated paper, retaining
+D-074's legal-source closure and explicit research choices. The formal DUT
+determination for point 8, applicable data governance, author review and venue
+conditions remain outstanding. Journal metadata/style checks do not constitute
+a new reading of article findings. No model fit, analysis/bootstrap/application
+suite rerun, participant study or external submission occurred.

@@ -5,7 +5,7 @@
 **Source of truth:** `21634436_Oluhle_Jawe_Submission_1.pdf` (Submission 1, 6 pages)  
 **This document:** Specification created in study Phase 1, with current implementation and traceability updates for Submission 2. The approved scientific design is preserved.
 
-**Specification status:** Original study phases 1–11, local Streamlit functional verification, P1–P4 interpretation improvements and the reproducible claim register remain complete. D-074 closes the specific historical threshold-source gap: original 2014 formula/rate, 2015 rate and R621 amendment are read, and all four standard-rate ceilings verified. The standard age-60–74 maximum across ages remains an explicit research choice; S1c and frozen science are unchanged. Point 3 is addressed within research scope, pending user review; points 4–10 remain pending. See Section 29 and `paper/historical_thresholds_verified_audit.md`/`.json`. Current source counts are 5,469/141/408 words with eight Letter pages, nine tables, four figures and 28 active first-use references. The fresh source-bound verifier passed 209 numerical and 100 supporting comparisons with zero failures, 314 register rows and four documented limits; root visual review passed all eight final pages. Fonts and builder are unchanged; 18 DOI references are retained. D-073's 5442/141/374 counts, 28 references and completed checks are historical at `7d54c18`. Broader source checks, ethics/access/disclosure, portal requirements and participant usability remain open.
+**Specification status:** D-075 reviews the integrated paper using the user-confirmed `809ccc18` checkpoint, including points 4–10. All ten supervisor points have been reviewed; formal DUT determination for point 8 remains outstanding. Final source: 5,064 tokens, 141-word abstract, 408-word III.B and 327-word III.D; honours/publication native IEEEtran V1.8b conference PDFs are eight Letter pages, with nine tables, four figures and 28 active first-use references. The catalog retains 30 sources (IDs 26/27 unused); 18 DOI metadata entries remain unchanged from the user's point 10 Crossref record, and journal findings were not re-read. Fresh verification passed 209 numerical and 103 supporting comparisons, zero failures, 317 rows and four limits. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer. Word retains 10/9/8-point fonts and single-line body/references; publication omits only course/student line. Section 30 and `paper/final_peer_review.md`/`final_peer_review_validation.json` record current assessment and conditions. D-074 at `f9bab60` and the 7006-token/ten-page `809ccc18` checkpoint are historical; their deferred page limit and pending-point statuses are superseded. Scientific code, results, model, data, figure assets, reference catalog and all nine table-cell contents remain unchanged from `809ccc18`; no analysis/model/bootstrap/app-suite reruns occurred.
 
 **Created:** 2026-09-25; updated 2026-10-15 (Africa/Johannesburg).
 
@@ -523,7 +523,7 @@ variable. Current implementation status is recorded in the checklist.
 
 Research threshold amounts were coded in Phase 3 and logged in D-033–D-035.
 D-074 now verifies the original formula/rate basis for those four standard-rate
-ceilings; Section 29 records the source chain and remaining research limits.
+ceilings; Section 30 records the source chain and remaining research limits.
 No coded threshold or substantive screening rule changes here.
 
 ## 13. Traceability matrix
@@ -531,7 +531,7 @@ No coded threshold or substantive screening rule changes here.
 Result cells were initially filled from study Phase 9, discussion cells from
 Phase 10 and conclusion cells from the Phase 11 paper. The RQ3 row now also
 includes the October implementation evidence and the explicit untested-usability
-limit. D-074's source closure is recorded in Section 29 and the verified
+limit. D-074's source closure is recorded in Section 30 and the verified
 thresholds audit; `paper/manuscript_validation.json` records current build
 evidence. Earlier completed visual reviews remain historical evidence.
 The specific rate/formula notices are verified; broader publisher/source
@@ -582,7 +582,7 @@ Stratum cannot be constructed. That remains a limit on design-based variance.
 
 This section records the earlier D-061 stage. Its six-page counts and 162
 numerical checks are historical; Sections 17–21 record later historical builds
-and Section 29 records the current legal follow-up. The validation JSON is
+and Section 30 records the current legal follow-up. The validation JSON is
 maintained for the latest build.
 
 The revision strengthens the predictor-to-concept mapping in
@@ -613,7 +613,7 @@ record. This is a completed review draft, not an external submission.
 ## 17. Submission 1 integration and eight-page expansion, 11 October 2026
 
 This D-062 section records the historical 4,988-word build; Section 22 describes
-the earlier point 1 draft; Section 29 records the current legal follow-up. Its
+the earlier point 1 draft; Section 30 records the current legal follow-up. Its
 scientific decisions remain in force.
 
 The user authorized integrating the uploaded Submission 1 into Submission 2,
@@ -651,7 +651,7 @@ The integrated manuscript is a review draft; no external submission is claimed.
 ## 18. Targeted interpretation and claim verification, 11 October 2026
 
 This D-063 section records the historical 5,262-word build. Its source and
-claim-verification limits remain in force; Section 29 describes the current
+claim-verification limits remain in force; Section 30 describes the current
 legal follow-up.
 
 The user authorised the attached revision plan and confirmed APRE402 as the
@@ -690,7 +690,7 @@ maps all five priorities and fourteen acceptance items to this evidence.
 
 This D-064 section records the historical 5,632-word build and its 263-word
 abstract. Its source hash remains a record of that version. Section 21 records
-the later historical specialist-audience revision; Section 29 records the
+the later historical specialist-audience revision; Section 30 records the
 current legal follow-up.
 
 The user asked for active verbs, first-use parenthetical explanations and
@@ -737,7 +737,7 @@ reads, public deployment, predicted grade or external submission are claimed.
 ## 20. Professional-language reporting revision, 13 October 2026
 
 This D-065 section records the historical 5,627-word build, its 249-word
-abstract and original source hash. Section 29 records the current legal
+abstract and original source hash. Section 30 records the current legal
 follow-up.
 
 The user requested a clear, concise and scientifically sound ICT paper for
@@ -784,13 +784,13 @@ P5 remains partial. Original journal and legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No new primary-source read, public deployment or external
 submission occurred. Sections 17–19 retain the historical D-062, D-063 and
-D-064 word counts and source hashes; Section 29 identifies the current legal follow-up.
+D-064 word counts and source hashes; Section 30 identifies the current legal follow-up.
 
 ## 21. Specialist-audience and integrated-literature revision, 13 October 2026
 
 This section records the historical D-066 5,097-word build. Its generated
 artifacts and audits remain in Git commit `e83b504`. Section 22 records the
-historical supervisor point 1 draft. Section 29 records the current legal follow-up.
+historical supervisor point 1 draft. Section 30 records the current legal follow-up.
 
 The user's latest instruction explicitly replaces the earlier requirement to
 define every technical term. D-066 records the new specialist-audience scope.
@@ -838,7 +838,7 @@ remain dated functional evidence. Participant usability remains unperformed.
 P5 remains partial. Original journal/legal verification, institutional
 ethics/access, historical-data disclosure and official portal requirements
 remain unconfirmed. No deployment or external submission occurred. Sections
-17–21 retain historical D-062–D-066 counts and source hashes. Section 29 and
+17–21 retain historical D-062–D-066 counts and source hashes. Section 30 and
 the current audit files identify the legal follow-up.
 
 ## 22. Supervisor feedback point 1, 14 October 2026
@@ -955,7 +955,7 @@ occurred. Earlier functional checks retain their original scope and dates.
 The checklist remains 96 rows: 94 Implemented, two Proposed and zero Verified.
 Participant usability remains unperformed and P5 source, ethics/access,
 disclosure and portal limits remain open. Sections 17–22 preserve historical
-D-062–D-067 counts and hashes; D-068 artifacts remain in `0dd3d0e`. Section 29
+D-062–D-067 counts and hashes; D-068 artifacts remain in `0dd3d0e`. Section 30
 identifies the current legal follow-up.
 
 ## 24. Supervisor feedback point 2, 14 October 2026
@@ -1010,14 +1010,14 @@ ethics/access/disclosure and portal limits remain open. Checklist counts remain
 96 rows: 94 Implemented, two Proposed and zero Verified. Sections 17–23 preserve
 historical D-062–D-068 counts and hashes; the D-069 artifacts remain in
 `c95b786`. Section 25 records the historical D-070 screening draft;
-Section 29 identifies the current legal follow-up.
+Section 30 identifies the current legal follow-up.
 
 ## 25. Supervisor feedback point 3, 14 October 2026
 
 This section records the historical D-070 build at
 `beec7d77c0e32b24b636f3f337ccc5545d899fd1`. Its 5,430-word count, hashes and
 completed reviews remain evidence for that build. Section 26 records the
-historical D-071 legal-verification follow-up; Section 27 records D-072 and Section 29 the current historical-source closure.
+historical D-071 legal-verification follow-up; Section 27 records D-072 and Section 30 the current historical-source closure.
 
 After approving point 2, the user requested III.B's historical threshold and
 spouse verification. D-070 records this item as partially addressed: reporting
@@ -1076,14 +1076,14 @@ administrative confirmation, deployment or external submission occurred.
 Checklist counts remain 96 rows: 94 Implemented, two Proposed and zero Verified.
 Participant usability and P5 source, ethics/access/disclosure and portal limits
 remain open. Sections 17–25 preserve historical D-062–D-070 counts and hashes;
-Section 29 identifies the current legal follow-up.
+Section 30 identifies the current legal follow-up.
 
 ## 26. Supervisor point 3 legal-verification follow-up, 15 October 2026
 
 This section records the historical D-071 draft at
 `214647e42adad9a20a30461d4026e1f93732ae7a`. Its 5,451-word count, 377-word
-III.B, hashes and completed checks remain historical. Section 29 records the
-historical uploaded-source review; Section 29 records current source closure.
+III.B, hashes and completed checks remain historical. Section 30 records the
+historical uploaded-source review; Section 30 records current source closure.
 
 D-071 records the user's four legal follow-ups to original supervisor point 3:
 authenticate the 2014–2015 thresholds and exact legal provisions, accurately
@@ -1153,7 +1153,7 @@ submission occurred. Checklist counts remain **96 rows: 94 Implemented,
 two Proposed and zero Verified**. The decision table contains 71 unique
 D-001–D-071 rows. Participant usability and P5 source, ethics/access/disclosure
 and portal limits remain open. Sections 17–26 preserve explicitly historical
-D-062–D-071 counts, hashes and completed reviews; Section 29 records the current
+D-062–D-071 counts, hashes and completed reviews; Section 30 records the current
 uploaded-source review.
 
 ## 27. Supervisor point 3 uploaded legal-source review, 15 October 2026
@@ -1161,7 +1161,7 @@ uploaded-source review.
 This section records historical D-072 at
 `132e96cee7d7b3b6f5d5b91a214590359a25d210`: 5,457 manuscript words,
 389-word III.B, 27 references and the original hashes/checks. Its source audit
-and appended source supplements remain intact. Section 29 records the current
+and appended source supplements remain intact. Section 30 records the current
 historical-source closure.
 
 D-072 records the user's uploaded original legal documents and the historical
@@ -1225,7 +1225,7 @@ Checklist counts remain **96 rows: 94 Implemented, two Proposed and zero
 Verified**; the decision table contains **72 unique D-001–D-072 rows**.
 Participant usability and P5 source, ethics/access/disclosure and portal limits
 remain open. Sections 17–27 preserve historical D-062–D-072 counts, hashes
-and completed reviews; Section 29 records the current historical-source closure
+and completed reviews; Section 30 records the current historical-source closure
 without certifying complete statutory eligibility or exhaustive consolidation.
 
 ## 28. Supervisor point 3 correct 2008 base review, 15 October 2026
@@ -1233,7 +1233,7 @@ without certifying complete statutory eligibility or exhaustive consolidation.
 This D-073 section records the historical build archived at `7d54c18`:
 5,442 manuscript words, a 141-word abstract, 374-word III.B and 28 references.
 Its source gaps, counts, hashes, completed checks and next steps apply to
-that build. Section 29 supersedes its survey-period missing-source claims.
+that build. Section 30 supersedes its survey-period missing-source claims.
 
 D-073 records the newly read correct base **GN R898, Government Gazette
 31356, 22 August 2008**, an **81-page** uploaded original. Source SHA-256:
@@ -1298,7 +1298,11 @@ reference spacing, all nine table XML records, figures and scientific files matc
 `132e96c`. The new stable source ID28 is published reference 26, with 2011/2022
 renumbered 27/28. These checks do not authenticate the missing survey-period chain.
 
-## 29. Supervisor point 3 historical-source closure, 15 October 2026
+## 29. Historical supervisor point 3 source closure, 15 October 2026
+
+D-074 is archived at `f9bab60`; its counts, checks and pending points below
+record that stage. Section 30 records the integrated D-075 review of the later
+user-confirmed `809ccc18` checkpoint (7,006 tokens/ten pages).
 
 D-074 verifies the original operative basis for the four standard-rate
 ceilings. GG 37474, 28 March 2014, page 3 (GN 211) sets R1,350 monthly
@@ -1322,7 +1326,7 @@ unresolved rather than legally ineligible.
 
 Point 3 is addressed within research scope, pending user review; points 4–10
 remain pending. Broader source/governance and participant-usability limits
-remain open. Current source counts are 5,469 manuscript words,
+remain open. At D-074, source counts were 5,469 manuscript words,
 141-word abstract and 408-word III.B, with eight Letter pages, nine tables,
 four figures and 28 active first-use references. The fresh source-bound
 verifier passed 209 numerical and 100 supporting comparisons with zero
@@ -1333,3 +1337,38 @@ The decision table contains 74 unique D-001–D-074 rows; the checklist remains
 96 rows: 94 Implemented, two Proposed and zero Verified. Sections 17–28
 preserve historical builds. No code, rule, model, result, refit or new
 participant study follows from source closure.
+
+## 30. D-075 final whole-paper review, 15 October 2026
+
+The user confirmed the latest `809ccc18` repository version, including the
+substantial revisions through supervisor point 10. All ten points were reviewed
+in the [final assessment](../paper/final_peer_review.md); [final validation](../paper/final_peer_review_validation.json)
+records current hashes, retained-evidence comparisons and render results.
+Formal DUT determination for point 8 remains outstanding; participant usability,
+external prediction validity, journal-content corroboration and applicable
+submission/data-governance conditions are not supplied by editorial checks.
+The user's point 10 Crossref record confirms metadata checks for 18 DOI entries;
+metadata is unchanged and journal findings were not re-read.
+
+Final source: **5,064 tokens**, **141-word abstract**, **408-word III.B**,
+**327-word III.D**, nine tables, four figures and 28 active IEEE references
+from 30 catalog entries (historical IDs 26/27 unused). Fresh retained-evidence
+verification passed **209 numerical and 103 supporting comparisons**, with
+**zero failures, 317 rows and four limits**. All nine table-cell contents,
+scientific code, data, model, empirical outputs, figure assets and reference
+catalog remain unchanged from `809ccc18`; notes, captions, layouts and prose
+were edited. No analysis, model, bootstrap or application-test suite was rerun.
+
+Both [honours PDF](../paper/Jawe_OPG_nonreceipt_KZN.pdf) and [publication PDF](../paper/Jawe_OPG_nonreceipt_KZN_publication.pdf)
+have eight Letter pages using the unmodified vendored IEEEtran V1.8b class in
+10-point conference mode, rendered by `paper/build_ieee_pdf.py`. This differs
+from the editable [honours Word](../paper/Jawe_OPG_nonreceipt_KZN.docx) and
+[publication Word](../paper/Jawe_OPG_nonreceipt_KZN_publication.docx) layouts,
+which retain 10/9/8-point fonts and single-line body/reference spacing. The
+native class uses 9-point tables and 8-point references; no font reduction was
+used. Publication omits only the course/student line. Independent review passed all 16 final native page images; both Word copies also rendered to eight pages in the tested cloud renderer.
+
+The decision table contains 75 unique D-001–D-075 rows. Checklist statuses
+remain 96 rows: 94 Implemented, two Proposed and zero Verified. Earlier
+D-074/809ccc18 pending-point and deferred-page-limit records are historical.
+No participant study, external deployment or institutional submission occurred.

@@ -24,22 +24,26 @@ standard **60–74 rate to all ages** remains an explicit research choice;
 the **R20 age-75+ supplement** is already examined in unchanged sensitivity
 S1c. Source verification does not turn the observable proxy into the complete
 statutory means test or validate every research partnership classification.
-**Supervisor point 3 is addressed within research scope and awaits user review;
-points 4–10 remain pending.**
+**Supervisor point 3 is addressed within research scope and awaits user review.
+Point 4 is now revised in Section III.D: household-grouped cross-validation,
+training-fold preprocessing and the limits of the fixed-prediction bootstrap
+intervals are specified from the saved procedure. Points 5–10 remain pending.**
 
-The current paper has **5,469 whitespace tokens**, a **141-word abstract**
-and **408-word III.B**, with **eight Letter pages**,
+The current paper has **5,635 whitespace tokens**, a **141-word abstract**,
+a **408-word III.B** and a **422-word III.D**, with **eight Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
 30 sources: historical IDs 26/27 (2011/2022) are unused in the current manuscript;
 new source 29 is published 26, base source 28 is published 27 and new source 30
 is published 28. The original 25 reference strings and 18 DOI entries remain
 unchanged; this does not independently corroborate journal contents. Visible
-fonts remain 10/9/8 points and the builder is unchanged. Fresh D074
-verification passed **209 numerical and 100 supporting comparisons**, with
-**zero failures, 314 claim-register rows and four documented limits**. Primary
-and independent reviews passed all eight final pages; artifact, citation and
-render checks bind the current files. Archived D073 checks retain their dated scope. No screening rerun, model
+fonts remain 10/9/8 points. Reference leading is tighter than the D074 file so
+the added III.D detail stays on eight pages. The point 4 check passed **209
+numerical and 103 supporting comparisons**, with **zero failures, 317
+claim-register rows and four documented limits**. Pages 4 and 8 of the Word
+export were inspected; no separate second-reviewer pass is claimed for this
+revision. The D074 primary and independent reviews remain historical. Archived
+D073 checks retain their dated scope. No screening rerun, model
 refit, application-suite run,
 participant study, external deployment or submission is claimed.
 

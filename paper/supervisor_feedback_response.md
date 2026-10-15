@@ -269,16 +269,36 @@ See [the verified historical-threshold audit](historical_thresholds_verified_aud
 [its evidence ledger](historical_thresholds_verified_audit.json) and
 [current artifact validation](manuscript_validation.json).
 
+## Point 4: household-grouped validation, preprocessing and bootstrap limits
+
+> Page 4, Section III.D (Model Validation): Provide additional methodological
+> detail on household-grouped cross-validation, preprocessing and the
+> limitations of the bootstrap confidence intervals.
+
+**Status: revised and checked; awaiting user review.** Only Section III.D was
+added to. The household split, training-fold fill-in and fixed-prediction
+intervals are now specified from the saved Phase 5 procedure. The intervals are
+explicitly not design-based confidence intervals, and they do not repeat
+preprocessing, refitting or Decision D-052. Reference leading was tightened so
+the manuscript remains eight Letter pages. No model, screen or application run
+was repeated.
+
+The current paper has **5,635 whitespace tokens**, the unchanged **141-word
+abstract**, and a **422-word Section III.D**. Fresh checks passed **209
+numerical and 103 supporting comparisons**, with zero failures and **317
+register rows**. See [point 4 revision](supervisor_point4_revision.md) and
+[point 4 validation](supervisor_point4_validation.json).
+
 ## Remaining supervisor points
 
-Point 3 is addressed within research scope and awaits user review.
-Points 4–10 remain pending; this legal-source follow-up does not advance them.
+Point 3 remains addressed within research scope and awaits user review.
+Point 4 is revised and awaits user review. Points 5–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
 | 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
 | 3 | Historical thresholds, partnership assumptions and spouse resources | Addressed within research scope; operative formula/rates and research choices documented; awaiting user review |
-| 4 | Household-grouped validation, preprocessing and bootstrap limitations | Pending |
+| 4 | Household-grouped validation, preprocessing and bootstrap limitations | Revised and checked against frozen outputs; awaiting user review |
 | 5 | Technical verification versus participant usability | Pending |
 | 6 | Results-table readability and uncertainty interpretation | Pending |
 | 7 | Associations versus prediction and causal explanation | Pending |
@@ -286,6 +306,6 @@ Points 4–10 remain pending; this legal-source follow-up does not advance them.
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is user review of point 3; points 4–10 have not been advanced.
+The next action is user review of points 3 and 4. Points 5–10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

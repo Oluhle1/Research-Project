@@ -108,7 +108,7 @@ for(let i=titleEnd;i<lines.length;i++){
 }
 body.push(heading('References',1));
 for(const [i,id] of ids.entries())body.push(paragraph(`[${i+1}] ${references[id]}`,{
-    keepLines:true,alignment:AlignmentType.LEFT,indent:{left:260,hanging:260},spacing:{before:0,after:20,line:190},run:{size:16}}));
+    keepLines:true,alignment:AlignmentType.LEFT,indent:{left:260,hanging:260},spacing:{before:0,after:0,line:160},run:{size:16}}));
 const doc=new Document({title:lines[0].slice(2),creator:'Oluhle Jawe',description:'Submission 2 revised research manuscript',
   styles:{default:{document:{run:{font:FONT,size:20},paragraph:{spacing:{line:230,lineRule:LineRuleType.AUTO}}}},
     paragraphStyles:[{id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',run:{font:FONT,color:'000000',size:20},paragraph:{keepNext:true}},

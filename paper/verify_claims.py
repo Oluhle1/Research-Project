@@ -261,6 +261,45 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
     check("III.D", "827 households; five folds; no household split across folds", oof_path + "; uqno, fold",
           len(hh_folds) == 827 and all(len(s) == 1 for s in hh_folds.values()) and
           {r["fold"] for r in predictions} == {"1", "2", "3", "4", "5"})
+    by_household = defaultdict(list)
+    fold_people, fold_events = defaultdict(int), defaultdict(int)
+    for r in predictions:
+        by_household[r["uqno"]].append(int(r["y_n"]))
+        fold_people[r["fold"]] += 1
+        fold_events[r["fold"]] += int(r["y_n"])
+    check("III.D", "182 multi-adult households; 6 mixed-outcome households", oof_path + "; uqno, y_n",
+          sum(len(values) > 1 for values in by_household.values()) == 182 and
+          sum(len(set(values)) > 1 for values in by_household.values()) == 6,
+          "Household size and within-household outcome disagreement recomputed from retained OOF rows.")
+    check("III.D", "Test folds contain 199-207 adults and 12-14 non-recipients", oof_path + "; fold, y_n",
+          min(fold_people.values()) == 199 and max(fold_people.values()) == 207 and
+          min(fold_events.values()) == 12 and max(fold_events.values()) == 14,
+          "Fold support recomputed from retained OOF rows; the historical split was not redrawn.")
+    cohort_for_missing = [r for r in csv_rows("output/runs/primary/cohort_person.csv") if r["in_final_cohort"] == "1"]
+
+    def schooling_usable(code: str) -> bool:
+        if code in {"21", "22", "31", "32", "99"}:
+            return False
+        if code == "98":
+            return True
+        value = int(code)
+        return 1 <= value <= 20 or 23 <= value <= 30
+
+    def distance_usable(code: str) -> bool:
+        if code in {"", "9", "99"}:
+            return False
+        value = int(code)
+        return 1 <= value <= 8
+
+    missing_school = [r for r in cohort_for_missing if not schooling_usable(r["schooling_raw"])]
+    missing_distance = [r for r in cohort_for_missing if not distance_usable(r["welfare_distance"])]
+    check("III.D", "3 recipients lack usable schooling; 14 recipients and 4 non-recipients lack usable office distance",
+          "output/runs/primary/cohort_person.csv; in_final_cohort, y, schooling_raw, welfare_distance",
+          len(missing_school) == 3 and all(r["y"] == "0" for r in missing_school) and
+          sum(r["y"] == "0" for r in missing_distance) == 14 and sum(r["y"] == "1" for r in missing_distance) == 4 and
+          all(r["age"] not in {"", "nan"} and r["sex"] in {"1", "2"} and r["settlement"] in {"1", "2", "4", "5"}
+              for r in cohort_for_missing),
+          "Predictor missingness recomputed with the Phase 5 code ranges; no imputation was rerun.")
     grouped_scores = defaultdict(lambda: [0, 0])
     for r in predictions:
         grouped_scores[float(r["p_model"])][int(r["y_n"])] += 1
@@ -391,8 +430,13 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
           "full-data" in manifest["score_context"] and "held-out" in evaluation["score_context"],
           "App scores are full-data fitted; this register does not relabel them as held-out/external performance.")
     for item in evaluation["provenance"]["sources"]:
+        data = source(item["path"]).read_bytes()
+        raw_hash = hashlib.sha256(data).hexdigest()
+        linefeed_hash = hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
         check("IV / provenance", f"Current evaluation source hash: {item['path']}", "models/evaluation.json; provenance.sources",
-              digest(source(item["path"])) == item["sha256"])
+              item["sha256"] in {raw_hash, linefeed_hash},
+              "Raw checksum matches." if raw_hash == item["sha256"] else
+              "Saved hash uses LF; this checkout serialized the same text with CRLF. Newlines were normalized for the comparison.")
     verification = manifest["verification"]
     check("V.D / Table IX", "Recorded JSON reload maximum difference 5.551115123125783e-17 over 1,013 rows", "models/manifest.json; verification",
           verification["verified_rows"] == 1013 and math.isclose(verification["prediction_reload_max_abs_difference"], 5.551115123125783e-17, rel_tol=1e-14),

@@ -381,10 +381,53 @@ comparisons**, with zero failures and **317 register rows**. Page 9 was
 inspected. See [point 8 revision](supervisor_point8_revision.md) and
 [point 8 validation](supervisor_point8_validation.json).
 
+## Point 9: contribution to knowledge
+
+> Strengthen the explicit statement of the study's contribution to knowledge,
+> particularly the integration of transparent screening, interpretable
+> prediction and reproducible software.
+
+**Status: revised and checked; awaiting user review.** Section VIII keeps the
+reported rates and the held-out AUC, average precision and Brier score. It
+adds an explicit contribution sentence. The contribution is the integration of
+the screen, the prediction and the software on the same adults. The screen
+states the rules and the denominator. The prediction separates held-out
+performance from full-sample associations. The software repeats the rules,
+categories and scores and keeps the check record. No participant-clarity,
+causal, legal-entitlement or transfer claim was added. No model, screen or
+application run was repeated.
+
+See [point 9 revision](supervisor_point9_revision.md) and
+[point 9 validation](supervisor_point9_validation.json).
+
+## Point 10: reference verification and IEEE style
+
+> Pages 8–9 (References): Verify all references and ensure consistency with the
+> required IEEE referencing style.
+
+**Status: revised and checked; awaiting user review.** The 28 published
+references keep their first-use numbers. DOI strings are unchanged. Crossref
+supplied the issue dates, volumes, issues, pages and author counts. Abbreviated
+months, "Art. no.", the missing BMC Medicine issue, and the abbreviations
+Glob. Health Action and Glob. Public Health were aligned to that record.
+Statistics South Africa and the government notices were checked against the
+local files and the point 3 source audit. Government Notice R211 is now
+distinguished from Notice 211. Catalog sources 26 and 27 were corrected and
+remain uncited. Journal-article findings were not re-read. The added reference
+detail makes the Word export ten Letter pages. Reference leading was not
+tightened.
+
+The current paper has **7,006 whitespace tokens** and the unchanged **141-word
+abstract**. Fresh checks passed **209 numerical and 103 supporting
+comparisons**, with zero failures and **317 register rows**. Pages 9 and 10
+were inspected. See [point 10 revision](supervisor_point10_revision.md) and
+[point 10 validation](supervisor_point10_validation.json).
+
 ## Remaining supervisor points
 
 Point 3 remains addressed within research scope and awaits user review.
-Points 4, 5, 6, 7 and 8 are revised and await user review. Points 9 and 10 remain pending.
+Points 4, 5, 6, 7, 8, 9 and 10 are revised and await user review. Point 8
+still needs the campus ethics determination and is not accepted.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
@@ -394,10 +437,10 @@ Points 4, 5, 6, 7 and 8 are revised and await user review. Points 9 and 10 remai
 | 5 | Technical verification versus participant usability | Revised in Sections IV and VI.C; awaiting user review |
 | 6 | Results-table readability and uncertainty interpretation | Revised in Tables IV–VIII and Sections V and VI; awaiting user review |
 | 7 | Associations versus prediction and causal explanation | Revised in Section V.C and linked in VI.B; awaiting user review |
-| 8 | Formal institutional ethics and secondary-data governance clarification | Revised in Section VII; no approval, exemption or consent determination is documented; awaiting user review |
-| 9 | Contribution to knowledge in the conclusion | Pending |
-| 10 | Reference verification and IEEE consistency | Pending |
+| 8 | Formal institutional ethics and secondary-data governance clarification | Revised in Section VII; no approval, exemption or consent determination is documented; campus confirmation still required; awaiting user review |
+| 9 | Contribution of integrated screening, prediction and software | Revised in Section VIII; awaiting user review |
+| 10 | Reference verification and IEEE consistency | Revised from Crossref, local survey files and gazettes; awaiting user review |
 
-The next action is user review of points 3, 4, 5, 6, 7 and 8. Points 9 and 10 have not been advanced.
+The next action is user review of points 3 through 10. Point 8 still needs the campus ethics determination.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

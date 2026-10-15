@@ -1,0 +1,15 @@
+{
+  "revision_date": "2026-10-15",
+  "recorded_at_utc": "2026-10-15T04:25:00+00:00",
+  "parent_commit": "a386318",
+  "series_baseline": "f9bab60378a9b01ce5d6153194720cd52c736253",
+  "sections": ["VIII"],
+  "result_values_changed": false,
+  "usability_claim_added": false,
+  "causal_claim_added": false,
+  "pdf_pages": 10,
+  "page_size": "Letter 612x792 pt",
+  "page_limit_deferred_by_user": true,
+  "visual_check": "Page 9 carries Section VIII. The contribution paragraph is in the right column and names the screen, the prediction and the software. The rates 6.6% and 7.5%, the alternative range 7.1%–9.1%, and AUC 0.752, AP 0.203 and Brier 0.0578 remain in the same section.",
+  "independent_second_reviewer": false
+}

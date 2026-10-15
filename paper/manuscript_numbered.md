@@ -304,60 +304,62 @@ DUT's research-ethics policy covers student research. It requires ethical assess
 
 Historical screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Rules about other grants changed results more than the ceiling, and unresolved cases made the denominator central. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578: moderate internal ranking with slightly less probability error. The software reproduces screening, receipt categories and scores for inspection under tested conditions. The study provides a historical benchmark. It does not establish human usability, causes, legal entitlement or performance elsewhere.
 
+The contribution is the integration of the screen, the prediction and the software on the same adults. The screen states the research rules, separates unresolved cases from the denominator, and shows how the rate changes when the screening rule changes. The prediction names six slopes and separates held-out ranking, probability error and calibration from full-sample associations. The software repeats the rules, receipt categories and scores, and it keeps the record of the checks that were run. Together they make the path from a survey answer to a displayed result inspectable.
+
 
 ## References
 
-[1] T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.
+[1] T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, Mar. 2011, doi: 10.1080/0376835X.2011.545171.
 
-[2] M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.
+[2] M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, Apr. 2024, doi: 10.1093/wber/lhad037.
 
-[3] M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. 85, 2016, doi: 10.3390/ijerph13010085.
+[3] M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. no. 85, Jan. 2016, doi: 10.3390/ijerph13010085.
 
-[4] E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.
+[4] E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, Nov. 2016, doi: 10.1080/0376835X.2016.1231059.
 
 [5] Republic of South Africa, Social Assistance Act 13 of 2004, Government Gazette 26446, Jun. 10, 2004.
 
-[6] A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.
+[6] A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, Oct. 2005, doi: 10.1080/03768350500322925.
 
-[7] W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. 25310, 2014, doi: 10.3402/gha.v7.25310.
+[7] W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Glob. Health Action, vol. 7, no. 1, Art. no. 25310, Aug. 2014, doi: 10.3402/gha.v7.25310.
 
-[8] C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.
+[8] C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, Aug. 2015, doi: 10.1016/j.worlddev.2015.03.015.
 
-[9] A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.
+[9] A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Glob. Public Health, vol. 13, no. 12, pp. 1820–1830, Mar. 2018, doi: 10.1080/17441692.2018.1449231.
 
-[10] T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.
+[10] T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, May 2025, doi: 10.1080/01488376.2025.2502004.
 
-[11] J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.
+[11] J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, Jan. 2020, doi: 10.1080/00220388.2020.1715942.
 
-[12] M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.
+[12] M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, Aug. 2023. [Online]. Available: https://hdl.handle.net/10539/40003.
 
-[13] D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.
+[13] D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, Jan. 2015, doi: 10.1093/jopart/muu009.
 
-[14] S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. 9052, 2022, doi: 10.25159/2708-9355/9052.
+[14] S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. no. 9052, Apr. 2022, doi: 10.25159/2708-9355/9052.
 
 [15] A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.
 
-[16] T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. e0118432, 2015, doi: 10.1371/journal.pone.0118432.
+[16] T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. no. e0118432, Mar. 2015, doi: 10.1371/journal.pone.0118432.
 
-[17] B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. 230, 2019, doi: 10.1186/s12916-019-1466-7.
+[17] B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, no. 1, Art. no. 230, Dec. 2019, doi: 10.1186/s12916-019-1466-7.
 
-[18] R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.
+[18] R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, Mar. 2019, doi: 10.1002/sim.7992.
 
-[19] D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.
+[19] D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, Mar. 2017, doi: 10.1111/ecog.02881.
 
-[20] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.
+[20] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, Jan. 2015, doi: 10.7326/M14-0697.
 
-[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017.
+[21] Statistics South Africa, “Living Conditions Survey 2014/2015: Metadata,” Statistical Release P0310, Pretoria, South Africa, 2017.
 
-[22] Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.
+[22] Statistics South Africa, “COICOP codes,” Living Conditions Survey 2014/2015 code list.
 
-[23] Statistics South Africa, Living Conditions Survey 2014/2015: Household Questionnaire.
+[23] Statistics South Africa, “Living Conditions Survey 2014/2015: Household questionnaire,” survey instrument.
 
-[24] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.
+[24] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, p. 3, Mar. 28, 2014.
 
-[25] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.
+[25] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, p. 3, Mar. 30, 2015.
 
-[26] Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Gazette 37474, pp. 4–5, Mar. 28, 2014.
+[26] Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R211, Government Gazette 37474, pp. 4–5, Mar. 28, 2014.
 
 [27] Dept. of Social Development, “Social Assistance Act: Regulations,” Government Notice R898, Government Gazette 31356, Aug. 22, 2008.
 

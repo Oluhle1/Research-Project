@@ -443,19 +443,24 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
           "Counts are reported in Submission 1 and arithmetically consistent. Database exports, screening log and 55-source extraction log are not archived; not independently reproduced and not 55 OPG-only studies.", "Approved proposal; no new search")
     limit("VII", "DUT ethics approval/exemption status", "No institutional ethics determination in project record",
           "No approval, exemption or consent determination is documented; supervisor/official confirmation remains required.")
-    limit("III.B / VII", "Historical legal provisions and current release/disclosure permission", "specification/phase3_cohort.md; paper/references.json; original government notices / licence conditions",
-          "Research rule values are reproducible; this verifier does not independently authenticate the notices, establish statutory entitlement, or clear historical repository disclosure.")
+    limit("III.B / VII", "Full statutory eligibility and current release/disclosure permission", "paper/historical_thresholds_verified_audit.json; specification/phase3_cohort.md; original licence/disclosure conditions",
+          "The separate D-074 source audit verifies the operative 1.6A−0.4B formula from April 2014, "
+          "the R1,350/R1,410 maximum rates from April 2014/2015, and selected original spouse, "
+          "half-joint-income and R100 monthly-minimum clauses. These source checks do not establish "
+          "full statutory entitlement for surveyed individuals or clear historical repository disclosure.")
     primary_sources = read_json("paper/primary_source_audit.json")
-    limit("References / II / III.B", "Article claims and operative legal-notice provisions remain incompletely verified", "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md",
+    limit("References / II / III.B", "Original article corroboration and exhaustive legal consolidation remain incomplete", "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md; paper/historical_thresholds_verified_audit.json",
           f"The retained primary-source audit dated {primary_sources['audit_date']} reports "
           f"{primary_sources['external_attempts']} external attempts and "
           f"{primary_sources['external_primary_texts_accessed']} remote primary texts accessed (HTTPS proxy 403). "
           f"{primary_sources['local_authentic_stats_sa_documents_read']} authentic local Stats SA documents were read. "
           "Its then-current 25-reference first-use check and 18 DOI-string matches establish "
-          "citation/bibliographic consistency only; they do not authenticate article findings or "
-          "the operative Annexure/R100/couple-threshold chain. This run reads that historical record "
-          "and does not repeat publisher or legal-source access.",
-          "Retained primary-source evidence audit; no fresh external verification")
+          "citation/bibliographic consistency only; they do not authenticate original article findings. "
+          "Its legal-source access limits are a dated snapshot, superseded for the operative formula, "
+          "rates and selected spouse/minimum clauses by the separate D-074 source audit. Exhaustive "
+          "legal consolidation remains outside these selected checks. This run reads the historical "
+          "record and does not repeat publisher or legal-source access.",
+          "Dated primary-source snapshot; separate D-074 legal-source verification")
     title_line = next((line for line in text.splitlines() if "ICT Honours" in line), "Title metadata not found")
     check("Title block", "Author-confirmed APRE402 module appears with student number 21634436", "Author confirmation in revision conversation; paper/manuscript.md; author/module line",
           "APRE402" in title_line and "21634436" in title_line,
@@ -478,7 +483,7 @@ def audit(manuscript: Path) -> tuple[dict, dict, list[dict]]:
         "source_sha256": sources,
         "model_refitted": False, "application_tests_rerun": False,
         "manuscript_edited": False,
-        "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records; primary literature, legal, ethics, portal and review-log confirmation are not supplied by this audit.",
+        "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records. Operative formula/rates and selected spouse/minimum clauses are verified in the separate D-074 source audit; this verifier does not repeat those source checks or supply original article corroboration, exhaustive legal consolidation, statutory eligibility, disclosure, ethics, portal or review-log confirmation.",
     }
     empirical = dict(common, supporting_checks={
         "independent_oof_auc_ap_brier_and_weighted_ratio": "passed" if not failures else "see failures",

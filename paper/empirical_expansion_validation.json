@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-15T00:25:33.809786+00:00",
+  "checked_at": "2026-10-15T00:59:30.521062+00:00",
   "manuscript_path": "paper/manuscript.md",
-  "manuscript_sha256": "980b21d321cfd9c22ac5c2546e35363ef03cc5c8bb520cffc9de60b4db260138",
+  "manuscript_sha256": "ccbc3a0c98ffbad55f6672373491782377b5d6f41f93ada3eacc9cd4ff91e004",
   "numeric_comparisons": 209,
   "passed": 209,
   "failed": 0,
@@ -66,7 +66,7 @@
   "model_refitted": false,
   "application_tests_rerun": false,
   "manuscript_edited": false,
-  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records; primary literature, legal, ethics, portal and review-log confirmation are not supplied by this audit.",
+  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records. Operative formula/rates and selected spouse/minimum clauses are verified in the separate D-074 source audit; this verifier does not repeat those source checks or supply original article corroboration, exhaustive legal consolidation, statutory eligibility, disclosure, ethics, portal or review-log confirmation.",
   "supporting_checks": {
     "independent_oof_auc_ap_brier_and_weighted_ratio": "passed",
     "independent_psu_approximation": "passed",

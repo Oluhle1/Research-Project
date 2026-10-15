@@ -6,12 +6,14 @@ Deviations from Submission 1, resolutions of open parameters, and implementation
 **Specification:** `specification/implementation_specification.md`.  
 **Checklist:** `specification/checklist.md`.
 
-D-062–D-072 record historical manuscript builds with their original counts and
-hashes. D-073 records the current review of the correct 2008 base regulations.
-Original formula versions differ across 2008, 2011 and 2022; the operative
-2014–2015 amendment chain and original rate notices remain incomplete. Point 3 is
-partially addressed: original legal verification remains open and user review is pending.
-Supervisor points 4–10 remain pending.
+D-062–D-073 record historical builds with their original counts and hashes;
+D-073's 5,442/141/374-word build and 28 references are archived at `7d54c18`.
+D-074 records the original 2014–2015 formula/rate-source closure: the four
+standard-rate ceilings are verified, with the research proxy and age-rate
+choice explicit. Point 3 is addressed within research scope, pending user
+review; supervisor points 4–10 remain pending. Broader source/governance and
+participant-usability limits remain open. There are 74 unique decision rows;
+the checklist remains 96 rows: 94 Implemented, two Proposed and zero Verified.
 
 | ID | Date | Phase | Type | Decision | Why | Status |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -88,8 +90,13 @@ Supervisor points 4–10 remain pending.
 | D-071 | 2026-10-15 | Supervisor point 3 legal follow-ups | Reporting / verification | Address the user's four legal follow-ups to original point 3. State what the audit verified and what it did not authenticate; explain combined spouse resources, survey omissions and conservative partnership handling as research choices. Historical D-071 at `214647e`: III.B 377 words, up from historical 356; 5,451 manuscript words, 141-word abstract, eight Letter pages, nine tables, four figures, 25 first-use references and 10/9/8 pt fonts. | `paper/legal_verification_followup.md`/`.json` and historical `paper/manuscript_validation.json` at `214647e`; five expanded public requests on 14 October and two exact user-provided URL requests on 15 October failed HTTP/proxy CONNECT 403 before primary text retrieval. The user's narrative, favicon links and candidate URLs do not authenticate clauses or amendments. Independent actual-diff/questionnaire-pages-5–6 review and root plus independent visual reviews of all eight D-071 renders pass. D-071 source-bound 209 numerical and 100 supporting checks pass; 314 register rows retain four limits. Only III.B prose changes from `beec7d77`; all nine table XML records, other sections, references, figures, builder, scientific/app/model/data/analysis/verifier paths remain unchanged. | Follow-ups 2 and 3 addressed within audit/research scope; critical 1 and 4 blocked by unavailable original notices/clauses and historical amendment/in-force chain. Original supervisor point 3 remains partial and awaits user review; points 4–10 remain pending. Review dated 15 October Africa/Johannesburg; D-071 retained renders retain 14 October UTC timestamps. No fresh app suite, rule run, refit, new empirical result, participant study, administrative confirmation, deployment or submission. D-062–D-070 and older source-attempt counts/hashes remain historical; P5/usability limits unchanged |
 | D-072 | 2026-10-15 | Supervisor point 3 uploaded-source review | Reporting / verification | Read uploaded original legal sources and expose the historical formula conflict. GN R286/GG 34169 Schedule 2 uses 1.4A − 0.4B, effective 1 April 2011 under Schedule 4; GN R2119/GG 46459 Annexure A(2)/(5) uses 1.6A − 0.4B and R100 monthly minimum, commencing 31 May 2022 under regulation 41. Clarify III.B and VII's first paragraph, add direct references [26]/[27] and retain source PDFs; reference spacing after paragraphs changes 2.5 to 1 pt. Historical D-072 at `132e96c`: 5,457 words, 141-word abstract, 389-word III.B; eight Letter pages, nine tables, four figures, 27 references and 10/9/8 pt fonts. | `paper/uploaded_legal_source_audit.md`/`.json` and historical manuscript validation at `132e96c`. Supplied `415.pdf`/GG 31342 concerns banking/customs and is excluded; correct 2008 base GN R898/GG 31356 is identified but full text unread. Intervening formula amendments and original 2014/2015 rate notices remain missing. All nine table XML records, other prose/figures and scientific/app/model/data/analysis/verifier code remain unchanged from `214647e`; 209 numerical/100 supporting checks pass with zero failures, 314 register rows and four limits; root and independent all-eight-page visual reviews passed; independent uploaded-source/scientific reviews passed. | Original supervisor point 3 remains partial and awaits user review. Legal follow-ups 2/3 addressed within available evidence; historical verification criteria 1/4 incomplete. Supervisor points 4–10 pending. No science-code change, rule rerun, refit, app suite, new empirical result, participant study, administrative confirmation, deployment or external submission. D-062–D-071 counts/hashes/checks remain historical; 96 checklist rows remain 94 Implemented, two Proposed, zero Verified |
 | D-073 | 2026-10-15 | Supervisor point 3 correct-2008-base review | Reporting / verification | Read correct GN R898/GG 31356, 22 August 2008 (81 pages): regulation 1 spouse definition; 18(2)/(3) joint income/desertion; 19(1) half-joint annual income; 20 deductions; 39 commencement; Annexure A(2) D = 1.3A − 0.5B and A(5) R100 monthly minimum. Distinguish 2008/2011/2022 formula and income-scope versions. Revise only III.B's threshold/partnership paragraphs, add stable source ID28 (published 26) and retain the source PDF; preserve frozen science, other sections, all nine tables/four figures and fonts. | `paper/historical_2008_source_audit.md`/`.json`; correct base SHA-256 `c54ce6e72a31430ddd4fe1c3a8177b113b8f56194856719e8652eb24c66b59c6`. Original PDF pages: spouse 15; joint income/desertion 40; annual half-joint income 41; deductions 45–46; commencement 73; formula 74–75; minimum 75. The 2008 list includes dependent-child/ex-gratia items absent from 2022, so version identity is not assumed. Operative 2014–2015 amendment/rate chain remains missing. Final 5442/141/374 words, eight Letter pages, nine tables, four figures and 28 references. All 209 numerical/100 supporting checks and both all-eight-page reviews pass; current audit binds artifact/source hashes. Final invisible balancing-paragraph height avoids blank page 9; fonts and reference spacing unchanged. | Legal criteria 1/4 remain partial; 2 accuracy and 3 research justification improved. Original supervisor point 3 partial and awaiting user review; supervisor points 4–10 pending. D-072 at `132e96c`, its original history and appended source supplements remain intact; D-062–D-072 counts/hashes/checks are historical. No rule rerun, refit, fresh app suite, new empirical result, participant study, administrative confirmation, deployment or submission claimed. Checklist unchanged: 96 rows, 94 Implemented, two Proposed, zero Verified |
+| D-074 | 2026-10-15 | Supervisor point 3 historical-source closure | Reporting / verification | Authenticate original 2014–2015 standard rates and operative formula: GG 37474, 28 March 2014, page 3 GN 211 R1,350 from 1 April 2014; pages 4–5 Schedule paragraph 2 substitutes Annexure A(2), D = 1.6A − 0.4B, printed commencement paragraph 1 from 1 April 2014; GN 277/GG 38647, 30 March 2015, page 3 R1,410 from 1 April 2015. Read R621/GG 39007, 21 July 2015, which leaves OPG formula/means/spouse provisions unchanged. Retain verified R898/2008 A(5) R100 minimum, 19(1) half-joint income, 18(2)/(3) joint income/desertion and Agency approval, and regulation 1 spouse definition. Verify ceilings 61,800/123,600 and 64,680/129,360. Both rate notices include age-75+ R20; standard age-60–74 maximum across ages remains an explicit research choice and S1c unchanged. | `paper/historical_thresholds_verified_audit.md`/`.json`. The income proxy omits assets, deemed income and deductions; resident reciprocal spouse links are research consistency rules, not law; ambiguous/nonresident cases remain unresolved, not ineligible. Current manuscript 5,469/141/408 words, eight Letter pages, nine tables, four figures and 28 active first-use references. The fresh source-bound verifier passed 209 numerical and 100 supporting comparisons with zero failures, 314 register rows and four documented limits; root visual review passed all eight final pages. Fonts and builder are unchanged; 18 DOI references are retained. D-073's 5442/141/374 counts, 28 references and completed checks remain historical at 7d54c18. | Point 3 addressed within research scope, pending user review; points 4–10 pending. No code, rule, result or model change, refit, participant study, deployment or submission. Checklist unchanged: 96 rows, 94 Implemented, two Proposed, zero Verified. Decision table: 74 unique D-001–D-074 rows. |
 
 ## Phase close-outs
+
+Close-outs through D-073 preserve their dated evidence and then-open source
+gaps. D-074 below records the current closure; historical checks do not
+certify the current manuscript build.
 
 ### Phase 1 — 2026-09-25
 
@@ -978,6 +985,10 @@ historical; the decision table now contains 72 unique D-001–D-072 rows.
 
 ### Supervisor point 3 correct 2008 base review — 2026-10-15
 
+This D-073 close-out is archived at `7d54c18`: 5,442 manuscript words,
+141-word abstract, 374-word III.B and 28 references. Its then-missing
+survey-period sources and pending next step are superseded by D-074 below.
+
 **Partially addressed.** D-073 records reading the correct GN R898,
 Gazette 31356, 22 August 2008 (81-page source), rather than the excluded
 banking/customs `415.pdf`/GG 31342. Source SHA-256:
@@ -1036,3 +1047,26 @@ exact 1-point line to prevent a blank ninth page. Visible fonts remain 10/9/8 po
 reference spacing, all nine table XML records, figures and scientific files match
 `132e96c`. The new stable source ID28 is published reference 26, with 2011/2022
 renumbered 27/28. These checks do not authenticate the missing survey-period chain.
+
+### Supervisor point 3 source closure — 2026-10-15
+
+**Addressed within research scope, pending user review.** D-074 verifies the
+original 2014 formula and rate, 2015 rate, R100 minimum and half-joint-income
+basis for all four standard-rate ceilings. R621/2015 leaves the relevant OPG
+formula/means/spouse provisions unchanged. Evidence and exact pages are in
+`paper/historical_thresholds_verified_audit.md`/`.json` and decision D-074 above.
+
+Both notices include the age-75+ R20 supplement. Using the standard maximum
+across ages remains an explicit research choice; S1c and frozen outputs are
+unchanged. Assets, deemed income and deductions remain outside the proxy;
+resident reciprocal spouse linkage is a research consistency rule. Unresolved
+ambiguous/nonresident cases do not establish legal ineligibility.
+
+**Current build.** 5,469 manuscript words, 141-word abstract,
+408-word III.B, eight Letter pages, nine tables, four figures and 28 active
+first-use references. The fresh source-bound verifier passed **209 numerical
+and 100 supporting comparisons**, with **zero failures, 314 register rows
+and four documented limits**. Root visual review passed all eight final pages.
+Fonts and builder are unchanged; 18 DOI references are retained. The decision table has 74 unique
+rows; checklist statuses remain 94 Implemented, two Proposed and zero Verified.
+Points 4–10 await their own review. No code, rule, model or result change follows.

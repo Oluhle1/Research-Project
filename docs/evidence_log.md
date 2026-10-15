@@ -1,5 +1,12 @@
 # Implementation evidence log
 
+**Current reporting stage — D-074, 15 October 2026:** The specific historical
+formula/rate-source gap is closed within research scope; see the final entry
+below and `paper/historical_thresholds_verified_audit.md`/`.json`. D-073's
+5,442/141/374-word build, 28 references, hashes and completed checks are
+archived at `7d54c18`. Earlier dated entries preserve their then-available
+evidence and missing-source findings; they are not current source conclusions.
+
 ## Phase 0 — 10 October 2026
 
 Completed: inventory, phase 3/4/5 reproduction, primary CLI and phase 8 execution,
@@ -860,6 +867,9 @@ D-071 counts, hashes, request totals and prior reviews remain historical.
 
 ## Supervisor point 3 — correct 2008 base review, 15 October 2026
 
+This D-073 entry is historical at `7d54c18`. Its source gap and next step are
+superseded by the D-074 closure below; its original checks remain unchanged.
+
 D-073 records the newly read correct base regulations: **GN R898,
 Government Gazette 31356, 22 August 2008**, an **81-page** uploaded PDF.
 Source SHA-256:
@@ -920,3 +930,35 @@ exact 1-point line to prevent a blank ninth page. Visible fonts remain 10/9/8 po
 reference spacing, all nine table XML records, figures and scientific files match
 `132e96c`. The new stable source ID28 is published reference 26, with 2011/2022
 renumbered 27/28. These checks do not authenticate the missing survey-period chain.
+
+## Supervisor point 3 — verified historical sources, 15 October 2026
+
+D-074 records original GG 37474, 28 March 2014: GN 211's R1,350 monthly
+standard rate from 1 April 2014 (page 3), and Schedule paragraph 2's
+substitution of Annexure A(2), `D = 1.6A − 0.4B` (pages 4–5), effective 1 April 2014 under printed
+commencement paragraph 1. GN 277/GG 38647, 30 March 2015, page 3 verifies
+R1,410 from 1 April 2015. The read 2008 R898 A(5) R100 monthly minimum,
+19(1) half-joint annual income, 18(2)/(3) joint income/desertion subject to
+Agency approval, and regulation 1 spouse definition complete the relevant
+basis. R621/GG 39007, 21 July 2015, leaves OPG formula/means/spouse
+provisions unchanged. The new Markdown/JSON thresholds audit records the
+source chain and verifies R61,800/R123,600 and R64,680/R129,360.
+
+Both original rate notices include the extra R20 monthly from age 75.
+Using the standard age-60–74 maximum across ages remains an explicit primary
+research choice; S1c is unchanged. The proxy omits assets, deemed income
+and deductions. Resident reciprocal spouse links are research consistency
+requirements, not law; ambiguous/nonresident cases remain unresolved, not
+ineligible. These limits remain even though the source gap is closed.
+
+Point 3 is addressed within research scope, pending user review; points 4–10
+remain pending. Current manuscript: 5,469 words, 141-word abstract,
+408-word III.B, eight Letter pages, nine tables, four figures and 28 active
+first-use references. The fresh source-bound verifier passed **209 numerical
+and 100 supporting comparisons**, with **zero failures, 314 register rows
+and four documented limits**. Root visual review passed all eight final pages.
+Fonts and builder are unchanged; 18 DOI references are retained. Historical
+D-073 checks do not certify this revision. The decision table now contains 74 unique rows;
+checklist counts remain 96 rows: 94 Implemented, two Proposed and zero
+Verified. No code/rule/result change, refit, app-suite run, participant study,
+administrative confirmation, deployment or external submission is claimed.

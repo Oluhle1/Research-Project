@@ -96,9 +96,9 @@ See [point 2 revision](supervisor_point2_revision.md),
 [current manuscript validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
-## Point 3: historical thresholds and partnership screening
+## Historical D070 point 3: thresholds and partnership screening
 
-**Status: partially addressed; awaiting review and original legal verification.**
+**Status at `beec7d7`: partially addressed. D074 below supersedes the source-verification limit.**
 
 Section III.B now distinguishes the implemented annual ceilings and checked
 conditional calculation from authentication of the legal provisions. It defines
@@ -112,9 +112,8 @@ spouse status. Receipt remains separate after PASS.
 At the D070 stage, the code and original LCS questionnaire/metadata supported these
 implementation claims. Twelve fresh official/archive requests failed with 403 responses; zero
 primary legal texts were read. Original rate notices, operative formula,
-minimum-payment rule and statutory spouse provisions remain unverified. The
-paper states that limit explicitly, and this response does not mark point 3
-fully complete. The source audit records exact attempts and original survey
+minimum-payment rule and statutory spouse provisions were then unverified.
+That paper stated the limit explicitly; D070 did not mark point 3 complete. The source audit records exact attempts and original survey
 pages; older legal assertions remain labelled as development assumptions.
 
 The `beec7d77` point 3 draft had **5,430 whitespace-delimited tokens**, the unchanged
@@ -132,10 +131,10 @@ See [point 3 revision](supervisor_point3_revision.md),
 
 ## Historical D071 legal follow-up: four requests, 15 October 2026
 
-**Status: audit wording and research rationale revised; exact original legal
-verification and in-force citations remain incomplete.**
+**Status at D071: audit wording and research rationale revised; exact original
+legal verification and in-force citations were incomplete.**
 
-| Request | Current status |
+| Request | Historical D071 status |
 | --- | --- |
 | 1. Original thresholds and exact legal provisions | Arithmetic/code agree; source authentication and amendment chronology blocked. |
 | 2. Accurate statement of verification and uncertainty | III.B identifies arithmetic, coded ceilings and LCS items checked, and original legal authentication not completed. |
@@ -159,8 +158,8 @@ See [legal follow-up](legal_verification_followup.md),
 
 ## Historical D072: uploaded original sources, 15 October 2026
 
-**Status: supplied documents audited; point 3 remains partially addressed because
-the operative 2014–2015 amendment chain is incomplete.**
+**Status at D072: supplied documents audited; point 3 remained partially addressed
+because the operative 2014–2015 amendment chain was incomplete.**
 
 The three uploads reveal a material version gap. GN R286, GG34169 (31 March
 2011), Schedule paragraphs 2 and 4, substituted **D = 1.4A − 0.4B** from 1 April
@@ -168,60 +167,56 @@ The three uploads reveal a material version gap. GN R286, GG34169 (31 March
 0.4B** and the R100 monthly minimum, but regulation 41 commences it in 2022.
 Neither alone proves which formula applied during the survey. The supplied
 `415.pdf` is GG31342, a banking/customs Gazette; the intended base is GN R898,
-GG31356, whose full text is still missing.
+GG31356, whose full text had not yet been supplied at D072.
 
-III.B now cites the two genuine social-assistance originals as [26]–[27], gives
-their dates and clauses, and separates verified content from the conditional
-research ceilings. VII explicitly records historical formula uncertainty.
+At D072, III.B cited the two genuine social-assistance originals as [26]–[27],
+gave their dates and clauses, and separated verified content from the conditional
+research ceilings. VII recorded the historical formula uncertainty then open.
 The companion audit quotes the 2022 spouse definition, joint-income calculation,
 desertion exception, deductions and repeal/commencement with PDF/Gazette page
 locations. Those later provisions are not presented as verified 2014–2015 law.
 The research partnership rationale and all screening decisions remain unchanged.
 
-Requests 2 and 3 are addressed within the available evidence. Requests 1 and 4
-are partially addressed: original 2014/2015 rate notices, the correct 2008 base
-and relevant intervening amendments remain necessary. The user's latest reply
-restated GN211/277 and the 1.6 research formula, rather than identifying the
-formula amendment. This response does not treat that restatement as original
-legal verification.
+At D072, requests 2/3 were addressed within the available evidence, while 1/4
+were partial: original 2014/2015 rate notices, the correct 2008 base and relevant
+intervening amendments were still needed. The user's reply then restated
+GN211/277 and the 1.6 research formula rather than identifying the amendment;
+that restatement was not treated as original legal verification. D074 closes
+the historical source gap using the subsequently read originals.
 
-The revised paper has **5,457 whitespace tokens**, a **141-word abstract**, a
+The D072 paper had **5,457 whitespace tokens**, a **141-word abstract**, a
 **389-word III.B**, **eight Letter pages**, **nine tables**, **four figures** and
 **27 references**. Only III.B's threshold paragraph and VII's first paragraph
 changed in the manuscript. Reference paragraph spacing reduced from 2.5 to
 1 point; font sizes remain 10/9/8 points. All tables, figures, other prose,
 original 25 reference strings and scientific code/results remain unchanged.
 The existing verifier passed 209 numerical and 100 supporting comparisons.
-Visual and artifact checks are recorded in the current validation and source ledger.
+Its visual and artifact checks belong to the historical D072 validation and ledger.
 
 See [uploaded source audit](uploaded_legal_source_audit.md),
 [its ledger](uploaded_legal_source_audit.json), [current validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
-## D073: correct 2008 base regulations,15 October 2026
+## Historical D073: correct 2008 base regulations, 15 October 2026
 
-The current **D073 revision, 15 October 2026**, incorporates the correct original
-**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
-joint-income and half-joint-income provisions, desertion exception and minimum
-payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
-**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
-rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
-and points 4–10 remain pending.
+The historical **D073 revision, 15 October 2026**, is archived at `7d54c18`.
+It incorporated the correct **GN R898, GG31356, 22 August 2008**, including the
+spouse definition, joint/half-joint income, desertion exception and R100 minimum.
+It distinguished the 2008, 2011 and 2022 formula versions, but at that stage the
+operative 2014–2015 amendment and original rate notices had not been read.
+Point 3 therefore remained partially addressed in that snapshot.
 
-The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+The D073 paper had **5,442 whitespace tokens**, a **141-word abstract** and
 **374-word III.B**, with **eight Letter pages, nine tables, four figures and
-28 first-use references**. Only III.B's threshold and marital paragraphs changed
-in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
-2011/2022 become published 27/28. All prior reference strings, table contents and
-XML, figure assets and scientific code/results remain unchanged. Visible fonts
-remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
-exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
-The current-source verifier passed 209 numerical and 100 supporting comparisons,
-with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+28 first-use references**. Stable source 28 was published reference 26;
+2011/2022 sources were published 27/28. Its 209 numerical and 100 supporting
+comparisons and primary/independent all-eight-page reviews passed. The 314-row
+register and four documented limits describe that historical verification.
+Those counts, mappings and checks are not D074 results. The original 25
+reference strings and the frozen scientific code/results were preserved.
 
-See [the 2008 source audit](historical_2008_source_audit.md),
-[its ledger](historical_2008_source_audit.json) and
-[current artifact validation](manuscript_validation.json).
+See [the historical 2008 source audit](historical_2008_source_audit.md) and
+[its ledger](historical_2008_source_audit.json).
 
 The original base now verifies regulation 1's spouse definition,18(2) spouse
 income regardless of property regime,18(3) continuous desertion for at least
@@ -230,17 +225,59 @@ annual income,20 documented deductions, and Annexure A(5)'s R100 minimum.
 Regulation 39 commences it on 22 August 2008. Original 2008 income categories also
 include dependent-child and ex-gratia receipts; the 2022 list must not be
 projected backwards. These exact original provisions strengthen requests 2/3.
-Requests 1/4 remain partial until the operative amendment/rate chain is read.
+At D073, requests 1/4 remained partial until the operative amendment/rate chain
+was read. D074 below closes that historical source gap.
+
+## D074: verified historical formula and rate sources, 15 October 2026
+
+The current **D074 revision, 15 October 2026**, closes the historical
+threshold-source gap within the research scope. **GG37474, 28 March 2014**,
+p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
+1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
+date. **GN277, GG38647, 30 March 2015**, p. 3, verifies the standard **R1,410
+monthly rate from 1 April 2015**. The original 2008 Annexure A(5) supplies the
+**R100 monthly minimum**, regulation 19(1) the half-joint annual-income rule,
+and regulation 18 the documented spouse/desertion provisions. **R621,
+GG39007, 21 July 2015**, does not change the OPG means, spouse or formula rules.
+
+These originals verify the premises used to derive the unchanged annual
+research ceilings **R61,800/R123,600** and **R64,680/R129,360**. Applying the
+standard **60–74 rate to all ages** remains an explicit research choice;
+the **R20 age-75+ supplement** is already examined in unchanged sensitivity
+S1c. Source verification does not turn the observable proxy into the complete
+statutory means test or validate every research partnership classification.
+**Supervisor point 3 is addressed within research scope and awaits user review;
+points 4–10 remain pending.**
+
+The current paper has **5,469 whitespace tokens**, a **141-word abstract**
+and **408-word III.B**, with **eight Letter pages**,
+**nine tables, four figures and 28 active references numbered by first use**.
+The catalog retains
+30 sources: historical IDs 26/27 (2011/2022) are unused in the current manuscript;
+new source 29 is published 26, base source 28 is published 27 and new source 30
+is published 28. The original 25 reference strings and 18 DOI entries remain
+unchanged; this does not independently corroborate journal contents. Visible
+fonts remain 10/9/8 points and the builder is unchanged. Fresh D074
+verification passed **209 numerical and 100 supporting comparisons**, with
+**zero failures, 314 claim-register rows and four documented limits**. Primary
+and independent reviews passed all eight final pages; artifact, citation and
+render checks bind the current files. Archived D073 checks retain their dated scope. No screening rerun, model
+refit, application-suite run,
+participant study, external deployment or submission is claimed.
+
+See [the verified historical-threshold audit](historical_thresholds_verified_audit.md),
+[its evidence ledger](historical_thresholds_verified_audit.json) and
+[current artifact validation](manuscript_validation.json).
 
 ## Remaining supervisor points
 
-Point 3 has been clarified and checked but remains partially addressed while
-operative historical legal verification is open. Points 4–10 remain pending.
+Point 3 is addressed within research scope and awaits user review.
+Points 4–10 remain pending; this legal-source follow-up does not advance them.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
 | 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
-| 3 | Historical thresholds, partnership assumptions and spouse resources | Partially addressed: original 2008 clauses and research checks verified; operative historical chain incomplete |
+| 3 | Historical thresholds, partnership assumptions and spouse resources | Addressed within research scope; operative formula/rates and research choices documented; awaiting user review |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Pending |
 | 5 | Technical verification versus participant usability | Pending |
 | 6 | Results-table readability and uncertainty interpretation | Pending |
@@ -249,6 +286,6 @@ operative historical legal verification is open. Points 4–10 remain pending.
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is review of point 3 and original legal-source confirmation.
+The next action is user review of point 3; points 4–10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

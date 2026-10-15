@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-15T00:25:33.809786+00:00",
+  "checked_at": "2026-10-15T00:59:30.521062+00:00",
   "manuscript_path": "paper/manuscript.md",
-  "manuscript_sha256": "980b21d321cfd9c22ac5c2546e35363ef03cc5c8bb520cffc9de60b4db260138",
+  "manuscript_sha256": "ccbc3a0c98ffbad55f6672373491782377b5d6f41f93ada3eacc9cd4ff91e004",
   "numeric_comparisons": 209,
   "passed": 209,
   "failed": 0,
@@ -66,9 +66,9 @@
   "model_refitted": false,
   "application_tests_rerun": false,
   "manuscript_edited": false,
-  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records; primary literature, legal, ethics, portal and review-log confirmation are not supplied by this audit.",
+  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records. Operative formula/rates and selected spouse/minimum clauses are verified in the separate D-074 source audit; this verifier does not repeat those source checks or supply original article corroboration, exhaustive legal consolidation, statutory eligibility, disclosure, ethics, portal or review-log confirmation.",
   "verifier": "paper/verify_claims.py",
-  "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+  "verifier_sha256": "6b44ebe714ffeebb93b071d69f8e6d815346ffa23d8f26dadd196590f77b05ee",
   "register": "paper/claim_source_register.csv",
   "register_rows": 314,
   "supporting_comparisons": 100,
@@ -86,14 +86,14 @@
       "limitation": "No approval, exemption or consent determination is documented; supervisor/official confirmation remains required."
     },
     {
-      "claim": "Historical legal provisions and current release/disclosure permission",
-      "source": "specification/phase3_cohort.md; paper/references.json; original government notices / licence conditions",
-      "limitation": "Research rule values are reproducible; this verifier does not independently authenticate the notices, establish statutory entitlement, or clear historical repository disclosure."
+      "claim": "Full statutory eligibility and current release/disclosure permission",
+      "source": "paper/historical_thresholds_verified_audit.json; specification/phase3_cohort.md; original licence/disclosure conditions",
+      "limitation": "The separate D-074 source audit verifies the operative 1.6A−0.4B formula from April 2014, the R1,350/R1,410 maximum rates from April 2014/2015, and selected original spouse, half-joint-income and R100 monthly-minimum clauses. These source checks do not establish full statutory entitlement for surveyed individuals or clear historical repository disclosure."
     },
     {
-      "claim": "Article claims and operative legal-notice provisions remain incompletely verified",
-      "source": "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md",
-      "limitation": "The retained primary-source audit dated 2026-10-11 reports 13 external attempts and 0 remote primary texts accessed (HTTPS proxy 403). 3 authentic local Stats SA documents were read. Its then-current 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; they do not authenticate article findings or the operative Annexure/R100/couple-threshold chain. This run reads that historical record and does not repeat publisher or legal-source access."
+      "claim": "Original article corroboration and exhaustive legal consolidation remain incomplete",
+      "source": "paper/primary_source_audit.json; overall_status, source_audits; paper/primary_source_audit.md; paper/historical_thresholds_verified_audit.json",
+      "limitation": "The retained primary-source audit dated 2026-10-11 reports 13 external attempts and 0 remote primary texts accessed (HTTPS proxy 403). 3 authentic local Stats SA documents were read. Its then-current 25-reference first-use check and 18 DOI-string matches establish citation/bibliographic consistency only; they do not authenticate original article findings. Its legal-source access limits are a dated snapshot, superseded for the operative formula, rates and selected spouse/minimum clauses by the separate D-074 source audit. Exhaustive legal consolidation remains outside these selected checks. This run reads the historical record and does not repeat publisher or legal-source access."
     }
   ],
   "failures": [],

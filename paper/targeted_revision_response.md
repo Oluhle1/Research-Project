@@ -60,7 +60,7 @@ blocked. The preceding twelve-request D-070 and thirteen-request
 [the historical legal follow-up](legal_verification_followup.md) and
 [its evidence record](legal_verification_followup.json).
 
-The historical **15 October 2026 uploaded-source review, D-072**, at `132e96c`, has **5,457
+The historical **15 October 2026 uploaded-source review, D-072**, at `132e96c`, had **5,457
 whitespace tokens**, a **141-word abstract** and a **389-word III.B**. Two genuine
 uploaded legal originals were read: **GN R286 / GG 34169 / 31 March 2011**,
 Schedule paragraphs 2 and 4, specified **1.4A − 0.4B** from **1 April 2011**;
@@ -69,41 +69,78 @@ Schedule paragraphs 2 and 4, specified **1.4A − 0.4B** from **1 April 2011**;
 regulation 41. The uploaded `415.pdf` is **GG 31342**, containing banking/customs
 notices, and is excluded as the intended 2008 social-assistance source.
 
-III.B retains the fixed annual research ceilings and explicitly labels annual
-private income as a proxy. VII records unresolved historical formula
+At D072, III.B retained the fixed annual research ceilings and labelled annual
+private income as a proxy. VII recorded unresolved historical formula
 applicability. The intervening formula amendments and original 2014/2015 rate
-notices remain unauthenticated. The 2022 source cannot prove the formula,
+notices were then unauthenticated. The 2022 source cannot prove the formula,
 minimum or legal spouse provisions operative in 2014–2015. Legal follow-ups 2
-and 3 are addressed in text; 1 and 4 now have partial original-source evidence
-but remain incomplete. See [the uploaded-source audit](uploaded_legal_source_audit.md)
+and 3 were addressed in text; 1/4 then had partial original-source evidence
+but were incomplete. See [the uploaded-source audit](uploaded_legal_source_audit.md)
 and [its evidence record](uploaded_legal_source_audit.json).
-**Point 3 is partly addressed and awaits user review; supervisor points 4–10 remain pending.**
+**That D072 status is historical; D074 below addresses point 3 within research scope, awaiting user review. Supervisor points 4–10 remain pending.**
 These four legal requests extend point 3; supervisor point 4 concerns bootstrap
 intervals and remains pending. See [the language revision](specialist_language_revision.md)
 and [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The 11 October, D-070 and D-071 source audits remain historical records.
 
-The current **D073 revision, 15 October 2026**, incorporates the correct original
-**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
-joint-income and half-joint-income provisions, desertion exception and minimum
-payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
-**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
-rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
-and points 4–10 remain pending.
+The historical **D073 revision, 15 October 2026**, is archived at `7d54c18`.
+It incorporated the correct **GN R898, GG31356, 22 August 2008**, including the
+spouse definition, joint/half-joint income, desertion exception and R100 minimum.
+It distinguished the 2008, 2011 and 2022 formula versions, but at that stage the
+operative 2014–2015 amendment and original rate notices had not been read.
+Point 3 therefore remained partially addressed in that snapshot.
 
-The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+The D073 paper had **5,442 whitespace tokens**, a **141-word abstract** and
 **374-word III.B**, with **eight Letter pages, nine tables, four figures and
-28 first-use references**. Only III.B's threshold and marital paragraphs changed
-in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
-2011/2022 become published 27/28. All prior reference strings, table contents and
-XML, figure assets and scientific code/results remain unchanged. Visible fonts
-remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
-exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
-The current-source verifier passed 209 numerical and 100 supporting comparisons,
-with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+28 first-use references**. Stable source 28 was published reference 26;
+2011/2022 sources were published 27/28. Its 209 numerical and 100 supporting
+comparisons and primary/independent all-eight-page reviews passed. The 314-row
+register and four documented limits describe that historical verification.
+Those counts, mappings and checks are not D074 results. The original 25
+reference strings and the frozen scientific code/results were preserved.
 
-See [the 2008 source audit](historical_2008_source_audit.md),
-[its ledger](historical_2008_source_audit.json) and
+See [the historical 2008 source audit](historical_2008_source_audit.md) and
+[its ledger](historical_2008_source_audit.json).
+
+## Current D074 source verification
+
+The current **D074 revision, 15 October 2026**, closes the historical
+threshold-source gap within the research scope. **GG37474, 28 March 2014**,
+p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
+1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
+date. **GN277, GG38647, 30 March 2015**, p. 3, verifies the standard **R1,410
+monthly rate from 1 April 2015**. The original 2008 Annexure A(5) supplies the
+**R100 monthly minimum**, regulation 19(1) the half-joint annual-income rule,
+and regulation 18 the documented spouse/desertion provisions. **R621,
+GG39007, 21 July 2015**, does not change the OPG means, spouse or formula rules.
+
+These originals verify the premises used to derive the unchanged annual
+research ceilings **R61,800/R123,600** and **R64,680/R129,360**. Applying the
+standard **60–74 rate to all ages** remains an explicit research choice;
+the **R20 age-75+ supplement** is already examined in unchanged sensitivity
+S1c. Source verification does not turn the observable proxy into the complete
+statutory means test or validate every research partnership classification.
+**Supervisor point 3 is addressed within research scope and awaits user review;
+points 4–10 remain pending.**
+
+The current paper has **5,469 whitespace tokens**, a **141-word abstract**
+and **408-word III.B**, with **eight Letter pages**,
+**nine tables, four figures and 28 active references numbered by first use**.
+The catalog retains
+30 sources: historical IDs 26/27 (2011/2022) are unused in the current manuscript;
+new source 29 is published 26, base source 28 is published 27 and new source 30
+is published 28. The original 25 reference strings and 18 DOI entries remain
+unchanged; this does not independently corroborate journal contents. Visible
+fonts remain 10/9/8 points and the builder is unchanged. Fresh D074
+verification passed **209 numerical and 100 supporting comparisons**, with
+**zero failures, 314 claim-register rows and four documented limits**. Primary
+and independent reviews passed all eight final pages; artifact, citation and
+render checks bind the current files. Archived D073 checks retain their dated scope. No screening rerun, model
+refit, application-suite run,
+participant study, external deployment or submission is claimed.
+
+See [the verified historical-threshold audit](historical_thresholds_verified_audit.md),
+[its evidence ledger](historical_thresholds_verified_audit.json) and
 [current artifact validation](manuscript_validation.json).
 
 This response records the completed user-authorised improvements in the uploaded
@@ -119,13 +156,16 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current D073 draft retains eight pages, nine tables and four figures,
-with 28 references and 5,442 whitespace tokens. The verifier passed 209 numerical
-and 100 supporting comparisons. Primary and independent all-eight-page reviews passed. III.B's threshold and marital paragraphs now cite the 2008
-base directly; all other manuscript prose and scientific files remain unchanged
-from `132e96c`. The builder only reduces the final invisible balancing paragraph
-height; visible fonts remain 10/9/8 points. A documented limitation is an accurate response; it does
-not make missing source, administrative or empirical evidence complete.
+The current D074 draft retains eight pages, nine tables, four figures and
+28 active references, with **5,469 whitespace tokens**. The original
+25 reference strings and all frozen scientific files remain unchanged. The
+historical threshold-source gap is closed by directly read originals; the
+research choices and incomplete statutory proxy remain explicit. Fresh D074 verification passed 209 numerical and 100 supporting comparisons
+with zero failures, 314 register rows and four documented limits. Primary and
+independent reviews passed all eight final pages; artifact, citation and render
+checks passed. Earlier dated evidence retains its historical scope.
+A documented limitation does not complete unrelated source, administrative or
+empirical evidence.
 
 | Priority | Concrete revision and acceptance criterion | Evidence and location | Current closure status |
 | --- | --- | --- | --- |
@@ -133,7 +173,7 @@ not make missing source, administrative or empirical evidence complete.
 | **P2: theory–measurement–finding synthesis** | Connect learning/compliance/psychological costs to measured proxies and findings; state that schooling, distance and settlement do not directly measure burden; interpret unexpected schooling associations as selected-cohort associations with untested explanations. | Current manuscript II.B–D, VI.E; Table II; Fig. 1. Income, partnership and grant responses define screening rather than primary predictors. | **Completed; substantive review passed.** Discussion separates constructs, proxies, associations and unmeasured mechanisms, with explicitly untested explanations for the unexpected schooling direction. |
 | **P3: predictive interpretation** | Explain pairwise ranking, precision–recall, squared probability error and calibration separately; compare AP with 6.61% prevalence and Brier with its intercept-only reference; retain sparse-event and fixed-prediction interval limits. | Manuscript V.C, VI.B; Table VII; Fig. 4; frozen [primary metrics](../output/runs/primary/metrics.csv). Full-fit odds ratios must remain distinct from OOF evaluation. | **Completed; text and numerical checks passed.** AP is interpreted across thresholds; Brier improvement is approximately 0.0040; calibration convention and sparse-event uncertainty are explicit. No tested operational threshold exists. |
 | **P4: sensitivity interpretation** | Identify S3 as the largest tested weighted prevalence change (9.06% vs 7.49%); explain S2's denominator changes, S7's changed sample, S8's feature substitution, S9's frequency-weighted fit, S10's weighted evaluation without refitting and S11's internal grouping alternative. | Manuscript V.B–C, VI.A–B; Tables VI and VIII; [RQ1 sensitivities](../output/phase4/rq1_sensitivity.csv); [model sensitivities](../output/phase6/model_sensitivity.csv). | **Completed; text and numerical checks passed.** S3 is prioritised; S2 and S7–S11 are distinguished. Similar AUC does not establish identical populations or correct screening; changing cohort prevalence can change Brier. |
-| **P5: verifiable claims and final document** | Bind headline values, sensitivity rows and software claims to saved evidence; inspect citation order/metadata, primary sources where obtainable, cautious ethics/data statements and actual eight-page render. Confirm administrative labels rather than infer them from an attachment. | [Manuscript validation](manuscript_validation.json), [empirical validation](empirical_expansion_validation.json), [evidence log](../docs/evidence_log.md), [decision log](../specification/decision_log.md), [claim register](claim_source_register.csv), [portable verifier](verify_claims.py), [claim validation](claim_source_validation.json), and [primary-source audit](primary_source_audit.md). | **Partly complete.** All 209 numerical and 100 supporting comparisons passed, with zero failures; the 314-row register records four unverified claims and a separately labelled historical narrative record. Final render and citation checks passed. Primary-source, ethics, licence/disclosure and portal confirmations remain open. |
+| **P5: verifiable claims and final document** | Bind headline values, sensitivity rows and software claims to saved evidence; inspect citation order/metadata, primary sources where obtainable, cautious ethics/data statements and actual eight-page render. Confirm administrative labels rather than infer them from an attachment. | [Manuscript validation](manuscript_validation.json), [empirical validation](empirical_expansion_validation.json), [evidence log](../docs/evidence_log.md), [decision log](../specification/decision_log.md), [claim register](claim_source_register.csv), [portable verifier](verify_claims.py), [claim validation](claim_source_validation.json), and [primary-source audit](primary_source_audit.md). | **Partly complete.** Fresh verification passed 209 numerical and 100 supporting comparisons, with zero failures, 314 register rows and four documented limits. Legal-source verification is separately audited. The historical threshold/rate gap is closed. Independent journal-source, ethics, licence/disclosure and portal confirmations remain open. |
 
 ## Final fourteen-item checklist
 
@@ -153,11 +193,11 @@ establish; it does not establish that condition.
 | 7 | RQ3 uses actual tests and says participant usability is untested. | Table IX and VI.C; 26 original checks include only 22 screening cases; 220 later tests overlap earlier suites; owner walkthrough is functional evidence. | **Passed: recorded-evidence and text checks.** Participant usability remains not conducted; no new application test run is claimed. |
 | 8 | Frozen app scores are not confused with OOF validation. | IV/VI.C; full-data fitted scores have unknown training overlap, while OOF probabilities are household-held-out. | **Passed: final text/evidence checks.** Serialization agreement verifies inference, not new predictive accuracy. |
 | 9 | External validity excludes unsupported contemporary/province transfer. | VI.D specifies target-period screen/outcome compatibility and independent discrimination/calibration; no 2026 applicant decision claim. | **Passed: substantive review.** No independent province, period or administrative validation is claimed. |
-| 10 | Headline numbers trace to saved outputs and the correct run. | Claim-to-source register plus read-only numerical comparisons; include seed/folds, uncertainty, calibration bins and software evidence. | **Passed: 209 numerical + 100 supporting comparisons; zero failures.** Four unverified claims and the historical repeat-run narrative are distinguished from those comparisons. No model refitting or scientific-output change. |
-| 11 | References and legal thresholds are checked against originals. | Original 2008 R898 now verifies the spouse, joint/half-joint income, desertion, deduction and minimum provisions, alongside 2011/2022 formula endpoints. The original 2008 formula is 1.3A−0.5B, later 2011 is 1.4A−0.4B and 2022 is 1.6A−0.4B. The dated 13/12/7 failed-request ledgers and D072 source supplements remain historical. Three local Stats SA originals corroborate survey documentation;18 DOIs match Submission 1 only. | **Partly addressed.** Exact original 2008 wording and reference are verified; the operative 2014–2015 amendment and original rate-notice chain remains incomplete. Published source 26 is 2008,27 is 2011 and28 is 2022. External journal corroboration also remains open. |
+| 10 | Headline numbers trace to saved outputs and the correct run. | Claim-to-source register plus read-only numerical comparisons; include seed/folds, uncertainty, calibration bins and software evidence. | **Passed: 209 numerical and 100 supporting comparisons; zero failures.** Remaining source/governance claims and the historical repeat-run narrative are distinguished from numeric checks. No model refitting or scientific-output change. |
+| 11 | References and legal thresholds are checked against originals. | D074 reads the operative 2014 formula amendment, standard 2014/2015 rates, original minimum/half-joint provisions and the 2015 R621 amendment. All four research ceilings follow; the all-age standard-rate choice, age-75+ S1c and incomplete legal proxy remain explicit. | **Historical threshold source gap closed within research scope; user review pending.** Independent journal corroboration and broader supervisor point 10 remain open. |
 | 12 | Ethics/access/disclosure statements are accurate and documented. | VII truthfully states no recorded DUT determination; synthetic package contains no survey rows; whole historical repository has not been disclosure-cleared. | Addressed with limits; institutional determination and data-release conditions remain undocumented. |
 | 13 | Correct module and assignment labels appear. | The author explicitly confirmed **APRE402** in this session. The final title reads “ICT Honours (21634436), APRE402,” retaining DUT affiliation. Approved Submission 1 retains its historical PRIC401 label. | **Module confirmed and title corrected.** Official portal assignment naming/cutoff remains unconfirmed. |
-| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | Final DOCX/PDF rebuilt; primary and independent visual reviews passed all eight freshly rendered Letter pages, nine tables, four figures, captions/cross-references and 28 references, with unchanged 10/9/8-point fonts. | **Passed: final render, visual and citation checks.** |
+| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | The final D074 PDF has eight Letter pages, nine tables, four figures and 28 active first-use references. Primary and independent reviews passed all eight pages, with unchanged 10/9/8-point fonts and builder. | **Passed: current artifact, citation, visual and render checks.** |
 
 ## Administrative and governance facts
 
@@ -196,7 +236,9 @@ establish; it does not establish that condition.
 Source citations in `manuscript.md` use stable source IDs; the generated
 `manuscript_numbered.md` and PDF renumber by first citation. The attachment's
 bracket numbers must not be copied blindly. References are matched by author
-and title. The final map has all 28 references in first-use order and no unused entries;
+and title. The current map has 28 active references in first-use order from 30 catalog entries;
+historical source IDs 26/27 are retained but unused, while new29/base28/new30
+publish as 26/27/28;
 this mechanical check does not independently verify cited content.
 
 
@@ -213,18 +255,17 @@ this mechanical check does not independently verify cited content.
   suite or recruit participants.
 - [Primary-source audit](primary_source_audit.md): **three authentic local
   Stats SA PDFs read**, **13 remote retrievals blocked**, **zero remote texts
-  accessed**. All **18 DOI strings match Submission 1**; original articles,
-  notices and operative legal formula remain independently unverified.
+  accessed**. All **18 DOI strings matched Submission 1**; original articles,
+  notices and the operative formula were independently unverified at that date.
 - Eight-page, table/figure, citation and substantive interpretation checks
   passed. Participant usability remains **not conducted**. Institutional ethics,
   historical raw-data access/disclosure and official portal details remain
   incomplete and visible.
 
 The 11 October P1–P4 revisions, framework corrections and supervisor point 2
-are complete and accepted. D073 strengthens the research spouse rationale and
-addresses the source-version distinction in III.B and VII. The original 2008 base and the 2011/2022 originals now support their dated wording, but original operative amendment/rate
-evidence for follow-ups 1 and 4 remains missing. Point 3 awaits user review.
-Supervisor points 4–10 and remaining source/administrative checks stay pending.
-D-071's seven failed requests supplied no legal text at that stage; its dated
-record at `214647e` remains unchanged. No model fitting, application suite run,
-participant study or institutional submission occurred in D-072.
+are complete and accepted. D074 closes the historical amendment/rate source
+gap and documents the standard-rate research choice; point 3 is addressed
+within research scope and awaits user review. Supervisor points 4–10 and the
+remaining journal-source/administrative checks stay pending. D070–D073 retain
+their dated evidence and prior limits. No model fitting, application-suite run,
+participant study or institutional submission occurred in this source revision.

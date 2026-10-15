@@ -29,44 +29,37 @@ These are cohort counts. The weighted non-receipt proportion is Phase 4.
 
 ## Thresholds
 
-**D073 source update —15 October 2026:** The correct original 2008 regulations,
-GN R898/GG31356, are now read. They verify original spouse/joint/half-joint means,
-desertion, deductions and the R100 minimum, with commencement 22 August 2008.
-Their original formula is 1.3A−0.5B; the 2011 amendment uses 1.4A−0.4B and the 2022
-replacement uses 1.6A−0.4B. The intervening operative 2014–2015 chain and original
-rate notices remain missing. The2008 income list includes dependent-child and
-ex-gratia items; it is not identical to 2022. Research ceilings and all code/cohort
-results remain fixed. See [the new source audit](../paper/historical_2008_source_audit.md).
-The earlier verification updates below describe their dated evidence stages.
+**Current source update — 15 October 2026 (D-074):** The original 2014 and
+2015 rate notices and operative formula are now read. GG 37474, 28 March
+2014, page 3 (GN 211) sets R1,350 monthly from 1 April 2014. On pages 4–5,
+Schedule paragraph 2 substitutes Annexure A(2) with `D = 1.6A − 0.4B`, with printed
+commencement paragraph 1 effective 1 April 2014. GN 277/GG 38647,
+30 March 2015, page 3 sets R1,410 from 1 April 2015. The 2008 R898
+Annexure A(5) supplies the R100 monthly minimum and regulation 19(1)
+the half-joint income rule. R621/GG 39007, 21 July 2015, leaves the OPG
+formula, means and spouse provisions unchanged. The four standard-rate
+ceilings are verified in [the new audit](../paper/historical_thresholds_verified_audit.md)
+and its JSON companion. No cohort, code, model or substantive rule changed.
 
-**Uploaded-source update — 15 October 2026 (D072):** Two genuine uploaded legal
-originals have now been read: GN R286/GG34169 specifies 1.4A − 0.4B from
-1 April 2011; GN R2119/GG46459 specifies 1.6A − 0.4B and the R100 minimum,
-but commenced on 31 May 2022. The supplied 2008 `415.pdf` is the wrong Gazette.
-The correct base is GN R898/GG31356. Its full text, the intervening amendments
-and original 2014/2015 rate notices are still needed to establish the survey-period
-law. The ceilings and partnership rules below remain fixed research assumptions.
-See [the uploaded-source audit](../paper/uploaded_legal_source_audit.md).
-No screening, cohort, data, application or model was changed.
+D-073's incomplete source stage and its 5,442/141/374-word build with
+28 references are archived at `7d54c18`. Earlier audits retain their dated
+findings; their missing-source statements do not describe the current review.
 
-**Verification update — 14 October 2026:** The point 3 audit checked the code,
-conditional threshold arithmetic and original LCS questionnaire/metadata.
-Official notices and operative formula, minimum-payment, couple-resource and
-statutory spouse provisions remain unverified because source retrieval failed.
-The historical legal rationale below records the study's assumptions; it is
-not authenticated law. See [the screening source audit](../paper/historical_screening_source_audit.md).
-No substantive rule, cohort or model changed.
-
-The recorded research calculation assumes D = 1.6A − 0.4B and a minimum payment of R100 a month. The uploaded 2022 Annexure A contains these terms; their historical applicability remains unresolved. B at the ceiling is the private income at which D is still exactly R1,200 a year. Income at that ceiling passes. Income above it fails.
+Using annual amounts, the single ceiling is `(1.6A − 1,200) / 0.4`, the
+income at which annual payment D is exactly R1,200. Half-joint annual
+income doubles that ceiling for a couple. Income at the ceiling passes;
+income above it fails the observable research rule.
 
 | Interview month | Grant maximum used as A | Single ceiling | Couple ceiling | People aged 60+ |
 | --- | --- | --- | --- | --- |
 | October 2014–March 2015 | R1,350 a month, from GN 211, GG 37474, 1 April 2014 | R61,800 | R123,600 | 699 |
 | April 2015–October 2015 | R1,410 a month, from GN 277, GG 38647, 1 April 2015 | R64,680 | R129,360 | 618 |
 
-The recorded development rationale treats the October 2014 adjustment as applying to child support and grant-in-aid, and assumes half-joint income for spouses. That assumption doubles the single ceiling. The recorded April 2015 means-test figures match the calculation. These notice-based statements still require original historical authentication; they do not replace the source check above.
-
-The extra R20 a month paid from age 75 is not included in A. Published means-test tables use one older-person ceiling. Including the R20 would raise a single person’s ceiling by R960. That alternative is named and is not the primary rule.
+Both original rate notices include an extra R20 monthly from age 75. The
+primary rule uses the standard age-60–74 maximum across ages as an explicit
+research choice. Including the supplement raises the single ceiling by R960
+and the couple ceiling by R1,920; S1c remains the unchanged age-specific
+sensitivity. Source verification does not turn the proxy into a full legal means test.
 
 The asset test, deemed income from assets, and the regulation 20 deductions are not in the proxy. The asset file does not measure an assessable stock. Passing this screen means apparently eligible.
 
@@ -79,7 +72,17 @@ The asset test, deemed income from assets, and the regulation 20 deductions are 
 | 2 Living together, 5 Separated, 9 Unspecified | Unresolved |
 | 3 Never married, 4 Widowed, 6 Divorced | Single ceiling |
 
-The uploaded 2022 regulation 1 links the spouse definition to specified marriage, customary-marriage, civil-union and religious bases. Regulation 20(3) requires Agency satisfaction that desertion continued for at least three months and the spouse is unwilling to support the applicant before disregarding spouse means. These later clauses do not authenticate the historical law. Survey categories alone cannot establish legal spouse status or the desertion conditions; absent spouse income is also unavailable. Ambiguous partnership cases therefore remain unresolved under the conservative primary research rule. Residence and reciprocal household links are research consistency requirements, not legal eligibility conditions.
+The original 2008 R898 regulation 1 defines spouse. Regulations 18(2)/(3)
+govern joint income and desertion: disregarding spouse means requires the
+Agency's approval of continued desertion for at least three months and
+unwillingness to support the applicant. Regulation 19(1) uses half-joint
+annual income, so resolved spouse resources enter regardless of spouse age.
+R621/2015 does not alter these provisions. Survey categories cannot establish
+legal spouse status or the desertion conditions, and absent spouse income
+is unavailable. Ambiguous and nonresident-spouse cases therefore remain
+unresolved under the conservative research rule, not legally ineligible.
+Residence and reciprocal household links are research consistency requirements,
+not legal eligibility conditions.
 
 ## What the reason counts show
 

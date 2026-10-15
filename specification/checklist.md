@@ -2,7 +2,7 @@
 
 **Source:** Submission 1 (`21634436_Oluhle_Jawe_Submission_1.pdf`), Sections II–VII and Figures 1–2 and Table I.  
 **Process constraints** from `Agent.md` are included only where they restate that design or require a record of it.  
-**Created:** 2026-09-25; current evidence update: 2026-10-14 (Africa/Johannesburg).
+**Created:** 2026-09-25; current evidence update: 2026-10-15 (Africa/Johannesburg).
 
 **Rule:** status changes only when the named evidence exists. Phase 1 originally set every row to Proposed; this table records current implementation evidence.
 
@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, 73 unique D-001–D-073 rows |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, 74 unique D-001–D-074 rows |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D073: 5,442 manuscript words, 141-word abstract, 374-word III.B; eight Letter pages, nine tables, four figures, 28 first-use references and APRE402. Original R898/2008 base now read and directly cited for minimum/spouse/means provisions; operative 2014–2015 amendment/rate chain remains incomplete. Source records: paper/historical_2008_source_audit.md/.json. All 209 numerical and 100 supporting checks passed; both reviewers passed all eight pages. Only III.B threshold/marital prose, one source citation/PDF and final invisible balancing-paragraph height changed from 132e96c; fonts 10/9/8, tables/figures and science/app code unchanged. Stable source ID28 becomes published 26; 2011/2022 become 27/28. Historical D072 counts/hashes remain intact. Point 3 partial; points 4–10 pending. No checklist status change or refit. |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-074: 5,469 manuscript words, 141-word abstract, 408-word III.B; eight Letter pages, nine tables, four figures, 28 active first-use references, 18 DOI references and APRE402. Fresh verifier: 209 numerical/100 supporting comparisons passed, zero failures, 314 rows/four limits; root review passed all eight final pages. Fonts/builder unchanged. Original 2014 formula/rate, 2015 rate and R621 amendment read; four standard-rate ceilings verified. `paper/historical_thresholds_verified_audit.md`/`.json` records the chain and research limits. Standard age-60–74 maximum across ages is a research choice; S1c unchanged. Point 3 addressed within research scope, pending user review; points 4–10 pending. D-073's 5442/141/374 counts, 28 references and completed checks are historical at 7d54c18. No code, rule, result, refit or checklist status change. |
 
 ## Current summary
 
@@ -160,14 +160,23 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current D-073 correct-2008-base review is being
-prepared for the eight-page limit; final counts and render/layout checks remain
-pending. D-072's completed eight-page evidence is historical at `132e96c`;
-`paper/manuscript_validation.json` records the current build when finalised. It has not been externally submitted.
-Independent publisher/legal-notice verification and ethics confirmation remain
-outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word,
-5,097-word, 5,308-word, 5,423-word, 5,416-word, 5,430-word, 5,451-word and
-5,457-word builds are historical stages; D-073 final counts remain pending.
+predictive validation. D-074 closes the specific historical threshold-source
+gap within the research scope: four standard-rate ceilings and the operative
+formula/minimum/couple provisions are verified from original texts. Point 3
+is addressed within that scope and awaits user review; points 4–10 remain
+pending. The new audit is `paper/historical_thresholds_verified_audit.md`/`.json`;
+`paper/manuscript_validation.json` records current build evidence. The paper
+has not been externally submitted. Broader publisher/source checks, ethics,
+access/disclosure, portal requirements and participant usability remain open.
+All build accounts below through D-073 are historical. In particular D-073's
+5,442 words, 141-word abstract, 374-word III.B, 28 references, hashes and
+completed checks are archived at `7d54c18`; they do not verify the D-074 build.
+
+## Historical revision stages, through D-073
+
+The following dated accounts preserve the evidence available at each stage.
+Their source gaps and pending actions are superseded by the D-074 update
+above and the current closure below where applicable.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -275,7 +284,7 @@ and supervisor points 4–10 remain pending. No checklist status changes:
 table contains 72 unique rows. D-062–D-071 counts, hashes and earlier reviews
 remain historical.
 
-The 15 October D-073 revision reads the correct 81-page base GN R898,
+The historical 15 October D-073 revision at `7d54c18` reads the correct 81-page base GN R898,
 GG 31356, 22 August 2008. Regulation 1 supplies the spouse definition;
 18(2)/(3) joint-income/desertion rules; 19(1) half-joint annual income;
 20 deductions; 39 commencement. Annexure A(2) uses 1.3A − 0.5B and A(5)
@@ -313,3 +322,31 @@ exact 1-point line to prevent a blank ninth page. Visible fonts remain 10/9/8 po
 reference spacing, all nine table XML records, figures and scientific files match
 `132e96c`. The new stable source ID28 is published reference 26, with 2011/2022
 renumbered 27/28. These checks do not authenticate the missing survey-period chain.
+
+## D-074 current source closure — 15 October 2026
+
+GG 37474, 28 March 2014, page 3 (GN 211) verifies R1,350 monthly from
+1 April 2014. On pages 4–5, Schedule paragraph 2 substitutes Annexure A(2) with
+`D = 1.6A − 0.4B`; printed commencement paragraph 1 applies from 1 April
+2014. GN 277/GG 38647, 30 March 2015, page 3 verifies R1,410 from
+1 April 2015. R898/2008 Annexure A(5) gives the R100 monthly minimum,
+19(1) half-joint income, 18(2)/(3) joint income/desertion with Agency
+approval, and regulation 1 the spouse definition. R621/GG 39007,
+21 July 2015, leaves the OPG formula, means and spouse provisions unchanged.
+These establish R61,800/R123,600 and R64,680/R129,360 standard-rate ceilings.
+
+Both rate notices include an extra R20 from age 75. Using the standard
+age-60–74 maximum across ages is an explicit primary research choice;
+S1c is unchanged. The proxy still omits assets, deemed asset income and
+deductions. Resident reciprocal spouse links are research consistency
+requirements; ambiguous or nonresident cases are unresolved, not ineligible.
+Point 3 is addressed within research scope, pending user review; points 4–10
+remain pending. The 96 rows remain 94 Implemented, two Proposed and zero
+Verified; the decision table now contains 74 unique rows. Current manuscript:
+5,469 words, 141-word abstract, 408-word III.B, eight Letter pages,
+nine tables, four figures and 28 active first-use references. The fresh
+source-bound verifier passed
+**209 numerical and 100 supporting comparisons**, with **zero failures,
+314 register rows and four documented limits**. Root visual review passed
+all eight final pages. Fonts and builder are unchanged; 18 DOI references
+are retained. No science, code, rules or results change follows from source closure.

@@ -1,0 +1,143 @@
+{
+  "status": "revision checks passed; awaiting user review of point 2",
+  "checked_at_utc": "2026-10-14T09:43:51.097210+00:00",
+  "revision_date": "2026-10-14",
+  "baseline_commit": "0dd3d0e6cba7b31aef469bcaefdea6770a09a817",
+  "feedback_point": 2,
+  "comment": "Page 2, Table II: Improve the presentation of the conceptual relationship between administrative-burden theory and the selected predictors. Correct the table formatting.",
+  "authorization": "Explicit user request after positive review of the three framework corrections",
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "38e4f3b65619d30593c278dbc9827615a7907dc60fde1e97ff31c57430924c69",
+  "manuscript_words_whitespace_tokens": 5416,
+  "abstract_words_whitespace_tokens": 141,
+  "point2_review": {
+    "status": "passed",
+    "reviewer": "Independent framework_science reviewer; actual diff and primary predictor coding reviewed",
+    "age_sex": "Demographic context; no assigned burden mechanism",
+    "schooling": "Possible information access and understanding relevant to learning costs",
+    "settlement_office_distance": "Possible local access/travel effort relevant to compliance costs",
+    "psychological_costs": "Unmeasured; no additional predictor",
+    "predictor_groups": 5,
+    "slopes": 6,
+    "all_actual_categories_transforms_and_references_preserved": true,
+    "unavailable_office_category": "Recorded unavailable-office response in far group; not missing-value imputation",
+    "direct_burden_measurement_or_causal_effect_claim": false
+  },
+  "scope": {
+    "changed_manuscript_area": "Table II caption/headers/cells and adjacent II.C explanation/note only",
+    "text_outside_changed_area_unchanged": true,
+    "other_eight_table_sources_and_XML_unchanged": true,
+    "accepted_II_D_Figure1_VI_E_unchanged": true,
+    "document_build_change": "Table II-specific formatting in grid() only",
+    "global_layout_fonts_and_other_table_formatting_unchanged": true,
+    "remaining_supervisor_points": "3\u201310 pending",
+    "user_acceptance": "Pending; await review before point 3"
+  },
+  "table_format_validation": {
+    "status": "passed",
+    "table": "II",
+    "pdf_page": 2,
+    "headers": [
+      "Predictor",
+      "Theoretical role",
+      "LCS coding and limit"
+    ],
+    "predictor_rows": 5,
+    "column_widths_DXA": [
+      900,
+      1800,
+      2340
+    ],
+    "total_width_inches": 3.5,
+    "type_points": 9,
+    "header_bold": true,
+    "vertical_alignment": "top",
+    "paragraph_alignment": "left",
+    "horizontal_rules": "Top of header, below header and bottom of last row",
+    "vertical_and_internal_grid": "none",
+    "repeating_header": true,
+    "unsplit_rows": true,
+    "caption_keep_next": true
+  },
+  "audience_and_scientific_scope": {
+    "status": "passed",
+    "clear_professional_specialist_language": true,
+    "elementary_term_definitions_not_reintroduced": true,
+    "all_16_previously_reviewed_scientific_distinctions_preserved": true,
+    "causal_legal_entitlement_usability_or_external_performance_claim_added": false
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "detail": "paper/claim_source_validation.json",
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "verifier_changed": false,
+    "model_refitted": false,
+    "application_test_suite_rerun": false,
+    "negative_controls": "Historical controls retained, not rerun for this table revision"
+  },
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent framework_text all-page layout reviewer",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "1e71b7185884430d14be0cac5d28a22ae789963ab3badb397693747f59d196ef",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "9862d9aacefcbfdc09ea0ad95a5dcc8e2f3c4512082a6c0f3298e90101bd0669",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 25,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "notes": "Table II and note wholly on page 2; Figure 1 page 3; VI.E page 8; Table V note continues 5\u20136, Table VIII 6\u20137; reference 1 left and references 2\u201325 right on page 8, whole entries",
+    "clipping_or_extra_blank_page": false
+  },
+  "build_ieee_sha256": "977c31c46b7889eb50a7eeff2e770a12b39617b2d20c1829271fc616a6389267",
+  "protected_paths": {
+    "baseline_commit": "0dd3d0e6cba7b31aef469bcaefdea6770a09a817",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py",
+      "paper/conceptual_framework_revision.md",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point1_validation.json"
+    ],
+    "status": "unchanged"
+  },
+  "historical_framework_validation": {
+    "detail": "paper/conceptual_framework_validation.json",
+    "snapshot_commit": "0dd3d0e6cba7b31aef469bcaefdea6770a09a817",
+    "source_sha256": "1fcaa1d081dbdabe3de4ed7e21ebc601a9a73b8adf3a81078a77b75bec654b49",
+    "words": 5423,
+    "user_review": "Positive; user authorized next feedback item"
+  },
+  "next_step": "User reviews point 2 before point 3",
+  "limits": [
+    "Proxy associations cannot directly test administrative-burden mechanisms",
+    "No new source verification, institutional decisions or participant evidence",
+    "No application suite/model refit/external submission or supervisor message"
+  ]
+}

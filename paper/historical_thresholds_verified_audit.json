@@ -1,0 +1,397 @@
+{
+  "status": "Historical formula/rate source gap closed; manuscript and document checks passed within research scope; point 3 awaiting user review; not submitted",
+  "revision_date": "2026-10-15",
+  "client_timezone": "Etc/UTC",
+  "baseline_commit": "7d54c186cfd2e05d6f9a5652181f127736606b26",
+  "decision": "D074",
+  "feedback_point": 3,
+  "user_acceptance": "Awaiting user review",
+  "source_review": {
+    "status": "passed",
+    "original_images_control_ocr_and_markup": true,
+    "independently_downloaded_official_copies": 0,
+    "fresh_remote_requests": 0,
+    "complete_legal_entitlement_established": false,
+    "exhaustive_legislation_consolidation_claimed": false,
+    "historical_formula_and_standard_rate_originals_verified": true,
+    "standard_rate_ceiling_arithmetic_verified": true,
+    "detail": "historical_thresholds_verified_audit.md"
+  },
+  "sources": [
+    {
+      "id": "base_2008",
+      "uploaded_filename": "saggv518n31356d22a2008495.pdf",
+      "repository_copy_target": "paper/legal_sources/2008_GN_R898_GG31356.pdf",
+      "identity": "GN R898, GG31356, Regulation Gazette 8948, 22 August 2008",
+      "sha256": "c54ce6e72a31430ddd4fe1c3a8177b113b8f56194856719e8652eb24c66b59c6",
+      "pdf_pages": 81,
+      "audited_physical_and_printed_pages_match": true,
+      "publication_date": "2008-08-22",
+      "effective_date": "2008-08-22",
+      "commencement_location": "Regulation 39, physical/printed page 73",
+      "relevant_locations": {
+        "spouse_definition": "Regulation 1, page 15",
+        "joint_income_and_desertion": "Regulation 18(2)-(3), page 40",
+        "annual_and_half_joint_income": "Regulation 19(1), page 41",
+        "deductions": "Regulation 20, pages 45-46",
+        "desertion_and_minimum": "Annexure A(3)-(5), page 75"
+      },
+      "render_diagnostic": "Unknown Fm0 reported in earlier rendering; audited source text remains readable and image controls OCR.",
+      "scope": "Original base wording directly read; no assertion that this alone constitutes every consolidated historical clause."
+    },
+    {
+      "id": "rates_and_formula_2014",
+      "uploaded_filename": "37474gon211 (1).pdf",
+      "repository_copy_target": "paper/legal_sources/2014_GN211_GG37474_rates_and_formula.pdf",
+      "identity": "GN211 rate page and accompanying regulation amendment, GG37474, 28 March 2014",
+      "sha256": "1d91579a194e20f16451ad99cdf25a4c953dedec87af553f73b612fad8f475b6",
+      "pdf_pages": 3,
+      "gazette_pages": [
+        3,
+        4,
+        5
+      ],
+      "publication_date": "2014-03-28",
+      "rate_effective_date": "2014-04-01",
+      "formula_effective_date": "2014-04-01",
+      "base_monthly_maximum_zar": 1350,
+      "age_75_monthly_supplement_zar": 20,
+      "rate_location": "PDF page 1 / Gazette page 3, older-person rate table and effective-date sentence",
+      "formula_location": "PDF page 3 / Gazette page 5, Schedule paragraph 2 substituting Annexure A(2)",
+      "commencement_location": "Same page, Commencement paragraph printed as 1",
+      "notice_identifier_precision": "Rate header visibly prints No.211; amendment pages have no separate R-prefixed header. R621/2015 PDF1/Gazette4 identifies the earlier amendment as Government Notice No. R 211 of 28 March 2014.",
+      "october_2014_opg_increase_announced": false,
+      "october_adjustment_scope": "Child Support Grant and Grant-in-Aid only",
+      "all_original_pages_visually_checked": true
+    },
+    {
+      "id": "rates_2015",
+      "uploaded_filename": "38647gon277.pdf",
+      "repository_copy_target": "paper/legal_sources/2015_GN277_GG38647_rates.pdf",
+      "identity": "GN277, GG38647, 30 March 2015",
+      "sha256": "b95961f9c0a737a47d80ec9e28d3935abddc82602ca637b6cbaa3673986310c7",
+      "pdf_pages": 1,
+      "gazette_pages": [
+        3
+      ],
+      "publication_date": "2015-03-30",
+      "rate_effective_date": "2015-04-01",
+      "base_monthly_maximum_zar": 1410,
+      "age_75_monthly_supplement_zar": 20,
+      "rate_and_commencement_location": "PDF page 1 / Gazette page 3",
+      "all_original_pages_visually_checked": true
+    },
+    {
+      "id": "amendment_2015_r621",
+      "uploaded_filename": "39007rg10471gon621.pdf",
+      "repository_copy_target": "paper/legal_sources/2015_GN_R621_GG39007.pdf",
+      "identity": "GN R621, GG39007, Regulation Gazette 10471, 21 July 2015",
+      "sha256": "891e2718970bd2ff82140dddb6ddd8f398c8e1c0860094e423defff8308744fb",
+      "pdf_pages": 16,
+      "gazette_page_mapping": "Physical PDF page + 3; pages 4-19",
+      "publication_date": "2015-07-21",
+      "effective_date": "2015-07-21",
+      "commencement_location": "Amendment paragraph 18, PDF page 16 / Gazette page 19",
+      "last_prior_amendment_recited": "Government Notice No. R 211 of 28 March 2014; PDF page 1 / Gazette page 4",
+      "amended_regulations": [
+        "1",
+        "7",
+        "9",
+        "14",
+        "15(1)",
+        "16",
+        "28(3)",
+        "32",
+        "33"
+      ],
+      "inserted_regulation": "37A",
+      "regulation_18_19_20_amended": false,
+      "spouse_definition_amended": false,
+      "annexure_a_amended": false,
+      "july_opg_means_or_formula_breakpoint_created": false,
+      "context_precision": "Temporary safe care is inserted after spouse; means/assets declarations in regulation15 and amount provisions in regulation16 concern SRD, not substitution of OPG means.",
+      "all_original_pages_visually_checked": true
+    }
+  ],
+  "exact_source_quotations": [
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF1/Gazette3",
+      "text": "The increase will be effected on 01 April 2014 with a further adjustment of R10 in October 2014 for the Child Support Grant and Grant-in-Aid respectively."
+    },
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF2/Gazette4, amendment legend",
+      "text": "Words in bold type in square brackets indicate omissions from the existing regulations."
+    },
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF2/Gazette4, amendment legend",
+      "text": "Words underlined with a solid line indicates insertions in the existing regulations."
+    },
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF3/Gazette5, marked formula",
+      "text": "D = [1,4A − 0,4B] 1,6A − 0,4B",
+      "markup_interpretation": "Bracketed 1.4 term is bold deleted text; 1.6 term is underlined inserted text. Operative formula D=1.6A-0.4B."
+    },
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF3/Gazette5, Annexure A(2)(i)-(iii)",
+      "text": "(i) A = the maximum social grant payable per annum as approved; (ii) B = the annual income of the applicant in accordance with regulation 19, which shall include the income from assets as determined in regulation 19(3), after permissible deductions contemplated in regulation 20 are effected; (iii) D = annual social grant amount payable, which must not exceed the amount equal to A."
+    },
+    {
+      "source_id": "rates_and_formula_2014",
+      "location": "PDF3/Gazette5, Commencement paragraph printed as 1",
+      "text": "These regulations will come into effect on 01 April 2014."
+    },
+    {
+      "source_id": "rates_2015",
+      "location": "PDF1/Gazette3",
+      "text": "The increase will be effected on 1 April 2015"
+    },
+    {
+      "source_id": "base_2008",
+      "location": "Annexure A(5), physical/printed page75",
+      "text": "No grant amounting to less than R100 per month is payable."
+    },
+    {
+      "source_id": "base_2008",
+      "location": "Regulation19(1), physical/printed page41",
+      "text": "For the purposes of determining means, in respect of social assistance, except for a grant in-aid and the foster child grant, the income of the applicant is deemed to be the annual income for an applicant not in a spousal relationship, or half the annual income of the applicant and his or her spouse, where the applicant is in a spousal relationship, and “income” means—"
+    },
+    {
+      "source_id": "base_2008",
+      "location": "Regulation18(2), physical/printed page40",
+      "text": "The income of an applicant and his or her spouse must be taken into account irrespective of whether the couple is married in or out of community of property under the Marriage Act, 1961 or any provisions contained in an ante-nuptial contract."
+    },
+    {
+      "source_id": "base_2008",
+      "location": "Regulation18(3), physical/printed page40",
+      "text": "The Agency must, if it is satisfied that an applicant has been deserted by his or her spouse for a continuous period of at least three months, and the spouse is unwilling to support the applicant, grant approval for the means of that spouse not to be taken into consideration when determining the means of the applicant."
+    },
+    {
+      "source_id": "amendment_2015_r621",
+      "location": "Amendment paragraph18, PDF16/Gazette19",
+      "text": "These regulations will come into effect on the date of publication of this notice."
+    }
+  ],
+  "research_ceiling_derivation": {
+    "operative_formula": "D = 1.6A - 0.4B",
+    "annual_units": {
+      "A": "Maximum monthly grant multiplied by 12",
+      "B": "Annual assessable income; research uses an explicitly limited private-income proxy",
+      "D": "Annual grant payable"
+    },
+    "minimum_monthly_payable_zar": 100,
+    "minimum_annual_payable_zar": 1200,
+    "individual_boundary_formula": "B = (1.6A - 1200)/0.4 = 4A - 3000",
+    "couple_boundary_formula": "Joint annual total = 2B under half-joint income",
+    "equality_included_in_primary_screen": true,
+    "minimum_rule_excludes_equality": false,
+    "minimum_rule_rounds_lower_amounts_up": false,
+    "thresholds_are_formula_derived_not_printed_rate_table_income_limits": true,
+    "periods": [
+      {
+        "interview_period": "October 2014-March 2015",
+        "applicable_standard_rate_effective_date": "2014-04-01",
+        "base_monthly_maximum_zar": 1350,
+        "annual_maximum_A_zar": 16200,
+        "single_annual_ceiling_zar": 61800,
+        "couple_joint_annual_ceiling_zar": 123600
+      },
+      {
+        "interview_period": "April-October 2015",
+        "applicable_standard_rate_effective_date": "2015-04-01",
+        "base_monthly_maximum_zar": 1410,
+        "annual_maximum_A_zar": 16920,
+        "single_annual_ceiling_zar": 64680,
+        "couple_joint_annual_ceiling_zar": 129360
+      }
+    ]
+  },
+  "age_75_choice": {
+    "published_monthly_supplement_zar": 20,
+    "published_in_both_rate_notices": true,
+    "primary_screen_uses_standard_60_to_74_rate_at_all_ages": true,
+    "primary_base_rate_is_explicit_research_choice": true,
+    "primary_ceiling_is_complete_age_specific_statutory_maximum": false,
+    "existing_sensitivity_scenario": "S1c",
+    "scenario_changed_or_rerun": false,
+    "individual_annual_boundary_increase_if_supplement_in_A_zar": 960
+  },
+  "research_scope": {
+    "point3": "Addressed within the research-screen scope; awaiting user review",
+    "remaining_supervisor_points": "4-10 pending",
+    "monetary_source_gap_resolved": true,
+    "legal_entitlement_established": false,
+    "complete_statutory_means_test_implemented": false,
+    "assets_deemed_income_and_deductions_omitted_from_proxy": true,
+    "survey_categories_establish_legal_spouse_or_desertion_approval": false,
+    "resident_reciprocal_links_are_research_consistency_requirements": true,
+    "exhaustive_all_legislation_consolidation_claimed": false,
+    "targeted_remaining_limit": "A broader claim about every consolidated income/asset clause would require its relevant amendment history; the differing 2008/2022 dependent-child, ex-gratia and asset-proviso wording is not changed or dated by R621.",
+    "retrospective_2022_proof_used_for_2014_formula": false,
+    "screening_rules_changed": false,
+    "cohort_or_estimates_changed": false,
+    "model_refitted": false,
+    "application_suite_rerun": false,
+    "files_created_by_this_task": [
+      "paper/historical_thresholds_verified_audit.md",
+      "paper/historical_thresholds_verified_audit.json"
+    ]
+  },
+  "root_completion": {
+    "status": "passed",
+    "manuscript_changed_area": "III.B threshold and partnership paragraphs; VII removal of obsolete formula uncertainty",
+    "manuscript_words_whitespace_tokens": 5469,
+    "abstract_words_whitespace_tokens": 141,
+    "III_B_words_whitespace_tokens": 408,
+    "pdf_pages": 8,
+    "table_count": 9,
+    "figure_count": 4,
+    "reference_count": 28,
+    "citation_mapping": {
+      "source": "references.json",
+      "order": "first appearance in manuscript",
+      "source_to_published": {
+        "1": 5,
+        "2": 3,
+        "3": 21,
+        "4": 22,
+        "5": 23,
+        "6": 4,
+        "7": 1,
+        "8": 2,
+        "9": 6,
+        "10": 7,
+        "11": 11,
+        "12": 13,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 14,
+        "17": 15,
+        "18": 12,
+        "19": 17,
+        "20": 16,
+        "21": 18,
+        "22": 19,
+        "23": 20,
+        "24": 24,
+        "25": 25,
+        "28": 27,
+        "29": 26,
+        "30": 28
+      },
+      "unused_source_ids": [
+        26,
+        27
+      ]
+    },
+    "manuscript_sha256": "ccbc3a0c98ffbad55f6672373491782377b5d6f41f93ada3eacc9cd4ff91e004",
+    "numbered_manuscript_sha256": "b7c00b0302e6c8f999c031fc55436de9345ed9c54717780ea49e30633fd562a4",
+    "docx_sha256": "34f813c1ca61f41cce9eac8f6f42023fab784509366a87c265570e3f991b65df",
+    "pdf_sha256": "c9ba61395ec1aae9340dc84fa7ff71a11cf86db40e36a5555432671633f4533f",
+    "source_repository_copy_hashes_checked": true,
+    "claim_verifier_status": "passed: 209 numerical + 100 supporting; zero failures",
+    "render_status": "eight Letter pages",
+    "primary_visual_review": "passed: all eight final pages",
+    "independent_visual_review": "passed: all eight final pages",
+    "final_document_checks": "Source scope, citation order/catalog, unchanged table XML/media/fonts and eight-page geometry checked; current artifact validator records final assertions."
+  },
+  "scope": {
+    "manuscript_changes": "III.B threshold and partnership paragraphs; VII removal of obsolete formula uncertainty",
+    "nine_tables_four_figures_and_other_prose_unchanged": true,
+    "original28reference_strings_unchanged": true,
+    "new_source_ids": [
+      29,
+      30
+    ],
+    "active_published_references": 28,
+    "reference_catalogue_entries": 30,
+    "unused_historical_source_ids": [
+      26,
+      27
+    ],
+    "builder_changed": false,
+    "verifier_change": "Reporting labels, limit notes and report scope only; all assertion/numerical/claim-rejection logic unchanged",
+    "application_suite_rerun": false,
+    "model_refitted": false
+  },
+  "manuscript_sha256": "ccbc3a0c98ffbad55f6672373491782377b5d6f41f93ada3eacc9cd4ff91e004",
+  "manuscript_words_whitespace_tokens": 5469,
+  "abstract_words_whitespace_tokens": 141,
+  "III_B_words_whitespace_tokens": 408,
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier_sha256": "6b44ebe714ffeebb93b071d69f8e6d815346ffa23d8f26dadd196590f77b05ee",
+    "detail": "paper/claim_source_validation.json",
+    "historical_negative_controls": "Bound to 7d54c18 verifier; retained, not rerun; assertion code unchanged"
+  },
+  "render_review": {
+    "status": "passed",
+    "pdf_sha256": "c9ba61395ec1aae9340dc84fa7ff71a11cf86db40e36a5555432671633f4533f",
+    "docx_sha256": "34f813c1ca61f41cce9eac8f6f42023fab784509366a87c265570e3f991b65df",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 28,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "primary_all_eight_pages_reviewed": true,
+    "independent_all_eight_pages_reviewed": true,
+    "clipping_overlap_or_extra_blank_page": false,
+    "notes": "III.B thresholds whole on page 3, partnership whole on page 4; Table II on page 2; all 28 references whole on page 8. All table XML and embedded media retained from baseline.",
+    "reviewers": "Primary agent and independent uploaded_legal_timeline reviewer; all eight final page images and PDF text"
+  },
+  "historical_D073": {
+    "snapshot_commit": "7d54c186cfd2e05d6f9a5652181f127736606b26",
+    "detail": "paper/historical_2008_source_audit.json",
+    "words": 5442,
+    "abstract_words": 141,
+    "III_B_words": 374,
+    "active_references": 28,
+    "source_status": "Selected 2014 formula and original 2014/2015 rates were then missing; current D074 supersedes that uncertainty."
+  },
+  "protected_paths": {
+    "baseline_commit": "7d54c186cfd2e05d6f9a5652181f127736606b26",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/supervisor_point1_validation.json",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point2_validation.json",
+      "paper/primary_source_audit.json",
+      "paper/primary_source_audit.md",
+      "paper/uploaded_legal_source_audit.md",
+      "paper/uploaded_legal_source_audit.json",
+      "paper/build_ieee.js",
+      ".gitattributes",
+      "paper/historical_2008_source_audit.md",
+      "paper/historical_2008_source_audit.json",
+      "paper/specialist_language_negative_controls.json"
+    ],
+    "status": "unchanged"
+  }
+}

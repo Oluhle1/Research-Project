@@ -1,0 +1,152 @@
+{
+  "decision": "D073",
+  "revision_date": "2026-10-15",
+  "client_timezone": "Africa/Johannesburg",
+  "checked_at_utc": "2026-10-15T00:25:34.362240+00:00",
+  "status": "Original 2008 source, manuscript and document checks passed; operative 2014\u20132015 legal chain incomplete; awaiting user review; not submitted",
+  "baseline_commit": "132e96cee7d7b3b6f5d5b91a214590359a25d210",
+  "feedback_point": 3,
+  "source": {
+    "uploaded_filename": "saggv518n31356d22a2008495.pdf",
+    "sediment_id": "file_0000000011b48208b9036d3d13ee1603",
+    "repository_copy": "paper/legal_sources/2008_GN_R898_GG31356.pdf",
+    "sha256": "c54ce6e72a31430ddd4fe1c3a8177b113b8f56194856719e8652eb24c66b59c6",
+    "identity": "GN R898, GG31356, Regulation Gazette8948,22 August2008",
+    "pdf_pages": 81,
+    "audited_physical_and_printed_pages_match": true,
+    "commencement": "2008-08-22",
+    "commencement_provision": "Regulation39, p73: publication date",
+    "relevant_original_read": true,
+    "independently_downloaded_official_copy": false,
+    "fresh_remote_requests": 0,
+    "readers": "Primary agent, uploaded_legal_timeline, uploaded_legal_means and independent income/deductions reader",
+    "render_diagnostic": "Unknown Fm0 XObject reported by Poppler and MuPDF; audited clause images remain readable. Image checks control extraction errors (e.g. D misread as0)."
+  },
+  "verified_original_provisions": {
+    "regulation1": "p15: specified marriage/customary-marriage/civil-union/religious bases define spouse.",
+    "regulation18(2)": "p40: spouse income regardless of matrimonial property regime.",
+    "regulation18(3)": "p40: continuous desertion\u22653months AND unwillingness to support, with Agency satisfaction/approval.",
+    "regulation19(1)": "pp41\u201343: annual own/half-joint income; income categories explicitly include dependent children and ex-gratia amounts.",
+    "regulation19(5)": "p45: relinquished-asset clause has no five-year proviso; do not import2022 wording.",
+    "regulation20": "pp45\u201346: documented permitted deductions;22%limit concerns alternative contribution, not all obligatory contributions.",
+    "regulations38\u201339": "pp72\u201373: repeal/limited2008saving and publication commencement.",
+    "AnnexureA(2)": "pp74\u201375: D=1.3A\u22120.5B; annual units, assessableB including assets/deductions, capD\u2264A.",
+    "AnnexureA(3)\u2013(5)": "p75: desertion/support/approval provisions and R100 minimum payable monthly amount.",
+    "AnnexureA(6)": "p76: original asset limits40A/80A, expressly substituted by2011 amendment."
+  },
+  "formula_endpoints": [
+    {
+      "source": "R898/2008",
+      "formula": "D=1.3A\u22120.5B",
+      "commencement": "2008-08-22"
+    },
+    {
+      "source": "R286/2011",
+      "formula": "D=1.4A\u22120.4B",
+      "commencement": "2011-04-01"
+    },
+    {
+      "source": "R2119/2022",
+      "formula": "D=1.6A\u22120.4B",
+      "commencement": "2022-05-31"
+    }
+  ],
+  "historical_2014_2015_chain_confirmed": false,
+  "research_ceilings_changed": false,
+  "research_arithmetic_remains_conditional": true,
+  "requested_legal_followups": {
+    "1": "Partially addressed: three original formula endpoints verified; intervening operative formula and authentic2014/2015 rate notices still required.",
+    "2": "Addressed: original2008 base/spouse/means/minimum now explicitly verified, with period-specific amendment/rate limits retained.",
+    "3": "Addressed as research rationale: original2008 joint-resource provisions directly cited; resident reciprocal links and unresolved ambiguity remain conservative operational choices, not legal criteria.",
+    "4": "Partially addressed: direct2008 notice and exact clause references added; full operative2014\u20132015 history remains unconfirmed."
+  },
+  "remaining_sources": [
+    "Relevant intervening amendments establishing the1.6/0.4 formula and continuity/changes in spouse, joint means, minimum, deductions and income definitions duringOctober2014\u2013October2015.",
+    "Original2014GN211/GG37474 and2015GN277/GG38647 rate notices, including commencement/age/supplement details.",
+    "Where necessary, later Act amendments/commencement evidence for the historical age rule; original2004 Act is not the period-specific consolidated version."
+  ],
+  "scope": {
+    "manuscript_changes": "III.B threshold and marital paragraphs only",
+    "text_outside_III_B_unchanged": true,
+    "nine_tables_and_four_figures_unchanged": true,
+    "original27reference_strings_unchanged": true,
+    "new_stable_source_id": 28,
+    "new_published_reference": 26,
+    "existing_legal_published_references": "2011\u219227;2022\u219228, by first appearance",
+    "builder_change": "Only final invisible balancing paragraph uses exact1pt line instead of default height to avoid a blank ninth page; visible fonts and reference spacing unchanged.",
+    "model_refitted": false,
+    "application_suite_rerun": false,
+    "remaining_supervisor_points": "4\u201310 pending",
+    "source_pdf_git_attributes": "paper/legal_sources/*.pdf binary preserves exact uploaded bytes across Windows checkout and suppresses meaningless text/whitespace diffs."
+  },
+  "manuscript_sha256": "980b21d321cfd9c22ac5c2546e35363ef03cc5c8bb520cffc9de60b4db260138",
+  "manuscript_words_whitespace_tokens": 5442,
+  "abstract_words_whitespace_tokens": 141,
+  "III_B_words_whitespace_tokens": 374,
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json"
+  },
+  "render_review": {
+    "status": "passed",
+    "pdf_sha256": "b8e29a730d96284d7d08aeed1a0057635aac4cac0663c70d2bc36a8076cbb527",
+    "docx_sha256": "3f82e2937c853dc9a82b620ba36c6d48b3cdadb1f014dca0284c3bc9657104b0",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 28,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "reference_after_spacing_points": 1,
+    "primary_all_eight_pages_reviewed": true,
+    "independent_all_eight_pages_reviewed": true,
+    "reviewers": "Primary agent and independent uploaded_legal_timeline reviewer; all eight final page images and actual diff",
+    "clipping_overlap_or_extra_blank_page": false,
+    "notes": "Threshold paragraph whole on page3; spouse paragraph on page4; TableII page2; all28 references whole on page8. Nine table XML records and embedded media match baseline."
+  },
+  "protected_paths": {
+    "baseline_commit": "132e96cee7d7b3b6f5d5b91a214590359a25d210",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py",
+      "paper/supervisor_point1_validation.json",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point2_validation.json",
+      "paper/primary_source_audit.json",
+      "paper/primary_source_audit.md",
+      "paper/uploaded_legal_source_audit.md",
+      "paper/uploaded_legal_source_audit.json"
+    ],
+    "status": "unchanged"
+  },
+  "historical_D072": {
+    "snapshot_commit": "132e96cee7d7b3b6f5d5b91a214590359a25d210",
+    "source_detail": "paper/uploaded_legal_source_audit.json",
+    "words": 5457,
+    "III_B_words": 389,
+    "references": 27,
+    "later_uploaded_supplements": "Full2022 Gazette, original2004 Act and unrelated2021 appeals draft retained in that dated audit."
+  }
+}

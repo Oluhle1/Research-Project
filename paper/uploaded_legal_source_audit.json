@@ -1,0 +1,366 @@
+{
+  "status": "uploaded-source content, conditional arithmetic and document checks passed; operative 2014\u20132015 legal chain incomplete; not submitted",
+  "checked_at_utc": "2026-10-14T23:35:02.524784+00:00",
+  "revision_date": "2026-10-15",
+  "client_timezone": "Africa/Johannesburg",
+  "decision": "D072",
+  "baseline_commit": "214647e42adad9a20a30461d4026e1f93732ae7a",
+  "feedback_point": 3,
+  "manuscript_sha256": "835aee47d51197b7e4f63b0b33390e4727ab1c3bf6b4e78745b57ebdc2c1b381",
+  "manuscript_words_whitespace_tokens": 5457,
+  "abstract_words_whitespace_tokens": 141,
+  "III_B_words_whitespace_tokens": 389,
+  "source_verification": {
+    "uploaded_files": [
+      {
+        "uploaded_filename": "34169rg9514gon286.pdf",
+        "sediment_id": "file_00000000a1ec8208aca835bde9627a64",
+        "identity": "GN R286, GG 34169, 31 March 2011",
+        "sha256": "067dfd36a8e022e1aa1695a588a5ff007d2233835446f281043aff3b1ad45747",
+        "pdf_pages": 2,
+        "gazette_pages": "4\u20135",
+        "relevant": true,
+        "repository_copy": "paper/legal_sources/2011_GN_R286_GG34169.pdf",
+        "commencement": "2011-04-01",
+        "historical_2014_2015_applicability_confirmed": false
+      },
+      {
+        "uploaded_filename": "415.pdf",
+        "sediment_id": "file_00000000a3fc8208b7812fdfef1a8fba",
+        "identity": "GG 31342, Regulation Gazette 8945, 22 August 2008: Banks/Customs",
+        "sha256": "2ec1d2d90d81744eb2bf7357a82edda47712aba6a3e26b812be64ea1338b1680",
+        "pdf_pages": 16,
+        "gazette_pages": "1\u201316",
+        "relevant": false,
+        "repository_copy": null,
+        "reason_excluded": "Wrong Gazette: intended social-assistance base is GN R898, GG 31356; supplied file contains no such notice."
+      },
+      {
+        "uploaded_filename": "46459rg11437gon2119.pdf",
+        "sediment_id": "file_00000000d4088208b0e2674661d6d33a",
+        "identity": "GN R2119, GG 46459, 31 May 2022",
+        "sha256": "b6f1ee1095498ec600291e747cdd56d5cf78dce8081c5d41ff6f1a6b2ddda707",
+        "pdf_pages": 85,
+        "gazette_pages": "English provisions: physical PDF page + 2",
+        "relevant": true,
+        "repository_copy": "paper/legal_sources/2022_GN_R2119_GG46459.pdf",
+        "commencement": "2022-05-31",
+        "historical_2014_2015_applicability_confirmed": false
+      }
+    ],
+    "uploaded_files_read": 3,
+    "relevant_primary_legal_texts_read": 2,
+    "independently_retrieved_official_copies": 0,
+    "historical_2014_2015_chain_confirmed": false,
+    "verified_content": "2011 coefficient 1.4 and commencement; 2022 coefficient 1.6, minimum, means, deductions, spouse/desertion, repeal and commencement",
+    "full_2008_base_read": false,
+    "correct_2008_base_identity": "GN R898, GG 31356, 22 August 2008; identified by 2011 Schedule paragraph 1 and 2022 regulation 40",
+    "scope": "Original uploaded Gazette content read and visually checked; no inference of period applicability from later wording. Prior blocked retrieval ledgers remain dated historical evidence.",
+    "fresh_remote_attempts_by_main_uploaded_review": 0,
+    "parallel_original_source_search": {
+      "status": "All 13 requests failed with HTTP/proxy CONNECT 403 before original text was obtained.",
+      "source": "Independent uploaded_legal_means/historical_2012_original task retained tool outputs 99293e and 1e65ee; no additional retrieval for final review.",
+      "successful_historical_source_downloads": 0,
+      "intervening_amendment_authenticated": false,
+      "attempt_count": 13,
+      "unique_url_count": 12,
+      "endpoint_identity_verified": false,
+      "scope": "Unverified candidate endpoints, not authenticated notice identities; separate from historical 13/12/7-request ledgers. A failed requests-library import performed zero requests and is excluded.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "url": "https://www.gov.za/sites/default/files/gcis_document/201409/35205rg9719gon366.pdf",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 2,
+          "url": "https://www.gov.za/sites/default/files/gcis_document/201409/35205rg9719gon286.pdf",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 3,
+          "url": "https://www.gov.za/sites/default/files/gcis_document/201409/35205.pdf",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 4,
+          "url": "https://www.gov.za/documents/social-assistance-act-regulations-amendment-30-mar-2012-0000",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 5,
+          "url": "https://www.google.com/search?q=%22Social+Assistance%22+%22366%22+%222012%22",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 6,
+          "url": "https://www.saflii.org/za/gaz/ZAGovGaz/2012/",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 7,
+          "url": "https://gazettes.africa/gazettes/za/2012/",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 8,
+          "url": "https://archive.opengazettes.org.za/archive/ZA/2012/",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 9,
+          "url": "https://archive.gazettes.africa/archive/za/2012/",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 10,
+          "url": "https://www.greengazette.co.za/documents/national-gazette-35205-of-30-march-2012-vol-561_20120330-GGN-35205",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 11,
+          "url": "https://www.sassa.gov.za",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 12,
+          "url": "https://www.gov.za/sites/default/files/gcis_document/201409/35205rg9719gon366.pdf",
+          "result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "original_content_read": false
+        },
+        {
+          "attempt": 13,
+          "url": "http://www.gov.za/sites/default/files/gcis_document/201409/35205rg9719gon366.pdf",
+          "result": "HTTP Error 403: Forbidden",
+          "original_content_read": false
+        }
+      ]
+    }
+  },
+  "point3_review": {
+    "conditional_arithmetic": true,
+    "legal_premises_verified": false,
+    "annual_units_and_couple_assumption_explicit": true,
+    "actual_spouse_link_rules_preserved": true,
+    "ambiguous_status_and_link_failures_unresolved": true,
+    "all_16_scientific_distinctions_preserved": true,
+    "independent_source_and_scientific_review": "uploaded_legal_timeline and uploaded_legal_means passed; original images control extraction ambiguity"
+  },
+  "requested_legal_followups": {
+    "1": "Partially addressed: research arithmetic/code confirmed; authentic operative formula, minimum and rate chain for 2014\u20132015 still required.",
+    "2": "Addressed: III.B and VII identify actual verified 2011/2022 content and the remaining temporal gap.",
+    "3": "Research rationale retained: resident reciprocal identifiers locate the correct spouse income; combined resolved amounts implement the assumed joint-resource rule; ambiguous/unavailable links remain unresolved. Exact historical legal requirements remain open.",
+    "4": "Partially addressed: direct 2011/2022 Gazette references and clause identifiers added; later spouse/deduction/desertion provisions documented in companion audit, without retrospective application."
+  },
+  "remaining_sources": [
+    "Correct GN R898, GG 31356 (22 August 2008) with relevant amendment history.",
+    "Intervening original amendment(s) establishing the operative Annexure A formula, payment minimum and spouse/means/deduction provisions in October 2014\u2013October 2015.",
+    "Authentic 2014 GN 211 and 2015 GN 277 rate notices and commencement/age details; existing bibliographic identities remain retrieval targets."
+  ],
+  "latest_user_reply": {
+    "content": "Restated GN 211/277 rate notices, assumed 1.6 formula, R1,200 research boundary and partnership policy.",
+    "intervening_formula_amendment_identified": false,
+    "treated_as_primary_verification": false
+  },
+  "scope": {
+    "manuscript_changed": "III.B threshold paragraph and first VII limitations paragraph only",
+    "all_nine_table_sources_and_XML_unchanged": true,
+    "accepted_framework_Table_II_all_figures_unchanged": true,
+    "original_references_1_to_25_unchanged": true,
+    "added_source_reference_ids": [
+      26,
+      27
+    ],
+    "builder_change": "Reference paragraph after-spacing only: 50 to 20 DXA (2.5 to 1 point); no font-size change.",
+    "model_refitted": false,
+    "application_suite_rerun": false,
+    "remaining_supervisor_points": "4\u201310 pending"
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json"
+  },
+  "render_review": {
+    "status": "passed",
+    "pdf_sha256": "95369d879c84faf5343ca224ff2a003100ff6c0ebbc9fc16527f3ff6ae9b7f8a",
+    "docx_sha256": "b9c72c650d5262234ab56d02eba16ad5b90dca8d32dc4132275cd13c8816d260",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 27,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "reference_after_spacing_points": 1,
+    "primary_all_eight_pages_reviewed": true,
+    "independent_all_eight_pages_reviewed": true,
+    "clipping_or_extra_blank_page": false,
+    "notes": "III.B on pages 3\u20134; Table II page 2; Figure 1 page 3; VI.E and reference 1 left, references 2\u201327 right on page 8; reference 27 remains whole.",
+    "reviewers": "Primary agent and independent uploaded_legal_timeline agent; final-1.png through final-8.png; artifact hashes confirmed"
+  },
+  "protected_paths": {
+    "baseline_commit": "214647e42adad9a20a30461d4026e1f93732ae7a",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures",
+      "paper/verify_claims.py",
+      "paper/supervisor_point1_validation.json",
+      "paper/conceptual_framework_validation.json",
+      "paper/supervisor_point2_validation.json",
+      "paper/primary_source_audit.json",
+      "paper/primary_source_audit.md"
+    ],
+    "status": "unchanged"
+  },
+  "historical_D071": {
+    "snapshot_commit": "214647e42adad9a20a30461d4026e1f93732ae7a",
+    "detail": "paper/legal_verification_followup.json",
+    "words": 5451,
+    "III_B_words": 377,
+    "references": 25,
+    "primary_texts_read_in_that_stage": 0
+  },
+  "limits": [
+    "Uploaded Gazette content does not complete the operative 2014\u20132015 amendment chain.",
+    "No retrospective 2022 legal classification or assumption that the 2011 coefficient remained operative through 2015.",
+    "No model refit, changed thresholds, participant usability, external prediction validation or legal entitlement established."
+  ],
+  "supplement_full_2022_gazette": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:00:10.311207+00:00",
+    "uploaded_filename": "social-assistance-regulations-2022.pdf",
+    "sediment_id": "file_00000000d9348208947de14de9208d07",
+    "repository_copy": "paper/legal_sources/2022_GG46459_full.pdf",
+    "sha256": "765f5dd6dd43b0b4f46d49ed54d1195465bb8aa43048dc6db7a33009bc5f8c78",
+    "identity": "Full Government Gazette 46459, Regulation Gazette 11437, 31 May 2022",
+    "pdf_pages": 132,
+    "previous_R2119_extract": {
+      "path": "paper/legal_sources/2022_GN_R2119_GG46459.pdf",
+      "sha256": "b6f1ee1095498ec600291e747cdd56d5cf78dce8081c5d41ff6f1a6b2ddda707",
+      "pdf_pages": 85
+    },
+    "R2119_pages_in_full_gazette": [
+      3,
+      87
+    ],
+    "normalized_R2119_text_matches_previous_extract": true,
+    "R2119_whitespace_tokens_each": 22462,
+    "normalized_R2119_text_sha256": "3250786865f33d6098456c2c49ccb77a33edb885bebb473eabb73fca6db0fe4b",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_timeline agent",
+      "formula_minimum": "Physical/Gazette page 40; Annexure A(2): D=1,6A\u22120,4B; A(5): no amount below R100 per month payable.",
+      "repeal_commencement": "Physical/Gazette page 39; regulations 40\u201341; commencement 31 May 2022.",
+      "full_gazette_page_numbering": "Physical PDF page and printed Gazette page agree; previous extracted PDF pages were two lower."
+    },
+    "additional_content": {
+      "instrument": "GN R2120, appeals regulations, begins page 88.",
+      "historical_reference": "Regulation 23, page 103, repeals GN R746, GG34618, 19 September 2011.",
+      "reference_scope": "Appeals instrument; not evidence of a means-test formula amendment.",
+      "commencement": "Regulation 24, page 103: date of publication, 31 May 2022."
+    },
+    "fresh_remote_requests": 0,
+    "new_distinct_means_test_instrument": false,
+    "historical_2014_2015_chain_confirmed": false,
+    "manuscript_or_published_artifact_changed": false,
+    "remaining_need": "Correct 2008 base, operative intervening formula/means amendments and original 2014/2015 rate notices.",
+    "conclusion": "Fuller copy of the same 2022 legal source; historical gap remains open."
+  },
+  "supplement_original_2004_act": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:06:28.465948+00:00",
+    "uploaded_filename": "a13-040.pdf",
+    "sediment_id": "file_000000002c508208ad888a2c6bcd1f76",
+    "repository_copy": "paper/legal_sources/2004_Act13_GG26446.pdf",
+    "sha256": "456ec022a36cd6ebb22bdd94c6bd3c2b25ad03fbd747a264de6b5b33bb548d77",
+    "pdf_pages": 16,
+    "identity": "Original Social Assistance Act 13 of 2004, GN714, GG26446, Volume468, 10 June 2004",
+    "assented_to_date": "2004-06-05",
+    "identity_source": "Printed cover and Act page headers; PDF metadata incorrectly gives GG26502/24 June 2004 and is not used as authority.",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_means agent",
+      "cover": "Physical PDF page1; Gazette cover, GN714/GG26446/10 June 2004.",
+      "eligibility_and_original_age": "Sections5 and10, physical PDF page6 / Gazette page10.",
+      "regulations_and_commencement": "Sections32 and34, physical PDF page16 / Gazette page30."
+    },
+    "verified_provisions": {
+      "5(2)(a)\u2013(b)": "Minister may prescribe additional requirements or conditions concerning income thresholds and means testing.",
+      "10": "Original wording: women60 and men65; later amended law must be examined for survey-period age rules.",
+      "32(1)\u2013(2)": "Minister makes regulations; Finance concurrence required for specified grant payments/maxima and eligibility conditions.",
+      "34": "Commencement on a date determined by the President by proclamation in the Gazette; this PDF does not provide that proclamation/date."
+    },
+    "existing_reference": {
+      "stable_source_id": 1,
+      "published_number": 5,
+      "metadata_matches_original_cover": true,
+      "reference_string_changed": false
+    },
+    "is_2008_GN_R898_regulations": false,
+    "is_intervening_formula_amendment": false,
+    "contains_research_formula_or_rate_schedule": false,
+    "historical_2014_2015_chain_confirmed": false,
+    "period_version_limit": "Original 2004 Act, not a consolidated Act authenticated as operative in October 2014\u2013October 2015. Later amendments/commencement evidence remain necessary for historical provisions.",
+    "manuscript_or_published_artifact_changed": false,
+    "science_code_or_cohort_changed": false,
+    "fresh_remote_requests": 0,
+    "conclusion": "Corroborates the existing Act citation and original enabling provisions; does not close the historical means-test formula/rate gap."
+  },
+  "supplement_2021_draft_appeals_notice": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:13:44.622732+00:00",
+    "uploaded_filename": "44099rg11227gon40.pdf",
+    "sediment_id": "file_00000000b5688208931f581710ddeccf",
+    "sha256": "7071910ecc334f8f8b3aac97ee52df4bf51aa9ee7502017896a807f5e4ecb7a1",
+    "pdf_pages": 49,
+    "identity": "GN R40, GG44099, Regulation Gazette11227, 25 January 2021",
+    "document_type": "Call for comments on draft amendments concerning social-assistance appeals and the independent tribunal.",
+    "repository_copy": null,
+    "reason_not_retained_as_substantive_source": "Unrelated draft appeals instrument; not an original historical means-test provision. File identity and original-page findings retained in this audit.",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_timeline agent",
+      "notice": "Physical PDF1 / Gazette53: Minister intends amendments; invites comments on draft regulations within 30 calendar days.",
+      "schedule": "Physical PDF3 / Gazette55: references GN R746/GG34618, 19 September 2011, an appeals instrument.",
+      "definition": "Physical PDF6 / Gazette58: identifies 2008 Regulations as GN R898/GG31356, 22 August 2008, as amended.",
+      "proposed_commencement": "Physical PDF21 / Gazette73: marked-up [25.]22 commencement text proposes proclamation date, with bracketed old 3 October 2011 wording; not evidence of adopted 2021 commencement."
+    },
+    "extraction_limit": "Extracted words appear in reverse order within lines; original page images control interpretation. Printed date25 January2021 controls over metadata subject26/01/2020.",
+    "historical_2014_2015_chain_confirmed": false,
+    "intervening_formula_amendment_identified": false,
+    "operative_amendment_established": false,
+    "new_manuscript_reference_added": false,
+    "manuscript_or_published_artifact_changed": false,
+    "science_code_or_cohort_changed": false,
+    "fresh_remote_requests": 0,
+    "conclusion": "Confirms a pointer to the already-identified 2008 base regulations but supplies no operative historical formula, minimum-payment or rate chain."
+  }
+}

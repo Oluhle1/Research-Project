@@ -29,16 +29,37 @@ These are cohort counts. The weighted non-receipt proportion is Phase 4.
 
 ## Thresholds
 
-Annexure A of the social-assistance regulations sets the annual grant at D = 1.6A − 0.4B, and no grant below R100 a month is payable. B at the ceiling is the private income at which D is still exactly R1,200 a year. Income at that ceiling passes. Income above it fails.
+**Current source update — 15 October 2026 (D-074):** The original 2014 and
+2015 rate notices and operative formula are now read. GG 37474, 28 March
+2014, page 3 (GN 211) sets R1,350 monthly from 1 April 2014. On pages 4–5,
+Schedule paragraph 2 substitutes Annexure A(2) with `D = 1.6A − 0.4B`, with printed
+commencement paragraph 1 effective 1 April 2014. GN 277/GG 38647,
+30 March 2015, page 3 sets R1,410 from 1 April 2015. The 2008 R898
+Annexure A(5) supplies the R100 monthly minimum and regulation 19(1)
+the half-joint income rule. R621/GG 39007, 21 July 2015, leaves the OPG
+formula, means and spouse provisions unchanged. The four standard-rate
+ceilings are verified in [the new audit](../paper/historical_thresholds_verified_audit.md)
+and its JSON companion. No cohort, code, model or substantive rule changed.
+
+D-073's incomplete source stage and its 5,442/141/374-word build with
+28 references are archived at `7d54c18`. Earlier audits retain their dated
+findings; their missing-source statements do not describe the current review.
+
+Using annual amounts, the single ceiling is `(1.6A − 1,200) / 0.4`, the
+income at which annual payment D is exactly R1,200. Half-joint annual
+income doubles that ceiling for a couple. Income at the ceiling passes;
+income above it fails the observable research rule.
 
 | Interview month | Grant maximum used as A | Single ceiling | Couple ceiling | People aged 60+ |
 | --- | --- | --- | --- | --- |
 | October 2014–March 2015 | R1,350 a month, from GN 211, GG 37474, 1 April 2014 | R61,800 | R123,600 | 699 |
 | April 2015–October 2015 | R1,410 a month, from GN 277, GG 38647, 1 April 2015 | R64,680 | R129,360 | 618 |
 
-The October 2014 adjustment applied to the child support grant and grant-in-aid, not to the older person’s grant. The couple ceiling is twice the single ceiling because, in a spousal relationship, the income used in the formula is half of the joint private income. The April 2015 published means test, R64,680 and R129,360, matches that calculation.
-
-The extra R20 a month paid from age 75 is not included in A. Published means-test tables use one older-person ceiling. Including the R20 would raise a single person’s ceiling by R960. That alternative is named and is not the primary rule.
+Both original rate notices include an extra R20 monthly from age 75. The
+primary rule uses the standard age-60–74 maximum across ages as an explicit
+research choice. Including the supplement raises the single ceiling by R960
+and the couple ceiling by R1,920; S1c remains the unchanged age-specific
+sensitivity. Source verification does not turn the proxy into a full legal means test.
 
 The asset test, deemed income from assets, and the regulation 20 deductions are not in the proxy. The asset file does not measure an assessable stock. Passing this screen means apparently eligible.
 
@@ -51,7 +72,17 @@ The asset test, deemed income from assets, and the regulation 20 deductions are 
 | 2 Living together, 5 Separated, 9 Unspecified | Unresolved |
 | 3 Never married, 4 Widowed, 6 Divorced | Single ceiling |
 
-The regulations’ spouse definition covers the Marriage Act, customary marriage, a civil union, and marriage under the tenets of an Asiatic religion. It does not cover unmarried cohabitation. A separated spouse still counts unless desertion for three months is established. The survey cannot show that, and it does not record the absent spouse’s income. Both categories therefore stay unresolved, which is the conservative primary rule from Submission 1.
+The original 2008 R898 regulation 1 defines spouse. Regulations 18(2)/(3)
+govern joint income and desertion: disregarding spouse means requires the
+Agency's approval of continued desertion for at least three months and
+unwillingness to support the applicant. Regulation 19(1) uses half-joint
+annual income, so resolved spouse resources enter regardless of spouse age.
+R621/2015 does not alter these provisions. Survey categories cannot establish
+legal spouse status or the desertion conditions, and absent spouse income
+is unavailable. Ambiguous and nonresident-spouse cases therefore remain
+unresolved under the conservative research rule, not legally ineligible.
+Residence and reciprocal household links are research consistency requirements,
+not legal eligibility conditions.
 
 ## What the reason counts show
 

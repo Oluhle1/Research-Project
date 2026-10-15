@@ -1,0 +1,263 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-13T21:28:24.169105+00:00",
+  "baseline_commit": "17e1b0536ec4f683d2a04e5caced2bb89635a943",
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3",
+  "audience": "ICT researchers and practitioners familiar with statistical modelling and grant-access research",
+  "definition_policy": "User instruction supersedes defining every technical term. Omit elementary glosses, retain normal acronym expansions and concise explanations of study-specific rules and consequential assumptions.",
+  "scope": "Editorial audience-fit, literature-continuity and scientific-meaning review; not participant comprehension testing or conference-specific compliance certification.",
+  "editing": {
+    "before_words": 5627,
+    "after_words": 5097,
+    "words_removed": 530,
+    "abstract_words": 141,
+    "direct_elementary_parenthetical_glosses_removed": 52,
+    "additional_condensation": "Abstract, theory and performance-measure explanations",
+    "removed_glosses": [
+      "(a respondent’s grant answer)",
+      "(software with inspectable rules and results)",
+      "(how many people each respondent represents)",
+      "(whether repeated runs produce the same results)",
+      "(indirect indicators)",
+      "(the share of selected likely non-recipients who report non-receipt)",
+      "(whether predicted chances match observed rates)",
+      "(how easily people understand and complete tasks)",
+      "(information describing the data)",
+      "(filling a missing answer with another respondent's answer)",
+      "(payments from government support grants)",
+      "(the largest yearly private-resource amount that passes the research rule)",
+      "(the group used to calculate the proportion)",
+      "(groups defined before sampling)",
+      "(variation between possible samples)",
+      "(a chance from zero to one)",
+      "(a probability used to classify records)",
+      "(differences that occur together in the data)",
+      "(numbers setting each input's contribution)",
+      "(the model's baseline)",
+      "(records used to learn the model settings)",
+      "(groups excluded in turn during training)",
+      "(a setting that makes random splits repeatable)",
+      "(one without predictors)",
+      "(ranges from drawing repeated samples of the existing records)",
+      "(people with all required predictors present)",
+      "(file fingerprints used to detect changes)",
+      "(numerical model settings)",
+      "(a text format for named data)",
+      "(a Python framework for browser-based applications)",
+      "(comma-separated tables)",
+      "(required columns and allowed values)",
+      "(mebibytes, each 1,048,576 bytes)",
+      "(interaction with the running app)",
+      "(an input with named groups)",
+      "(compressed file bundle)",
+      "(the working prototype)",
+      "(the estimated sampling variation of the percentage)",
+      "(a range that aims to cover the population percentage in 95% of repeated samples)",
+      "(repeating the analysis after changing assumptions)",
+      "(reached a stable fit)",
+      "(groups)",
+      "(the middle 95% of resampled estimates)",
+      "(the chance of non-receipt divided by the chance of receipt)",
+      "(one group's odds divided by the other's)",
+      "(a range calculated from a model term and its standard error)",
+      "(answers from one survey period rather than repeated follow-up of the same people)",
+      "(rules that limit sharing respondent information)",
+      "(an institutional decision on the ethics requirements for this study)",
+      "(a documented result that later studies can compare with)",
+      "(adults reporting non-receipt)",
+      "(people included)"
+    ]
+  },
+  "voice_and_tense": {
+    "status": "passed",
+    "active_subjects": [
+      "study",
+      "analysis",
+      "screen",
+      "model",
+      "software",
+      "application",
+      "checks"
+    ],
+    "completed_methods_and_observed_findings": "past tense",
+    "established_knowledge_current_software_tables_and_interpretation": "present tense",
+    "proposed_research": "future or conditional",
+    "author_and_direct_reader_pronouns": {
+      "I": 0,
+      "my": 0,
+      "you": 0,
+      "your": 0,
+      "we": 0,
+      "our": 0
+    },
+    "pronoun_scope": "Authored manuscript excluding section/table labels and Roman table numerals; bibliographic publication titles are outside scope."
+  },
+  "scientific_meaning_review": {
+    "status": "passed",
+    "checks": [
+      {
+        "meaning": "Apparent screening, reported receipt, prediction and legal entitlement remain separate.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Primary denominator is 1,013 people with resolved receipt; 67 report non-receipt; 187 unresolved adults remain outside it.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Person-weighted description remains distinct from unweighted model evaluation and invented demonstration rates.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Five predictor groups still supply six slopes; the seven-slope rural-formal attempt and category merge remain explained without theoretical equivalence.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Five folds hold whole households out, balance on household non-receipt, and fit missing-value rules inside training groups.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The 1,000 resamples use fixed predictions without fitting models or missing-value settings again.",
+        "status": "passed"
+      },
+      {
+        "meaning": "AUC measures ranking, AP summarises precision over recall, and Brier measures squared probability error; no operational cutoff or accuracy claim is added.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Calibration intercept and slope retain ideal values zero and one and uncertainty caveats.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Odds and odds ratios remain separate from probabilities and causal effects.",
+        "status": "passed"
+      },
+      {
+        "meaning": "S9 weighted fitting and S10 weighted evaluation remain distinct; neither becomes a full survey-design model.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Publisher donor-record imputation remains distinct from model missing-value treatment; screening and outcome values are not filled.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The app scores using the model trained on included adults, without retraining uploads; training overlap remains unknown.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Historical suite counts, original screening cases, software-path agreement and reload evidence retain their stated scope.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The owner walkthrough uses invented records, checks six extracted reports, and does not inspect the ZIP container.",
+        "status": "passed"
+      },
+      {
+        "meaning": "No participant study, usability outcome, new province result, causal result or present-day entitlement claim is introduced.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The recorded literature-search flow preserves the source counts, mixed-grant scope and unavailable search/screening logs; primary-source authentication and governance limits remain visible.",
+        "status": "passed"
+      }
+    ]
+  },
+  "ict_implementation_review": {
+    "status": "passed",
+    "details_retained": [
+      "Research command entrypoint",
+      "Shared screening rules and rule/model versions",
+      "Historical CSV schema and study-context validation",
+      "Household context for spouse resources",
+      "File-size and row limits",
+      "Training-only missing-predictor settings and unscored-record policy",
+      "Saved non-executable JSON model and no upload retraining",
+      "Model/evaluation source integrity checks",
+      "Filtered views with unchanged full resolved-pass summary denominator",
+      "Generated row labels, protected exports and audit manifests",
+      "Correctness, repeatability and owner-workflow evidence with participant-testing limits"
+    ]
+  },
+  "literature_continuity_review": {
+    "status": "passed",
+    "one_paper_narrative": true,
+    "earlier_proposal_framing_removed": true,
+    "recorded_search_flow": [
+      511,
+      136,
+      375,
+      222,
+      153,
+      98,
+      55
+    ],
+    "mixed_grant_scope_retained": true,
+    "original_search_exports_and_screening_logs": "unavailable for independent verification",
+    "new_search_or_independently_audited_review_claimed": false
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier": "paper/verify_claims.py",
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json",
+    "model_refitted": false,
+    "application_test_suite_rerun": false
+  },
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent final-layout reviewer",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "b81d1047e4c86e908267591f2ce831080e64c17ee12f7381b073ccf99d34d6d7",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "c66d3e408c153c06885b5d17b767080b6dc9aace02a408dbae9d444c7e72c77e",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": "Entries 1–3 on page 7, 4–25 on page 8; no split entries.",
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "notes": "Table V and Table VIII italic notes clearly continue into adjacent columns.",
+    "clipping_or_extra_blank_page": false
+  },
+  "protected_paths": {
+    "baseline_commit": "17e1b0536ec4f683d2a04e5caced2bb89635a943",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures"
+    ],
+    "status": "unchanged"
+  },
+  "historical_records": [
+    "Previous professional-language audit binds commit17e1b05 and its earlier 90-term definition review; it does not define current editorial requirements.",
+    "The 11 October primary-source audit remains historical; no new source retrieval occurred."
+  ],
+  "limits": [
+    "Human comprehension and usability remain untested.",
+    "No new province, model fitting, software test run, publisher/legal authentication, ethics/disclosure determination or external submission occurred.",
+    "Conference-specific templates and official administrative requirements remain subject to the previously recorded limits."
+  ]
+}

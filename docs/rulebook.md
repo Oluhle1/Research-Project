@@ -1,5 +1,24 @@
 # Historical screening rulebook
 
+**Current source update — 15 October 2026 (D-074):** Original GG 37474,
+28 March 2014, verifies GN 211's R1,350 monthly standard rate from 1 April
+2014 (page 3). Its Schedule paragraph 2 substitutes Annexure A(2), specifying
+`D = 1.6A − 0.4B` (pages 4–5); printed commencement paragraph 1 applies
+from 1 April 2014. GN 277/GG 38647, 30 March 2015, verifies R1,410 from
+1 April 2015 (page 3). The original 2008 R898 Annexure A(5) supplies the
+R100 monthly minimum; regulation 19(1) uses half-joint annual income,
+18(2)/(3) governs joint income and desertion subject to Agency approval,
+and regulation 1 defines spouse. R621/GG 39007, 21 July 2015, leaves these
+OPG formula, means and spouse provisions unchanged. The four standard-rate
+ceilings below are source-verified. See the [verified thresholds audit](../paper/historical_thresholds_verified_audit.md)
+and its JSON companion. No screening rule, cohort, application or model changed.
+
+D-073's earlier source gap and 5,442/141/374-word build with 28 references
+are archived at `7d54c18`. The [2008 audit](../paper/historical_2008_source_audit.md),
+[uploaded-source audit](../paper/uploaded_legal_source_audit.md) and
+[initial screening audit](../paper/historical_screening_source_audit.md) record
+their dated evidence stages; their missing-source statements are not current findings.
+
 Rule version **`opg-kzn-primary-v1`** is implemented in `analysis/phase3_build_cohort.py`. `opg_core.screening` adapts validated normalized rows and calls the original `resolve_link()` and `screen()` functions. It does not independently reimplement the substantive income, grant or receipt rules, fit a model or write files.
 
 These are observable historical research rules, not a determination of statutory eligibility. Assets, deemed asset income, allowable deductions and other incompletely observed legal conditions remain limitations. The historical thresholds must not be presented as current policy.
@@ -25,6 +44,16 @@ These are observable historical research rules, not a determination of statutory
 | --- | ---: | ---: |
 | October 2014–March 2015 | R61,800.00 | R123,600.00 |
 | April–October 2015 | R64,680.00 | R129,360.00 |
+
+With annual maximum `A` and minimum annual payment R1,200, the single
+ceiling is `(1.6A − 1,200) / 0.4`; half-joint income doubles it for a couple.
+Both notices also provide an extra R20 a month from age 75. Using the
+standard age-60–74 maximum across all ages is an explicit primary research
+choice, rather than a claim that the notices omit the supplement; S1c remains
+the unchanged age-specific sensitivity. The income proxy omits assessable
+assets, deemed asset income and legal deductions. Resident reciprocal spouse
+links are survey consistency requirements, not statutory conditions.
+Ambiguous or nonresident-spouse cases remain unresolved, not legally ineligible.
 
 Equality passes; one cent above fails. Annual income is already annualized and is not multiplied by twelve again. The original proxy excludes social-assistance COICOP codes `50331000`, `50332000`, `50332100`, `50333100`, `50333200`, `50333300`, `50333400`, `50333500`. Workmen's compensation/UIF-like code `50333600` remains in the primary private-income proxy. See `specification/variable_mapping.md` for source aggregation and zero-schedule evidence.
 

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="388.8pt" viewBox="0 0 504 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8
+L 504 388.8
+L 504 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.8 67.32
+L 493.2 67.32
+Q 495 67.32 495 65.52
+L 495 18.72
+Q 495 16.92 493.2 16.92
+L 10.8 16.92
+Q 9 16.92 9 18.72
+L 9 65.52
+Q 9 67.32 10.8 67.32
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 10.8 147.96
+L 237.6 147.96
+Q 239.4 147.96 239.4 146.16
+L 239.4 90
+Q 239.4 88.2 237.6 88.2
+L 10.8 88.2
+Q 9 88.2 9 90
+L 9 146.16
+Q 9 147.96 10.8 147.96
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 266.4 147.96
+L 493.2 147.96
+Q 495 147.96 495 146.16
+L 495 90
+Q 495 88.2 493.2 88.2
+L 266.4 88.2
+Q 264.6 88.2 264.6 90
+L 264.6 146.16
+Q 264.6 147.96 266.4 147.96
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 10.8 230.76
+L 162 230.76
+Q 163.8 230.76 163.8 228.96
+L 163.8 177.12
+Q 163.8 175.32 162 175.32
+L 10.8 175.32
+Q 9 175.32 9 177.12
+L 9 228.96
+Q 9 230.76 10.8 230.76
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 176.4 230.76
+L 327.6 230.76
+Q 329.4 230.76 329.4 228.96
+L 329.4 177.12
+Q 329.4 175.32 327.6 175.32
+L 176.4 175.32
+Q 174.6 175.32 174.6 177.12
+L 174.6 228.96
+Q 174.6 230.76 176.4 230.76
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 342 230.76
+L 493.2 230.76
+Q 495 230.76 495 228.96
+L 495 177.12
+Q 495 175.32 493.2 175.32
+L 342 175.32
+Q 340.2 175.32 340.2 177.12
+L 340.2 228.96
+Q 340.2 230.76 342 230.76
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 169.2 315
+L 320.4 315
+Q 322.2 315 322.2 313.2
+L 322.2 259.2
+Q 322.2 257.4 320.4 257.4
+L 169.2 257.4
+Q 167.4 257.4 167.4 259.2
+L 167.4 313.2
+Q 167.4 315 169.2 315
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 342 315
+L 493.2 315
+Q 495 315 495 313.2
+L 495 259.2
+Q 495 257.4 493.2 257.4
+L 342 257.4
+Q 340.2 257.4 340.2 259.2
+L 340.2 313.2
+Q 340.2 315 342 315
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #f5f5f5; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 10.8 379.8
+L 493.2 379.8
+Q 495 379.8 495 378
+L 495 338.4
+Q 495 336.6 493.2 336.6
+L 10.8 336.6
+Q 9 336.6 9 338.4
+L 9 378
+Q 9 379.8 10.8 379.8
+z
+" clip-path="url(#p1364c5d7d8)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 252 67.68
+L 252 79.2
+L 124.2 79.2
+" clip-path="url(#p1364c5d7d8)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 252 79.2
+L 379.8 79.2
+" clip-path="url(#p1364c5d7d8)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 379.8 148.32
+L 379.8 162.72
+L 86.4 162.72
+" clip-path="url(#p1364c5d7d8)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 379.8 162.72
+L 417.6 162.72
+" clip-path="url(#p1364c5d7d8)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 417.6 231.12
+L 417.6 246.24
+L 244.8 246.24
+" clip-path="url(#p1364c5d7d8)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(128.12 37.78125)">KwaZulu-Natal survey records</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(194.3775 55.175)">15,388 people</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(35.9925 113.74125)">Age below 60: 14,071</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(64.50875 130.88)">Age missing: 0</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(316.66375 113.74125)">Age 60 or older</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(327.2675 131.135)">1,317 people</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 124.2 81.203906
+Q 124.2 83.522327 124.2 84.499106
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 127.4 78.099106
+L 124.2 84.499106
+L 121 78.099106
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 379.8 81.203906
+Q 379.8 83.522327 379.8 84.499106
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 383 78.099106
+L 379.8 84.499106
+L 376.6 78.099106
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(67.29375 200.2325)">FAIL</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(41.5 216.095)">117 people</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(191.96 200.22375)">UNRESOLVED</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(207.1 216.095)">187 people</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(396.35375 200.22375)">PASS</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(365.0675 216.095)">1,013 people</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 86.4 164.71916
+Q 86.4 168.840748 86.4 171.620695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 89.6 165.220695
+L 86.4 171.620695
+L 83.2 165.220695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 252 164.71916
+Q 252 168.840748 252 171.620695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 255.2 165.220695
+L 252 171.620695
+L 248.8 165.220695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 417.6 164.71916
+Q 417.6 168.840748 417.6 171.620695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 420.8 165.220695
+L 417.6 171.620695
+L 414.4 165.220695
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(202.115 281.7825)">Recipients</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(199.9 299.255)">946 people</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(357.4425 281.7825)">Non-recipients</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(377.79 299.255)">67 people</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 244.8 248.24127
+Q 244.8 251.641755 244.8 253.700601
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 248 247.300601
+L 244.8 253.700601
+L 241.6 247.300601
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 417.6 248.24127
+Q 417.6 251.641755 417.6 253.700601
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 420.8 247.300601
+L 417.6 253.700601
+L 414.4 247.300601
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(152.035 353.86125)">Final study group: 1,013</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(135.68375 371.255)">PASS with unclear receipt: 0</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1364c5d7d8">
+   <rect x="0" y="0" width="504" height="388.8"/>
+  </clipPath>
+ </defs>
+</svg>

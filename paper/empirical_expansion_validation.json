@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-15T01:44:45.959549+00:00",
+  "manuscript_path": "paper\\manuscript.md",
+  "manuscript_sha256": "309492f29472957803d66107d46ffdba1c45bd583c088c7306370db6eaa992a8",
+  "numeric_comparisons": 209,
+  "passed": 209,
+  "failed": 0,
+  "tables": {
+    "IV": {
+      "displayed_rows": 7,
+      "numeric_comparisons": 14
+    },
+    "V": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 28
+    },
+    "VI": {
+      "displayed_rows": 9,
+      "numeric_comparisons": 112
+    },
+    "VII": {
+      "displayed_rows": 5,
+      "numeric_comparisons": 19
+    },
+    "VIII": {
+      "displayed_rows": 6,
+      "numeric_comparisons": 36
+    }
+  },
+  "source_sha256": {
+    "output/runs/primary/cohort_flow.csv": "9d7339c19124812abf0a67dfc3646a158a7d01eda78ef9b257f38132071737dd",
+    "output/runs/primary/rq1_characteristics.csv": "efdb7e01e75f1dc68dce9e5bd160eb112e1c697e1e8b337b0eaa5f702663fccd",
+    "output/phase4/rq1_sensitivity.csv": "04677c827e98150b2ce6775d0eb64f069d872ef2bb1c75682e8186daa8de63b7",
+    "output/phase6/model_sensitivity.csv": "6160b84e78dd5d6fbecd7aea2ca1411c4d109c09979972edf2b4c367f4442e55",
+    "output/runs/primary/metrics.csv": "2f765f7a2e3d03cf6f9e0eee3f3fb3b4c592d0f3ab12134ac7fc60bcfc7ac7a0",
+    "output/runs/primary/bootstrap_intervals.csv": "a08587c97de84fa3d009d049e466a0d46a12dfdec8603c14b6991c7b8d30d212",
+    "output/runs/primary/oof_predictions.csv": "721a466c23b28ec2b57b9930ad00643f3d85d4623d6438060d09356b8e55613c",
+    "output/runs/primary/cohort_person.csv": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+    "output/runs/primary/rq1_estimate.csv": "140b6a20c57c34d524e963b63de81f7e6b1f571f077e75cef4e8840af543231a",
+    "output/runs/primary/calibration_bins.csv": "3250a2fca02dcec4ef915129f95241d35da317f9c230e5fea038bccc295e3d75",
+    "output/phase5/apparent_coefficients.csv": "615ba58da37b6fb1373e1ca6d82a3ac0246acb1dc273fb9f1db767e3891962fd",
+    "output/runs/primary/run_record.json": "36ce708b97fdf9629e345f9eb9b438e99ebb7bedf087a98dd239981b941c2204",
+    "output/runs/primary/calibration_plot.png": "180b65f1b20358e298597a12f792862d65e54665706af38088774a72c67b68de",
+    "output/runs/primary/fold_coefficients.csv": "9bce0780fbcaa5447a41e3aa29ebef320e0c895edb5b81bdcb1d01a5db98d881",
+    "output/runs/primary/fold_imputers.csv": "de0052da32037ade4c43d1b69b39fff70a57a7224b1b847c25cd097fc5793e68",
+    "output/runs/primary/fold_support.csv": "7488852d15a6265745000dd1689515b9561e5a09f4a49d4e5f1d9494cb45461c",
+    "output/runs/primary/reason_frequencies.csv": "4369125a0032c75bcfff7fdaa14c8fa82b508484d732f8cb0d1c5a8085223648",
+    "models/manifest.json": "11d73166043ab912127441ec2c0dad0d41738b198a3736e1e229d3ddac54a371",
+    "models/evaluation.json": "58ec9db3335c9757bd8cb5b5abd262fab412dc8184f32c7da29bd6b0f993cae1",
+    "models/logistic_model.json": "b39f36e2ea08b59c76243665b6eae571f2861a5a75d44cd657f170d62d6921b1",
+    "output/phase8/evaluation_log.csv": "7d4d4581775760c80e77b22e438410fb7756f46287e67baa58a78bb590c8d20a",
+    "docs/validation_summary.json": "24beb55ef83dba675ee98cddaf871d6331f19e4c20e84724779ea14c5cd3edaf",
+    "docs/local_package_validation.json": "910bf7144d241958da307b04a9a6833fb108ebc8b5cb05b4f07cb13e4b9086ce",
+    "docs/windows_validation.json": "98fe85f242cf93c1b49ad62777ca4df7a442ebf80cd5c436b8028c7b8932b842",
+    "examples/synthetic_report/audit_manifest.json": "29356999d69357b509fa87cfbbfd19ce5af25f2db37817156bec04c4a3caf2a9",
+    "examples/synthetic_report/results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/filtered_results.csv": "9f451df0828aa00bf577f18ab7f646951be0f77212e56d67de260742dcbf2f36",
+    "examples/synthetic_report/summary.json": "dfc321b41d397572e41048d8aa270920d7ff8c58e56bc869589bde412aa08e03",
+    "examples/synthetic_report/summary.csv": "db4dfa6a4e6964d5b65661aaf3fd47cd537db2c88d33017522dc60137550a213",
+    "examples/synthetic_report/responsible_use.txt": "5f89684fd7894eb32f42294e1cd68a2f6310da434c6e83eda8795ac2c67a8b59",
+    "specification/phase7_artefact.md": "f1c2d15935dabc9217c5efac91228967f9b886eb2aa28d3860c08df5cafcb31d",
+    "21634436_Oluhle_Jawe_Submission_1.pdf": "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32",
+    "paper/primary_source_audit.json": "c4635f25134312dd6a8a616c4a34e12c957d8ac21fb97ca1abd90d6104ff99c0"
+  },
+  "model_refitted": false,
+  "application_tests_rerun": false,
+  "manuscript_edited": false,
+  "scope": "Read-only comparison and aggregate recalculation from retained evidence. Historical software runs are labelled as saved records. Operative formula/rates and selected spouse/minimum clauses are verified in the separate D-074 source audit; this verifier does not repeat those source checks or supply original article corroboration, exhaustive legal consolidation, statutory eligibility, disclosure, ethics, portal or review-log confirmation.",
+  "supporting_checks": {
+    "independent_oof_auc_ap_brier_and_weighted_ratio": "passed",
+    "independent_psu_approximation": "passed",
+    "all_grouped_screen_scenarios_checked_separately": "passed",
+    "unavailable_intercept_metrics_not_fabricated": "passed",
+    "no_participant_usability_claim": "passed"
+  },
+  "substantive_issues": []
+}

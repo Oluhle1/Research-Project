@@ -1,0 +1,27 @@
+{
+  "revision_date": "2026-10-15",
+  "baseline_commit": "f9bab60378a9b01ce5d6153194720cd52c736253",
+  "section": "III.D",
+  "pdf_pages": 8,
+  "page_size": "Letter 612x792 pt",
+  "manuscript_whitespace_tokens": 5635,
+  "section_III_D_words": 422,
+  "abstract_whitespace_tokens": 141,
+  "numeric_comparisons": 209,
+  "numeric_failed": 0,
+  "supporting_comparisons": 103,
+  "supporting_failed": 0,
+  "register_rows": 317,
+  "documented_limits": 4,
+  "model_refitted": false,
+  "application_tests_rerun": false,
+  "new_supporting_checks": [
+    "182 multi-adult households and 6 mixed-outcome households",
+    "held-out folds of 199-207 adults and 12-14 non-recipients",
+    "3 recipients missing usable schooling; 14 recipients and 4 non-recipients missing usable office distance; age, sex and settlement complete"
+  ],
+  "renderer": "Microsoft Word; Times New Roman",
+  "visual_check": "Pages 4 and 8 inspected. New validation paragraphs are on page 4. References remain inside page 8.",
+  "independent_second_reviewer": false,
+  "manuscript_sha256": "309492f29472957803d66107d46ffdba1c45bd583c088c7306370db6eaa992a8"
+}

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="368.64pt" viewBox="0 0 504 368.64" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 368.64
+L 504 368.64
+L 504 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 11.52 76.32
+L 231.12 76.32
+Q 234 76.32 234 73.44
+L 234 17.28
+Q 234 14.4 231.12 14.4
+L 11.52 14.4
+Q 8.64 14.4 8.64 17.28
+L 8.64 73.44
+Q 8.64 76.32 11.52 76.32
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 273.6 76.32
+L 491.76 76.32
+Q 494.64 76.32 494.64 73.44
+L 494.64 17.28
+Q 494.64 14.4 491.76 14.4
+L 273.6 14.4
+Q 270.72 14.4 270.72 17.28
+L 270.72 73.44
+Q 270.72 76.32 273.6 76.32
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 43.2 171.36
+L 460.8 171.36
+Q 463.68 171.36 463.68 168.48
+L 463.68 110.16
+Q 463.68 107.28 460.8 107.28
+L 43.2 107.28
+Q 40.32 107.28 40.32 110.16
+L 40.32 168.48
+Q 40.32 171.36 43.2 171.36
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 11.52 274.32
+L 231.12 274.32
+Q 234 274.32 234 271.44
+L 234 208.8
+Q 234 205.92 231.12 205.92
+L 11.52 205.92
+Q 8.64 205.92 8.64 208.8
+L 8.64 271.44
+Q 8.64 274.32 11.52 274.32
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 273.6 274.32
+L 491.76 274.32
+Q 494.64 274.32 494.64 271.44
+L 494.64 208.8
+Q 494.64 205.92 491.76 205.92
+L 273.6 205.92
+Q 270.72 205.92 270.72 208.8
+L 270.72 271.44
+Q 270.72 274.32 273.6 274.32
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 11.52 362.16
+L 231.12 362.16
+Q 234 362.16 234 359.28
+L 234 303.84
+Q 234 300.96 231.12 300.96
+L 11.52 300.96
+Q 8.64 300.96 8.64 303.84
+L 8.64 359.28
+Q 8.64 362.16 11.52 362.16
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 273.6 362.16
+L 491.76 362.16
+Q 494.64 362.16 494.64 359.28
+L 494.64 303.84
+Q 494.64 300.96 491.76 300.96
+L 273.6 300.96
+Q 270.72 300.96 270.72 303.84
+L 270.72 359.28
+Q 270.72 362.16 273.6 362.16
+z
+" clip-path="url(#pcea071d0b6)" style="fill: #f3f3f3; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(46.4325 40.25502)">Research command</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(36.914531 58.259121)">Three linked LCS files</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(324.158906 40.25502)">Local Streamlit</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(292.965937 58.259121)">Checked historical CSV</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(169.598437 134.215605)">Same screening rules</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(154.553906 152.218535)">Separate receipt answers</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 122.90335 78.618516
+Q 132.840047 91.440061 141.886406 103.112782
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 140.495275 96.093896
+L 141.886406 103.112782
+L 135.436619 100.014355
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 381.09665 78.618516
+Q 371.159953 91.440061 362.113594 103.112782
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 368.563381 100.014355
+L 362.113594 103.112782
+L 363.504725 96.093896
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(37.896563 235.01502)">Research calculations</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(29.118047 253.019121)">Rates + household tests</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(305.540156 226.012969)">Model trained on all</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(324.231562 244.01707)">included adults</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(288.18 262.021172)">Scores for uploaded files</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 132.515156 174.68332
+Q 127.439483 188.641421 122.860515 201.233584
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 128.05501 196.312484
+L 122.860515 201.233584
+L 122.040332 194.125328
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 368.061943 174.605977
+Q 374.760202 188.640422 380.832418 201.363162
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 380.963688 194.208949
+L 380.832418 201.363162
+L 375.18781 196.965618
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(21.634453 326.45502)">Weighted non-receipt rate</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(34.004766 344.459121)">OOF prediction checks</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(282.679219 326.454434)">Decisions, reasons, scores</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Serif'" transform="translate(277.881562 344.458535)">Reports and file checksums</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 121.68 277.758369
+Q 121.68 287.639031 121.68 296.06625
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 124.88 289.66625
+L 121.68 296.06625
+L 118.48 289.66625
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 382.32 277.758369
+Q 382.32 287.639031 382.32 296.06625
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 385.52 289.66625
+L 382.32 296.06625
+L 379.12 289.66625
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcea071d0b6">
+   <rect x="0" y="0" width="504" height="368.64"/>
+  </clipPath>
+ </defs>
+</svg>

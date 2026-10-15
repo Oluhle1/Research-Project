@@ -1,0 +1,783 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-13T21:09:58.001255+00:00",
+  "baseline_commit": "e70b300895c9777067f5825abc25709b4a0e197d",
+  "manuscript": "paper/manuscript.md",
+  "manuscript_sha256": "1f0080d9982dbe5a5d6b4f022b542341c343ca597338034fc714fd79a8f25df3",
+  "scope": "Independent editorial and scientific-continuity review of authored prose, tables, captions and existing first-use explanations. This is not a participant comprehension study or a conference-specific compliance certification.",
+  "voice_and_tense": {
+    "status": "passed",
+    "active_subjects": [
+      "study",
+      "analysis",
+      "screen",
+      "model",
+      "software",
+      "application",
+      "checks"
+    ],
+    "completed_methods_and_observed_findings": "past tense",
+    "established_knowledge_current_software_tables_and_interpretation": "present tense",
+    "proposed_research": "future or conditional",
+    "author_and_direct_reader_pronouns": {
+      "I": 0,
+      "my": 0,
+      "you": 0,
+      "your": 0,
+      "we": 0,
+      "our": 0
+    },
+    "pronoun_scope": "Authored manuscript excluding section/table labels and Roman table numerals; bibliographic publication titles are outside scope."
+  },
+  "technical_term_review": {
+    "status": "passed",
+    "terms_reviewed": 90,
+    "entries": [
+      {
+        "term": "reported non-receipt",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "administrative-burden theory",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "predictors",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "screening",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "apparently eligible",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "legal entitlement",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "unweighted",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "person-weighted",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "logistic regression",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "AUC",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "average precision / AP",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "Brier score",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "reproducibility",
+        "first_explanation": "Abstract",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "reported receipt",
+        "first_explanation": "I",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "interpretable research tool",
+        "first_explanation": "I",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "survey weights",
+        "first_explanation": "I",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "research questions / RQs",
+        "first_explanation": "I",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "structured literature review",
+        "first_explanation": "II.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "learning costs",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "compliance costs",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "psychological costs",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "PASS",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "FAIL",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "UNRESOLVED",
+        "first_explanation": "II.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "proxies",
+        "first_explanation": "II.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "precision",
+        "first_explanation": "II.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "calibration",
+        "first_explanation": "II.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "TRIPOD",
+        "first_explanation": "II.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "participant usability",
+        "first_explanation": "II.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "metadata",
+        "first_explanation": "III.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "COICOP",
+        "first_explanation": "III.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "hot-deck imputation",
+        "first_explanation": "III.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "social-assistance income",
+        "first_explanation": "III.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "income ceiling",
+        "first_explanation": "III.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "grant-in-aid",
+        "first_explanation": "III.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "structural skips",
+        "first_explanation": "III.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "denominator",
+        "first_explanation": "III.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "strata",
+        "first_explanation": "III.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "primary sampling units / PSUs",
+        "first_explanation": "III.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "sampling uncertainty",
+        "first_explanation": "III.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "receipt bounds",
+        "first_explanation": "III.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "probability",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "cutoff",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "associations",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "model slopes",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "intercept",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "training group",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "folds",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "seed",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "out-of-fold / OOF",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "recall",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "calibration slope",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "calibration-in-the-large",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "intercept-only reference model",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "bootstrap intervals",
+        "first_explanation": "III.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "complete cases",
+        "first_explanation": "III.E",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "frequency weights",
+        "first_explanation": "III.E",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "checksums",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "coefficients",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "JSON",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "Streamlit",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "CSV",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "schema",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "MiB",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "session",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "held-out households",
+        "first_explanation": "IV figure caption",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "categorical predictor",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "ZIP",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "audit manifest",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "minimum viable product / MVP",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "CLI",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "UI",
+        "first_explanation": "IV",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "standard error",
+        "first_explanation": "V.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "95% confidence interval",
+        "first_explanation": "V.A",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "sensitivity analyses",
+        "first_explanation": "V.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "events",
+        "first_explanation": "V.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "N",
+        "first_explanation": "V.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "zero-payout ceiling",
+        "first_explanation": "V.B",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "converge",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "bins",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "percentile bounds",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "odds",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "odds ratio",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "Wald interval",
+        "first_explanation": "V.C",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "synthetic screening cases",
+        "first_explanation": "V.D",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "deemed income",
+        "first_explanation": "VII",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "cross-sectional data",
+        "first_explanation": "VII",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "disclosure requirements",
+        "first_explanation": "VII",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "ethics determination",
+        "first_explanation": "VII",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      },
+      {
+        "term": "historical benchmark",
+        "first_explanation": "VIII",
+        "method": "parenthetical explanation reviewed in reading order",
+        "status": "passed"
+      }
+    ],
+    "abbreviation_expansions": [
+      {
+        "abbreviation": "OPG",
+        "expanded_in": "Abstract"
+      },
+      {
+        "abbreviation": "LCS",
+        "expanded_in": "Abstract"
+      },
+      {
+        "abbreviation": "KZN",
+        "expanded_in": "Abstract"
+      },
+      {
+        "abbreviation": "CSG",
+        "expanded_in": "Table I"
+      },
+      {
+        "abbreviation": "UIF",
+        "expanded_in": "V.B table note"
+      },
+      {
+        "abbreviation": "DUT",
+        "expanded_in": "VII"
+      }
+    ],
+    "plain_replacements": {
+      "computational artefact": "research tool / software / app",
+      "cohort": "study group / included adults",
+      "parsimonious": "small model / five predictors",
+      "thematic narrative synthesis": "compare findings by programme and measured outcome",
+      "operationalisation": "how each field enters the analysis",
+      "provenance": "recorded versions, settings and source files",
+      "serialization": "saving and reloading model scores",
+      "parity": "agreement",
+      "prevalence": "non-receipt rate",
+      "mean": "average",
+      "nominal / CPI adjustment": "reported income / income adjusted for price changes",
+      "discrimination": "ranking performance",
+      "logit / offset": "intercept correction while fixing calibration slope",
+      "external validity": "whether the model works elsewhere",
+      "estimand": "the population described",
+      "missingness": "missing values",
+      "metrics": "measures",
+      "full-cohort fit": "model trained on all included adults"
+    },
+    "unresolved_essential_term_gaps": []
+  },
+  "scientific_meaning_review": {
+    "status": "passed",
+    "checks": [
+      {
+        "meaning": "Apparent screening, reported receipt, prediction and legal entitlement remain separate.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Primary denominator is 1,013 people with resolved receipt; 67 report non-receipt; 187 unresolved adults remain outside it.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Person-weighted description remains distinct from unweighted model evaluation and invented demonstration rates.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Five predictor groups still supply six slopes; the seven-slope rural-formal attempt and category merge remain explained without theoretical equivalence.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Five folds hold whole households out, balance on household non-receipt, and fit missing-value rules inside training groups.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The 1,000 resamples use fixed predictions without fitting models or missing-value settings again.",
+        "status": "passed"
+      },
+      {
+        "meaning": "AUC measures ranking, AP summarises precision over recall, and Brier measures squared probability error; no operational cutoff or accuracy claim is added.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Calibration intercept and slope retain ideal values zero and one and uncertainty caveats.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Odds and odds ratios remain separate from probabilities and causal effects.",
+        "status": "passed"
+      },
+      {
+        "meaning": "S9 weighted fitting and S10 weighted evaluation remain distinct; neither becomes a full survey-design model.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Publisher donor-record imputation remains distinct from model missing-value treatment; screening and outcome values are not filled.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The app scores using the model trained on included adults, without retraining uploads; training overlap remains unknown.",
+        "status": "passed"
+      },
+      {
+        "meaning": "Historical suite counts, original screening cases, software-path agreement and reload evidence retain their stated scope.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The owner walkthrough uses invented records, checks six extracted reports, and does not inspect the ZIP container.",
+        "status": "passed"
+      },
+      {
+        "meaning": "No participant study, usability outcome, new province result, causal result or present-day entitlement claim is introduced.",
+        "status": "passed"
+      },
+      {
+        "meaning": "The reported literature-search counts remain attributed to the proposal; publisher/legal authentication and ethics/disclosure limits are retained.",
+        "status": "passed"
+      }
+    ]
+  },
+  "first_use_corrections": [
+    "Replaced early undefined sensitivity analyses with alternative analyses before the later parenthetical definition.",
+    "Replaced undefined pipeline with software.",
+    "Defined Streamlit as the Python framework used by the app, rather than defining the app as a framework.",
+    "Used predictor groups instead of introducing domains."
+  ],
+  "ict_implementation_review": {
+    "status": "passed",
+    "details_retained": [
+      "Research command entrypoint",
+      "Shared screening rules and rule/model versions",
+      "Historical CSV schema and study-context validation",
+      "Household context for spouse resources",
+      "File-size and row limits",
+      "Training-only missing-predictor settings and unscored-record policy",
+      "Saved non-executable JSON model and no upload retraining",
+      "Model/evaluation source integrity checks",
+      "Filtered views with unchanged full resolved-pass summary denominator",
+      "Generated row labels, protected exports and audit manifests",
+      "Correctness, repeatability and owner-workflow evidence with participant-testing limits"
+    ]
+  },
+  "retained_evidence_recheck": {
+    "status": "passed",
+    "numerical_comparisons": 209,
+    "supporting_comparisons": 100,
+    "failed": 0,
+    "register_rows": 314,
+    "documented_limits": 4,
+    "verifier": "paper/verify_claims.py",
+    "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+    "detail": "paper/claim_source_validation.json",
+    "model_refitted": false,
+    "application_test_suite_rerun": false
+  },
+  "manuscript_whitespace_tokens": 5627,
+  "abstract_whitespace_tokens": 249,
+  "render_review": {
+    "status": "passed",
+    "reviewers": "Primary agent and independent final-layout reviewer",
+    "pdf": "paper/Jawe_OPG_nonreceipt_KZN.pdf",
+    "pdf_sha256": "c81c4dfde4e1130cb7bf67f6f6dd5f8f27736da5fef7d2bfe968096b6720232f",
+    "docx": "paper/Jawe_OPG_nonreceipt_KZN.docx",
+    "docx_sha256": "b3e6a5e944d8ca34b0472bfc60e948a4d328285971b71c4f3179aed631d76ac2",
+    "pages": 8,
+    "page_size": "Letter",
+    "tables": 9,
+    "figures": 4,
+    "references": 25,
+    "body_points": 10,
+    "table_points": 9,
+    "reference_points": 8,
+    "all_eight_fresh_pages_visually_reviewed": true,
+    "table_vi_note": "Clear italic continuation from page 5 to page 6",
+    "clipping_or_extra_blank_page": false
+  },
+  "protected_paths": {
+    "baseline_commit": "e70b300895c9777067f5825abc25709b4a0e197d",
+    "paths": [
+      "analysis",
+      "opg_core",
+      "models",
+      "output",
+      "app",
+      "app.py",
+      "tests",
+      "tools",
+      "Dataset",
+      "requirements.txt",
+      "requirements-app.txt",
+      "21634436_Oluhle_Jawe_Submission_1.pdf",
+      "paper/references.json",
+      "paper/citation_map.json",
+      "paper/build_ieee.js",
+      "paper/build_figures.py",
+      "paper/build_expansion_figures.py",
+      "paper/figures"
+    ],
+    "status": "unchanged"
+  },
+  "historical_records": [
+    "paper/plain_language_validation.json and plain_language_negative_controls.json bind the earlier author/reader-voice revision, not this professional rewrite.",
+    "paper/primary_source_audit.json retains the 11 October source audit; no new primary-source retrieval occurred."
+  ],
+  "limits": [
+    "Human comprehension and usability remain untested.",
+    "No new province, model fitting, software test run, publisher/legal authentication, ethics/disclosure determination or external submission occurred.",
+    "Conference-specific templates and official administrative requirements remain subject to the previously recorded limits."
+  ]
+}

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="540pt" viewBox="0 0 504 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540
+L 504 540
+L 504 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.8 529.56
+L 493.2 529.56
+Q 495 529.56 495 527.76
+L 495 230.4
+Q 495 228.6 493.2 228.6
+L 10.8 228.6
+Q 9 228.6 9 230.4
+L 9 527.76
+Q 9 529.56 10.8 529.56
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #ffffff; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 10.8 35.64
+L 493.2 35.64
+Q 495 35.64 495 33.84
+L 495 10.8
+Q 495 9 493.2 9
+L 10.8 9
+Q 9 9 9 10.8
+L 9 33.84
+Q 9 35.64 10.8 35.64
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 10.8 114.84
+L 493.2 114.84
+Q 495 114.84 495 113.04
+L 495 55.44
+Q 495 53.64 493.2 53.64
+L 10.8 53.64
+Q 9 53.64 9 55.44
+L 9 113.04
+Q 9 114.84 10.8 114.84
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #e8e8e8; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 18 213.48
+L 170.64 213.48
+Q 172.44 213.48 172.44 211.68
+L 172.44 142.56
+Q 172.44 140.76 170.64 140.76
+L 18 140.76
+Q 16.2 140.76 16.2 142.56
+L 16.2 211.68
+Q 16.2 213.48 18 213.48
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 182.16 213.48
+L 323.28 213.48
+Q 325.08 213.48 325.08 211.68
+L 325.08 142.56
+Q 325.08 140.76 323.28 140.76
+L 182.16 140.76
+Q 180.36 140.76 180.36 142.56
+L 180.36 211.68
+Q 180.36 213.48 182.16 213.48
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 331.92 213.48
+L 493.92 213.48
+Q 495.72 213.48 495.72 211.68
+L 495.72 142.56
+Q 495.72 140.76 493.92 140.76
+L 331.92 140.76
+Q 330.12 140.76 330.12 142.56
+L 330.12 211.68
+Q 330.12 213.48 331.92 213.48
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #ffffff; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 18 312.12
+L 170.64 312.12
+Q 172.44 312.12 172.44 310.32
+L 172.44 242.64
+Q 172.44 240.84 170.64 240.84
+L 18 240.84
+Q 16.2 240.84 16.2 242.64
+L 16.2 310.32
+Q 16.2 312.12 18 312.12
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #f4f4f4; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 182.16 312.12
+L 323.28 312.12
+Q 325.08 312.12 325.08 310.32
+L 325.08 242.64
+Q 325.08 240.84 323.28 240.84
+L 182.16 240.84
+Q 180.36 240.84 180.36 242.64
+L 180.36 310.32
+Q 180.36 312.12 182.16 312.12
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #f4f4f4; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 18 363.24
+L 437.04 363.24
+Q 438.84 363.24 438.84 361.44
+L 438.84 321.84
+Q 438.84 320.04 437.04 320.04
+L 18 320.04
+Q 16.2 320.04 16.2 321.84
+L 16.2 361.44
+Q 16.2 363.24 18 363.24
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #f4f4f4; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 18 466.92
+L 241.2 466.92
+Q 243 466.92 243 465.12
+L 243 389.52
+Q 243 387.72 241.2 387.72
+L 18 387.72
+Q 16.2 387.72 16.2 389.52
+L 16.2 465.12
+Q 16.2 466.92 18 466.92
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #f4f4f4; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 259.2 466.92
+L 482.4 466.92
+Q 484.2 466.92 484.2 465.12
+L 484.2 389.52
+Q 484.2 387.72 482.4 387.72
+L 259.2 387.72
+Q 257.4 387.72 257.4 389.52
+L 257.4 465.12
+Q 257.4 466.92 259.2 466.92
+z
+" clip-path="url(#p5aec490f2a)" style="fill: #f4f4f4; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 227.52 363.6
+L 227.52 371.52
+L 129.6 371.52
+" clip-path="url(#p5aec490f2a)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 227.52 371.52
+L 370.8 371.52
+" clip-path="url(#p5aec490f2a)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 412.92 213.84
+L 412.92 221.04
+L 484.56 221.04
+L 484.56 374.4
+L 466.56 374.4
+" clip-path="url(#p5aec490f2a)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252" y="26.476875" transform="rotate(-0 252 26.476875)">Social problem: OPG non-receipt</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 252 38.003906
+Q 252 44.640578 252 49.93561
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 255.2 43.53561
+L 252 49.93561
+L 248.8 43.53561
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252" y="71.836875" transform="rotate(-0 252 71.836875)">Theoretical constructs: administrative burden</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252" y="88.396875" transform="rotate(-0 252 88.396875)">Learning, compliance and psychological costs</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252" y="104.956875" transform="rotate(-0 252 104.956875)">Not directly measured in LCS</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="244.8" y="132.316875" transform="rotate(-0 244.8 132.316875)">Observable measurements</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="156.436875" transform="rotate(-0 94.32 156.436875)">Screen inputs</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="172.99625" transform="rotate(-0 94.32 172.99625)">Age, income,</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="189.556875" transform="rotate(-0 94.32 189.556875)">partnership,</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="206.116875" transform="rotate(-0 94.32 206.116875)">other grants</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="164.71625" transform="rotate(-0 252.72 164.71625)">OPG response</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="181.276875" transform="rotate(-0 252.72 181.276875)">Reported OPG</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="197.83625" transform="rotate(-0 252.72 197.83625)">receipt answer</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="412.92" y="156.436875" transform="rotate(-0 412.92 156.436875)">Predictors</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="412.92" y="172.996875" transform="rotate(-0 412.92 172.996875)">Age, sex, schooling</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="412.92" y="189.556875" transform="rotate(-0 412.92 189.556875)">Settlement and</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="412.92" y="206.116875" transform="rotate(-0 412.92 206.116875)">office distance</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 412.92 117.202588
+Q 412.92 127.800283 412.92 137.056336
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 416.12 130.656336
+L 412.92 137.056336
+L 409.72 130.656336
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(364.64125 272.205)">Artefact</text>
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(329.6775 288.255)">implementation</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="255.79625" transform="rotate(-0 94.32 255.79625)">Screen status</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="272.35625" transform="rotate(-0 94.32 272.35625)">PASS / FAIL /</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="288.91625" transform="rotate(-0 94.32 288.91625)">UNRESOLVED</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="94.32" y="305.476875" transform="rotate(-0 94.32 305.476875)">No legal decision</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="255.796875" transform="rotate(-0 252.72 255.796875)">PASS receipt</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="272.35625" transform="rotate(-0 252.72 272.35625)">Receipt /</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="288.91625" transform="rotate(-0 252.72 288.91625)">non-receipt /</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="252.72" y="305.476875" transform="rotate(-0 252.72 305.476875)">unresolved</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 94.32 215.839951
+Q 94.32 227.159876 94.32 237.13816
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 97.52 230.73816
+L 94.32 237.13816
+L 91.12 230.73816
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 252.72 215.839951
+Q 252.72 227.159876 252.72 237.13816
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 255.92 230.73816
+L 252.72 237.13816
+L 249.52 230.73816
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="227.52" y="337.516875" transform="rotate(-0 227.52 337.516875)">Analysis cohort: PASS + resolved receipt</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="227.52" y="354.076875" transform="rotate(-0 227.52 354.076875)">FAIL / unresolved excluded and reported</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 94.32 314.480391
+Q 94.32 316.081149 94.32 316.340267
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 97.52 309.940267
+L 94.32 316.340267
+L 91.12 309.940267
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 252.72 314.480391
+Q 252.72 316.081149 252.72 316.340267
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 255.92 309.940267
+L 252.72 316.340267
+L 249.52 309.940267
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="129.6" y="414.916875" transform="rotate(-0 129.6 414.916875)">Descriptive outcome</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="129.6" y="431.476875" transform="rotate(-0 129.6 431.476875)">Person-weighted rate of</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="129.6" y="448.036875" transform="rotate(-0 129.6 448.036875)">reported non-receipt</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="370.8" y="406.636875" transform="rotate(-0 370.8 406.636875)">Predictive workflow</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="370.8" y="423.196875" transform="rotate(-0 370.8 423.196875)">Unweighted logistic model</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="370.8" y="439.756875" transform="rotate(-0 370.8 439.756875)">Household-held-out tests</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'; text-anchor: middle" x="370.8" y="456.316875" transform="rotate(-0 370.8 456.316875)">Non-receipt probability</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 129.6 373.519336
+Q 129.6 379.441153 129.6 384.02133
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 132.8 377.62133
+L 129.6 384.02133
+L 126.4 377.62133
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 370.8 373.519336
+Q 370.8 379.441153 370.8 384.02133
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 374 377.62133
+L 370.8 384.02133
+L 367.6 377.62133
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 466.56 376.402852
+Q 466.56 380.882282 466.56 384.020071
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 469.76 377.620071
+L 466.56 384.020071
+L 463.36 377.620071
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(109.995 483.935)">App: frozen full-data upload scores</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(91.39125 501.215)">Separate from household-held-out tests</text>
+    <text style="font-size: 16px; font-family: 'DejaVu Serif'" transform="translate(79.6 518.38125)">Scores do not change screening or receipt</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5aec490f2a">
+   <rect x="0" y="0" width="504" height="540"/>
+  </clipPath>
+ </defs>
+</svg>

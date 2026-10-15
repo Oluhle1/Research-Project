@@ -1,0 +1,44 @@
+{
+  "manuscript_sha256": "3dac12bcb9fd9ba60c05c64fa683a8e61e065b575c8c70a6e0a18f3fe8cd7ee3",
+  "verifier_sha256": "3e0db73e5c8423355c5a7dcd97a5d6c7f1f36e8bd5ee4a710e8470a6ec31f5f0",
+  "tracked_manuscript_mutated": false,
+  "audit_files_rewritten_during_controls": false,
+  "controls": [
+    {
+      "control": "table_count",
+      "status": "rejected_as_expected",
+      "numerical_failures": 1,
+      "supporting_failures": 0,
+      "failures": [
+        "KZN sample: people"
+      ]
+    },
+    {
+      "control": "abstract_auc",
+      "status": "rejected_as_expected",
+      "numerical_failures": 0,
+      "supporting_failures": 1,
+      "failures": [
+        "primary AUC: 0.753"
+      ]
+    },
+    {
+      "control": "affirmative_usability",
+      "status": "rejected_as_expected",
+      "numerical_failures": 0,
+      "supporting_failures": 1,
+      "failures": [
+        "Participant usability remains untested"
+      ]
+    },
+    {
+      "control": "usability_table",
+      "status": "rejected_as_expected",
+      "numerical_failures": 0,
+      "supporting_failures": 1,
+      "failures": [
+        "Participant usability remains untested"
+      ]
+    }
+  ]
+}

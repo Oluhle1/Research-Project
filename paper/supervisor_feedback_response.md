@@ -333,10 +333,31 @@ comparisons**, with zero failures and **317 register rows**. Pages 5, 6 and 7
 were inspected. See [point 6 revision](supervisor_point6_revision.md) and
 [point 6 validation](supervisor_point6_validation.json).
 
+## Point 7: associations, predictive performance and causal explanation
+
+> Section V.C (Model Interpretation): Further clarify the distinction between
+> statistical associations, predictive performance and causal explanations.
+
+**Status: revised and checked; awaiting user review.** Section V.C now
+separates out-of-fold predictive performance from full-sample odds ratios.
+Neither is presented as a causal explanation. The odds ratios remain 0.39 and
+0.24, with the same Wald intervals. Table VII, Figure 4 and Table VIII are
+read as prediction. An odds ratio is described as a multiplication of odds,
+not a change in probability and not a held-out performance measure. Section
+VI.B states that those performance measures do not convert the associations
+into effects. No model, screen or application run was repeated. The Word
+export remains nine Letter pages.
+
+The current paper has **6,796 whitespace tokens** and the unchanged **141-word
+abstract**. Fresh checks passed **209 numerical and 103 supporting
+comparisons**, with zero failures and **317 register rows**. Pages 6, 7 and 8
+were inspected. See [point 7 revision](supervisor_point7_revision.md) and
+[point 7 validation](supervisor_point7_validation.json).
+
 ## Remaining supervisor points
 
 Point 3 remains addressed within research scope and awaits user review.
-Points 4, 5 and 6 are revised and await user review. Points 7–10 remain pending.
+Points 4, 5, 6 and 7 are revised and await user review. Points 8–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
@@ -345,11 +366,11 @@ Points 4, 5 and 6 are revised and await user review. Points 7–10 remain pendin
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Revised and checked against frozen outputs; awaiting user review |
 | 5 | Technical verification versus participant usability | Revised in Sections IV and VI.C; awaiting user review |
 | 6 | Results-table readability and uncertainty interpretation | Revised in Tables IV–VIII and Sections V and VI; awaiting user review |
-| 7 | Associations versus prediction and causal explanation | Pending |
+| 7 | Associations versus prediction and causal explanation | Revised in Section V.C and linked in VI.B; awaiting user review |
 | 8 | Formal institutional ethics and secondary-data governance clarification | Pending |
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is user review of points 3, 4, 5 and 6. Points 7–10 have not been advanced.
+The next action is user review of points 3, 4, 5, 6 and 7. Points 8–10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

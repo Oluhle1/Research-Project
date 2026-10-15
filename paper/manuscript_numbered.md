@@ -205,7 +205,9 @@ S1b applies the 2015 ceiling to every interview. S1d uses the ceiling at which t
 
 *S1a uses the 2014 ceiling throughout. S1c adds the age-75 supplement. S4a adjusts income for price changes and leaves the ceiling unchanged. S4c also excludes UIF (the Unemployment Insurance Fund) and similar transfers. S5 uses preceding-year receipt. S6a and S6b assign unresolved receipt to receipt or to non-receipt. No passed adult has unresolved receipt to bound, so those bounds change nothing. Each starred scenario keeps the S0 denominator, events and measures.
 
-### C. Held-out prediction
+### C. Predictive performance and associations
+
+This section reports two different results. Predictive performance uses one out-of-fold probability for each adult. Associations use odds ratios from the model fitted to all 1,013 included adults. Neither result explains why an adult reported non-receipt. The study did not test a mechanism, a time order or an intervention.
 
 All five folds converged. Figure 4 uses five similarly sized bins. The highest bin had average prediction 0.188 and 35/203 non-recipients (17.2%); the lowest had average 0.0107 and 3/206 non-recipients (1.5%).
 
@@ -222,7 +224,9 @@ NOTE: Each logistic cell is the estimate and its 95% interval. Estimates pool un
 
 FIGURE: figures/calibration.png | Fig. 4. Saved group summaries show unweighted OOF calibration. Labels give events/people; the diagonal shows exact agreement between average predictions and observed rates. Plot range: 0–0.22.
 
-The odds ratio for women versus men was 0.39. Its Wald interval was 0.23–0.66. Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). The model trained on all included adults produced these estimates. The intervals exponentiate that model's coefficients and standard errors. They are not the Table VII resampling intervals, and they do not measure held-out performance. Age, settlement and welfare-distance intervals included 1. These associations describe odds, not probability reductions, held-out performance or causes.
+Table VII and Figure 4 assess the held-out probabilities. AUC summarises pairwise ranking. Average precision summarises precision-recall ranking. The Brier score summarises squared probability error. Calibration describes agreement between predicted and observed rates. These measures do not identify the separate contribution of age, sex, schooling, settlement or office distance.
+
+The associations come from another fit. The odds ratio for women versus men was 0.39. Its Wald interval was 0.23–0.66. Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). The model trained on all included adults produced these estimates, with the other predictors in the same model. The intervals exponentiate that model's coefficients and standard errors. They are not the Table VII resampling intervals. An odds ratio multiplies odds. It is not a change in the probability of non-receipt, and it is not a held-out performance measure. Age, settlement and welfare-distance intervals included 1. The associations describe this fitted model. They do not establish that sex, schooling, place or office distance produced non-receipt. The predictors are proxies, the data are cross-sectional, and the screen selects the 1,013 adults.
 
 TABLE: Table VIII. Model and validation sensitivities, as point estimates
 | Scenario | N/events | Unw. | AUC | Brier | Slope |
@@ -236,7 +240,7 @@ TABLE: Table VIII. Model and validation sensitivities, as point estimates
 
 NOTE: Unw. is the unweighted non-receipt percentage. AUC, Brier and slope are point estimates. This table does not report intervals for them. S8–S11 keep the person-weighted non-receipt rate at 7.49%. S7 keeps adults with usable schooling and office distance. It removes 21 people and four events, so its Brier describes a smaller sample. S8 replaces office distance with a married indicator and keeps six slopes. S9 fits with person weights as frequency weights. It still fills missing values without weights and checks predictions without weights. That fit is not a full survey-design regression. S10 applies person weights to the primary out-of-fold predictions and does not refit. S11 groups the five folds by derived primary sampling unit and keeps the same adults.
 
-In Table VIII, AUC runs from 0.750 to 0.763. The lowest Brier is the complete-case row. The highest Brier is the weighted-score row, which reuses the primary predictions. These differences have no intervals. They do not rank the specifications.
+In Table VIII, AUC runs from 0.750 to 0.763. The lowest Brier is the complete-case row. The highest Brier is the weighted-score row, which reuses the primary predictions. These differences have no intervals. They do not rank the specifications. The rows summarise prediction under a changed sample, predictor or calculation. They are not a second set of odds ratios, and they do not establish a cause.
 
 ### D. Software verification
 
@@ -266,7 +270,7 @@ S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%.
 
 RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. Its Table VII interval, 0.687–0.814, lies above 0.5 for these fixed predictions. The interval still describes ranking, not accuracy at a cutoff. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [16]. Its interval, 0.139–0.292, lies above that event rate. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. The two Brier intervals overlap, and no interval was calculated for the difference. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [17]. Only 67 events informed these checks [18]. Most adults in even the highest-risk bin reported receipt.
 
-The Table VII intervals resample fixed out-of-fold predictions by household. They are not the survey approximation in Section V.A. They are not the Wald intervals around the full-sample odds ratios.
+The Table VII intervals resample fixed out-of-fold predictions by household. They are not the survey approximation in Section V.A. They are not the Wald intervals around the full-sample odds ratios. Those odds ratios are associations in the full-sample fit. Held-out ranking, probability error and calibration do not convert them into effects of sex, schooling, settlement or office distance.
 
 Table VIII separates sample, predictor and evaluation changes. It reports point estimates only. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [19], [20].
 

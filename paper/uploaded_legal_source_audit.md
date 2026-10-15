@@ -345,3 +345,33 @@ separately. **The operative 2014–2015 historical chain remains incomplete.**
 The manuscript, DOCX/PDF, references and scientific outputs remain unchanged.
 No remote requests, model runs or application tests were performed for this
 supplement; the current artifact record retains and rechecks their hashes.
+
+## Supplement: 2021 draft appeals notice, 15 October 2026
+
+The next uploaded file, `44099rg11227gon40.pdf` (49 PDF pages), is **GN R40,
+GG 44099, Regulation Gazette 11227, 25 January 2021**. SHA-256:
+`7071910ecc334f8f8b3aac97ee52df4bf51aa9ee7502017896a807f5e4ecb7a1`.
+The printed notice date controls over the metadata subject's incorrect 2020 date.
+Extracted words run backwards within lines, so the original page images control
+this review.
+
+The notice on physical PDF page 1/Gazette page 53 explicitly says the Minister
+intends amendments and invites comments on **draft regulations** within 30
+calendar days. It concerns appeals and the independent tribunal. The schedule
+on PDF page 3/Gazette page 55 refers to GN R746/GG 34618 of 19 September 2011,
+the appeals instrument already identified in the full 2022 Gazette. This is not
+the missing means-test formula amendment.
+
+The definition on PDF page 6/Gazette page 58 identifies the 2008 Regulations as
+GN R898/GG 31356, 22 August 2008, as amended. It supplies a pointer, not the full
+operative text. It additionally prints “Government Gazette 8948”; this wording
+is not silently repaired or treated as another base instrument. The marked-up
+commencement text on PDF page 21/Gazette page 73 forms part of the proposal and
+does not establish adoption or an operative 2021 amendment.
+
+Primary and independent original-page review confirms this classification.
+**The 2014–2015 historical means-test gap remains open.** The unrelated draft PDF
+is not copied into the paper's substantive source collection or bibliography;
+its file identity, page evidence and exclusion are recorded here and in the JSON
+ledger. The manuscript, DOCX/PDF, citations and scientific outputs remain
+unchanged. No remote requests, model runs or application tests were performed.

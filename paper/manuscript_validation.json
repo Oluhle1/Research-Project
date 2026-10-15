@@ -324,8 +324,8 @@
     "output/phase4/rq1_status_by_marital.csv": "7f0c8033f66433b8ea65abc6496353bb89f8d0d9ad1144a21ac77e360ed44917",
     "Dataset/metadata/Living Conditions Survey Questionnaire.pdf": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
     "Dataset/metadata/Living Conditions Survey Metadata.pdf": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
-    "paper/uploaded_legal_source_audit.md": "a8cb6f5651a6eed66d5fd3db2ae5927a01638c5ac772f290e241345177b517b8",
-    "paper/uploaded_legal_source_audit.json": "350b3929eb4a8f893b9d63ccc6fa3e241059f6eaa8cc0e19e18a34cffcc9c16f",
+    "paper/uploaded_legal_source_audit.md": "2281f53899949701386e47b8795b5c2d6928270b570b6c16942dfd506d96bf44",
+    "paper/uploaded_legal_source_audit.json": "5a88f930613e098773cdc2170345b08588274a0dd7116701f2b7666ac49cb2b4",
     "paper/legal_sources/2011_GN_R286_GG34169.pdf": "067dfd36a8e022e1aa1695a588a5ff007d2233835446f281043aff3b1ad45747",
     "paper/legal_sources/2022_GN_R2119_GG46459.pdf": "b6f1ee1095498ec600291e747cdd56d5cf78dce8081c5d41ff6f1a6b2ddda707",
     "paper/legal_sources/2022_GG46459_full.pdf": "765f5dd6dd43b0b4f46d49ed54d1195465bb8aa43048dc6db7a33009bc5f8c78",
@@ -440,7 +440,18 @@
       },
       "historical_2014_2015_chain_confirmed": false,
       "manuscript_or_published_artifact_changed": false
+    },
+    "supplement_2021_draft_appeals_notice": {
+      "review_date": "2026-10-15",
+      "uploaded_filename": "44099rg11227gon40.pdf",
+      "sha256": "7071910ecc334f8f8b3aac97ee52df4bf51aa9ee7502017896a807f5e4ecb7a1",
+      "pdf_pages": 49,
+      "identity": "GN R40, GG44099, Regulation Gazette11227, 25 January 2021",
+      "document_type": "Call for comments on draft amendments concerning social-assistance appeals and the independent tribunal.",
+      "repository_copy": null,
+      "historical_2014_2015_chain_confirmed": false,
+      "manuscript_or_published_artifact_changed": false
     }
   },
-  "source_supplement_checked_at_utc": "2026-10-15T00:06:28.465948+00:00"
+  "source_supplement_checked_at_utc": "2026-10-15T00:13:44.622732+00:00"
 }

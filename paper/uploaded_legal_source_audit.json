@@ -334,5 +334,33 @@
     "science_code_or_cohort_changed": false,
     "fresh_remote_requests": 0,
     "conclusion": "Corroborates the existing Act citation and original enabling provisions; does not close the historical means-test formula/rate gap."
+  },
+  "supplement_2021_draft_appeals_notice": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:13:44.622732+00:00",
+    "uploaded_filename": "44099rg11227gon40.pdf",
+    "sediment_id": "file_00000000b5688208931f581710ddeccf",
+    "sha256": "7071910ecc334f8f8b3aac97ee52df4bf51aa9ee7502017896a807f5e4ecb7a1",
+    "pdf_pages": 49,
+    "identity": "GN R40, GG44099, Regulation Gazette11227, 25 January 2021",
+    "document_type": "Call for comments on draft amendments concerning social-assistance appeals and the independent tribunal.",
+    "repository_copy": null,
+    "reason_not_retained_as_substantive_source": "Unrelated draft appeals instrument; not an original historical means-test provision. File identity and original-page findings retained in this audit.",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_timeline agent",
+      "notice": "Physical PDF1 / Gazette53: Minister intends amendments; invites comments on draft regulations within 30 calendar days.",
+      "schedule": "Physical PDF3 / Gazette55: references GN R746/GG34618, 19 September 2011, an appeals instrument.",
+      "definition": "Physical PDF6 / Gazette58: identifies 2008 Regulations as GN R898/GG31356, 22 August 2008, as amended.",
+      "proposed_commencement": "Physical PDF21 / Gazette73: marked-up [25.]22 commencement text proposes proclamation date, with bracketed old 3 October 2011 wording; not evidence of adopted 2021 commencement."
+    },
+    "extraction_limit": "Extracted words appear in reverse order within lines; original page images control interpretation. Printed date25 January2021 controls over metadata subject26/01/2020.",
+    "historical_2014_2015_chain_confirmed": false,
+    "intervening_formula_amendment_identified": false,
+    "operative_amendment_established": false,
+    "new_manuscript_reference_added": false,
+    "manuscript_or_published_artifact_changed": false,
+    "science_code_or_cohort_changed": false,
+    "fresh_remote_requests": 0,
+    "conclusion": "Confirms a pointer to the already-identified 2008 base regulations but supplies no operative historical formula, minimum-payment or rate chain."
   }
 }

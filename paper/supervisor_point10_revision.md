@@ -21,22 +21,32 @@ issue (online February 2014); Riley is the March 2019 issue (online October
 issue number. Vujovic's Crossref record has a year and no month, so no month
 was added. Van Calster now includes no. 1. Article numbers use IEEE "Art. no."
 
-Journal titles that had been left in full were abbreviated to the same pattern
-as the other entries: Glob. Health Action and Glob. Public Health. PLOS ONE
-and Ecography stay as the journal names. Entries with six or fewer named
-authors still list each author. Godfrey retains "et al." because Crossref adds
-The SIZE Research Group after six named authors. Riley has seven authors and
-Roberts has 14, so both retain "et al." Van Calster retains "et al." because
-the record is a named author for a STRATOS topic group. F. X. Gómez-Olivé was
-kept; Crossref records the given name as Francesc only.
+The follow-up uses the IEEE Reference Guide for Authors, V 10.16.2024. Article
+numbers follow that guide's order: volume, issue, month and year, then
+"Art. no.", then the DOI. In the reference list the periodical title and
+"et al." are italic. Article titles stay in quotation marks, and the comma
+before "vol." stays roman. Reports, the Act, gazettes and the research report
+have no volume, so those lines stay roman.
+
+Journal abbreviations follow the guide's word list. Development is Develop.,
+statistics is Statist., and administration is Admin. Global, public, health,
+social, service, southern and internal are spelled out because the list does
+not abbreviate them. Ecography stays in full because it is a one-word title.
+PLOS ONE stays as the journal name. Entries with six or fewer named authors
+still list each author. Godfrey, Riley, Roberts and Van Calster keep the
+primary name and "et al." because each record has more than six authors.
+F. X. Gómez-Olivé was kept; Crossref records the given name as Francesc only.
+June and July stay Jun. and Jul., which is the form in the 2024 guide examples.
 
 Local files and the existing source audit support the non-DOI entries.
 
 - Statistical Release P0310 prints Pretoria: Statistics South Africa, 2017.
   The cover title remains Living Conditions Survey 2014/2015. The reference
-  now quotes that title and uses commas.
-- The COICOP file and the household questionnaire do not print a city or a
-  publication year. None was added. Their titles are quoted.
+  quotes that title. The IEEE report order is city, country, release number,
+  then year.
+- The COICOP file and the household questionnaire do not print a publication
+  year, so both use IEEE "(n.d.)". They also do not print a city. Pretoria is
+  taken from the P0310 imprint of the same publisher. No year was invented.
 - Government Notice 211 is gazette page 3. Government Notice 277 is gazette
   page 3. The formula amendment in gazette 37474, pages 4–5, is identified as
   Government Notice R211 by the recital in the 2015 notice already audited for
@@ -48,7 +58,9 @@ Local files and the existing source audit support the non-DOI entries.
 - Mabala's WIReDSpace record is dated August 2023 and gives
   https://hdl.handle.net/10539/40003. The document calls itself a research
   report. The repository citation also says Master's dissertation. The
-  reference keeps "research report" and adds the IEEE online-availability line.
+  reference keeps "M.A. research report", abbreviates the school and
+  university in the thesis pattern, and ends on the handle URL with no final
+  period.
 - Uncited catalog entries 26 and 27 were aligned to the headings and notice
   numbers on the local 2011 and 2022 gazettes. They are still not cited.
 

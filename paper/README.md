@@ -39,9 +39,9 @@ the ethics record, and the paper claims no DUT approval, exemption or consent
 determination because none is documented. That campus confirmation is still
 outstanding. Point 9 is revised in Section VIII: the contribution is the
 integration of the screen, the prediction and the software on the same adults.
-Point 10 is revised in the reference list: bibliographic details were checked,
-IEEE article-number and date form was aligned, and first-use numbering is
-unchanged. DOI strings are unchanged. Journal findings were not re-read.**
+Point 10 is revised in the reference list: bibliographic details were checked
+against the IEEE Reference Guide for Authors, V 10.16.2024, and first-use
+numbering is unchanged. DOI strings are unchanged. Journal findings were not re-read.**
 
 The current paper has **7,006 whitespace tokens**, a **141-word abstract**,
 a **408-word III.B** and a **422-word III.D**, with **ten Letter pages**,
@@ -50,7 +50,8 @@ The catalog retains
 30 sources: historical IDs 26/27 (2011/2022) are unused in the current manuscript;
 new source 29 is published 26, base source 28 is published 27 and new source 30
 is published 28. The 18 DOI strings remain unchanged. Point 10 aligned
-reference titles, dates and IEEE punctuation to the checked records. That
+periodical italics, article-number order and the guide's journal abbreviations
+to the checked records. That
 edit does not independently corroborate journal contents. Visible
 fonts remain 10/9/8 points. Reference leading remains the tighter point 4
 setting. The user deferred the eight-page limit. The point 10 check passed **209

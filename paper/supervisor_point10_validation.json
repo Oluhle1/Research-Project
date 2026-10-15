@@ -1,6 +1,7 @@
 {
   "revision_date": "2026-10-15",
-  "recorded_at_utc": "2026-10-15T04:25:00+00:00",
+  "recorded_at_utc": "2026-10-15T04:48:27+00:00",
+  "ieee_guide": "IEEE Reference Guide for Authors, V 10.16.2024",
   "parent_commit": "a386318",
   "series_baseline": "f9bab60378a9b01ce5d6153194720cd52c736253",
   "published_references": 28,
@@ -30,11 +31,11 @@
   "application_tests_rerun": false,
   "claim_check_at_utc": "2026-10-15T04:18:07.305351+00:00",
   "renderer": "Microsoft Word; Times New Roman",
-  "visual_check": "Pages 9 and 10 of the ten-page Word PDF were inspected. Page 9 holds the contribution paragraph and references 1-24. Page 10 holds references 25-28 in two columns. The column gutter is open, and reference 28 is complete. Reference leading was left at the point 4 setting.",
+  "visual_check": "Pages 9 and 10 of the ten-page Word PDF were inspected. Page 9 holds the contribution paragraph and references 1-24. Page 10 holds references 25-28 in two columns. The column gutter is open: the left column ends near 295 pt and the right column starts at 315 pt. Reference 28 is complete. Reference leading was left at the point 4 setting. In the Word reference list, periodical titles and et al. are italic 8-point runs; the comma before vol. stays roman.",
   "independent_second_reviewer": false,
   "manuscript_sha256": "86be673b2e9392ff7143af12d0ad31f43c1d76768b2a1110e170d49006852a8b",
-  "manuscript_numbered_sha256": "58662b46a194b612e876b83c00848299f0043ff3ff24df61c202ca8b6c7f0df3",
-  "references_sha256": "99a2fee99ba7219ffb66742fc7c994964c12c53df9008e7595adc526a6a8f4a8",
-  "docx_sha256": "b92db37bda19a7c814646c438268bdb1583efde029ada3b9bab798f1f6778f75",
-  "pdf_sha256": "567f18f82a496ba2930c36442e7f3cc21415afc868ef109eae29e639378060c4"
+  "manuscript_numbered_sha256": "4dd47b545604c7372d28c5ef54af15f7ebeb1c9641c8fdf8434179a5300c8d37",
+  "references_sha256": "e3048286b7db8c06e67733a03cc2b939d16b190dedfd244fe2ec172094e1ed68",
+  "docx_sha256": "9c6171a9f29bf7c4e06d3d59ff0cd85721c464a9ef6a276970088ca819ff9747",
+  "pdf_sha256": "41e6e0e46e376eb640d3d12915216839d250e9cd83aaa1cd82ac4f26caec1922"
 }

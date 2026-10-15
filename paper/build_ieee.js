@@ -106,9 +106,35 @@ for(let i=titleEnd;i<lines.length;i++){
     }
     body.push(paragraph(line));
 }
+function styledRuns(text, base){
+    return text.split('et al.').flatMap((part, index, parts) => {
+        const runs = [];
+        if(part) runs.push(new TextRun({...base, text:part, font:FONT}));
+        if(index < parts.length - 1) runs.push(new TextRun({...base, text:'et al.', italics:true, font:FONT}));
+        return runs;
+    });
+}
+function referenceParagraph(number, entry){
+    const base = {size:16};
+    const volumeAt = entry.indexOf(', vol. ');
+    const marker = ',\u201d ';
+    const titleAt = volumeAt === -1 ? -1 : entry.lastIndexOf(marker, volumeAt);
+    if(volumeAt !== -1 && titleAt === -1){
+        throw new Error('IEEE periodical title was not found before the volume: ' + entry.slice(0, 90));
+    }
+    let children;
+    if(titleAt !== -1){
+        const journalAt = titleAt + marker.length;
+        children = [
+            ...styledRuns(`[${number}] ${entry.slice(0, journalAt)}`, base),
+            new TextRun({...base, text:entry.slice(journalAt, volumeAt), italics:true, font:FONT}),
+            ...styledRuns(entry.slice(volumeAt), base)];
+    }else children = styledRuns(`[${number}] ${entry}`, base);
+    return new Paragraph({alignment:AlignmentType.LEFT, keepLines:true, indent:{left:260, hanging:260},
+        spacing:{before:0, after:0, line:160}, children});
+}
 body.push(heading('References',1));
-for(const [i,id] of ids.entries())body.push(paragraph(`[${i+1}] ${references[id]}`,{
-    keepLines:true,alignment:AlignmentType.LEFT,indent:{left:260,hanging:260},spacing:{before:0,after:0,line:160},run:{size:16}}));
+for(const [i,id] of ids.entries())body.push(referenceParagraph(i+1, references[id]));
 const doc=new Document({title:lines[0].slice(2),creator:'Oluhle Jawe',description:'Submission 2 revised research manuscript',
   styles:{default:{document:{run:{font:FONT,size:20},paragraph:{spacing:{line:230,lineRule:LineRuleType.AUTO}}}},
     paragraphStyles:[{id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',run:{font:FONT,color:'000000',size:20},paragraph:{keepNext:true}},

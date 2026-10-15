@@ -407,15 +407,15 @@ See [point 9 revision](supervisor_point9_revision.md) and
 
 **Status: revised and checked; awaiting user review.** The 28 published
 references keep their first-use numbers. DOI strings are unchanged. Crossref
-supplied the issue dates, volumes, issues, pages and author counts. Abbreviated
-months, "Art. no.", the missing BMC Medicine issue, and the abbreviations
-Glob. Health Action and Glob. Public Health were aligned to that record.
-Statistics South Africa and the government notices were checked against the
-local files and the point 3 source audit. Government Notice R211 is now
+supplied the issue dates, volumes, issues, pages and author counts. The
+reference list now follows the IEEE Reference Guide for Authors, V 10.16.2024:
+article numbers sit after the month and year, periodical titles and "et al."
+are italic, and journal words use that guide's abbreviation list. Undated
+Statistics South Africa files use "(n.d.)". The government notices were checked
+against the local files and the point 3 source audit. Government Notice R211 is
 distinguished from Notice 211. Catalog sources 26 and 27 were corrected and
-remain uncited. Journal-article findings were not re-read. The added reference
-detail makes the Word export ten Letter pages. Reference leading was not
-tightened.
+remain uncited. Journal-article findings were not re-read. The Word export is
+ten Letter pages. Reference leading was not tightened.
 
 The current paper has **7,006 whitespace tokens** and the unchanged **141-word
 abstract**. Fresh checks passed **209 numerical and 103 supporting
@@ -439,7 +439,7 @@ still needs the campus ethics determination and is not accepted.
 | 7 | Associations versus prediction and causal explanation | Revised in Section V.C and linked in VI.B; awaiting user review |
 | 8 | Formal institutional ethics and secondary-data governance clarification | Revised in Section VII; no approval, exemption or consent determination is documented; campus confirmation still required; awaiting user review |
 | 9 | Contribution of integrated screening, prediction and software | Revised in Section VIII; awaiting user review |
-| 10 | Reference verification and IEEE consistency | Revised from Crossref, local survey files and gazettes; awaiting user review |
+| 10 | Reference verification and IEEE consistency | Revised to the 2024 IEEE Reference Guide; first-use order and DOI strings unchanged; awaiting user review |
 
 The next action is user review of points 3 through 10. Point 8 still needs the campus ethics determination.
 No new empirical data collection, formal submission or message to the supervisor has

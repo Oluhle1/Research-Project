@@ -1,19 +1,42 @@
 # Response to lecturer feedback: Submission 2
 
-For the separate supervisor feedback supplied on **14 October 2026**, see
-[the staged supervisor response](supervisor_feedback_response.md). The current
-**15 October 2026 (Africa/Johannesburg), D-072** uploaded-source review extends four legal
-follow-ups to **point 3**, in **III.B** (pages 3–4) and **VII** (page 8). Legal follow-up 4 concerns
-historical regulations; the later supervisor point 4 concerns bootstrap intervals
-and remains pending. See [the uploaded-source audit](uploaded_legal_source_audit.md)
-and [its evidence record](uploaded_legal_source_audit.json).
+For the separate supervisor feedback, see [the staged response](supervisor_feedback_response.md).
+The current D073 revision extends legal follow-ups within supervisor point 3;
+supervisor point 4 concerns bootstrap intervals and remains pending.
 
-| Legal follow-up | Current response | Status |
+The current **D073 revision, 15 October 2026**, incorporates the correct original
+**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
+joint-income and half-joint-income provisions, desertion exception and minimum
+payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
+**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
+rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
+and points 4–10 remain pending.
+
+The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+**374-word III.B**, with **eight Letter pages, nine tables, four figures and
+28 first-use references**. Only III.B's threshold and marital paragraphs changed
+in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
+2011/2022 become published 27/28. All prior reference strings, table contents and
+XML, figure assets and scientific code/results remain unchanged. Visible fonts
+remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
+exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
+The current-source verifier passed 209 numerical and 100 supporting comparisons,
+with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+
+See [the 2008 source audit](historical_2008_source_audit.md),
+[its ledger](historical_2008_source_audit.json) and
+[current artifact validation](manuscript_validation.json).
+
+| Legal follow-up | Current evidence | Status |
 | --- | --- | --- |
-| 1. Authenticate original threshold sources and exact provisions. | Conditional arithmetic and coded ceilings pass. Uploaded GN R286 (2011), Schedule 2 and 4, prints 1.4A − 0.4B from 1 April 2011; GN R2119 (2022), Annexure A(2), (5), prints 1.6A − 0.4B and R100 monthly minimum, commencing in 2022 under regulation 41. | **Partly addressed: intervening formula amendments and original 2014/2015 rate notices remain unauthenticated.** |
-| 2. Replace the blanket verification statement accurately. | III.B distinguishes the two verified source versions from the fixed annual research ceilings and private-income proxy; VII states that historical formula applicability remains unresolved. Estimates are conditional on those research ceilings. | **Addressed in text; historical legal authentication remains incomplete.** |
-| 3. Justify spouse resources and ambiguous marital treatment. | III.B explains resident reciprocal links as research consistency requirements, summing resolved applicant/spouse income under the assumed couple rule regardless of spouse age, unavailable nonresident-partner income, questionnaire routing for separated respondents, and unresolved cohabitation or ambiguous links. | **Research rationale clarified; legal spouse classification remains unauthenticated.** |
-| 4. Supply exact historical regulations and their in-force amendment chain. | New references [26]–[27] identify the read 2011 and 2022 originals. The uploaded `415.pdf` is GG 31342, containing banking/customs notices, and is excluded as the intended 2008 source. The 2022 date cannot prove the rules operative in 2014–2015. | **Partly addressed: the original operative amendment/rate chain remains missing.** |
+| 1. Historical thresholds | Original 2008/2011/2022 formulas are verified; research arithmetic and coded ceilings remain fixed. | Partial: operative 2014–2015 formula and original rate notices still required. |
+| 2. Accurate verified scope | III.B directly identifies verified 2008 minimum/spouse/means clauses and retains the historical formula caveat. | Addressed within available evidence. |
+| 3. Partnership assumptions | Original regulations 1,18(2)–(3),19(1) support the source discussion; resident reciprocal links and unresolved ambiguity remain explicit research choices. | Research rationale addressed; period-specific legal application incomplete. |
+| 4. Direct legal references | New stable source 28 becomes published reference 26; 2011/2022 become 27/28. Original 2008 commencement and clauses are audited. | Partial: complete operative amendment history remains missing. |
+
+D072's 5,457/141/389-word draft and 27 references are historical at `132e96c`.
+Its [uploaded-source audit](uploaded_legal_source_audit.md) and appended source
+supplements remain intact. The unrelated `415.pdf` remains excluded.
 
 The preceding **15 October D-071** snapshot at commit `214647e` had
 **5,451 whitespace tokens**, a **141-word abstract** and a **377-word III.B**.
@@ -43,18 +66,10 @@ association and unresolved or unmeasured burden mechanisms. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,457 whitespace tokens**, a **141-word abstract**
-and a **389-word III.B**.
-It retains eight Letter pages, nine tables, four figures and **27 references** with
-the existing 10/9/8-point body/table/reference fonts.
-The retained-output audit binds the current source hash and passes all 209
-numerical and 100 supporting checks; primary and independent reviewers inspected
-all eight fresh pages. Relative to D-071 (`214647e`), only the III.B threshold
-paragraph and VII's first limitations paragraph changed in the manuscript,
-with new references [26]–[27]. The builder only reduces spacing after reference
-paragraphs from 50 to 20 twips. Tables, figures, scientific results,
-screening rules, model code and data remain unchanged. The accepted framework
-snapshot `0dd3d0e` had 5,423 tokens.
+The historical D072 snapshot at `132e96c` had 5,457 source words, a 141-word
+abstract, 389-word III.B and 27 references. Its checks bind that historical draft;
+current D073 metrics and reviews appear above. The accepted framework snapshot
+`0dd3d0e` had 5,423 tokens.
 The seven-comment lecturer matrix
 below records the earlier feedback and does not close the remaining supervisor points.
 
@@ -117,11 +132,11 @@ and scientific implementation remain unchanged.
 
 ## Remaining items
 
-- **Supervisor point 3 partly addressed, D-072:** legal follow-ups 2 and 3 clarify research assumptions and spouse-resource choices. Two genuine legal originals now support exact 2011/2022 clauses, but follow-ups 1 and 4 remain incomplete because the intervening operative formula and original 2014/2015 rate notices are missing. The 2022 text supplies no historical spouse proof. All 209 numerical and 100 supporting checks bind the current source and pass; both reviewers passed all eight fresh pages. See [the uploaded-source audit](uploaded_legal_source_audit.md), [its evidence record](uploaded_legal_source_audit.json) and [current artifact validation](manuscript_validation.json). D-071's dated retrieval record remains unchanged. Point 3 awaits user review; supervisor points 4–10 remain pending.
+- **Supervisor point 3 partly addressed, D073:** legal follow-ups 2 and 3 clarify research assumptions and spouse-resource choices. The original 2008 base now supports exact minimum, spouse and means clauses alongside verified 2011/2022 endpoints, but follow-ups 1 and 4 remain incomplete because the intervening operative formula and original 2014/2015 rate notices are missing. The 2022 text supplies no historical spouse proof. All 209 numerical and 100 supporting checks bind the current source and pass; both reviewers passed all eight fresh pages. See [the 2008 source audit](historical_2008_source_audit.md), [its evidence record](historical_2008_source_audit.json) and [current artifact validation](manuscript_validation.json). D-071's dated retrieval record remains unchanged. Point 3 awaits user review; supervisor points 4–10 remain pending.
 - **Supervisor point 2 accepted:** the historical `c95b786` draft improved II.C and Table II's theory links, coding limits and layout. The caption, header and five rows fit on page 2, using top-aligned cells and horizontal rules. Numerical, supporting and eight-page visual checks passed; see [point 2 validation](supervisor_point2_validation.json). These changes remain intact in the point 3 draft.
 - **Framework follow-up accepted on 14 October:** II.D explains the analytical design; Figure 1 distinguishes its components and the artefact's implementation scope; VI.E returns to the framework without claiming causal burden mechanisms. The accepted point 1 research-gap/search-limit text is preserved. The historical `0dd3d0e` framework snapshot passed numerical, supporting and eight-page visual checks; see [framework validation](conceptual_framework_validation.json). Those sections and the figure remain unchanged in the point 3 draft.
 - **Specialist-audience revision completed:** the paper removes basic definitions and integrates the literature review into one narrative. It retains all 16 checked scientific distinctions. All 209 numerical and 100 supporting comparisons pass. The PDF has eight pages, nine tables and four figures; editorial review does not prove human usability or comprehension. See [language validation](specialist_language_validation.json).
-- **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 27 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
+- **Completed:** integration of the approved Submission 1 and final DOCX/PDF build at **eight pages**, including references. Nine tables, four complete readable figures and 28 references numbered in first-appearance order support the revision. All 209 numerical table comparisons passed against frozen outputs. See [manuscript validation](manuscript_validation.json) and [integration notes](submission1_integration_notes.md). The author should review the draft before submission.
 - **Targeted refinement completed:** the supplied P1–P4 priorities strengthen interpretation, theory/finding links and sensitivity implications. The user-confirmed APRE402 title and revised eight-page layout passed review. The [claim register](claim_source_register.csv) and reusable verifier pass 209 table comparisons and 100 supporting checks. [P5 and the fourteen-item response](targeted_revision_response.md) distinguish these completed checks from incomplete original-source and institutional/portal confirmations. [Primary-source audit](primary_source_audit.md) records three locally read Stats SA documents and thirteen blocked external retrievals.
 - Independently verify the complete bibliography and original historical legal provisions when the publisher/official sources are accessible; retain the distinction between checks against the submitted bibliography and primary-source verification.
 - Keep **participant usability unestablished and deferred**. No participant study is required to finish this authorised revision, and no such study may be reported as completed. Any later participant evaluation would require its own consent and applicable ethics process.

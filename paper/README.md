@@ -8,7 +8,32 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **15 October 2026 (Africa/Johannesburg)** uploaded-source review,
+The current **D073 revision, 15 October 2026**, incorporates the correct original
+**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
+joint-income and half-joint-income provisions, desertion exception and minimum
+payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
+**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
+rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
+and points 4–10 remain pending.
+
+The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+**374-word III.B**, with **eight Letter pages, nine tables, four figures and
+28 first-use references**. Only III.B's threshold and marital paragraphs changed
+in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
+2011/2022 become published 27/28. All prior reference strings, table contents and
+XML, figure assets and scientific code/results remain unchanged. Visible fonts
+remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
+exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
+The current-source verifier passed 209 numerical and 100 supporting comparisons,
+with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+
+See [the 2008 source audit](historical_2008_source_audit.md),
+[its ledger](historical_2008_source_audit.json) and
+[current artifact validation](manuscript_validation.json).
+
+## Historical D072 uploaded-source review
+
+The historical **15 October 2026 (Africa/Johannesburg)** uploaded-source review,
 **D-072**, extends supervisor **point 3**. Two genuine uploaded legal originals
 were read: **GN R286, GG 34169, 31 March 2011**, Schedule paragraphs 2 and 4, specified
 **D = 1.4A − 0.4B** from **1 April 2011**; **GN R2119, GG 46459, 31 May 2022**,
@@ -65,7 +90,7 @@ tokens. See
 [its historical validation](conceptual_framework_validation.json) and
 [current artifact validation](manuscript_validation.json).
 
-The current manuscript has **5,457 whitespace tokens**, including a **141-word
+The D072 manuscript at `132e96c` had **5,457 whitespace tokens**, including a **141-word
 abstract** and a **389-word III.B**. The PDF retains eight Letter pages, nine
 tables, four figures and **27 references** at the existing 10/9/8-point
 body/table/reference fonts. Relative to D-071 (`214647e`), manuscript changes
@@ -77,6 +102,8 @@ The specialist, clear professional style continues.
 
 ## Editable sources
 
+- `historical_2008_source_audit.md` and `.json`: current D073 original 2008 clause readings, period limits and final checks.
+- `legal_sources/2008_GN_R898_GG31356.pdf`: the retained correct original base.
 - `manuscript.md`: compact manuscript consumed by the build.
 - `conceptual_framework.md`, `results.md`, `discussion.md`: detailed working
   sections and evidence provenance. They support the compact manuscript; the
@@ -138,7 +165,7 @@ The specialist, clear professional style continues.
   pointers and seven additional blocked retrievals, with zero legal texts read.
   `manuscript_validation.json` records the current artifacts.
 - `uploaded_legal_source_audit.md`, `uploaded_legal_source_audit.json`:
-  current D-072 source quotations, version/date limits and remaining historical
+  historical D072 source quotations, version/date limits and remaining historical
   amendment/rate evidence. `legal_sources/` retains the two cited legal PDFs.
 
 ## Rebuild
@@ -182,7 +209,7 @@ the current manuscript hash and passes 209 numeric table values and 100
 supporting comparisons against retained evidence.
 Primary and independent reviewers visually inspected all eight freshly rendered
 pages, including Table II and the retained conceptual figure. The paper contains nine tables,
-four figures and 27 references numbered by first appearance. The previous
+four figures and 28 references numbered by first appearance. The previous
 220-test application result is cited as existing evidence; editing the paper
 has not rerun or expanded that suite.
 

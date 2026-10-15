@@ -142,9 +142,9 @@ These are working rules from the Submission 2 brief. They do not change the esti
 | --- | --- | --- | --- | --- |
 | H1 | Sequential phases | No Results prose before the producing analysis is verified | Implemented | Dated study close-outs and October implementation evidence; revised paper uses frozen outputs |
 | H2 | Phase close-out | Completed, Evidence, Problems, Decisions, Next step | Implemented | Historical close-outs and October plan Phase 6 revision record in `specification/decision_log.md` |
-| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, 72 unique D-001–D-072 rows |
+| H3 | Decision log | Every deviation and every resolution of an open parameter | Implemented | `specification/decision_log.md`, 73 unique D-001–D-073 rows |
 | H4 | Traceability matrix | RQ → method → evidence → result → discussion → conclusion | Implemented | Section 13 of `specification/implementation_specification.md`, updated for current RQ3 evidence |
-| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D-072 uploaded-source review for original supervisor point 3: eight Letter pages; 5,457 manuscript words, 141-word abstract, 389-word III.B; two columns, 10/9/8 pt body/table/reference fonts; nine tables, four figures, 27 first-use references and APRE402. `paper/uploaded_legal_source_audit.md`/`.json` record original GN R286/GG 34169 (2011), Schedule 2 formula 1.4A − 0.4B and Schedule 4 effective 1 April 2011; GN R2119/GG 46459 (2022), Annexure A(2)/(5) formula 1.6A − 0.4B/R100 monthly minimum and regulation 41 commencement 31 May 2022. Supplied `415.pdf`/GG 31342 concerns banking/customs and is excluded; correct 2008 GN R898/GG 31356 is identified but full text unread. Intervening formula amendments and original 2014/2015 rate notices remain missing. Legal follow-ups 2/3 addressed within accuracy/research scope; historical criteria 1/4 incomplete. Original point 3 partial and awaiting user review; supervisor points 4–10 pending. Current-source 209 numerical/100 supporting checks pass with zero failures, 314 register rows and four limits; root and independent all-eight-page visual reviews passed; independent uploaded-source/scientific reviews passed; current `paper/manuscript_validation.json` and source audit record the checks. Only III.B/VII's first paragraph, direct references [26]/[27]/source copies and reference after-spacing (2.5 to 1 pt) change from `214647e`; all nine table XML records, other sections/figures, scientific outputs and app/model/data/analysis/verifier code remain unchanged. No science-code change, rule rerun, refit, app suite or new empirical result. D-062–D-071 counts/hashes/checks and historical request audits remain historical; P5 confirmations remain open |
+| H5 | Paper | IEEE, at most 8 pages, written from verified outputs, future tense removed only for work that was done | Implemented | Current D073: 5,442 manuscript words, 141-word abstract, 374-word III.B; eight Letter pages, nine tables, four figures, 28 first-use references and APRE402. Original R898/2008 base now read and directly cited for minimum/spouse/means provisions; operative 2014–2015 amendment/rate chain remains incomplete. Source records: paper/historical_2008_source_audit.md/.json. All 209 numerical and 100 supporting checks passed; both reviewers passed all eight pages. Only III.B threshold/marital prose, one source citation/PDF and final invisible balancing-paragraph height changed from 132e96c; fonts 10/9/8, tables/figures and science/app code unchanged. Stable source ID28 becomes published 26; 2011/2022 become 27/28. Historical D072 counts/hashes remain intact. Point 3 partial; points 4–10 pending. No checklist status change or refit. |
 
 ## Current summary
 
@@ -160,13 +160,14 @@ The two Proposed rows are the deferred random forest (F13) and unperformed
 participant interface evaluation (G-a11). Implemented records the evidenced
 minimum status; functional verification is described in the evidence cells and
 `docs/evidence_log.md`, without implying participant usability or external
-predictive validation. The current D-072 uploaded-source review for supervisor point 3 has exactly
-eight pages; the latest render/layout evidence is in
-`paper/manuscript_validation.json`. It has not been externally submitted.
+predictive validation. The current D-073 correct-2008-base review is being
+prepared for the eight-page limit; final counts and render/layout checks remain
+pending. D-072's completed eight-page evidence is historical at `132e96c`;
+`paper/manuscript_validation.json` records the current build when finalised. It has not been externally submitted.
 Independent publisher/legal-notice verification and ethics confirmation remain
 outstanding. Earlier six-page, 4,988-word, 5,262-word, 5,632-word, 5,627-word,
-5,097-word, 5,308-word, 5,423-word, 5,416-word, 5,430-word and 5,451-word builds are historical stages,
-not the current 5,457-word manuscript.
+5,097-word, 5,308-word, 5,423-word, 5,416-word, 5,430-word, 5,451-word and
+5,457-word builds are historical stages; D-073 final counts remain pending.
 
 The targeted revision preserves the scientific model and nine-table/four-figure
 evidence while strengthening RQ interpretation and theory/sensitivity synthesis.
@@ -245,10 +246,10 @@ fourth legal follow-up is not supervisor feedback point 4. No checklist status
 changed: 96 rows remain 94 Implemented, two Proposed and zero Verified. D-062–
 D-070 counts/hashes and earlier reviews remain explicitly historical. D-071's
 5,451-word/377-word III.B draft, hashes and completed checks are retained at
-`214647e42adad9a20a30461d4026e1f93732ae7a`; D-072 below records the current
-uploaded-source review.
+`214647e42adad9a20a30461d4026e1f93732ae7a`; D-072 below records the historical
+uploaded-source review; D-073 records the current correct-2008-base review.
 
-The 15 October D-072 revision reads uploaded original 2011 and 2022 legal
+The historical 15 October D-072 revision reads uploaded original 2011 and 2022 legal
 texts. GN R286/GG 34169 Schedule 2 uses 1.4A − 0.4B, effective 1 April 2011
 under Schedule 4. GN R2119/GG 46459 Annexure A(2)/(5) uses 1.6A − 0.4B and
 R100 monthly minimum, commencing 31 May 2022 under regulation 41. The later
@@ -260,8 +261,8 @@ chain and original 2014/2015 rate notices remain missing.
 III.B and Section VII's first paragraph now make that historical limitation
 explicit; references [26]/[27] and source copies support the read originals.
 Reference after-spacing reduces from 2.5 to 1 pt; 10/9/8 pt fonts remain.
-The current draft has 5,457 words, a 141-word abstract, 389-word III.B and
-eight Letter pages with nine tables, four figures and 27 references. Current
+The D-072 draft has 5,457 words, a 141-word abstract, 389-word III.B and
+eight Letter pages with nine tables, four figures and 27 references. D-072
 source-bound audits pass 209 numerical and 100 supporting comparisons, with
 zero failures, 314 register rows and four limits. Root and independent visual
 reviews passed all eight final page images. Independent
@@ -273,3 +274,42 @@ and supervisor points 4–10 remain pending. No checklist status changes:
 96 rows remain 94 Implemented, two Proposed and zero Verified; the decision
 table contains 72 unique rows. D-062–D-071 counts, hashes and earlier reviews
 remain historical.
+
+The 15 October D-073 revision reads the correct 81-page base GN R898,
+GG 31356, 22 August 2008. Regulation 1 supplies the spouse definition;
+18(2)/(3) joint-income/desertion rules; 19(1) half-joint annual income;
+20 deductions; 39 commencement. Annexure A(2) uses 1.3A − 0.5B and A(5)
+the R100 monthly minimum. Source SHA-256:
+`c54ce6e72a31430ddd4fe1c3a8177b113b8f56194856719e8652eb24c66b59c6`.
+The original 2008 income scope includes dependent-child/ex-gratia items
+absent from 2022; no identity of definitions, lists or operative versions is
+assumed. Verified formulas differ across 2008, 2011 and 2022, while the
+operative 2014–2015 amendment/rate chain remains missing.
+
+Only III.B's threshold/partnership paragraphs, source (stable ID28/published 26) and a
+source PDF are in scope; frozen science, other sections, all nine tables/four
+figures and fonts remain unchanged. Final counts, pages, current-source audits, visual reviews and artifact hashes passed as recorded below. The D-072
+5,457/141/389 manuscript, 27 references and completed checks are historical
+at `132e96cee7d7b3b6f5d5b91a214590359a25d210`; its original source audit
+and appended supplements remain intact. Legal criteria 1/4 remain partial,
+2 accuracy and 3 research justification improve, original supervisor point 3
+remains partial and awaits user review, and supervisor points 4–10 remain
+pending. No checklist status changes: 96 rows remain 94 Implemented, two
+Proposed and zero Verified; the decision table contains 73 unique rows.
+D-062–D-072 counts, hashes and earlier checks remain historical.
+
+The final D073 manuscript has **5,442 whitespace tokens**, a **141-word abstract**
+and **374-word III.B**, with **eight Letter pages, nine tables, four figures and
+28 first-use references**. All 209 numerical and 100 supporting comparisons passed
+with zero failures, 314 register rows and four documented limits. Primary and
+independent reviews passed all eight final page images. Manuscript SHA-256:
+`980b21d321cfd9c22ac5c2546e35363ef03cc5c8bb520cffc9de60b4db260138`.
+PDF SHA-256:
+`b8e29a730d96284d7d08aeed1a0057635aac4cac0663c70d2bc36a8076cbb527`.
+Word SHA-256:
+`3f82e2937c853dc9a82b620ba36c6d48b3cdadb1f014dca0284c3bc9657104b0`.
+The builder's only new change gives its final invisible balancing paragraph an
+exact 1-point line to prevent a blank ninth page. Visible fonts remain 10/9/8 points;
+reference spacing, all nine table XML records, figures and scientific files match
+`132e96c`. The new stable source ID28 is published reference 26, with 2011/2022
+renumbered 27/28. These checks do not authenticate the missing survey-period chain.

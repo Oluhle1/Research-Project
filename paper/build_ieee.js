@@ -116,7 +116,7 @@ const doc=new Document({title:lines[0].slice(2),creator:'Oluhle Jawe',descriptio
   sections:[{properties:{page:PAGE},children:title},
     {properties:{type:SectionType.CONTINUOUS,column:{count:2,space:360,equalWidth:true},page:PAGE},children:body},
     // A final continuous section balances the final reference columns in Word/Writer.
-    {properties:{type:SectionType.CONTINUOUS,page:PAGE},children:[new Paragraph({spacing:{after:0},children:[]})]}]});
+    {properties:{type:SectionType.CONTINUOUS,page:PAGE},children:[new Paragraph({spacing:{before:0,after:0,line:20,lineRule:LineRuleType.EXACT},children:[]})]}]});
 async function main(){
     const output=path.join(ROOT,'Jawe_OPG_nonreceipt_KZN.docx');
     fs.writeFileSync(output,await Packer.toBuffer(doc));

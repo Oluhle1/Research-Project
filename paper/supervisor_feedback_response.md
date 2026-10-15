@@ -157,7 +157,7 @@ See [legal follow-up](legal_verification_followup.md),
 [current validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
-## D072: uploaded original sources, 15 October 2026
+## Historical D072: uploaded original sources, 15 October 2026
 
 **Status: supplied documents audited; point 3 remains partially addressed because
 the operative 2014–2015 amendment chain is incomplete.**
@@ -198,15 +198,49 @@ See [uploaded source audit](uploaded_legal_source_audit.md),
 [its ledger](uploaded_legal_source_audit.json), [current validation](manuscript_validation.json),
 [PDF](Jawe_OPG_nonreceipt_KZN.pdf) and [Word](Jawe_OPG_nonreceipt_KZN.docx).
 
+## D073: correct 2008 base regulations,15 October 2026
+
+The current **D073 revision, 15 October 2026**, incorporates the correct original
+**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
+joint-income and half-joint-income provisions, desertion exception and minimum
+payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
+**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
+rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
+and points 4–10 remain pending.
+
+The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+**374-word III.B**, with **eight Letter pages, nine tables, four figures and
+28 first-use references**. Only III.B's threshold and marital paragraphs changed
+in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
+2011/2022 become published 27/28. All prior reference strings, table contents and
+XML, figure assets and scientific code/results remain unchanged. Visible fonts
+remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
+exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
+The current-source verifier passed 209 numerical and 100 supporting comparisons,
+with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+
+See [the 2008 source audit](historical_2008_source_audit.md),
+[its ledger](historical_2008_source_audit.json) and
+[current artifact validation](manuscript_validation.json).
+
+The original base now verifies regulation 1's spouse definition,18(2) spouse
+income regardless of property regime,18(3) continuous desertion for at least
+three months plus unwillingness to support and Agency approval,19(1) half-joint
+annual income,20 documented deductions, and Annexure A(5)'s R100 minimum.
+Regulation 39 commences it on 22 August 2008. Original 2008 income categories also
+include dependent-child and ex-gratia receipts; the 2022 list must not be
+projected backwards. These exact original provisions strengthen requests 2/3.
+Requests 1/4 remain partial until the operative amendment/rate chain is read.
+
 ## Remaining supervisor points
 
 Point 3 has been clarified and checked but remains partially addressed while
-original legal verification is open. Points 4–10 remain pending.
+operative historical legal verification is open. Points 4–10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
 | 2 | Theory–predictor relationship and Table II formatting | Revised, checked and accepted for progression |
-| 3 | Historical thresholds, partnership assumptions and spouse resources | Partially addressed: explanation/arithmetic/code checks passed; original legal verification open |
+| 3 | Historical thresholds, partnership assumptions and spouse resources | Partially addressed: original 2008 clauses and research checks verified; operative historical chain incomplete |
 | 4 | Household-grouped validation, preprocessing and bootstrap limitations | Pending |
 | 5 | Technical verification versus participant usability | Pending |
 | 6 | Results-table readability and uncertainty interpretation | Pending |
@@ -216,5 +250,5 @@ original legal verification is open. Points 4–10 remain pending.
 | 10 | Reference verification and IEEE consistency | Pending |
 
 The next action is review of point 3 and original legal-source confirmation.
-No new evidence collection, formal submission or message to the supervisor has
+No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

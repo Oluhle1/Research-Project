@@ -9,3 +9,6 @@ models/*.json text eol=lf
 examples/synthetic_report/*.csv -text
 examples/synthetic_report/*.json -text
 examples/synthetic_report/responsible_use.txt -text
+
+# Preserve exact uploaded legal-source bytes on Windows and show binary diffs.
+paper/legal_sources/*.pdf binary

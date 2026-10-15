@@ -60,7 +60,7 @@ blocked. The preceding twelve-request D-070 and thirteen-request
 [the historical legal follow-up](legal_verification_followup.md) and
 [its evidence record](legal_verification_followup.json).
 
-The current **15 October 2026 uploaded-source review, D-072**, has **5,457
+The historical **15 October 2026 uploaded-source review, D-072**, at `132e96c`, has **5,457
 whitespace tokens**, a **141-word abstract** and a **389-word III.B**. Two genuine
 uploaded legal originals were read: **GN R286 / GG 34169 / 31 March 2011**,
 Schedule paragraphs 2 and 4, specified **1.4A − 0.4B** from **1 April 2011**;
@@ -83,6 +83,29 @@ intervals and remains pending. See [the language revision](specialist_language_r
 and [current artifact validation](manuscript_validation.json) for the current files
 and hashes. The 11 October, D-070 and D-071 source audits remain historical records.
 
+The current **D073 revision, 15 October 2026**, incorporates the correct original
+**GN R898, GG31356, 22 August 2008**. III.B cites the original spouse definition,
+joint-income and half-joint-income provisions, desertion exception and minimum
+payment. It distinguishes the verified **2008 1.3A−0.5B**, **2011 1.4A−0.4B** and
+**2022 1.6A−0.4B** formula versions. The operative 2014–2015 amendment and original
+rate-notice chain remains incomplete; supervisor point 3 remains partly addressed,
+and points 4–10 remain pending.
+
+The current paper has **5,442 whitespace tokens**, a **141-word abstract** and
+**374-word III.B**, with **eight Letter pages, nine tables, four figures and
+28 first-use references**. Only III.B's threshold and marital paragraphs changed
+in manuscript prose from `132e96c`. The new 2008 source is stable ID 28/published 26;
+2011/2022 become published 27/28. All prior reference strings, table contents and
+XML, figure assets and scientific code/results remain unchanged. Visible fonts
+remain 10/9/8 points. The builder gives its final invisible balancing paragraph an
+exact 1-point line to prevent an empty ninth page; reference spacing is unchanged.
+The current-source verifier passed 209 numerical and 100 supporting comparisons,
+with 314 register rows and four documented limits. Primary and independent all-eight-page reviews passed.
+
+See [the 2008 source audit](historical_2008_source_audit.md),
+[its ledger](historical_2008_source_audit.json) and
+[current artifact validation](manuscript_validation.json).
+
 This response records the completed user-authorised improvements in the uploaded
 `OPG_Submission2_90Plus_Revision_Plan.md`. The plan's 90%+ ambition is an
 aspiration, not a predicted mark. It supplies revision priorities rather than
@@ -96,17 +119,12 @@ submission is claimed in this revision.
 
 The **11 October revision** had **eight Letter pages including references**,
 **nine tables**, **four figures**, **25 references** and 5,262 manuscript words.
-The current D-072 point 3 draft retains eight pages, nine tables and four figures,
-with **27 references** and **5,457 whitespace tokens**. Primary and independent reviewers passed all eight
-fresh pages, including Table II and the retained conceptual figure. All 209
-numerical and 100 supporting comparisons passed against retained outputs, with
-the audit bound to the current manuscript hash. Relative to D-071 (`214647e`),
-manuscript changes are limited to the III.B threshold paragraph and VII's first
-limitations paragraph, with new references [26]–[27]. The builder only reduces
-spacing after reference paragraphs from 50 to 20 twips. Tables, figures,
-scientific results, screening rules, model code and data remain unchanged.
-Body text remains 10 pt, tables 9 pt
-and references 8 pt. A documented limitation is an accurate response; it does
+The current D073 draft retains eight pages, nine tables and four figures,
+with 28 references and 5,442 whitespace tokens. The verifier passed 209 numerical
+and 100 supporting comparisons. Primary and independent all-eight-page reviews passed. III.B's threshold and marital paragraphs now cite the 2008
+base directly; all other manuscript prose and scientific files remain unchanged
+from `132e96c`. The builder only reduces the final invisible balancing paragraph
+height; visible fonts remain 10/9/8 points. A documented limitation is an accurate response; it does
 not make missing source, administrative or empirical evidence complete.
 
 | Priority | Concrete revision and acceptance criterion | Evidence and location | Current closure status |
@@ -136,10 +154,10 @@ establish; it does not establish that condition.
 | 8 | Frozen app scores are not confused with OOF validation. | IV/VI.C; full-data fitted scores have unknown training overlap, while OOF probabilities are household-held-out. | **Passed: final text/evidence checks.** Serialization agreement verifies inference, not new predictive accuracy. |
 | 9 | External validity excludes unsupported contemporary/province transfer. | VI.D specifies target-period screen/outcome compatibility and independent discrimination/calibration; no 2026 applicant decision claim. | **Passed: substantive review.** No independent province, period or administrative validation is claimed. |
 | 10 | Headline numbers trace to saved outputs and the correct run. | Claim-to-source register plus read-only numerical comparisons; include seed/folds, uncertainty, calibration bins and software evidence. | **Passed: 209 numerical + 100 supporting comparisons; zero failures.** Four unverified claims and the historical repeat-run narrative are distinguished from those comparisons. No model refitting or scientific-output change. |
-| 11 | References and legal thresholds are checked against originals. | Three authentic local Stats SA PDFs corroborate selected metadata/questionnaire/code-list claims; all 18 DOI strings match Submission 1 only. The unchanged 11 October, D-070 and D-071 audits record thirteen, twelve and seven blocked requests respectively. D-072 reads two genuine uploaded legal originals: R286 (2011) prints 1.4 from April 2011; R2119 (2022) prints 1.6 and R100 minimum but commences in 2022. The unrelated uploaded `415.pdf` is excluded. | **Partly addressed; historical applicability remains open.** Research arithmetic, coded ceilings, LCS items, citation order and the two original-source version claims pass. The intervening operative formula and original 2014/2015 rate notices remain missing; the 2022 spouse provisions establish no 2014–2015 classification. External journal corroboration also remains open. |
+| 11 | References and legal thresholds are checked against originals. | Original 2008 R898 now verifies the spouse, joint/half-joint income, desertion, deduction and minimum provisions, alongside 2011/2022 formula endpoints. The original 2008 formula is 1.3A−0.5B, later 2011 is 1.4A−0.4B and 2022 is 1.6A−0.4B. The dated 13/12/7 failed-request ledgers and D072 source supplements remain historical. Three local Stats SA originals corroborate survey documentation;18 DOIs match Submission 1 only. | **Partly addressed.** Exact original 2008 wording and reference are verified; the operative 2014–2015 amendment and original rate-notice chain remains incomplete. Published source 26 is 2008,27 is 2011 and28 is 2022. External journal corroboration also remains open. |
 | 12 | Ethics/access/disclosure statements are accurate and documented. | VII truthfully states no recorded DUT determination; synthetic package contains no survey rows; whole historical repository has not been disclosure-cleared. | Addressed with limits; institutional determination and data-release conditions remain undocumented. |
 | 13 | Correct module and assignment labels appear. | The author explicitly confirmed **APRE402** in this session. The final title reads “ICT Honours (21634436), APRE402,” retaining DUT affiliation. Approved Submission 1 retains its historical PRIC401 label. | **Module confirmed and title corrected.** Official portal assignment naming/cutoff remains unconfirmed. |
-| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | Final DOCX/PDF rebuilt; primary and independent visual reviews passed all eight freshly rendered Letter pages, nine tables, four figures, captions/cross-references and 27 references, with unchanged 10/9/8-point fonts. | **Passed: final render, visual and citation checks.** |
+| 14 | Actual eight-page IEEE PDF is checked at normal reading size. | Final DOCX/PDF rebuilt; primary and independent visual reviews passed all eight freshly rendered Letter pages, nine tables, four figures, captions/cross-references and 28 references, with unchanged 10/9/8-point fonts. | **Passed: final render, visual and citation checks.** |
 
 ## Administrative and governance facts
 
@@ -178,7 +196,7 @@ establish; it does not establish that condition.
 Source citations in `manuscript.md` use stable source IDs; the generated
 `manuscript_numbered.md` and PDF renumber by first citation. The attachment's
 bracket numbers must not be copied blindly. References are matched by author
-and title. The final map has all 27 references in first-use order and no unused entries;
+and title. The final map has all 28 references in first-use order and no unused entries;
 this mechanical check does not independently verify cited content.
 
 
@@ -203,9 +221,8 @@ this mechanical check does not independently verify cited content.
   incomplete and visible.
 
 The 11 October P1–P4 revisions, framework corrections and supervisor point 2
-are complete and accepted. D-072 retains the research spouse rationale and
-addresses the source-version distinction in III.B and VII. Two genuine legal
-originals support the 2011 and 2022 wording, but original operative amendment/rate
+are complete and accepted. D073 strengthens the research spouse rationale and
+addresses the source-version distinction in III.B and VII. The original 2008 base and the 2011/2022 originals now support their dated wording, but original operative amendment/rate
 evidence for follow-ups 1 and 4 remains missing. Point 3 awaits user review.
 Supervisor points 4–10 and remaining source/administrative checks stay pending.
 D-071's seven failed requests supplied no legal text at that stage; its dated

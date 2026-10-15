@@ -29,6 +29,16 @@ These are cohort counts. The weighted non-receipt proportion is Phase 4.
 
 ## Thresholds
 
+**D073 source update —15 October 2026:** The correct original 2008 regulations,
+GN R898/GG31356, are now read. They verify original spouse/joint/half-joint means,
+desertion, deductions and the R100 minimum, with commencement 22 August 2008.
+Their original formula is 1.3A−0.5B; the 2011 amendment uses 1.4A−0.4B and the 2022
+replacement uses 1.6A−0.4B. The intervening operative 2014–2015 chain and original
+rate notices remain missing. The2008 income list includes dependent-child and
+ex-gratia items; it is not identical to 2022. Research ceilings and all code/cohort
+results remain fixed. See [the new source audit](../paper/historical_2008_source_audit.md).
+The earlier verification updates below describe their dated evidence stages.
+
 **Uploaded-source update — 15 October 2026 (D072):** Two genuine uploaded legal
 originals have now been read: GN R286/GG34169 specifies 1.4A − 0.4B from
 1 April 2011; GN R2119/GG46459 specifies 1.6A − 0.4B and the R100 minimum,

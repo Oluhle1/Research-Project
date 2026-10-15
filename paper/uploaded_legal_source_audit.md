@@ -282,3 +282,31 @@ The exact verified original foundation target is **GN R898, Government Gazette 3
 Independent read-only requests for government and gazette mirrors did not retrieve original content: the available shell network route returned CONNECT 403. No candidate 2012 identity was authenticated and no successful historical-source download occurred. This is a source-access limitation, not evidence that an amendment did not exist. Retain the implemented research assumptions and their explicit historical-source limitation until the missing originals can be examined.
 
 Citation-ready 2022 reference: Republic of South Africa, Department of Social Development. Government Notice R2119. *Regulations relating to the Application for and Payment of Social Assistance and the Requirements or Conditions in respect of Eligibility for Social Assistance*. Government Gazette 46459, Regulation Gazette 11437, 31 May 2022. Annexure A paragraphs (2) and (5), regulations 40–41; also regulations 1, 20–22 for the substantive rules. Cite it for verified **2022 provisions and the retrospective limitation**, not as authentication of 2014–2015 law.
+
+## Supplement: full 2022 Gazette, 15 October 2026
+
+The user subsequently supplied `social-assistance-regulations-2022.pdf`, the full
+132-page Government Gazette 46459 of 31 May 2022. A retained copy is
+[2022_GG46459_full.pdf](legal_sources/2022_GG46459_full.pdf), SHA-256
+`765f5dd6dd43b0b4f46d49ed54d1195465bb8aa43048dc6db7a33009bc5f8c78`.
+
+GN R2119 occupies pages 3–87. Its whitespace-normalized extracted text exactly
+matches all 85 pages of the earlier R2119 extract (22,462 whitespace tokens in
+each). Primary and independent original-page reviews confirm regulation 41 on
+page 39 commences it on publication, 31 May 2022; Annexure A(2), (5) on page 40
+contains the 1.6 formula and R100 minimum already audited. In this full PDF,
+physical page numbers match printed Gazette numbers.
+
+The extra content is GN R2120, concerning appeals, beginning on page 88. Its
+regulation 23 on page 103 identifies and repeals GN R746/GG34618 of
+19 September 2011. That reference concerns appeals; it does not identify the
+intervening means-test formula amendment. Regulation 24 commences the appeals
+instrument on publication in 2022. No historical formula/rate chain was
+established by the additional pages.
+
+This fourth uploaded file provides a fuller copy of the existing 2022 source,
+rather than another distinct means-test instrument. **The 2014–2015 historical
+gap remains unresolved.** The manuscript, DOCX/PDF, citation count and scientific
+outputs remain unchanged. No remote requests, model runs or application tests
+were performed for this supplement. The JSON ledger records the comparison and
+page locations; the original D072 review and its dated counts remain intact.

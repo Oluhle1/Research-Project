@@ -255,5 +255,45 @@
     "Uploaded Gazette content does not complete the operative 2014\u20132015 amendment chain.",
     "No retrospective 2022 legal classification or assumption that the 2011 coefficient remained operative through 2015.",
     "No model refit, changed thresholds, participant usability, external prediction validation or legal entitlement established."
-  ]
+  ],
+  "supplement_full_2022_gazette": {
+    "review_date": "2026-10-15",
+    "checked_at_utc": "2026-10-15T00:00:10.311207+00:00",
+    "uploaded_filename": "social-assistance-regulations-2022.pdf",
+    "sediment_id": "file_00000000d9348208947de14de9208d07",
+    "repository_copy": "paper/legal_sources/2022_GG46459_full.pdf",
+    "sha256": "765f5dd6dd43b0b4f46d49ed54d1195465bb8aa43048dc6db7a33009bc5f8c78",
+    "identity": "Full Government Gazette 46459, Regulation Gazette 11437, 31 May 2022",
+    "pdf_pages": 132,
+    "previous_R2119_extract": {
+      "path": "paper/legal_sources/2022_GN_R2119_GG46459.pdf",
+      "sha256": "b6f1ee1095498ec600291e747cdd56d5cf78dce8081c5d41ff6f1a6b2ddda707",
+      "pdf_pages": 85
+    },
+    "R2119_pages_in_full_gazette": [
+      3,
+      87
+    ],
+    "normalized_R2119_text_matches_previous_extract": true,
+    "R2119_whitespace_tokens_each": 22462,
+    "normalized_R2119_text_sha256": "3250786865f33d6098456c2c49ccb77a33edb885bebb473eabb73fca6db0fe4b",
+    "original_page_review": {
+      "reviewers": "Primary agent and independent uploaded_legal_timeline agent",
+      "formula_minimum": "Physical/Gazette page 40; Annexure A(2): D=1,6A\u22120,4B; A(5): no amount below R100 per month payable.",
+      "repeal_commencement": "Physical/Gazette page 39; regulations 40\u201341; commencement 31 May 2022.",
+      "full_gazette_page_numbering": "Physical PDF page and printed Gazette page agree; previous extracted PDF pages were two lower."
+    },
+    "additional_content": {
+      "instrument": "GN R2120, appeals regulations, begins page 88.",
+      "historical_reference": "Regulation 23, page 103, repeals GN R746, GG34618, 19 September 2011.",
+      "reference_scope": "Appeals instrument; not evidence of a means-test formula amendment.",
+      "commencement": "Regulation 24, page 103: date of publication, 31 May 2022."
+    },
+    "fresh_remote_requests": 0,
+    "new_distinct_means_test_instrument": false,
+    "historical_2014_2015_chain_confirmed": false,
+    "manuscript_or_published_artifact_changed": false,
+    "remaining_need": "Correct 2008 base, operative intervening formula/means amendments and original 2014/2015 rate notices.",
+    "conclusion": "Fuller copy of the same 2022 legal source; historical gap remains open."
+  }
 }

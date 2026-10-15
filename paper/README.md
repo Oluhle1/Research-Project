@@ -34,9 +34,11 @@ is revised for Tables IV–VIII: nested counts, group composition, point
 estimates and the three uncertainty calculations are distinguished, and the
 value columns were widened. Point 7 is revised in Section V.C: out-of-fold
 prediction, full-sample odds ratios and causal explanation are distinguished.
-Points 8–10 remain pending.**
+Point 8 is revised in Section VII: secondary-data controls are separated from
+the ethics record, and the paper claims no DUT approval, exemption or consent
+determination because none is documented. Points 9 and 10 remain pending.**
 
-The current paper has **6,796 whitespace tokens**, a **141-word abstract**,
+The current paper has **6,916 whitespace tokens**, a **141-word abstract**,
 a **408-word III.B** and a **422-word III.D**, with **nine Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains
@@ -45,10 +47,10 @@ new source 29 is published 26, base source 28 is published 27 and new source 30
 is published 28. The original 25 reference strings and 18 DOI entries remain
 unchanged; this does not independently corroborate journal contents. Visible
 fonts remain 10/9/8 points. Reference leading remains the tighter point 4
-setting. The user deferred the eight-page limit. The point 7 check passed **209
+setting. The user deferred the eight-page limit. The point 8 check passed **209
 numerical and 103 supporting comparisons**, with **zero failures, 317
-claim-register rows and four documented limits**. Pages 6, 7 and 8 of the Word
-export were inspected; no separate second-reviewer pass is claimed for this
+claim-register rows and four documented limits**. Page 9 of the Word
+export was inspected; no separate second-reviewer pass is claimed for this
 revision. The D074 primary and independent reviews remain historical. Archived
 D073 checks retain their dated scope. No screening rerun, model
 refit, application-suite run,

@@ -354,10 +354,37 @@ comparisons**, with zero failures and **317 register rows**. Pages 6, 7 and 8
 were inspected. See [point 7 revision](supervisor_point7_revision.md) and
 [point 7 validation](supervisor_point7_validation.json).
 
+## Point 8: ethics and secondary-data governance
+
+> Section VII (Limitations and Ethics): Obtain formal institutional
+> clarification regarding research ethics and secondary-data governance. Report
+> the determination accurately.
+
+**Status: revised and checked; awaiting user review.** Section VII reports the
+determination that is actually on record. This is DUT honours research using
+existing LCS 2014/2015 microdata, with no new contact with survey respondents.
+Survey access conditions, synthetic interface records, exclusion of survey
+records from the downloadable package, and omission of submitted identifiers
+and raw income are stated as secondary-data controls. Those controls do not
+review every historical repository file and do not clear current release
+permission. DUT-IREC allocates an ethics clearance number. Where that committee
+is not the route, the faculty or department must keep a formal documented
+procedure. The project record contains no DUT-IREC clearance number, no faculty
+or departmental determination and no gatekeeper letter. The paper claims no
+approval, exemption or consent determination. No category was assigned, and no
+clearance number was invented. No model, screen or application run was
+repeated. The Word export remains nine Letter pages.
+
+The current paper has **6,916 whitespace tokens** and the unchanged **141-word
+abstract**. Fresh checks passed **209 numerical and 103 supporting
+comparisons**, with zero failures and **317 register rows**. Page 9 was
+inspected. See [point 8 revision](supervisor_point8_revision.md) and
+[point 8 validation](supervisor_point8_validation.json).
+
 ## Remaining supervisor points
 
 Point 3 remains addressed within research scope and awaits user review.
-Points 4, 5, 6 and 7 are revised and await user review. Points 8–10 remain pending.
+Points 4, 5, 6, 7 and 8 are revised and await user review. Points 9 and 10 remain pending.
 
 | Point | Supervisor request | Status |
 | --- | --- | --- |
@@ -367,10 +394,10 @@ Points 4, 5, 6 and 7 are revised and await user review. Points 8–10 remain pen
 | 5 | Technical verification versus participant usability | Revised in Sections IV and VI.C; awaiting user review |
 | 6 | Results-table readability and uncertainty interpretation | Revised in Tables IV–VIII and Sections V and VI; awaiting user review |
 | 7 | Associations versus prediction and causal explanation | Revised in Section V.C and linked in VI.B; awaiting user review |
-| 8 | Formal institutional ethics and secondary-data governance clarification | Pending |
+| 8 | Formal institutional ethics and secondary-data governance clarification | Revised in Section VII; no approval, exemption or consent determination is documented; awaiting user review |
 | 9 | Contribution to knowledge in the conclusion | Pending |
 | 10 | Reference verification and IEEE consistency | Pending |
 
-The next action is user review of points 3, 4, 5, 6 and 7. Points 8–10 have not been advanced.
+The next action is user review of points 3, 4, 5, 6, 7 and 8. Points 9 and 10 have not been advanced.
 No new empirical data collection, formal submission or message to the supervisor has
 occurred, and this record does not claim that all feedback has been resolved.

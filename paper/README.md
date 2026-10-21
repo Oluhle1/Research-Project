@@ -1,5 +1,44 @@
 # Revised Submission 2 manuscript
 
+## Reference spacing and source details — 21 October 2026
+
+The current [main PDF](Jawe_OPG_nonreceipt_KZN.pdf) and editable
+[Word paper](Jawe_OPG_nonreceipt_KZN.docx) both render as **eight Letter pages**.
+The PDF uses the unmodified IEEE conference class, with normal 8-point/9-point
+bibliography typography. Word references use 8-point text and normal single
+spacing. Repeated prose was shortened to fit the page limit; all nine source
+tables, four figures, the abstract, screening rules and validation methods are
+preserved. These files supersede earlier compressed-reference snapshots below.
+
+The Statistics South Africa entries now distinguish the survey period from
+publication dates, identify undated documents, link exact project archive
+copies and state their local inspection date. **Publisher/DOI and thesis
+verification remains pending**: the proxy blocked the 18 journal records and
+Mabala repository checks before source content was obtained. No missing
+bibliographic facts were invented. See [the response to these three points](reference_revision.md),
+[the reference ledger](reference_verification.csv) and
+[the detailed audit](reference_verification.json).
+
+[Download the paper, supplement and aggregate evidence](Jawe_OPG_Paper_and_Supplement.zip).
+The [portable IEEE source package](Jawe_OPG_IEEE_Source.zip) includes the generated
+TeX, unmodified class and figures. It excludes survey records. The supplement
+remains unchanged at 11 pages, separate from the eight-page main paper.
+[Current validation](manuscript_validation.json) records source preservation,
+reference settings, artifact hashes and remaining source-access limits.
+
+Rebuild the editable Word paper with `node paper/build_ieee.js`. Build the
+canonical IEEE PDF separately (requires `pdflatex`, `tabularx`, `placeins`,
+`amsmath`, `graphicx`, `url` and `textcomp` from a standard TeX installation):
+
+```text
+python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --balance-at-reference 16 --compile
+```
+
+Copy the resulting PDF to the release location after checking its page count.
+A Word export is an alternative editable-document check, not the native IEEE
+release PDF. The target venue's specific instructions still take precedence
+over this standard IEEE conference default.
+
 ## Supplementary-evidence update — 21 October 2026
 
 This update implements only the first outstanding item from the PDF review:
@@ -269,9 +308,10 @@ soffice --headless --convert-to pdf --outdir paper paper/Jawe_OPG_nonreceipt_KZN
 
 Alternatively, open the DOCX in Microsoft Word and export to PDF. Pagination can
 differ with fonts and renderer versions; inspect the exported PDF and retain the
-maximum-eight-page requirement. The checked PDF was rendered with LibreOffice
-26.8 on Linux, Times New Roman falling back to Liberation Serif, with Letter
-paper, two columns, 10-point body text, 9-point tables and 8-point references.
+maximum-eight-page requirement. Earlier Word-export PDFs used LibreOffice
+26.8 on Linux with Times New Roman falling back to Liberation Serif. The current
+canonical PDF uses the native IEEE class described at the top of this file;
+the editable Word counterpart was separately rendered and checked.
 
 ## Validation and limits
 

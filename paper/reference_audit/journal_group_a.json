@@ -1,0 +1,1034 @@
+{
+  "checked_at_utc": "2026-10-21T12:28:12.752255+00:00",
+  "group": "a",
+  "assigned_source_ids": [
+    2,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "baseline_references_sha256": "e64b2fba5c7ef06037cee0f2553fdaf676703be68b37b2c350c9aa79a37fc5ca",
+  "scope": "Read-only publisher/Crossref/DOI metadata verification for nine journal sources. No repository edits. DOI metadata would verify bibliographic fields only, not article findings.",
+  "status": "BLOCKED: all external source requests denied by outbound proxy before TLS tunnel establishment",
+  "external_attempts": 32,
+  "source_payloads_retrieved": 0,
+  "metadata_records_verified": 0,
+  "tls_verification_disabled": false,
+  "local_primary_journal_sources_found": false,
+  "blocker": "urllib URLError: Tunnel connection failed: 403 Forbidden. This is network-source access failure, not evidence that the supplied citation or DOI is wrong.",
+  "records": [
+    {
+      "source_id": 2,
+      "doi": "10.3390/ijerph13010085",
+      "existing_reference": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. 85, 2016, doi: 10.3390/ijerph13010085.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman",
+        "title": "Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners",
+        "journal_display": "Int. J. Environ. Res. Public Health",
+        "volume": "13",
+        "year": "2016",
+        "doi": "10.3390/ijerph13010085",
+        "issue": "1",
+        "pages": null,
+        "article_number": "85"
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "Int. J. Environ. Res. Public Health",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "13",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2016",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.3390/ijerph13010085",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "1",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": "85",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 2,
+          "doi": "10.3390/ijerph13010085",
+          "url": "https://api.crossref.org/works/10.3390/ijerph13010085",
+          "checked_at_utc": "2026-10-21T12:26:27.375403+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 0,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 2,
+          "kind": "doi",
+          "url": "https://doi.org/10.3390/ijerph13010085",
+          "checked_at_utc": "2026-10-21T12:26:54.294979+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 0,
+          "response_payload_received": false
+        },
+        {
+          "id": 2,
+          "kind": "publisher",
+          "url": "https://www.mdpi.com/1660-4601/13/1/85",
+          "checked_at_utc": "2026-10-21T12:26:54.295667+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 1,
+          "response_payload_received": false
+        },
+        {
+          "id": 2,
+          "kind": "pubmed-index",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=10.3390%2Fijerph13010085%5Bdoi%5D&retmode=json",
+          "checked_at_utc": "2026-10-21T12:27:35.986407+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-additional-requests.json",
+          "attempt_record_index": 3,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. no. 85, 2016, doi: 10.3390/ijerph13010085.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 6,
+      "doi": "10.1080/0376835X.2016.1231059",
+      "existing_reference": "E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "E. B. Godfrey et al.",
+        "title": "Which eligible households get grants? Demographic correlates of receipt in South Africa",
+        "journal_display": "Dev. South. Afr.",
+        "volume": "33",
+        "year": "2016",
+        "doi": "10.1080/0376835X.2016.1231059",
+        "issue": "6",
+        "pages": "774–789",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "E. B. Godfrey et al.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Which eligible households get grants? Demographic correlates of receipt in South Africa",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "Dev. South. Afr.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "33",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2016",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1080/0376835X.2016.1231059",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "6",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "774–789",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 6,
+          "doi": "10.1080/0376835X.2016.1231059",
+          "url": "https://api.crossref.org/works/10.1080/0376835X.2016.1231059",
+          "checked_at_utc": "2026-10-21T12:26:27.376149+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 1,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 6,
+          "kind": "doi",
+          "url": "https://doi.org/10.1080/0376835X.2016.1231059",
+          "checked_at_utc": "2026-10-21T12:26:54.298119+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 2,
+          "response_payload_received": false
+        },
+        {
+          "id": 6,
+          "kind": "publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/0376835X.2016.1231059",
+          "checked_at_utc": "2026-10-21T12:26:54.298580+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 3,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 7,
+      "doi": "10.1080/0376835X.2011.545171",
+      "existing_reference": "T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "T. Raniga and B. Simpson",
+        "title": "Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa",
+        "journal_display": "Dev. South. Afr.",
+        "volume": "28",
+        "year": "2011",
+        "doi": "10.1080/0376835X.2011.545171",
+        "issue": "1",
+        "pages": "75–85",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "T. Raniga and B. Simpson",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "Dev. South. Afr.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "28",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2011",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1080/0376835X.2011.545171",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "1",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "75–85",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 7,
+          "doi": "10.1080/0376835X.2011.545171",
+          "url": "https://api.crossref.org/works/10.1080/0376835X.2011.545171",
+          "checked_at_utc": "2026-10-21T12:26:27.376576+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 2,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 7,
+          "kind": "doi",
+          "url": "https://doi.org/10.1080/0376835X.2011.545171",
+          "checked_at_utc": "2026-10-21T12:26:54.298926+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 4,
+          "response_payload_received": false
+        },
+        {
+          "id": 7,
+          "kind": "publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/0376835X.2011.545171",
+          "checked_at_utc": "2026-10-21T12:26:54.300028+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 5,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 8,
+      "doi": "10.1093/wber/lhad037",
+      "existing_reference": "M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "M. Alloush, J. R. Bloem, and J. G. Malacarne",
+        "title": "Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant",
+        "journal_display": "World Bank Econ. Rev.",
+        "volume": "38",
+        "year": "2024",
+        "doi": "10.1093/wber/lhad037",
+        "issue": "2",
+        "pages": "371–393",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "M. Alloush, J. R. Bloem, and J. G. Malacarne",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "World Bank Econ. Rev.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "38",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2024",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1093/wber/lhad037",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "2",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "371–393",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 8,
+          "doi": "10.1093/wber/lhad037",
+          "url": "https://api.crossref.org/works/10.1093/wber/lhad037",
+          "checked_at_utc": "2026-10-21T12:26:27.377334+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 3,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 8,
+          "kind": "doi",
+          "url": "https://doi.org/10.1093/wber/lhad037",
+          "checked_at_utc": "2026-10-21T12:26:54.313570+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 6,
+          "response_payload_received": false
+        },
+        {
+          "id": 8,
+          "kind": "publisher",
+          "url": "https://academic.oup.com/wber/article/38/2/371/7262931",
+          "checked_at_utc": "2026-10-21T12:26:54.315244+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 7,
+          "response_payload_received": false,
+          "publisher_url_identity": "Candidate article URL; identity not validated because connection blocked; use DOI-based publisher route instead."
+        },
+        {
+          "id": 8,
+          "kind": "publisher-doi",
+          "url": "https://academic.oup.com/wber/article-lookup/doi/10.1093/wber/lhad037",
+          "checked_at_utc": "2026-10-21T12:27:35.984278+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-additional-requests.json",
+          "attempt_record_index": 0,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 9,
+      "doi": "10.1080/03768350500322925",
+      "existing_reference": "A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "A. Case, V. Hosegood, and F. Lund",
+        "title": "The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal",
+        "journal_display": "Dev. South. Afr.",
+        "volume": "22",
+        "year": "2005",
+        "doi": "10.1080/03768350500322925",
+        "issue": "4",
+        "pages": "467–482",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "A. Case, V. Hosegood, and F. Lund",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "Dev. South. Afr.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "22",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2005",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1080/03768350500322925",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "4",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "467–482",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 9,
+          "doi": "10.1080/03768350500322925",
+          "url": "https://api.crossref.org/works/10.1080/03768350500322925",
+          "checked_at_utc": "2026-10-21T12:26:27.377846+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 4,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 9,
+          "kind": "doi",
+          "url": "https://doi.org/10.1080/03768350500322925",
+          "checked_at_utc": "2026-10-21T12:26:54.317153+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 8,
+          "response_payload_received": false
+        },
+        {
+          "id": 9,
+          "kind": "publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/03768350500322925",
+          "checked_at_utc": "2026-10-21T12:26:54.319887+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 9,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 10,
+      "doi": "10.3402/gha.v7.25310",
+      "existing_reference": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. 25310, 2014, doi: 10.3402/gha.v7.25310.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson",
+        "title": "Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa",
+        "journal_display": "Global Health Action",
+        "volume": "7",
+        "year": "2014",
+        "doi": "10.3402/gha.v7.25310",
+        "issue": "1",
+        "pages": null,
+        "article_number": "25310"
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "Global Health Action",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "7",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2014",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.3402/gha.v7.25310",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "1",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": "25310",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 10,
+          "doi": "10.3402/gha.v7.25310",
+          "url": "https://api.crossref.org/works/10.3402/gha.v7.25310",
+          "checked_at_utc": "2026-10-21T12:26:27.404198+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 5,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 10,
+          "kind": "doi",
+          "url": "https://doi.org/10.3402/gha.v7.25310",
+          "checked_at_utc": "2026-10-21T12:26:54.321496+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 10,
+          "response_payload_received": false
+        },
+        {
+          "id": 10,
+          "kind": "publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.3402/gha.v7.25310",
+          "checked_at_utc": "2026-10-21T12:26:54.323623+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 11,
+          "response_payload_received": false
+        },
+        {
+          "id": 10,
+          "kind": "pubmed-index",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=10.3402%2Fgha.v7.25310%5Bdoi%5D&retmode=json",
+          "checked_at_utc": "2026-10-21T12:27:35.987028+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-additional-requests.json",
+          "attempt_record_index": 4,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. no. 25310, 2014, doi: 10.3402/gha.v7.25310.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 11,
+      "doi": "10.1080/00220388.2020.1715942",
+      "existing_reference": "J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "J. Gazeaud",
+        "title": "Proxy means testing vulnerability to measurement errors?",
+        "journal_display": "J. Dev. Stud.",
+        "volume": "56",
+        "year": "2020",
+        "doi": "10.1080/00220388.2020.1715942",
+        "issue": "11",
+        "pages": "2113–2133",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "J. Gazeaud",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Proxy means testing vulnerability to measurement errors?",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "J. Dev. Stud.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "56",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2020",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1080/00220388.2020.1715942",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "11",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "2113–2133",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 11,
+          "doi": "10.1080/00220388.2020.1715942",
+          "url": "https://api.crossref.org/works/10.1080/00220388.2020.1715942",
+          "checked_at_utc": "2026-10-21T12:26:27.406016+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 6,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 11,
+          "kind": "doi",
+          "url": "https://doi.org/10.1080/00220388.2020.1715942",
+          "checked_at_utc": "2026-10-21T12:26:54.325856+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 12,
+          "response_payload_received": false
+        },
+        {
+          "id": 11,
+          "kind": "publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00220388.2020.1715942",
+          "checked_at_utc": "2026-10-21T12:26:54.327856+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 13,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 12,
+      "doi": "10.1093/jopart/muu009",
+      "existing_reference": "D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "D. P. Moynihan, P. Herd, and H. Harvey",
+        "title": "Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions",
+        "journal_display": "J. Public Adm. Res. Theory",
+        "volume": "25",
+        "year": "2015",
+        "doi": "10.1093/jopart/muu009",
+        "issue": "1",
+        "pages": "43–69",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "D. P. Moynihan, P. Herd, and H. Harvey",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "J. Public Adm. Res. Theory",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "25",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2015",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1093/jopart/muu009",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": "1",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "43–69",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 12,
+          "doi": "10.1093/jopart/muu009",
+          "url": "https://api.crossref.org/works/10.1093/jopart/muu009",
+          "checked_at_utc": "2026-10-21T12:26:27.408763+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 7,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 12,
+          "kind": "doi",
+          "url": "https://doi.org/10.1093/jopart/muu009",
+          "checked_at_utc": "2026-10-21T12:26:54.330181+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 14,
+          "response_payload_received": false
+        },
+        {
+          "id": 12,
+          "kind": "publisher",
+          "url": "https://academic.oup.com/jpart/article/25/1/43/885957",
+          "checked_at_utc": "2026-10-21T12:26:54.332517+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 15,
+          "response_payload_received": false,
+          "publisher_url_identity": "Candidate article URL; identity not validated because connection blocked; use DOI-based publisher route instead."
+        },
+        {
+          "id": 12,
+          "kind": "publisher-doi",
+          "url": "https://academic.oup.com/jpart/article-lookup/doi/10.1093/jopart/muu009",
+          "checked_at_utc": "2026-10-21T12:27:35.985309+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-additional-requests.json",
+          "attempt_record_index": 1,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    },
+    {
+      "source_id": 13,
+      "doi": "10.1016/j.worlddev.2015.03.015",
+      "existing_reference": "C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.",
+      "reference_fields_from_existing_manuscript_only": {
+        "authors_display": "C. J. Heinrich and R. Brill",
+        "title": "Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness",
+        "journal_display": "World Dev.",
+        "volume": "72",
+        "year": "2015",
+        "doi": "10.1016/j.worlddev.2015.03.015",
+        "issue": null,
+        "pages": "277–295",
+        "article_number": null
+      },
+      "status": "BLOCKED: authoritative metadata not retrieved",
+      "field_comparisons": {
+        "authors_display": {
+          "manuscript_value": "C. J. Heinrich and R. Brill",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "title": {
+          "manuscript_value": "Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "journal_display": {
+          "manuscript_value": "World Dev.",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "volume": {
+          "manuscript_value": "72",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "year": {
+          "manuscript_value": "2015",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "doi": {
+          "manuscript_value": "10.1016/j.worlddev.2015.03.015",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "issue": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "pages": {
+          "manuscript_value": "277–295",
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        },
+        "article_number": {
+          "manuscript_value": null,
+          "authoritative_value": null,
+          "comparison_status": "NOT VERIFIED: source access blocked"
+        }
+      },
+      "attempts": [
+        {
+          "id": 13,
+          "doi": "10.1016/j.worlddev.2015.03.015",
+          "url": "https://api.crossref.org/works/10.1016/j.worlddev.2015.03.015",
+          "checked_at_utc": "2026-10-21T12:26:27.410964+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+          "attempt_record_index": 8,
+          "response_payload_received": false,
+          "kind": "crossref"
+        },
+        {
+          "id": 13,
+          "kind": "doi",
+          "url": "https://doi.org/10.1016/j.worlddev.2015.03.015",
+          "checked_at_utc": "2026-10-21T12:26:54.334389+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 16,
+          "response_payload_received": false
+        },
+        {
+          "id": 13,
+          "kind": "publisher",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0305750X15000725",
+          "checked_at_utc": "2026-10-21T12:26:54.336057+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+          "attempt_record_index": 17,
+          "response_payload_received": false,
+          "publisher_url_identity": "Candidate article URL; identity not validated because connection blocked; use DOI-based publisher route instead."
+        },
+        {
+          "id": 13,
+          "kind": "publisher-doi",
+          "url": "https://linkinghub.elsevier.com/retrieve/doi/10.1016/j.worlddev.2015.03.015",
+          "checked_at_utc": "2026-10-21T12:27:35.985845+00:00",
+          "request_tls_verification": true,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "attempt_record_path": "/workspace/research-validation/final-bibliography/group-a-additional-requests.json",
+          "attempt_record_index": 2,
+          "response_payload_received": false
+        }
+      ],
+      "recommended_ieee_reference_string": "C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.",
+      "recommendation_basis": "Preserve supplied bibliographic metadata pending source verification; only standardise article-number label to Art. no. where present. This is a formatting recommendation, not external verification.",
+      "exact_authors_verified": false,
+      "metadata_verified": false,
+      "article_findings_corroborated": false
+    }
+  ],
+  "raw_attempt_logs": [
+    "/workspace/research-validation/final-bibliography/group-a-crossref-requests.json",
+    "/workspace/research-validation/final-bibliography/group-a-publisher-requests.json",
+    "/workspace/research-validation/final-bibliography/group-a-additional-requests.json"
+  ]
+}

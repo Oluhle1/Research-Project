@@ -1,65 +1,96 @@
 {
-  "checked_at_utc": "2026-10-21T12:16:45.169052+00:00",
+  "checked_at_utc": "2026-10-21T12:47:52.914730+00:00",
   "client_date": "2026-10-21",
-  "status": "passed for supplementary-evidence scope",
-  "baseline_commit": "5eab00789b7725421ef513963212d5ec6dd1258d",
-  "scope": "Only missing item1: main-paper supplementary cross-references, nested tuning evidence, repeated-validation evidence, companion S1–S5 and recorded searches",
-  "manuscript_sha256": "d1f1f029b3e51e0d5b4f46567f6c9e8e3dd9bf37e3b977295ee39056c159cc07",
-  "manuscript_words": 5740,
+  "baseline_commit": "1d315ffdadbaf43a27415f87a880da922ec71200",
+  "scope": "Restore normal IEEE reference leading, clarify Stats SA bibliography details and attempt publisher/DOI/thesis verification; shorten repeated prose to retain8pages.",
+  "status": "Document/layout checks passed; live journal and thesis metadata verification remains blocked",
+  "manuscript_sha256": "30644dd712fc1739ce61596c697c975783629baf95addafcf898b8b8ea760e6c",
+  "manuscript_words": 4922,
   "pdf_pages": 8,
   "supplement_pdf_pages": 11,
   "tables": 9,
   "figures": 4,
   "references": 28,
-  "changed_manuscript_sections": [
-    "II.A",
-    "III.D",
-    "III.E",
-    "V.B",
-    "VI.C"
-  ],
-  "all_main_source_tables_figures_and_reference_strings_preserved": true,
-  "main_word_builder_and_typography_unchanged": true,
-  "primary_model_refitted": false,
-  "supplementary_ridge_rerun": true,
-  "repeated_validation_replayed_outside_checkout": true,
-  "ridge_computational_checks": {
-    "passed": 219,
-    "failed": 0,
-    "record": "output/phase5_ridge_settlement/validation.json"
+  "protected_sections_exact": {
+    "### B. Screening rules and receipt outcome": true,
+    "### D. Model specification and validation": true,
+    "abstract": true
   },
-  "supplement_source_checks": {
-    "status": "passed",
-    "supplement_sha256": "7366392cd1871172043b1eef63a6add02181205d876f2e5dfca08eebfd4b228d",
-    "S1_scenarios": 16,
-    "S1_numeric_fields": 192,
-    "S1_fit_status_checks": 16,
-    "S3_repetitions": 20,
-    "S3_numeric_metrics_compared": 100,
-    "S5_verbatim_queries": 8,
-    "S5_recorded_date": "17 August 2026",
-    "S5_recorded_hits_sum": 511,
-    "S5_recorded_kept_sum": 55,
-    "S5_source_commit": "e0b29b9bebb2a573245dc70bf72048da9a7f9b96",
-    "searches_executed_in_this_revision": false,
-    "ridge_inner_score_records": 400,
-    "ridge_grid_score_records": 80,
-    "manuscript_or_analysis_edited_by_this_agent": false,
-    "S4_scalar_checks": 40,
-    "ridge_inner_convergence_checks": 400,
-    "failed_seven_slope_diagnostics": {
-      "source": "output/phase5_original_7slope/metrics.csv",
-      "AUC": 0.739,
-      "calibration_slope": 0.673,
-      "converged_folds": "4/5",
-      "diagnostic_only": true
+  "all_nine_source_tables_and_Word_cell_texts_preserved": true,
+  "four_figure_directives_captions_and_files_preserved": true,
+  "citation_order_and_18_DOI_strings_preserved": true,
+  "thesis_reference_factual_metadata_unchanged": true,
+  "typography": {
+    "native_template": "Unmodified IEEEtran V1.8b(2015/08/26),10pt conference Letter",
+    "native_reference_size_pt": 8,
+    "native_reference_baseline_pt": 9,
+    "measured_reference_baseline_pdf_pt": 8.97,
+    "measured_reference_font_size_pdf_pt": 7.97,
+    "word_reference_size_pt": 8,
+    "word_reference_leading": "line240 AUTO(normal single spacing),28paragraphs checked",
+    "native_geometry_font_or_spacing_compression": false,
+    "final_column_balance": "Documented IEEEtriggeratref16",
+    "native_fonts_all_embedded": true
+  },
+  "renders": {
+    "native": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "11a208dd054c7621872c560d2f8ac6da96198ad7cdcf1c54fbfb8747314856ff",
+      "all_28_reference_labels_present": true,
+      "text_outside_page": []
+    },
+    "word_render": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "588a45698f13092251fe62df31e54855751ea1e95fd590374215b29cacb5defc",
+      "all_28_reference_labels_present": true,
+      "text_outside_page": []
+    },
+    "portable": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "39c50a0194aeab01470c5839b2c4db43023261fa065e5b06d01e5163d70c7a95",
+      "all_28_reference_labels_present": true,
+      "text_outside_page": []
     }
   },
-  "reproduction_limit": "Repeated-refit parameters differ by at most1.33e-15; tiny ranking differences (AUC <=7.89e-6, AP<=2.21e-6) leave every reportedS3summary unchanged. These are fresh fitted calculations, not byte-identical output reproduction.",
-  "recorded_search_limit": "Original database exports, record-level screening and complete extraction register not supplied; no fresh database search performed",
-  "scope_protection": {
-    "status": "passed",
-    "paths": [
+  "portable_source_rebuild_text_identical": true,
+  "native_compile_warnings_of_missing_glyphs_undefined_citations_or_overfull_boxes": false,
+  "reference_audit": {
+    "local_StatsSA_primary_PDFs_checked": 3,
+    "journal_DOI_records_attempted": 18,
+    "journal_metadata_records_retrieved": 0,
+    "thesis_primary_records_retrieved": 0,
+    "six_legal_references": "carried forward,not rechecked this revision",
+    "record": "paper/reference_verification.json",
+    "live_verification_completed": false,
+    "blocker": "ProxyCONNECT403 before source access; approved general network permission did not clear proxy restrictions."
+  },
+  "independent_document_review": {
+    "reviewer": "final_bibliography_qa",
+    "status": "passed for document/layout/source-preservation scope",
+    "main_native_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "word_page_count_checked": 8,
+    "final_reference_pages_visually_rechecked": true,
+    "final_source_sha256": "30644dd712fc1739ce61596c697c975783629baf95addafcf898b8b8ea760e6c",
+    "final_native_pdf_sha256": "11a208dd054c7621872c560d2f8ac6da96198ad7cdcf1c54fbfb8747314856ff",
+    "journal_verification_not_claimed": true
+  },
+  "scientific_analysis": {
+    "models_refitted": false,
+    "application_tests_rerun": false,
+    "supplement_and_recorded_searches_unchanged": true,
+    "scope_protection_paths": [
       "models",
       "opg_core",
       "app",
@@ -68,27 +99,40 @@
       "Dataset",
       "requirements.txt",
       "requirements-app.txt",
-      "output/phase3",
-      "output/phase4",
-      "output/phase5",
-      "output/phase5_original_7slope",
-      "output/phase5_refit_repeats",
-      "output/phase6",
-      "output/runs",
+      "output",
+      "analysis",
       "paper/figures",
-      "analysis/phase5_model.py",
-      "analysis/phase5_refit_repeats.py",
+      "paper/supplement_screening.md",
+      "paper/recorded_searches.json",
+      "paper/Jawe_OPG_Supplementary_Material.docx",
+      "paper/Jawe_OPG_Supplementary_Material.pdf",
       "paper/Jawe_OPG_Feedback_Proposed_Solutions.docx"
-    ]
+    ],
+    "scope_protection_passed": true,
+    "prior_supplementary_computation": {
+      "historical_record_commit": "1d315ffdadbaf43a27415f87a880da922ec71200",
+      "record": "output/phase5_ridge_settlement/validation.json",
+      "checks_passed": 219,
+      "checks_failed": 0,
+      "new_computation_in_this_revision": false
+    },
+    "legacy_claim_verifier": {
+      "status": "pre-existing incompatibility on baseline and current manuscript",
+      "error": "Table V must contain the five audited predictor domains",
+      "reason": "Verifier expects an earlier Table V structure; both baseline1d315ff and current source fail the same guard. No numeric discrepancy was found. Exact9table source/cell comparisons independently passed.",
+      "verifier_edited": false,
+      "historical_validation_not_claimed_as_new": true
+    }
   },
   "package": {
-    "files": 25,
+    "files": 42,
+    "aggregate_only_allowlist_checked": true,
     "respondent_data_included": false,
-    "aggregate_only_allowlist_checked": true
+    "existing_aggregate_evidence_and_supplement_preserved": true
   },
   "sha256": {
-    "paper/Jawe_OPG_nonreceipt_KZN.docx": "31d54412c6df52ab7395f9e4099a5ac20956379906c438f4e44641cbbd30d8ec",
-    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "cca2ab23f836da472ee526edd257ef7548f58471913ab84be6b71b171bdadce7",
+    "paper/Jawe_OPG_nonreceipt_KZN.docx": "8eb15d6a580bd4792fdaccdbe0a62ab088fc32daf12f955dee07583cb3f7558b",
+    "paper/Jawe_OPG_nonreceipt_KZN.pdf": "11a208dd054c7621872c560d2f8ac6da96198ad7cdcf1c54fbfb8747314856ff",
     "paper/Jawe_OPG_Supplementary_Material.docx": "5c2496d4e50db80255996e0a6b2f376f050dad26a56a99c6aa3949b5e53b9a02",
     "paper/Jawe_OPG_Supplementary_Material.pdf": "2d9622a589ff1aec47c13f530996937eb321ed5f17122d25ba8d5dec7446d0b8",
     "paper/supplement_screening.md": "7366392cd1871172043b1eef63a6add02181205d876f2e5dfca08eebfd4b228d",
@@ -111,56 +155,24 @@
     "output/phase5_refit_repeats/repetition_metrics.csv": "a46ec933a071ae6821abe60426490321f126581bc238f377172232f49948f39f",
     "output/phase5_refit_repeats/run_record.json": "a1058b79b391a8f9274df2891c018314512571ab1ba724ffe215a8a258d0be93",
     "output/phase5_refit_repeats/summary.csv": "233879ad23ebe0aceb9fae85e04d8d1e9b06fe75b88a1fd4c36b31851cb7bfb2",
-    "paper/Jawe_OPG_Paper_and_Supplement.zip": "33b89410c28f8794cb4c82ff0d289359df77c57f971331327b3ed97b9582728c",
-    "paper/manuscript.md": "d1f1f029b3e51e0d5b4f46567f6c9e8e3dd9bf37e3b977295ee39056c159cc07",
-    "paper/manuscript_numbered.md": "e1131e10221e733805aa91d95df54822884d50b8baa6d46912c9de5ec2409948",
-    "paper/build_supplement.py": "15c22a0354d0709926c730be0db098e3ce471962210d360cfbbcf809aec4df6a",
-    "paper/requirements-docs.txt": "deedabb4d330d1bf0a213c0bc594ad765f91248be7e7ed0d3cae8f8a80286db5",
-    "paper/README.md": "b77f513c9cf4c483a7299ec69c2c3c185a0c497eafbc430af3ccbe1766b9f2e4"
-  },
-  "independent_document_review": {
-    "status": "approved within missing-item1 scope",
-    "read_only_review": true,
-    "main_pdf_pages_visually_reviewed": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ],
-    "supplement_pdf_pages_visually_reviewed": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11
-    ],
-    "new_clipping_or_overlap_found": false,
-    "all_nine_main_tables_XML_unchanged": true,
-    "four_embedded_figures_unchanged": true,
-    "reference_paragraphs_unchanged": true,
-    "all_eight_query_strings_exact_in_Word": true,
-    "ASCII_wildcards_preserved": true,
-    "S5_record_level_audit_remains_unverified_and_disclosed": true,
-    "ridge_methods_match_corrected_nested_preprocessing_source": true,
-    "repeat_refit_published_precision_matches_retained_validation_record": true,
-    "solutions_document_unchanged": true,
-    "sha256": {
-      "paper/manuscript.md": "d1f1f029b3e51e0d5b4f46567f6c9e8e3dd9bf37e3b977295ee39056c159cc07",
-      "paper/supplement_screening.md": "7366392cd1871172043b1eef63a6add02181205d876f2e5dfca08eebfd4b228d",
-      "paper/Jawe_OPG_nonreceipt_KZN.docx": "31d54412c6df52ab7395f9e4099a5ac20956379906c438f4e44641cbbd30d8ec",
-      "paper/Jawe_OPG_nonreceipt_KZN.pdf": "cca2ab23f836da472ee526edd257ef7548f58471913ab84be6b71b171bdadce7",
-      "paper/Jawe_OPG_Supplementary_Material.docx": "5c2496d4e50db80255996e0a6b2f376f050dad26a56a99c6aa3949b5e53b9a02",
-      "paper/Jawe_OPG_Supplementary_Material.pdf": "2d9622a589ff1aec47c13f530996937eb321ed5f17122d25ba8d5dec7446d0b8"
-    }
+    "paper/Jawe_OPG_IEEE_Source.zip": "eab68b9e7351189c71d5cae81adc44c7e18bbac52410dd5910afd7d575235a15",
+    "paper/manuscript.md": "30644dd712fc1739ce61596c697c975783629baf95addafcf898b8b8ea760e6c",
+    "paper/manuscript_numbered.md": "3fb132aabfdc1907442c7c481b22421e36a45eed4ad157827592bfddebd4d587",
+    "paper/references.json": "310617e0aa61b7d5a3186eb28fc0b3e8bbd7b74ebdc798fc2bfd907659e9face",
+    "paper/citation_map.json": "e52445b29ffa0a769e7822faba164ea200bcbc4b36a39aae18b4c94560f4d61c",
+    "paper/build_ieee.js": "e50966752c42be688857a5d9e8b621cfd8bab2a0a790c579dda49cb2a593c513",
+    "paper/build_ieee_pdf.py": "e6136c9554dd3fbb44283b7cad688470f8f48226b8b24fe39e1b8a30422d00e3",
+    "paper/ieee_template/IEEEtran.cls": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
+    "paper/ieee_template/README.md": "b3418898f5409b9c7058035e8a2d53d8ddd976f2d2d774f8bd4d2dd46e2cc9e3",
+    "paper/ieee_pdf_build_manifest.json": "327f1fd7c5006dace077a151f9519410e6756893c6f9128e896c07a6359f309f",
+    "paper/reference_revision.md": "a9700a0ad57e371ca3491f2edb94149acc68e957b8905f287c0bd1ead42ae54e",
+    "paper/reference_verification.json": "0e7cca6e2cf8512d8985af442b2524b9b88f312685e20e58c252e3adecf8b693",
+    "paper/reference_verification.csv": "b5478f4676c992884e8e0c241bdf8cdcc491fcd031c2e2487ce7c48d6854124f",
+    "paper/reference_audit/journal_group_a.json": "951972d95fa6e1ca304f52db975fe7e6a2479f9705f651db0babcc8635225f16",
+    "paper/reference_audit/journal_group_b.json": "baa72bbf88f13340f2f6f77017e3d7fd65fdeec4429e3393afb68261e7bd6618",
+    "paper/reference_audit/statistics_south_africa.json": "94f236516b1020da777f1e9ff0488b999d3361d1368175563e95cc281c89ac8c",
+    "paper/reference_audit/thesis.json": "fc8b2d64e8a04e83255f417020fa58d1de48f59cd5d1499a93f2404c1570acef",
+    "paper/Jawe_OPG_Paper_and_Supplement.zip": "e30d0ca276f5ee5f6adb692e34f6b43b11ecca8fdd42f6738c4155933744208a",
+    "paper/README.md": "9cb7a11d9cd7dff3000702af349046afa5c5ddd699966cb090c9929a86ab041d"
   }
 }

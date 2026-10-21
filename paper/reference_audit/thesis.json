@@ -1,0 +1,110 @@
+{
+  "checked_date": "2026-10-21",
+  "source_id": 18,
+  "published_citation_number": 12,
+  "scope": "Thesis bibliographic verification only; no article/findings corroboration or manuscript edits",
+  "status": "blocked_primary_retrieval; original reference remains unverified",
+  "reference_as_recorded": "M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.",
+  "persistent_identifier_as_recorded": "https://hdl.handle.net/10539/40003",
+  "candidate_primary_repository": "https://wiredspace.wits.ac.za/handle/10539/40003",
+  "access_attempts": [
+    {
+      "name": "persistent_handle_resolver",
+      "url": "https://hdl.handle.net/10539/40003",
+      "status": "blocked_or_unavailable",
+      "error": "curl (56): CONNECT tunnel failed, response 403",
+      "headers_file": "/workspace/research-validation/final-bibliography/thesis-source/handle.headers",
+      "source_server_response_obtained": false
+    },
+    {
+      "name": "wits_handle",
+      "url": "https://wiredspace.wits.ac.za/handle/10539/40003",
+      "status": "blocked_or_unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "wits_server_handle",
+      "url": "https://wiredspace.wits.ac.za/server/api/core/items/search/findByHandle?handle=10539%2F40003",
+      "status": "blocked_or_unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "wits_pid",
+      "url": "https://wiredspace.wits.ac.za/server/api/pid/find?id=https%3A%2F%2Fhdl.handle.net%2F10539%2F40003",
+      "status": "blocked_or_unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "wits_root",
+      "url": "https://wiredspace.wits.ac.za/",
+      "status": "blocked_or_unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "handle_api",
+      "url": "https://hdl.handle.net/api/handles/10539/40003",
+      "status": "blocked_or_unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "local_primary_source_found": false,
+  "local_evidence_checked": [
+    "paper/primary_source_audit.json source_id18 (historical not_independently_checked)",
+    "paper/references.json",
+    "/workspace/attachments file inventory",
+    "repository source/audit path inventory at e0b29b9bebb2a573245dc70bf72048da9a7f9b96"
+  ],
+  "fields": {
+    "author": {
+      "value_as_recorded": "M. T. Mabala",
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "title": {
+      "value_as_recorded": "Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years",
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "year": {
+      "value_as_recorded": "2023",
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "type": {
+      "value_as_recorded": "Master’s research report",
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "institution": {
+      "value_as_recorded": "University of the Witwatersrand, Johannesburg, South Africa",
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "department_or_school": {
+      "value_as_recorded": null,
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "exact_degree": {
+      "value_as_recorded": null,
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "submission_or_award_date": {
+      "value_as_recorded": null,
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "repository_deposit_date": {
+      "value_as_recorded": null,
+      "verification": "unverified; no repository/title-page source obtained"
+    },
+    "doi": {
+      "value_as_recorded": null,
+      "verification": "unverified; no repository/title-page source obtained"
+    }
+  },
+  "safe_style_only_reference_pending_verification": "M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” master’s research report, Univ. Witwatersrand, Johannesburg, South Africa, 2023. [Online]. Available: https://hdl.handle.net/10539/40003.",
+  "do_not_add_without_source": [
+    "Expanded author names",
+    "Specific degree such as M.A.",
+    "School/department",
+    "Publication month or title-page submission date",
+    "DOI",
+    "Accessed date implying successful source retrieval"
+  ],
+  "remaining_action": "Obtain the Wits repository landing-page metadata and the report title page/PDF (or supplied official extract) to verify exact name/title/degree/date. Existing blocked attempts do not establish that the handle or citation is wrong.",
+  "evidence_limit": "All network attempts failed at the platform CONNECT proxy with403; no authentic Wits response or PDF was retrieved. No TLS bypass or policy bypass attempted."
+}

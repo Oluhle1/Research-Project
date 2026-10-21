@@ -1,0 +1,168 @@
+{
+  "checked_on": "2026-10-21",
+  "timezone": "Africa/Johannesburg",
+  "scope": "Read-only bibliographic inspection of actual retained Stats SA primary PDFs for stable reference IDs 3,4,5; no manuscript/reference edits.",
+  "overall_status": "Primary file bibliographic facts checked. Ref3 P0310/2017/ISBN confirmed; refs4/5 undated. Official online catalogue/deep-file URLs could not be verified because network proxy refused requests.",
+  "important_finding": "The Metadata PDF itself prints Statistical Release P0310 (2017). Treating that identifier as erroneous would introduce an error.",
+  "official_web_access_date": null,
+  "official_web_access_note": "No successful website access occurred; Oct. 21, 2026 is the date actual local PDFs were inspected. Do not append an official-website Accessed date as though retrieval succeeded.",
+  "records": [
+    {
+      "stable_source_id": 3,
+      "current_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6.",
+      "recommended_ieee_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6.",
+      "file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+      "sha256": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
+      "bytes": 2728905,
+      "inspected_on": "2026-10-21",
+      "local_access_date_label": "Oct. 21, 2026",
+      "title_and_date_checked_from_document_not_pdf_creation_timestamp": true,
+      "archival_project_copy": {
+        "url": "https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Metadata.pdf",
+        "raw_url": "https://raw.githubusercontent.com/Oluhle1/Research-Project/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Metadata.pdf",
+        "commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+        "archived_git_object_bytes_equal_current_pdf": true,
+        "route_status": "Permanent project archive route constructed from verified Git object; not an official publisher download and not independently fetched over HTTPS in this check."
+      },
+      "publication_date_policy": "The survey period is not treated as publication date; PDF creation/modification timestamps are not treated as bibliographic dates.",
+      "pdfinfo": "Author:          Patricia Koka\nCreator:         Microsoft® Word 2013\nProducer:        Microsoft® Word 2013\nCreationDate:    Fri Sep 15 20:22:23 2017 UTC\nModDate:         Fri Sep 15 20:22:23 2017 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           186\nEncrypted:       no\nPage size:       595.32 x 841.92 pts (A4)\nPage rot:        0\nFile size:       2728905 bytes\nOptimized:       no\nPDF version:     1.5\n",
+      "status": "Bibliographic fields verified from primary PDF; current P0310/2017/ISBN are supported. External resource route unresolved.",
+      "printed_title": "Living Conditions Survey 2014/2015 — Metadata",
+      "printed_publication_statement": "Living Conditions Survey 2015: Metadata/Statistics South Africa. Pretoria: Statistics South Africa, 2017",
+      "corporate_author_publisher": "Statistics South Africa",
+      "place": "Pretoria, South Africa",
+      "publication_year": 2017,
+      "survey_period": "2014/2015",
+      "report_identifier": "P0310",
+      "identifier_evidence": [
+        "PDF page 1: Report No. P0310",
+        "PDF page 2: [Statistical Release P0310 (2017)]"
+      ],
+      "isbn": "978-0-621-45185-6",
+      "version_statement": null,
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "verbatim_extracts": [
+        "Living Conditions Survey 2014/2015 Metadata",
+        "Report No. P0310",
+        "Living Conditions Survey 2015: Metadata/Statistics South Africa. Pretoria: Statistics South Africa, 2017",
+        "[Statistical Release P0310 (2017)]",
+        "ISBN: 978-0-621-45185-6"
+      ],
+      "publisher_homepage_printed": "http://www.statssa.gov.za/",
+      "publisher_homepage_status": "Printed as URI annotation on PDF page 2; not a verified deep link to this file.",
+      "correction_needed": "No correction to P0310, 2017 or ISBN is warranted. Keep Metadata explicit to distinguish this document from a survey findings report.",
+      "applied_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Metadata.pdf"
+    },
+    {
+      "stable_source_id": 4,
+      "current_reference": "Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.",
+      "recommended_ieee_reference": "Statistics South Africa, “Coicop codes,” supporting documentation for the Living Conditions Survey 2014/2015, n.d.",
+      "file": "Dataset/metadata/Living Conditions Survey Coicopcodes.pdf",
+      "sha256": "83094d071aefde1901ddf7cd1be0942f493cda2f5810eb518f14480fa3f8c1ed",
+      "bytes": 2340004,
+      "inspected_on": "2026-10-21",
+      "local_access_date_label": "Oct. 21, 2026",
+      "title_and_date_checked_from_document_not_pdf_creation_timestamp": true,
+      "archival_project_copy": {
+        "url": "https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Coicopcodes.pdf",
+        "raw_url": "https://raw.githubusercontent.com/Oluhle1/Research-Project/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Coicopcodes.pdf",
+        "commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+        "archived_git_object_bytes_equal_current_pdf": true,
+        "route_status": "Permanent project archive route constructed from verified Git object; not an official publisher download and not independently fetched over HTTPS in this check."
+      },
+      "publication_date_policy": "The survey period is not treated as publication date; PDF creation/modification timestamps are not treated as bibliographic dates.",
+      "pdfinfo": "Author:          Phumzile Nkosi\nCreator:         Microsoft® Word 2010\nProducer:        Microsoft® Word 2010\nCreationDate:    Fri Apr 21 10:38:02 2017 UTC\nModDate:         Fri Apr 21 10:38:02 2017 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           102\nEncrypted:       no\nPage size:       595.32 x 841.92 pts (A4)\nPage rot:        0\nFile size:       2340004 bytes\nOptimized:       no\nPDF version:     1.5\n",
+      "status": "Title/content and absence of printed publication date verified locally; authoritative catalogue resource/version/publisher route unresolved.",
+      "printed_title": "Coicop codes",
+      "corporate_author_attribution": "Statistics South Africa, from its LCS documentation context; no corporate author/imprint is printed on the standalone code-list first page.",
+      "publication_year": null,
+      "recommended_date": "n.d.",
+      "survey_period": "Associated with LCS 2014/2015 in repository documentation context; not printed as part of the standalone PDF title.",
+      "report_identifier": null,
+      "isbn": null,
+      "version_statement": null,
+      "evidence_pages": [
+        1
+      ],
+      "printed_date_found_in_document_text": false,
+      "pdf_creation_date_not_used": "2017-04-21",
+      "verbatim_extracts": [
+        "Coicop codes",
+        "Coicop  Item"
+      ],
+      "correction_needed": "Add n.d.; retain the actual title rather than implying that the survey period supplies a publication year. Do not invent report/version/catalogue identifiers.",
+      "applied_reference": "Statistics South Africa, “Coicop codes,” supporting documentation for the Living Conditions Survey 2014/2015, n.d. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Coicopcodes.pdf"
+    },
+    {
+      "stable_source_id": 5,
+      "current_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Household Questionnaire.",
+      "recommended_ieee_reference": "Statistics South Africa, Living Conditions Survey 2014/15: Household Questionnaire, n.d.",
+      "file": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+      "sha256": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
+      "bytes": 786926,
+      "inspected_on": "2026-10-21",
+      "local_access_date_label": "Oct. 21, 2026",
+      "title_and_date_checked_from_document_not_pdf_creation_timestamp": true,
+      "archival_project_copy": {
+        "url": "https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Questionnaire.pdf",
+        "raw_url": "https://raw.githubusercontent.com/Oluhle1/Research-Project/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Questionnaire.pdf",
+        "commit": "110d84161ffb4ca1821c2c76318a6a13b27e2643",
+        "archived_git_object_bytes_equal_current_pdf": true,
+        "route_status": "Permanent project archive route constructed from verified Git object; not an official publisher download and not independently fetched over HTTPS in this check."
+      },
+      "publication_date_policy": "The survey period is not treated as publication date; PDF creation/modification timestamps are not treated as bibliographic dates.",
+      "pdfinfo": "Creator:         Adobe InDesign CS4 (6.0.6)\nProducer:        Adobe PDF Library 9.0\nCreationDate:    Fri Oct  3 10:50:13 2014 UTC\nModDate:         Fri Nov  4 09:36:36 2016 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           121\nEncrypted:       no\nPage size:       841.89 x 595.276 pts (A4)\nPage rot:        0\nFile size:       786926 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+      "status": "Title, Stats SA corporate identity, survey-period label and absence of bibliographic publication date verified locally; authoritative catalogue route unresolved.",
+      "printed_title": "Living Conditions Survey 2014/15 — Household Questionnaire",
+      "corporate_author_publisher": "Statistics South Africa (logo on PDF page 1)",
+      "publication_year": null,
+      "recommended_date": "n.d.",
+      "survey_period": "2014/15",
+      "report_identifier": null,
+      "isbn": null,
+      "version_statement": null,
+      "evidence_pages": [
+        1,
+        119,
+        120
+      ],
+      "printed_date_found": "Fieldwork/reference-period schedule dates occur in the body; no bibliographic publication date is printed.",
+      "pdf_creation_date_not_used": "2014-10-03",
+      "pdf_modification_date_not_used": "2016-11-04",
+      "verbatim_extracts": [
+        "Living Conditions Survey 2014/15",
+        "Household Questionnaire",
+        "Reference Periods for LCS 2014/15 Data Collection"
+      ],
+      "correction_needed": "Add n.d.; use the printed 2014/15 title, not an invented publication date from survey period or file timestamps.",
+      "applied_reference": "Statistics South Africa, Living Conditions Survey 2014/15: Household Questionnaire, n.d. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Questionnaire.pdf"
+    }
+  ],
+  "network_attempts": [
+    {
+      "url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/?sk=Living%20Conditions%20Survey%202014",
+      "purpose": "Authoritative DataFirst catalogue search for resource records",
+      "outcome": "HTTPS proxy refused CONNECT: 403 Forbidden"
+    },
+    {
+      "url": "https://microdata.worldbank.org/index.php/catalog/?sk=South%20Africa%20Living%20Conditions%20Survey%202014",
+      "purpose": "Authoritative World Bank microdata catalogue search for producer documentation routes",
+      "outcome": "HTTPS proxy refused CONNECT: 403 Forbidden"
+    },
+    {
+      "url": "https://www.statssa.gov.za/publications/P0310/P03102014.pdf",
+      "purpose": "Unverified candidate official publication path; not confirmed and not recommended as reference URL",
+      "outcome": "HTTPS proxy refused CONNECT: 403 Forbidden"
+    },
+    {
+      "url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608",
+      "purpose": "Unverified catalogue candidate; identity could not be checked and this ID must not be cited",
+      "outcome": "HTTPS proxy refused CONNECT: 403 Forbidden"
+    }
+  ],
+  "repository_files_edited": [],
+  "analyses_run": false
+}

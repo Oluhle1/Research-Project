@@ -12,11 +12,11 @@ Keywords—Older Person’s Grant, reported non-receipt, administrative burden, 
 
 The Older Person’s Grant (OPG) supports households [7], including during crises [8]. Other work examines receipt and access barriers [2], [6]. This study examines adults who appear eligible but report receiving no OPG.
 
-The analysis separates screening, reported receipt and legal entitlement. Passing the research screen does not mean approval by the South African Social Security Agency [1]. Non-receipt can reflect high income, no application, a pending decision or incomplete information. The analysis must define the screened group before calculating its non-receipt percentage; missing spouse income can change that group.
+Screening, reported receipt and legal entitlement remain distinct. Passing the research screen does not establish a South African Social Security Agency decision [1]. Missing spouse resources and unresolved answers can change the screened denominator and its non-receipt proportion.
 
-The study aims to develop and evaluate an interpretable research tool for analysing reported OPG non-receipt among apparently eligible older adults in KwaZulu-Natal using the Living Conditions Survey (LCS) 2014/2015. Four objectives guide the work: document the included population, describe non-receipt using survey weights, test predictions on excluded households, and assess correctness, reproducibility and clarity.
+This study develops and evaluates an interpretable research tool using LCS 2014/2015 in KwaZulu-Natal. It documents cohort construction, describes person-weighted non-receipt, validates predictions in held-out households and assesses correctness, reproducibility and clarity.
 
-Research questions (RQs) guide the study. RQ1 asks what proportion of screened adults reports non-receipt and how that proportion changes under different screening assumptions. RQ2 asks how well logistic regression separates recipients from non-recipients and estimates chances in excluded households. RQ3 asks whether the tool can repeat the analysis and clearly explain screening decisions and model results. The study combines documented rules, weighted percentages, tested predictions and a local interface to address them.
+RQ1 asks how common reported non-receipt is among screened adults and how alternative rules change it. RQ2 assesses prediction in held-out households. RQ3 assesses whether the tool reproduces the analysis and clearly presents screening and model outputs; participant usability remains untested.
 
 ## II. Related Work and Predictor Selection
 
@@ -24,7 +24,7 @@ Research questions (RQs) guide the study. RQ1 asks what proportion of screened a
 
 The narrative review examined grant access, eligibility measurement and prediction using Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst. Selection considered relevance to the question, population, outcome and methods. Studies differed in programme, setting, unit, outcome, findings and limitations, preventing a pooled estimate.
 
-Supplementary Table S5 preserves eight recorded queries dated 17 August 2026, with source-specific hit and retained-source counts. The reported flow is 511 hits, 136 duplicates removed, 375 titles/abstracts screened, 222 exclusions, 153 full-text assessments, 98 further exclusions and 55 retained sources across grants and populations, rather than 55 OPG studies. The original exports, item-level screening decisions and complete 55-source extraction register are not included in the accompanying evidence. The recorded totals therefore do not independently reproduce deduplication or selection. The synthesis provides contextual evidence without establishing exhaustive literature coverage.
+Supplementary Table S5 preserves eight queries dated 17 August 2026 and source-specific counts. The recorded flow is 511 hits, 136 duplicates removed, 375 titles/abstracts screened, 222 exclusions, 153 full-text assessments, 98 exclusions and 55 retained sources across grants and populations. Original exports, item-level decisions and the complete extraction register are absent from the accompanying evidence. These totals cannot independently reproduce deduplication or selection or establish exhaustive coverage.
 
 Table I distinguishes individual receipt [2] from household proportions [6], and this study’s provincial resource screen from both. Other-grant studies separate enquiry, application, receipt and uninterrupted payment [9], [10], [13].
 
@@ -39,13 +39,13 @@ TABLE: Table I. Evidence scope informing the study
 
 Gazeaud supports checking income assumptions [11], without quantifying LCS errors or defining South African eligibility. Mabala models another grant for younger applicants [18]; its findings cannot directly predict OPG receipt.
 
-The research gap concerns how these separate strands can support a reproducible, person-level analysis of OPG non-receipt in KwaZulu-Natal. Ralston's age-based rural receipt analysis [2] and Godfrey's household receipt proportions [6] do not directly provide non-receipt estimates after the resource screen used here. Evidence on other grants informs possible access barriers, but does not establish their effects among older OPG applicants. The study addresses this integration gap by documenting the screening denominator, testing how alternative rules change non-receipt estimates, and evaluating an interpretable model on excluded households. Shared rules connect the research command and application so that decisions, probabilities and reports remain inspectable. The specific contribution is a historical workflow that connects transparent screening, person-weighted description, household-held-out prediction and reproducible software. This supports scrutiny of assumptions and results without establishing legal entitlement, causal barriers, participant usability or performance elsewhere.
+Existing studies leave unclear how resource, partnership and grant-compatibility assumptions shape provincial person-level non-receipt estimates. Ralston studies rural age-eligible people [2]; Godfrey measures household receipt proportions [6]. This study connects explicit screening, sensitivity analysis, person-weighted description and household-held-out prediction through shared rules and inspectable software. It contributes a reproducible measurement workflow without establishing statutory entitlement, causal barriers, participant usability or performance elsewhere.
 
 ### B. Grant Access and Administrative Burden
 
-Administrative-burden theory distinguishes learning, compliance and psychological costs [12]. Grant studies describe paperwork, repeated visits, interrupted payments and difficult encounters [13]–[16]. Child Support Grant research suggests barriers [9], [10], without establishing their effects among older OPG applicants. Digital access can create difficulties [17]. Low non-receipt therefore does not demonstrate easy access.
+Administrative-burden theory distinguishes learning, compliance and psychological costs [12]. Studies describe paperwork, repeated visits, interrupted payments and difficult encounters [13]–[16]. Other-grant [9], [10] and digital-access findings [17] suggest possible barriers, without establishing effects among older OPG applicants. High receipt can coexist with burden.
 
-LCS does not record every legal condition or application experience. The screen checks age, resources, partnership and other-grant rules. It assigns PASS (the person meets the research conditions), FAIL (a known condition is not met) or UNRESOLVED (available information cannot resolve the decision). The analysis then checks receipt separately. Only adults who pass with clear receipt answers enter the prediction study. Unclear or contradictory answers remain unresolved.
+The screen assigns PASS for satisfied observable conditions, FAIL for a known failed rule and UNRESOLVED for insufficient information. Receipt is assessed separately. Only PASS adults with resolved receipt enter description and prediction; contradictory answers remain unresolved.
 
 ### C. Predictor Selection and Software Design
 
@@ -62,15 +62,15 @@ TABLE: Table II. Administrative-burden theory and predictor selection
 
 NOTE: Psychological costs are unmeasured. Settlement contributes two contrasts, giving five predictor groups and six slopes.
 
-Few events motivate assessment of precision, calibration and ranking [20], [19]. Sample size and internal validation limit generalisation [21], [22]. Reporting follows TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) [23]. Software checks assess correctness and repeatability; usability requires participant evidence.
+Rare outcomes require precision–recall assessment, discrimination and calibration [20], [19]. Sample size and household dependence limit validation [21], [22]. TRIPOD informed reporting [23]. Software verification and participant usability require different evidence.
 
 ### D. Conceptual Framework
 
 Reported OPG non-receipt among apparently eligible older adults motivates an administrative-burden perspective [12], [16]. Learning, compliance and psychological costs may obstruct access; high receipt does not establish low burden.
 
-Figure 1 separates theoretical constructs from LCS measurements. Schooling may reflect information resources; office distance and settlement relate to potential compliance effort. Age and sex provide demographic context. These proxies do not directly measure burden. Screening defines the denominator because age alone is insufficient and LCS cannot establish legal entitlement. Resource, partnership and other-grant rules define the population; incomplete information remains unresolved. Reported receipt defines a separate outcome.
+Figure 1 links theory to LCS proxies: schooling reflects possible information resources; office distance and settlement reflect potential compliance effort. Age and sex provide demographic context. These proxies do not directly measure burden. Screening defines the denominator because age alone is insufficient and LCS omits legal conditions. Resources, partnership and grant compatibility define the population; reported receipt defines the outcome.
 
-Person-weighted estimates describe non-receipt. Logistic regression describes associations; household-held-out validation tests predictions. Neither establishes causal mechanisms. The artefact implements the design through shared rules, separate receipt classifications, saved-model scoring and inspectable reports. Upload scores remain separate from held-out evaluation and never change screening or receipt.
+Person weights describe non-receipt; household-held-out validation assesses prediction. Neither establishes causes. The artefact implements shared screening rules, separate receipt classifications, frozen-model scoring and inspectable reports. Application scores never change screening or receipt.
 
 FIGURE: figures/conceptual_framework.png | Fig. 1. Conceptual framework. Theory informs predictor selection; observable screening defines the population for separate descriptive and predictive analyses. The dashed boundary identifies the artefact’s implementation scope. Arrows show conceptual rationale or analytical dependencies, not causal effects.
 
@@ -78,7 +78,7 @@ FIGURE: figures/conceptual_framework.png | Fig. 1. Conceptual framework. Theory 
 
 ### A. Data and study population
 
-The analysis linked the LCS 2014/2015 person, household and person-income files through survey identifiers. Checks covered duplicates, unmatched records and row counts. The questionnaire, metadata and COICOP (Classification of Individual Consumption According to Purpose) codes guided interpretation [3]–[5]. The study covered sampled KwaZulu-Natal residents aged 60 or older in completed years. The survey excludes older adults living in institutions. Screening used the rules for each interview month. Before releasing the data, Statistics South Africa used hot-deck imputation for age and sex. The released files do not identify these records. The model handled missing predictors separately.
+The analysis linked LCS person, household and person-income files through survey identifiers, checking duplicates, unmatched records and row counts. Questionnaire, metadata and COICOP (Classification of Individual Consumption According to Purpose) codes guided interpretation [3]–[5]. The study included sampled KZN residents aged 60+; the household survey excludes institutional residents. Screening used interview-month rules. Stats SA had hot-deck-imputed age and sex before release without record-level flags; model preprocessing addressed missing predictors separately.
 
 Table III shows each field's role. Summing income before linkage avoided duplicate person records.
 
@@ -110,9 +110,9 @@ For adults who passed, the software interpreted general-grant and OPG answers to
 
 ### C. Survey-weighted description and uncertainty
 
-RQ1 used both the ordinary count proportion and the person-weighted proportion: p = Σ(wᵢYᵢ)/Σwᵢ. Here, wᵢ is a person's weight and Yᵢ equals 1 for non-receipt and 0 for receipt. Group comparisons describe differences; they do not establish causes.
+RQ1 used count and person-weighted proportions: p = Σ(wᵢYᵢ)/Σwᵢ, where wᵢ is the person weight and Yᵢ is 1 for non-receipt and 0 for receipt. Group comparisons are descriptive.
 
-The released files lack strata. Derived primary sampling units (PSUs) supported an estimate of sampling uncertainty. The calculation allows a group to be sampled more than once. It cannot reproduce the complete survey design. Adults with unresolved screening information remain outside the proportion. Receipt bounds (the lowest and highest rates if all unclear PASS receipt answers mean receipt or all mean non-receipt) tested the effect of unclear receipt answers.
+Released files lack strata. Derived primary sampling units (PSUs), allowing repeated sampling of a group, supported approximate sampling uncertainty but cannot reproduce the full survey design. Eligibility-unresolved adults remain outside the proportion. Receipt bounds assign every unresolved PASS receipt answer to receipt or to non-receipt.
 
 ### D. Model specification and validation
 
@@ -128,19 +128,19 @@ Pooled OOF probabilities supplied average precision, AUC, Brier score, calibrati
 
 ### E. Alternative assumptions
 
-S1 changes thresholds, S2 partnership assumptions, S3 rules about other grants, S4 income definition, S5 receipt period and S6 unresolved-receipt bounds. Each records the denominator, non-recipients, ordinary/person-weighted rates and internally validated model performance. S7 uses complete cases. S8 replaces welfare access with a married indicator. S9 uses frequency weights (treating person weights as repeated-record contributions), keeping unweighted missing-value treatment and evaluation. This is not a full survey-design regression. S10 weights primary OOF measures without refitting. S11 groups validation folds by derived PSU. These results remain separate from the primary analysis. Supplementary Tables S1–S5 provide the scenario rules, ridge comparison, repeated refits, descriptive summaries and search record.
+S1 changes thresholds, S2 partnership, S3 grant compatibility, S4 income, S5 receipt period and S6 unresolved-receipt bounds. S7 uses complete cases; S8 replaces office access with marriage. S9 fits frequency-weighted models with unweighted preprocessing/evaluation, not full survey-design regression. S10 weights primary OOF measures without refitting; S11 groups folds by derived PSU. These checks remain separate from the primary analysis. Supplementary Tables S1–S5 provide rules, ridge comparisons, repeated refits, descriptive summaries and search records.
 
 ## IV. Software and Evaluation
 
-The command python analysis/run_study.py links survey files, screens adults and calculates results. Run records retain settings, versions, seed, folds and checksums. The saved model stores coefficients and missing-value settings in JSON, without executable program code. Version opg-kzn-six-slope-v1 uses the model trained on all included adults. Uploads do not retrain it.
+The command python analysis/run_study.py links survey files, screens adults and calculates results. Run records retain settings, versions, folds, seed and checksums. The full-cohort model, opg-kzn-six-slope-v1, stores coefficients and imputation settings in JSON. Uploads do not retrain it.
 
-The local Streamlit app has five sections: study context, upload/validation, eligibility/receipt, prediction/model and export/reproducibility. It accepts historical opg-screen-v1 CSV files, including household members needed to check spouse resources. Validation rejects incorrect schema, study context, duplicate identifiers, categories and numeric values. Limits are 20 MiB and 50,000 rows. Uploads stay in memory during the current session. Reports use generated row labels and omit submitted identifiers, raw income and household links. Users can filter views and exports; summary rates retain all uploaded adults who pass with resolved receipt.
+The Streamlit app covers context, validation, screening/receipt, prediction and exports. It accepts opg-screen-v1 CSVs with required household members for spouse checks. Validation checks schema, study context, duplicates, categories and numeric values; limits are 20 MiB/50,000 rows. Uploads remain in session memory. Displays and exports use generated labels and omit submitted identifiers, raw income and household links. Filters do not change summary denominators.
 
 FIGURE: figures/architecture.png | Fig. 2. Research and app workflows share screening rules. Household-held-out predictions remain separate from app scores calculated using the model trained on all included adults.
 
-The app reuses the screening rules and saved model settings. It scores only supported adults who pass with resolved receipt. Saved training statistics fill partly missing predictors; records missing every categorical predictor remain unscored. Integrity checks link model and evaluation files to the analysis and predictor code. The interface labels historical OOF results separately from uploaded scores; uploaded records may overlap training data. CSV, JSON and ZIP reports contain classifications, reasons, supported probabilities, versions and an audit manifest (settings and file checksums). The downloadable package uses invented data and excludes survey microdata.
+The app shares screening rules and frozen-model settings. Supported PASS adults with resolved receipt are scored using training-data imputation; records missing every categorical predictor remain unscored. Integrity checks bind model/evaluation files to code. Uploaded scores remain separate from OOF results. Reports include classifications, reasons, probabilities, versions and an audit manifest. The downloadable package excludes microdata.
 
-Software checks compared screening decisions with expected results and tested excluded predictors, links, repeated runs, reports and saved predictions. Further checks compared the CLI (command-line interface) with the UI (user interface), including invalid inputs and outdated results. The owner's Windows walkthrough demonstrated local functionality. A task sheet supports future testing with three to five consenting participants; no participant study has taken place.
+Checks covered expected screening decisions, excluded predictors, linkage, repeatability, reports, saved scores and CLI–UI agreement, including invalid inputs and outdated results. The owner demonstrated Windows functionality. A task sheet supports future testing with three to five consenting participants; no participant study occurred.
 
 ## V. Results
 
@@ -163,7 +163,7 @@ NOTE: Each row counts distinct households. A household can appear in several row
 
 FIGURE: figures/cohort_flow.png | Fig. 3. FAIL, UNRESOLVED and PASS groups do not overlap. All 1,013 PASS adults resolve receipt and enter the final denominator.
 
-Of these 1,013 adults, 67 reported non-receipt: 6.61% without weights and 7.49% with person weights. The calculation used 345 derived PSUs and gave a standard error of 1.3 percentage points. A bell-shaped sampling approximation gave a 95% confidence interval of 4.9%–10.0%. Missing strata limit this approximation. All 1,013 PASS answers agreed with preceding-year OPG income, so those checks changed nothing. Table V separates unweighted sample summaries from person-weighted summaries before missing values are filled. Percentages describe receipt-group composition, not non-receipt rates or predictions.
+Among 1,013 adults, 67 reported non-receipt: 6.61% unweighted and 7.49% person-weighted. Using 345 derived PSUs gave a standard error of 1.3 percentage points and an approximate normal 95% interval of 4.9%–10.0%; missing strata limit it. All PASS answers agreed with preceding-year OPG income. Table V describes receipt-group composition before imputation, not non-receipt rates or predictions.
 
 TABLE: Table V. Characteristics by reported OPG receipt, before imputation
 | Characteristic | Recipients, N = 946 | Non-recipients, N = 67 |
@@ -232,7 +232,7 @@ NOTE: The non-receipt-rate column uses no weights; S8–S11 keep the weighted no
 
 ### D. Software verification
 
-The 26 checks in Table IX included 22 synthetic screening cases (invented records with specified expected decisions), two income-schedule checks, one forbidden-predictor check and one run trace. Boundary, spouse, grant and receipt decisions matched their specifications. Two research runs produced 14 files with exactly matching contents and retained the study-group checksum.
+The 26 checks comprised 22 synthetic screening cases, two income-schedule checks, one forbidden-predictor check and one run trace. Decisions matched specifications. Two research runs produced 14 byte-identical files and retained the cohort checksum.
 
 TABLE: Table IX. Completed verification and its scope
 | Evidence | Observed result | What it supports |
@@ -250,15 +250,15 @@ The owner walkthrough used synthetic records. It checks exports, not representat
 
 ### A. Scope of measured non-receipt
 
-RQ1 measures non-receipt among historical KwaZulu-Natal adults who pass the screen and resolve receipt: 67/1,013, or 6.61% unweighted and 7.49% person-weighted. This does not measure unlawful denial or non-receipt among everyone legally entitled. The 187 unresolved adults outnumbered the 67 events. Excluding them changes the population described, regardless of sampling uncertainty. Stable estimates cannot reveal their receipt.
+RQ1 describes historical KZN adults who pass screening and resolve receipt: 67/1,013, or 6.61% unweighted and 7.49% weighted. It does not measure unlawful denial or all legally entitled adults. The 187 eligibility-unresolved adults outnumbered events; excluding them changes the population, independently of sampling uncertainty.
 
-S2d added 68 people but only two events, reducing weighted non-receipt to 7.12%. Partnership rules mainly changed the denominator. S3 retained adults with incompatible grants, added 19 people/15 events and raised non-receipt to 9.06%, the largest tested change. Similar AUC cannot justify screening rules or establish equivalent populations. Ralston studies rural age-eligible people [2]; Godfrey studies households' grants [6]. Different units, programmes, screens and places prevent direct comparison of their percentages. This study adds a provincial estimate with an explicit resource screen. High receipt can involve access costs [12], [16]; it cannot prove low burden.
+S2d added 68 people/two events, reducing weighted non-receipt to 7.12%. S3 added 19 people/15 events, raising it to 9.06%, the largest change. Similar AUC cannot justify screening rules. Different units and populations [2], [6] prevent direct comparisons. The provincial resource screen here is explicit; high receipt can coexist with access costs [12], [16].
 
 ### B. Predictive performance and interpretation
 
-RQ2 assesses four properties. AUC 0.752 describes ranking held-out non-recipients above recipients, not classification accuracy. AP 0.203 summarises precision–recall ranking across cutoffs against a 6.61% event rate, not precision at one cutoff [20]. Brier fell from 0.0618 to 0.0578: a modest 0.0040 reduction in squared probability error. An intercept correction, with calibration slope fixed at 1, checks average bias. The ideal correction is zero. The estimate 0.020 and interval spanning zero do not prove perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes the ideal 1 [19]. Only 67 events informed these checks [21]. Most adults in even the highest-risk bin reported receipt.
+AUC 0.752 measures ranking, not classification accuracy. AP 0.203 summarises precision–recall ranking against 6.61% prevalence, not precision at one cutoff [20]. Brier improved by 0.0040, from 0.0618 to 0.0578: a modest probability-error reduction. Calibration-in-the-large 0.020, with an interval spanning zero, does not establish perfect agreement. Slope 0.836 suggests predictions may be too extreme, but its 0.591–1.133 interval includes 1 [19]. Only 67 events informed these checks [21]; most adults in the highest-score bin reported receipt.
 
-Table VIII separates sample, predictor and evaluation changes. S7 removed 21 people/four events (992/63). Its lower Brier concerns a different sample and cannot establish whether filling missing values is better. S8 substituted marriage for welfare access and performed similarly. S9 weighted fitting but not evaluation; it does not model the full survey design. S10 reweighted the same primary OOF predictions without retraining, raising Brier to 0.0641. S11 grouped folds by derived PSU and also performed similarly. S8–S11 retained 1,013 people/67 events. These checks expose internal assumptions; they do not establish model superiority or reliability elsewhere [22], [23].
+Table VIII changes samples, predictors, fitting or evaluation. Complete-case Brier concerns different adults; S10 reweights unchanged predictions. These internal checks cannot establish model superiority or external reliability [22], [23].
 
 ### C. Reproducibility and usability
 
@@ -268,18 +268,18 @@ Application scores may overlap training data and remain separate from historical
 
 ### D. Transfer to other settings
 
-This study analysed screened KwaZulu-Natal adults in LCS 2014/2015. Provinces and periods differ in settlement, services, policy and reporting. Application, award and payment records measure different events from reported receipt and can contain linking errors. The study did not test the model on an independent province, period or administrative sample. Transfer requires comparable populations/outcomes, justified period-specific rules and independent ranking/calibration checks [22], [23]. Making the app available cannot establish suitability for today's applicants.
+Provinces and periods differ in services, policy and reporting. Administrative application/payment records differ from reported receipt and may contain linkage errors. Independent transfer testing requires comparable populations/outcomes, period-specific rules and discrimination/calibration checks [22], [23].
 
 ### E. Synthesis of the Conceptual Framework
 
-Returning to Figure 1, screening sensitivity supported an explicit denominator, and sex differences supported demographic comparison without confirming burden mechanisms [2], [6]. Lower schooling accompanied receipt, contrary to a simple expectation that fewer information resources increase non-receipt [12]. Screening selection or other resources could account for this; neither explanation was tested. Office-distance and settlement intervals included 1, leaving compliance-cost expectations unresolved. Psychological costs remained untested because LCS did not measure them. Proxy associations do not directly test the theory. The artefact contributes a reproducible implementation of these bounded measurement choices. Separate, traceable rules, outcomes and predictions support inspection despite measurement limits, without establishing causes, legal entitlement or participant usability.
+Returning to Figure 1, sensitivity results support explicit denominator construction; sex differences support demographic comparison, not burden mechanisms [2], [6]. Lower schooling accompanied receipt, contrary to a simple learning-cost expectation [12]. Screening selection or other resources could explain this, but neither was tested. Settlement and office-distance intervals included 1, leaving compliance-cost expectations unresolved. Psychological costs were unmeasured. The artefact implements these bounded choices reproducibly; proxy associations establish neither the theory’s causal mechanisms nor statutory entitlement.
 
 ## VII. Limitations and Ethics
 
-The survey cannot establish legal eligibility: its resource proxy omits assets, deemed income and deductions. Respondents may misreport income and receipt. Cross-sectional data cannot establish the order of events. Few events, unresolved screening, missing strata and resampling fixed predictions without refitting limit inference. Household sampling excludes institutionalised older adults. Participant usability and performance elsewhere remain untested.
+The resource proxy omits assets, deemed income and deductions. Misreporting, cross-sectional ordering, few events, unresolved screening, missing strata and fixed-prediction resampling limit inference. Household sampling excludes institutionalised adults. Participant usability and external predictive performance remain untested.
 
-Survey access conditions and disclosure requirements apply. Interface demonstrations and tests use synthetic records. The downloadable package excludes survey records. Displays and reports omit submitted identifiers and raw income. These controls do not establish disclosure review of every historical repository file. The project records contain no DUT (Durban University of Technology) ethics determination. The paper therefore claims no approval. The app explains measurement choices; it neither decides grants nor ranks named applicants.
+Survey access/disclosure conditions apply. Public demonstrations use synthetic records; downloadable packages exclude survey microdata. Reports omit submitted identifiers and raw income. This does not clear every historical repository file for release. No DUT ethics determination is documented. The app does not decide grants or rank named applicants.
 
 ## VIII. Conclusion
 
-Historical screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Rules about other grants changed results more than the ceiling, and unresolved cases made the denominator central. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578: moderate internal ranking with slightly less probability error. The software reproduces screening, receipt categories and scores for inspection under tested conditions. The study provides a historical benchmark. It does not establish human usability, causes, legal entitlement or performance elsewhere. Future work should validate the frozen model in independent provincial or later-period data, using comparable screening and receipt definitions, and should assess discrimination, calibration and probability error before any updating. Intended users should also complete synthetic-data tasks that record task success, errors, completion time and perceived ease of use.
+Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578. Shared rules make screening, receipt and prediction inspectable. Future work should independently validate the frozen model before updating it and test intended users’ task success, errors, time and perceived ease. Legal entitlement, causal explanations, human usability and external predictive validity remain unestablished.

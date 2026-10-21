@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-21T13:03:34.994956+00:00",
+  "baseline_commit": "f5ff0ad13d56ffc06db87acb32650f74a604981f",
+  "scope": "Only the first two paragraphs of main Section II.A",
+  "manuscript_sha256": "98af8ede70c49ae5ec221f34503991d257c97a5180bd34002f90331c9c09a734",
+  "uploaded_source_file_id": "file_00000000a5ac8208b35ef76c41db07a4",
+  "uploaded_pdf_sha256": "6d6cac29f9a6d7cd07968f5ddb2ad2a38a69c82d19f208ae33f6c0cf2611fa32",
+  "identical_retained_source": "21634436_Oluhle_Jawe_Submission_1.pdf",
+  "source_evidence": {
+    "PDF_page_1_III_A": [
+      "databases",
+      "search concepts",
+      "relevance criteria"
+    ],
+    "PDF_page_2_III_A": [
+      "selection flow 511/136/375/222/153/98/55",
+      "synthesis dimensions",
+      "reason against pooling"
+    ],
+    "existing_S5_record": [
+      "eight verbatim search strings",
+      "recorded search date",
+      "source-specific counts"
+    ]
+  },
+  "all_manuscript_outside_first_two_IIA_paragraphs_byte_identical": true,
+  "bibliography_and_citation_order_unchanged": true,
+  "supplement_and_scientific_files_unchanged": true,
+  "new_searches_performed": false,
+  "new_raw_exports_or_item_level_screening_claimed": false,
+  "native_and_Word_pages": 8,
+  "independent_read_only_review": {
+    "reviewer": "review_search_evidence",
+    "status": "passed",
+    "source_and_S5_comparison": "passed",
+    "scope_and_pagination": "passed"
+  },
+  "note": "The main review now positively describes the supplied search and collection evidence. This edit does not imply new raw exports, item-level validation or a rerun search."
+}

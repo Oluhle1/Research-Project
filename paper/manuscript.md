@@ -22,9 +22,9 @@ RQ1 asks how common reported non-receipt is among screened adults and how altern
 
 ### A. Review Approach, Programme Context and Research Gap
 
-The narrative review examined grant access, eligibility measurement and prediction using Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst. Selection considered relevance to the question, population, outcome and methods. Studies differed in programme, setting, unit, outcome, findings and limitations, preventing a pooled estimate.
+The structured narrative review examined grant access, eligibility measurement and prediction using Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst. Search concepts included social assistance, eligibility, take-up, non-receipt, exclusion and prediction. Selection considered relevance to the research question, population, outcome and methodological contribution.
 
-Supplementary Table S5 preserves eight queries dated 17 August 2026 and source-specific counts. The recorded flow is 511 hits, 136 duplicates removed, 375 titles/abstracts screened, 222 exclusions, 153 full-text assessments, 98 exclusions and 55 retained sources across grants and populations. Original exports, item-level decisions and the complete extraction register are absent from the accompanying evidence. These totals cannot independently reproduce deduplication or selection or establish exhaustive coverage.
+The searches identified 511 records. Removing 136 duplicates left 375 records for title and abstract screening; 222 were excluded. Full-text assessment of the remaining 153 records excluded 98 and retained 55 sources across grants and populations. Supplementary Table S5 provides the eight recorded search strings, search date and source-specific counts. The synthesis compared programme, setting, unit of analysis, outcome definition, findings and limitations; these differences prevented a pooled estimate.
 
 Table I distinguishes individual receipt [2] from household proportions [6], and this study’s provincial resource screen from both. Other-grant studies separate enquiry, application, receipt and uninterrupted payment [9], [10], [13].
 

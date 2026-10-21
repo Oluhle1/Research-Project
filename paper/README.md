@@ -1,5 +1,17 @@
 # Revised Submission 2 manuscript
 
+## Literature-review wording correction — 21 October 2026
+
+Only the opening two paragraphs of Section II.A have changed. They now state
+the search concepts, relevance criteria and full 511-to-55 selection flow
+supplied in Submission 1. The eight search strings, date and source-specific
+counts remain in Supplementary Table S5. The broad wording suggesting that
+collection evidence is absent has been removed from the main paper. This
+correction makes no claim of new raw exports or rerun searches. All other
+main-paper text, tables, figures, references and the supplement are unchanged.
+The Word export and native IEEE PDF remain eight pages. See
+[the scoped check](literature_review_correction.json).
+
 ## Reference spacing and source details — 21 October 2026
 
 The current [main PDF](Jawe_OPG_nonreceipt_KZN.pdf) and editable

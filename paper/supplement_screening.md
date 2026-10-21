@@ -1,35 +1,89 @@
-# Supplementary tables for the supervisor solutions
+# Supplementary material
 
-These tables accompany the eight-page manuscript. They answer the seven proposed solutions in `Jawe_OPG_Feedback_Proposed_Solutions.docx`. Counts and performance for S0–S11 come from `output/phase4/rq1_sensitivity.csv` and `output/phase6/model_sensitivity.csv`. The ridge comparison is in `output/phase5_ridge_settlement/`. The repeated refits are in `output/phase5_refit_repeats/`. Rule version `opg-kzn-primary-v1` and the six-slope model use seed 201415. The frozen cohort SHA-256 is `50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2`.
+Interpretable Prediction of Reported Older Person’s Grant Non-Receipt Among Apparently Eligible Adults in KwaZulu-Natal
 
-## Supplementary Table S1. Every screening scenario
+This supplement documents screening alternatives, model-validation sensitivities, descriptive statistics and the recorded literature searches. Tables S1–S4 use retained aggregate outputs; Table S5 reproduces the author’s search record. Full-precision computational results remain in the cited CSV files. No respondent identifiers or new primary estimates are included.
 
-Changed cohorts were refitted with household-grouped folds and training-only imputation. Unchanged cohorts reused the primary predictions. Identical results do not make different rules equivalent. S1b and S1d admitted the same two adults. No PASS adult had an unresolved receipt outcome for S5 or S6 to change. Every refitted scenario converged in five of five folds. Reused rows keep the primary predictions.
+The computational analyses use rule version `opg-kzn-primary-v1` and primary seed 201415. The frozen cohort’s archived CRLF representation has SHA-256 `50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2`; the equivalent LF workspace representation has SHA-256 `6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625`. AUC denotes area under the receiver operating characteristic curve; AP, average precision; CITL, calibration-in-the-large; and OOF, out-of-fold prediction. N and events count sampled adults and reported non-recipients. Household counts are distinct within each scenario. Displayed values are rounded.
 
-| ID | Rule relative to the primary screen | Fit | Households | N | Events | Unw.% | Wtd.% | AUC | AP | Brier | CITL | Slope |
-| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| S0 | Interview-month ceilings; private-income proxy excludes social assistance; conservative spouse link; own disability or war-veterans receipt fails | Primary | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S1a | Apply R61,800/R123,600 at every interview | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S1b | Apply R64,680/R129,360 at every interview | Refit | 829 | 1,015 | 69 | 6.80 | 7.68 | 0.763 | 0.211 | 0.0584 | 0.012 | 0.875 |
-| S1c | For an applicant aged 75 or older, add R960 to the single ceiling. The couple ceiling is twice that single ceiling. This is an applicant-age simplification, not a spouse-specific age rule | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S1d | Zero-payment boundary, where equality fails. S0 uses the R1,200 annual minimum-payment boundary | Refit | 829 | 1,015 | 69 | 6.80 | 7.68 | 0.763 | 0.211 | 0.0584 | 0.012 | 0.875 |
-| S2a | Screen living together as a couple when a resident partner can be linked | Refit | 870 | 1,072 | 71 | 6.62 | 7.42 | 0.749 | 0.174 | 0.0588 | −0.012 | 0.779 |
-| S2b | Screen living together as single | Refit | 871 | 1,073 | 69 | 6.43 | 7.17 | 0.756 | 0.180 | 0.0564 | 0.008 | 0.841 |
-| S2c | Screen separated adults as single | Refit | 831 | 1,021 | 67 | 6.56 | 7.43 | 0.753 | 0.205 | 0.0571 | 0.002 | 0.839 |
-| S2d | Screen both living together and separated as single | Refit | 875 | 1,081 | 69 | 6.38 | 7.12 | 0.751 | 0.183 | 0.0565 | 0.002 | 0.808 |
-| S3 | Retain own disability or war-veterans grant recipients. No war-veterans recipient was added | Refit | 840 | 1,032 | 82 | 7.95 | 9.06 | 0.736 | 0.224 | 0.0682 | 0.009 | 0.864 |
-| S4a | Compare CPI-adjusted income with nominal ceilings. The price bases differ | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S4b | Keep social-assistance income in the resource proxy | Refit | 822 | 1,007 | 67 | 6.65 | 7.55 | 0.755 | 0.209 | 0.0576 | 0.010 | 0.854 |
-| S4c | Also exclude workmen’s compensation, UIF and similar-fund income | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S5 | Where current receipt and preceding-year OPG income disagree, use the income record. No disagreement occurred | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S6a | Assign unresolved PASS receipt to receipt. No such case occurred | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
-| S6b | Assign unresolved PASS receipt to non-receipt. No such case occurred | Reused | 827 | 1,013 | 67 | 6.61 | 7.49 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+## Supplementary Table S1. Screening and model sensitivity scenarios
 
-S4a is a price-base mismatch diagnostic, not a preferred means test. S6a and S6b do not bound the 187 adults whose eligibility stayed unresolved.
+### Panel A. Operational screening rules
 
-## Model checks, S7–S11
+Each row changes the stated component of S0 while retaining the remaining research rules. These alternatives test measurement assumptions; they are not complete determinations of statutory entitlement. Changed cohorts were refitted using five household-grouped folds and training-only imputation. Unchanged cohorts reused the primary predictions. All eight changed-cohort screening scenarios converged in five of five folds. Reused rows represent no additional fit. S1b and S1d selected the same additional people, although their rules differ.
 
-These are not screening rules. S8, S9 and S11 were refitted on the primary cohort. S7 was refitted on complete cases. S10 reweights the primary predictions and is not a new fit. Changed cohorts can also change fold membership, so their performance does not isolate one rule.
+| ID | Change relative to S0 | Prediction source |
+| --- | --- | --- |
+| S0 | Interview-month single/couple ceilings; nominal private-income proxy excludes social assistance; conservative spouse linkage; own disability or war-veterans receipt fails; resolved current OPG receipt defines the outcome. | Primary |
+| S1a | Apply R61,800/R123,600 at every interview. | Reused |
+| S1b | Apply R64,680/R129,360 at every interview. | Refit |
+| S1c | For an applicant aged 75+, add R960 to the single ceiling and double that ceiling for couples (+R1,920). This applicant-age simplification does not model spouse-specific age supplements. | Reused |
+| S1d | Use zero-payment single/couple boundaries R64,800/R129,600 before April 2015 and R67,680/R135,360 thereafter; equality fails. S0 instead uses the R1,200 annual minimum-payment boundary. | Refit |
+| S2a | Treat living together (marital code 2) as a couple when a resident partner can be linked; retain spouse-link and resource checks. | Refit |
+| S2b | Treat living together as single. | Refit |
+| S2c | Treat separated adults (marital code 5) as single. | Refit |
+| S2d | Treat both living together and separated as single. | Refit |
+| S3 | Retain own disability/war-veterans grant recipients. No war-veterans recipient was added in these data. | Refit |
+| S4a | Replace nominal annualised income with the released CPI-adjusted values while retaining nominal ceilings. This deliberately mismatches price bases. | Reused |
+| S4b | Keep social-assistance income in the resource proxy. | Refit |
+| S4c | Also exclude workmen’s compensation, UIF and similar-fund income (COICOP 50333600). | Reused |
+| S5 | If current receipt disagrees with preceding-year OPG income, use the income record while retaining the eligibility screen. No such disagreement occurred among PASS adults. | Reused |
+| S6a | Assign unresolved receipt after PASS to receipt. No such outcome occurred. | Reused |
+| S6b | Assign unresolved receipt after PASS to non-receipt. No such outcome occurred. | Reused |
+
+### Panel B. Cohort size and reported non-receipt
+
+Changes are relative to S0. Unweighted percentages are events divided by N; person-weighted percentages divide the sum of non-recipient weights by the sum of all weights within the scenario’s resolved PASS cohort.
+
+| ID | Households | N | Events | ΔN | Δevents | Unw. % | Person-weighted % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S0 | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S1a | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S1b | 829 | 1,015 | 69 | +2 | +2 | 6.80 | 7.68 |
+| S1c | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S1d | 829 | 1,015 | 69 | +2 | +2 | 6.80 | 7.68 |
+| S2a | 870 | 1,072 | 71 | +59 | +4 | 6.62 | 7.42 |
+| S2b | 871 | 1,073 | 69 | +60 | +2 | 6.43 | 7.17 |
+| S2c | 831 | 1,021 | 67 | +8 | 0 | 6.56 | 7.43 |
+| S2d | 875 | 1,081 | 69 | +68 | +2 | 6.38 | 7.12 |
+| S3 | 840 | 1,032 | 82 | +19 | +15 | 7.95 | 9.06 |
+| S4a | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S4b | 822 | 1,007 | 67 | −6 | 0 | 6.65 | 7.55 |
+| S4c | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S5 | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S6a | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+| S6b | 827 | 1,013 | 67 | 0 | 0 | 6.61 | 7.49 |
+
+### Panel C. Scenario-specific held-out performance
+
+Performance is unweighted. Changed cohorts can change case mix, event frequency and fold membership; differences therefore do not isolate a screening rule’s effect on predictive quality. Matching values for unchanged cohorts arise from reusing the primary predictions, not independent replications.
+
+| ID | AUC | AP | Brier | CITL | Calibration slope |
+| --- | --- | --- | --- | --- | --- |
+| S0 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S1a | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S1b | 0.763 | 0.211 | 0.0584 | 0.012 | 0.875 |
+| S1c | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S1d | 0.763 | 0.211 | 0.0584 | 0.012 | 0.875 |
+| S2a | 0.749 | 0.174 | 0.0588 | −0.012 | 0.779 |
+| S2b | 0.756 | 0.180 | 0.0564 | 0.008 | 0.841 |
+| S2c | 0.753 | 0.205 | 0.0571 | 0.002 | 0.839 |
+| S2d | 0.751 | 0.183 | 0.0565 | 0.002 | 0.808 |
+| S3 | 0.736 | 0.224 | 0.0682 | 0.009 | 0.864 |
+| S4a | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S4b | 0.755 | 0.209 | 0.0576 | 0.010 | 0.854 |
+| S4c | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S5 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S6a | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+| S6b | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 |
+
+S4a deliberately compares different price bases and is not a preferred means-test specification. S5 found no disagreement between current receipt and preceding-year OPG income among PASS adults. S6a/S6b found no unresolved receipt after PASS; they do not bound the 187 adults whose eligibility remained unresolved. S1c uses applicant age only and retains its stated spouse-age simplification.
+
+Sources: `output/phase4/rq1_sensitivity.csv` supplies scenario counts, rate estimates and changes; `output/phase6/model_sensitivity.csv` supplies household counts, fit/reuse status and performance. The S6 household counts come from the latter file because those cells are blank in the former. `output/phase6/run_record.json` records the S1b/S1d cohort equality. Operational definitions are implemented in `analysis/phase4_rq1.py` and `analysis/phase6_sensitivity.py`; their grouped-fold seed is 201415.
+
+### Model checks S7–S11
+
+These checks change samples, fitting or evaluation rather than screening rules. S7 refits complete cases; S8, S9 and S11 refit the primary cohort. S10 reweights the primary predictions without refitting. S9 uses person weights as frequency weights when fitting, with unweighted imputation and unweighted held-out evaluation; this is not full survey-design regression. S11 retains five folds while grouping by derived primary sampling unit.
 
 | ID | Check | Fit | Households | N | Events | AUC | AP | Brier | CITL | Slope |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -39,69 +93,178 @@ These are not screening rules. S8, S9 and S11 were refitted on the primary cohor
 | S10 | Person-weighted measures of the primary predictions | Reweighted | 827 | 1,013 | 67 | 0.763 | 0.222 | 0.0641 | 0.078 | 0.935 |
 | S11 | Folds grouped by derived primary sampling unit | Refit | 827 | 1,013 | 67 | 0.758 | 0.204 | 0.0575 | 0.003 | 0.860 |
 
-## Supplementary Table S2. Ridge settlement comparison
+Source: `output/phase6/model_sensitivity.csv`, rows S7–S11. All refitted checks converged in five of five folds. The S10 performance measures are person-weighted; the other rows use unweighted performance.
 
-Both codings use the same 1,013 adults, the primary household folds, and training-only imputation. Predictors were standardised inside each training set for the ridge fits only. The penalty grid was C = 0.01, 0.1, 0.3, 1, 3, 10, 30 and 100. Each outer training set chose the C with the lowest mean Brier score on five inner household folds. Every outer fold selected C = 0.1, so the two ridge rows use the same penalty. All ten outer fits converged. The ordinary row is the retained maximum-likelihood model. The small differences do not show that merging improved generalisable performance, and they do not remove the outcome information used in Decision D-052.
+## Supplementary Table S2. Ridge comparison of settlement coding
 
-| Coding | Estimator | AUC | AP | Brier | CITL | Slope | Converged folds |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Merged settlement, six slopes | Ordinary logistic, reference | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 | 5/5 |
-| Merged settlement, six slopes | Ridge, C = 0.1 | 0.756 | 0.205 | 0.0576 | 0.013 | 0.994 | 5/5 |
-| Separate rural-formal contrast, seven slopes | Ridge, C = 0.1 | 0.750 | 0.205 | 0.0577 | 0.010 | 0.978 | 5/5 |
+Both codings use the same 1,013 adults, 67 events and five primary household-grouped outer folds (seed 201415). The reference is the retained, unpenalised six-slope logistic model. Ridge regression compares the merged six-slope coding with a separate rural-formal contrast requiring seven slopes. The comparison keeps participants and outer folds fixed rather than deleting the sparsely supported category.
 
-The earlier seven-slope maximum-likelihood fit remains diagnostic only: four of five folds converged, and the unsupported coefficient was about −21.88.
+Within each outer training set, five inner folds keep households intact and stratify households by whether any member reports non-receipt. Inner seeds equal 201415 plus the outer-fold number. Each inner training fold supplies its own age median, categorical modes and predictor means and population standard deviations. Mode ties select the smallest code. These statistics are applied to that inner validation fold. A zero standard deviation is replaced by one. After tuning, preprocessing is relearned from the complete outer training set before predicting its held-out households. No inner or outer validation observations supply imputation or scaling statistics.
 
-## Supplementary Table S3. Twenty repeated refits
+The inverse-penalty grid is C = 0.01, 0.1, 0.3, 1, 3, 10, 30 and 100; smaller C implies stronger shrinkage. The selected value minimises the unweighted mean of the five inner-fold Brier scores. Exact ties select the smallest C. The estimator uses an L2 penalty, an unpenalised intercept, the lbfgs solver and a maximum of 1,000 iterations. Scaling applies to ridge predictors only. The coding decision D-052 stays fixed, so this sensitivity does not remove the outcome information used to combine settlement categories or establish independent validation of that decision.
 
-Seeds 201415–201434 were fixed before the results were examined. Seed 201415 reproduces the primary AUC of 0.752 and Brier score of 0.0578. Each repetition makes a new household-grouped partition, imputes from its training folds, and refits the six-slope model. Decision D-052 stays fixed. All 100 fits converged. The repetitions share the same adults, so the spread is not a 95% confidence interval and the predictions must not be stacked as independent people.
+| Coding | Estimator | AUC | AP | Brier | CITL | Slope | Converged outer folds |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Merged settlement, six slopes | Ordinary logistic reference | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 | 5/5 |
+| Merged settlement, six slopes | Ridge, inner-fold tuned | 0.756 | 0.205 | 0.0576 | 0.013 | 0.994 | 5/5 |
+| Separate rural-formal contrast, seven slopes | Ridge, inner-fold tuned | 0.750 | 0.205 | 0.0577 | 0.010 | 0.978 | 5/5 |
+
+### Outer-fold penalty and convergence record
+
+| Coding | Outer fold | Selected C | Converged | Iterations | Inner folds complete |
+| --- | --- | --- | --- | --- | --- |
+| merged six slope | 1 | 0.1 | Yes | 8 | Yes |
+| merged six slope | 2 | 0.1 | Yes | 8 | Yes |
+| merged six slope | 3 | 0.1 | Yes | 8 | Yes |
+| merged six slope | 4 | 0.1 | Yes | 8 | Yes |
+| merged six slope | 5 | 0.1 | Yes | 8 | Yes |
+| separate seven slope | 1 | 0.1 | Yes | 8 | Yes |
+| separate seven slope | 2 | 0.1 | Yes | 8 | Yes |
+| separate seven slope | 3 | 0.1 | Yes | 8 | Yes |
+| separate seven slope | 4 | 0.1 | Yes | 10 | Yes |
+| separate seven slope | 5 | 0.1 | Yes | 8 | Yes |
+
+All 400 inner fits and all 10 outer fits converged. The 400 candidate/fold scores and 80 candidate/outer-fold mean scores are retained in `inner_fold_scores.csv` and `inner_grid_scores.csv`, respectively. Every outer fold selected C = 0.1.
+
+Sources: `output/phase5_ridge_settlement/metrics.csv`, `fold_penalties.csv`, `inner_fold_scores.csv`, `inner_grid_scores.csv` and `run_record.json`; implementation: `analysis/phase5_ridge_settlement.py`. The earlier seven-slope maximum-likelihood attempt produced diagnostic AUC 0.739 and calibration slope 0.673, but only four of five folds converged and its unsupported coefficient was approximately −21.88. These failed-attempt summaries are retained in `output/phase5_original_7slope/metrics.csv` and `fold_coefficients.csv`; they do not provide a valid superiority ranking against the converged six-slope reference (AUC 0.752; slope 0.836). Small differences between the ridge codings also do not establish superior generalisable performance from merging.
+
+## Supplementary Table S3. Twenty repeated household-grouped refits
+
+Twenty consecutive seeds, 201415–201434, repeat the five-fold household-grouped validation. Each repetition relearns imputation and refits the six-slope model inside its training folds. Settlement decision D-052 and the predictor specification remain fixed. Every repetition uses the same 1,013 adults and 67 events. Seed 201415 reproduces the primary performance.
+
+The retained record contains all 20 requested repetitions: 100 fits were attempted, 100 converged and none was reported non-convergent. Each adult has one held-out prediction within each repetition. Repetitions share participants; their spread describes sensitivity to the partition, imputation and refitting under the fixed coding. It is not a 95% confidence interval, adds no independent events and does not repeat the outcome-informed coding decision. Predictions from different repetitions must not be stacked as independent observations.
+
+### Panel A. Every repetition
+
+| Seed | AUC | AP | Brier | CITL | Slope | Converged folds |
+| --- | --- | --- | --- | --- | --- | --- |
+| 201415 | 0.752 | 0.203 | 0.0578 | 0.020 | 0.836 | 5/5 |
+| 201416 | 0.733 | 0.173 | 0.0588 | 0.005 | 0.738 | 5/5 |
+| 201417 | 0.763 | 0.229 | 0.0568 | 0.005 | 0.904 | 5/5 |
+| 201418 | 0.762 | 0.234 | 0.0571 | −0.001 | 0.858 | 5/5 |
+| 201419 | 0.754 | 0.196 | 0.0578 | −0.014 | 0.846 | 5/5 |
+| 201420 | 0.749 | 0.226 | 0.0574 | −0.001 | 0.838 | 5/5 |
+| 201421 | 0.750 | 0.199 | 0.0581 | −0.013 | 0.817 | 5/5 |
+| 201422 | 0.759 | 0.246 | 0.0568 | 0.010 | 0.893 | 5/5 |
+| 201423 | 0.754 | 0.214 | 0.0578 | 0.015 | 0.835 | 5/5 |
+| 201424 | 0.746 | 0.216 | 0.0582 | 0.003 | 0.814 | 5/5 |
+| 201425 | 0.746 | 0.209 | 0.0577 | 0.007 | 0.805 | 5/5 |
+| 201426 | 0.752 | 0.199 | 0.0579 | −0.011 | 0.817 | 5/5 |
+| 201427 | 0.749 | 0.207 | 0.0579 | −0.002 | 0.805 | 5/5 |
+| 201428 | 0.757 | 0.236 | 0.0569 | 0.013 | 0.892 | 5/5 |
+| 201429 | 0.758 | 0.207 | 0.0571 | 0.019 | 0.887 | 5/5 |
+| 201430 | 0.738 | 0.177 | 0.0585 | −0.002 | 0.758 | 5/5 |
+| 201431 | 0.757 | 0.197 | 0.0576 | 0.013 | 0.843 | 5/5 |
+| 201432 | 0.755 | 0.220 | 0.0574 | −0.000 | 0.852 | 5/5 |
+| 201433 | 0.773 | 0.238 | 0.0565 | −0.004 | 0.943 | 5/5 |
+| 201434 | 0.743 | 0.187 | 0.0584 | 0.012 | 0.792 | 5/5 |
+
+### Panel B. Distribution across 20 repetitions
 
 | Measure | Median | Interquartile range | Range |
-| --- | ---: | --- | --- |
+| --- | --- | --- | --- |
 | AUC | 0.753 | 0.748–0.757 | 0.733–0.773 |
 | Average precision | 0.208 | 0.199–0.227 | 0.173–0.246 |
 | Brier score | 0.0578 | 0.0571–0.0580 | 0.0565–0.0588 |
 | Calibration-in-the-large | 0.004 | −0.002–0.012 | −0.014–0.020 |
 | Calibration slope | 0.837 | 0.812–0.865 | 0.738–0.943 |
 
-Training-fold coefficients on the log-odds scale, across the same 100 fits. A negative count is not a significance test. These overlapping fits do not create additional events.
+### Panel C. Training-fold coefficient stability
 
-| Coefficient | Negative fits | Median | Range |
-| --- | ---: | ---: | --- |
-| Female versus male | 100/100 | −0.93 | −1.30 to −0.61 |
-| Schooling below Grade 7 | 100/100 | −1.46 | −1.97 to −1.14 |
-| Age per decade above 60 | 99/100 | −0.39 | −0.81 to 0.01 |
-| Traditional or rural formal versus urban formal | 100/100 | −0.46 | −0.99 to −0.02 |
-| Urban informal versus urban formal | 27/100 | 0.16 | −0.69 to 0.87 |
-| Office at least 5 km or unavailable | 97/100 | −0.41 | −0.92 to 0.17 |
+Coefficients are log-odds estimates from the same 100 overlapping training fits. Sign counts and ranges describe stability; they are neither significance tests nor confidence intervals. The manuscript’s odds ratios remain the full-cohort model estimates.
 
-The sex and schooling directions were stable. The urban-informal contrast changed sign. The manuscript odds ratios remain the full-sample estimates, not these fold-level ranges.
+| Coefficient | Negative fits | Positive fits | Median | Range |
+| --- | --- | --- | --- | --- |
+| Female versus male | 100/100 | 0/100 | −0.93 | −1.30 to −0.61 |
+| Schooling below Grade 7 | 100/100 | 0/100 | −1.46 | −1.97 to −1.14 |
+| Age per decade above 60 | 99/100 | 1/100 | −0.39 | −0.81 to 0.01 |
+| Urban informal versus urban formal | 27/100 | 73/100 | 0.16 | −0.69 to 0.87 |
+| Traditional/rural formal versus urban formal | 100/100 | 0/100 | −0.46 | −0.99 to −0.02 |
+| Office ≥5 km or unavailable | 97/100 | 3/100 | −0.41 | −0.92 to 0.17 |
 
-## Supplementary Table S4. Table V in separate columns
+Sources: `output/phase5_refit_repeats/repetition_metrics.csv` supplies Panel A; `summary.csv` supplies Panel B; `coefficient_summary.csv` and `fold_coefficients.csv` supply Panel C; `run_record.json` records seeds and fit counters. Implementation: `analysis/phase5_refit_repeats.py`.
 
-The values are the manuscript Table V summaries. N is the observed sample size, not a weighted population count. Except for age, unweighted entries are counts and percentages, and weighted entries are percentages. Missing predictors remain in the denominators. No uncertainty intervals are available for these descriptions.
+## Supplementary Table S4. Descriptive statistics in separate columns
 
-| Characteristic | Recipients, unweighted | Recipients, weighted | Non-recipients, unweighted | Non-recipients, weighted |
+These are the manuscript Table V values before model imputation. N is an observed sample size, not a weighted population count. Age entries are means in completed years. Other unweighted entries are counts and within-receipt-group percentages; weighted entries are person-weighted percentages. Both denominators include missing predictors. Missing/unassigned schooling and missing office-access values are shown explicitly. A recorded office-unavailable category differs from missing office access. Selected categories are displayed; omitted comparison categories remain in their receipt-group denominators. No uncertainty intervals were calculated for these summaries.
+
+| Characteristic | Recipients, unweighted (N = 946) | Recipients, weighted | Non-recipients, unweighted (N = 67) | Non-recipients, weighted |
 | --- | --- | --- | --- | --- |
 | Age, mean years | 70.4 | 69.8 | 67.3 | 68.4 |
 | Female | 686 (72.5%) | 70.4% | 33 (49.3%) | 53.4% |
 | Grade 7 or above | 290 (30.7%) | 33.0% | 49 (73.1%) | 80.8% |
-| Schooling missing | 3 (0.3%) | 0.4% | 0 (0.0%) | 0.0% |
+| Schooling missing/unassigned | 3 (0.3%) | 0.4% | 0 (0.0%) | 0.0% |
 | Urban formal settlement | 284 (30.0%) | 36.2% | 38 (56.7%) | 66.2% |
 | Welfare office at least 5 km or unavailable | 717 (75.8%) | 72.0% | 34 (50.7%) | 40.3% |
 | Welfare-office access missing | 14 (1.5%) | 1.8% | 4 (6.0%) | 7.2% |
 
-## Future-research statement
+Source: `output/phase4/rq1_characteristics.csv` (also retained in `output/runs/primary/rq1_characteristics.csv`). The source contains three recipients with missing/unassigned schooling, 14 recipients with missing office access and four non-recipients with missing office access. All 67 non-recipients have an assigned schooling category. Percentages describe receipt-group composition, not non-receipt rates, adjusted effects or predictions.
 
-The conclusion states the two future studies. Neither has been done. Geographical validation means applying the frozen KwaZulu-Natal model to an independently held-out province with comparable measurements, before updating it. Temporal validation means a later dataset with documented period-specific thresholds. A usability study would recruit consenting intended users, use synthetic data, and record task success, errors, completion time and perceived ease. Testing by the owner does not replace that study.
+## Supplementary Table S5. Recorded literature searches and selection flow
 
-## Bibliographic and formatting record
+The following details reproduce the author’s retained manuscript search record dated 17 August 2026, archived in `paper/manuscript.md` at Git revision `e0b29b9bebb2a573245dc70bf72048da9a7f9b96`. They document the reported procedure; no search was rerun to prepare this supplement. Historical search IDs S1–S7, including S1b, identify searches here and are distinct from the sensitivity-scenario IDs in Table S1.
 
-Checked against the files in this revision:
+The author record states that Web of Science could not be authenticated through DUT on the search date and Dimensions was used instead. Recorded relevance criteria covered grant access, exclusion, take-up, targeting or classification of household-survey data; English-language peer-reviewed articles, theses and institutional reports; and a preference for South African evidence. The stated empirical-study window was 2015–2026, with foundational theory exempt. Earlier empirical programme studies are also cited in the manuscript, but the retained record does not identify their exception or additional search route. The year window is therefore reported as a recorded search setting, rather than independently verified compliance for every retained or cited source.
 
-- Published references run from [1] to [28] in order of first use.
-- Reference [26] names Government Notice R211 and pages 4–5, distinct from rate notice Government Notice 211 in reference [24]. The 2015 amendment, Government Notice R621, identifies the 2014 instrument as Government Notice R211.
-- Reference [21], the metadata report, prints 2017 and ISBN 978-0-621-45185-6. Both are in the reference.
-- The supplied COICOP list, published as [22], and the household questionnaire, published as [23], do not print a publication year. No year was added.
-- The exported manuscript is eight US Letter pages. Body type is 10 point, tables are 9 point, and references are 8 point. The builder defines one Heading 1 style and one Heading 2 style.
+### Panel A. Sources and counts recorded on 17 August 2026
 
-Not completed in this revision: publisher-page checks of the journal DOI strings, and a fresh comparison of thesis reference [12] with its repository landing page. Those checks remain open. No DOI or thesis field was changed without that comparison.
+| Historical search ID | Source | Recorded hits | Retained sources |
+| --- | --- | --- | --- |
+| S1 | Scopus | 43 | 9 |
+| S1b | Scopus, widened | 149 | 10 |
+| S2 | Scopus, method | 100 | 11 |
+| S3 | Dimensions | 36 | 5 |
+| S4 | IEEE Xplore | 47 | 0 |
+| S5 | SABINET/AJOL | 100 | 9 |
+| S6 | Google Scholar | 35 | 11 |
+| S7 | DataFirst/Stats SA | 1 | 0 |
+
+The eight recorded hit counts sum to 511 and the retained-source counts sum to 55. The author record assigns a repeated retained source to its earliest search. Original exports, record identifiers, a complete 55-source extraction register and item-level screening decisions were not supplied with this record. The allocation of individual sources to searches and the duplicate-removal decisions therefore cannot be independently reproduced from these totals. Recorded hits are historical author-reported counts, not current database result totals.
+
+### Panel B. Queries reproduced verbatim from the retained record
+
+### Recorded query S1 — Scopus
+
+TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection") AND (exclusion OR "non-take-up" OR "take-up" OR "coverage gap*" OR "targeting error*" OR "access barrier*") AND ("South Africa*" OR "KwaZulu-Natal"))
+
+### Recorded query S1b — Scopus, widened
+
+TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection" OR "social security" OR SASSA OR "child support grant" OR "social relief of distress" OR SRD) AND (exclusion OR exclud* OR "non-take-up" OR "take-up" OR uptake OR "coverage gap*" OR "targeting error*" OR "access barrier*" OR "non-receipt" OR eligib*) AND ("South Africa*" OR "KwaZulu-Natal"))
+
+### Recorded query S2 — Scopus, method
+
+TITLE-ABS-KEY(("machine learning" OR "random forest" OR XGBoost OR "gradient boosting" OR "proxy means test*" OR "predictive model*") AND (poverty OR "social protection" OR "social assistance" OR "cash transfer*" OR "food insecur*") AND ("household survey" OR "survey data" OR "household data")) AND NOT TITLE-ABS-KEY(cancer OR tumour OR HIV OR malaria OR clinical OR patient*)
+
+### Recorded query S3 — Dimensions
+
+("social grant" OR "social assistance" OR "cash transfer" OR "social protection") AND (exclusion OR "take-up" OR "non-receipt" OR "access barriers") AND ("South Africa" OR "KwaZulu-Natal")
+
+### Recorded query S4 — IEEE Xplore
+
+("machine learning" OR "classification") AND ("poverty" OR "social welfare" OR "socioeconomic") AND ("survey data")
+
+### Recorded query S5 — SABINET/AJOL
+
+social grant AND exclusion AND (KwaZulu-Natal OR "South Africa")
+
+### Recorded query S6 — Google Scholar
+
+"social grant" exclusion "South Africa" -site:pinterest.com
+
+### Recorded query S7 — DataFirst/Stats SA
+
+Living Conditions Survey 2014/2015 metadata KwaZulu-Natal
+
+### Panel C. Reported aggregate selection flow
+
+| Stage | Records |
+| --- | --- |
+| Identified by the eight recorded searches | 511 |
+| Duplicates removed | 136 |
+| Remaining for title/abstract screening | 375 |
+| Excluded at title/abstract screening | 222 |
+| Assessed at full text | 153 |
+| Excluded at full text | 98 |
+| Retained in the broader social-grant review | 55 |
+
+The arithmetic is consistent: 511 − 136 = 375; 375 − 222 = 153; and 153 − 98 = 55. These are reported aggregate counts, not an independently rerun selection audit. The 55 sources span several grants and populations; they are not 55 OPG-specific empirical studies. The synthesis compares programme, setting, unit of analysis, outcome definition, findings and limitations. Heterogeneous populations and access stages prevent a pooled OPG non-receipt estimate. The retained query record improves transparency without establishing exhaustive coverage or record-level reproducibility.

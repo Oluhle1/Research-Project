@@ -10,8 +10,33 @@
     100.0
   ],
   "tuning": "lowest mean inner-fold Brier score; five household folds inside each outer training set",
+  "inner_seeds": [
+    201416,
+    201417,
+    201418,
+    201419,
+    201420
+  ],
+  "tie_rule": "first C in the increasing grid (stronger penalty) on an exact score tie",
   "outer_folds": "phase5 assign_folds, seed 201415",
-  "standardisation": "training-fold mean and standard deviation, applied to ridge fits only",
+  "imputation": "learned independently on each inner training fold during tuning and on each full outer training fold for its final fit",
+  "standardisation": "mean and population standard deviation learned from the corresponding inner or outer training matrix; zero spread replaced by 1; ridge fits only",
+  "estimator": "sklearn LogisticRegression, L2 penalty, lbfgs, max_iter=1000; intercept not penalised",
+  "inner_fits_attempted": 400,
+  "inner_fits_converged": 400,
+  "outer_fits_attempted": 10,
+  "outer_fits_converged": 10,
+  "runtime_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  },
+  "script_sha256": "27239c154f7ccdd7ca6fa08e2838ac0d7e68ec00aeba187c06acd9684fe168d9",
+  "cohort_sha256_raw": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",
+  "cohort_sha256_crlf": "50c73c5ca88592dc426ae79f708dcc18cb057832fd2e00174a0257b4b1f6adc2",
+  "public_outputs": "aggregate metrics and tuning/convergence records only; optional row-level QA predictions are outside the repository",
   "ordinary_reference": "unchanged six-slope maximum-likelihood model",
   "limit": "D-052 remains outcome-informed; this comparison does not remove that information"
 }

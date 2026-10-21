@@ -1,5 +1,37 @@
 # Revised Submission 2 manuscript
 
+## Supplementary-evidence update — 21 October 2026
+
+This update implements only the first outstanding item from the PDF review:
+the supplementary evidence and its main-paper cross-references. The main
+[Word paper](Jawe_OPG_nonreceipt_KZN.docx) and
+[PDF paper](Jawe_OPG_nonreceipt_KZN.pdf) have been rebuilt; the checked PDF
+remains eight Letter pages. The separate
+[supplementary Word document](Jawe_OPG_Supplementary_Material.docx) and
+[supplementary PDF](Jawe_OPG_Supplementary_Material.pdf) provide Tables S1–S5
+from [the editable source](supplement_screening.md).
+
+The supporting ridge analysis now learns imputation inside each inner training
+fold. Its 400 inner fits and ten outer fits converged, with the published
+rounded results reproduced. A fresh outside-checkout replay of the 20 repeated
+validations reproduced all published S3 summaries at their displayed
+precision; tiny unrounded ranking differences are recorded in
+[the computational validation](../output/phase5_ridge_settlement/validation.json).
+The primary model and original repeated-validation outputs were preserved.
+
+S5 supplies eight verbatim author-recorded queries, their date, source counts
+and the reported selection flow. These records do not supply the original
+database exports, item-level screening decisions or a complete 55-source
+extraction register. The main text and supplement state that boundary.
+
+Build the editable documents with `node paper/build_ieee.js` and
+`python paper/build_supplement.py` from the repository root (the latter uses
+`python -m pip install -r paper/requirements-docs.txt`). Current artifact
+checks and file hashes are in [manuscript_validation.json](manuscript_validation.json).
+The earlier checkpoints below retain their historical scope.
+
+## Earlier manuscript checkpoints
+
 The revised IEEE draft is `Jawe_OPG_nonreceipt_KZN.docx` and
 `Jawe_OPG_nonreceipt_KZN.pdf`. Its eight-page PDF integrates the approved
 Submission 1 with the completed study, local Streamlit artefact and lecturer
@@ -8,7 +40,7 @@ the baseline Submission 1 PDF remains unchanged.
 See `feedback_response.md` for all seven comments and remaining limitations.
 This is a review draft; no institutional submission has been performed.
 
-The current **D074 revision, 15 October 2026**, closes the historical
+The historical **D074 revision, 15 October 2026**, closes the historical
 threshold-source gap within the research scope. **GG37474, 28 March 2014**,
 p. 3, **GN211**, verifies the standard OPG rate of **R1,350 monthly from
 1 April 2014**; pp. 4–5 amend Annexure A(2) to **D = 1.6A − 0.4B** from that
@@ -29,7 +61,7 @@ Point 4 is now revised in Section III.D: household-grouped cross-validation,
 training-fold preprocessing and the limits of the fixed-prediction bootstrap
 intervals are specified from the saved procedure. Points 5–10 remain pending.**
 
-The current paper has **5,635 whitespace tokens**, a **141-word abstract**,
+That checkpoint paper had **5,635 whitespace tokens**, a **141-word abstract**,
 a **408-word III.B** and a **422-word III.D**, with **eight Letter pages**,
 **nine tables, four figures and 28 active references numbered by first use**.
 The catalog retains

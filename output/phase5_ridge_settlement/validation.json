@@ -1,0 +1,959 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-21T12:12:31.158206+00:00",
+  "scope": "Corrected nested-ridge execution, privateOOF metric recalculation, aggregate tuning-record checks, synthetic preprocessing isolation, and fresh outside-checkout replay of20refitted validations. Primarymodel/cohort/originaloutputs unchanged.",
+  "baseline_commit": "5eab00789b7725421ef513963212d5ec6dd1258d",
+  "checks_passed": 219,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "400 inner fits all converged",
+      "passed": true
+    },
+    {
+      "check": "80 candidate mean-score rows",
+      "passed": true
+    },
+    {
+      "check": "10 outer fits all converged with C0.1",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C0.01 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C0.1 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C0.3 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C1.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C3.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C10.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C30.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 C100.0 mean score",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer1 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer2 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer3 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer4 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope outer5 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer1 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer2 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer3 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer4 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope outer5 selected minimum",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope one thousand thirteen QA rows/67events",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope no original IDs in QA",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope independent QA calibration_in_the_large",
+      "passed": true
+    },
+    {
+      "check": "merged_six_slope independent QA calibration_slope",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope one thousand thirteen QA rows/67events",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope no original IDs in QA",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope independent QA calibration_in_the_large",
+      "passed": true
+    },
+    {
+      "check": "separate_seven_slope independent QA calibration_slope",
+      "passed": true
+    },
+    {
+      "check": "Fresh20refits seeds and100 converged",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated roc_auc median reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated roc_auc q1 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated roc_auc q3 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated roc_auc minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated roc_auc maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated average_precision median reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated average_precision q1 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated average_precision q3 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated average_precision minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated average_precision maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated brier median reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated brier q1 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated brier q3 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated brier minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated brier maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_in_the_large median reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_in_the_large q1 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_in_the_large q3 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_in_the_large minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_in_the_large maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_slope median reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_slope q1 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_slope q3 reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_slope minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Fresh repeated calibration_slope maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "sex_female refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "sex_female median reported precision",
+      "passed": true
+    },
+    {
+      "check": "sex_female minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "sex_female maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "school_below refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "school_below median reported precision",
+      "passed": true
+    },
+    {
+      "check": "school_below minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "school_below maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "age_per_10 refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "age_per_10 median reported precision",
+      "passed": true
+    },
+    {
+      "check": "age_per_10 minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "age_per_10 maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_urban_informal refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "settle_urban_informal median reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_urban_informal minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_urban_informal maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_traditional_or_rural refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "settle_traditional_or_rural median reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_traditional_or_rural minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "settle_traditional_or_rural maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "welfare_far refit sign counts",
+      "passed": true
+    },
+    {
+      "check": "welfare_far median reported precision",
+      "passed": true
+    },
+    {
+      "check": "welfare_far minimum reported precision",
+      "passed": true
+    },
+    {
+      "check": "welfare_far maximum reported precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201415 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201415 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201415 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201416 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201416 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201416 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201417 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201417 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201417 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201418 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201418 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201418 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201419 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201419 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201419 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201420 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201420 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201420 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201421 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201421 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201421 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201422 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201422 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201422 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201423 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201423 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201423 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201424 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201424 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201424 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201425 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201425 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201425 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201426 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201426 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201426 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201427 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201427 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201427 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201428 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201428 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201428 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201429 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201429 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201429 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201430 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201430 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201430 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201431 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201431 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201431 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201432 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201432 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201432 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201433 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201433 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201433 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201434 independent QA roc_auc",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201434 independent QA average_precision",
+      "passed": true
+    },
+    {
+      "check": "Freshrepeat 201434 independent QA brier",
+      "passed": true
+    },
+    {
+      "check": "Synthetic inner-heldout perturbation isolation",
+      "passed": true
+    },
+    {
+      "check": "Primary model/cohort/originalOOF/refit outputs protected",
+      "passed": true
+    }
+  ],
+  "ridge_inner_fits": 400,
+  "ridge_outer_fits": 10,
+  "ridge_inner_converged": 400,
+  "ridge_outer_converged": 10,
+  "ridge_selected_C_all_outer": 0.1,
+  "ridge_delta_vs_archived": {
+    "merged_six_slope": {
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "brier": 0.0,
+      "calibration_in_the_large": -1.5959455978986625e-16,
+      "calibration_slope": 0.0
+    },
+    "separate_seven_slope": {
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "brier": 0.0,
+      "calibration_in_the_large": -9.020562075079397e-17,
+      "calibration_slope": 4.440892098500626e-16
+    }
+  },
+  "refit_replay_fits": 100,
+  "refit_replay_converged": 100,
+  "refit_replay_metric_max_abs_delta": {
+    "roc_auc": 7.888675018108415e-06,
+    "average_precision": 2.2055100002971173e-06,
+    "brier": 6.938893903907228e-18,
+    "calibration_in_the_large": 1.682681771697503e-16,
+    "calibration_slope": 7.771561172376096e-16
+  },
+  "refit_replay_published_precision_matches": true,
+  "numerical_limit": "Repeated-refit parameters differ by at most1.33e-15; tiny ranking differences (AUC <=7.89e-6, AP<=2.21e-6) leave every reportedS3summary unchanged. These are fresh fitted calculations, not byte-identical output reproduction.",
+  "preprocessing_isolation": {
+    "status": "passed",
+    "scope": "Synthetic metamorphic regression check of nested preprocessing; fitted ridge models on synthetic records only.",
+    "perturbation": "Change schooling of the first inner held-out fold; outcomes, households and all inner training rows stay fixed.",
+    "baseline_outer_school_mode": "0",
+    "perturbed_outer_school_mode": "1",
+    "inner_training_matrix_unchanged": true,
+    "fixture_detects_outer_imputation_leakage": true,
+    "test_grid": [
+      0.1
+    ]
+  },
+  "protected_paths": [
+    "analysis/phase5_model.py",
+    "analysis/phase5_model_original_7slope.py",
+    "analysis/phase5_refit_repeats.py",
+    "output/phase3",
+    "output/runs/primary",
+    "output/phase5_refit_repeats",
+    "models"
+  ],
+  "runtime_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  },
+  "script_sha256": "27239c154f7ccdd7ca6fa08e2838ac0d7e68ec00aeba187c06acd9684fe168d9",
+  "aggregate_source_sha256": {
+    "fold_penalties.csv": "1da73de1feaba85ea622f066ac3ab7598eca9cafcbac73463ca7117e80f05c50",
+    "run_record.json": "8c7a22ce3c702861ee4339e587db9b693857a3e15a47b50f3ec98854400477fa",
+    "metrics.csv": "3945fb122b5823384276c09e10fab315cb7d3134b65158887308e8015fa48c80",
+    "inner_grid_scores.csv": "7a437e6b7e7f596e1c7a6c0aba3fb19204fe58b1969ead2bcb279676a73981e8",
+    "inner_fold_scores.csv": "4d57173a129cd5c2e6d67c59e21ffbc4f8f727437fb3d53bf2882c496e05de50"
+  },
+  "controlled_QA": "Two ridgeOOF and20repetitionOOF files stored outside repository; no respondent/household identifiers; not included in supplementary/publicoutputs.",
+  "ridge_controlled_QA_sha256": {
+    "merged_six_slope_oof.csv": "9f117de7bc983f4be999b07e8d7d29b439d281114eb07feccc972b36c7c4c752",
+    "separate_seven_slope_oof.csv": "805656bdf87dd6145f83bd3197c6b816acafa157a5865da12ce5a5fb3e9a04e5"
+  }
+}

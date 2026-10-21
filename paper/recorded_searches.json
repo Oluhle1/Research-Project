@@ -1,0 +1,80 @@
+{
+  "provenance": "Author-recorded manuscript table, not a fresh database search or recovered raw export",
+  "source_commit": "e0b29b9bebb2a573245dc70bf72048da9a7f9b96",
+  "source_path": "paper/manuscript.md",
+  "source_manuscript_sha256": "12fdb07036602adad7d40e55284f2012a95f6cdc927daf8a6b6bbec4c32c449e",
+  "recorded_search_date": "2026-08-17",
+  "records": [
+    {
+      "search_id": "S1",
+      "source": "Scopus",
+      "recorded_hits": 43,
+      "retained_sources": 9,
+      "query": "TITLE-ABS-KEY((\"social grant*\" OR \"social assistance\" OR \"cash transfer*\" OR \"social protection\") AND (exclusion OR \"non-take-up\" OR \"take-up\" OR \"coverage gap*\" OR \"targeting error*\" OR \"access barrier*\") AND (\"South Africa*\" OR \"KwaZulu-Natal\"))"
+    },
+    {
+      "search_id": "S1b",
+      "source": "Scopus, widened",
+      "recorded_hits": 149,
+      "retained_sources": 10,
+      "query": "TITLE-ABS-KEY((\"social grant*\" OR \"social assistance\" OR \"cash transfer*\" OR \"social protection\" OR \"social security\" OR SASSA OR \"child support grant\" OR \"social relief of distress\" OR SRD) AND (exclusion OR exclud* OR \"non-take-up\" OR \"take-up\" OR uptake OR \"coverage gap*\" OR \"targeting error*\" OR \"access barrier*\" OR \"non-receipt\" OR eligib*) AND (\"South Africa*\" OR \"KwaZulu-Natal\"))"
+    },
+    {
+      "search_id": "S2",
+      "source": "Scopus, method",
+      "recorded_hits": 100,
+      "retained_sources": 11,
+      "query": "TITLE-ABS-KEY((\"machine learning\" OR \"random forest\" OR XGBoost OR \"gradient boosting\" OR \"proxy means test*\" OR \"predictive model*\") AND (poverty OR \"social protection\" OR \"social assistance\" OR \"cash transfer*\" OR \"food insecur*\") AND (\"household survey\" OR \"survey data\" OR \"household data\")) AND NOT TITLE-ABS-KEY(cancer OR tumour OR HIV OR malaria OR clinical OR patient*)"
+    },
+    {
+      "search_id": "S3",
+      "source": "Dimensions",
+      "recorded_hits": 36,
+      "retained_sources": 5,
+      "query": "(\"social grant\" OR \"social assistance\" OR \"cash transfer\" OR \"social protection\") AND (exclusion OR \"take-up\" OR \"non-receipt\" OR \"access barriers\") AND (\"South Africa\" OR \"KwaZulu-Natal\")"
+    },
+    {
+      "search_id": "S4",
+      "source": "IEEE Xplore",
+      "recorded_hits": 47,
+      "retained_sources": 0,
+      "query": "(\"machine learning\" OR \"classification\") AND (\"poverty\" OR \"social welfare\" OR \"socioeconomic\") AND (\"survey data\")"
+    },
+    {
+      "search_id": "S5",
+      "source": "SABINET/AJOL",
+      "recorded_hits": 100,
+      "retained_sources": 9,
+      "query": "social grant AND exclusion AND (KwaZulu-Natal OR \"South Africa\")"
+    },
+    {
+      "search_id": "S6",
+      "source": "Google Scholar",
+      "recorded_hits": 35,
+      "retained_sources": 11,
+      "query": "\"social grant\" exclusion \"South Africa\" -site:pinterest.com"
+    },
+    {
+      "search_id": "S7",
+      "source": "DataFirst/Stats SA",
+      "recorded_hits": 1,
+      "retained_sources": 0,
+      "query": "Living Conditions Survey 2014/2015 metadata KwaZulu-Natal"
+    }
+  ],
+  "recorded_flow": {
+    "hits": 511,
+    "duplicates_reported": 136,
+    "title_abstract_records": 375,
+    "title_abstract_excluded": 222,
+    "full_text_assessed": 153,
+    "full_text_excluded": 98,
+    "retained": 55
+  },
+  "limits": [
+    "Original workbook and database exports not supplied in the inspected record",
+    "Item-level screening and duplicate decisions not independently reproduced",
+    "Complete 55-source extraction register unavailable",
+    "Recorded 2015–2026 empirical-study window does not document how earlier empirical citations were included; no exception was invented"
+  ]
+}

@@ -1,0 +1,11 @@
+coding,fold,selected_C,converged,iterations,inner_folds_complete
+merged_six_slope,1,0.1,True,8,True
+merged_six_slope,2,0.1,True,8,True
+merged_six_slope,3,0.1,True,8,True
+merged_six_slope,4,0.1,True,8,True
+merged_six_slope,5,0.1,True,8,True
+separate_seven_slope,1,0.1,True,8,True
+separate_seven_slope,2,0.1,True,8,True
+separate_seven_slope,3,0.1,True,8,True
+separate_seven_slope,4,0.1,True,10,True
+separate_seven_slope,5,0.1,True,8,True

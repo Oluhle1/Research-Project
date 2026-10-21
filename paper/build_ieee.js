@@ -29,7 +29,7 @@ const lines=remapped.trim().split('\n');
 function run(text, options={}){return new TextRun({text,font:FONT,size:20,...options});}
 function paragraph(text,options={}){
     return new Paragraph({alignment:AlignmentType.JUSTIFIED,
-      spacing:{before:0,after:80,line:230},...options,
+      spacing:{before:0,after:60,line:230},...options,
       children:[run(text,options.run||{})]});
 }
 function heading(text,level){return paragraph(text,{

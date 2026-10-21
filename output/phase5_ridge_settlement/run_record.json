@@ -1,0 +1,17 @@
+{
+  "C_grid": [
+    0.01,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0
+  ],
+  "tuning": "lowest mean inner-fold Brier score; five household folds inside each outer training set",
+  "outer_folds": "phase5 assign_folds, seed 201415",
+  "standardisation": "training-fold mean and standard deviation, applied to ridge fits only",
+  "ordinary_reference": "unchanged six-slope maximum-likelihood model",
+  "limit": "D-052 remains outcome-informed; this comparison does not remove that information"
+}

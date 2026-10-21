@@ -118,13 +118,13 @@ The released files lack strata. Derived primary sampling units (PSUs) supported 
 
 The unweighted logistic model estimated probability of reported non-receipt. The analysis did not rebalance recipients and non-recipients, automatically select variables or choose a cutoff. The model describes associations after accounting for other predictors. Age enters per decade above 60. Comparison categories are male, Grade 7 or above, urban formal and an office nearer than 5 km. Five predictor groups require six slopes and an intercept, because settlement requires two comparisons.
 
-Only one rural-formal adult reported non-receipt in the attempted seven-slope model. Excluding that person for testing left the training group with no such case in that category. Decision D-052 combined rural formal with traditional settlement to support estimation, without claiming that these settings are equivalent. Marital status affects screening; income, receipt, derived labels and marital status do not enter the primary model.
+Rural formal settlement had 31 adults and one non-recipient. One seven-slope training fold then contained 30 rural-formal adults and no event; its coefficient was about −21.88 and did not converge. Four of five folds converged. Decision D-052 combined rural formal with traditional settlement after that outcome pattern was known, so the retained cross-validation can be optimistic and does not show that the settings are equivalent. The seven-slope out-of-fold AUC was 0.739 and its calibration slope 0.673, against 0.752 and 0.836 after the merge. Because one fit failed, this comparison is diagnostic only. Ridge logistic regression was then applied to both codings on the same household folds. The penalty was chosen inside each training set from a fixed grid. Every fold selected the same penalty, and all ten fits converged. Held-out AUC was 0.756 for the merged coding and 0.750 for the separate coding (Supplementary Table S2). The ordinary merged model remains the reference. This comparison does not make Decision D-052 outcome-independent. Income, receipt, derived labels and marital status do not enter the primary model.
 
-Validation used five household-grouped folds. Sorted households were labelled by whether any member reported non-receipt, then stratified so every adult from a household stayed in one fold. Seed 201415 fixes this division. The 1,013 adults come from 827 households: 182 contain more than one modelled adult, and 6 contain both receipt and non-receipt. Each adult received one out-of-fold (OOF) probability from a model trained without that household. Held-out folds had 199 to 207 adults and 12 to 14 non-recipients. The intercept-only reference uses the training group's non-receipt rate.
+Validation used five household-grouped folds. Sorted households were labelled by whether any member reported non-receipt, then stratified so every adult from a household stayed in one fold. Seed 201415 fixes this division. The 1,013 adults come from 827 households: 182 contain more than one modelled adult, and 6 contain both receipt and non-receipt. Each adult received one out-of-fold (OOF) probability from a model trained without that household. The intercept-only reference uses the training group's non-receipt rate.
 
 After interpreting skipped questions, each training fold supplied the fill-in for its held-out adults. Schooling contrasted below Grade 7 with Grade 7 or above, and office distance contrasted at least 5 km or unavailable with nearer than 5 km. Other codes stayed missing. The training fold filled missing age, in decades above 60, with its median, and a missing category with its most frequent code, or the smaller code in a tie. Eligibility, receipt and weights were not filled or modelled. Three recipients lacked usable schooling; 14 recipients and four non-recipients lacked usable office distance. Age, sex and settlement were already complete.
 
-Pooled OOF probabilities supplied average precision, AUC, Brier score, calibration slope and calibration-in-the-large. Calibration-in-the-large is an intercept correction with its slope fixed at 1; the ideal values are 0 and 1. The 95% intervals are 2.5 and 97.5 percentiles from 1,000 with-replacement household samples of those fixed predictions, using the same seed. Every selected household's adults were retained. All 1,000 samples contained both outcome classes, but preprocessing, refitting and Decision D-052 were not repeated. The intervals omit a new split, fill-in and fit, and they omit primary sampling units, unreleased strata and person weights. They are not design-based confidence intervals.
+Pooled OOF probabilities supplied average precision, AUC, Brier score, calibration slope and calibration-in-the-large. Calibration-in-the-large is an intercept correction with its slope fixed at 1; the ideal values are 0 and 1. The 95% intervals are 2.5 and 97.5 percentiles from 1,000 with-replacement household samples of those fixed predictions, using the same seed. Every selected household's adults were retained. All 1,000 samples contained both outcome classes. These intervals condition on seed 201415, its preprocessing and fits, and Decision D-052. They do not repeat the split, imputation or estimation, and they are not survey-design confidence intervals. A separate sensitivity repeated the same household-grouped procedure 20 times, using seeds 201415–201434, with training-only imputation and refitting. Decision D-052 stayed fixed.
 
 ### E. Alternative assumptions
 
@@ -138,7 +138,7 @@ The local Streamlit app has five sections: study context, upload/validation, eli
 
 FIGURE: figures/architecture.png | Fig. 2. Research and app workflows share screening rules. Household-held-out predictions remain separate from app scores calculated using the model trained on all included adults.
 
-The app reuses the screening rules and saved model settings. It scores only supported adults who pass with resolved receipt. Saved training statistics fill partly missing predictors; records missing every categorical predictor remain unscored. Integrity checks link model and evaluation files to the analysis and predictor code. The interface labels historical OOF results separately from uploaded scores; uploaded records may overlap training data. CSV, JSON and ZIP reports contain classifications, reasons, supported probabilities, versions and an audit manifest (settings and file checksums). The downloadable minimum viable product, or MVP, uses invented data and excludes raw survey files, historical respondent outputs and Git version history.
+The app reuses the screening rules and saved model settings. It scores only supported adults who pass with resolved receipt. Saved training statistics fill partly missing predictors; records missing every categorical predictor remain unscored. Integrity checks link model and evaluation files to the analysis and predictor code. The interface labels historical OOF results separately from uploaded scores; uploaded records may overlap training data. CSV, JSON and ZIP reports contain classifications, reasons, supported probabilities, versions and an audit manifest (settings and file checksums). The downloadable package uses invented data and excludes survey microdata.
 
 Software checks compared screening decisions with expected results and tested excluded predictors, links, repeated runs, reports and saved predictions. Further checks compared the CLI (command-line interface) with the UI (user interface), including invalid inputs and outdated results. The owner's Windows walkthrough demonstrated local functionality. A task sheet supports future testing with three to five consenting participants; no participant study has taken place.
 
@@ -163,24 +163,24 @@ NOTE: Each row counts distinct households. A household can appear in several row
 
 FIGURE: figures/cohort_flow.png | Fig. 3. FAIL, UNRESOLVED and PASS groups do not overlap. All 1,013 PASS adults resolve receipt and enter the final denominator.
 
-Of these 1,013 adults, 67 reported non-receipt: 6.61% without weights and 7.49% with person weights. The calculation used 345 derived PSUs and gave a standard error of 1.3 percentage points. A bell-shaped sampling approximation gave a 95% confidence interval of 4.9%–10.0%. Missing strata limit this approximation. All 1,013 PASS answers agreed with preceding-year OPG income, so those checks changed nothing. Table V compares five predictors before filling missing values. Average age and percentages describe each receipt group. The percentages describe receipt-group composition, not non-receipt rates or predictions.
+Of these 1,013 adults, 67 reported non-receipt: 6.61% without weights and 7.49% with person weights. The calculation used 345 derived PSUs and gave a standard error of 1.3 percentage points. A bell-shaped sampling approximation gave a 95% confidence interval of 4.9%–10.0%. Missing strata limit this approximation. All 1,013 PASS answers agreed with preceding-year OPG income, so those checks changed nothing. Table V separates unweighted sample summaries from person-weighted summaries before missing values are filled. Percentages describe receipt-group composition, not non-receipt rates or predictions.
 
-TABLE: Table V. Characteristics by receipt (U = unweighted; W = person-weighted)
-| Characteristic | Recipients: U; W | Non-recipients: U; W |
+TABLE: Table V. Characteristics by reported OPG receipt, before imputation
+| Characteristic | Recipients, N = 946 | Non-recipients, N = 67 |
 | --- | --- | --- |
-| Age, average years | 70.4; 69.8 | 67.3; 68.4 |
-| Female | 686 (72.5%); 70.4% | 33 (49.3%); 53.4% |
-| Grade 7 or above | 290 (30.7%); 33.0% | 49 (73.1%); 80.8% |
-| Urban formal settlement | 284 (30.0%); 36.2% | 38 (56.7%); 66.2% |
-| Welfare office ≥5 km/unavailable | 717 (75.8%); 72.0% | 34 (50.7%); 40.3% |
+| Age, mean years | 70.4 unw.; 69.8 wtd | 67.3 unw.; 68.4 wtd |
+| Female | 686 (72.5%) unw.; 70.4% wtd | 33 (49.3%) unw.; 53.4% wtd |
+| Grade 7 or above | 290 (30.7%) unw.; 33.0% wtd | 49 (73.1%) unw.; 80.8% wtd |
+| Schooling missing | 3 (0.3%) unw.; 0.4% wtd | 0 (0.0%) unw.; 0.0% wtd |
+| Urban formal settlement | 284 (30.0%) unw.; 36.2% wtd | 38 (56.7%) unw.; 66.2% wtd |
+| Office ≥5 km or unavailable | 717 (75.8%) unw.; 72.0% wtd | 34 (50.7%) unw.; 40.3% wtd |
+| Office distance missing | 14 (1.5%) unw.; 1.8% wtd | 4 (6.0%) unw.; 7.2% wtd |
 
-NOTE: Recipients: 946 people; non-recipients: 67 people. U gives unweighted averages, or counts and percentages within each group. W gives person-weighted averages/percentages. Denominators retain missing predictors: three recipients lack schooling; 14 recipients/four non-recipients lack welfare-access values. These summaries have no uncertainty intervals.
-
-Non-recipients were younger before weighting, more often men, more educated and more often urban formal residents. Weights brought average ages closer.
+NOTE: unw. is the unweighted count and percentage, or the unweighted mean age. wtd is the person-weighted percentage or mean. Missing predictors remain in the denominators. Supplementary Table S4 prints the unweighted and weighted values in separate columns. These summaries have no uncertainty intervals.
 
 ### B. Screening sensitivity
 
-Table VI reports each scenario’s denominator and non-receipt events. Unw. and Wtd. abbreviate unweighted and person-weighted. Slope means calibration slope in Tables VI and VIII. Compared with S0, S1b/S1d added two people/two events. S2a, S2b, S2c and S2d added 59/4, 60/2, 8/0 and 68/2 people/events. S3 added 19 people/15 events; S4b removed six people but no events. Weighted non-receipt ranged from 7.12% to 9.06%.
+Table VI keeps scenarios whose counts differ from the primary screen. Changed cohorts were refitted. Unchanged cohorts reused the primary predictions, so matching performance is not an independent fit. Supplementary Table S1 defines every rule.
 
 TABLE: Table VI. Changed screening rules and OOF performance
 | ID | N/events | Unw.% | Wtd.% | AUC | Brier | Slope |
@@ -195,9 +195,9 @@ TABLE: Table VI. Changed screening rules and OOF performance
 | S4b | 1,007/67 | 6.65 | 7.55 | .755 | .0576 | .854 |
 | Same* | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
 
-NOTE: Events are reported non-recipients. Unw./Wtd. give unweighted/person-weighted non-receipt rates; performance uses no weights. S1b applies the 2015 ceiling throughout; S1d uses the zero-payout ceiling (the resource level where the grant formula pays zero). S2a/S2b treat living-together adults as couples/single. S2c treats separated adults as single; S2d treats both as single. S3 retains disability/war-veterans grant recipients (it adds no veterans). S4b retains social-assistance income.
+NOTE: Events are reported non-recipients. Performance uses no weights. S1b uses the 2015 ceiling at every interview. S1d uses the income level at which the formula pays nothing; it admitted the same two adults as S1b. S2a/S2b screen living-together adults as couples/single. S2c screens separated adults as single; S2d screens both as single. S3 retains disability-grant recipients and adds no war-veterans recipient. S4b keeps social-assistance income in the proxy.
 
-*S1a (2014 ceiling throughout), S1c (age-75 supplement), S4a (income adjusted for price changes, with the ceiling unchanged), S4c (excluding UIF, the Unemployment Insurance Fund, and similar transfers), S5 (preceding-year receipt) and S6a/S6b (receipt bounds) change nothing. Each keeps the denominator, events and measures. No PASS adult has unresolved receipt to bound.
+*S1a, S1c, S4a, S4c, S5 and S6a/S6b keep the S0 counts and reuse its predictions. Identical counts do not make the rules equivalent. No PASS adult has unresolved receipt for S6a/S6b to bound. Definitions are in Supplementary Table S1.
 
 ### C. Held-out prediction
 
@@ -216,7 +216,7 @@ NOTE: Estimates pool unweighted OOF predictions: 1,013 people/67 events. The int
 
 FIGURE: figures/calibration.png | Fig. 4. Saved group summaries show unweighted OOF calibration. Labels give events/people; the diagonal shows exact agreement between average predictions and observed rates. Plot range: 0–0.22.
 
-The odds ratio for women versus men was 0.39. Its Wald interval was 0.23–0.66. Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). The model trained on all included adults produced these estimates. Age, settlement and welfare-distance intervals included 1. These associations describe odds, not probability reductions, held-out performance or causes.
+The odds ratio for women versus men was 0.39 (Wald interval 0.23–0.66). Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). These full-sample associations are not held-out performance or causes. Only 67 events supported six slopes. Across the 100 refitted training folds, the female and below-Grade-7 coefficients stayed negative, while the urban-informal coefficient changed sign. Age, settlement and welfare-distance intervals included 1. That is limited precision, not evidence of no association, and those intervals omit the settlement-coding decision. The 20 repeated splits gave 100 converged fits. AUC ranged from 0.733 to 0.773 (median 0.753) and the calibration slope from 0.738 to 0.943 (median 0.837). Supplementary Table S3 gives the median, interquartile range and range for every performance measure, and the coefficient ranges. That spread is a sensitivity summary for the fixed coding, not a confidence interval.
 
 TABLE: Table VIII. Model/validation sensitivities
 | Scenario | N/events | Unw.% | AUC | Brier | Slope |
@@ -229,8 +229,6 @@ TABLE: Table VIII. Model/validation sensitivities
 | S11 PSU folds | 1,013/67 | 6.61 | .758 | .0575 | .860 |
 
 NOTE: The non-receipt-rate column uses no weights; S8–S11 keep the weighted non-receipt rate at 7.49%. S9 uses frequency weights when fitting, but no weights when filling missing values or checking predictions. S10 weights the primary OOF predictions without refitting. S8 replaces welfare access and keeps six slopes. S7 removes 21 people/four events. S11 changes fold grouping but keeps the study group.
-
-Across alternatives, AUC ranged from 0.736 to 0.763; Brier and calibration slopes also changed.
 
 ### D. Software verification
 
@@ -246,7 +244,7 @@ TABLE: Table IX. Completed verification and its scope
 | Owner Windows exports | 50/50 checks of six files | Check synthetic local use and report consistency. |
 | Participant usability | Not conducted | No representative task-time, error or ease evidence. |
 
-The owner's Windows walkthrough produced six synthetic classifications: two resolved passes, one recipient and one non-recipient. Matching predictors gave both scores of 0.1853. The invented 50% rate is not the survey non-receipt rate. Screenshots and six extracted reports documented the walkthrough. The checks did not inspect the ZIP container. Regenerated outputs, checksums, summaries and model/source versions passed 50 checks. This verifies functions and exports, not independent execution or representative task times, errors or ease.
+The owner walkthrough used synthetic records. It checks exports, not representative task times or ease.
 
 ## VI. Discussion
 
@@ -284,7 +282,7 @@ Survey access conditions and disclosure requirements apply. Interface demonstrat
 
 ## VIII. Conclusion
 
-Historical screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Rules about other grants changed results more than the ceiling, and unresolved cases made the denominator central. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578: moderate internal ranking with slightly less probability error. The software reproduces screening, receipt categories and scores for inspection under tested conditions. The study provides a historical benchmark. It does not establish human usability, causes, legal entitlement or performance elsewhere.
+Historical screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Rules about other grants changed results more than the ceiling, and unresolved cases made the denominator central. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578: moderate internal ranking with slightly less probability error. The software reproduces screening, receipt categories and scores for inspection under tested conditions. The study provides a historical benchmark. It does not establish human usability, causes, legal entitlement or performance elsewhere. Future work should validate the frozen model in independent provincial or later-period data, using comparable screening and receipt definitions, and should assess discrimination, calibration and probability error before any updating. Intended users should also complete synthetic-data tasks that record task success, errors, completion time and perceived ease of use.
 
 
 ## References
@@ -329,7 +327,7 @@ Historical screened non-receipt was 6.6% unweighted and 7.5% person-weighted; al
 
 [20] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.
 
-[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017.
+[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6.
 
 [22] Statistics South Africa, Living Conditions Survey: COICOP Codes. LCS 2014/2015 code list.
 

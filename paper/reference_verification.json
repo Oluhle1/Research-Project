@@ -23,7 +23,7 @@
   "blocker": "HTTPS proxy CONNECT 403 before origin content; this is not evidence that a DOI or reference is invalid. General network permission was approved, but the proxy continued to refuse access. No TLS/proxy bypass was used.",
   "correction_policy": "No unverified author, title, month, volume, issue, pages, degree, department, deposit date or thesis DOI was invented. Existing journal DOI strings and thesis metadata were preserved; Art. no. is a formatting change.",
   "historical_audit_limit": "A prior narrative in Git at e0b29b9 claims Crossref/Wits checks, but raw source responses were not retained. It is historical provenance, not fresh independent verification.",
-  "reference_file_sha256": "310617e0aa61b7d5a3186eb28fc0b3e8bbd7b74ebdc798fc2bfd907659e9face",
+  "reference_file_sha256": "43d727ba4e2a435397717ed8b302681f2056776048d5b84263e42a06636aa99f",
   "records": [
     {
       "stable_source_id": 7,
@@ -231,12 +231,13 @@
       "type": "statistics_south_africa_supporting_document",
       "status": "primary_file_inspected_locally",
       "doi": null,
-      "reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Metadata.pdf",
+      "reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. DataFirst catalogue record: https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608.",
       "evidence": "reference_audit/statistics_south_africa.json",
       "source_file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
       "source_sha256": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
       "source_content_retrieved": true,
-      "official_website_retrieved": false
+      "official_website_retrieved": false,
+      "public_release_review": "See supervisor_final_feedback_2026-10-22.json; official retrieval blocked, no blanket redistribution permission inferred."
     },
     {
       "stable_source_id": 4,
@@ -244,12 +245,13 @@
       "type": "statistics_south_africa_supporting_document",
       "status": "primary_file_inspected_locally",
       "doi": null,
-      "reference": "Statistics South Africa, “Coicop codes,” supporting documentation for the Living Conditions Survey 2014/2015, n.d. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Coicopcodes.pdf",
+      "reference": "Statistics South Africa, “Coicop codes,” supporting documentation for the Living Conditions Survey 2014/2015, n.d.",
       "evidence": "reference_audit/statistics_south_africa.json",
       "source_file": "Dataset/metadata/Living Conditions Survey Coicopcodes.pdf",
       "source_sha256": "83094d071aefde1901ddf7cd1be0942f493cda2f5810eb518f14480fa3f8c1ed",
       "source_content_retrieved": true,
-      "official_website_retrieved": false
+      "official_website_retrieved": false,
+      "public_release_review": "See supervisor_final_feedback_2026-10-22.json; official retrieval blocked, no blanket redistribution permission inferred."
     },
     {
       "stable_source_id": 5,
@@ -257,12 +259,13 @@
       "type": "statistics_south_africa_supporting_document",
       "status": "primary_file_inspected_locally",
       "doi": null,
-      "reference": "Statistics South Africa, Living Conditions Survey 2014/15: Household Questionnaire, n.d. Archived project copy, inspected Oct. 21, 2026. [Online]. Available: https://github.com/Oluhle1/Research-Project/blob/110d84161ffb4ca1821c2c76318a6a13b27e2643/Dataset/metadata/Living%20Conditions%20Survey%20Questionnaire.pdf",
+      "reference": "Statistics South Africa, Living Conditions Survey 2014/15: Household Questionnaire, n.d.",
       "evidence": "reference_audit/statistics_south_africa.json",
       "source_file": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
       "source_sha256": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
       "source_content_retrieved": true,
-      "official_website_retrieved": false
+      "official_website_retrieved": false,
+      "public_release_review": "See supervisor_final_feedback_2026-10-22.json; official retrieval blocked, no blanket redistribution permission inferred."
     },
     {
       "stable_source_id": 24,
@@ -314,5 +317,14 @@
       "evidence": "historical_thresholds_verified_audit.json",
       "source_content_retrieved_this_revision": false
     }
-  ]
+  ],
+  "latest_StatsSA_release_review": {
+    "date": "2026-10-22",
+    "scope": "Supervisor feedback point 6; only stable source IDs 3, 4 and 5",
+    "record": "supervisor_final_feedback_2026-10-22.json",
+    "provider_record_supplied_by_author": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608#study_desc1684331430702",
+    "provider_page_retrieved": false,
+    "public_publication_evidence": "Metadata PDF page 2 states that the report is available on the Stats SA website; this does not establish microdata redistribution permission.",
+    "supporting_document_release_terms": "Not confirmed; project-hosted URLs removed from currentreferences."
+  }
 }

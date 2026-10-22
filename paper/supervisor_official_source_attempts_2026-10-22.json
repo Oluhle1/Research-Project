@@ -1,0 +1,91 @@
+{
+  "recorded_at_utc": "2026-10-22T07:49:22.256769+00:00",
+  "scope": "Read-only official source and dataset-access attempts for supervisor feedback points5-6; no repository mutations.",
+  "prior_four_requests": [
+    {
+      "requested_url": "https://www.statssa.gov.za/",
+      "attempt_date": "2026-10-22",
+      "attempt_timestamp_utc": null,
+      "timestamp_note": "The earlier execution printed errors but did not log per-request timestamps; no retrospective time invented.",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false,
+      "source_of_log": "Captured tool output from this subagent earlier in the same task; no origin response was received."
+    },
+    {
+      "requested_url": "https://www.statssa.gov.za/publications/P0310/P03102014.pdf",
+      "attempt_date": "2026-10-22",
+      "attempt_timestamp_utc": null,
+      "timestamp_note": "The earlier execution printed errors but did not log per-request timestamps; no retrospective time invented.",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false,
+      "source_of_log": "Captured tool output from this subagent earlier in the same task; no origin response was received."
+    },
+    {
+      "requested_url": "https://microdata.statssa.gov.za/index.php/catalog/?sk=Living%20Conditions%20Survey%202014",
+      "attempt_date": "2026-10-22",
+      "attempt_timestamp_utc": null,
+      "timestamp_note": "The earlier execution printed errors but did not log per-request timestamps; no retrospective time invented.",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false,
+      "source_of_log": "Captured tool output from this subagent earlier in the same task; no origin response was received."
+    },
+    {
+      "requested_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/?sk=Living%20Conditions%20Survey%202014",
+      "attempt_date": "2026-10-22",
+      "attempt_timestamp_utc": null,
+      "timestamp_note": "The earlier execution printed errors but did not log per-request timestamps; no retrospective time invented.",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false,
+      "source_of_log": "Captured tool output from this subagent earlier in the same task; no origin response was received."
+    }
+  ],
+  "new_requests_after_actual_dataset_record_supplied": [
+    {
+      "purpose": "user_supplied_dataset_record",
+      "requested_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608#study_desc1684331430702",
+      "http_request_url_fragment_removed": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608",
+      "attempt_timestamp_utc": "2026-10-22T07:49:22.232314+00:00",
+      "candidate_route_not_verified": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false
+    },
+    {
+      "purpose": "candidate_standard_NADA_related_materials_route",
+      "requested_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/related-materials",
+      "http_request_url_fragment_removed": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/related-materials",
+      "attempt_timestamp_utc": "2026-10-22T07:49:22.245509+00:00",
+      "candidate_route_not_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false
+    },
+    {
+      "purpose": "candidate_standard_NADA_access_terms_route",
+      "requested_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/get-microdata",
+      "http_request_url_fragment_removed": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/get-microdata",
+      "attempt_timestamp_utc": "2026-10-22T07:49:22.249077+00:00",
+      "candidate_route_not_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false
+    },
+    {
+      "purpose": "candidate_standard_NADA_DDI_metadata_route",
+      "requested_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/metadata/ddi",
+      "http_request_url_fragment_removed": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608/metadata/ddi",
+      "attempt_timestamp_utc": "2026-10-22T07:49:22.252822+00:00",
+      "candidate_route_not_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "origin_content_retrieved": false
+    }
+  ],
+  "successful_origin_responses": 0,
+  "no_TLS_or_proxy_bypass": true,
+  "supervisor_guidance_provenance": "User supplied a supervisor statement that formal ethical clearance is not required for exclusive existing secondary Stats SA LCS2014/15 analysis without direct participant interaction or primary collection. This is supervisor guidance, not a fabricated institutional REC approval letter/reference.",
+  "permission_limit": "No dataset-specific access conditions, document download listing or repository redistribution licence has yet been read from this record. A public catalogue URL alone does not prove unrestricted redistribution.",
+  "local_primary_document_evidence": {
+    "file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+    "PDF_page": 2,
+    "printed_statement": "Stats SA has copyright on this publication. Users may apply the information as they wish, provided that they acknowledge Stats SA as the source of the basic data wherever they process, apply, utilise, publish or distribute the data; and also that they specify that the relevant application and analysis (where applicable) result from their own processing of the data.",
+    "public_publication_statement": "This report is available on the Stats SA website: www.statssa.gov.za.",
+    "limits": "This publication-use statement does not independently establish the data-access agreement or blanket rights for whole-repository redistribution."
+  }
+}

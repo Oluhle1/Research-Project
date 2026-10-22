@@ -118,13 +118,13 @@ Released files lack strata. Derived primary sampling units (PSUs), allowing repe
 
 The unweighted logistic model estimated probability of reported non-receipt. The analysis did not rebalance recipients and non-recipients, automatically select variables or choose a cutoff. The model describes associations after accounting for other predictors. Age enters per decade above 60. Comparison categories are male, Grade 7 or above, urban formal and an office nearer than 5 km. Five predictor groups require six slopes and an intercept, because settlement requires two comparisons.
 
-Rural formal settlement had 31 adults and one non-recipient. One seven-slope training fold then contained 30 rural-formal adults and no event; its coefficient was about −21.88 and did not converge. Four of five folds converged. Decision D-052 combined rural formal with traditional settlement after that outcome pattern was known, so the retained cross-validation can be optimistic and does not show that the settings are equivalent. Supplementary Table S2 retains this failed attempt as a diagnostic. Ridge logistic regression was then applied to both codings on the same household folds. Five inner household folds selected C by mean Brier score, with training-only imputation and scaling; all ten outer fits chose C = 0.1 and converged. Held-out AUC was 0.756 for the merged coding and 0.750 for the separate coding (Supplementary Table S2). The ordinary merged model remains the reference. This comparison does not make Decision D-052 outcome-independent. Income, receipt, derived labels and marital status do not enter the primary model.
+Rural formal settlement had 31 adults and one non-recipient. One seven-slope training fold contained 30 rural-formal adults and no event; its coefficient was about −21.88 and did not converge. Four of five folds converged. Decision D-052 combined rural formal with traditional settlement after examining this outcome pattern, without repeating that choice inside each training fold. The primary ordinary merged model is therefore retained as an exploratory reference. Its coefficients and performance are conditional on D-052; household-held-out testing does not validate the complete model-selection process and may be optimistic. Supplementary Table S2 retains the failed attempt as a diagnostic. Ridge regression compared both codings on the same household folds. Five inner household folds selected C by mean Brier score with training-only imputation and scaling; all ten outer fits chose C = 0.1 and converged. AUC was 0.756 for merged and 0.750 for separate coding. This comparison cannot remove outcome-informed selection or establish equivalence or superiority of either coding. Income, receipt, derived labels and marital status do not enter the primary model.
 
 Validation used five household-grouped folds. Sorted households were labelled by whether any member reported non-receipt, then stratified so every adult from a household stayed in one fold. Seed 201415 fixes this division. The 1,013 adults come from 827 households: 182 contain more than one modelled adult, and 6 contain both receipt and non-receipt. Each adult received one out-of-fold (OOF) probability from a model trained without that household. The intercept-only reference uses the training group's non-receipt rate.
 
 After interpreting skipped questions, each training fold supplied the fill-in for its held-out adults. Schooling contrasted below Grade 7 with Grade 7 or above, and office distance contrasted at least 5 km or unavailable with nearer than 5 km. Other codes stayed missing. The training fold filled missing age, in decades above 60, with its median, and a missing category with its most frequent code, or the smaller code in a tie. Eligibility, receipt and weights were not filled or modelled. Three recipients lacked usable schooling; 14 recipients and four non-recipients lacked usable office distance. Age, sex and settlement were already complete.
 
-Pooled OOF probabilities supplied average precision, AUC, Brier score, calibration slope and calibration-in-the-large. Calibration-in-the-large is an intercept correction with its slope fixed at 1; the ideal values are 0 and 1. The 95% intervals are 2.5 and 97.5 percentiles from 1,000 with-replacement household samples of those fixed predictions, using the same seed. Every selected household's adults were retained. All 1,000 samples contained both outcome classes. These intervals condition on seed 201415, its preprocessing and fits, and Decision D-052. They do not repeat the split, imputation or estimation, and they are not survey-design confidence intervals. Twenty household-grouped repetitions (seeds 201415–201434) repeated training-only imputation and refitting, with D-052 fixed. Metrics pooled one held-out prediction per adult within each repetition (Supplementary Table S3).
+Pooled OOF probabilities supplied average precision, AUC, Brier score, calibration slope and calibration-in-the-large. Calibration-in-the-large is an intercept correction with its slope fixed at 1; the ideal values are 0 and 1. The reported 95% bootstrap intervals are the 2.5 and 97.5 percentiles from 1,000 with-replacement household samples of fixed predictions, using seed 201415. Every selected household's adults were retained, and all samples contained both outcome classes. These intervals condition on the original split, preprocessing, fits and Decision D-052. They do not repeat model development or represent survey-design uncertainty. A separate sensitivity analysis used 20 household-grouped repetitions (seeds 201415–201434), relearning training-only imputation and refitting while keeping D-052 fixed. Each repetition pooled one held-out prediction per adult (Supplementary Table S3). Its medians, interquartile ranges and ranges describe variation across splits and refits, not 95% confidence intervals. The repetitions reuse participants and do not independently validate the coding decision.
 
 ### E. Alternative assumptions
 
@@ -180,24 +180,29 @@ NOTE: unw. is the unweighted count and percentage, or the unweighted mean age. w
 
 ### B. Screening sensitivity
 
-Table VI summarises changed-cohort scenarios alongside the baseline and unchanged-scenario reference. Changed cohorts were refitted. Unchanged cohorts reused the primary predictions, so matching performance is not an independent fit. Supplementary Table S1 defines every rule.
+Table VI identifies each screening scenario separately. Changed cohorts were refitted; unchanged cohorts reused the primary predictions. Supplementary Table S1 defines every rule.
 
-TABLE: Table VI. Changed screening rules and OOF performance
+TABLE: Table VI. Screening scenarios and OOF performance
 | ID | N/events | Unw.% | Wtd.% | AUC | Brier | Slope |
 | --- | --- | --- | --- | --- | --- | --- |
 | S0 | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
-| S1b,d | 1,015/69 | 6.80 | 7.68 | .763 | .0584 | .875 |
+| S1a | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S1b | 1,015/69 | 6.80 | 7.68 | .763 | .0584 | .875 |
+| S1c | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S1d | 1,015/69 | 6.80 | 7.68 | .763 | .0584 | .875 |
 | S2a | 1,072/71 | 6.62 | 7.42 | .749 | .0588 | .779 |
 | S2b | 1,073/69 | 6.43 | 7.17 | .756 | .0564 | .841 |
 | S2c | 1,021/67 | 6.56 | 7.43 | .753 | .0571 | .839 |
 | S2d | 1,081/69 | 6.38 | 7.12 | .751 | .0565 | .808 |
 | S3 | 1,032/82 | 7.95 | 9.06 | .736 | .0682 | .864 |
+| S4a | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
 | S4b | 1,007/67 | 6.65 | 7.55 | .755 | .0576 | .854 |
-| Same* | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S4c | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S5 | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S6a | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
+| S6b | 1,013/67 | 6.61 | 7.49 | .752 | .0578 | .836 |
 
-NOTE: Events are reported non-recipients. Performance uses no weights. S1b uses the 2015 ceiling at every interview. S1d uses the income level at which the formula pays nothing; it admitted the same two adults as S1b. S2a/S2b screen living-together adults as couples/single. S2c screens separated adults as single; S2d screens both as single. S3 retains disability-grant recipients and adds no war-veterans recipient. S4b keeps social-assistance income in the proxy.
-
-*S1a, S1c, S4a, S4c, S5 and S6a/S6b keep the S0 counts and reuse its predictions. Identical counts do not make the rules equivalent. No PASS adult has unresolved receipt for S6a/S6b to bound. Definitions are in Supplementary Table S1.
+NOTE: Events are non-recipients; performance is unweighted. S1 changes thresholds; S2 partnership; S3 incompatible grants; S4 income; S5 receipt period; S6 unresolved receipt. Supplementary Table S1 defines each rule. S1b and S1d admitted the same two adults under different rules. S1a, S1c, S4a, S4c, S5, S6a and S6b retained the S0 cohort and reused its predictions. Matching results do not imply equivalent rules or independent fits. No PASS receipt was unresolved, so S6a/S6b changed no records.
 
 ### C. Held-out prediction
 
@@ -216,7 +221,7 @@ NOTE: Estimates pool unweighted OOF predictions: 1,013 people/67 events. The int
 
 FIGURE: figures/calibration.png | Fig. 4. Saved group summaries show unweighted OOF calibration. Labels give events/people; the diagonal shows exact agreement between average predictions and observed rates. Plot range: 0–0.22.
 
-The odds ratio for women versus men was 0.39 (Wald interval 0.23–0.66). Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). These full-sample associations are not held-out performance or causes. Only 67 events supported six slopes. Across the 100 refitted training folds, the female and below-Grade-7 coefficients stayed negative, while the urban-informal coefficient changed sign. Age, settlement and welfare-distance intervals included 1. That is limited precision, not evidence of no association, and those intervals omit the settlement-coding decision. The 20 repeated splits gave 100 converged fits. AUC ranged from 0.733 to 0.773 (median 0.753) and the calibration slope from 0.738 to 0.943 (median 0.837). Supplementary Table S3 gives the median, interquartile range and range for every performance measure, and the coefficient ranges. That spread is a sensitivity summary for the fixed coding, not a confidence interval.
+The odds ratio for women versus men was 0.39 (Wald interval 0.23–0.66). Schooling below Grade 7 versus Grade 7 or above gave 0.24 (0.13–0.43). These are exploratory full-sample associations, not held-out performance or causal effects. Only 67 events supported six slopes; sparse data can destabilise coefficients and Wald intervals. The intervals also omit uncertainty from choosing the settlement coding. Across 100 overlapping training fits, the female and below-Grade-7 coefficients stayed negative, while the urban-informal coefficient changed sign. Sign consistency across these fits is not independent confirmation. Age, settlement and welfare-distance intervals included 1, indicating limited precision rather than evidence of no association. The 20 repeated splits gave 100 converged fits. AUC ranged from 0.733 to 0.773 (median 0.753) and the calibration slope from 0.738 to 0.943 (median 0.837). Supplementary Table S3 gives the median, interquartile range and range for each performance measure, and coefficient ranges. These describe sensitivity under the fixed coding, not confidence intervals.
 
 TABLE: Table VIII. Model/validation sensitivities
 | Scenario | N/events | Unw.% | AUC | Brier | Slope |
@@ -278,7 +283,7 @@ Returning to Figure 1, sensitivity results support explicit denominator construc
 
 The resource proxy omits assets, deemed income and deductions. Misreporting, cross-sectional ordering, few events, unresolved screening, missing strata and fixed-prediction resampling limit inference. Household sampling excludes institutionalised adults. Participant usability and external predictive performance remain untested.
 
-Survey access/disclosure conditions apply. Public demonstrations use synthetic records; downloadable packages exclude survey microdata. Reports omit submitted identifiers and raw income. This does not clear every historical repository file for release. No DUT ethics determination is documented. The app does not decide grants or rank named applicants.
+The study used existing anonymised Stats SA LCS 2014/2015 data obtained through DataFirst [3]. The supervisor advised that formal ethical clearance was not required because the study involved no direct participation by human subjects or primary data collection. Stats SA is acknowledged as the data producer; the analyses result from the author's own processing. Applicable data-use and confidentiality conditions remain binding. Permission to redistribute survey files or all historical repository contents remains unconfirmed. Public demonstrations use synthetic records; downloadable packages exclude survey microdata, and reports omit submitted identifiers and raw income. The app does not decide grants or rank named applicants.
 
 ## VIII. Conclusion
 

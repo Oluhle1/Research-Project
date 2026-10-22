@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-10-22T07:56:04.820647+00:00",
+  "client_date": "2026-10-22",
+  "baseline_commit": "58c4da0a87fe66396de5726fc16ad294d866cca7",
+  "feedback_file_id": "file_00000000262c8208a86ee4f3056c3365",
+  "feedback_pdf_sha256": "b3e3bd0070e3eb930c698e5fdb9a8a050c91092e3f5962f93a1aaa1dedc19e9d",
+  "scope": "Only the six supervisor feedback locations and generated paper delivery/evidence files",
+  "feedback_points": [
+    {
+      "point": 1,
+      "location": "III.D, paragraph beginning Rural formal settlement",
+      "status": "addressed using the supervisor-allowed qualification option",
+      "change": "Retain the ordinary merged model as an exploratory primary reference, conditional on outcome-informed D-052. State that household hold-out does not validate the complete selection process and that ridge comparisons do not remove selection uncertainty or establish equivalence/superiority.",
+      "numerical_results_changed": false
+    },
+    {
+      "point": 2,
+      "location": "III.D, paragraph beginning Pooled OOF probabilities",
+      "status": "addressed",
+      "change": "Distinguish conditional fixed-prediction bootstrap95% intervals from20 repeated-refit sensitivity medians/IQR/ranges; repetitions reuse people and keep D-052 fixed.",
+      "new_resampling_or_refits": false
+    },
+    {
+      "point": 3,
+      "location": "V.C, paragraph beginning The odds ratio",
+      "status": "addressed",
+      "change": "Call coefficients exploratory; explain67events/six slopes, sparse-data/Wald instability, omitted coding uncertainty and non-independent sign consistency.",
+      "numeric_estimates_preserved": true
+    },
+    {
+      "point": 4,
+      "location": "V.B, TableVI and its immediately surrounding explanatory text",
+      "status": "addressed",
+      "change": "Replace compressed S1b,d and Same groups with16 individually named scenarios, keeping seven columns and all displayed numerical values.",
+      "scenario_numeric_checks_passed": 112
+    },
+    {
+      "point": 5,
+      "location": "VII, second paragraph",
+      "status": "ethics explanation addressed from author-supplied supervisor guidance; data/repository redistribution permission unconfirmed",
+      "change": "State existing anonymised secondary data, no direct participant involvement/primary collection, supervisor advice that formal clearance was not required, StatsSA/DataFirst acknowledgement and own processing. Retain confidentiality/data-use duties and distinguish access from redistribution permission.",
+      "evidence": "Supervisor statement quoted by the author in this conversation on22October2026; exact data-provider record supplied by author. No REC letter or number was invented."
+    },
+    {
+      "point": 6,
+      "location": "Published references21–23, stable IDs3–5",
+      "status": "citations corrected; metadata public-publication statement checked; supporting-document release terms remain unverified",
+      "change": "Remove project-hosted archive links; use author-supplied DataFirst catalogue608 in the metadata reference; retain original undated supporting-document citations without invented official download links.",
+      "evidence": "Metadata PDF page2 states public availability and acknowledgement/own-processing conditions. Eight legitimate official-source attempts were blocked before origin access.",
+      "permission_confirmed_for_all_documents_or_microdata": false
+    }
+  ],
+  "all_unrelated_main_manuscript_text_byte_identical": true,
+  "all_headings_and_four_figure_directives_unchanged": true,
+  "eight_other_source_tables_and_Word_cell_texts_unchanged": true,
+  "only_reference_catalog_entries_changed": [
+    3,
+    4,
+    5
+  ],
+  "citation_order_unchanged": true,
+  "analysis_app_model_data_supplement_builders_and_README_preserved": true,
+  "primary_estimator_changed": false,
+  "new_models_fitted": false,
+  "application_tests_rerun": false,
+  "main_source_sha256": "2cac00a6fa6bff34cff1cfb1b7070d49082e96f11b504c191727a2cbb93c4e12",
+  "main_native_pdf_sha256": "dc8b092312a6b01c9e112b551a4c8c5ecc888f42066612695e36a5a90ca01952",
+  "official_source_attempts": "supervisor_official_source_attempts_2026-10-22.json",
+  "independent_read_only_review": {
+    "document_scope_and_layout": "final_bibliography_qa: passed",
+    "methods_points1_to3": "feedback_methods_22oct: passed",
+    "public_release_fully_verified": false
+  },
+  "remaining_confirmations": [
+    "DataFirst usage/redistribution terms applicable to the actual release",
+    "Public-release/redistribution status for standalone COICOP codes and questionnaire",
+    "Authorised disclosure/release of any historical repository survey contents"
+  ]
+}

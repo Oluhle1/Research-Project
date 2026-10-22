@@ -1,0 +1,42 @@
+{
+  "date_received": "2026-10-22",
+  "source_type": "Catalogue transcription supplied by the author in this conversation",
+  "source_file_id": "file_000000006b2c8208830c520a1af283ba",
+  "source_sha256": "2255c2d836409949f61b6620251d5c648d29884ef12309a702ccfb2470a18783",
+  "provider_record_supplied_by_author": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608#study_desc1684331430702",
+  "provider_page_independently_retrieved": false,
+  "dataset": {
+    "survey_id": "zaf-statssa-lcs-2014-2015-v1.1",
+    "title": "Living Conditions Survey 2014-2015",
+    "version": "1.1",
+    "version_date": "2017-09-18",
+    "version_description_verbatim": "v1.1: Edited, anonymised data for public distribution",
+    "access_conditions_verbatim": "Public access data.",
+    "copyright_field_verbatim": "Public Access",
+    "producer": "Statistics South Africa",
+    "distributor": "DataFirst",
+    "producer_and_distributor_publication_year": 2017,
+    "doi": "10.25828/9229-xz60"
+  },
+  "version_distinctions": {
+    "catalogue_edition": "Version1.1 adds the previously missing Total LCS expenditure file",
+    "individual_files": "The excerpt says existing individual files remain version1; no local file-version/hash authentication is claimed",
+    "DDI_metadata_document_version": "3",
+    "DDI_metadata_production_date": "2020-03-30",
+    "DDI_date_is_not_dataset_release_date": true
+  },
+  "supported_conclusions": [
+    "The identified edited/anonymised dataset release is described as publicly accessible and for public distribution",
+    "The required dataset citation identifies version1.1, producer/distributor2017 and DOI10.25828/9229-xz60"
+  ],
+  "scope_limits": [
+    "This is author-supplied provider text, not a new successful HTTP response",
+    "It does not authenticate the version or bytes of every local survey file",
+    "It does not constitute review of every historical repository file or specific standalone supporting-document terms"
+  ],
+  "paper_changes": [
+    "VII ethics/access paragraph",
+    "Metadata reference21 separates documentary citation from dataset citation",
+    "Dataset reference29 (stable source31) added with the supplied DOI"
+  ]
+}

@@ -3,8 +3,8 @@
   "scope": "Bibliographic formatting and source metadata; this audit does not corroborate article findings.",
   "baseline_commit": "1d315ffdadbaf43a27415f87a880da922ec71200",
   "status": "partial: formatting and local Stats SA checks completed; journal/thesis live verification blocked",
-  "active_references": 28,
-  "catalog_entries": 30,
+  "active_references": 29,
+  "catalog_entries": 31,
   "unused_stable_source_ids": [
     26,
     27
@@ -23,7 +23,7 @@
   "blocker": "HTTPS proxy CONNECT 403 before origin content; this is not evidence that a DOI or reference is invalid. General network permission was approved, but the proxy continued to refuse access. No TLS/proxy bypass was used.",
   "correction_policy": "No unverified author, title, month, volume, issue, pages, degree, department, deposit date or thesis DOI was invented. Existing journal DOI strings and thesis metadata were preserved; Art. no. is a formatting change.",
   "historical_audit_limit": "A prior narrative in Git at e0b29b9 claims Crossref/Wits checks, but raw source responses were not retained. It is historical provenance, not fresh independent verification.",
-  "reference_file_sha256": "43d727ba4e2a435397717ed8b302681f2056776048d5b84263e42a06636aa99f",
+  "reference_file_sha256": "cd9702ec90ddc8949c3422c8191b3daf497283e1f4e0bfd17c14eb8fa1214b86",
   "records": [
     {
       "stable_source_id": 7,
@@ -231,7 +231,7 @@
       "type": "statistics_south_africa_supporting_document",
       "status": "primary_file_inspected_locally",
       "doi": null,
-      "reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. DataFirst catalogue record: https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608.",
+      "reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6.",
       "evidence": "reference_audit/statistics_south_africa.json",
       "source_file": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
       "source_sha256": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
@@ -316,6 +316,17 @@
       "reference": "Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R621, Government Gazette 39007, Jul. 21, 2015.",
       "evidence": "historical_thresholds_verified_audit.json",
       "source_content_retrieved_this_revision": false
+    },
+    {
+      "stable_source_id": 31,
+      "published_reference": 29,
+      "type": "dataset",
+      "status": "supported_by_author_supplied_provider_catalogue_text",
+      "doi": "10.25828/9229-xz60",
+      "reference": "Statistics South Africa, Living Conditions Survey 2014–2015, ver. 1.1 [dataset]. Pretoria, South Africa: Statistics South Africa, producer; Cape Town, South Africa: DataFirst, distributor, 2017, doi: 10.25828/9229-xz60.",
+      "evidence": "datafirst_catalogue_evidence_2026-10-22.json",
+      "source_content_supplied_by_author": true,
+      "provider_page_independently_retrieved": false
     }
   ],
   "latest_StatsSA_release_review": {
@@ -325,6 +336,9 @@
     "provider_record_supplied_by_author": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608#study_desc1684331430702",
     "provider_page_retrieved": false,
     "public_publication_evidence": "Metadata PDF page 2 states that the report is available on the Stats SA website; this does not establish microdata redistribution permission.",
-    "supporting_document_release_terms": "Not confirmed; project-hosted URLs removed from currentreferences."
+    "supporting_document_release_terms": "Not confirmed; project-hosted URLs removed from currentreferences.",
+    "followup_evidence": "datafirst_catalogue_evidence_2026-10-22.json",
+    "named_dataset_public_access_status": "Author-supplied catalogue text identifies edited/anonymised version1.1 as public access and for public distribution; no new online retrieval occurred",
+    "blanket_repository_review_claimed": false
   }
 }

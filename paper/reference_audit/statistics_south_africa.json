@@ -54,7 +54,7 @@
       "publisher_homepage_printed": "http://www.statssa.gov.za/",
       "publisher_homepage_status": "Printed as URI annotation on PDF page 2; not a verified deep link to this file.",
       "correction_needed": "No correction to P0310, 2017 or ISBN is warranted. Keep Metadata explicit to distinguish this document from a survey findings report.",
-      "applied_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. DataFirst catalogue record: https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608."
+      "applied_reference": "Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6."
     },
     {
       "stable_source_id": 4,
@@ -171,6 +171,12 @@
     "project_archive_links_removed_from_current_references": true,
     "DataFirst_catalogue_link_provenance": "Author-supplied provider record 608; not independently retrieved",
     "microdata_or_all_supporting_documents_redistribution_permission_confirmed": false,
-    "detailed_record": "../supervisor_official_source_attempts_2026-10-22.json"
+    "detailed_record": "../supervisor_official_source_attempts_2026-10-22.json",
+    "catalogue_text_followup": {
+      "evidence": "../datafirst_catalogue_evidence_2026-10-22.json",
+      "named_dataset_release_public_access_documented_from_author_supplied_text": true,
+      "dataset_citation_is_separate_from_metadata_document_citation": true,
+      "all_historical_repository_files_verified": false
+    }
   }
 }

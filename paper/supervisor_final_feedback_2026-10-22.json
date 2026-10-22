@@ -37,17 +37,19 @@
     {
       "point": 5,
       "location": "VII, second paragraph",
-      "status": "ethics explanation addressed from author-supplied supervisor guidance; data/repository redistribution permission unconfirmed",
+      "status": "Ethics explanation and named-release public-access status addressed from author-supplied evidence; no whole-repository clearance claimed",
       "change": "State existing anonymised secondary data, no direct participant involvement/primary collection, supervisor advice that formal clearance was not required, StatsSA/DataFirst acknowledgement and own processing. Retain confidentiality/data-use duties and distinguish access from redistribution permission.",
-      "evidence": "Supervisor statement quoted by the author in this conversation on22October2026; exact data-provider record supplied by author. No REC letter or number was invented."
+      "evidence": "Supervisor statement quoted by the author in this conversation on22October2026; exact data-provider record supplied by author. No REC letter or number was invented.",
+      "catalogue_followup": "Provider text identifies edited/anonymised version1.1 as public access and for public distribution."
     },
     {
       "point": 6,
       "location": "Published references21–23, stable IDs3–5",
-      "status": "citations corrected; metadata public-publication statement checked; supporting-document release terms remain unverified",
+      "status": "Original-document citations corrected; separate required dataset citation and public-access category supplied by author documented",
       "change": "Remove project-hosted archive links; use author-supplied DataFirst catalogue608 in the metadata reference; retain original undated supporting-document citations without invented official download links.",
       "evidence": "Metadata PDF page2 states public availability and acknowledgement/own-processing conditions. Eight legitimate official-source attempts were blocked before origin access.",
-      "permission_confirmed_for_all_documents_or_microdata": false
+      "permission_confirmed_for_all_documents_or_microdata": false,
+      "catalogue_followup": "Dataset version1.1,18September2017, producer/distributor2017, DOI10.25828/9229-xz60; DDI2020/version3 not treated as a dataset release."
     }
   ],
   "all_unrelated_main_manuscript_text_byte_identical": true,
@@ -56,15 +58,16 @@
   "only_reference_catalog_entries_changed": [
     3,
     4,
-    5
+    5,
+    31
   ],
-  "citation_order_unchanged": true,
+  "citation_order_unchanged": "Existing1–28 preserved; new dataset reference29 appended",
   "analysis_app_model_data_supplement_builders_and_README_preserved": true,
   "primary_estimator_changed": false,
   "new_models_fitted": false,
   "application_tests_rerun": false,
-  "main_source_sha256": "2cac00a6fa6bff34cff1cfb1b7070d49082e96f11b504c191727a2cbb93c4e12",
-  "main_native_pdf_sha256": "dc8b092312a6b01c9e112b551a4c8c5ecc888f42066612695e36a5a90ca01952",
+  "main_source_sha256": "4dca1a9961e68c3bbd6106a2d11be6b058aaedb76c1eda613cfd6e860eb56a13",
+  "main_native_pdf_sha256": "5f48ce82eda5e33c47ddba533e4a23014871a33f902043b9a650ef5e8949b082",
   "official_source_attempts": "supervisor_official_source_attempts_2026-10-22.json",
   "independent_read_only_review": {
     "document_scope_and_layout": "final_bibliography_qa: passed",
@@ -72,8 +75,10 @@
     "public_release_fully_verified": false
   },
   "remaining_confirmations": [
-    "DataFirst usage/redistribution terms applicable to the actual release",
-    "Public-release/redistribution status for standalone COICOP codes and questionnaire",
-    "Authorised disclosure/release of any historical repository survey contents"
-  ]
+    "Suitability and disclosure status of every historical repository file were not audited",
+    "Standalone questionnaire/COICOP redistribution terms not expressly supplied in the catalogue excerpt"
+  ],
+  "catalogue_followup_evidence": "datafirst_catalogue_evidence_2026-10-22.json",
+  "catalogue_followup_baseline_commit": "c09d1e613f5c959058333122582b58c0f502e148",
+  "existing_published_citation_numbers_preserved": true
 }

@@ -283,7 +283,7 @@ Returning to Figure 1, sensitivity results support explicit denominator construc
 
 The resource proxy omits assets, deemed income and deductions. Misreporting, cross-sectional ordering, few events, unresolved screening, missing strata and fixed-prediction resampling limit inference. Household sampling excludes institutionalised adults. Participant usability and external predictive performance remain untested.
 
-The study used existing anonymised Stats SA LCS 2014/2015 data obtained through DataFirst [21]. The supervisor advised that formal ethical clearance was not required because the study involved no direct participation by human subjects or primary data collection. Stats SA is acknowledged as the data producer; the analyses result from the author's own processing. Applicable data-use and confidentiality conditions remain binding. Permission to redistribute survey files or all historical repository contents remains unconfirmed. Public demonstrations use synthetic records; downloadable packages exclude survey microdata, and reports omit submitted identifiers and raw income. The app does not decide grants or rank named applicants.
+The study analysed anonymised LCS 2014/2015 secondary data from Stats SA via DataFirst [29]. The catalogue describes version 1.1 (18 September 2017) as edited, anonymised data for public distribution with public access. The supervisor advised that formal ethical clearance was not required: this study involved no direct human participation or primary data collection. Stats SA produced the data; analyses are the author's own. Data-use and confidentiality conditions apply. Public access does not clear every historical repository file. Demonstrations use synthetic records; downloadable packages exclude survey microdata. Reports omit submitted identifiers and raw income. The app does not decide grants or rank named applicants.
 
 ## VIII. Conclusion
 
@@ -332,7 +332,7 @@ Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives 
 
 [20] G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.
 
-[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6. DataFirst catalogue record: https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608.
+[21] Statistics South Africa, Living Conditions Survey 2014/2015: Metadata, Statistical Release P0310. Pretoria, South Africa, 2017, ISBN 978-0-621-45185-6.
 
 [22] Statistics South Africa, “Coicop codes,” supporting documentation for the Living Conditions Survey 2014/2015, n.d.
 
@@ -347,3 +347,5 @@ Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives 
 [27] Dept. of Social Development, “Social Assistance Act: Regulations,” Government Notice R898, Government Gazette 31356, Aug. 22, 2008.
 
 [28] Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R621, Government Gazette 39007, Jul. 21, 2015.
+
+[29] Statistics South Africa, Living Conditions Survey 2014–2015, ver. 1.1 [dataset]. Pretoria, South Africa: Statistics South Africa, producer; Cape Town, South Africa: DataFirst, distributor, 2017, doi: 10.25828/9229-xz60.

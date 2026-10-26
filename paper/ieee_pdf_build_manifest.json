@@ -1,6 +1,6 @@
 {
-  "source_sha256": "4dca1a9961e68c3bbd6106a2d11be6b058aaedb76c1eda613cfd6e860eb56a13",
-  "references_sha256": "cd9702ec90ddc8949c3422c8191b3daf497283e1f4e0bfd17c14eb8fa1214b86",
+  "source_sha256": "28eff3e0fee01b337b9f16e894bc1f7adba99247e4f53a4ef7dae6a9d5662002",
+  "references_sha256": "51e30084eb726959a1fd0f8a326ced7e281d351ac350e5c82c4e00cc837f31d3",
   "class_sha256": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
   "class": "IEEEtran 2015/08/26 V1.8b, unmodified",
   "options": [
@@ -8,7 +8,7 @@
     "conference",
     "letterpaper"
   ],
-  "source_words": 5093,
+  "source_words": 5044,
   "tables": 9,
   "figures": {
     "figures/conceptual_framework.png": "46b7562e68dc1e73b505f98f268be36dbb04b890d9d0b177db5dbdd6c96aec19",
@@ -53,5 +53,5 @@
   "portable_tex_uses_copied_figures_and_class": true,
   "no_geometry_font_scale_or_vertical_spacing_overrides": true,
   "table_font": "IEEEtran small: 9pt / 10pt baseline; three-point cell padding",
-  "pdf_sha256": "5f48ce82eda5e33c47ddba533e4a23014871a33f902043b9a650ef5e8949b082"
+  "pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9"
 }

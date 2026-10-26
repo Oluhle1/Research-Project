@@ -1,0 +1,18 @@
+{
+  "scope": "Read-only final review of current III.D and VIII methodological claims; no edits or fits",
+  "source_sha256": "bc371a9e8a1f09654e46918a829a96b7bf110f555c5e71e4e98d029e5724e21d",
+  "checks": {
+    "primary_explicitly_exploratory": true,
+    "conditional_on_D052": true,
+    "selection_optimism_explicit": true,
+    "complete_selection_not_validated": true,
+    "future_coding_procedure_not_claimed_performed": true,
+    "ridge_comparison_does_not_repair_selection": true,
+    "internal_not_independent_population_or_period": true,
+    "principal_workflow_contribution_explicit": true
+  },
+  "status": "passed",
+  "genuine_contradictions_or_new_performed_analysis_claims": false,
+  "minor_precision_suggestion": "Retain the word training in the sentence describing the seven-slope fold and coefficient, if not already restored.",
+  "training_word_present": false
+}

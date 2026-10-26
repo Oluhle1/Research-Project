@@ -116,9 +116,12 @@ def search_record(caption: str, headers: list[str], rows: list[list[str]]) -> st
 
 def table(caption: str, headers: list[str], rows: list[list[str]], notes: list[str]) -> str:
     n = len(headers)
+    descriptive = n == 5 and headers[0] == "Characteristic"
     if any(len(row) != n for row in rows):
         raise ValueError("Inconsistent table column count")
-    if n == 7:
+    if descriptive:
+        weights = [1.25, 1.04, .835, 1.04, .835]
+    elif n == 7:
         weights = [.8, 1.35, .95, .95, .9, 1.1, .95]
     elif n == 6:
         weights = [1.35, 1.2, .85, .85, .9, .85]
@@ -143,9 +146,22 @@ def table(caption: str, headers: list[str], rows: list[list[str]], notes: list[s
     # nine-point font; no table is scaled, squeezed or converted to an image.
     out = [r"\begin{table}[!t]", r"\caption{" + inline(caption) + "}",
            r"\centering", r"\small", r"\setlength{\tabcolsep}{3pt}",
-           r"\begin{tabularx}{\columnwidth}{" + spec + "}", r"\hline",
-           " & ".join(r"\textbf{" + inline(v) + "}" for v in headers) + r" \\",
-           r"\hline"]
+           r"\begin{tabularx}{\columnwidth}{" + spec + "}", r"\hline"]
+    if descriptive:
+        recipient = re.fullmatch(r"Recipients, unweighted \(N = (\d+)\)", headers[1])
+        nonrecipient = re.fullmatch(r"Non-recipients, unweighted \(N = (\d+)\)", headers[3])
+        if (not recipient or not nonrecipient or headers[2] != "Recipients, weighted"
+                or headers[4] != "Non-recipients, weighted"):
+            raise ValueError("Unexpected descriptive-table columns")
+        out.append(
+            r" & \multicolumn{2}{c}{\textbf{\shortstack{Recipients\\N = "
+            + recipient[1] + r"}}} & \multicolumn{2}{c}{\textbf{\shortstack{Non-recipients\\N = "
+            + nonrecipient[1] + r"}}} \\")
+        labels = ["Characteristic", "Unweighted", "Weighted", "Unweighted", "Weighted"]
+        out.append(" & ".join(r"\textbf{" + inline(v) + "}" for v in labels) + r" \\")
+    else:
+        out.append(" & ".join(r"\textbf{" + inline(v) + "}" for v in headers) + r" \\")
+    out.append(r"\hline")
     for row in rows:
         out.append(" & ".join(inline(v) for v in row) + r" \\")
     out.extend([r"\hline", r"\end{tabularx}"])

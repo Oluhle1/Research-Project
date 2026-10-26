@@ -1,0 +1,1312 @@
+{
+  "checked_at_utc": "2026-10-26T13:15:13.246926+00:00",
+  "client_date": "2026-10-26",
+  "baseline_commit": "3ce7c4929254546af2d15e84b784dc7338896896",
+  "scope": "Fresh bibliographic source-access attempts and local citation consistency only; no manuscript edits, model runs or article-findings corroboration",
+  "reference_file_sha256": "cd9702ec90ddc8949c3422c8191b3daf497283e1f4e0bfd17c14eb8fa1214b86",
+  "manuscript_snapshot_sha256": "4dca1a9961e68c3bbd6106a2d11be6b058aaedb76c1eda613cfd6e860eb56a13",
+  "citation_map_sha256": "4aec00476b19bf5567c3fbe9aae85814d8d7bc96585f95bf70170c4c8de9652d",
+  "fresh_network_requests": 63,
+  "successful_source_payloads": 0,
+  "source_server_responses_received": 0,
+  "proxy_CONNECT_403_before_origin": 63,
+  "origin_HTTP_403_responses": 0,
+  "no_TLS_or_proxy_bypass": true,
+  "requests_are_fresh_not_prior_audit_recounts": true,
+  "DOI_or_reference_invalidity_established": false,
+  "mechanical_consistency": {
+    "source_reference_count": 31,
+    "active_references": 29,
+    "first_use_order_matches_generated_map": true,
+    "unused_stable_ids": [
+      26,
+      27
+    ],
+    "duplicate_normalised_DOIs": false,
+    "journal_DOI_count": 18,
+    "dataset_DOI_count": 1,
+    "all_DOI_strings_match_broad_syntax": true,
+    "no_new_authoritative_metadata_fields_invented": true
+  },
+  "records": [
+    {
+      "stable_source_id": 2,
+      "published_number": 3,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.3390/ijerph13010085",
+      "reference_as_recorded": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. no. 85, 2016, doi: 10.3390/ijerph13010085.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 2,
+          "route": "doi_resolver_preflight",
+          "phase": "initial_availability_probe_before_full_entry_batch",
+          "url": "https://doi.org/10.3390/ijerph13010085",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:13:27.790898+00:00",
+          "finished_at_utc": null,
+          "finished_timestamp_note": "Not recorded by preflight script; start timestamp and error preserved from tool output",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin"
+        },
+        {
+          "source_id": 2,
+          "route": "crossref_metadata_preflight",
+          "phase": "initial_availability_probe_before_full_entry_batch",
+          "url": "https://api.crossref.org/works/10.3390%2Fijerph13010085",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:13:27.769235+00:00",
+          "finished_at_utc": null,
+          "finished_timestamp_note": "Not recorded by preflight script; start timestamp and error preserved from tool output",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin"
+        },
+        {
+          "source_id": 2,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.3390%2Fijerph13010085",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.091930+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.113243+00:00"
+        },
+        {
+          "source_id": 2,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.3390/ijerph13010085",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.092538+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.131334+00:00"
+        },
+        {
+          "source_id": 2,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.mdpi.com/1660-4601/13/1/85",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.093052+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.127080+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 6,
+      "published_number": 4,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/0376835X.2016.1231059",
+      "reference_as_recorded": "E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 6,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F0376835X.2016.1231059",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.093659+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.115125+00:00"
+        },
+        {
+          "source_id": 6,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/0376835X.2016.1231059",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.094089+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.126827+00:00"
+        },
+        {
+          "source_id": 6,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/0376835X.2016.1231059",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.094612+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.127375+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 7,
+      "published_number": 1,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/0376835X.2011.545171",
+      "reference_as_recorded": "T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 7,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F0376835X.2011.545171",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.113281+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.129153+00:00"
+        },
+        {
+          "source_id": 7,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/0376835X.2011.545171",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.115147+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.133264+00:00"
+        },
+        {
+          "source_id": 7,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/0376835X.2011.545171",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.126845+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.135289+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 8,
+      "published_number": 2,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1093/wber/lhad037",
+      "reference_as_recorded": "M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 8,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1093%2Fwber%2Flhad037",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.127094+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.137571+00:00"
+        },
+        {
+          "source_id": 8,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1093/wber/lhad037",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.127392+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.139492+00:00"
+        },
+        {
+          "source_id": 8,
+          "route": "candidate_primary_publisher",
+          "url": "https://academic.oup.com/wber/article-lookup/doi/10.1093/wber/lhad037",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.129168+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.141702+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 9,
+      "published_number": 6,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/03768350500322925",
+      "reference_as_recorded": "A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 9,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F03768350500322925",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.131359+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.143363+00:00"
+        },
+        {
+          "source_id": 9,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/03768350500322925",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.133290+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.145606+00:00"
+        },
+        {
+          "source_id": 9,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/03768350500322925",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.135313+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.147933+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 10,
+      "published_number": 7,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.3402/gha.v7.25310",
+      "reference_as_recorded": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. no. 25310, 2014, doi: 10.3402/gha.v7.25310.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 10,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.3402%2Fgha.v7.25310",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.137628+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.150337+00:00"
+        },
+        {
+          "source_id": 10,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.3402/gha.v7.25310",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.139522+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.153049+00:00"
+        },
+        {
+          "source_id": 10,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.3402/gha.v7.25310",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.141728+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.155449+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 11,
+      "published_number": 11,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/00220388.2020.1715942",
+      "reference_as_recorded": "J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 11,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F00220388.2020.1715942",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.143388+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.157725+00:00"
+        },
+        {
+          "source_id": 11,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/00220388.2020.1715942",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.145629+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.160066+00:00"
+        },
+        {
+          "source_id": 11,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00220388.2020.1715942",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.147957+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.163329+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 12,
+      "published_number": 13,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1093/jopart/muu009",
+      "reference_as_recorded": "D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 12,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1093%2Fjopart%2Fmuu009",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.150423+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.165069+00:00"
+        },
+        {
+          "source_id": 12,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1093/jopart/muu009",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.153082+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.167921+00:00"
+        },
+        {
+          "source_id": 12,
+          "route": "candidate_primary_publisher",
+          "url": "https://academic.oup.com/jpart/article-lookup/doi/10.1093/jopart/muu009",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.155503+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.170531+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 13,
+      "published_number": 8,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1016/j.worlddev.2015.03.015",
+      "reference_as_recorded": "C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 13,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.worlddev.2015.03.015",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.157752+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.172624+00:00"
+        },
+        {
+          "source_id": 13,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1016/j.worlddev.2015.03.015",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.160090+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.174892+00:00"
+        },
+        {
+          "source_id": 13,
+          "route": "candidate_primary_publisher",
+          "url": "https://linkinghub.elsevier.com/retrieve/doi/10.1016/j.worlddev.2015.03.015",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.163370+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.175953+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 14,
+      "published_number": 9,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/17441692.2018.1449231",
+      "reference_as_recorded": "A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 14,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F17441692.2018.1449231",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.165120+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.178594+00:00"
+        },
+        {
+          "source_id": 14,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/17441692.2018.1449231",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.167952+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.180524+00:00"
+        },
+        {
+          "source_id": 14,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17441692.2018.1449231",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.170555+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.182661+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 15,
+      "published_number": 10,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1080/01488376.2025.2502004",
+      "reference_as_recorded": "T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 15,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1080%2F01488376.2025.2502004",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.172654+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.185598+00:00"
+        },
+        {
+          "source_id": 15,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1080/01488376.2025.2502004",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.174921+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.187592+00:00"
+        },
+        {
+          "source_id": 15,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/01488376.2025.2502004",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.176010+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.189437+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 16,
+      "published_number": 14,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.25159/2708-9355/9052",
+      "reference_as_recorded": "S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. no. 9052, 2022, doi: 10.25159/2708-9355/9052.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 16,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.25159%2F2708-9355%2F9052",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.178851+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.191703+00:00"
+        },
+        {
+          "source_id": 16,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.25159/2708-9355/9052",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.180553+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.193976+00:00"
+        },
+        {
+          "source_id": 16,
+          "route": "candidate_primary_publisher",
+          "url": "https://unisapressjournals.co.za/index.php/SWPR/article/view/9052",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.182690+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.197906+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 17,
+      "published_number": 15,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1016/j.procs.2024.05.177",
+      "reference_as_recorded": "A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 17,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.procs.2024.05.177",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.185624+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.198298+00:00"
+        },
+        {
+          "source_id": 17,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1016/j.procs.2024.05.177",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.187619+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.200085+00:00"
+        },
+        {
+          "source_id": 17,
+          "route": "candidate_primary_publisher",
+          "url": "https://linkinghub.elsevier.com/retrieve/doi/10.1016/j.procs.2024.05.177",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.189463+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.201268+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 19,
+      "published_number": 17,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1186/s12916-019-1466-7",
+      "reference_as_recorded": "B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. no. 230, 2019, doi: 10.1186/s12916-019-1466-7.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 19,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1186%2Fs12916-019-1466-7",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.191742+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.204218+00:00"
+        },
+        {
+          "source_id": 19,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1186/s12916-019-1466-7",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.193998+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.205774+00:00"
+        },
+        {
+          "source_id": 19,
+          "route": "candidate_primary_publisher",
+          "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1466-7",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.197932+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.209528+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 20,
+      "published_number": 16,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1371/journal.pone.0118432",
+      "reference_as_recorded": "T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. no. e0118432, 2015, doi: 10.1371/journal.pone.0118432.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 20,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.198322+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.207535+00:00"
+        },
+        {
+          "source_id": 20,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1371/journal.pone.0118432",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.200109+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.211439+00:00"
+        },
+        {
+          "source_id": 20,
+          "route": "candidate_primary_publisher",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.201291+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.213914+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 21,
+      "published_number": 18,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1002/sim.7992",
+      "reference_as_recorded": "R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 21,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1002%2Fsim.7992",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.204241+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.216223+00:00"
+        },
+        {
+          "source_id": 21,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1002/sim.7992",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.205805+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.218527+00:00"
+        },
+        {
+          "source_id": 21,
+          "route": "candidate_primary_publisher",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/sim.7992",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.207548+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.221061+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 22,
+      "published_number": 19,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.1111/ecog.02881",
+      "reference_as_recorded": "D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 22,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.209551+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.223181+00:00"
+        },
+        {
+          "source_id": 22,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.1111/ecog.02881",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.211460+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.225237+00:00"
+        },
+        {
+          "source_id": 22,
+          "route": "candidate_primary_publisher",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.213940+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.227516+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 23,
+      "published_number": 20,
+      "type": "journal_article",
+      "DOI_as_recorded": "10.7326/M14-0697",
+      "reference_as_recorded": "G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 23,
+          "route": "crossref_metadata",
+          "url": "https://api.crossref.org/works/10.7326%2FM14-0697",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.216249+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.231296+00:00"
+        },
+        {
+          "source_id": 23,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.7326/M14-0697",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.218548+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.234119+00:00"
+        },
+        {
+          "source_id": 23,
+          "route": "candidate_primary_publisher",
+          "url": "https://www.acpjournals.org/doi/10.7326/M14-0697",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.221084+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.236327+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 18,
+      "published_number": 12,
+      "type": "masters_research_report",
+      "DOI_as_recorded": null,
+      "reference_as_recorded": "M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 18,
+          "route": "handle_preflight",
+          "phase": "initial_availability_probe_before_full_entry_batch",
+          "url": "https://hdl.handle.net/10539/40003",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:13:27.794929+00:00",
+          "finished_at_utc": null,
+          "finished_timestamp_note": "Not recorded by preflight script; start timestamp and error preserved from tool output",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin"
+        },
+        {
+          "source_id": 18,
+          "route": "persistent_handle_resolver",
+          "url": "https://hdl.handle.net/10539/40003",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.231352+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.243976+00:00"
+        },
+        {
+          "source_id": 18,
+          "route": "candidate_Wits_repository_record",
+          "url": "https://wiredspace.wits.ac.za/handle/10539/40003",
+          "candidate_route_not_authenticated": true,
+          "started_at_utc": "2026-10-26T13:15:13.234147+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.245671+00:00"
+        }
+      ]
+    },
+    {
+      "stable_source_id": 31,
+      "published_number": 29,
+      "type": "dataset",
+      "DOI_as_recorded": "10.25828/9229-xz60",
+      "reference_as_recorded": "Statistics South Africa, Living Conditions Survey 2014–2015, ver. 1.1 [dataset]. Pretoria, South Africa: Statistics South Africa, producer; Cape Town, South Africa: DataFirst, distributor, 2017, doi: 10.25828/9229-xz60.",
+      "status": "live_metadata_verification_blocked",
+      "new_authoritative_metadata_verified": null,
+      "existing_fields_not_newly_verified": [
+        "authors",
+        "title",
+        "publication year",
+        "journal/institution",
+        "volume",
+        "issue",
+        "pages/article number",
+        "identifier resolution"
+      ],
+      "attempts": [
+        {
+          "source_id": 31,
+          "route": "DataFirst_preflight",
+          "phase": "initial_availability_probe_before_full_entry_batch",
+          "url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:13:27.798526+00:00",
+          "finished_at_utc": null,
+          "finished_timestamp_note": "Not recorded by preflight script; start timestamp and error preserved from tool output",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin"
+        },
+        {
+          "source_id": 31,
+          "route": "datacite_metadata",
+          "url": "https://api.datacite.org/dois/10.25828/9229-xz60",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.223205+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.238418+00:00"
+        },
+        {
+          "source_id": 31,
+          "route": "doi_resolver",
+          "url": "https://doi.org/10.25828/9229-xz60",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.225263+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.240164+00:00"
+        },
+        {
+          "source_id": 31,
+          "route": "author_supplied_DataFirst_catalogue",
+          "url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/608",
+          "candidate_route_not_authenticated": false,
+          "started_at_utc": "2026-10-26T13:15:13.227541+00:00",
+          "source_server_response_received": false,
+          "origin_http_status": null,
+          "proxy_CONNECT_status": 403,
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "status": "blocked_by_proxy_before_origin",
+          "finished_at_utc": "2026-10-26T13:15:13.242005+00:00"
+        }
+      ]
+    }
+  ],
+  "unattempted_reference_classes": {
+    "StatsSA_document_ids": [
+      3,
+      4,
+      5
+    ],
+    "reason": "Three retained primary PDFs and author-supplied catalogue already document bibliographic facts; local reinspection handled by legal/source task. No new provider payload obtained.",
+    "government_source_ids": [
+      1,
+      24,
+      25,
+      28,
+      29,
+      30
+    ],
+    "government_review": "Retained original regulation/rate PDFs checked by separate legal task, not a fresh web consolidation here."
+  },
+  "dataset_catalogue_evidence_carried_forward": {
+    "record": "paper/datafirst_catalogue_evidence_2026-10-22.json",
+    "type": "Author-supplied provider transcription, not new live retrieval",
+    "supported_dataset_facts": [
+      "Version1.1,18September2017",
+      "Edited/anonymised public distribution and public access",
+      "ProducerStatsSA/distributorDataFirst2017",
+      "DOI10.25828/9229-xz60"
+    ],
+    "DDI_version3_date2020_not_dataset_edition": true
+  },
+  "remaining_action": "Retrieve source metadata through authorised network access or supply Crossref/publisher exports and thesis repository/title-page evidence; failed proxy requests do not authenticate the fields or invalidate identifiers.",
+  "records_edited_in_repository": false,
+  "per_entry_batch_requests": 59,
+  "initial_availability_probe_requests": 4
+}

@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-26T13:29:09.735815+00:00",
+  "scope": "Read-only final III.B review after parent adopted and condensed candidate",
+  "status": "passed",
+  "section_sha256": "db7e324b5786ac61e1df2c87d2164971715763d73246849446b64b0e20284de4",
+  "section_words": 350,
+  "primary_source_audit": "legal_recheck.json",
+  "source_file_hashes_still_match": true,
+  "all_four_monetary_research_boundaries_preserved": true,
+  "periods_rates_formula_minimum_equality_half_joint_preserved": true,
+  "age75_standard_rate_choice_and_sensitivity_preserved": true,
+  "survey_income_spouse_and_grant_anchors_supported": true,
+  "legal_vs_conservative_research_choices_distinguished": true,
+  "all_resolved_unresolved_failure_skip_and_denominator_rules_preserved": true,
+  "Gazette_page3_reference_locators24_25_correct": true,
+  "exhaustive_statutory_eligibility_claim_introduced": false,
+  "substantive_loss_found": false,
+  "repository_files_edited": []
+}

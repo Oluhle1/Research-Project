@@ -13,7 +13,7 @@
   "journal_metadata_records_retrieved": 0,
   "thesis_primary_records_retrieved": 0,
   "stats_sa_primary_files_inspected": 3,
-  "legal_sources_carried_forward": 6,
+  "legal_sources_carried_forward": 1,
   "minimum_domains_for_remaining_checks": [
     "api.crossref.org",
     "doi.org",
@@ -23,7 +23,7 @@
   "blocker": "HTTPS proxy CONNECT 403 before origin content; this is not evidence that a DOI or reference is invalid. General network permission was approved, but the proxy continued to refuse access. No TLS/proxy bypass was used.",
   "correction_policy": "No unverified author, title, month, volume, issue, pages, degree, department, deposit date or thesis DOI was invented. Existing journal DOI strings and thesis metadata were preserved; Art. no. is a formatting change.",
   "historical_audit_limit": "A prior narrative in Git at e0b29b9 claims Crossref/Wits checks, but raw source responses were not retained. It is historical provenance, not fresh independent verification.",
-  "reference_file_sha256": "cd9702ec90ddc8949c3422c8191b3daf497283e1f4e0bfd17c14eb8fa1214b86",
+  "reference_file_sha256": "51e30084eb726959a1fd0f8a326ced7e281d351ac350e5c82c4e00cc837f31d3",
   "records": [
     {
       "stable_source_id": 7,
@@ -33,7 +33,8 @@
       "doi": "10.1080/0376835X.2011.545171",
       "reference": "T. Raniga and B. Simpson, “Poverty, HIV/AIDS and the old age pension in Bhambayi, KwaZulu-Natal, South Africa,” Dev. South. Afr., vol. 28, no. 1, pp. 75–85, 2011, doi: 10.1080/0376835X.2011.545171.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 8,
@@ -43,7 +44,8 @@
       "doi": "10.1093/wber/lhad037",
       "reference": "M. Alloush, J. R. Bloem, and J. G. Malacarne, “Social protection amid a crisis: New evidence from South Africa’s Older Person’s Grant,” World Bank Econ. Rev., vol. 38, no. 2, pp. 371–393, 2024, doi: 10.1093/wber/lhad037.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 2,
@@ -53,7 +55,8 @@
       "doi": "10.3390/ijerph13010085",
       "reference": "M. Ralston, E. Schatz, J. Menken, F. X. Gómez-Olivé, and S. Tollman, “Who benefits—or does not—from South Africa’s old age pension? Evidence from characteristics of rural pensioners and non-pensioners,” Int. J. Environ. Res. Public Health, vol. 13, no. 1, Art. no. 85, 2016, doi: 10.3390/ijerph13010085.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 6,
@@ -63,7 +66,8 @@
       "doi": "10.1080/0376835X.2016.1231059",
       "reference": "E. B. Godfrey et al., “Which eligible households get grants? Demographic correlates of receipt in South Africa,” Dev. South. Afr., vol. 33, no. 6, pp. 774–789, 2016, doi: 10.1080/0376835X.2016.1231059.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 1,
@@ -83,7 +87,8 @@
       "doi": "10.1080/03768350500322925",
       "reference": "A. Case, V. Hosegood, and F. Lund, “The reach and impact of Child Support Grants: Evidence from KwaZulu-Natal,” Dev. South. Afr., vol. 22, no. 4, pp. 467–482, 2005, doi: 10.1080/03768350500322925.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 10,
@@ -93,7 +98,8 @@
       "doi": "10.3402/gha.v7.25310",
       "reference": "W. Zembe-Mkabile, T. Doherty, D. Sanders, and D. Jackson, “Child Support Grant access and receipt among 12-week-old infants in an urban township setting in South Africa,” Global Health Action, vol. 7, no. 1, Art. no. 25310, 2014, doi: 10.3402/gha.v7.25310.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 13,
@@ -103,7 +109,8 @@
       "doi": "10.1016/j.worlddev.2015.03.015",
       "reference": "C. J. Heinrich and R. Brill, “Stopped in the name of the law: Administrative burden and its implications for cash transfer program effectiveness,” World Dev., vol. 72, pp. 277–295, 2015, doi: 10.1016/j.worlddev.2015.03.015.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 14,
@@ -113,7 +120,8 @@
       "doi": "10.1080/17441692.2018.1449231",
       "reference": "A. Gibbs, L. Washington, N. Jama Shai, Y. Sikweyiya, and S. Willan, “Systematically excluded: Young women’s experiences of accessing child support grants in South Africa,” Global Public Health, vol. 13, no. 12, pp. 1820–1830, 2018, doi: 10.1080/17441692.2018.1449231.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 15,
@@ -123,7 +131,8 @@
       "doi": "10.1080/01488376.2025.2502004",
       "reference": "T. N. Majola and P. Maharaj, “The challenges associated with the Child Support Grant application process: A case of young mothers in a South African township,” J. Soc. Serv. Res., vol. 51, nos. 5–6, pp. 1140–1150, 2025, doi: 10.1080/01488376.2025.2502004.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 11,
@@ -133,7 +142,8 @@
       "doi": "10.1080/00220388.2020.1715942",
       "reference": "J. Gazeaud, “Proxy means testing vulnerability to measurement errors?,” J. Dev. Stud., vol. 56, no. 11, pp. 2113–2133, 2020, doi: 10.1080/00220388.2020.1715942.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 18,
@@ -143,7 +153,8 @@
       "doi": null,
       "reference": "M. T. Mabala, “Factors associated with social grant uptake in South Africa: A closer look at the Special COVID-19 Social Relief of Distress Grant among the youth aged 18–35 years,” Master’s research report, University of the Witwatersrand, Johannesburg, South Africa, 2023. Available: https://hdl.handle.net/10539/40003.",
       "evidence": "reference_audit/thesis.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 12,
@@ -153,7 +164,8 @@
       "doi": "10.1093/jopart/muu009",
       "reference": "D. P. Moynihan, P. Herd, and H. Harvey, “Administrative burden: Learning, psychological, and compliance costs in citizen-state interactions,” J. Public Adm. Res. Theory, vol. 25, no. 1, pp. 43–69, 2015, doi: 10.1093/jopart/muu009.",
       "evidence": "reference_audit/journal_group_a.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 16,
@@ -163,7 +175,8 @@
       "doi": "10.25159/2708-9355/9052",
       "reference": "S. Granlund, “They are not leaving without their money: Exploring encounters with the state through cash transfers in the rural Eastern Cape, South Africa,” South. Afr. J. Soc. Work Soc. Dev., vol. 34, no. 1, Art. no. 9052, 2022, doi: 10.25159/2708-9355/9052.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 17,
@@ -173,7 +186,8 @@
       "doi": "10.1016/j.procs.2024.05.177",
       "reference": "A. N. Vujovic, G. M. Jonathan, and S. Hacks, “Digitalisation and its impact on social protection programmes effectiveness: A case from South Africa,” Procedia Comput. Sci., vol. 237, pp. 882–890, 2024, doi: 10.1016/j.procs.2024.05.177.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 20,
@@ -183,7 +197,8 @@
       "doi": "10.1371/journal.pone.0118432",
       "reference": "T. Saito and M. Rehmsmeier, “The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets,” PLOS ONE, vol. 10, no. 3, Art. no. e0118432, 2015, doi: 10.1371/journal.pone.0118432.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 19,
@@ -193,7 +208,8 @@
       "doi": "10.1186/s12916-019-1466-7",
       "reference": "B. Van Calster et al., “Calibration: The Achilles heel of predictive analytics,” BMC Med., vol. 17, Art. no. 230, 2019, doi: 10.1186/s12916-019-1466-7.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 21,
@@ -203,7 +219,8 @@
       "doi": "10.1002/sim.7992",
       "reference": "R. D. Riley et al., “Minimum sample size for developing a multivariable prediction model: Part II—binary and time-to-event outcomes,” Stat. Med., vol. 38, no. 7, pp. 1276–1296, 2019, doi: 10.1002/sim.7992.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 22,
@@ -213,7 +230,8 @@
       "doi": "10.1111/ecog.02881",
       "reference": "D. R. Roberts et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure,” Ecography, vol. 40, no. 8, pp. 913–929, 2017, doi: 10.1111/ecog.02881.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 23,
@@ -223,7 +241,8 @@
       "doi": "10.7326/M14-0697",
       "reference": "G. S. Collins, J. B. Reitsma, D. G. Altman, and K. G. M. Moons, “Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement,” Ann. Intern. Med., vol. 162, no. 1, pp. 55–63, 2015, doi: 10.7326/M14-0697.",
       "evidence": "reference_audit/journal_group_b.json",
-      "source_content_retrieved": false
+      "source_content_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     },
     {
       "stable_source_id": 3,
@@ -271,51 +290,61 @@
       "stable_source_id": 24,
       "published_reference": 24,
       "type": "legislation_or_government_notice",
-      "status": "carried_forward_not_rechecked_this_revision",
+      "status": "selected_facts_checked_against_retained_primary_PDF_2026_10_26",
       "doi": null,
-      "reference": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.",
-      "evidence": "historical_thresholds_verified_audit.json",
-      "source_content_retrieved_this_revision": false
+      "reference": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, p. 3, Mar. 28, 2014.",
+      "evidence": "historical_thresholds_recheck_2026-10-26.json",
+      "fresh_primary_recheck": "historical_thresholds_recheck_2026-10-26.json",
+      "local_primary_text_inspected_in_latest_recheck": true,
+      "remote_origin_content_retrieved_in_latest_recheck": false
     },
     {
       "stable_source_id": 25,
       "published_reference": 25,
       "type": "legislation_or_government_notice",
-      "status": "carried_forward_not_rechecked_this_revision",
+      "status": "selected_facts_checked_against_retained_primary_PDF_2026_10_26",
       "doi": null,
-      "reference": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.",
-      "evidence": "historical_thresholds_verified_audit.json",
-      "source_content_retrieved_this_revision": false
+      "reference": "Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, p. 3, Mar. 30, 2015.",
+      "evidence": "historical_thresholds_recheck_2026-10-26.json",
+      "fresh_primary_recheck": "historical_thresholds_recheck_2026-10-26.json",
+      "local_primary_text_inspected_in_latest_recheck": true,
+      "remote_origin_content_retrieved_in_latest_recheck": false
     },
     {
       "stable_source_id": 29,
       "published_reference": 26,
       "type": "legislation_or_government_notice",
-      "status": "carried_forward_not_rechecked_this_revision",
+      "status": "selected_facts_checked_against_retained_primary_PDF_2026_10_26",
       "doi": null,
       "reference": "Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R211, Government Gazette 37474, pp. 4–5, Mar. 28, 2014.",
-      "evidence": "historical_thresholds_verified_audit.json",
-      "source_content_retrieved_this_revision": false
+      "evidence": "historical_thresholds_recheck_2026-10-26.json",
+      "fresh_primary_recheck": "historical_thresholds_recheck_2026-10-26.json",
+      "local_primary_text_inspected_in_latest_recheck": true,
+      "remote_origin_content_retrieved_in_latest_recheck": false
     },
     {
       "stable_source_id": 28,
       "published_reference": 27,
       "type": "legislation_or_government_notice",
-      "status": "carried_forward_not_rechecked_this_revision",
+      "status": "selected_facts_checked_against_retained_primary_PDF_2026_10_26",
       "doi": null,
       "reference": "Dept. of Social Development, “Social Assistance Act: Regulations,” Government Notice R898, Government Gazette 31356, Aug. 22, 2008.",
-      "evidence": "historical_thresholds_verified_audit.json",
-      "source_content_retrieved_this_revision": false
+      "evidence": "historical_thresholds_recheck_2026-10-26.json",
+      "fresh_primary_recheck": "historical_thresholds_recheck_2026-10-26.json",
+      "local_primary_text_inspected_in_latest_recheck": true,
+      "remote_origin_content_retrieved_in_latest_recheck": false
     },
     {
       "stable_source_id": 30,
       "published_reference": 28,
       "type": "legislation_or_government_notice",
-      "status": "carried_forward_not_rechecked_this_revision",
+      "status": "selected_facts_checked_against_retained_primary_PDF_2026_10_26",
       "doi": null,
       "reference": "Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R621, Government Gazette 39007, Jul. 21, 2015.",
-      "evidence": "historical_thresholds_verified_audit.json",
-      "source_content_retrieved_this_revision": false
+      "evidence": "historical_thresholds_recheck_2026-10-26.json",
+      "fresh_primary_recheck": "historical_thresholds_recheck_2026-10-26.json",
+      "local_primary_text_inspected_in_latest_recheck": true,
+      "remote_origin_content_retrieved_in_latest_recheck": false
     },
     {
       "stable_source_id": 31,
@@ -326,7 +355,8 @@
       "reference": "Statistics South Africa, Living Conditions Survey 2014–2015, ver. 1.1 [dataset]. Pretoria, South Africa: Statistics South Africa, producer; Cape Town, South Africa: DataFirst, distributor, 2017, doi: 10.25828/9229-xz60.",
       "evidence": "datafirst_catalogue_evidence_2026-10-22.json",
       "source_content_supplied_by_author": true,
-      "provider_page_independently_retrieved": false
+      "provider_page_independently_retrieved": false,
+      "latest_independent_attempt_record": "reference_audit/recheck_2026-10-26.json"
     }
   ],
   "latest_StatsSA_release_review": {
@@ -340,5 +370,14 @@
     "followup_evidence": "datafirst_catalogue_evidence_2026-10-22.json",
     "named_dataset_public_access_status": "Author-supplied catalogue text identifies edited/anonymised version1.1 as public access and for public distribution; no new online retrieval occurred",
     "blanket_repository_review_claimed": false
-  }
+  },
+  "latest_reference_recheck": {
+    "date": "2026-10-26",
+    "record": "reference_audit/recheck_2026-10-26.json",
+    "requests": 63,
+    "authoritative_metadata_responses": 0,
+    "outcome": "Proxy CONNECT403 before origin access; no fresh factual journal/thesis corrections supported. DOI syntax and citation consistency checked locally.",
+    "government_notice_page_locators_verified": "References24/25Gazettepage3 checked against retained original notices; see historical_thresholds_recheck_2026-10-26.json"
+  },
+  "legal_sources_selected_provisions_freshly_checked": 5
 }

@@ -98,15 +98,15 @@ NOTE: Released documentation supports these field uses [21], [22], [23]. Filling
 
 ### B. Screening rules and receipt outcome
 
-The screen summed already annualised, nominal person-income amounts, excluding social-assistance income. It did not allocate household income. A missing applicant or linked-spouse amount remained unresolved unless the no-income response and absent schedule supported zero. Assets, deemed income and permitted deductions were outside this research proxy.
+The screen summed released annualised nominal person income (metadata, p. 182) [21], excluding social assistance without allocating household totals. Zero required Q1.17(14)'s no-income response [23] and an absent schedule; missing applicant/spouse amounts otherwise remained unresolved. The proxy omits assets, deemed income and deductions.
 
-GN 211 set the standard monthly maximum at R1,350 from 1 April 2014 [24]; GN 277 raised it to R1,410 from 1 April 2015 [25]. Government Notice R211, a separate amendment in the same gazette, substituted D = 1.6A − 0.4B from 1 April 2014 in Schedule paragraph 2 [26]. With annual standard maximum A and minimum D = R1,200 (Annexure A(5)) [27], B = (1.6A − 1,200)/0.4. This yields annual single/couple research ceilings of R61,800/R123,600 for October 2014–March 2015 and R64,680/R129,360 for April–October 2015. Half-joint income doubles couple limits; equality passed. The screen applied these boundaries to its private-income proxy. Both notices add R20 for age 75+; the primary screen retained the standard maximum across ages, while S1c tested the supplement. S1 also tested period and payment-boundary alternatives.
+GN 211 set the standard maximum at R1,350 monthly from 1 April 2014 [24]; GN 277 raised it to R1,410 from 1 April 2015 [25]. GN R211 amended Annexure A(2) to D = 1.6A − 0.4B from 1 April 2014 [26]. With annual maximum A and minimum D = R1,200 (R100 monthly; Annexure A(5)) [27], B = (1.6A − 1,200)/0.4 gives annual single/couple research ceilings of R61,800/R123,600 for October 2014–March 2015 and R64,680/R129,360 for April–October 2015. Half-joint income doubles couple boundaries; equality passed. Standard rates applied at all ages; S1c tested both notices' R20 age-75+ supplement, and S1 tested period/payment boundaries.
 
-The 2008 regulations define spouses (regulation 1), include spouse income regardless of property regime (18(2)) and use half-joint annual income (19(1)). They allow Agency-approved exclusion after continuous desertion for at least three months and unwillingness to support (18(3)) [27]. The July 2015 amendment left these OPG means provisions unchanged [28]. Survey responses established neither legal spouse status nor desertion conditions. Never-married, widowed and divorced adults used single ceilings. For married adults, research rules required resolved applicant/spouse incomes and reciprocal pointers linking a resident spouse; sums applied regardless of spouse age. Nonresident spouse income was unavailable; separated respondents lacked spouse details [23]. Cohabitation, unspecified status and missing/inconsistent links remained unresolved, without assumed single status or zero partner income. S2 tested alternatives.
+Regulation 1 defines recognised spouses; regulations 18(2) and 19(1) require spouse income regardless of property regime and use half-joint annual income. Regulation 18(3) allows Agency-approved exclusion after at least three continuous months of desertion and unwillingness to support [27]. The July 2015 amendment left these provisions unchanged [28]. Survey responses established neither legal spouse status nor desertion approval. Never-married, widowed and divorced adults used single ceilings. Conservative research rules required resolved applicant/spouse incomes and resident, reciprocal spouse pointers for married adults, summing both incomes regardless of spouse age. Nonresident income was unavailable; separated respondents skipped spouse details [23]. Cohabitation, unspecified status and missing/inconsistent links remained unresolved without assumed single status or zero partner income. S2 tested alternatives.
 
-An adult's reported disability or war-veterans grant caused FAIL. Caregiver child grants and grant-in-aid neither excluded the adult nor defined OPG receipt. A known failure took priority over unresolved information; the screen retained all reasons.
+Own disability/war-veterans receipt caused FAIL (regulation 2(c)); regulation 5 permits grant-in-aid [27]. Grant-in-aid and caregiver child grants neither excluded adults nor defined OPG receipt (Q4.1b) [23]. A known failure overrode unresolved information; all reasons were retained.
 
-For adults who passed, the software interpreted general-grant and OPG answers together, including structural skips (questions omitted because earlier answers make them inapplicable). A consistent “no grant” answer can establish non-receipt when the OPG follow-up does not apply. Contradictory or unexplained answers remain unresolved and exclude the person from modelling. The analysis flagged disagreements between current receipt and preceding-year OPG income without changing the outcome because the periods differ. Rule version opg-kzn-primary-v1 records these decisions. The denominator contains adults who pass and have a clear receipt answer.
+Among PASS adults, general-grant and OPG answers were interpreted with structural skips [23]. Consistent “no grant” with an inapplicable OPG follow-up established non-receipt; contradictory/unexplained answers remained unresolved and outside modelling. Current-receipt/prior-year OPG-income disagreements were flagged without overriding outcomes because periods differ. Rule opg-kzn-primary-v1 records these decisions; the denominator requires PASS and resolved receipt.
 
 ### C. Survey-weighted description and uncertainty
 
@@ -118,9 +118,9 @@ Released files lack strata. Derived primary sampling units (PSUs), allowing repe
 
 The unweighted logistic model estimated probability of reported non-receipt. The analysis did not rebalance recipients and non-recipients, automatically select variables or choose a cutoff. The model describes associations after accounting for other predictors. Age enters per decade above 60. Comparison categories are male, Grade 7 or above, urban formal and an office nearer than 5 km. Five predictor groups require six slopes and an intercept, because settlement requires two comparisons.
 
-Rural formal settlement had 31 adults and one non-recipient. One seven-slope training fold contained 30 rural-formal adults and no event; its coefficient was about −21.88 and did not converge. Four of five folds converged. Decision D-052 combined rural formal with traditional settlement after examining this outcome pattern, without repeating that choice inside each training fold. The primary ordinary merged model is therefore retained as an exploratory reference. Its coefficients and performance are conditional on D-052; household-held-out testing does not validate the complete model-selection process and may be optimistic. Supplementary Table S2 retains the failed attempt as a diagnostic. Ridge regression compared both codings on the same household folds. Five inner household folds selected C by mean Brier score with training-only imputation and scaling; all ten outer fits chose C = 0.1 and converged. AUC was 0.756 for merged and 0.750 for separate coding. This comparison cannot remove outcome-informed selection or establish equivalence or superiority of either coding. Income, receipt, derived labels and marital status do not enter the primary model.
+Rural formal settlement had 31 adults and one non-recipient. One seven-slope training fold contained 30 rural-formal adults and no event; its coefficient was about −21.88 and did not converge. Four of five folds converged. D-052 then merged rural formal with traditional settlement after observing this pattern, outside the training folds. The primary ordinary merged model remains exploratory; its coefficients and performance are conditional on D-052 and may be optimistic. Household hold-out does not validate the complete selection process. Confirmatory work should prespecify coding or select it within each outer training set. Supplementary Table S2 retains the failed attempt and compares ridge codings on the same household folds. Five inner household folds selected C by mean Brier score with training-only imputation and scaling; all ten outer fits converged with C = 0.1. AUC was 0.756 for merged and 0.750 for separate coding. These comparisons cannot remove outcome-informed selection or establish equivalence or superiority. Income, receipt, derived labels and marital status do not enter the primary model.
 
-Validation used five household-grouped folds. Sorted households were labelled by whether any member reported non-receipt, then stratified so every adult from a household stayed in one fold. Seed 201415 fixes this division. The 1,013 adults come from 827 households: 182 contain more than one modelled adult, and 6 contain both receipt and non-receipt. Each adult received one out-of-fold (OOF) probability from a model trained without that household. The intercept-only reference uses the training group's non-receipt rate.
+Validation used five household-grouped folds. Sorted households were labelled by whether any member reported non-receipt, then stratified so every adult from a household stayed in one fold. Seed 201415 fixes this division. The 1,013 adults come from 827 households: 182 contain more than one modelled adult, and 6 contain both receipt and non-receipt. Each adult received one out-of-fold (OOF) probability from a model trained without that household. The intercept-only reference uses the training group's non-receipt rate. These internal estimates do not establish performance in independent populations or survey periods.
 
 After interpreting skipped questions, each training fold supplied the fill-in for its held-out adults. Schooling contrasted below Grade 7 with Grade 7 or above, and office distance contrasted at least 5 km or unavailable with nearer than 5 km. Other codes stayed missing. The training fold filled missing age, in decades above 60, with its median, and a missing category with its most frequent code, or the smaller code in a tie. Eligibility, receipt and weights were not filled or modelled. Three recipients lacked usable schooling; 14 recipients and four non-recipients lacked usable office distance. Age, sex and settlement were already complete.
 
@@ -166,17 +166,17 @@ FIGURE: figures/cohort_flow.png | Fig. 3. FAIL, UNRESOLVED and PASS groups do no
 Among 1,013 adults, 67 reported non-receipt: 6.61% unweighted and 7.49% person-weighted. Using 345 derived PSUs gave a standard error of 1.3 percentage points and an approximate normal 95% interval of 4.9%–10.0%; missing strata limit it. All PASS answers agreed with preceding-year OPG income. Table V describes receipt-group composition before imputation, not non-receipt rates or predictions.
 
 TABLE: Table V. Characteristics by reported OPG receipt, before imputation
-| Characteristic | Recipients, N = 946 | Non-recipients, N = 67 |
-| --- | --- | --- |
-| Age, mean years | 70.4 unw.; 69.8 wtd | 67.3 unw.; 68.4 wtd |
-| Female | 686 (72.5%) unw.; 70.4% wtd | 33 (49.3%) unw.; 53.4% wtd |
-| Grade 7 or above | 290 (30.7%) unw.; 33.0% wtd | 49 (73.1%) unw.; 80.8% wtd |
-| Schooling missing | 3 (0.3%) unw.; 0.4% wtd | 0 (0.0%) unw.; 0.0% wtd |
-| Urban formal settlement | 284 (30.0%) unw.; 36.2% wtd | 38 (56.7%) unw.; 66.2% wtd |
-| Office ≥5 km or unavailable | 717 (75.8%) unw.; 72.0% wtd | 34 (50.7%) unw.; 40.3% wtd |
-| Office distance missing | 14 (1.5%) unw.; 1.8% wtd | 4 (6.0%) unw.; 7.2% wtd |
+| Characteristic | Recipients, unweighted (N = 946) | Recipients, weighted | Non-recipients, unweighted (N = 67) | Non-recipients, weighted |
+| --- | --- | --- | --- | --- |
+| Age, mean years | 70.4 | 69.8 | 67.3 | 68.4 |
+| Female | 686 (72.5%) | 70.4% | 33 (49.3%) | 53.4% |
+| Grade 7 or above | 290 (30.7%) | 33.0% | 49 (73.1%) | 80.8% |
+| Schooling missing | 3 (0.3%) | 0.4% | 0 (0.0%) | 0.0% |
+| Urban formal settlement | 284 (30.0%) | 36.2% | 38 (56.7%) | 66.2% |
+| Office ≥5 km or unavailable | 717 (75.8%) | 72.0% | 34 (50.7%) | 40.3% |
+| Office distance missing | 14 (1.5%) | 1.8% | 4 (6.0%) | 7.2% |
 
-NOTE: unw. is the unweighted count and percentage, or the unweighted mean age. wtd is the person-weighted percentage or mean. Missing predictors remain in the denominators. Supplementary Table S4 prints the unweighted and weighted values in separate columns. These summaries have no uncertainty intervals.
+NOTE: Unweighted cells show n (%) and weighted cells person-weighted percentages; age cells show means in completed years. N = 946 and N = 67 are sample sizes. Missing predictors remain in denominators. Values precede imputation; no uncertainty intervals were calculated. Supplementary Table S4 repeats these values.
 
 ### B. Screening sensitivity
 
@@ -287,7 +287,7 @@ The study analysed anonymised LCS 2014/2015 secondary data from Stats SA via Dat
 
 ## VIII. Conclusion
 
-Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578. Shared rules make screening, receipt and prediction inspectable. Future work should independently validate the frozen model before updating it and test intended users’ task success, errors, time and perceived ease. Legal entitlement, causal explanations, human usability and external predictive validity remain unestablished.
+Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives gave 7.1%–9.1%. Five predictor groups/six slopes gave AUC 0.752, AP 0.203 and Brier 0.0578. The principal contribution is a reproducible, interpretable workflow linking observable screening, person-weighted description and exploratory prediction. Future work should independently validate the frozen model before updating it and test intended users’ task success, errors, time and perceived ease. Legal entitlement, causal explanations, human usability and external predictive validity remain unestablished.
 
 
 ## References
@@ -338,9 +338,9 @@ Screened non-receipt was 6.6% unweighted and 7.5% person-weighted; alternatives 
 
 [23] Statistics South Africa, Living Conditions Survey 2014/15: Household Questionnaire, n.d.
 
-[24] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, Mar. 28, 2014.
+[24] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 211, Government Gazette 37474, p. 3, Mar. 28, 2014.
 
-[25] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, Mar. 30, 2015.
+[25] Dept. of Social Development, “Increase in respect of social grants,” Government Notice 277, Government Gazette 38647, p. 3, Mar. 30, 2015.
 
 [26] Dept. of Social Development, “Amendment: Social Assistance Regulations,” Government Notice R211, Government Gazette 37474, pp. 4–5, Mar. 28, 2014.
 

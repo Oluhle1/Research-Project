@@ -1,0 +1,268 @@
+{
+  "checked_at_utc": "2026-10-26T13:17:12.018227+00:00",
+  "client_date": "2026-10-26",
+  "baseline_commit": "3ce7c4929254546af2d15e84b784dc7338896896",
+  "scope": "Fresh read-only inspection of retained primary legislation and surveyPDFs for secondfeedbackpoint1; no manuscript/data/analysis edits or modelrefits",
+  "status": "Selected monetary legalchain and surveymeasurement anchors verified; study remains an explicitly incomplete income-only researchscreen",
+  "sources": [
+    {
+      "path": "paper/legal_sources/2014_GN211_GG37474_rates_and_formula.pdf",
+      "sha256": "1d91579a194e20f16451ad99cdf25a4c953dedec87af553f73b612fad8f475b6",
+      "identity": "GN211 rates plus accompanying GNR211 regulatory amendment, GG37474,28March2014",
+      "PDF_pages_read": [
+        1,
+        2,
+        3
+      ],
+      "pages": 3,
+      "verified_facts": [
+        "PDF1/Gazette3 sets standard age60–74 maximum atR1,350/month from1April2014; age75+ getsR20 extra.",
+        "October2014 further adjustment concerns Child Support Grant and Grant-in-Aid, not OPG.",
+        "PDF2/Gazette4 legend identifies bracketed bold text as omissions and underlined text as insertions.",
+        "PDF3/Gazette5 Schedule2 substitutes AnnexureA(2), replacing1.4A−0.4B with1.6A−0.4B, effective1April2014.",
+        "A is annual approved maximum; B referencesreg19 including asset-derived income under19(3), afterreg20 deductions; D is annual payable amount capped atA.",
+        "The amendment pages lack an independent visible R-prefixed notice header; 2015R621 recites the earlier amendment asGNR211."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF3/Gazette5",
+          "quote": "D = [1,4A - 0,4B] 1,6A - 0,4B",
+          "interpretation": "Bracketed term deleted; underlined1.6 term inserted; image visually read."
+        },
+        {
+          "page": "PDF3/Gazette5",
+          "quote": "These regulations will come into effect on 01 April 2014."
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    },
+    {
+      "path": "paper/legal_sources/2015_GN277_GG38647_rates.pdf",
+      "sha256": "b95961f9c0a737a47d80ec9e28d3935abddc82602ca637b6cbaa3673986310c7",
+      "identity": "GN277,GG38647,30March2015",
+      "PDF_pages_read": [
+        1
+      ],
+      "pages": 1,
+      "verified_facts": [
+        "PDF1/Gazette3 sets standard age60–74 maximum atR1,410/month, effective1April2015.",
+        "Age75+ rate remains standard maximum plusR20."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF1/Gazette3",
+          "quote": "The increase will be effected on 1 April 2015"
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    },
+    {
+      "path": "paper/legal_sources/2008_GN_R898_GG31356.pdf",
+      "sha256": "c54ce6e72a31430ddd4fe1c3a8177b113b8f56194856719e8652eb24c66b59c6",
+      "identity": "GNR898,GG31356,22August2008",
+      "PDF_pages_read": [
+        15,
+        16,
+        18,
+        19,
+        40,
+        41,
+        45,
+        46,
+        73,
+        75
+      ],
+      "pages": 81,
+      "verified_facts": [
+        "Reg1 spouse definition includes recognised marriage/customary/civil-union/religious relationships, not merely reported survey marital labels.",
+        "Reg2(c),PDF16 requires no own other socialgrant, subject toreg5; reg5,PDF18 permits grant-in-aid withOPG/disability/war-veterans grant.",
+        "Reg18(2),PDF40 includes applicant/spouse income irrespective of matrimonial property regime.",
+        "Reg18(3),PDF40 requires Agency satisfaction/approval for spouse-income exclusion after at least3continuous months desertion and unwillingness to support.",
+        "Reg19(1),PDF41 uses annual income when not in a spousalrelationship or half combined applicant/spouse annualincome when in one.",
+        "Reg20,PDF45–46 allows specified deductions on documentaryproof; these were not reconstructed by the study.",
+        "AnnexureA(5),PDF75 states grants belowR100/month are notpayable. EqualityR100 is not excluded; it is not a rule rounding smaller amounts upward.",
+        "Reg39,PDF73 commences base regulations onpublication22August2008."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF75/AnnexureA(5)",
+          "quote": "No grant amounting to less than R100 per month is payable."
+        },
+        {
+          "page": "PDF41/reg19(1)",
+          "quote": "half the annual income of the applicant and his or her spouse"
+        },
+        {
+          "page": "PDF40/reg18(3)",
+          "quote": "a continuous period of at least three months"
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    },
+    {
+      "path": "paper/legal_sources/2015_GN_R621_GG39007.pdf",
+      "sha256": "891e2718970bd2ff82140dddb6ddd8f398c8e1c0860094e423defff8308744fb",
+      "identity": "GNR621,GG39007,21July2015",
+      "PDF_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "pages": 16,
+      "verified_facts": [
+        "PDF1/Gazette4 recites GNR211 of28March2014 among preceding amendments.",
+        "All16PDFpages text read: amendment headings concernreg1,7,9,14,15,16,28,32,33 and insertion37A; no substitution ofreg18/19/20, spouse definition or AnnexureA.",
+        "Definition insertion after spouse doesnotreplace spouse definition. No July2015OPG monetary breakpoint follows from this amendment.",
+        "Schedule18,PDF16/Gazette19 commences onpublication21July2015."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF1/Gazette4",
+          "quote": "Government Notice No. R 211 of 28 March 2014."
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    },
+    {
+      "path": "Dataset/metadata/Living Conditions Survey Questionnaire.pdf",
+      "sha256": "abd8e6955e7d64fd8c79d5a6332b37fb82db949a53e6979e1d28008d44d6e72d",
+      "identity": "LCS2014/15 Household Questionnaire",
+      "PDF_pages_read": [
+        5,
+        6,
+        8,
+        25,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "pages": 121,
+      "verified_facts": [
+        "Q1.7,PDF5 distinguishes married,livingtogether,nevermarried,widowed,separated,divorced; separated/widowed/divorced/nevermarried skip spousequestions toQ1.10.",
+        "Q1.8/1.9,PDF6 records whether spouse/partner residesinhousehold and gives a residentpersonnumber; nonresident branch skips personlink.",
+        "Q1.17 option14,PDF8 marks no income sources among01–13; this supports a bounded researchzero rule together with absent schedule, not automatic statutoryzero.",
+        "Q4.1b,PDF25 distinguishes own OPG/disability/war-veterans/grant-in-aid and caregiver-linked childgrants; grant-in-aid notes it accompaniesanothergrant.",
+        "Section24,PDF93–98 collects person-column income for12months, identifies social-assistance components separately."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF8/Q1.17(14)",
+          "quote": "If “No” to all (01 to 13), mark here"
+        },
+        {
+          "page": "PDF6/Q1.9",
+          "quote": "Who is ……’s spouse/partner?"
+        },
+        {
+          "page": "PDF93/Section24",
+          "quote": "All income of members of the household must be recorded here."
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    },
+    {
+      "path": "Dataset/metadata/Living Conditions Survey Metadata.pdf",
+      "sha256": "cec40664e9f0a841e20a57ceebe6ee927aff8c2ee2311c787bcca53e82ae9971",
+      "identity": "LCS2014/2015 Metadata, P0310,2017",
+      "PDF_pages_read": [
+        4,
+        8,
+        10,
+        125,
+        126,
+        128,
+        130,
+        147,
+        148,
+        182,
+        183
+      ],
+      "pages": 186,
+      "verified_facts": [
+        "PDF4 fixes fieldwork13October2014–25October2015; monthly thresholds split within that surveyperiod atApril2015.",
+        "PDF182 defines person-income valueannualized as annual individual income sourcedfrom mainquestionnaire. This is the direct income-specific anchor; expenditureannualisation discussionPDF8 shouldnotstand alone as income proof.",
+        "PDF125–126 repeats marital codes and resident spouse link/skip design; legal relationship/desertion approval not observed.",
+        "PDF128/130 documents Q11714NOTOALL; zero inference remains researchrule requiring corroboration from absent person-income schedule.",
+        "PDF147–148 gives grantresponse codes/missingness for receiptassessment."
+      ],
+      "short_verbatim_evidence": [
+        {
+          "page": "PDF182/valueannualized",
+          "quote": "This is annual individual income sourced from the main questionnaire."
+        },
+        {
+          "page": "PDF126/Q1.8",
+          "quote": "Is ……’s spouse/partner a residing member of this household?"
+        }
+      ],
+      "fresh_primary_PDF_text_read": true
+    }
+  ],
+  "fresh_visual_controls": [
+    {
+      "file": "2014_GN211_GG37474_rates_and_formula.pdf",
+      "PDF_page": 3,
+      "finding": "Deleted1.4 bracketed formula and insertedunderlined1.6 formula visiblyconfirmed"
+    },
+    {
+      "file": "2008_GN_R898_GG31356.pdf",
+      "PDF_page": 75,
+      "finding": "R100minimum clause and desertionexception visuallyconfirmed"
+    }
+  ],
+  "render_warning": "The2008PDF reports missing Fm0XObject on selected pages; text and rendered keyclauses remain readable. No inference was made from missingcontent.",
+  "threshold_arithmetic": [
+    {
+      "interview_period": "October2014–March2015",
+      "monthly_standard_maximum_zar": 1350,
+      "annual_A_zar": 16200,
+      "minimum_annual_D_zar": 1200,
+      "annual_single_research_boundary_zar": 61800,
+      "annual_couple_joint_boundary_zar": 123600,
+      "equation": "B=(1.6A−1200)/0.4; joint boundary=2B",
+      "all_arithmetic_checks_passed": true,
+      "equality_passes": true
+    },
+    {
+      "interview_period": "April–October2015",
+      "monthly_standard_maximum_zar": 1410,
+      "annual_A_zar": 16920,
+      "minimum_annual_D_zar": 1200,
+      "annual_single_research_boundary_zar": 64680,
+      "annual_couple_joint_boundary_zar": 129360,
+      "equation": "B=(1.6A−1200)/0.4; joint boundary=2B",
+      "all_arithmetic_checks_passed": true,
+      "equality_passes": true
+    }
+  ],
+  "research_assumptions_to_keep_distinct": [
+    "Age60+ defines the studyframe; this task didnotverify every historical statutory age amendment",
+    "Using standard60–74maximum atallages is a researchchoice; bothnotices showR20age75supplement and S1caddresses it",
+    "Resident reciprocalspouselinks are researchconsistency checks, not legalspousedefinition",
+    "Separated/cohabiting/nonresident/unmatchedcases remainunresolved, not legallyineligible",
+    "NoAll income plus an absent schedule supportszero onlyunderresearch rule; missingness alone neverbecomeszero",
+    "Assets, deemed assetincome andpermissible deductions remainoutsideincomeproxy; full statutoryeligibilitynot established"
+  ],
+  "important_base_Act_limit": "The retained original2004Actsection10 stillprints60forwomen/65formen. It cannot alone prove operative2014–2015ageequalisation. Nochange to60+researchstudyframe is proposed; avoid claiming exhaustive consolidatedageeligibility verification.",
+  "exhaustive_historical_legal_consolidation_claimed": false,
+  "all_statutory_eligibility_conditions_established": false,
+  "new_remote_source_retrievals": 0,
+  "files_edited_in_repository": [],
+  "model_refitted": false
+}

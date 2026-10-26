@@ -1,0 +1,91 @@
+{
+  "baseline_commit": "3ce7c4929254546af2d15e84b784dc7338896896",
+  "baseline_manuscript_sha256": "4dca1a9961e68c3bbd6106a2d11be6b058aaedb76c1eda613cfd6e860eb56a13",
+  "baseline_supplement_sha256": "7366392cd1871172043b1eef63a6add02181205d876f2e5dfca08eebfd4b228d",
+  "scope": "Read-only comparison of all12 feedback rows against existing methods, ethics, framework and supplement; no changes or fits",
+  "checks": [
+    {
+      "pdf_row": 1,
+      "location": "II.A and Supplementary S5",
+      "status": "already addressed",
+      "basis": "S5 includes eight verbatim queries, date17August2026, source-specific hit/retained counts, relevance/type/language/year criteria, and recorded selection flow; no fresh searches or raw screening log claimed."
+    },
+    {
+      "pdf_row": 2,
+      "location": "II.D and TableII",
+      "status": "already addressed",
+      "basis": "Explicitly distinguishes schooling, settlement and office distance as indirect proxies, not direct burden measurements; psychological costs unmeasured."
+    },
+    {
+      "pdf_row": 3,
+      "location": "III.B",
+      "status": "separate primary-source legal review delegated",
+      "basis": "Thresholds and periods currently given with original notice/regulatory citations; need exact legal/source verification, not new modelling."
+    },
+    {
+      "pdf_row": 4,
+      "location": "III.D settlement paragraph",
+      "status": "exploratory qualification already present; one future-procedure clarification recommended",
+      "basis": "Explicit exploratory primary reference conditional on D-052; household hold-out does not validate coding selection; ridge comparison does not remove selection uncertainty."
+    },
+    {
+      "pdf_row": 5,
+      "location": "III.D household-fold paragraph",
+      "status": "explicit local generalisability limit recommended",
+      "basis": "VI.D and VII already disclaim external validation; add one concise direct sentence beside validation description."
+    },
+    {
+      "pdf_row": 6,
+      "location": "III.D pooled-OOF paragraph and TableVII note",
+      "status": "already addressed; retain unchanged",
+      "basis": "Fixed-prediction bootstrap intervals condition on split/preprocessing/fits/D-052; separate20refit sensitivities repeat preprocessing but reuse participants and fixed coding. No refitted bootstrap is claimed; optional consideration is not a mandatory new analysis."
+    },
+    {
+      "pdf_row": 7,
+      "location": "TableV",
+      "status": "presentation change required",
+      "basis": "Current combined unweighted/weighted cells should be separated into clearly labelled columns while preserving all values and missing-value denominators."
+    },
+    {
+      "pdf_row": 8,
+      "location": "V.C odds-ratio paragraph",
+      "status": "already addressed; retain unchanged",
+      "basis": "Exploratory full-sample associations;67events/six slopes, sparse/Wald instability, coding uncertainty, overlapping-fit signs not independent confirmation, no causal claims."
+    },
+    {
+      "pdf_row": 9,
+      "location": "IV and TableIX; VI.C",
+      "status": "already addressed; retain unchanged",
+      "basis": "Technical synthetic correctness/repeatability and owner walkthrough distinguished from participant usability; no participant study or user-validation claim."
+    },
+    {
+      "pdf_row": 10,
+      "location": "VII ethics paragraph",
+      "status": "existing author-supplied supervisor guidance and public-release evidence documented; retain attribution and boundaries",
+      "basis": "Do not invent REC approval/exemption letter or institution-wide policy. Catalogue says public access/for public distribution for named v1.1 release; that is not independent review of every repository file."
+    },
+    {
+      "pdf_row": 11,
+      "location": "VIII conclusion",
+      "status": "explicit principal contribution sentence recommended",
+      "basis": "Make reproducible/interpretable workflow contribution explicit without claiming novel estimator, causal evidence, entitlement determination or user validation."
+    },
+    {
+      "pdf_row": 12,
+      "location": "References",
+      "status": "separate bibliographic review delegated",
+      "basis": "Mechanical consistency and IEEE formatting can be checked locally; fresh publisher metadata requires authoritative responses."
+    }
+  ],
+  "recommended_exact_additions": {
+    "III_D_settlement": "A future confirmatory study should prespecify the coding or repeat any coding selection only within each outer training set.",
+    "III_D_household_validation": "These estimates assess internal performance in this survey cohort; they do not establish performance in independent populations or survey periods.",
+    "VIII_contribution": "The principal contribution is a reproducible, interpretable workflow linking observable screening, person-weighted description and exploratory prediction through shared rules."
+  },
+  "genuine_contradictions_found": [],
+  "limitations": [
+    "Recorded2015–2026 empirical-study search window does not explain older empirical citations; S5 already discloses this, so do not fabricate exception routes",
+    "Supervisor guidance is supplied by the author; no formal committee letter is available or necessary to invent",
+    "Repeated refits and ridge comparisons keep D-052 fixed and cannot remove its outcome-informed selection"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "checked_at_utc": "2026-10-26T13:16:44.323330+00:00",
+  "scope": "Read-only Table V representation/source-value verification; no model, source data, manuscript or builder edits",
+  "source": "output/phase4/rq1_characteristics.csv",
+  "source_sha256": "e937d7f50af84cf5f8fd934818742bd1c10b11ca13baeeb349861d5438dd7f77",
+  "displayed_statistic_cells": 28,
+  "numeric_scalars_matched_source": 40,
+  "group_denominators_checked": 2,
+  "categorical_count_share_ratio_checks": 12,
+  "failures": 0,
+  "source_zero_missing_note": "The source lacks an explicit Non-recipients/Schooling/Not assigned row. Both observed schooling categories account for all67non-recipients and their weighted shares sum1; the missing count/share is therefore0. This is supported by aggregate coverage, not arbitrary zero-filling.",
+  "recommended_source_file": "/workspace/research-validation/second-feedback-26oct/tableV_recommended.md",
+  "layout": {
+    "columns": 5,
+    "grouped_header_row_1": [
+      "",
+      "Recipients (N = 946),span2",
+      "Non-recipients (N = 67),span2"
+    ],
+    "header_row_2": [
+      "Characteristic",
+      "Unweighted",
+      "Weighted",
+      "Unweighted",
+      "Weighted"
+    ],
+    "Word_column_widths_twips": [
+      1320,
+      1020,
+      840,
+      1020,
+      840
+    ],
+    "Word_total_width_twips": 5040,
+    "native_X_weights": [
+      1.25,
+      1.04,
+      0.835,
+      1.04,
+      0.835
+    ],
+    "native_weights_total": 5,
+    "font_pt": 9,
+    "font_compression": false,
+    "rationale": "Two-tier merged group headers avoid repeating long receipt group names in narrow columns. Counts/percentages fit unweighted cells; means and person-weighted percentages are explicit in the note. Native weights preserve enough width for bold Unweighted/Weighted labels at9pt."
+  },
+  "checks": [
+    {
+      "row": "Age, mean years",
+      "group": "Recipients",
+      "unweighted_display": "70.4",
+      "weighted_display": "69.8",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Age, mean years",
+      "group": "Non-recipients",
+      "unweighted_display": "67.3",
+      "weighted_display": "68.4",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Female",
+      "group": "Recipients",
+      "unweighted_display": "686 (72.5%)",
+      "weighted_display": "70.4%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Female",
+      "group": "Non-recipients",
+      "unweighted_display": "33 (49.3%)",
+      "weighted_display": "53.4%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Grade 7 or above",
+      "group": "Recipients",
+      "unweighted_display": "290 (30.7%)",
+      "weighted_display": "33.0%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Grade 7 or above",
+      "group": "Non-recipients",
+      "unweighted_display": "49 (73.1%)",
+      "weighted_display": "80.8%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Schooling missing",
+      "group": "Recipients",
+      "unweighted_display": "3 (0.3%)",
+      "weighted_display": "0.4%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Schooling missing",
+      "group": "Non-recipients",
+      "unweighted_display": "0 (0.0%)",
+      "weighted_display": "0.0%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": true
+    },
+    {
+      "row": "Urban formal settlement",
+      "group": "Recipients",
+      "unweighted_display": "284 (30.0%)",
+      "weighted_display": "36.2%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Urban formal settlement",
+      "group": "Non-recipients",
+      "unweighted_display": "38 (56.7%)",
+      "weighted_display": "66.2%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Office ≥5 km or unavailable",
+      "group": "Recipients",
+      "unweighted_display": "717 (75.8%)",
+      "weighted_display": "72.0%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Office ≥5 km or unavailable",
+      "group": "Non-recipients",
+      "unweighted_display": "34 (50.7%)",
+      "weighted_display": "40.3%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Office distance missing",
+      "group": "Recipients",
+      "unweighted_display": "14 (1.5%)",
+      "weighted_display": "1.8%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    },
+    {
+      "row": "Office distance missing",
+      "group": "Non-recipients",
+      "unweighted_display": "4 (6.0%)",
+      "weighted_display": "7.2%",
+      "matched_retained_source": true,
+      "zero_missing_derived_from_complete_assignment": false
+    }
+  ]
+}

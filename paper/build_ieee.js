@@ -40,8 +40,36 @@ function heading(text,level){return paragraph(text,{
     spacing:{before:140,after:60,line:240,lineRule:LineRuleType.AUTO},
     run:{size:20,smallCaps:level===1,italics:level===2}});}
 const rule={style:BorderStyle.SINGLE,size:4,color:'808080'};
+function descriptiveGrid(headers, rows){
+    const recipient = headers[1].match(/^Recipients, unweighted \(N = (\d+)\)$/);
+    const nonrecipient = headers[3].match(/^Non-recipients, unweighted \(N = (\d+)\)$/);
+    if(!recipient || !nonrecipient || headers[2] !== 'Recipients, weighted' ||
+       headers[4] !== 'Non-recipients, weighted' || rows.some(row=>row.length!==5)){
+        throw new Error('Unexpected descriptive-table columns');
+    }
+    const widths=[1320,1020,840,1020,840];
+    const cell=(values,width,{bold=false,span=1,left=false,keepNext=true}={})=>new TableCell({
+        width:{size:width,type:WidthType.DXA},columnSpan:span,verticalAlign:VerticalAlign.CENTER,
+        margins:{top:10,bottom:10,left:45,right:45},
+        borders:{top:rule,bottom:rule,left:rule,right:rule},
+        children:values.map(value=>paragraph(value,{keepNext,
+            alignment:left?AlignmentType.LEFT:AlignmentType.CENTER,
+            spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},run:{size:18,bold}}))});
+    const groups=new TableRow({cantSplit:true,tableHeader:true,children:[
+        cell([''],widths[0],{bold:true}),
+        cell(['Recipients',`N = ${recipient[1]}`],widths[1]+widths[2],{bold:true,span:2}),
+        cell(['Non-recipients',`N = ${nonrecipient[1]}`],widths[3]+widths[4],{bold:true,span:2})]});
+    const labels=['Characteristic','Unweighted','Weighted','Unweighted','Weighted'];
+    const labelRow=new TableRow({cantSplit:true,tableHeader:true,
+        children:labels.map((label,j)=>cell([label],widths[j],{bold:true,left:j===0}))});
+    return new Table({width:{size:COLUMN,type:WidthType.DXA},columnWidths:widths,
+        layout:TableLayoutType.FIXED,rows:[groups,labelRow,...rows.map((row,i)=>
+            new TableRow({cantSplit:true,children:row.map((value,j)=>
+                cell([value],widths[j],{left:j===0,keepNext:i<rows.length-1}))}))]});
+}
 function grid(headers,rows){
     const n=headers.length;
+    if(n===5 && headers[0]==='Characteristic') return descriptiveGrid(headers,rows);
     const conceptual=headers[0]==='Predictor'&&headers[1]==='Theoretical role';
     const none={style:BorderStyle.NONE,size:0,color:'000000'};
     const horizontal={style:BorderStyle.SINGLE,size:6,color:'000000'};

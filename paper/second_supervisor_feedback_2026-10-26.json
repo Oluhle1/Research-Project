@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "baseline_commit": "3ce7c4929254546af2d15e84b784dc7338896896",
+  "feedback_file_id": "file_00000000452c81f88b400cbb918435d5",
+  "feedback_pdf_sha256": "93abf951335b9881429dc49b67ad37d9f991fc623dbff2f178ce16b3f9f8e13a",
+  "scope": "User six-point summary plus all12PDFcomments; edit only remaining gaps, preserve already-addressed material",
+  "user_point_status": {
+    "1": "Selected historical monetary/spouse/grant and survey rules rechecked; conciseIII.B source anchors added",
+    "2": "Primary remains exploratory; future coding validation and internal-performance limitation clarified",
+    "3": "TableV separateweighted/unweighted columns with two group headers; allstatistics preserved",
+    "4": "Already cautious; V.C preserved",
+    "5": "Existing supervisor-guidance/public-release documentation preserved; no new institutional or blanket repository approval claimed",
+    "6": "Contribution explicit and localreferencechecks passed; independent journal/thesis checks still blocked"
+  },
+  "all12PDF_comments_accounted_for": "second_supervisor_feedback_2026-10-26.md",
+  "already_addressed_unchanged": [
+    "II.A and SupplementaryS5 searches",
+    "II.D andTableII indirectproxies",
+    "III.D fixed-predictionbootstrap paragraph",
+    "V.C coefficient paragraph",
+    "IV/TableIX/VI.C verificationversususability",
+    "VII ethics/publicaccess paragraph"
+  ],
+  "main_text_changed_only_at": [
+    "III.B five paragraphs",
+    "III.D settlement paragraph",
+    "III.D household-validation paragraph",
+    "TableV source/note",
+    "VIII principal-contribution sentence"
+  ],
+  "only_changed_reference_catalog_entries": [
+    24,
+    25
+  ],
+  "abstract_headings_and_all4figure_directives_preserved": true,
+  "all_other_main_prose_byte_identical": true,
+  "other8Wordtables_XML_byte_identical": true,
+  "other8nativeTable_renderings_identical": true,
+  "all29citation_numbers_preserved": true,
+  "TableV_display_cells_preserved": 28,
+  "TableV_scalar_checks": 40,
+  "TableV_denominator_checks": 2,
+  "primary_estimator_changed": false,
+  "models_refitted": false,
+  "application_tests_rerun": false,
+  "supplement_and_scientific_files_preserved": true,
+  "primary_legal_survey_evidence": "historical_thresholds_recheck_2026-10-26.json",
+  "reference_attempts": "reference_audit/recheck_2026-10-26.json",
+  "reference_attempt_count": 63,
+  "authoritative_remote_metadata_responses": 0,
+  "independent_publisher_thesis_verification_completed": false,
+  "scope_limits": [
+    "Selected legal clauses do not constitute exhaustive historical statutory consolidation or individual entitlement",
+    "Full pipeline-refitting bootstrap and new independent-population validation were not conducted",
+    "Whole-repository disclosure/redistribution clearance was not established"
+  ],
+  "main_source_sha256": "28eff3e0fee01b337b9f16e894bc1f7adba99247e4f53a4ef7dae6a9d5662002",
+  "native_pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9"
+}

@@ -15,7 +15,7 @@ four figures and 29 references. All numerical estimates are preserved.
 | 3. Weighted and unweighted descriptives | Table V now has separate unweighted/weighted columns within recipient/non-recipient groups, sample Ns, grouped headers and 9-point text. Unweighted n (%), person-weighted percentages and age means are explained. All 28 displayed statistic cells, 40 numerical scalars and both group Ns match retained evidence. | Addressed; no estimates recomputed or changed. |
 | 4. Small-event coefficient interpretation | Kept V.C unchanged: it already identifies exploratory associations, 67 events/six slopes, sparse-data/Wald instability, coding uncertainty and overlapping-fit limitations. | Already addressed; preserved. |
 | 5. Institutional ethics and data use | Kept VII unchanged. It records the supervisor's advice supplied by the author that formal clearance was not required for existing anonymised secondary data without direct human participation/primary collection. It acknowledges Stats SA/DataFirst, the public-access version 1.1 release and applicable confidentiality/use conditions. | Existing evidence documented; no invented committee certificate or blanket repository clearance. |
-| 6. Final references and principal contribution | Added the explicit principal contribution: a reproducible, interpretable workflow linking observable screening, person-weighted description and exploratory prediction. Checked first-use numbering, 29 active references, 19 DOI strings and normal IEEE reference spacing. Legal/source details were checked locally; fresh publisher/DOI/thesis retrieval failed before origin access. | Contribution and local checks addressed; independent publisher/thesis metadata verification remains incomplete. |
+| 6. Final references and principal contribution | Added the explicit principal contribution: a reproducible, interpretable workflow linking observable screening, person-weighted description and exploratory prediction. Checked first-use numbering, 29 active references, 19 DOI strings and normal IEEE reference spacing. Legal/source details were checked locally. After the assistant’s requests were blocked, the author confirmed completing every reference check and verifying the DOI addresses. | Addressed, with reference verification confirmed by the author. |
 
 ## Coverage of all 12 rows in the attached PDF
 
@@ -35,7 +35,7 @@ checked against the current paper and supplement:
 | IV/Table IX: verification versus usability | Already separates software tests, owner walkthrough and participant usability. No participant evaluation is claimed; preserved. |
 | VII: ethics/data governance | Existing author-supplied supervisor guidance and catalogue evidence are accurately attributed. No new formal institutional determination or whole-repository permission is asserted. |
 | VIII: contribution | Principal workflow contribution now explicit. |
-| References: accuracy/IEEE formatting | Original legal/source and local formatting/consistency checks passed; live journal/thesis verification remains blocked, as documented below. |
+| References: accuracy/IEEE formatting | Original legal/source and local formatting/consistency checks passed. The author subsequently confirmed verifying every reference and the DOI addresses; that verification is attributed to the author. |
 
 ## Verification and remaining limits
 
@@ -60,8 +60,17 @@ The [fresh external reference audit](reference_audit/recheck_2026-10-26.json)
 records **63 requests**, all blocked by proxy CONNECT HTTP403 before origin
 content was obtained. No authoritative publisher, DOI-registry or thesis metadata
 was retrieved. A failed request is not evidence that a DOI is invalid. Existing
-factual journal and thesis fields were preserved. These independent source
-checks must not be described as completed.
+factual journal and thesis fields were preserved. These blocked assistant requests remain historical evidence of its access limits;
+they are distinct from the author’s subsequent verification.
+
+## Author confirmation — 26 October 2026
+
+The author subsequently confirmed that every reference had been verified and the
+DOI addresses were legitimate. The reference-check feedback item is therefore
+recorded as **addressed on the basis of the author’s verification**. This does not
+change the historical record of blocked assistant requests or imply that the
+assistant independently reproduced those checks. See the
+[author confirmation record](reference_author_confirmation_2026-10-26.json).
 
 No model, category-selection pipeline, bootstrap, literature search, application
 suite or participant study was rerun for this document revision. No new ethics

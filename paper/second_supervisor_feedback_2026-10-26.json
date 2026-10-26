@@ -10,7 +10,7 @@
     "3": "TableV separateweighted/unweighted columns with two group headers; allstatistics preserved",
     "4": "Already cautious; V.C preserved",
     "5": "Existing supervisor-guidance/public-release documentation preserved; no new institutional or blanket repository approval claimed",
-    "6": "Contribution explicit and localreferencechecks passed; independent journal/thesis checks still blocked"
+    "6": "Contribution and local checks addressed; author confirmed verification of every reference and legitimate DOI addresses"
   },
   "all12PDF_comments_accounted_for": "second_supervisor_feedback_2026-10-26.md",
   "already_addressed_unchanged": [
@@ -55,5 +55,8 @@
     "Whole-repository disclosure/redistribution clearance was not established"
   ],
   "main_source_sha256": "28eff3e0fee01b337b9f16e894bc1f7adba99247e4f53a4ef7dae6a9d5662002",
-  "native_pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9"
+  "native_pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9",
+  "reference_verification_confirmed_by_author": true,
+  "reference_check_feedback_status": "Addressed on the basis of author verification",
+  "author_confirmation_record": "reference_author_confirmation_2026-10-26.json"
 }

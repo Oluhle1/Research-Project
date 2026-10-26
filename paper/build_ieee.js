@@ -95,6 +95,21 @@ function grid(headers,rows){
           children:[paragraph(value,{keepNext:i<rows.length,alignment:j===0||n===3?AlignmentType.LEFT:AlignmentType.CENTER,
             spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},run:{size:18,bold:i===0}})]}))}))});
 }
+function searchGrid(headers,rows){
+    if(headers.join('|')!=='Search|Source|Hits|Kept|Query' || rows.some(row=>row.length!==5))
+        throw new Error('Unexpected search-record columns');
+    const none={style:BorderStyle.NONE,size:0,color:'000000'};
+    return new Table({width:{size:10440,type:WidthType.DXA},columnWidths:[10440],
+      layout:TableLayoutType.FIXED,
+      rows:rows.map((row,i)=>new TableRow({cantSplit:true,
+        children:[new TableCell({width:{size:10440,type:WidthType.DXA},verticalAlign:VerticalAlign.TOP,
+          margins:{top:0,bottom:0,left:45,right:45},
+          borders:{top:i===0?rule:none,bottom:i===rows.length-1?rule:none,left:none,right:none},
+          children:[new Paragraph({keepNext:i<rows.length-1,alignment:AlignmentType.LEFT,
+            spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},
+            children:[run(`${row[0]} — ${row[1]} (${row[2]} hits; ${row[3]} retained): `,{size:16,bold:true}),run(row[4],{size:16})]})]})]}))});
+}
+
 const titleEnd=lines.findIndex(line=>line.startsWith('## '));
 const title=[];
 const frontMatter=[];
@@ -110,19 +125,35 @@ for(const line of lines.slice(0,titleEnd)){
     else title.push(paragraph(line,{alignment:AlignmentType.CENTER,
       spacing:{before:0,after:30,line:230},run:{size:line==='Oluhle Jawe'?22:18}}));
 }
-const body=[...frontMatter];
+let body=[...frontMatter];
+const bodySections=[];
+function finishBody(){
+    if(body.length)bodySections.push({properties:{type:SectionType.CONTINUOUS,
+        column:{count:2,space:360,equalWidth:true},page:PAGE},children:body});
+    body=[];
+}
 for(let i=titleEnd;i<lines.length;i++){
     const line=lines[i];if(!line.trim())continue;
     if(line.startsWith('## ')){body.push(heading(line.slice(3),1));continue;}
     if(line.startsWith('### ')){body.push(heading(line.slice(4),2));continue;}
     if(line.startsWith('RECORD: ')){
-      body.push(paragraph(line.slice(8),{keepNext:true,alignment:AlignmentType.CENTER,
-        spacing:{before:80,after:40,line:200,lineRule:LineRuleType.AUTO},run:{size:16,italics:true}}));
+      const caption=line.slice(8);
       const tableLines=[];
       while(i+1<lines.length&&lines[i+1].startsWith('|'))tableLines.push(lines[++i]);
       const cells=tableLines.map(s=>s.split('|').slice(1,-1).map(v=>v.trim()));
       if(!cells[1]||!cells[1].every(c=>/^:?-+:?$/.test(c.replace(/\s/g,''))))throw new Error('Search-record separator');
-      body.push(grid(cells[0],cells.slice(2)));continue;
+      finishBody();
+      const record=[paragraph(caption,{keepNext:true,alignment:AlignmentType.CENTER,
+        spacing:{before:80,after:40,line:240,lineRule:LineRuleType.AUTO},run:{size:16,italics:true}}),
+        searchGrid(cells[0],cells.slice(2))];
+      let lookahead=i+1;while(lookahead<lines.length&&!lines[lookahead].trim())lookahead++;
+      if(lookahead<lines.length&&lines[lookahead].startsWith('NOTE: ')){
+        record.push(paragraph(lines[lookahead].slice(6),{spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},run:{size:16,italics:true}}));
+        i=lookahead;
+      }
+      bodySections.push({properties:{type:SectionType.CONTINUOUS,
+        column:{count:1,space:360,equalWidth:true},page:PAGE},children:record});
+      continue;
     }
     if(line.startsWith('TABLE: ')){
       const tableCaption=line.slice(7).replace(/^Table ([IVX]+)\. /,'TABLE $1\n');
@@ -182,12 +213,13 @@ function referenceParagraph(number, entry){
 }
 body.push(heading('References',1));
 for(const [i,id] of ids.entries())body.push(referenceParagraph(i+1, references[id]));
+finishBody();
 const doc=new Document({title:lines[0].slice(2),creator:'Oluhle Jawe',description:'Submission 2 revised research manuscript',
   styles:{default:{document:{run:{font:FONT,size:20},paragraph:{spacing:{line:230,lineRule:LineRuleType.AUTO}}}},
     paragraphStyles:[{id:'Heading1',name:'Heading 1',basedOn:'Normal',next:'Normal',run:{font:FONT,color:'000000',size:20},paragraph:{keepNext:true}},
       {id:'Heading2',name:'Heading 2',basedOn:'Normal',next:'Normal',run:{font:FONT,color:'000000',size:20},paragraph:{keepNext:true}}]},
   sections:[{properties:{page:PAGE},children:title},
-    {properties:{type:SectionType.CONTINUOUS,column:{count:2,space:360,equalWidth:true},page:PAGE},children:body},
+    ...bodySections,
     // A final continuous section balances the final reference columns in Word/Writer.
     {properties:{type:SectionType.CONTINUOUS,page:PAGE},children:[new Paragraph({spacing:{before:0,after:0,line:20,lineRule:LineRuleType.EXACT},children:[]})]}]});
 async function main(){

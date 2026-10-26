@@ -55,7 +55,7 @@ submission IDs, page-number requirements or ethics approval.
 From the Research-Project repository root:
 
 ```text
-python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --balance-at-reference 16 --compile
+python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --compile
 ```
 
 The optional `--publication` flag omits the student/module line only. No author
@@ -63,10 +63,11 @@ is anonymised and no email, ORCID or affiliation is invented. The generated
 manifest binds the exact source, reference catalog, class and four figures to
 each built PDF. The renderer does not edit any manuscript or run any analysis.
 
-The current compact manuscript produces **eight Letter pages**, with all nine
-tables, four figures and 28 references. The source retains the accepted abstract,
-screening and validation methods and all source table contents. Normal IEEE
-reference leading is retained. The optional `--balance-at-reference 16` uses
-IEEEtran's documented reference-column break; it changes no font, margin or
-line spacing. Source and PDF hashes and current review checks appear in
-[manuscript validation](../manuscript_validation.json).
+The current manuscript produces **eight Letter pages**, with the original nine
+numbered tables, four figures and 29 references, plus the full-width Table S5
+search record. The record uses the class's ordinary `footnotesize` (8-point text
+with a 9-point baseline); existing body/table/reference typography is unchanged.
+The current version uses natural column flow, without a manual
+`--balance-at-reference` trigger. An inherited trigger can force an unnecessary
+ninth page after inserting S5. No source text, font size, margin or line spacing
+was compressed to fit the record. See [current validation](../manuscript_validation.json).

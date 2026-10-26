@@ -1,0 +1,117 @@
+{
+  "checked_at_utc": "2026-10-26T14:45:43.243716+00:00",
+  "baseline_commit": "659905aad90660548a17db668b44983ee86e9350",
+  "request": "Put the full S5 search record inside the final main Word and PDF so it is directly visible to the supervisor",
+  "scope": "Only II.A S5 cross-reference sentence, inserted record/note and record-specific rendering/layout/build instructions",
+  "main_source_sha256": "5a062f50ad9f3a6b031f4e215d2e47ebb10d6d6201e99e59c352c8fbe71ead9e",
+  "recorded_searches_json_sha256": "6833f54821fca8ec02fe433972a3135a4654eb75da86b03199c1c3295ae0f32e",
+  "search_date": "2026-08-17",
+  "search_records": 8,
+  "query_strings_verbatim": true,
+  "wildcard_asterisks_preserved": 19,
+  "recorded_hit_sum": 511,
+  "recorded_retained_sum": 55,
+  "queries": [
+    {
+      "search_id": "S1",
+      "source": "Scopus",
+      "hits": 43,
+      "retained": 9,
+      "query_sha256": "d66267e186d253cb78ce18b9e511630227136da6e067764a0b8f8a3fa1871dd4"
+    },
+    {
+      "search_id": "S1b",
+      "source": "Scopus, widened",
+      "hits": 149,
+      "retained": 10,
+      "query_sha256": "0868bed5916b5a86c7e171f9e9940b4207a7a8b8c0dde0f1a569ebb09108c989"
+    },
+    {
+      "search_id": "S2",
+      "source": "Scopus, method",
+      "hits": 100,
+      "retained": 11,
+      "query_sha256": "416e398df741da16b86af1028dc9ac49a5114a6ab7b167c1b2933ade98cc6dd0"
+    },
+    {
+      "search_id": "S3",
+      "source": "Dimensions",
+      "hits": 36,
+      "retained": 5,
+      "query_sha256": "9c9f956a71af74f0e643cd646993de0de32ff5377f13ecaa20f86b89ce2ea938"
+    },
+    {
+      "search_id": "S4",
+      "source": "IEEE Xplore",
+      "hits": 47,
+      "retained": 0,
+      "query_sha256": "ce9d9578c557224490f00449ee6aa28d3d63dd60d513b1353533690d2839b869"
+    },
+    {
+      "search_id": "S5",
+      "source": "SABINET/AJOL",
+      "hits": 100,
+      "retained": 9,
+      "query_sha256": "3b6fb7cae5f9a182ef381d00e648ffb59ed38d39fc225c3b337aca8c06f524d9"
+    },
+    {
+      "search_id": "S6",
+      "source": "Google Scholar",
+      "hits": 35,
+      "retained": 11,
+      "query_sha256": "0b6529d687423566091c0fdb653515610df5978f7d12c8ab8efc0c1df6d10f72"
+    },
+    {
+      "search_id": "S7",
+      "source": "DataFirst/Stats SA",
+      "hits": 1,
+      "retained": 0,
+      "query_sha256": "ca0ec6570f1aa3f70dfb335d6868a0154d2530067158c4c80968a34bc0118ead"
+    }
+  ],
+  "synthesis_dimensions_sentence_preserved": true,
+  "selection_flow_paragraph_preserved_except_cross_reference": true,
+  "all_unrelated_manuscript_text_byte_identical": true,
+  "all9original_Word_tables_XML_byte_identical": true,
+  "original_table_numbers_I_to_IX_preserved": true,
+  "all4figures_and29reference_numbers_preserved": true,
+  "original_supplement_unchanged": true,
+  "searches_rerun": false,
+  "new_model_or_application_test_run": false,
+  "record_layout": "Eight full-width rows, each with bold ID/source/hits/retained prefix followed by the exact query; common date in caption",
+  "record_font": "Standard8-point record text; existing body/table/reference fonts remain unchanged",
+  "native_layout": "Natural IEEE column flow; old manualreference16break omitted because it would force an unnecessary ninth page",
+  "renders": {
+    "native": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "794787a4d811749c904a0d4acf9ade7b9f23421ed18471661afbb56803a373c9",
+      "S5_visible_page": 2,
+      "all8exact_queries_date_counts_and_note_together": true,
+      "all29reference_labels_present": true,
+      "text_outside_page": false
+    },
+    "word_render": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "bc7ba751138a5364ebc2afe6c36300b1638a1a3795b136219f2dca2b753cbebf",
+      "S5_visible_page": 1,
+      "all8exact_queries_date_counts_and_note_together": true,
+      "all29reference_labels_present": true,
+      "text_outside_page": false
+    },
+    "portable": {
+      "pages": 8,
+      "paper": "Letter",
+      "sha256": "d316ce8b7fe9950d7fcf71391d21d938df521808632ee4914b336487ab1c54a1",
+      "S5_visible_page": 2,
+      "all8exact_queries_date_counts_and_note_together": true,
+      "all29reference_labels_present": true,
+      "text_outside_page": false
+    }
+  },
+  "independent_read_only_review": "final_bibliography_qa:scope/query/font checks and all8-page visual review passed",
+  "source_content_review": "s5_content_scope:all8recorded queries/date/counts and source tuple match",
+  "layout_review": "s5_integration_layout:eight-page Word/native designs tested without cuts to original body",
+  "author_reference_verification_preserved": "reference_author_confirmation_2026-10-26.json"
+}

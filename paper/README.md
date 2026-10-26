@@ -1,5 +1,20 @@
 # Revised Submission 2 manuscript
 
+## S5 included in the final main paper — 26 October 2026
+
+The main Word paper and eight-page IEEE PDF now include **Table S5 itself**:
+all eight exact recorded search strings, the common date **17 August 2026**,
+and each source's hit/retained counts. The existing selection flow and synthesis
+explanation remain in Section II.A. S5 is visible on page 1 of the checked Word
+export and page 2 of the native PDF; a separate supplement is not needed to see
+this search record. The original nine numbered tables, four figures, reference
+numbering, numerical results and all unrelated paper text are preserved.
+
+Build the native PDF **without a manual reference-column break** using the
+command below. The record has a full-width layout; the old `--balance-at-reference`
+setting is not used for this final version. Current checks are in
+[the S5 inclusion record](s5_main_inclusion_2026-10-26.json).
+
 ## Literature-review wording correction — 21 October 2026
 
 Only the opening two paragraphs of Section II.A have changed. They now state
@@ -43,7 +58,7 @@ canonical IEEE PDF separately (requires `pdflatex`, `tabularx`, `placeins`,
 `amsmath`, `graphicx`, `url` and `textcomp` from a standard TeX installation):
 
 ```text
-python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --balance-at-reference 16 --compile
+python paper/build_ieee_pdf.py --output-dir .local/paper-ieee --compile
 ```
 
 Copy the resulting PDF to the release location after checking its page count.

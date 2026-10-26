@@ -1,5 +1,5 @@
 {
-  "source_sha256": "28eff3e0fee01b337b9f16e894bc1f7adba99247e4f53a4ef7dae6a9d5662002",
+  "source_sha256": "5a062f50ad9f3a6b031f4e215d2e47ebb10d6d6201e99e59c352c8fbe71ead9e",
   "references_sha256": "51e30084eb726959a1fd0f8a326ced7e281d351ac350e5c82c4e00cc837f31d3",
   "class_sha256": "a9d9562028ce6e8af1ea0b5740e435d04be3d6c745ca2a3c2979564274b44cea",
   "class": "IEEEtran 2015/08/26 V1.8b, unmodified",
@@ -8,8 +8,10 @@
     "conference",
     "letterpaper"
   ],
-  "source_words": 5044,
+  "source_words": 5379,
   "tables": 9,
+  "unnumbered_search_records": 1,
+  "search_record_font": "IEEEtran footnotesize:8pt/9pt; full-width record",
   "figures": {
     "figures/conceptual_framework.png": "46b7562e68dc1e73b505f98f268be36dbb04b890d9d0b177db5dbdd6c96aec19",
     "figures/architecture.png": "04c015c7570886e9772f6ab40c9c74c1367275ed43afe2eb445548ecad27d721",
@@ -48,10 +50,10 @@
     31
   ],
   "student_course_line_omitted": false,
-  "column_balance_trigger_at_published_reference": 16,
+  "column_balance_trigger_at_published_reference": null,
   "float_barrier_before_references": true,
   "portable_tex_uses_copied_figures_and_class": true,
   "no_geometry_font_scale_or_vertical_spacing_overrides": true,
   "table_font": "IEEEtran small: 9pt / 10pt baseline; three-point cell padding",
-  "pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9"
+  "pdf_sha256": "794787a4d811749c904a0d4acf9ade7b9f23421ed18471661afbb56803a373c9"
 }

@@ -87,30 +87,22 @@ def reference_text(entry: str) -> str:
     return result.replace("et al.", r"\emph{et al.}")
 
 
-def search_record(caption: str, headers: list[str], rows: list[list[str]]) -> str:
+def search_record(caption: str, headers: list[str], rows: list[list[str]], notes: list[str] | None = None) -> str:
     """Unnumbered search grid. It must not change the numbering of Tables I–IX."""
     if headers != ["Search", "Source", "Hits", "Kept", "Query"]:
         raise ValueError("Unexpected search-record columns")
     if any(len(row) != 5 for row in rows):
         raise ValueError("Inconsistent search-record row")
-    spec = (
-        r">{\raggedright\arraybackslash}p{0.38in}"
-        r">{\raggedright\arraybackslash}p{1.05in}"
-        r"rr>{\raggedright\arraybackslash}X"
-    )
-    # Full-width and uncaptioned, so Tables I–IX keep their numbers.
-    body = [
-        r"\begin{table*}[!t]",
-        r"\centering\footnotesize\setlength{\tabcolsep}{3pt}",
-        r"\textit{" + inline(caption) + r"}\par",
-        r"\begin{tabularx}{\textwidth}{" + spec + "}",
-        r"\hline",
-        " & ".join(r"\textbf{" + inline(value) + "}" for value in headers) + r" \\",
-        r"\hline",
-    ]
-    for row in rows:
-        body.append(" & ".join(inline(value) for value in row) + r" \\")
-    body.extend([r"\hline", r"\end{tabularx}", r"\end{table*}", ""])
+    body = [r"\begin{table*}[!t]", r"\centering\footnotesize",
+            r"\textit{" + inline(caption) + r"}\par",
+            r"\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X@{}}", r"\hline"]
+    for search, source, hits, kept, query in rows:
+        label = f"{search} — {source} ({hits} hits; {kept} retained): "
+        body.append(r"\textbf{" + inline(label) + "}" + inline(query) + r" \\")
+    body.extend([r"\hline", r"\end{tabularx}"])
+    for note in notes or []:
+        body.append(r"\par\noindent\textit{" + inline(note) + "}")
+    body.extend([r"\end{table*}", ""])
     return "\n".join(body)
 
 
@@ -219,6 +211,7 @@ def build(paper_dir: Path, output_dir: Path, class_file: Path, publication: bool
     ]
     figures = []
     tables = 0
+    search_records = 0
     i = first_section
     while i < len(lines):
         line = lines[i].strip()
@@ -238,7 +231,15 @@ def build(paper_dir: Path, output_dir: Path, class_file: Path, publication: bool
                 i += 1
             if len(table_lines) < 2 or not all(re.fullmatch(r":?-+:?", cell) for cell in table_lines[1]):
                 raise ValueError("Malformed search-record table")
-            out.append(search_record(line[8:], table_lines[0], table_lines[2:]))
+            notes = []
+            lookahead = i
+            while lookahead < len(lines) and not lines[lookahead].strip():
+                lookahead += 1
+            if lookahead < len(lines) and lines[lookahead].startswith("NOTE: "):
+                notes.append(lines[lookahead][6:])
+                i = lookahead + 1
+            out.append(search_record(line[8:], table_lines[0], table_lines[2:], notes))
+            search_records += 1
         elif line.startswith("TABLE: "):
             table_lines = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -301,6 +302,8 @@ def build(paper_dir: Path, output_dir: Path, class_file: Path, publication: bool
         "class": "IEEEtran 2015/08/26 V1.8b, unmodified",
         "options": ["10pt", "conference", "letterpaper"],
         "source_words": len(source.split()), "tables": tables,
+        "unnumbered_search_records": search_records,
+        "search_record_font": "IEEEtran footnotesize:8pt/9pt; full-width record",
         "figures": {file: sha(path.read_bytes()) for file, path in figures},
         "reference_source_ids_in_order": ids,
         "student_course_line_omitted": publication,

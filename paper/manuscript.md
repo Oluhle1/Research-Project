@@ -24,7 +24,21 @@ RQ1 asks how common reported non-receipt is among screened adults and how altern
 
 The structured narrative review examined grant access, eligibility measurement and prediction using Scopus, Dimensions, IEEE Xplore, SABINET/African Journals Online, Google Scholar and Statistics South Africa/DataFirst. Search concepts included social assistance, eligibility, take-up, non-receipt, exclusion and prediction. Selection considered relevance to the research question, population, outcome and methodological contribution.
 
-The searches identified 511 records. Removing 136 duplicates left 375 records for title and abstract screening; 222 were excluded. Full-text assessment of the remaining 153 records excluded 98 and retained 55 sources across grants and populations. Supplementary Table S5 provides the eight recorded search strings, search date and source-specific counts. The synthesis compared programme, setting, unit of analysis, outcome definition, findings and limitations; these differences prevented a pooled estimate.
+The searches identified 511 records. Removing 136 duplicates left 375 records for title and abstract screening; 222 were excluded. Full-text assessment of the remaining 153 records excluded 98 and retained 55 sources across grants and populations. Table S5 lists the eight recorded search strings, search date and source-specific counts. The synthesis compared programme, setting, unit of analysis, outcome definition, findings and limitations; these differences prevented a pooled estimate.
+
+RECORD: Table S5. Recorded literature searches (17 August 2026)
+| Search | Source | Hits | Kept | Query |
+| --- | --- | --- | --- | --- |
+| S1 | Scopus | 43 | 9 | TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection") AND (exclusion OR "non-take-up" OR "take-up" OR "coverage gap*" OR "targeting error*" OR "access barrier*") AND ("South Africa*" OR "KwaZulu-Natal")) |
+| S1b | Scopus, widened | 149 | 10 | TITLE-ABS-KEY(("social grant*" OR "social assistance" OR "cash transfer*" OR "social protection" OR "social security" OR SASSA OR "child support grant" OR "social relief of distress" OR SRD) AND (exclusion OR exclud* OR "non-take-up" OR "take-up" OR uptake OR "coverage gap*" OR "targeting error*" OR "access barrier*" OR "non-receipt" OR eligib*) AND ("South Africa*" OR "KwaZulu-Natal")) |
+| S2 | Scopus, method | 100 | 11 | TITLE-ABS-KEY(("machine learning" OR "random forest" OR XGBoost OR "gradient boosting" OR "proxy means test*" OR "predictive model*") AND (poverty OR "social protection" OR "social assistance" OR "cash transfer*" OR "food insecur*") AND ("household survey" OR "survey data" OR "household data")) AND NOT TITLE-ABS-KEY(cancer OR tumour OR HIV OR malaria OR clinical OR patient*) |
+| S3 | Dimensions | 36 | 5 | ("social grant" OR "social assistance" OR "cash transfer" OR "social protection") AND (exclusion OR "take-up" OR "non-receipt" OR "access barriers") AND ("South Africa" OR "KwaZulu-Natal") |
+| S4 | IEEE Xplore | 47 | 0 | ("machine learning" OR "classification") AND ("poverty" OR "social welfare" OR "socioeconomic") AND ("survey data") |
+| S5 | SABINET/AJOL | 100 | 9 | social grant AND exclusion AND (KwaZulu-Natal OR "South Africa") |
+| S6 | Google Scholar | 35 | 11 | "social grant" exclusion "South Africa" -site:pinterest.com |
+| S7 | DataFirst/Stats SA | 1 | 0 | Living Conditions Survey 2014/2015 metadata KwaZulu-Natal |
+
+NOTE: Counts refer to the recorded searches. Repeated retained sources are assigned to their first search; search and scenario IDs differ.
 
 Table I distinguishes individual receipt [2] from household proportions [6], and this study’s provincial resource screen from both. Other-grant studies separate enquiry, application, receipt and uninterrupted payment [9], [10], [13].
 

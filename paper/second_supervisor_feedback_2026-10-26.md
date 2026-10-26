@@ -24,7 +24,7 @@ checked against the current paper and supplement:
 
 | PDF comment | Current treatment |
 | --- | --- |
-| II.A: complete strings, search dates, database counts and criteria | Already in Supplementary Table S5: eight recorded queries, 17 August 2026 date, source-specific counts and selection criteria. Main literature review and S5 remain unchanged. Original item-level logs are not newly claimed. |
+| II.A: complete strings, search dates, database counts and criteria | Table S5 is now reproduced visibly inside the final main Word/PDF, with all eight exact queries, the 17 August 2026 date and source-specific counts. The existing selection flow and synthesis dimensions remain in II.A; the full supplement is also preserved. No new search or item-level reconstruction is claimed. |
 | II.D: indirect theoretical proxies | Already explicit in II.D and Table II: the predictors do not directly measure burden or identify its causal mechanisms. Preserved. |
 | III.B: historical rules | Original legal/survey sources freshly checked; concise source-linked summary revised as above. |
 | III.D: outcome-informed merging | Explicit exploratory/conditional status retained; future prespecified/training-only coding approach stated. |

@@ -58,5 +58,7 @@
   "native_pdf_sha256": "2d5c9b45658c22662343f40a0aa323433e0183160948f8673208196a962c77e9",
   "reference_verification_confirmed_by_author": true,
   "reference_check_feedback_status": "Addressed on the basis of author verification",
-  "author_confirmation_record": "reference_author_confirmation_2026-10-26.json"
+  "author_confirmation_record": "reference_author_confirmation_2026-10-26.json",
+  "final_copy_S5_inclusion": "s5_main_inclusion_2026-10-26.json",
+  "final_copy_S5_status": "All8exact queries/date/sourcecounts now visibly inside the eight-page main Word and PDF; original synthesis explanation preserved"
 }

@@ -1,13 +1,18 @@
 # Publication methodology protocol — 28 October 2026
 
-**Status: AI-assisted technical proposal for author review. No new cohort
-analysis has been executed.** OpenAI ChatGPT proposed the implementation options
-below and assisted with prototype code. This document is not evidence that the
-authors independently developed or approved this methodological design. The
-supplied IST-Africa policy requires independent author development of the
-scientific content and accurate disclosure of AI assistance. The authors'
-research choices and policy alignment must be settled before this proposal is
-used as the submitted paper's methodology.
+**Status: technical validation extension following the supervisor's comments.**
+The author has directed that the existing study and supervisory feedback guide
+the work. The original primary model remains exploratory; the analyses below
+are additional checks, not a claim that the study has become confirmatory.
+OpenAI ChatGPT assisted with methodological options and implementation code;
+that assistance must be accurately disclosed. Scientific interpretation and
+the final submission remain the authors' responsibility. This technical record
+does not claim independent authorship of AI-assisted content.
+
+The numerical design was first committed at `9c88757` before any extension
+cohort fits. Subsequent changes identified the venue and clarified the work's
+status without selecting settings using new predictive results. Execution and
+completed checks are documented separately in the new run record.
 
 ## Status and scope
 

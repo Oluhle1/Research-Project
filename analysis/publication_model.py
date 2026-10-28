@@ -1,6 +1,7 @@
-"""AI-assisted technical prototype: original-category nested ridge model.
+"""Publication validation extension: original-category nested ridge model.
 
-Prepared for independent author review; this is not an approved study plan.
+Technical implementation following supervisory feedback, with AI assistance
+recorded in paper/publication. The original primary model stays exploratory.
 This module has no file-writing or analysis entry point. Its five raw predictor
 sources and seven resulting slopes are fixed; outcome and grouping columns are
 metadata only. Every learned transformation is fitted on its supplied training

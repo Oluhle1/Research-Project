@@ -1,8 +1,7 @@
 {
   "protocol_date": "2026-10-28",
-  "status": "AI-assisted technical proposal awaiting author-developed methodological choices",
+  "status": "Supervisor-feedback technical validation extension; original primary model remains exploratory",
   "target_venue": "IST-Africa 2027",
-  "actual_cohort_execution_status": "not_run",
   "honours_commit": "e5fd40302cfcc2da120e2d727b98ae054edbfb80",
   "cohort_path": "output/phase3/cohort_person.csv",
   "cohort_sha256_raw_expected": "6edcc6e93eda3f0c58243a64ab3281513abc7a5222f2b2f8836d373c98cf4625",

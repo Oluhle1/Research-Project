@@ -69,7 +69,10 @@ software checks passed; they do not establish predictive performance. No new
 survey-cohort fit, resampling result, manuscript conclusion or participant study
 has been produced.
 
-The next scientific step is for the authors to establish the methodological
-choices they will develop and defend. Technical implementation and checking
-can then support those choices, with accurate assistance disclosure. The updated
-IST-Africa `.dot` template is also still needed for an actual layout audit.
+The author has since directed that the existing methodology and supervisory
+comments guide the validation extension. The implementation will provide
+auditable technical results for author assessment; it does not replace the
+original exploratory primary model or remove the need for accurate assistance
+disclosure. The updated IST-Africa `.dot` template is still needed for an actual
+layout audit. See the extension's run record for subsequent execution status;
+the preparation checks above describe the earlier snapshot.

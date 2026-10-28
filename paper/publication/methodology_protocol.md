@@ -1,5 +1,14 @@
 # Publication methodology protocol — 28 October 2026
 
+**Status: AI-assisted technical proposal for author review. No new cohort
+analysis has been executed.** OpenAI ChatGPT proposed the implementation options
+below and assisted with prototype code. This document is not evidence that the
+authors independently developed or approved this methodological design. The
+supplied IST-Africa policy requires independent author development of the
+scientific content and accurate disclosure of AI assistance. The authors'
+research choices and policy alignment must be settled before this proposal is
+used as the submitted paper's methodology.
+
 ## Status and scope
 
 The Honours manuscript was submitted before this work. Commit
@@ -17,9 +26,12 @@ for the outcome-informed D-052 merger does not erase that research history.
 The author selected **IST-Africa 2027**, a conference, as the target venue.
 The supplied call-for-papers URL is
 http://www.ist-africa.org/conference2027/default.asp?page=c4p. Direct HTTP and
-HTTPS retrievals were blocked in this environment; its exact submission rules
-and deadlines await supplied official text. No page limit, review policy or
-deadline is inferred from a previous edition. The contribution remains the
+HTTPS retrievals were blocked in this environment. The author subsequently
+supplied the current webpage text and the official two-page brochure. Both
+specify the IST-Africa template, 8–10 pages and at most 4,000 words. The webpage
+states an extended deadline of 20 November 2026; the brochure still states
+31 October 2026. The current portal date requires confirmation. See
+`venue_requirements.md` for the source distinctions. The contribution remains the
 reproducible screening-to-analysis workflow. Classifier novelty, statutory
 entitlement, causal administrative burden and demonstrated user benefit are
 outside the available evidence.
@@ -154,4 +166,4 @@ Other provinces may support a later geographic test, but are not added here.
 The original 55-source review lacks original exports and a complete item-level
 screening register; modelling improvements cannot reconstruct those records.
 Recover genuine author records or conduct a separately documented review update
-if required by the target journal. No searches or usability study are invented.
+if required by the target venue. No searches or usability study are invented.

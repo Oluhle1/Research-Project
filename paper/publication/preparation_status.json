@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-10-28T13:12:49.893071+00:00",
+  "client_date": "2026-10-28",
+  "honours_commit": "e5fd40302cfcc2da120e2d727b98ae054edbfb80",
+  "branch": "publication/methodology-strengthening",
+  "status": "AI-assisted technical proposal and venue preparation; author methodological choices still to be settled",
+  "target": "IST-Africa 2027 conference",
+  "sources": {
+    "brochure_file": "ISTAfrica2027_CallforPapers.pdf",
+    "brochure_sha256": "8d659077b2a32c387bc79a350d1c55ea556d2f881abedebede46f4530325f913",
+    "brochure_pages": 2,
+    "brochure_deadline": "2026-10-31",
+    "author_supplied_webpage_deadline": "2026-11-20",
+    "current_portal_deadline_independently_confirmed": false,
+    "template_inspected": false
+  },
+  "venue_limits": {
+    "pages_including_references": "8–10",
+    "maximum_words": 4000,
+    "template": "IST-Africa",
+    "double_blind": true
+  },
+  "honours_document_diagnostic": {
+    "visible_Word_whitespace_tokens_including_tables_and_references": 5656,
+    "source_manuscript_whitespace_tokens_excluding_generated_bibliography": 5388,
+    "references_whitespace_tokens": 846
+  },
+  "anonymisation_needed": {
+    "visible_author_block": true,
+    "Word_Creator_property": true,
+    "supplement_author_header": true
+  },
+  "prototype_tests": {
+    "framework": "stdlib unittest",
+    "passed": 14,
+    "failed": 0,
+    "data": "synthetic only",
+    "command": "python -m unittest discover -s tests -p test_publication_validation.py -v"
+  },
+  "actual_cohort_fits_executed": 0,
+  "new_performance_estimates_produced": false,
+  "outer_CV_or_bootstrap_runner_completed": false,
+  "AI_assistance": "OpenAI ChatGPT supplied technical methodological proposals and prototype code; do not claim language-only or no AI use",
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.8"
+  },
+  "sha256": {
+    "paper/publication/methodology_protocol.md": "b3b2b46401df51f2458f4320f4e1202744b3b78a74b1751c7246f032373881b9",
+    "paper/publication/validation_config.json": "72aa147e734a9f939df0d6993a356d686f0f01a7811b90c58959239213c31760",
+    "paper/publication/venue_requirements.md": "a0aeef6316922b2eb37f7b133ba668d6a7cf5be6f5b8c4398630792ce30de82e",
+    "analysis/publication_model.py": "7cc583948f8243e27032ddbd7f5076cb677165f18b5a8f7e2d0ec46535cbd945",
+    "tests/test_publication_validation.py": "c77fe0a39c6390b70ab6826626a882e78d37ed424c67e8ae0a1dcfa829d8aa22",
+    "analysis/requirements-publication.txt": "9c675cd67b9dd36978a5ea96d5b7dbcc055b5cfe1437a837730221c10ae0e235"
+  }
+}

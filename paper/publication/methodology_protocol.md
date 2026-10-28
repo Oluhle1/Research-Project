@@ -14,10 +14,15 @@ and all current KZN outcomes have already been inspected. The extension is
 prospectively registered or confirmatory study. Removing the operational need
 for the outcome-informed D-052 merger does not erase that research history.
 
-The initial audience is applied ICT and research software, pending selection of
-a journal. The contribution remains the reproducible screening-to-analysis
-workflow. Classifier novelty, statutory entitlement, causal administrative
-burden and demonstrated user benefit are outside the available evidence.
+The author selected **IST-Africa 2027**, a conference, as the target venue.
+The supplied call-for-papers URL is
+http://www.ist-africa.org/conference2027/default.asp?page=c4p. Direct HTTP and
+HTTPS retrievals were blocked in this environment; its exact submission rules
+and deadlines await supplied official text. No page limit, review policy or
+deadline is inferred from a previous edition. The contribution remains the
+reproducible screening-to-analysis workflow. Classifier novelty, statutory
+entitlement, causal administrative burden and demonstrated user benefit are
+outside the available evidence.
 
 ## Frozen population and prediction target
 

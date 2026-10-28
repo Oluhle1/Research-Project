@@ -97,7 +97,8 @@ def search_record(caption: str, headers: list[str], rows: list[list[str]], notes
             r"\textit{" + inline(caption) + r"}\par",
             r"\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X@{}}", r"\hline"]
     for search, source, hits, kept, query in rows:
-        label = f"{search} — {source} ({hits} hits; {kept} retained): "
+        hit_label = "hit" if hits == "1" else "hits"
+        label = f"{search} — {source} ({hits} {hit_label}; {kept} retained): "
         body.append(r"\textbf{" + inline(label) + "}" + inline(query) + r" \\")
     body.extend([r"\hline", r"\end{tabularx}"])
     for note in notes or []:

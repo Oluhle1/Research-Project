@@ -1,0 +1,158 @@
+{
+  "checked_at_utc": "2026-10-28T11:42:40.060175+00:00",
+  "client_date": "2026-10-28",
+  "baseline_commit": "da52500e44fc665239b771eb538686cb8fda1b8f",
+  "feedback_file": "2nd Jawe Feedback.pdf",
+  "feedback_sha256": "0619e41b696264c88725e13d13f8569aef2d53b3562562fa2c86efee655dd6c1",
+  "scope": "Exact three main-text replacements, singular hit label in two renderers, supplementary S4 interpretation guide and S5 count note; rebuilt documents and delivery records",
+  "ethics_guidance": {
+    "evidence_source": "Author confirmation in this conversation on 28 October 2026",
+    "attribution_requested_by_author": "Institutional guidance from the supervisors",
+    "confirmation": "No formal ethical clearance or written exemption required for this published anonymised secondary-data study",
+    "committee_certificate_or_reference_number_claimed": false,
+    "data_use_and_confidentiality_conditions_preserved": true
+  },
+  "feedback_status": {
+    "1_S5": "Clarified duplicate-inclusive hits, unique retained attribution, singular 1 hit and literature-only zero; exact queries and counts preserved",
+    "2_historical_rules": "Retained sources and source/code evidence checked; four ceilings and periods preserved; no complete entitlement claim",
+    "3_exploratory_model": "Existing exploratory/conditional D-052 statement and model-development uncertainty limitations preserved verbatim",
+    "4_TableV": "All estimates and grouped columns preserved; S4 now interpretation/source guide without duplicate estimates",
+    "5_ethics": "Author-confirmed institutional guidance attributed to supervisors; no formal written exemption required",
+    "6_references": "All29 entries,19 DOI strings and citation map preserved; author verification retained; IEEE spacing and labels checked",
+    "attachment_interval_and_usability_rows": "Existing conditional bootstrap and untested participant-usability statements preserved verbatim"
+  },
+  "strict_main_source_three_replacements_only": true,
+  "all9original_main_table_XML_preserved": true,
+  "all29Word_reference_paragraph_XML_preserved": true,
+  "native_bibliography_TeX_preserved": true,
+  "IEEE_class_unchanged": true,
+  "Word_reference_font_pt": 8,
+  "Word_reference_spacing": "240AUTO normal single spacing",
+  "native_reference_typography": "Unmodified IEEEtran footnotesize 8pt/9pt",
+  "supplement_S1_to_S3_and_S5_queries_flow_preserved": true,
+  "original_legal_and_survey_hashes_checked": 6,
+  "threshold_arithmetic": [
+    {
+      "monthly_rate": 1350,
+      "single": 61800,
+      "couple": 123600
+    },
+    {
+      "monthly_rate": 1410,
+      "single": 64680,
+      "couple": 129360
+    }
+  ],
+  "renders": {
+    "native": {
+      "pages": 8,
+      "S5_page": 2,
+      "sha256": "6ce2033e18e281dc2a264090a0c8a0a31c30ccfc8eff7ab036d8f867d169ce55",
+      "all8queries_and16counts_present": true,
+      "all29references_present": true,
+      "no_text_outside_page": true
+    },
+    "word": {
+      "pages": 8,
+      "S5_page": 1,
+      "sha256": "4f56d9480d96ae42b66c3addc2ac5f8bd442ff3fd400d897df3e08e91015b960",
+      "all8queries_and16counts_present": true,
+      "all29references_present": true,
+      "no_text_outside_page": true
+    }
+  },
+  "supplement_pages": 11,
+  "searches_rerun": false,
+  "models_refitted": false,
+  "application_tests_rerun": false,
+  "new_external_bibliographic_verification_claimed": false,
+  "reference_verification": "Author-confirmed; paper/reference_author_confirmation_2026-10-26.json unchanged",
+  "item_level_deduplication_independently_reproduced": false,
+  "protected_paths": [
+    "models",
+    "opg_core",
+    "app",
+    "app.py",
+    "tests",
+    "Dataset",
+    "requirements.txt",
+    "requirements-app.txt",
+    "output",
+    "analysis",
+    "paper/figures",
+    "paper/legal_sources",
+    "paper/recorded_searches.json",
+    "paper/references.json",
+    "paper/citation_map.json",
+    "paper/ieee_template/IEEEtran.cls",
+    "paper/reference_author_confirmation_2026-10-26.json",
+    "paper/reference_verification.json",
+    "paper/reference_verification.csv"
+  ],
+  "protected_paths_unchanged": true,
+  "independent_read_only_review": {
+    "scope": "Independent read-only QA against da52500 for final supervisor corrections",
+    "checks": {
+      "only3authorized_main_prose_replacements": true,
+      "all9original_main_tables_XML_identical": true,
+      "all29reference_paragraphs_XML_identical": true,
+      "reference_8pt_normal240AUTO": true,
+      "all8query_prefixes_grammar_and_counts_exact": true,
+      "all8queries_verbatim": true,
+      "supplement_only_S4_and_S5_explanation_changed": true,
+      "all_scientific_code_results_figures_legal_sources_and_bib_protected": true
+    },
+    "pdfs": {
+      "native": {
+        "pages": 8,
+        "S5_page": 2,
+        "S5_and_note_together": true,
+        "all8queries_exact": true,
+        "all29reference_labels": true,
+        "ethics_wording_present": true,
+        "no_text_outside_page": true,
+        "sha256": "6ce2033e18e281dc2a264090a0c8a0a31c30ccfc8eff7ab036d8f867d169ce55"
+      },
+      "word": {
+        "pages": 8,
+        "S5_page": 1,
+        "S5_and_note_together": true,
+        "all8queries_exact": true,
+        "all29reference_labels": true,
+        "ethics_wording_present": true,
+        "no_text_outside_page": true,
+        "sha256": "4f56d9480d96ae42b66c3addc2ac5f8bd442ff3fd400d897df3e08e91015b960"
+      },
+      "supplement": {
+        "pages": 11,
+        "S4_page": 9,
+        "no_repeated_numeric_rows": true,
+        "no_text_outside_page": true
+      }
+    },
+    "visual_review": {
+      "status": "passed",
+      "all8native_and_all8Word_pages_inspected_on_first_candidate": true,
+      "final_targeted_reinspection": [
+        "nativeS5page2",
+        "WordS5page1",
+        "supplementS4page9"
+      ],
+      "initial_presentation_findings_resolved": [
+        "WordS5note now together with complete table onpage1",
+        "S4guide now uses narrower label/wider interpretation column"
+      ],
+      "no_remaining_clipping_overlap_or_material_layout_issue": true
+    },
+    "renderer_scope_review": {
+      "build_ieee_js": "only singular hit label branch",
+      "build_ieee_pdf_py": "only singular hit label branch",
+      "build_supplement_py": "only Reporting element/Interpretation width override1.86/5.00; allother table branches unchanged"
+    }
+  },
+  "portable_rebuild": {
+    "pages": 8,
+    "text_identical_to_native": true,
+    "no_final_overflow_missing_glyph_or_undefined_warnings": true
+  }
+}

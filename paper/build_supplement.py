@@ -76,7 +76,9 @@ def table(headers, rows):
         7: [.92, .95, .95, 1.03, .95, .95, 1.11],
         8: [.40, .85, .80, .70, .70, .80, .90, 1.71],
     }[n]
-    if headers[0] == "Coding" and n == 8:
+    if headers == ["Reporting element", "Interpretation"]:
+        widths = [1.86, 5.00]
+    elif headers[0] == "Coding" and n == 8:
         widths = [1.80, 1.20, .55, .55, .66, .58, .62, .90]
     elif headers[0] == "Coding" and n == 6:
         widths = [2.16, .85, .90, .95, 1., 1.]

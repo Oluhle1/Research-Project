@@ -38,7 +38,7 @@ RECORD: Table S5. Recorded literature searches (17 August 2026)
 | S6 | Google Scholar | 35 | 11 | "social grant" exclusion "South Africa" -site:pinterest.com |
 | S7 | DataFirst/Stats SA | 1 | 0 | Living Conditions Survey 2014/2015 metadata KwaZulu-Natal |
 
-NOTE: Counts refer to the recorded searches. Repeated retained sources are assigned to their first search; search and scenario IDs differ.
+NOTE: Hits include duplicates; 55 unique retained sources count once, under their earliest search. S7's zero refers to literature, not the LCS dataset.
 
 Table I distinguishes individual receipt [3] from household proportions [4], and this study’s provincial resource screen from both. Other-grant studies separate enquiry, application, receipt and uninterrupted payment [6], [7], [8].
 
@@ -190,7 +190,7 @@ TABLE: Table V. Characteristics by reported OPG receipt, before imputation
 | Office ≥5 km or unavailable | 717 (75.8%) | 72.0% | 34 (50.7%) | 40.3% |
 | Office distance missing | 14 (1.5%) | 1.8% | 4 (6.0%) | 7.2% |
 
-NOTE: Unweighted cells show n (%) and weighted cells person-weighted percentages; age cells show means in completed years. N = 946 and N = 67 are sample sizes. Missing predictors remain in denominators. Values precede imputation; no uncertainty intervals were calculated. Supplementary Table S4 repeats these values.
+NOTE: Unweighted cells show n (%) and weighted cells person-weighted percentages; age cells show means in completed years. N = 946 and N = 67 are sample sizes. Missing predictors remain in denominators. Values precede imputation; no uncertainty intervals were calculated. Supplementary Table S4 explains interpretation and sources.
 
 ### B. Screening sensitivity
 
@@ -297,7 +297,7 @@ Returning to Figure 1, sensitivity results support explicit denominator construc
 
 The resource proxy omits assets, deemed income and deductions. Misreporting, cross-sectional ordering, few events, unresolved screening, missing strata and fixed-prediction resampling limit inference. Household sampling excludes institutionalised adults. Participant usability and external predictive performance remain untested.
 
-The study analysed anonymised LCS 2014/2015 secondary data from Stats SA via DataFirst [29]. The catalogue describes version 1.1 (18 September 2017) as edited, anonymised data for public distribution with public access. The supervisor advised that formal ethical clearance was not required: this study involved no direct human participation or primary data collection. Stats SA produced the data; analyses are the author's own. Data-use and confidentiality conditions apply. Public access does not clear every historical repository file. Demonstrations use synthetic records; downloadable packages exclude survey microdata. Reports omit submitted identifiers and raw income. The app does not decide grants or rank named applicants.
+The study analysed anonymised LCS 2014/2015 secondary data from Stats SA via DataFirst [29]. The catalogue describes version 1.1 (18 September 2017) as edited, anonymised data for public distribution with public access. Institutional guidance from the supervisors confirmed that this study required no formal ethical clearance or written exemption; it involved no direct human participation or primary data collection. Stats SA produced the data; analyses are the author's own. Data-use and confidentiality conditions apply. Public access does not clear every historical repository file. Demonstrations use synthetic records; downloadable packages exclude survey microdata. Reports omit submitted identifiers and raw income. The app does not decide grants or rank named applicants.
 
 ## VIII. Conclusion
 

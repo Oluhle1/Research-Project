@@ -1,5 +1,25 @@
 # Revised Submission 2 manuscript
 
+## Final supervisor checks — 28 October 2026
+
+The current main Word and IEEE PDF remain eight pages. Table S5 now distinguishes
+duplicate search hits from the 55 uniquely counted retained literature sources,
+uses “1 hit” in S7 and explains that S7's zero retained count does not refer to
+the analytical dataset. Supplementary S4 provides interpretation and source notes
+instead of repeating Table V's estimates. Section VII records institutional
+guidance from the supervisors that no formal ethical clearance or written
+exemption was required for this anonymised secondary-data study.
+
+The historical screening provisions, code, exploratory-model designation,
+conditional uncertainty intervals and participant-usability limits were checked
+and preserved. All nine numbered main tables, four figures and 29 references
+remain unchanged. Reference verification remains author-confirmed; current
+formatting checks do not claim new publisher retrievals. Earlier dated records
+below retain their historical scope and are superseded for the current release.
+See [the final point-by-point response](final_supervisor_checks_2026-10-28.md),
+[its evidence record](final_supervisor_checks_2026-10-28.json) and
+[current artifact validation](manuscript_validation.json).
+
 ## S5 included in the final main paper — 26 October 2026
 
 The main Word paper and eight-page IEEE PDF now include **Table S5 itself**:

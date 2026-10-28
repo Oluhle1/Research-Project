@@ -186,19 +186,18 @@ Sources: `output/phase5_refit_repeats/repetition_metrics.csv` supplies Panel A; 
 
 ## Supplementary Table S4. Descriptive statistics in separate columns
 
-These are the manuscript Table V values before model imputation. N is an observed sample size, not a weighted population count. Age entries are means in completed years. Other unweighted entries are counts and within-receipt-group percentages; weighted entries are person-weighted percentages. Both denominators include missing predictors. Missing/unassigned schooling and missing office-access values are shown explicitly. A recorded office-unavailable category differs from missing office access. Selected categories are displayed; omitted comparison categories remain in their receipt-group denominators. No uncertainty intervals were calculated for these summaries.
+Main-paper Table V presents the descriptive estimates in separate weighted and unweighted columns. This guide documents their interpretation and source.
 
-| Characteristic | Recipients, unweighted (N = 946) | Recipients, weighted | Non-recipients, unweighted (N = 67) | Non-recipients, weighted |
-| --- | --- | --- | --- | --- |
-| Age, mean years | 70.4 | 69.8 | 67.3 | 68.4 |
-| Female | 686 (72.5%) | 70.4% | 33 (49.3%) | 53.4% |
-| Grade 7 or above | 290 (30.7%) | 33.0% | 49 (73.1%) | 80.8% |
-| Schooling missing/unassigned | 3 (0.3%) | 0.4% | 0 (0.0%) | 0.0% |
-| Urban formal settlement | 284 (30.0%) | 36.2% | 38 (56.7%) | 66.2% |
-| Welfare office at least 5 km or unavailable | 717 (75.8%) | 72.0% | 34 (50.7%) | 40.3% |
-| Welfare-office access missing | 14 (1.5%) | 1.8% | 4 (6.0%) | 7.2% |
+| Reporting element | Interpretation |
+| --- | --- |
+| Sample and timing | N is an observed receipt-group sample size, not a weighted population count. Summaries precede model imputation. |
+| Unweighted summaries | Age is a mean in completed years. Other entries are counts and within-receipt-group percentages. |
+| Person-weighted summaries | Age is a person-weighted mean; other entries are person-weighted percentages. |
+| Denominators | Both denominators include missing predictors. Selected categories are displayed; omitted comparison categories remain in their receipt-group denominators. |
+| Missing categories | Missing/unassigned schooling and missing office access are shown explicitly. A recorded office-unavailable category differs from missing office access. |
+| Interpretation and uncertainty | Percentages describe receipt-group composition, not non-receipt rates, adjusted effects or predictions. No uncertainty intervals were calculated for these summaries. |
 
-Source: `output/phase4/rq1_characteristics.csv` (also retained in `output/runs/primary/rq1_characteristics.csv`). The source contains three recipients with missing/unassigned schooling, 14 recipients with missing office access and four non-recipients with missing office access. All 67 non-recipients have an assigned schooling category. Percentages describe receipt-group composition, not non-receipt rates, adjusted effects or predictions.
+Source: `output/phase4/rq1_characteristics.csv` (also retained in `output/runs/primary/rq1_characteristics.csv`).
 
 ## Supplementary Table S5. Recorded literature searches and selection flow
 
@@ -219,7 +218,7 @@ The author record states that Web of Science could not be authenticated through 
 | S6 | Google Scholar | 35 | 11 |
 | S7 | DataFirst/Stats SA | 1 | 0 |
 
-The eight recorded hit counts sum to 511 and the retained-source counts sum to 55. The author record assigns a repeated retained source to its earliest search. Original exports, record identifiers, a complete 55-source extraction register and item-level screening decisions were not supplied with this record. The allocation of individual sources to searches and the duplicate-removal decisions therefore cannot be independently reproduced from these totals. Recorded hits are historical author-reported counts, not current database result totals.
+The 511 recorded hits include duplicates across searches. Removing the reported 136 duplicates leaves 375 records for screening. The retained counts total 55 distinct literature sources: the author record assigns each retained source once, to its earliest search. S7's zero retained count refers to literature sources, not the LCS dataset used for analysis. Original exports, record identifiers, a complete 55-source extraction register and item-level screening decisions were not supplied with this record. The allocation of individual sources to searches and the duplicate-removal decisions therefore cannot be independently reproduced from these totals. Recorded hits are historical author-reported counts, not current database result totals.
 
 ### Panel B. Queries reproduced verbatim from the retained record
 

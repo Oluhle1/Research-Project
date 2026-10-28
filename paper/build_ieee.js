@@ -107,7 +107,7 @@ function searchGrid(headers,rows){
           borders:{top:i===0?rule:none,bottom:i===rows.length-1?rule:none,left:none,right:none},
           children:[new Paragraph({keepNext:i<rows.length-1,alignment:AlignmentType.LEFT,
             spacing:{before:0,after:0,line:240,lineRule:LineRuleType.AUTO},
-            children:[run(`${row[0]} — ${row[1]} (${row[2]} hits; ${row[3]} retained): `,{size:16,bold:true}),run(row[4],{size:16})]})]})]}))});
+            children:[run(`${row[0]} — ${row[1]} (${row[2]} ${row[2]==='1'?'hit':'hits'}; ${row[3]} retained): `,{size:16,bold:true}),run(row[4],{size:16})]})]})]}))});
 }
 
 const titleEnd=lines.findIndex(line=>line.startsWith('## '));

@@ -1,0 +1,15 @@
+{
+  "purpose": "Aggregate held-out diagnostics for author review",
+  "controlled_input_outside_repository": true,
+  "controlled_input_sha256": "bd33f0c320523ffefbfa44a2d0f1a1931b67154794d637eeb5f2574cd10d0985",
+  "source_sha256": "53091874735888abc3d905c1d15ee156251ea1912bbcc6158203fec541ac1dc9",
+  "nested_metrics_sha256": "d080528b85eb7ff7c8067d8cd1e35bad7a3222dfe388494dde67d31665463a88",
+  "no_row_level_predictions_exported": true,
+  "files": {
+    "calibration.pdf": "de7012490299cf0cf764ce17b977fc39aff372b95b68573cb2ccb5a821a27435",
+    "calibration.png": "0a959eb42aa9098700b8aa503179f125c238ab4173663e348a511bc7c05ba8a3",
+    "calibration_bins.csv": "362c588378f17876235397b6e26835e3c3e42c1799a18c57e204d000c2068479",
+    "partition_sensitivity.pdf": "c035aed3fe16498c0c764a4e137494c8f2712f2cef4cb4905f789a7dd4d0a3f8",
+    "partition_sensitivity.png": "f727613c53c877ea9b5fbee6c96ad6099a8d949c7fe8e6d13a4d8f665be08995"
+  }
+}

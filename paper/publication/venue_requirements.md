@@ -61,18 +61,19 @@ The submitted Honours paper remains unchanged at commit
 - The supplementary document identifies the author in its header. Any
   supplement allowed for anonymous review needs its own anonymity check.
 
-## Work completed and next decisions
+## Subsequent validation work
 
-The separate AI-assisted prototype keeps original settlement categories and
-tests grouped training-only preprocessing and ridge tuning. Fourteen synthetic
-software checks passed; they do not establish predictive performance. No new
-survey-cohort fit, resampling result, manuscript conclusion or participant study
-has been produced.
+The author directed that the existing methodology and supervisory comments
+guide the validation extension. The extension now has 22 passing software
+safeguards, 40 completed nested-validation repetitions and 1,000 valid
+development-bootstrap draws. The original settlement categories were retained;
+all 49,241 ridge fits converged. Seven calibration-slope diagnostic fits per
+bootstrap evaluation set remained unavailable and are reported explicitly.
 
-The author has since directed that the existing methodology and supervisory
-comments guide the validation extension. The implementation will provide
-auditable technical results for author assessment; it does not replace the
-original exploratory primary model or remove the need for accurate assistance
-disclosure. The updated IST-Africa `.dot` template is still needed for an actual
-layout audit. See the extension's run record for subsequent execution status;
-the preparation checks above describe the earlier snapshot.
+The technical report supplies auditable results for author assessment. It
+does not replace the original exploratory primary model, demonstrate external
+performance or remove the need for accurate assistance disclosure. No new
+participant study has occurred. The updated IST-Africa `.dot` template is still
+needed for an actual layout audit. The extension's run record documents the
+completed analyses; `preparation_status.json` retains the earlier pre-run
+snapshot rather than claiming those analyses were completed at that time.

@@ -1,0 +1,65 @@
+{
+  "candidate": "original_four_settlement_categories_ridge_logistic",
+  "purpose": "retrospective_research_candidate_not_production_model",
+  "C": 0.1,
+  "slopes": [
+    "age_per_10",
+    "sex_female",
+    "school_below",
+    "settle_urban_informal",
+    "settle_traditional",
+    "settle_rural_formal",
+    "welfare_far"
+  ],
+  "coefficients_original_encoded_units": {
+    "intercept": -0.7430335201116085,
+    "age_per_10": -0.32085317029071975,
+    "sex_female": -0.8134834846508607,
+    "school_below": -1.2480113120458138,
+    "settle_urban_informal": 0.1523756179984823,
+    "settle_traditional": -0.46424726479704315,
+    "settle_rural_formal": -0.2842431360318843,
+    "welfare_far": -0.40470586306425044
+  },
+  "preprocessing": {
+    "age_median": 0.8,
+    "category_modes": [
+      "2",
+      "1",
+      "4",
+      "1"
+    ],
+    "means": [
+      1.0190523198420547,
+      0.7097729516288253,
+      0.6653504442250741,
+      0.06219151036525173,
+      0.5893385982230998,
+      0.03060217176702863,
+      0.7591312931885489
+    ],
+    "scales": [
+      0.8189164645675592,
+      0.4538670606740829,
+      0.4718678105090137,
+      0.24150305671717667,
+      0.4919538747357633,
+      0.17223727485701526,
+      0.42761077265479314
+    ]
+  },
+  "apparent_metrics": {
+    "prevalence": 0.06614017769002961,
+    "roc_auc": 0.7844025117541258,
+    "average_precision": 0.2582079671238027,
+    "brier": 0.05610375963515868,
+    "log_loss": 0.20906222394781473,
+    "calibration_in_the_large": 1.7406520487392026e-08,
+    "calibration_slope": 1.1339936447709542,
+    "calibration_slope_valid": true,
+    "calibration_status": "ok",
+    "reference_brier": 0.06176565458516092,
+    "paired_brier_improvement": 0.005661894950002244
+  },
+  "apparent_metrics_are_held_out": false
+}

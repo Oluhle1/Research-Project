@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "source_numeric_tables_checked": {
+    "heldout_metric_values": 16,
+    "bootstrap_estimates_and_MCSE": 16,
+    "C_selection_counts_and_percentages": 16
+  },
+  "coefficient_sign_counts_match": true,
+  "calibration_valid_denominators_993_per_bootstrap_evaluation_set_correct": true,
+  "all40nested_calibration_valid_correct": true,
+  "185bootstrap_and6outer_boundary_counts_correct": true,
+  "22synthetic_test_count_correct": true,
+  "48040inner1201final49241total_fit_counts_correct": true,
+  "new_calibration_figure_bins_independently_verified": [
+    {
+      "people": 205,
+      "events": 3,
+      "mean_predicted": 0.015066584382142952,
+      "mean_observed": 0.014634146341463415
+    },
+    {
+      "people": 200,
+      "events": 5,
+      "mean_predicted": 0.023364871126509642,
+      "mean_observed": 0.025
+    },
+    {
+      "people": 204,
+      "events": 10,
+      "mean_predicted": 0.04031581696890203,
+      "mean_observed": 0.049019607843137254
+    },
+    {
+      "people": 201,
+      "events": 13,
+      "mean_predicted": 0.07717969415139994,
+      "mean_observed": 0.06467661691542288
+    },
+    {
+      "people": 203,
+      "events": 36,
+      "mean_predicted": 0.1721326289160472,
+      "mean_observed": 0.17733990147783252
+    }
+  ],
+  "original_primary_preserved_and_exploratory_status_explicit": true,
+  "no_superiority_causal_external_validation_or_usability_claim": true,
+  "MCSE_and_repeated_refit_distributions_not_presented_as_confidence_intervals": true,
+  "AI_assistance_and_internal_author_review_purpose_explicit": true,
+  "PDF_pages": 6,
+  "all6pages_visually_inspected": true,
+  "readable_tables_and_figures": true,
+  "no_clipping_overlap_or_offpage_text": true,
+  "table_headers_on_samepage_as_data": true,
+  "sha256": {
+    "paper/publication/methodology_results.md": "6fb91ed8006c33f0ddeec157ddfb82fd65b78e2bf0342629c3a90d88de8b3cdd",
+    "paper/publication/Jawe_Publication_Methodology_Revision.docx": "c9ac9bae7da72fb79822a33231845db57b8da97499c259457d41bc0f7d5ba010",
+    "paper/publication/Jawe_Publication_Methodology_Revision.pdf": "828b7237a02b497f490c9475cbac8e4a26dda58727d5b8cf6c186779e28b9a86"
+  },
+  "new_model_fits_by_report_QA": 0
+}

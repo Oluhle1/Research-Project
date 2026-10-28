@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "new_model_fits_by_independent_QA": 0,
+  "checks": {
+    "status": "passed",
+    "pilot": false,
+    "nested_valid": 40,
+    "bootstrap_valid": 1000,
+    "tuning_grid_losses_recomputed": 9608,
+    "source_and_output_hashes_verified": true,
+    "outer_partition_counts_and_training_only_reference_verified": true,
+    "paired_bootstrap_corrections_and_MCSE_verified": true,
+    "controlled_OOF_checks_groupings": [
+      "uqno",
+      "psu"
+    ],
+    "public_CSV_identifier_and_prediction_columns_absent": true,
+    "new_model_fits_by_QA": 0
+  },
+  "original_tracked_Honours_files_changed": [],
+  "exact_fit_counts": {
+    "inner_fits_attempted": 48040,
+    "inner_fits_converged": 48040,
+    "final_fits_attempted": 1201,
+    "final_fits_converged": 1201
+  },
+  "reference_partition_rows": [
+    {
+      "grouping": "psu",
+      "seed": 201415,
+      "valid": true,
+      "people": 1013,
+      "events": 67,
+      "prevalence": 0.0661401776900296,
+      "roc_auc": 0.7530213625319492,
+      "average_precision": 0.1970609458778932,
+      "brier": 0.0575562584342897,
+      "log_loss": 0.2170300411934288,
+      "calibration_in_the_large": 0.0017393633261134,
+      "calibration_slope": 0.9470804516494786,
+      "calibration_slope_valid": true,
+      "calibration_status": "ok",
+      "reference_brier": 0.061786299817449,
+      "reference_log_loss": 0.2437062243176453,
+      "paired_brier_improvement": 0.0042300413831592,
+      "complete_OOF_coverage": true
+    },
+    {
+      "grouping": "uqno",
+      "seed": 201415,
+      "valid": true,
+      "people": 1013,
+      "events": 67,
+      "prevalence": 0.0661401776900296,
+      "roc_auc": 0.7499290019248368,
+      "average_precision": 0.2048614337942056,
+      "brier": 0.0576875034782642,
+      "log_loss": 0.2174107740892046,
+      "calibration_in_the_large": 0.0095720065266096,
+      "calibration_slope": 0.9782999147070344,
+      "calibration_slope_valid": true,
+      "calibration_status": "ok",
+      "reference_brier": 0.0617721098574696,
+      "reference_log_loss": 0.2435904168203449,
+      "paired_brier_improvement": 0.0040846063792053,
+      "complete_OOF_coverage": true
+    }
+  ],
+  "calibration_diagnostics": {
+    "nested_all40_slopes_available": true,
+    "bootstrap_evaluation_sets": {
+      "bootstrap": {
+        "slope_valid": 993,
+        "slope_unavailable": 7,
+        "status_counts": {
+          "ok": 993,
+          "calibration_fit_failed": 7
+        }
+      },
+      "original": {
+        "slope_valid": 993,
+        "slope_unavailable": 7,
+        "status_counts": {
+          "ok": 993,
+          "calibration_fit_failed": 7
+        }
+      },
+      "oob": {
+        "slope_valid": 993,
+        "slope_unavailable": 7,
+        "status_counts": {
+          "ok": 993,
+          "calibration_fit_failed": 7
+        }
+      }
+    },
+    "interpretation": "Each set has993validslopes,7unavailable diagnostic fits. These are not failedridge fits or invalidBrier/AUC correctiondraws; CITL is still computed."
+  },
+  "bootstrap_C_selection": {
+    "0.01": 162,
+    "0.1": 706,
+    "0.3": 84,
+    "1.0": 12,
+    "3.0": 11,
+    "10.0": 2,
+    "100.0": 23
+  },
+  "bootstrap_boundary_frequencies": {
+    "lower_C_0_01": 162,
+    "upper_C_100": 23,
+    "total": 1000
+  },
+  "unique_HH_bootstrap": {
+    "minimum": 491,
+    "median": 523.0,
+    "maximum": 552
+  },
+  "primary_model_status": "Original Honours six-slope model remains exploratory; neworiginal-categoryridge is retrospective internalcandidate, not confirmation of originalselection or productionmodelreplacement",
+  "reporting_cautions": [
+    "Do not claim higherAUC or materiallysuperiorprediction relative to originalordinarymodel fromsmallpointdifferences",
+    "Training-only preprocessing/Cselection is now nested; model-specification history is still posthoc",
+    "Repeatedsplits sharethe sameparticipants and are not independentreplication orconfidence intervals",
+    "Bootstrap correction MCSE measures simulationerror, not samplingSE or95percentperformanceCI",
+    "Optimism-corrected full-development estimates and nestedCV(~80percenttraining) target differenttraining-supportsettings",
+    "No external/generalisation,causalburden,legalentitlement orparticipantusability claim"
+  ]
+}
